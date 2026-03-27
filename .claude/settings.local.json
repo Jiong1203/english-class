@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(update-config)",
+      "Bash(python -c \"import sys,json; [print\\(json.dumps\\(json.loads\\(l\\), indent=2\\)[:500]\\) for l in sys.stdin]\")",
+      "Bash(py --version)",
+      "Bash(where python3:*)",
+      "Bash(where py:*)",
+      "Bash(py -3 -c \"print\\(''hello''\\)\")",
+      "Bash(/c/Python*/python.exe)",
+      "Bash(--version)",
+      "Bash(node:*)",
+      "Bash(echo \"Exit code: $?\")",
+      "Bash(/c/Users/I30131/AppData/Local/Programs/Python/Python314/python.exe --version)",
+      "Read(//c/Users/I30131/AppData/Local/Programs/Python//**)",
+      "Bash(ls -t \"C:/Users/I30131/.claude/projects/D--my-sideProject-english-class/\"*.jsonl)",
+      "Bash(python3 \"D:/my/sideProject/english-class/.claude/save_english_corner.py\")",
+      "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(PYTHON=\"/c/Users/I30131/AppData/Local/Programs/Python/Python314/python.exe\")",
+      "Bash(\"$PYTHON\" \"D:/my/sideProject/english-class/.claude/save_english_corner.py\")"
+    ]
+  }
+}
