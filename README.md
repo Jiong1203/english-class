@@ -25,6 +25,33 @@
          └─► src/index.json            (日期清單更新)
 ```
 
+English Corner 的資料來源是 `~/.claude/CLAUDE.md` 中的 Claude 行為規則，Claude 在每次回應結尾依照這份規則自動產生內容。
+
+---
+
+## 前置作業（必要）
+
+> **此步驟是整個系統的根本。若未完成，Claude 不會產生 English Corner 內容，後續所有設定都無意義。**
+
+建立或編輯 `~/.claude/CLAUDE.md`（Windows 通常位於 `C:\Users\<帳號>\.claude\CLAUDE.md`），加入以下規則，讓 Claude 在**每次回應結尾**自動產生 English Corner 區塊：
+
+```markdown
+## 1. English Learning Support (Active Mode)
+- **Always On:** English teacher mode is always active by default. Never skip it unless explicitly instructed.
+- **Placement:** Always place this section at the very end of every response under the heading `**English Corner:**`.
+- **Language Policy (Strict):** All feedback, grammar explanations, and instructions must be written in Traditional Chinese (zh-tw). Only the English examples and corrected sentences should be in English.
+- **Error Correction & Format:**
+    - Monitor my grammar, word choice, and naturalness.
+    - Visual Comparison: Use a bulleted list or table to show "Your original sentence" vs. "Suggested correction".
+    - Focus: Use bold text to highlight the specific parts that were changed or need attention.
+- **Positive Reinforcement:** If my English is natural and correct, provide a brief encouragement in Traditional Chinese.
+- **Auto-Translation:**
+    - When I communicate in Traditional Chinese, provide a natural English equivalent.
+    - Explain any subtle nuances or context for the translated phrases in Traditional Chinese.
+```
+
+設定完成後，每次與 Claude 對話，回應末尾都會出現 `**English Corner:**` 區塊，這就是本系統的資料來源。
+
 ---
 
 ## 換新電腦快速設定
@@ -42,9 +69,30 @@
 C:\Users\<你的帳號>\AppData\Local\Programs\Python\Python3xx\python.exe
 ```
 
-### 2. 設定全域 Stop hook
+### 2. 設定全域 CLAUDE.md
 
-編輯 `~/.claude/settings.json`（Windows 通常是 `C:\Users\<帳號>\.claude\settings.json`），加入以下 hook：
+建立或編輯 `~/.claude/CLAUDE.md`（Windows 通常是 `C:\Users\<帳號>\.claude\CLAUDE.md`），加入以下英文學習規則。這是 English Corner 的**資料來源**，Claude 在每次回應結尾會依此規則產生內容：
+
+```markdown
+# Role & Behavior Rules
+
+## 1. English Learning Support (Active Mode)
+- **Always On:** English teacher mode is always active by default. Never skip it unless explicitly instructed.
+- **Placement:** Always place this section at the very end of every response under the heading `**English Corner:**`.
+- **Language Policy (Strict):** All feedback, grammar explanations, and instructions must be written in Traditional Chinese (zh-tw). Only the English examples and corrected sentences should be in English.
+- **Error Correction & Format:**
+	- Monitor my grammar, word choice, and naturalness.
+	- Visual Comparison: Use a bulleted list or table to show "Your original sentence" vs. "Suggested correction".
+	- Focus: Use bold text to highlight the specific parts that were changed or need attention.
+- **Positive Reinforcement:** If my English is natural and correct, provide a brief encouragement in Traditional Chinese.
+- **Auto-Translation:**
+	- When I communicate in Traditional Chinese, provide a natural English equivalent.
+	- Explain any subtle nuances or context for the translated phrases in Traditional Chinese.
+```
+
+### 3. 設定全域 Stop hook
+
+編輯 `~/.claude/settings.json`，加入以下 hook，讓每次對話結束時自動擷取 English Corner：
 
 ```json
 {
@@ -68,7 +116,7 @@ C:\Users\<你的帳號>\AppData\Local\Programs\Python\Python3xx\python.exe
 
 > 注意：將 `<帳號>` 與 `Python3xx` 替換為你的實際路徑。
 
-### 3. 確認腳本路徑
+### 4. 確認腳本路徑
 
 腳本位於本專案的 `.claude/save_english_corner.py`，確保 clone 後路徑正確，或修改腳本頂端的 `OUTPUT_DIR`：
 
@@ -76,7 +124,7 @@ C:\Users\<你的帳號>\AppData\Local\Programs\Python\Python3xx\python.exe
 OUTPUT_DIR = Path("D:/my/sideProject/english-class/src")
 ```
 
-### 4. 驗證設定
+### 5. 驗證設定
 
 克隆此 repo 並進入任一有 Claude Code 的專案進行對話，對話結束後確認：
 
@@ -106,14 +154,14 @@ D:\my\sideProject\english-class\src\
 由於瀏覽器安全限制，直接開啟 `index.html` 無法讀取 `src/` 下的檔案，需透過本機伺服器：
 
 ```bash
-# Python
-python -m http.server 8080
+# Python（若 8080 被佔用，改用 3000 或 5500）
+python -m http.server 3000
 
 # Node.js
 npx serve .
 ```
 
-開啟 `http://localhost:8080` 即可預覽。
+開啟 `http://localhost:3000` 即可預覽。
 
 ---
 
