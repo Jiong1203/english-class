@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 
-OUTPUT_DIR = Path("D:/my/sideProject/english-class/src")
+OUTPUT_DIR = Path(__file__).resolve().parent.parent / "src"
 
 
 def find_transcript(session_id: str) -> Path | None:
