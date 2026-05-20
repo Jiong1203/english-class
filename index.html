@@ -725,7 +725,13 @@
     .flashcard-actions {
       display: flex;
       gap: 12px;
-      margin-top: 24px;
+      position: sticky;
+      bottom: 0;
+      background: var(--surface);
+      padding: 16px 40px 24px;
+      margin: 24px -40px -36px;
+      border-top: 1px solid var(--border-subtle);
+      border-radius: 0 0 var(--radius-lg) var(--radius-lg);
     }
     .action-btn {
       flex: 1;
