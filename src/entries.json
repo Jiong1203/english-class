@@ -49,6 +49,15 @@
       ]
     },
     {
+      "id": "e75da6bb560c",
+      "date": "20260520",
+      "front": "你的回覆 `Fix #1 #2` 用得很自然 — 簡短、直接、無語病。這正是工程協作中最有效率的指令式風格。",
+      "body": "你的回覆 `Fix #1 #2` 用得很自然 — 簡短、直接、無語病。這正是工程協作中最有效率的指令式風格。\n\n### 為什麼這個用法好\n\n| 元素 | 作用 |\n|------|------|\n| `Fix` | 動詞原型（imperative mood）— 命令式英文的標準寫法 |\n| `#1 #2` | 用 hashtag 引用清單編號 — GitHub/GitLab issue tracker 通用慣例 |\n| 無多餘字 | 不寫 `Please can you fix #1 and #2 for me?` — 給工具/AI 的指令越精簡越好 |\n\n### 進階變化\n\n| 想表達 | 英文寫法 |\n|--------|----------|\n| 修兩個 | `Fix #1 #2` / `Fix #1 and #2` |\n| 修一個範圍 | `Fix #1-#3` / `Fix #1 through #3` |\n| 修除了某個以外 | `Fix all except #2` / `Fix all but #2` |\n| 只看不修 | `Show me #1` / `Explain #1` |\n| 先驗證再修 | `Verify #1 first, then fix` |\n\n### 對比正式 vs 命令式\n\n| 情境 | 寫法 |\n|------|------|\n| 給工具/AI 的指令 | `Fix #1 #2` ✅ |\n| 跟人講話請求協助 | `Could you help fix items #1 and #2?` ✅ |\n| 寫進工單描述 | `Items #1 and #2 need to be addressed.` ✅ |\n\n你已經自然掌握命令式風格了。接下來練習目標：**在指令後加上「為什麼」**，例如：\n\n- `Fix #1 #2 — #1 is blocking the test.`（補充原因）\n- `Fix #1 first, it's the root cause.`（補充優先級）\n\n這樣可以讓我更精準回應你的需求，同時讓你的英文表達更有深度。\n\n---",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "e52d6ce2687b",
       "date": "20260520",
       "front": "你寫的這句：「Can you use gitlab cli?」",
@@ -196,6 +205,16 @@
       ]
     },
     {
+      "id": "b6f010b52fdb",
+      "date": "20260520",
+      "front": "你的這次回覆做得非常好，三大優點同時出現：",
+      "body": "你的這次回覆做得非常好，三大優點同時出現：\n\n### 你做對的地方\n\n1. **附圖** — `Please check image` 是最有效率的溝通方式\n2. **具體點出兩個問題** — `How do you identify sum and count?` 和 `The total row doesn't has background color`\n3. **拒絕含糊** — 沒說「不對」，而是明確說「沒底色」和「分不出 sum/count」\n\n### 文法分析（Visual Comparison）\n\n| ❌ 原文 | ✅ 正確說法 | 原因 |\n|--------|------------|------|\n| The total row doesn't **has** background color | The total row doesn't **have** a background color | 助動詞 `doesn't` 後面要接動詞**原形** `have`，不是 `has` |\n| ...doesn't has background color | ...doesn't have **a** background color | 可數名詞 (background color 在這指「一個顏色」) 前要加 `a` |\n\n### 「doesn't / don't」的口訣\n\n> **助動詞已經有時態了，主動詞就回原形。**\n\n| 主詞 | 助動詞 | 主動詞（原形） |\n|------|--------|----------------|\n| He / She / It | doesn't | go / have / want |\n| I / You / We / They | don't | go / have / want |\n\n```\n❌ He doesn't has a car.\n✅ He doesn't have a car.\n\n❌ The button doesn't shows up.\n✅ The button doesn't show up.\n```\n\n### Bug 回報的進階句型\n\n| 你想表達 | 英文 |\n|----------|------|\n| 完全沒套用 | The styles aren't applied at all. |\n| 部分套用 | Only some columns have the label, not all. |\n| 看起來像沒做事 | It looks like nothing happened. |\n| 預期效果消失 | The expected effect is missing. |\n| 視覺上看不出差異 | I can't tell the difference visually. |\n\n下次你可以說：\n> `The total row doesn't have a background color, and I can't tell sum from count.`\n\n這樣一句話就涵蓋你這次問的兩個問題，超精準。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "b41fc36afca6",
       "date": "20260520",
       "front": "你寫的這句：「Can you show as a table and use red/yellow/green light?」",
@@ -240,6 +259,16 @@
       "date": "20260520",
       "front": "你說的「I test is all failed」雖能理解，但有兩個小地方可以更自然。",
       "body": "你說的「I test is all failed」雖能理解，但有兩個小地方可以更自然。\n\n### 文法分析（Visual Comparison）\n\n| ❌ 原文 | ✅ 自然說法 | 原因 |\n|--------|------------|------|\n| I test is all failed | My tests all failed | 主詞應為 `tests`（複數名詞），不是 `I test`（動詞 + 動詞） |\n| I test is all failed | I tested it and everything failed | 若想保留「我測試」的語感，用 `I tested` 過去式比較對 |\n| I test is all failed | The tests all failed when I tried it | 強調「測試結果」而非「我做了什麼」 |\n\n### 重點觀念\n\n英文裡 `test` 可以是：\n- **動詞**：`I test the code daily.`（我每天測試程式碼）\n- **名詞**：`The test passed.`（測試通過）\n\n你的句子裡同時用了 `I` + `test` + `is` 三個成分，造成混亂。建議：\n- 主動句：`I tested X and it failed.`\n- 被動句：`The tests all failed.` / `Nothing worked.`\n\n### 簡短報告 bug 的常用句型\n\n| 中文 | 英文 |\n|------|------|\n| 全部測試都失敗 | All my tests failed. / Nothing worked. |\n| 完全沒作用 | It didn't work at all. |\n| 整個功能壞掉 | The whole feature is broken. |\n| 找不到任何反應 | I don't see any response. |\n| 顯示沒有顯示出來 | The total row doesn't show up. |\n\n下次回報問題時可以說：`The total row doesn't show up at all — looks like nothing changed.` 會更具體，方便我快速 debug。\n\n---",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "a61cde7ce1d4",
+      "date": "20260520",
+      "front": "\"So now that Phase 1 is done, **what's the diff** from where we started?\"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| 所以剛剛Phase 1做完了與原先的差異在哪裡? | (中文,文法 OK) | — |\n\n幫你翻成自然的工程英文,兩種情境:\n\n**對隊友/PM 回報差異:**\n> \"So now that Phase 1 is done, **what's the diff** from where we started?\"\n\n**正式一點(寫在 PR 描述/週報):**\n> \"Now that Phase 1 has shipped, **what's changed compared to before**?\"\n\n語感拆解:\n- **what's the diff** — 「差異是什麼」,直接借用 `git diff` 的口語化用法,工程師圈內超道地。比 `what's the difference` 更俐落、更有「我們在看程式碼變更」的脈絡感。\n- **now that** — 「既然…」/「在…之後」,連接「已完成的事」與「接下來的問題」,比 `after Phase 1 is done` 流暢。\n- **compared to before** — 「跟之前比」,書面語常用;口語可以更短:`vs. before` 或 `from before`。\n\n進階句型(同事間最常聽到):\n> \"What does Phase 1 **actually change** for the user?\"\n\n這句把焦點從「程式碼差異」轉到「**使用者體驗差異**」,在 product review 或 demo 場合非常 senior 的問法 — 你正在問的就是這個層次的問題,英文裡 `actually` 一字就把問題的「實質性」凸顯出來。",
       "tags": [
         "grammar",
         "comparison"
@@ -395,6 +424,16 @@
       "front": "\"What are some opportunities for improvement here?\"",
       "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| 有甚麼優化建議? | (中文,無需修正) | — |\n\n這次是中文提問,沒有英文句子可分析。順手給你一句很常用的職場英文,跟今天的情境直接對應:\n\n> \"What are some opportunities for improvement here?\"\n\n語感拆解:\n- **opportunities for improvement** — 比 `problems` 或 `things to fix` 委婉、正向得多,在 code review、retro、跟同事討論時都很適用。\n- **here** 比 **in this project** 更口語自然,情境清楚時不需要把受詞講滿。\n\n如果是更直接的場合,也可以說 `What would you optimize first?` — 把焦點放在「優先順序」,跟我上面回你的答案結構一致。\n\n---",
       "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "66ec2117f012",
+      "date": "20260520",
+      "front": "\"What's the next step?\"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| What is next step? | What's the next step? | 漏了定冠詞 **the**;`step` 是可數名詞單數,前面必須有限定詞 |\n\n更道地的問法(同義但語感不同):\n\n| 情境 | 自然說法 |\n|---|---|\n| 中性、最常用 | **\"What's the next step?\"** |\n| 已完成一個 milestone,問接下來 | **\"What's up next?\"** / **\"What comes next?\"** |\n| 工程協作、引導對方決定 | **\"Where do you want to go from here?\"** |\n| 想要對方主導 | **\"What's the plan from here?\"** |\n\n語感拆解:\n- **the next step** — 「下一個步驟」,`the` 是因為雙方都明白「在當前任務情境下」的下一步;沒有 `the` 文法錯誤。\n- **What's up next?** — 比 `What is next?` 更口語、有節奏感,`up next` 借自節目主持人用語(「下一個節目是…」),日常會議銜接話題超好用。\n- **from here** — 「從這裡開始」,在 collaborative 討論中很常聽到。`Where do we go from here?` 是經典問法,暗示「我們一起決定方向」而不是單方面決策。\n\n下次跟我或同事在做完一段工作後,試試:\n> \"Phase 1 is done. **What's up next** — wire the hook or fix the UX issue first?\"\n\n這句把 (1) 進度報告 + (2) 提出選項 + (3) 邀請決策 三個動作壓進一句,非常 senior 工程師的講話風格。\n\n---",
+      "tags": [
+        "grammar",
         "comparison"
       ]
     },
