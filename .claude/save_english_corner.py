@@ -77,6 +77,24 @@ def save_corners(corners: list[str], session_id: str) -> None:
         f.write("\n")
 
     update_index()
+    rebuild_entries()
+
+
+def rebuild_entries() -> None:
+    """Regenerate src/entries.json so the flashcard UI sees new cards.
+
+    Imported lazily and stdout-silenced so a parser bug or stray print
+    never blocks/contaminates the Stop hook.
+    """
+    import contextlib
+    import io
+    try:
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        import build_entries  # noqa: WPS433 (intentional lazy import)
+        with contextlib.redirect_stdout(io.StringIO()):
+            build_entries.main()
+    except Exception:
+        pass
 
 
 def update_index() -> None:

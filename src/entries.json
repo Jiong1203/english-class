@@ -120,6 +120,15 @@
       ]
     },
     {
+      "id": "d463c0047743",
+      "date": "20260520",
+      "front": "你的回覆 `Fix #1 #2` 用得很自然 — 簡短、直接、無語病。這正是工程協作中最有效率的指令式風格。",
+      "body": "你的回覆 `Fix #1 #2` 用得很自然 — 簡短、直接、無語病。這正是工程協作中最有效率的指令式風格。\n\n### 為什麼這個用法好\n\n| 元素 | 作用 |\n|------|------|\n| `Fix` | 動詞原型（imperative mood）— 命令式英文的標準寫法 |\n| `#1 #2` | 用 hashtag 引用清單編號 — GitHub/GitLab issue tracker 通用慣例 |\n| 無多餘字 | 不寫 `Please can you fix #1 and #2 for me?` — 給工具/AI 的指令越精簡越好 |\n\n### 進階變化\n\n| 想表達 | 英文寫法 |\n|--------|----------|\n| 修兩個 | `Fix #1 #2` / `Fix #1 and #2` |\n| 修一個範圍 | `Fix #1-#3` / `Fix #1 through #3` |\n| 修除了某個以外 | `Fix all except #2` / `Fix all but #2` |\n| 只看不修 | `Show me #1` / `Explain #1` |\n| 先驗證再修 | `Verify #1 first, then fix` |\n\n### 對比正式 vs 命令式\n\n| 情境 | 寫法 |\n|------|------|\n| 給工具/AI 的指令 | `Fix #1 #2` ✅ |\n| 跟人講話請求協助 | `Could you help fix items #1 and #2?` ✅ |\n| 寫進工單描述 | `Items #1 and #2 need to be addressed.` ✅ |\n\n你已經自然掌握命令式風格了。接下來練習目標：**在指令後加上「為什麼」**，例如：\n\n- `Fix #1 #2 — #1 is blocking the test.`（補充原因）\n- `Fix #1 first, it's the root cause.`（補充優先級）\n\n這樣可以讓我更精準回應你的需求，同時讓你的英文表達更有深度。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "cf671006ce3c",
       "date": "20260520",
       "front": "你寫的這句：「Fix #8 and #10」",
@@ -227,12 +236,32 @@
       ]
     },
     {
+      "id": "ab70fc684e37",
+      "date": "20260520",
+      "front": "你說的「I test is all failed」雖能理解，但有兩個小地方可以更自然。",
+      "body": "你說的「I test is all failed」雖能理解，但有兩個小地方可以更自然。\n\n### 文法分析（Visual Comparison）\n\n| ❌ 原文 | ✅ 自然說法 | 原因 |\n|--------|------------|------|\n| I test is all failed | My tests all failed | 主詞應為 `tests`（複數名詞），不是 `I test`（動詞 + 動詞） |\n| I test is all failed | I tested it and everything failed | 若想保留「我測試」的語感，用 `I tested` 過去式比較對 |\n| I test is all failed | The tests all failed when I tried it | 強調「測試結果」而非「我做了什麼」 |\n\n### 重點觀念\n\n英文裡 `test` 可以是：\n- **動詞**：`I test the code daily.`（我每天測試程式碼）\n- **名詞**：`The test passed.`（測試通過）\n\n你的句子裡同時用了 `I` + `test` + `is` 三個成分，造成混亂。建議：\n- 主動句：`I tested X and it failed.`\n- 被動句：`The tests all failed.` / `Nothing worked.`\n\n### 簡短報告 bug 的常用句型\n\n| 中文 | 英文 |\n|------|------|\n| 全部測試都失敗 | All my tests failed. / Nothing worked. |\n| 完全沒作用 | It didn't work at all. |\n| 整個功能壞掉 | The whole feature is broken. |\n| 找不到任何反應 | I don't see any response. |\n| 顯示沒有顯示出來 | The total row doesn't show up. |\n\n下次回報問題時可以說：`The total row doesn't show up at all — looks like nothing changed.` 會更具體，方便我快速 debug。\n\n---",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "a1124fd328c3",
       "date": "20260520",
       "front": "\"Should we also fix `cseCInfo/index.vue` for the vendorNo field?\"",
       "body": "你這次的中文很道地：「...也可以修嗎?」是個典型的「探詢式請求」(exploratory request) 句式——你不直接命令我修，而是先問可不可以、適不適合。這種句式在中文工程協作中很常見，對應的英文表達是：\n- \"Should we also fix `cseCInfo/index.vue` for the vendorNo field?\"\n- \"Does the same case-insensitive issue apply to `cseCInfo/index.vue`?\"\n\n`Should we ...` 比 `Can you ...` 更專業，它把問題從「你做不做得到」升級成「這件事該不該做」，讓對方思考「適切性」而不是「能力」。技術 review 場合特別好用，例如：「Should we add an index here?」（我們該不該加索引？）— 這是工程師在引導討論而不是給命令。\n\n下次想表達「順帶確認這個地方需不需要一起修」，可以說：「**Should we apply the same fix to** `cseCInfo/index.vue`?」其中 `apply ... fix to ...` 是「把某個修補套到某處」的標準英文用法，比 `do the same thing` 精準很多。\n\n---",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "9c0d8e632f42",
+      "date": "20260520",
+      "front": "\"OK, let's **build out** Phase 1.\"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| Ok, develop Phase 1. | (短指令,文法正確) | — |\n\n`Ok, develop Phase 1.` 是合語法的命令句,沒問題。但在工程協作情境,有兩個更地道的選擇:\n\n**口語/輕鬆:**\n> \"OK, let's **build out** Phase 1.\"\n\n**正式/書面:**\n> \"Sounds good — please **proceed with** Phase 1.\"\n\n語感拆解:\n- **build out** — 「擴展成形」,比 `develop` 更具體。`develop` 在英文中比較廣(可指研發、培養、沖洗底片),工程脈絡常用 **build / build out / ship** 更直接。\n- **let's** vs **please** — `let's` 把你和我變成 collaborators,溫度比下命令高;`please proceed with` 是正式書面語(常見於 PM 或 PR review)。\n- **OK 的大小寫** — 英文書寫慣例是 `OK`(兩個字母大寫,源自 \"oll korrect\"),`Ok` 雖然很常見但比較不正式。`Okay` 也是可接受的拼法。\n\n加分句型,跟今天的情境直接呼應:\n> \"Sounds good — **let's kick off** Phase 1.\"\n\n`kick off` = 開球/啟動,商業英文超高頻動詞片語,專門用在「啟動一個新階段/專案/會議」。例:`kick off the sprint`, `kick off the meeting`, `kick off Phase 2`。下次想說「我們開始吧」,這個比 `start` 更有節奏感、更有畫面。",
+      "tags": [
+        "grammar",
+        "comparison"
       ]
     },
     {
@@ -251,6 +280,16 @@
       "front": "\"Do you think we'll eventually need to **wire up a database or build a backend** for this?\"",
       "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| 你認為未來有需要到串接資料庫或者後端開發嗎? | (中文,無需修正) | — |\n\n幫你把這句翻成自然英文,並提供工程語境的兩種說法:\n\n**日常 / 對同事:**\n> \"Do you think we'll eventually need to **wire up a database or build a backend** for this?\"\n\n**技術討論 / 正式一點:**\n> \"In the long run, do you see us needing to **introduce a backend or persistence layer**?\"\n\n語感拆解:\n- **wire up** — 「串接/接線」,工程師日常超常用。例:`wire up the API`, `wire up the auth flow`。比 `connect to` 更口語、更有「實際接通」的畫面感。\n- **persistence layer** — 「持久層」,比直接說 `database` 更抽象、更專業,因為它涵蓋 DB、檔案系統、KV store 等所有「資料會留下來的地方」。在架構討論中用這個詞會讓人覺得你有在思考「為什麼需要」而不是「要不要用 MySQL」。\n- **introduce** — 「引入(某個新組件)」,在技術討論中比 `add` 更精準,隱含「會帶來複雜度,需要評估」的意味。例:`introduce a cache layer`, `introduce a message queue`。\n\n加分句型,你跟我這次對話的場景超適合:\n> \"Is it worth **bringing in** a backend at this stage, or is it premature?\"\n\n`bring in X` = 引入某技術/工具;`premature` = 過早(對應「過度設計」的英文常用詞 `premature optimization`,源自 Donald Knuth 的名言)。",
       "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "98e0cd6c02b9",
+      "date": "20260520",
+      "front": "你說的「I test is all failed」雖能理解，但有兩個小地方可以更自然。",
+      "body": "你說的「I test is all failed」雖能理解，但有兩個小地方可以更自然。\n\n### 文法分析（Visual Comparison）\n\n| ❌ 原文 | ✅ 自然說法 | 原因 |\n|--------|------------|------|\n| I test is all failed | My tests all failed | 主詞應為 `tests`（複數名詞），不是 `I test`（動詞 + 動詞） |\n| I test is all failed | I tested it and everything failed | 若想保留「我測試」的語感，用 `I tested` 過去式比較對 |\n| I test is all failed | The tests all failed when I tried it | 強調「測試結果」而非「我做了什麼」 |\n\n### 重點觀念\n\n英文裡 `test` 可以是：\n- **動詞**：`I test the code daily.`（我每天測試程式碼）\n- **名詞**：`The test passed.`（測試通過）\n\n你的句子裡同時用了 `I` + `test` + `is` 三個成分，造成混亂。建議：\n- 主動句：`I tested X and it failed.`\n- 被動句：`The tests all failed.` / `Nothing worked.`\n\n### 簡短報告 bug 的常用句型\n\n| 中文 | 英文 |\n|------|------|\n| 全部測試都失敗 | All my tests failed. / Nothing worked. |\n| 完全沒作用 | It didn't work at all. |\n| 整個功能壞掉 | The whole feature is broken. |\n| 找不到任何反應 | I don't see any response. |\n| 顯示沒有顯示出來 | The total row doesn't show up. |\n\n下次回報問題時可以說：`The total row doesn't show up at all — looks like nothing changed.` 會更具體，方便我快速 debug。",
+      "tags": [
+        "grammar",
         "comparison"
       ]
     },
@@ -324,10 +363,28 @@
       ]
     },
     {
+      "id": "723013c2a3a8",
+      "date": "20260520",
+      "front": "\"Do you think we'll eventually need to **wire up a database or build a backend** for this?\"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| 你認為未來有需要到串接資料庫或者後端開發嗎? | (中文,無需修正) | — |\n\n幫你把這句翻成自然英文,並提供工程語境的兩種說法:\n\n**日常 / 對同事:**\n> \"Do you think we'll eventually need to **wire up a database or build a backend** for this?\"\n\n**技術討論 / 正式一點:**\n> \"In the long run, do you see us needing to **introduce a backend or persistence layer**?\"\n\n語感拆解:\n- **wire up** — 「串接/接線」,工程師日常超常用。例:`wire up the API`, `wire up the auth flow`。比 `connect to` 更口語、更有「實際接通」的畫面感。\n- **persistence layer** — 「持久層」,比直接說 `database` 更抽象、更專業,因為它涵蓋 DB、檔案系統、KV store 等所有「資料會留下來的地方」。在架構討論中用這個詞會讓人覺得你有在思考「為什麼需要」而不是「要不要用 MySQL」。\n- **introduce** — 「引入(某個新組件)」,在技術討論中比 `add` 更精準,隱含「會帶來複雜度,需要評估」的意味。例:`introduce a cache layer`, `introduce a message queue`。\n\n加分句型,你跟我這次對話的場景超適合:\n> \"Is it worth **bringing in** a backend at this stage, or is it premature?\"\n\n`bring in X` = 引入某技術/工具;`premature` = 過早(對應「過度設計」的英文常用詞 `premature optimization`,源自 Donald Knuth 的名言)。\n\n---",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "7057d903e8e2",
       "date": "20260520",
       "front": "\"Let me rephrase — if I want to turn this into a **simple self-study English website**, do you have any suggestions?\"",
       "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| 應該這麼說,如果我想整理成簡單的英文自我學習網站,有沒有甚麼建議? | (中文,無需修正) | — |\n\n幫你把這句話翻成自然的英文,並拆解語感:\n\n> \"Let me rephrase — if I want to turn this into a **simple self-study English website**, do you have any suggestions?\"\n\n語感重點:\n- **Let me rephrase** — 「我換個方式說」,比 `What I actually mean is...` 更輕快、不會聽起來像在糾正自己。職場、會議中超常用。\n- **turn this into** — 「把這個改造成…」,比 `make this become` 自然太多,**turn X into Y** 是固定搭配,務必記下來。\n- **self-study** vs **self-learning** — 兩者都可,但 `self-study website / self-study material` 在英語教學圈是更標準的用法;`self-learning` 通常用在 AI/ML 語境(self-learning algorithm)。學語言情境選 `self-study` 更地道。\n\n進階一點的說法:\n> \"Actually, let me clarify my goal — I'd like to **build this out into** a lightweight English self-study site. Any recommendations?\"\n\n`build X out into Y` 是「把 X 擴展/發展成 Y」,在描述「現有東西的下一步演進」時超精準,工程語境也很常聽到(如 `we'll build this prototype out into a full product`)。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6dd269936951",
+      "date": "20260520",
+      "front": "你的訊息是中文，沒有英文句子可供分析。今天稍微換個角度，給你延伸學習。",
+      "body": "你的訊息是中文，沒有英文句子可供分析。今天稍微換個角度，給你延伸學習。\n\n你最近的英文表達能力進步明顯，特別是命令式（`Fix #7`、`Commit and push`）的精簡風格已經很到位。建議下一階段練習方向：\n\n### 描述「動態行為」的英文表達\n\n當你要描述「動態地、彈性地」這類概念（像今天的「動態一點靈活一點」），可以用：\n\n| 中文 | 英文片語 | 例句 |\n|------|----------|------|\n| 動態地 | dynamically | `The total row should be displayed dynamically.` |\n| 條件性地 | conditionally | `Show the row conditionally based on value columns.` |\n| 自適應地 | adaptively / responsively | `The grid should adapt to the user's selection.` |\n| 即時反映 | reactively | `The display reactively updates when columns change.` |\n\n### 描述「狀態切換」\n\n| 中文 | 英文 |\n|------|------|\n| 顯示 X / 隱藏 X | show / hide X |\n| 切換 X | toggle X |\n| 反映 X | reflect X |\n| 與 X 同步 | sync with X |\n\n範例改寫你的需求：\n- 中文：「如果沒有任何欄位在『值』的計算內，就不顯示 total row，相反的，如果有任一欄位的話就顯示」\n- 英文：`The total row should be shown only when at least one column is in the Values panel; hide it otherwise.`\n\n### 描述「視覺設計」\n\n| 中文 | 英文 |\n|------|------|\n| 底色 / 背景色 | background color |\n| 文字色 | text color / font color |\n| 粗體 | bold / font weight |\n| 強調 | highlight / emphasize |\n| 區分 | distinguish / differentiate |\n\n範例：\n- 中文：「請使用淺黃色作為底色」\n- 英文：`Use light yellow as the background color.` / `Highlight the row with a light yellow background.`\n\n下次描述 UI 細節時可以試著用英文寫，會更精準有效率。\n\n---",
       "tags": [
         "comparison"
       ]
@@ -359,6 +416,16 @@
       "body": "你寫的這句：「Can you show as a table and use red/yellow/green light?」\n\n| 比較 | 原句 | 建議 |\n|------|------|------|\n| 原句 | Can you show **as a table** and use red/yellow/green **light**? | Could you show **it as a table** and use red/yellow/green **lights** (traffic light style)? |\n\n意思非常清楚，幾個可以更道地的地方：\n\n1. **缺少受詞 `it`**：`show as a table` 動詞 `show` 後面需要受詞（要顯示什麼）。完整應該是 `show it as a table` 或 `display the review as a table`。原句省略 `it` 在口語中還能理解，但書面英文會顯得不完整。\n2. **`light` 單複數**：紅黃綠三個是複數燈號，所以用 `lights` 才正確。或用集合名詞 `traffic light indicators`（號誌燈指示）會更精確。\n3. **`Could you` 更禮貌**：`Can you` 是「你能不能」（強調能力），`Could you` 是「能否請你」（強調禮貌請求）。技術討論中兩者都可，但 `Could you` 更專業。\n\n替代說法（更道地）：\n- `Could you reformat that as a table with traffic-light indicators (red/yellow/green)?`（最精準，`traffic-light` 是大家熟悉的比喻）\n- `Can you present it in a table format with R/Y/G severity?`（用工程縮寫 R/Y/G 簡潔）\n- `Please show this as a table with traffic-light status icons.`（命令式、清楚）\n\n詞彙小知識：\n- **traffic light** 在英文工程/管理脈絡中很常用，特別在專案狀態（RAG status — Red/Amber/Green）或風險評估中。例如 dashboard 上的指標常標 `RAG: Green`、`RAG: Amber`。\n- **`amber`** 在英式英文中是黃燈的正式用法（因為英國紅綠燈的黃色叫 amber 而不是 yellow）。美式英文則多用 yellow。在跨國團隊溝通中你可能會看到 RAG 報告，記得 amber = yellow。\n\n下次想表達「請用某種視覺方式呈現資料」，可以用：\n- `Display X as <format>` — 例如 `Display the results as a chart.`\n- `Present X in <format> form` — 例如 `Present the data in tabular form.`（tabular = 表格的，形容詞）\n- `Format X with <visual element>` — 例如 `Format the rows with severity colors.`",
       "tags": [
         "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "5b6f39b7db08",
+      "date": "20260520",
+      "front": "\"What's the next step?\"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| What is next step? | What's the next step? | 漏了定冠詞 **the**;`step` 是可數名詞單數,前面必須有限定詞 |\n\n更道地的問法(同義但語感不同):\n\n| 情境 | 自然說法 |\n|---|---|\n| 中性、最常用 | **\"What's the next step?\"** |\n| 已完成一個 milestone,問接下來 | **\"What's up next?\"** / **\"What comes next?\"** |\n| 工程協作、引導對方決定 | **\"Where do you want to go from here?\"** |\n| 想要對方主導 | **\"What's the plan from here?\"** |\n\n語感拆解:\n- **the next step** — 「下一個步驟」,`the` 是因為雙方都明白「在當前任務情境下」的下一步;沒有 `the` 文法錯誤。\n- **What's up next?** — 比 `What is next?` 更口語、有節奏感,`up next` 借自節目主持人用語(「下一個節目是…」),日常會議銜接話題超好用。\n- **from here** — 「從這裡開始」,在 collaborative 討論中很常聽到。`Where do we go from here?` 是經典問法,暗示「我們一起決定方向」而不是單方面決策。\n\n下次跟我或同事在做完一段工作後,試試:\n> \"Phase 1 is done. **What's up next** — wire the hook or fix the UX issue first?\"\n\n這句把 (1) 進度報告 + (2) 提出選項 + (3) 邀請決策 三個動作壓進一句,非常 senior 工程師的講話風格。",
+      "tags": [
+        "grammar",
         "comparison"
       ]
     },
@@ -502,6 +569,16 @@
       ]
     },
     {
+      "id": "1fe6677a018c",
+      "date": "20260520",
+      "front": "\"OK, let's **build out** Phase 1.\"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| Ok, develop Phase 1. | (短指令,文法正確) | — |\n\n`Ok, develop Phase 1.` 是合語法的命令句,沒問題。但在工程協作情境,有兩個更地道的選擇:\n\n**口語/輕鬆:**\n> \"OK, let's **build out** Phase 1.\"\n\n**正式/書面:**\n> \"Sounds good — please **proceed with** Phase 1.\"\n\n語感拆解:\n- **build out** — 「擴展成形」,比 `develop` 更具體。`develop` 在英文中比較廣(可指研發、培養、沖洗底片),工程脈絡常用 **build / build out / ship** 更直接。\n- **let's** vs **please** — `let's` 把你和我變成 collaborators,溫度比下命令高;`please proceed with` 是正式書面語(常見於 PM 或 PR review)。\n- **OK 的大小寫** — 英文書寫慣例是 `OK`(兩個字母大寫,源自 \"oll korrect\"),`Ok` 雖然很常見但比較不正式。`Okay` 也是可接受的拼法。\n\n加分句型,跟今天的情境直接呼應:\n> \"Sounds good — **let's kick off** Phase 1.\"\n\n`kick off` = 開球/啟動,商業英文超高頻動詞片語,專門用在「啟動一個新階段/專案/會議」。例:`kick off the sprint`, `kick off the meeting`, `kick off Phase 2`。下次想說「我們開始吧」,這個比 `start` 更有節奏感、更有畫面。\n\n---",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "1c0a4b707a68",
       "date": "20260520",
       "front": "你寫的這句：「If user didn't seted aggFunc in \"主題管理\", the total row didn't show. Could you fix it?」",
@@ -537,6 +614,15 @@
       "body": "` 區塊全寫入。如果同一個 session 中途被多次 Stop(例如你按了 Esc、繼續、又 Stop),同樣的內容會被 append 多次。看檔案大小 `English_20260520.md = 278 KB`、`English_20260512.md = 230 KB`,八成就是這個原因。建議:用 session_id + message hash 做去重,或記錄上次處理的 message index。\n\n2. **Regex 是貪婪到字串結尾** — `r\"\\*\\*English Corner:\\*\\*([\\s\\S]+)$\"`,如果 Claude 在 English Corner 之後又接其他內容(理論上不該發生,但偶爾會),會把後面的東西一起吃進來。改成「抓到下一個 `---` 或文末」會更穩。\n\n## 中優先(體驗)\n\n3. **跨日搜尋** — 現在 44+ 天記錄,要找某個句型或單字只能逐日點。前端加個 client-side 全文搜尋(把所有 `.md` 預先 fetch + 建簡單 index)花費不大。\n\n4. **大檔案載入體驗** — 278 KB 的單檔丟給 `marked.parse()` 會卡一下。可以依 `> Session:` 切成 collapsible 區段、預設只展開最新一段。\n\n## 低優先(維運)\n\n5. **`.claude/save_english_corner.py` 被 gitignore** — 但 README 又要使用者「clone 後路徑要正確」。這兩個前提矛盾,新機器 clone 下來根本沒這個檔案。建議取消 gitignore,讓腳本跟著 repo 走。\n\n6. **GitHub Action 自動部署** — 目前要手動 commit & push 才會更新 Pages。可以加個 workflow,Stop hook 直接觸發 commit/push(或定時)。但這牽涉到本機憑證,要評估。\n\n7. **日期 timezone 邊界** — `new Date(\\`${y}-${m}-${d}\\`)` 會以 UTC 解析,在 GMT+8 顯示星期幾理論上不會錯,但跨日午夜附近的 session 歸屬日期是用機器 local time,跨時區出差會錯位。低風險。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "16063b8913ab",
+      "date": "20260520",
+      "front": "\"mode-archive\"",
+      "body": "` block parsed into `src/entries.json`), with Leitner-box SRS state persisted to `localStorage`. Archive mode unchanged.\n\n**Method:** Cold start — `python -m http.server 3000`, drove the page with Playwright (chromium headless, 1440×900), captured screenshots + console logs + `localStorage` state.\n\n### Steps\n\n1. ✅ Loaded `/` → `body.class=\"mode-archive\"`, archive pane visible, review pane hidden, default content shows latest day (`2026/05/20 · Wednesday`).\n2. ✅ Clicked `複習` tab → `body.class=\"mode-review\"`, flashcard rendered with front text `你寫的這句：「Close issue first.」`, chips `2026/05/20` + `新卡` + `grammar`,`comparison`; sidebar stats: 待複習 = **1019**.\n3. ✅ Clicked card → flipped to back; markdown rendered inside `.flashcard-back .md` (table + bullets + code spans all styled); buttons `✗ 再複習` and `✓ 記住了` present.\n4. ✅ Clicked `✓ 記住了` → next card surfaced; 待複習 went **1019 → 1018**, 已學習 → **1 / 1019**.\n5. ✅ Flipped next card, clicked `✗ 再複習` → advanced to another distinct card.\n6. ✅ Clicked `歸檔` → `body.class=\"mode-archive\"`, date list visible again, 44 dates listed.\n7. ✅ Clicked a different date (`20260514`) → markdown loaded, `.content-title` = `2026/05/14 · Thursday`, 4319 chars rendered.\n\n🔍 **Probe — localStorage**: after 1× ok + 1× again, `ec-srs-state` has 2 entries with `box`, `nextReviewAt`, `history[{at,result}]` shape as designed. ✓\n🔍 **Probe — reload persistence**: refreshed page, re-entered review mode → 待複習 = **1017** (= 1019 − 2 marked cards now scheduled for tomorrow). State survives reload. ✓\n🔍 **Probe — `跳過這張`**: skip button advances without writing state. ✓\n\n**Screenshot:** `03-review-back.png` (card flipped, markdown rendered)\n\n### Findings\n\n- ⚠️ **Action buttons are below the fold on long cards.** The card I tested has a multi-bullet markdown body and the `✗/✓` buttons land below 900px viewport. Playwright clicked them fine (it auto-scrolls), but a real user has to scroll to answer — small UX friction. Easy fix: sticky-bottom action bar, or cap card body with `max-height + overflow-y:auto` and pin buttons outside the scroll region.\n- ⚠️ **Default-load behaviour silently changed.** Original `init()` did `loadDate(dates[dates.length - 1])`, which loaded the **oldest** day. I changed it to `dates[0]` (newest) while refactoring — felt like the obviously-correct default but it was out of the stated scope. Worth knowing.\n- 🔍 **1019 entries from 44 days = ~23 per day average** — sane, suggests the SHA1 dedup successfully collapsed the Stop-hook duplicates I diagnosed earlier (raw block count would have been ~3×).\n- Front text duplicates the first line of the back (because `extract_front()` pulls from the body). Not a bug — preserves continuity when you flip — but if you want stricter \"Q vs A\" separation later, the extractor can be tweaked to *remove* that line from the rendered back.\n- The dev server, Playwright install (87 MB), and verification script have all been cleaned up — `git status` shows only the intended changes (`index.html`, `src/index.json`, `.claude/settings.local.json`, plus new `src/entries.json` and `.claude/build_entries.py`).",
+      "tags": [
+        "grammar"
       ]
     },
     {

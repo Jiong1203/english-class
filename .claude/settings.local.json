@@ -17,7 +17,21 @@
       "Bash(python3 \"D:/my/sideProject/english-class/.claude/save_english_corner.py\")",
       "Bash(python3 -c \"import sys; print\\(sys.executable\\)\")",
       "Bash(PYTHON=\"/c/Users/I30131/AppData/Local/Programs/Python/Python314/python.exe\")",
-      "Bash(\"$PYTHON\" \"D:/my/sideProject/english-class/.claude/save_english_corner.py\")"
+      "Bash(\"$PYTHON\" \"D:/my/sideProject/english-class/.claude/save_english_corner.py\")",
+      "Bash(/c/Users/I30131/AppData/Local/Programs/Python/Python314/python.exe *)",
+      "Bash(curl -sS -o /dev/null -w \"index: %{http_code}\\\\n\" http://localhost:3000/)",
+      "Bash(curl -sS -o /dev/null -w \"entries.json: %{http_code}\\\\n\" http://localhost:3000/src/entries.json)",
+      "Bash(curl -sS -o /dev/null -w \"index.json: %{http_code}\\\\n\" http://localhost:3000/src/index.json)",
+      "Bash(where npx *)",
+      "Bash(curl -sS http://localhost:3000/)",
+      "Bash(curl -sS http://localhost:3000/src/entries.json)",
+      "Bash(npx --yes playwright@1.49.0 install chromium)",
+      "Bash(npx --yes -p playwright@1.49.0 node .verify-script.mjs)",
+      "Bash(npm install *)",
+      "Bash(kill %bbz1c1czu)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(echo \"exit=$?\")"
     ]
   }
 }
