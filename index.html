@@ -561,16 +561,253 @@
 
     .md { animation: fadeIn 0.25s ease; }
 
+    /* ── Mode tabs (Archive / Review) ── */
+    .mode-tabs {
+      display: flex;
+      gap: 6px;
+      padding: 12px 16px 0;
+    }
+    .mode-tab {
+      flex: 1;
+      padding: 9px 10px;
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: var(--radius);
+      background: transparent;
+      color: rgba(255,255,255,0.55);
+      font-size: 0.78rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      letter-spacing: -0.01em;
+      transition: background 0.15s, color 0.15s, border-color 0.15s;
+      font-family: inherit;
+    }
+    .mode-tab:hover {
+      background: rgba(255,255,255,0.05);
+      color: rgba(255,255,255,0.85);
+    }
+    .mode-tab.active {
+      background: var(--accent-dim);
+      color: var(--accent-light);
+      border-color: var(--accent);
+    }
+    .mode-tab svg { width: 14px; height: 14px; }
+
+    /* ── Review-mode sidebar stats ── */
+    .review-stats-panel {
+      flex: 1;
+      overflow-y: auto;
+      padding: 12px 16px 20px;
+      color: rgba(255,255,255,0.7);
+      font-size: 0.82rem;
+    }
+    .review-stats-panel h4 {
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.3);
+      margin: 14px 4px 8px;
+    }
+    .stat-row {
+      display: flex;
+      justify-content: space-between;
+      padding: 8px 12px;
+      border-radius: 8px;
+      margin-bottom: 2px;
+    }
+    .stat-row:hover { background: rgba(255,255,255,0.04); }
+    .stat-row .v { color: var(--accent-light); font-weight: 600; font-variant-numeric: tabular-nums; }
+    .stat-row.highlight .v { color: #fbbf24; }
+
+    /* ── Review pane (main area) ── */
+    .review-pane {
+      flex: 1;
+      display: none;
+      flex-direction: column;
+      padding: 48px 64px;
+      max-width: 880px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    body.mode-review .review-pane { display: flex; }
+    body.mode-review .archive-pane { display: none; }
+
+    .review-header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 28px;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .review-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: var(--text);
+    }
+    .review-progress {
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      font-variant-numeric: tabular-nums;
+    }
+    .review-progress strong {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    .flashcard {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+      padding: 36px 40px;
+      min-height: 280px;
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      transition: var(--theme-transition), transform 0.15s, box-shadow 0.15s;
+    }
+    .flashcard:hover { box-shadow: var(--shadow-lg); }
+    .flashcard.revealed { cursor: default; }
+
+    .flashcard-meta {
+      display: flex;
+      gap: 8px;
+      margin-bottom: 18px;
+      flex-wrap: wrap;
+    }
+    .meta-chip {
+      background: var(--code-bg);
+      color: var(--text-secondary);
+      font-size: 0.7rem;
+      font-weight: 500;
+      padding: 3px 10px;
+      border-radius: 20px;
+      letter-spacing: 0.02em;
+    }
+    .meta-chip.date { color: var(--accent); background: var(--accent-dim); }
+    .meta-chip.box {
+      background: linear-gradient(135deg, var(--accent), var(--accent-light));
+      color: white;
+    }
+
+    .flashcard-front {
+      font-size: 1.15rem;
+      line-height: 1.65;
+      color: var(--text);
+      flex: 1;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.01em;
+    }
+    .flashcard-hint {
+      margin-top: 24px;
+      color: var(--text-muted);
+      font-size: 0.78rem;
+      text-align: center;
+      letter-spacing: 0.04em;
+    }
+
+    .flashcard-back {
+      font-size: 0.92rem;
+      line-height: 1.75;
+      color: var(--text);
+    }
+    .flashcard-back .md { animation: none; }
+    .flashcard-back h1 { font-size: 1.25rem; }
+    .flashcard-back h2 { font-size: 1.05rem; margin-top: 24px; }
+
+    .flashcard-actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 24px;
+    }
+    .action-btn {
+      flex: 1;
+      padding: 14px 18px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text);
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: inherit;
+      letter-spacing: -0.01em;
+      transition: background 0.15s, border-color 0.15s, transform 0.1s;
+    }
+    .action-btn:hover { transform: translateY(-1px); }
+    .action-btn:active { transform: translateY(0); }
+    .action-btn.again {
+      border-color: #fca5a5;
+      color: #dc2626;
+    }
+    .action-btn.again:hover { background: #fef2f2; }
+    .action-btn.ok {
+      border-color: var(--accent);
+      background: var(--accent);
+      color: white;
+    }
+    .action-btn.ok:hover { background: var(--accent-light); }
+    [data-theme="dark"] .action-btn.again { color: #fca5a5; border-color: #7f1d1d; }
+    [data-theme="dark"] .action-btn.again:hover { background: rgba(127,29,29,0.2); }
+
+    .review-empty {
+      text-align: center;
+      padding: 80px 20px;
+      color: var(--text-muted);
+    }
+    .review-empty .big {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+    .review-empty h3 {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .review-controls {
+      display: flex;
+      justify-content: center;
+      margin-top: 18px;
+      gap: 10px;
+    }
+    .ghost-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+      cursor: pointer;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-family: inherit;
+    }
+    .ghost-btn:hover { color: var(--text); background: var(--border-subtle); }
+
+    /* Hide archive sidebar bits in review mode */
+    body.mode-review .date-list,
+    body.mode-review .sidebar-section-title { display: none; }
+    body.mode-archive .review-stats-panel { display: none; }
+
     /* ── Responsive ── */
     @media (max-width: 768px) {
       aside { display: none; }
       .mobile-header { display: flex; }
       .content-header { padding: 16px 20px; }
       .main-inner { padding: 28px 20px; }
+      .review-pane { padding: 28px 20px; }
+      .flashcard { padding: 24px 20px; }
     }
   </style>
 </head>
-<body>
+<body class="mode-archive">
 
   <div class="mobile-header">
     <h1>✦ English Corner</h1>
@@ -595,8 +832,27 @@
         </div>
       </div>
 
+      <div class="mode-tabs">
+        <button class="mode-tab active" data-mode="archive" onclick="switchMode('archive')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 7h18M5 7v13a1 1 0 001 1h12a1 1 0 001-1V7M9 7V4a1 1 0 011-1h4a1 1 0 011 1v3"/>
+          </svg>
+          歸檔
+        </button>
+        <button class="mode-tab" data-mode="review" onclick="switchMode('review')">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+            <path d="M2 17l10 5 10-5"/>
+            <path d="M2 12l10 5 10-5"/>
+          </svg>
+          複習
+        </button>
+      </div>
+
       <div class="sidebar-section-title">學習記錄</div>
       <nav class="date-list" id="dateList"></nav>
+
+      <div class="review-stats-panel" id="reviewStats"></div>
 
       <div class="sidebar-footer">
         <div class="entry-count" id="entryCount">載入中…</div>
@@ -622,15 +878,18 @@
     </aside>
 
     <main id="main">
-      <div class="placeholder">
-        <div class="placeholder-icon">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-          </svg>
+      <div class="archive-pane" id="archivePane">
+        <div class="placeholder">
+          <div class="placeholder-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
+            </svg>
+          </div>
+          <h3>選擇一個學習日期</h3>
+          <p>從左側選擇日期，開始複習 English Corner 內容</p>
         </div>
-        <h3>選擇一個學習日期</h3>
-        <p>從左側選擇日期，開始複習 English Corner 內容</p>
       </div>
+      <div class="review-pane" id="reviewPane"></div>
     </main>
   </div>
 
@@ -656,8 +915,8 @@
       const mobileSelect = document.getElementById('mobileSelect');
       if (mobileSelect.value !== dateStr) mobileSelect.value = dateStr;
 
-      const main = document.getElementById('main');
-      main.innerHTML = `
+      const pane = document.getElementById('archivePane');
+      pane.innerHTML = `
         <div class="placeholder">
           <div class="loading">
             <div class="spinner"></div>
@@ -677,7 +936,7 @@
         const date = new Date(`${y}-${m}-${d}`);
         const weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 
-        main.innerHTML = `
+        pane.innerHTML = `
           <div class="content-header">
             <span class="content-title">${y}/${m}/${d} &nbsp;·&nbsp; ${weekdays[date.getDay()]}</span>
             <span class="content-date-badge">English Corner</span>
@@ -688,9 +947,9 @@
         div.className = 'md';
         div.innerHTML = marked.parse(text);
         document.getElementById('mdContainer').appendChild(div);
-        main.scrollTop = 0;
+        document.getElementById('main').scrollTop = 0;
       } catch {
-        main.innerHTML = `
+        pane.innerHTML = `
           <div class="placeholder">
             <div class="placeholder-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
@@ -701,11 +960,219 @@
       }
     }
 
+    // ───────────── SRS (Leitner box) ─────────────
+    const SRS_KEY = 'ec-srs-state';
+    const BOX_INTERVALS_DAYS = [1, 2, 4, 7, 15]; // box 1..5
+    const DAY_MS = 86400000;
+
+    let allEntries = [];
+    let reviewQueue = [];
+    let currentEntry = null;
+    let cardRevealed = false;
+
+    function loadSrsState() {
+      try { return JSON.parse(localStorage.getItem(SRS_KEY)) || {}; }
+      catch { return {}; }
+    }
+    function saveSrsState(state) {
+      localStorage.setItem(SRS_KEY, JSON.stringify(state));
+    }
+
+    function isDue(entry, state, now) {
+      const s = state[entry.id];
+      if (!s) return true; // new card
+      return s.nextReviewAt <= now;
+    }
+
+    function computeDueQueue() {
+      const state = loadSrsState();
+      const now = Date.now();
+      // Newest entries first — fresher in memory feels nicer to review.
+      return allEntries
+        .filter(e => isDue(e, state, now))
+        .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
+    }
+
+    function markCard(entryId, result) {
+      const state = loadSrsState();
+      const prev = state[entryId] || { box: 0, history: [] };
+      let nextBox = prev.box;
+      if (result === 'ok') nextBox = Math.min(5, (prev.box || 0) + 1);
+      else nextBox = 1;
+      const intervalDays = BOX_INTERVALS_DAYS[nextBox - 1] || 1;
+      state[entryId] = {
+        box: nextBox,
+        nextReviewAt: Date.now() + intervalDays * DAY_MS,
+        history: [...(prev.history || []).slice(-9), { at: Date.now(), result }],
+      };
+      saveSrsState(state);
+    }
+
+    function renderReviewStats() {
+      const state = loadSrsState();
+      const now = Date.now();
+      const total = allEntries.length;
+      const boxes = [0, 0, 0, 0, 0];
+      let dueNow = 0;
+      let newCards = 0;
+      for (const e of allEntries) {
+        const s = state[e.id];
+        if (!s) { newCards++; dueNow++; continue; }
+        if (s.box >= 1 && s.box <= 5) boxes[s.box - 1]++;
+        if (s.nextReviewAt <= now) dueNow++;
+      }
+      const learned = total - newCards;
+      const stats = document.getElementById('reviewStats');
+      stats.innerHTML = `
+        <h4>今日進度</h4>
+        <div class="stat-row highlight"><span>待複習</span><span class="v">${dueNow}</span></div>
+        <div class="stat-row"><span>未學過</span><span class="v">${newCards}</span></div>
+        <div class="stat-row"><span>已學習</span><span class="v">${learned} / ${total}</span></div>
+        <h4>盒子分佈</h4>
+        ${boxes.map((n, i) => `
+          <div class="stat-row"><span>Box ${i + 1} <span style="opacity:.5">· ${BOX_INTERVALS_DAYS[i]}d</span></span><span class="v">${n}</span></div>
+        `).join('')}
+      `;
+    }
+
+    function renderCurrentCard() {
+      const pane = document.getElementById('reviewPane');
+      if (!currentEntry) {
+        pane.innerHTML = `
+          <div class="review-empty">
+            <div class="big">🎉</div>
+            <h3>今天的複習完成了</h3>
+            <p>暫無待複習卡片，明天再來！</p>
+            <div class="review-controls">
+              <button class="ghost-btn" onclick="resetSrsState()">重設所有進度</button>
+            </div>
+          </div>`;
+        return;
+      }
+      const state = loadSrsState();
+      const s = state[currentEntry.id];
+      const boxLabel = s ? `Box ${s.box}` : '新卡';
+      const date = currentEntry.date;
+      const dateLabel = `${date.slice(0,4)}/${date.slice(4,6)}/${date.slice(6,8)}`;
+      const tagChips = (currentEntry.tags || []).map(t => `<span class="meta-chip">${t}</span>`).join('');
+
+      const done = allEntries.length - reviewQueue.length;
+      const total = allEntries.length;
+
+      pane.innerHTML = `
+        <div class="review-header">
+          <div>
+            <div class="review-title">複習模式</div>
+            <div class="review-progress">剩 <strong>${reviewQueue.length + 1}</strong> 張待複習 · 共 ${total} 張</div>
+          </div>
+        </div>
+        <div class="flashcard" id="flashcard" onclick="revealCard()">
+          <div class="flashcard-meta">
+            <span class="meta-chip date">${dateLabel}</span>
+            <span class="meta-chip box">${boxLabel}</span>
+            ${tagChips}
+          </div>
+          <div class="flashcard-front">${escapeHtml(currentEntry.front)}</div>
+          <div class="flashcard-hint">點擊翻面 ↻</div>
+        </div>
+        <div class="review-controls">
+          <button class="ghost-btn" onclick="skipCard()">跳過這張</button>
+        </div>
+      `;
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
+    }
+
+    function revealCard() {
+      if (!currentEntry || cardRevealed) return;
+      cardRevealed = true;
+      const card = document.getElementById('flashcard');
+      card.classList.add('revealed');
+      card.onclick = null;
+      const date = currentEntry.date;
+      const dateLabel = `${date.slice(0,4)}/${date.slice(4,6)}/${date.slice(6,8)}`;
+      const state = loadSrsState();
+      const s = state[currentEntry.id];
+      const boxLabel = s ? `Box ${s.box}` : '新卡';
+      const tagChips = (currentEntry.tags || []).map(t => `<span class="meta-chip">${t}</span>`).join('');
+
+      card.innerHTML = `
+        <div class="flashcard-meta">
+          <span class="meta-chip date">${dateLabel}</span>
+          <span class="meta-chip box">${boxLabel}</span>
+          ${tagChips}
+        </div>
+        <div class="flashcard-back">
+          <div class="md"></div>
+        </div>
+        <div class="flashcard-actions">
+          <button class="action-btn again" onclick="answer('again')">✗ 再複習</button>
+          <button class="action-btn ok" onclick="answer('ok')">✓ 記住了</button>
+        </div>
+      `;
+      card.querySelector('.md').innerHTML = marked.parse(currentEntry.body);
+    }
+
+    function answer(result) {
+      if (!currentEntry) return;
+      markCard(currentEntry.id, result);
+      advanceCard(result === 'again');
+    }
+
+    function skipCard() {
+      // Push to end of queue without changing state
+      if (currentEntry) reviewQueue.push(currentEntry);
+      advanceCard(false);
+    }
+
+    function advanceCard(requeue) {
+      if (requeue && currentEntry) reviewQueue.push(currentEntry);
+      currentEntry = reviewQueue.shift() || null;
+      cardRevealed = false;
+      renderCurrentCard();
+      renderReviewStats();
+    }
+
+    function startReviewSession() {
+      reviewQueue = computeDueQueue();
+      currentEntry = reviewQueue.shift() || null;
+      cardRevealed = false;
+      renderCurrentCard();
+      renderReviewStats();
+    }
+
+    function resetSrsState() {
+      if (!confirm('確定要重設所有複習進度嗎？')) return;
+      localStorage.removeItem(SRS_KEY);
+      startReviewSession();
+    }
+
+    function switchMode(mode) {
+      document.body.classList.toggle('mode-review', mode === 'review');
+      document.body.classList.toggle('mode-archive', mode === 'archive');
+      document.querySelectorAll('.mode-tab').forEach(el => {
+        el.classList.toggle('active', el.dataset.mode === mode);
+      });
+      if (mode === 'review') startReviewSession();
+    }
+
     async function init() {
       try {
-        const res = await fetch('src/index.json');
-        if (!res.ok) throw new Error();
-        const { dates } = await res.json();
+        const [datesRes, entriesRes] = await Promise.all([
+          fetch('src/index.json'),
+          fetch('src/entries.json'),
+        ]);
+        if (!datesRes.ok) throw new Error();
+        const { dates } = await datesRes.json();
+        if (entriesRes.ok) {
+          const data = await entriesRes.json();
+          allEntries = data.entries || [];
+        }
 
         const list = document.getElementById('dateList');
         const sel = document.getElementById('mobileSelect');
@@ -732,11 +1199,12 @@
           sel.appendChild(opt);
         });
 
-        countEl.textContent = `共 ${dates.length} 筆記錄`;
+        countEl.textContent = `共 ${dates.length} 筆記錄 · ${allEntries.length} 張卡`;
 
-        if (dates.length > 0) loadDate(dates[dates.length - 1]);
+        if (dates.length > 0) loadDate(dates[0]);
+        renderReviewStats();
       } catch {
-        document.getElementById('main').innerHTML = `
+        document.getElementById('archivePane').innerHTML = `
           <div class="placeholder">
             <div class="placeholder-icon">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z" stroke-linecap="round" stroke-linejoin="round"/></svg>
