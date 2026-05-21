@@ -38,7 +38,14 @@
       "Bash(python \".claude/_diff_parsers.py\")",
       "Bash(rm \".claude/_diff_parsers.py\")",
       "Bash(python \".claude/cleanup_md_duplicates.py\")",
-      "Bash(python \".claude/build_entries.py\")"
+      "Bash(python \".claude/build_entries.py\")",
+      "Bash(python -m http.server 3000)",
+      "PowerShell($urls = @\\('http://localhost:3000/', 'http://localhost:3000/src/index.json', 'http://localhost:3000/src/entries.json', 'http://localhost:3000/src/English_20260521.md'\\); foreach \\($u in $urls\\) { try { $r = Invoke-WebRequest -Uri $u -UseBasicParsing -TimeoutSec 5; Write-Output \\(\"{0} -> {1} \\({2} bytes\\)\" -f $u, $r.StatusCode, $r.RawContentLength\\) } catch { Write-Output \\(\"{0} -> ERROR: {1}\" -f $u, $_.Exception.Message\\) } })",
+      "Bash(taskkill /F /FI \"WINDOWTITLE eq python*\")",
+      "Bash(netstat -ano)",
+      "Bash(findstr :3000)",
+      "Bash(findstr LISTENING)",
+      "Bash(taskkill /F /PID 27920 /PID 13528)"
     ]
   }
 }
