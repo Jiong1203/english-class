@@ -1,6 +1,16 @@
 {
   "entries": [
     {
+      "id": "def5d5f86699",
+      "date": "20260521",
+      "front": "\"\n\n**問下一階段的目標/範圍:**\n> \"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| What is Phase 3 to do? | What should Phase 3 do? / What's the goal for Phase 3? | `is to do` 文法上勉強通,但語感不自然 |\n\n兩個更道地的問法:\n\n**問下一階段該包什麼:**\n> \"**What should Phase 3 do?**\"\n\n**問下一階段的目標/範圍:**\n> \"**What's the goal for Phase 3?**\" 或 \"**What's in scope for Phase 3?**\"\n\n語感拆解:\n- `What is X to do` 的句型雖然語意可懂,但在英文裡 `to do` 後面通常需要一個對象(`What is there to do?` / `What is X supposed to do?`)。少了對象就會顯得「卡住」。\n- **what should X do** — 直接問「X 該做什麼」,主動語態,最自然。\n- **what's the goal for X** — 從「目標」切入問範圍,在 product/PM 對話裡特別常用,顯得更 strategic。\n- **what's in scope for X** — 工程協作裡的標準術語,意思是「X 階段該包含的範圍」,很 senior 的問法,跟 PM 對齊範圍時很好用。\n\n進階(直接問下一步該做啥的口語版):\n> \"**What's next for Phase 3?**\"\n\n`What's next` 是輕鬆但專業的「下一步是啥」開場,在 standup / 1:1 / Slack 都通用,比 `What is to do` 流暢非常多。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "9e4b80088a6b",
       "date": "20260521",
       "front": "你的句子分析",
