@@ -35,23 +35,23 @@ FRONT_PREFIXES = (
 
 
 def split_blocks(text: str, date: str) -> list[tuple[str, str]]:
-    """Return [(date, body)] for each English Corner block in a daily file."""
+    """Return [(date, body)] for each English Corner block in a daily file.
+
+    Note: cut is found in the un-stripped slice. Pre-stripping would remove
+    the trailing newline of a "\\n---\\n" separator, hiding it from .find()
+    and leaving a "\\n\\n---" remnant inside the body — that was a latent bug
+    that inflated entries.json with phantom hash variants.
+    """
     parts = text.split(CORNER_MARKER)
     blocks = []
     # parts[0] is the file header before the first marker — discard it.
     for raw in parts[1:]:
-        body = raw.strip()
-        if not body:
-            continue
-        # Trim trailing session separators / next-block leakage.
-        # Each block in the daily file is separated by a "\n---\n" line or
-        # the next "> Session:" header. Cut at whichever comes first.
-        cut = len(body)
+        cut = len(raw)
         for sep in ("\n---\n", "\n> Session:"):
-            idx = body.find(sep)
+            idx = raw.find(sep)
             if idx != -1 and idx < cut:
                 cut = idx
-        body = body[:cut].strip()
+        body = raw[:cut].strip()
         if body:
             blocks.append((date, body))
     return blocks
