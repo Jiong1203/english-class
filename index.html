@@ -797,6 +797,67 @@
     }
     .ghost-btn:hover { color: var(--text); background: var(--border-subtle); }
 
+    .tag-filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 0 0 20px;
+      padding: 12px 14px;
+      background: var(--code-bg);
+      border-radius: var(--radius);
+      align-items: center;
+    }
+    .tag-filter-label {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      margin-right: 4px;
+      letter-spacing: 0.02em;
+    }
+    .tag-filter-chip {
+      font-family: inherit;
+      font-size: 0.72rem;
+      font-weight: 500;
+      padding: 4px 11px;
+      border-radius: 20px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s, border-color 0.15s, opacity 0.15s;
+    }
+    .tag-filter-chip:hover { border-color: var(--accent); }
+    .tag-filter-chip.active {
+      background: var(--accent);
+      border-color: var(--accent);
+      color: white;
+    }
+    .tag-filter-chip:not(.active) { opacity: 0.55; }
+
+    .keyboard-hint {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 12px;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+    .keyboard-hint span { display: inline-flex; align-items: center; gap: 6px; }
+    .kbd-key {
+      display: inline-block;
+      padding: 1px 7px;
+      font-family: ui-monospace, SFMono-Regular, monospace;
+      font-size: 0.68rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-bottom-width: 2px;
+      border-radius: 4px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+
+    .stat-row.streak .v { color: var(--accent); font-weight: 700; }
+
     /* Hide archive sidebar bits in review mode */
     body.mode-review .date-list,
     body.mode-review .sidebar-section-title { display: none; }
@@ -975,6 +1036,71 @@
     let reviewQueue = [];
     let currentEntry = null;
     let cardRevealed = false;
+    let allTags = [];
+    let activeTagFilters = new Set();
+
+    function setupTagFilters() {
+      const seen = new Set();
+      for (const e of allEntries) {
+        for (const t of (e.tags || [])) seen.add(t);
+      }
+      allTags = Array.from(seen).sort();
+      activeTagFilters = new Set(allTags);
+    }
+
+    function toggleTagFilter(tag) {
+      if (activeTagFilters.has(tag)) activeTagFilters.delete(tag);
+      else activeTagFilters.add(tag);
+      startReviewSession();
+    }
+
+    function entryMatchesFilters(entry) {
+      if (activeTagFilters.size === 0) return false;
+      const tags = entry.tags || [];
+      if (tags.length === 0) return activeTagFilters.has('note');
+      return tags.some(t => activeTagFilters.has(t));
+    }
+
+    function dateKey(ts) {
+      const d = new Date(ts);
+      const y = d.getFullYear();
+      const m = String(d.getMonth() + 1).padStart(2, '0');
+      const day = String(d.getDate()).padStart(2, '0');
+      return `${y}-${m}-${day}`;
+    }
+
+    function gatherStudyDays(state) {
+      const days = new Set();
+      for (const id in state) {
+        const hist = state[id].history || [];
+        for (const h of hist) days.add(dateKey(h.at));
+      }
+      return days;
+    }
+
+    function computeStreak(state) {
+      const days = gatherStudyDays(state);
+      if (days.size === 0) return 0;
+      const today = dateKey(Date.now());
+      let streak = 0;
+      let cursor = new Date();
+      if (!days.has(today)) cursor.setDate(cursor.getDate() - 1);
+      while (days.has(dateKey(cursor.getTime()))) {
+        streak++;
+        cursor.setDate(cursor.getDate() - 1);
+      }
+      return streak;
+    }
+
+    function countTodayReviewed(state) {
+      const today = dateKey(Date.now());
+      let n = 0;
+      for (const id in state) {
+        const hist = state[id].history || [];
+        if (hist.length && dateKey(hist[hist.length - 1].at) === today) n++;
+      }
+      return n;
+    }
 
     function loadSrsState() {
       try { return JSON.parse(localStorage.getItem(SRS_KEY)) || {}; }
@@ -995,7 +1121,7 @@
       const now = Date.now();
       // Newest entries first — fresher in memory feels nicer to review.
       return allEntries
-        .filter(e => isDue(e, state, now))
+        .filter(e => isDue(e, state, now) && entryMatchesFilters(e))
         .sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : 0));
     }
 
@@ -1028,9 +1154,13 @@
         if (s.nextReviewAt <= now) dueNow++;
       }
       const learned = total - newCards;
+      const streak = computeStreak(state);
+      const todayN = countTodayReviewed(state);
       const stats = document.getElementById('reviewStats');
       stats.innerHTML = `
         <h4>今日進度</h4>
+        <div class="stat-row streak"><span>連續學習</span><span class="v">${streak} 天</span></div>
+        <div class="stat-row"><span>今日已複習</span><span class="v">${todayN}</span></div>
         <div class="stat-row highlight"><span>待複習</span><span class="v">${dueNow}</span></div>
         <div class="stat-row"><span>未學過</span><span class="v">${newCards}</span></div>
         <div class="stat-row"><span>已學習</span><span class="v">${learned} / ${total}</span></div>
@@ -1041,14 +1171,31 @@
       `;
     }
 
+    function renderTagFilterBar() {
+      if (allTags.length === 0) return '';
+      const chips = allTags.map(t => `
+        <button class="tag-filter-chip ${activeTagFilters.has(t) ? 'active' : ''}"
+                onclick="toggleTagFilter('${t}')">${t}</button>
+      `).join('');
+      return `
+        <div class="tag-filter-bar">
+          <span class="tag-filter-label">標籤</span>
+          ${chips}
+        </div>
+      `;
+    }
+
     function renderCurrentCard() {
       const pane = document.getElementById('reviewPane');
+      const filterBar = renderTagFilterBar();
       if (!currentEntry) {
+        const noTags = activeTagFilters.size === 0;
         pane.innerHTML = `
+          ${filterBar}
           <div class="review-empty">
-            <div class="big">🎉</div>
-            <h3>今天的複習完成了</h3>
-            <p>暫無待複習卡片，明天再來！</p>
+            <div class="big">${noTags ? '🏷️' : '🎉'}</div>
+            <h3>${noTags ? '請至少選一個標籤' : '今天的複習完成了'}</h3>
+            <p>${noTags ? '上方點選想複習的標籤' : '暫無待複習卡片，明天再來！'}</p>
             <div class="review-controls">
               <button class="ghost-btn" onclick="resetSrsState()">重設所有進度</button>
             </div>
@@ -1066,6 +1213,7 @@
       const total = allEntries.length;
 
       pane.innerHTML = `
+        ${filterBar}
         <div class="review-header">
           <div>
             <div class="review-title">複習模式</div>
@@ -1079,7 +1227,7 @@
             ${tagChips}
           </div>
           <div class="flashcard-front">${escapeHtml(currentEntry.front)}</div>
-          <div class="flashcard-hint">點擊翻面 ↻</div>
+          <div class="flashcard-hint">點擊或按 <span class="kbd-key">Space</span> 翻面</div>
         </div>
         <div class="review-controls">
           <button class="ghost-btn" onclick="skipCard()">跳過這張</button>
@@ -1117,8 +1265,12 @@
           <div class="md"></div>
         </div>
         <div class="flashcard-actions">
-          <button class="action-btn again" onclick="answer('again')">✗ 再複習</button>
-          <button class="action-btn ok" onclick="answer('ok')">✓ 記住了</button>
+          <button class="action-btn again" onclick="answer('again')">✗ 再複習 <span class="kbd-key">1</span></button>
+          <button class="action-btn ok" onclick="answer('ok')">✓ 記住了 <span class="kbd-key">2</span></button>
+        </div>
+        <div class="keyboard-hint">
+          <span><span class="kbd-key">S</span> 跳過</span>
+          <span><span class="kbd-key">Esc</span> 離開</span>
         </div>
       `;
       card.querySelector('.md').innerHTML = marked.parse(currentEntry.body);
@@ -1167,6 +1319,40 @@
       if (mode === 'review') startReviewSession();
     }
 
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      const tag = (e.target.tagName || '').toLowerCase();
+      if (tag === 'input' || tag === 'textarea' || tag === 'select') return;
+      if (!document.body.classList.contains('mode-review')) return;
+
+      if (e.key === 'Escape') {
+        e.preventDefault();
+        switchMode('archive');
+        return;
+      }
+      if (!currentEntry) return;
+
+      if (e.key === ' ' || e.code === 'Space') {
+        e.preventDefault();
+        if (!cardRevealed) revealCard();
+        return;
+      }
+      if (e.key.toLowerCase() === 's') {
+        e.preventDefault();
+        skipCard();
+        return;
+      }
+      if (!cardRevealed) return;
+
+      if (e.key === '1' || e.key.toLowerCase() === 'j') {
+        e.preventDefault();
+        answer('again');
+      } else if (e.key === '2' || e.key.toLowerCase() === 'k') {
+        e.preventDefault();
+        answer('ok');
+      }
+    });
+
     async function init() {
       try {
         const [datesRes, entriesRes] = await Promise.all([
@@ -1179,6 +1365,7 @@
           const data = await entriesRes.json();
           allEntries = data.entries || [];
         }
+        setupTagFilters();
 
         const list = document.getElementById('dateList');
         const sel = document.getElementById('mobileSelect');
