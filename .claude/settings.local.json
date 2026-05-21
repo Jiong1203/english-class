@@ -31,7 +31,14 @@
       "Bash(kill %bbz1c1czu)",
       "Bash(git add *)",
       "Bash(git commit -m ' *)",
-      "Bash(echo \"exit=$?\")"
+      "Bash(echo \"exit=$?\")",
+      "PowerShell(Copy-Item *)",
+      "Bash(python -c ' *)",
+      "Bash(python .claude\\\\_diff_parsers.py)",
+      "Bash(python \".claude/_diff_parsers.py\")",
+      "Bash(rm \".claude/_diff_parsers.py\")",
+      "Bash(python \".claude/cleanup_md_duplicates.py\")",
+      "Bash(python \".claude/build_entries.py\")"
     ]
   }
 }
