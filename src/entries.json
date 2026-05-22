@@ -1,6 +1,111 @@
 {
   "entries": [
     {
+      "id": "f158c7c1db5d",
+      "date": "20260522",
+      "front": "\"如果儲存到 mytopic 的話是存得起來的嗎? | Does the current \"",
+      "body": "| 你的原句 | 自然英文 |\n|---------|---------|\n| 目前這個\"為空\"如果儲存到 mytopic 的話是存得起來的嗎? | Does the current \"為空\" state **get persisted** when I save it to MyTopic? |\n\n**用詞重點:**\n\n- **「存得起來嗎」** 對應「持久化」概念,英文工程術語:\n  - `Does it get persisted?` — 最常用,`persist` 是「資料保存」的動詞\n  - `Is it saved properly?` — 較口語,「正確存下來」\n  - `Does the state survive a save?` — 工程師圈很道地,`survive` 隱喻「經過儲存還活著」\n  - `Is the state preserved on save?` — `preserve` = 保留\n- **「mytopic」/「我的最愛」** 英文翻譯:\n  - 直譯保留專案名稱:`MyTopic` 或 `My Favorites`\n  - 通用功能:`favorites` / `bookmarks` / `saved queries`\n- **「目前這個」** 在中文是「現在這個功能」的代名詞,英文:\n  - `the current X` — 中規中矩\n  - `this X we just built` — 強調「剛做的」\n  - `as it stands` — 「以目前狀態」,正式書面\n\n**完整替代說法:**\n\n- *Does the current \"為空\" state get persisted when saving to MyTopic?* — 標準\n- *Will the 為空 checkbox survive a save-and-reload cycle?* — 工程師圈,很道地\n- *Just to confirm — does the 為空 state stick when I save to MyTopic?* — 口語,「黏住」的比喻\n- *Is the 為空 state preserved across saves?* — 較正式\n- *Round-trip question: do I get back the 為空 state after save → reload?* — `round-trip` = 「來回一趟」,測試/序列化情境很常用\n\n**進階場景應用 — 測試對話:**\n\n- *Let's do a round-trip test on the 為空 state.* — 「我們來做個來回測試」\n- *Does the state round-trip correctly?* — 「狀態能正確來回保存嗎?」\n- *We need to verify the persistence layer handles this.* — 偏向架構討論\n\n`round-trip` 這個詞在前後端對話、API 設計、序列化議題中非常實用,值得收進詞彙庫!",
+      "tags": [
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "eaa0a22eaa2c",
+      "date": "20260522",
+      "front": "用詞重點:**",
+      "body": "| 你的原句 | 自然英文 |\n|---------|---------|\n| 走 🅱️,開動 | Going with B — **let's roll**. (or: *B it is, fire away*) |\n\n**用詞重點:**\n\n- **「走 X」** 表達「採用 X 方案」的英文道地說法:\n  - `Going with X` — 最自然、商業/技術場合都通用\n  - `Let's go with X` — 包含「一起」的協作感\n  - `X it is` — 倒裝句,輕鬆口語感,有「就這樣定了」的味道\n  - `I'll take option X` — 偏正式,像在點餐\n- **「開動」** 翻成英文有很多選項,看你想要多少能量:\n  - `Let's roll` — 經典口語,意思是「動手吧」\n  - `Fire away` — 直接「開火」,有「放手去做」的衝勁\n  - `Go ahead` — 中性「請進行」,授權感\n  - `Let's get to it` — 「我們開始幹活吧」,務實\n  - `Ship it` — 工程師圈最酷的「直接交付」用法\n\n**完整替代說法:**\n\n- *Going with B — let's roll.* — 中規中矩的工程師講法\n- *B it is. Fire away.* — 短促有力,有 commitment 感\n- *Let's go with B and get cracking.* — `get cracking` = 英式俚語「動手」\n- *Cool, let's ship B.* — 把方案當產品來「shipped」\n\n**進階使用情境:**\n\n在 design review 或 architecture decision 場合,如果你選定一個方案,可以用更完整的句子展現決斷力:\n- *Alright, we're going with B. Let's get started.* — 像 tech lead 的口吻\n- *B is the way. Let's execute.* — 簡短有力的 strategic call",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d6bf802ad6b2",
+      "date": "20260522",
+      "front": "\"打勾了,結果竟然還可以輸入值 | Take a look at this screenshot — I checked the \"",
+      "body": "| 你的原句 | 自然英文 |\n|---------|---------|\n| Look at this image. 我把\"為空\"打勾了,結果竟然還可以輸入值 | Take a look at this screenshot — I checked the \"為空\" box, **but the input is still editable**. |\n\n**用詞重點:**\n\n- **「Look at this image」** 文法正確,但工程師對話中更常用:\n  - `Take a look at this` — 較禮貌、更口語\n  - `Check out this screenshot` — 「截圖」比 image 更精準\n  - `See the screenshot above/below` — 文件正式場合\n- **「結果竟然還可以輸入值」** 表達「事情和預期不符」,英文可以用:\n  - `but the input is still editable` — 直譯但很自然\n  - `but I can still type in the field` — 動作描述,更具體\n  - `but it still lets me enter values` — 強調系統行為\n  - 加 `surprisingly` 或 `still` 帶出「竟然」的反差感:*surprisingly, the input is still editable*\n- **「打勾」** 翻譯:\n  - `check / tick the box` — 標準用法(美式 check、英式 tick)\n  - `mark the checkbox` — 中性\n  - `enable the toggle` — 如果是 switch 型\n\n**完整替代說法:**\n\n- *Take a look at this screenshot — I checked the \"為空\" box, but I can still type in the input field.* — 最自然\n- *Bug report: with \"為空\" checked, the input is still editable. See attached screenshot.* — 像 issue tracker 風格\n- *Even with \"為空\" ticked, the field still accepts input — see screenshot.* — 較英式,簡潔\n\n**進階詞彙 — bug 報告場景:**\n\n- *Expected vs Actual:* 在報 bug 時很常用的對比結構\n  - *Expected: input disabled. Actual: still editable.* 一眼看出落差\n- *Reproduction steps:* 步驟說明\n  - *Steps to reproduce: 1) Check 為空, 2) Click on the input, 3) Type — it accepts the value.*\n\n這種精煉的 bug report 模板在工程師日常溝通中非常實用,值得收進你的 toolkit。",
+      "tags": [
+        "grammar",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "a96c2e26408c",
+      "date": "20260522",
+      "front": "用詞重點:**",
+      "body": "| 你的原句 | 自然英文 |\n|---------|---------|\n| Ok do it. | OK, **let's do it.** (or: *OK, go ahead.* / *OK, ship it.*) |\n\n**用詞重點:**\n\n- `Ok do it.` 文法可以,但口語上比較常加 `let's` 或 `go ahead`,讓語氣更順、更有禮貌。少了 `let's` 會顯得像在下命令(在團隊溝通中可能略顯生硬)。\n- **`Let's do it.`** = 大家一起來吧,協作感最強\n- **`Go ahead.`** = 你儘管動手吧,授權感\n- **`Ship it.`** = 工程師俚語,直接放行去 deploy,口語很道地\n\n**完整替代說法:**\n- *OK, let's do it.* — 最自然的協作語氣\n- *Sounds good, go ahead.* — 加一句「聽起來不錯」更有禮貌\n- *OK, proceed.* — 正式書面或商業 email 場合用\n- *Alright, ship it.* — 工程師團隊間最口語、最酷的講法",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "a80a01339d2b",
+      "date": "20260522",
+      "front": "這次沒有自由發問的英文,但讓我教你 code review 場景常用的英文表達:**",
+      "body": "| 你的原句 | 自然英文 |\n|---------|---------|\n| (此次為 `/review` slash command,無自由英文輸入) | — |\n\n**這次沒有自由發問的英文,但讓我教你 code review 場景常用的英文表達:**\n\n| 中文 | 英文 | 使用情境 |\n|------|------|---------|\n| 通過,但有 3 個中等建議 | *Pass with 3 medium suggestions.* | review 結論句 |\n| 這不是阻擋合併的問題 | *This isn't a blocker.* | 解釋為何不是 🔴 |\n| 看起來不錯,可以合 | *LGTM* (Looks Good To Me) | GitHub PR review 經典縮寫 |\n| 麻煩修一下 #4 跟 #5 | *Could you address comments #4 and #5?* | 留 review comment |\n| 我同意你的設計取捨 | *I'm on board with the tradeoff.* | 接受對方提的權衡 |\n| 後續可以再優化 | *We can iterate on this later.* | 同意先合,改進留下次 |\n\n**情境例句:**\n- *Pass with 3 medium suggestions — none are blockers, but worth addressing in a follow-up PR.*\n- *LGTM, but could you address #4 before merging? The dropdown width issue is easy to spot in production.*\n- *I'm on board with the tradeoff on #6 — keeping the parentheses is the right call for clarity.*",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a2d455d716ec",
+      "date": "20260522",
+      "front": "用詞重點:**",
+      "body": "| 你的原句 | 自然英文 |\n|---------|---------|\n| commit and use zh-tw. | Commit it **using** zh-tw. (or: *Commit and use zh-tw for the message.*) |\n\n**用詞重點:**\n\n- 你的句子結構簡潔有效,**完全可以在 dev team 內部使用**。小調整可以更精確:\n  - `commit and use zh-tw` 文法可以,但 `use zh-tw` 後面省略了「什麼地方用」,稍微有點模糊\n  - 更精確:`commit it using zh-tw`(用 zh-tw 提交) 或 `commit with a zh-tw message`(用 zh-tw 訊息提交)\n- 工程師對話的英文**經常省略主詞和冠詞**,這在團隊內部沒問題;但發給客戶或文件時建議補齊\n- 動詞 `use` 在這裡可以用 `in`(in zh-tw)替代,更道地:*Commit in zh-tw.*\n\n**完整替代說法:**\n\n- *Commit it using zh-tw.* — 最直接的工程師指令\n- *Commit with a zh-tw message.* — 明確指出是「訊息」用 zh-tw\n- *Go ahead and commit. Use zh-tw for the message.* — 拆成兩句,語氣更完整\n- *Ship the commit in zh-tw.* — 口語感,`ship` = 完成並交付\n\n**進階小技巧:**\n在 commit 場景下,英文圈也會直接用 `lang:zh-tw` 或 `--lang zh-tw` 這種偽 flag 風格傳達需求,例如:*Commit, lang: zh-tw.* — 短促有效,適合熟悉的協作對象。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "91c7265bbcc9",
+      "date": "20260522",
+      "front": "由於這輪對話沒有提供新的英文內容（截圖中的英文是 Excel 的 ag-grid 工作表名稱，並非你寫的），所以這裡用 Traditional Chinese 帶你看一個與這個 bug 有關的實用英文短語：",
+      "body": "由於這輪對話沒有提供新的英文內容（截圖中的英文是 Excel 的 ag-grid 工作表名稱，並非你寫的），所以這裡用 Traditional Chinese 帶你看一個與這個 bug 有關的實用英文短語：\n\n**「the decimal got truncated / chopped off」** — 「小數點被截斷／砍掉」\n\n| 寫法 | 適用情境 |\n|------|---------|\n| `The decimal places got truncated in the Excel export.` | 正式 bug 描述（report/issue） |\n| `Excel chopped off the trailing .31.` | 口語、強調「被砍掉」的痛感 |\n| `Decimals are silently dropped for large numbers.` | 強調無提示、靜默丟失（適合 bug 標題） |\n\n**為什麼這幾個動詞值得記：**\n- **`truncate`**：技術文件最常見，意思是「裁切到某長度」（不四捨五入）。常見搭配：`truncate the string`、`the column was truncated`。\n- **`chop off`**：口語感重，像「咔嚓一刀切掉」，描述使用者實際看到的痛點很傳神。\n- **`silently drop`**：軟體工程黑話，指「沒有錯誤訊息地丟掉某資訊」，常用於描述潛在 bug。\n\n下次跟同事/廠商描述類似匯出問題，可以這樣寫：\n> `Hey, Excel is silently truncating the decimal places when the integer part exceeds 10 digits. Repro: export a row where 期末數量 > 10 digits with non-zero decimals.`\n\n簡潔、精準、可重現步驟齊全 — 這就是工程英文的核心。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5f27032358a8",
+      "date": "20260522",
+      "front": "這次你用中文發問,我來提供你想表達這段內容時可以用的英文說法:",
+      "body": "這次你用中文發問,我來提供你想表達這段內容時可以用的英文說法:\n\n| 中文原句 | 自然英文 |\n|---------|---------|\n| 先插播一個問題:那像剛剛這種條件,在基本查詢中是可以做到的嗎? | **Quick side question** — can this kind of condition be achieved in the **basic query** instead? |\n\n**用詞重點:**\n- **「插播一個問題」** → `Quick side question` 是英文工作場合非常常用的開場,或用 `On a tangent —` / `Just a quick aside —`,都表示「岔開一下主題」。\n- **「剛剛這種條件」** → `this kind of condition` 比 `like this condition` 更道地;或用 `the same condition we just talked about`。\n- **「是可以做到的嗎」** → `can it be achieved?` 或 `is it doable?` / `is it possible?` 都自然。\n\n**完整替代說法:**\n- *Quick side question — can we pull off the same condition in the basic query mode?* (口語,`pull off` = 順利做到)\n- *Quick aside: is the same filter achievable in the basic query?* (簡潔,書面)\n- *Before we go further — is this kind of condition supported in the basic query mode?*",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "43e4ec28aafe",
+      "date": "20260522",
+      "front": "\"product_category in ( '' )\"",
+      "body": "你的句子可以更道地一些:\n\n| 你的原句 | 更道地的寫法 |\n|---------|------------|\n| So if I want add \"product_category in ( '' )\" this condition. Is not it 達成 now? | So if I want to add a condition like `product_category in ('')`, **isn't it already achievable** right now? |\n\n**說明:**\n- `if I want add` 漏了 `to` → 應為 `if I want **to** add`(want + to + 原形動詞)。\n- `\"...\" this condition` 是中式英語結構(把指示代名詞放在後面)。英文習慣是 `a condition like \"...\"` 或 `this condition: \"...\"`,把指示代名詞放前面。\n- `Is not it 達成 now?` 應該是 `**Isn't it** achievable / already supported now?`。`Is not it` 雖然文法可通,但口語/書面英語都用縮寫 `Isn't it`。\n- 「達成」在這個語境裡可以翻成 `achievable`、`supported`、`possible`,或直接用 `Can I already do this now?`。\n\n**更口語的替代:**\n- *Can I already do `product_category in ('')` with the current implementation?*\n- *Is `product_category in ('')` already supported right now?*",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "134b03540c01",
+      "date": "20260522",
+      "front": "你這次的提問是中文,我直接幫你做翻譯練習:",
+      "body": "你這次的提問是中文,我直接幫你做翻譯練習:\n\n| 中文原句 | 自然英文 |\n|---------|---------|\n| Ok,那進階查詢的部分要支援「空值」或「空白值」查詢的話,你的做法是? | OK, so if we want the advanced query to support **NULL or empty-string filtering**, what's your approach? |\n\n**用詞重點:**\n\n- **「空值」/「空白值」** 這兩個技術概念在英文對話裡分別是:\n  - 空值 → **NULL** (大寫,SQL 標準術語) 或 **NULL value**\n  - 空白值 → **empty string** 或 **blank value**\n  - 兩者合稱:**NULL/empty values** 或 **missing values**(較通用)\n- **「你的做法是?」** 英文這種「請問你會怎麼做」的開放式問句,有幾種道地說法:\n  - *What's your approach?*(最自然,工程師對話常用)\n  - *How would you tackle this?*(略口語,`tackle` 帶有「處理一個棘手問題」的味道)\n  - *What would your implementation look like?*(偏正式,要求對方說出具體實作藍圖)\n\n**完整替代說法:**\n\n- *OK, so to support NULL/empty filtering in the advanced query — what's your approach?*\n- *Alright, if we want NULL or empty-string queries in the advanced query mode, how would you tackle it?*\n- *OK, what's your plan for adding NULL/empty-value support to the advanced query?*",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0d4018f1176f",
+      "date": "20260522",
+      "front": "用詞重點:**",
+      "body": "| 你的原句 | 自然英文 |\n|---------|---------|\n| Fix #4,#5 and #6 | Fix #4, #5, **and** #6. |\n\n**用詞重點:**\n\n- 你的句子幾乎完美!唯一的小細節是**英文的列舉逗號習慣**:\n  - 中文用「,」連接:`#4,#5 和 #6`\n  - 英文用 `,` + 空格 + 最後一項前用 `and`:`#4, #5, and #6`\n  - 注意 `#4,#5` 之間少了空格 — 英文標點後習慣加一個空格\n- **Oxford comma**(牛津逗號):`#4, #5,` 後面的那個 comma(和 `and` 之間的逗號)是英文寫作風格爭議點:\n  - 加(美式 + 學術):`#4, #5, and #6` ← 較常用,語意更清晰\n  - 不加(英式 + 報紙):`#4, #5 and #6`\n  - 工程師對話兩者都可,加的比較不會誤解\n- 短指令(imperative)如 `Fix X` 在 code review 場景**非常道地**,不需要寫成完整句子\n\n**完整替代說法:**\n\n- *Fix #4, #5, and #6.* — 標準寫法\n- *Please address #4, #5, and #6.* — 較有禮貌,書面 review 留言常用\n- *Let's fix #4–#6.* — 連續編號可以用 dash 簡寫(en-dash `–`,而非 hyphen `-`),工程師常用快捷寫法\n- *Go ahead and fix all three.* — 口語感,知道對方知道哪三個的情況下",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "f4aac0c3860a",
       "date": "20260521",
       "front": "`OK` 在英文裡其實是很萬用的口語確認,但你既然是在工程協作場景,我想拓展一下你能用的「同意/確認」的表達(從輕到正式):",
