@@ -1,6 +1,87 @@
 {
   "entries": [
     {
+      "id": "ee1cc90e81b3",
+      "date": "20260524",
+      "front": "你寫的 \"update\" 作為指令簡潔明瞭，是完全正確的用法。",
+      "body": "- 你寫的 \"update\" 作為指令簡潔明瞭，是完全正確的用法。\n- 稍微完整一點的說法：\"Update VERSION.md and CHANGELOG.md to reflect the latest change.\" — 加上 **\"to reflect the latest change\"** 可以讓意圖更明確，不過在對話脈絡清楚的情況下，你的寫法已經很好了。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "d1bbcb1d7e67",
+      "date": "20260524",
+      "front": "\"Is there a cap on how many waitlisted entries each activity can have?\"",
+      "body": "你這次沒有寫英文，所以我來幫你翻譯這個問題：\n\n- 中文：「目前每個 activity 最多可以有幾個候補？有設定上限嗎？」\n- 英文：\"Is there a cap on how many waitlisted entries each activity can have?\"\n\n**補充說明：**\n- **cap** 在這裡是「上限」的口語用法，比 `maximum limit` 更簡潔自然。\n- 也可以說 \"Is the waitlist capped per activity?\" — 更精簡的問法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bcf8d0bd7d84",
+      "date": "20260524",
+      "front": "\"Since users will see this...\"",
+      "body": "- 中文：「因為用戶會在前端畫面看到，所以可以的話改成中文」\n- 英文：\"Since users will see this on the frontend, could you change it to Chinese?\"\n\n**補充：**\n- **\"Since users will see this...\"** 用 \"since\" 帶出原因，比 \"because\" 語氣更輕鬆自然，適合同事間的請求。\n- 也可以更口語地說 \"This is user-facing, so let's make it Chinese.\"  — **user-facing** 是前後端開發常用術語，表示「會被終端用戶看到的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bbbc29d9e3f4",
+      "date": "20260524",
+      "front": "\"Update the CHANGELOG and VERSION files.\"",
+      "body": "你的訊息「更新」是中文，對應的自然英文表達：\n\n- \"Update the CHANGELOG and VERSION files.\" — 直接且清楚的指令句。\n- 也可以說 \"Please bump the version and add a changelog entry.\" — **bump** 在開發語境中專指「升版」，非常地道。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a9954d303f8e",
+      "date": "20260524",
+      "front": "\"Did we forget to...\"",
+      "body": "- 中文：「這一版的是不是沒補到？」\n- 英文：\"Wasn't this version's changelog missed?\" 或更自然的：\"Did we forget to update the changelog for this commit?\"\n\n**補充：**\n- **\"Did we forget to...\"** 用 \"we\" 而非 \"you\" 是比較禮貌的團隊用語，即使是對方的疏忽也不會讓人覺得被指責。\n- **miss** vs **forget**：兩者都可以，\"miss\" 偏向「不小心漏掉」，\"forget\" 偏向「忘了做」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "703441f81b96",
+      "date": "20260524",
+      "front": "\"bump\"",
+      "body": "你沒有寫英文句子，所以我來提供一個對應你需求的自然英文表達：\n\n- 「我想改成 N+6」→ \"I'd like to change it to N+6.\" 或 \"I want to bump the limit from N+2 to N+6.\"\n- **\"bump\"** 在口語中常用於表達「將數值調高」，比 \"change\" 更具體且自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "460dc4710e01",
+      "date": "20260524",
+      "front": "\"while you're at it\"",
+      "body": "- 中文：「補一下」\n- 英文：\"Update those as well.\" 或 \"Go ahead and update those too.\"\n\n**補充：**\n- 「補一下」在這裡帶有「順手補上遺漏的東西」的語氣，英文可以用 **\"while you're at it\"** 來傳達這個「順便」感：\"Update VERSION and CHANGELOG while you're at it.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3f6261ad567e",
+      "date": "20260524",
+      "front": "\"ff6ffd2...\"",
+      "body": "你的句子: *「那如果我 \"ff6ffd2...\" 這版要 merge 的話可以嗎?」*\n\n對應的英文 git 情境問法:\n\n| 較直譯 | 更自然 |\n| --- | --- |\n| Can I merge this version \"ff6ffd2\"? | Is it safe to merge `ff6ffd2` in? / Can I still merge `ff6ffd2` cleanly? |\n\n**重點**:\n- 在 git 情境裡通常不會說 \"version\"(那比較像 release 編號),用 **commit** 或直接報 SHA 就好\n- **merge ... in** 帶上 `in` 更口語、更自然地表達「把它併進來」\n- **cleanly** 是 git 圈很常見的字,專指「沒有衝突」,正好對應你想問的「可以嗎」",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "230f75a896fc",
+      "date": "20260524",
+      "front": "\"Go ahead and set a waitlist cap — the rule is N+6.\"",
+      "body": "你這次也沒有寫英文，幫你翻譯：\n\n- 中文：「那幫我設定候補上限好了，規則是 N+6」\n- 英文：\"Go ahead and set a waitlist cap — the rule is N+6.\"\n\n**補充：**\n- **Go ahead and...** 是很自然的口語用法，表示「那就做吧」的語氣，比 \"Please help me\" 更果斷。\n- **cap** 用作名詞時是「上限」，前面已出現過動詞用法 \"Is the waitlist capped?\"，名詞/動詞兩用很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "0ee107a0e712",
       "date": "20260524",
       "front": "\"ff6ffd2...\"",
