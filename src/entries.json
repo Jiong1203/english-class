@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "fb345d37b04a",
+      "date": "20260525",
+      "front": "\"Also make sure it won't trigger LINE's push message billing.\"",
+      "body": "你這次沒有寫英文。翻譯你的指令：\n- 「然後要確保不會觸發到 LINE 的 push 計費機制」\n- → \"Also make sure it won't trigger LINE's push message billing.\"\n\n**補充：** \"trigger\" 在這裡很精準。也可以說 \"incur push charges\" 或 \"count against the push quota\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "efccadb8dc2c",
       "date": "20260525",
       "front": "你的英文「Could you fix those three 弱點?」基本通順，但混了中文名詞。完整英文版本可以這樣說：",
@@ -28,6 +37,24 @@
       ]
     },
     {
+      "id": "e4bdaf39dcb8",
+      "date": "20260525",
+      "front": "\"We're running into an issue.\"",
+      "body": "你這次全程使用中文，以下是自然的英文翻譯：\n\n- 「現在遇到一個問題」→ \"We're running into an issue.\"\n- 「為了避開 LINE 的 push 付費計算機制」→ \"To avoid LINE's paid push message billing.\"\n- 「有時間的誤差」→ \"There's a timing lag / the information can be stale.\"\n- 「有沒有其他方法可以改善」→ \"Are there any other ways to improve this?\" 或 \"Is there a better approach?\"\n\n**補充：** \"避開\" 在這個語境下用 \"avoid\" 或 \"work around\" 都很自然。若想強調「繞過限制」的感覺，可以說 \"work around LINE's push billing model\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c5a5e7e595f3",
+      "date": "20260525",
+      "front": "你寫的「請先修復 review 發現的問題」翻成英文：",
+      "body": "你寫的「請先修復 review 發現的問題」翻成英文：\n- → \"Please fix the issues found in the review first.\"\n\n**補充：** 也可以更口語地說 \"Address the review findings first.\" 在 code review 語境中，\"address\" 比 \"fix\" 更常用，因為有些 finding 不一定是 bug，可能只是需要改善。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "b9bc3b1c7636",
       "date": "20260525",
       "front": "你寫的「Please commit those changes.」非常自然,工程師日常用法的標準說法。簡單但精準的指令是英文工程協作的好範例。",
@@ -38,6 +65,15 @@
       ]
     },
     {
+      "id": "a6e1ce62c663",
+      "date": "20260525",
+      "front": "你寫的「我要方案三!」翻成英文：",
+      "body": "你寫的「我要方案三!」翻成英文：\n- → \"I'll go with Option 3!\" 或 \"Let's go with Option 3!\"\n\n**補充：** \"I want Option 3\" 文法正確但語氣比較直接。在團隊溝通中，\"Let's go with...\" 或 \"I'd like to go with...\" 更自然順暢。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
       "id": "a48d0b8bb2a4",
       "date": "20260525",
       "front": "你說的「I think the plan B is better.」文法沒錯,但有個小地方可以更自然:",
@@ -45,6 +81,24 @@
       "tags": [
         "grammar",
         "comparison"
+      ]
+    },
+    {
+      "id": "9e5689af4c37",
+      "date": "20260525",
+      "front": "\"Please help me organize the commands that OWNER and ADMIN can use in one-on-one chat rooms.\"",
+      "body": "你這次沒有寫英文句子，所以我來翻譯你的中文指令：\n\n- 「請幫我整理 OWNER 跟 ADMIN 可以在一對一聊天室中下的指令」\n- → \"Please help me organize the commands that OWNER and ADMIN can use in one-on-one chat rooms.\"\n\n**補充說明：** \"下指令\" 翻譯為 \"issue commands\" 或 \"use commands\" 都可以。\"一對一聊天室\" 在 LINE 的技術文件中通常稱為 \"1:1 chat\" 或 \"direct message (DM)\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "78971914d387",
+      "date": "20260525",
+      "front": "你寫的 \"do it.\" 翻成中文是「做吧。」或「動手吧。」",
+      "body": "你寫的 \"do it.\" 翻成中文是「做吧。」或「動手吧。」\n\n這是非常道地的英語口語表達。簡短有力，在確認方案後表示「就這樣開始」的意思。類似用法還有：\n- \"Go for it.\" — 放手做吧\n- \"Let's roll.\" — 開始吧\n- \"Ship it.\" — （軟體開發常用）發佈/上線吧",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -61,6 +115,15 @@
       "date": "20260525",
       "front": "此次互動為中文指令，無英文句子可分析。若下次想用英文下指令，可以這樣說：「Please read everything in `@<folder>` first; I'll tell you the next step.」其中 `read everything in` 比 `r…",
       "body": "此次互動為中文指令，無英文句子可分析。若下次想用英文下指令，可以這樣說：「Please read everything in `@<folder>` first; I'll tell you the next step.」其中 `read everything in` 比 `read the folder` 更精準（資料夾本身不是「可讀」的，內容才是），而 `I'll tell you the next step` 比 `I will tell you what's the next step to do` 更精簡自然——原句的 `what's the next step to do` 同時用了 `what` 和 `to do`，語意上重複了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "30baa28329ef",
+      "date": "20260525",
+      "front": "你寫的 \"前後端的 VERSION.md & CHANGELOG.md 都要更新並且 commit\" 翻成英文：",
+      "body": "你寫的 \"前後端的 VERSION.md & CHANGELOG.md 都要更新並且 commit\" 翻成英文：\n- → \"Update VERSION.md and CHANGELOG.md for both frontend and backend, then commit.\"\n\n**補充：** \"前後端\" 可以說 \"both frontend and backend\" 或更簡潔的 \"both repos\"。在 Git 語境中也常聽到 \"bump the version and update the changelog\"。",
       "tags": [
         "note"
       ]
