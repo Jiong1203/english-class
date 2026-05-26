@@ -1,6 +1,205 @@
 {
   "entries": [
     {
+      "id": "febe5c638b20",
+      "date": "20260526",
+      "front": "你寫的 \"Why the condition #1 and condition #2 順序會交換?\" 混搭了中英文，很自然的口語表達。全英文的話可以寫成：",
+      "body": "你寫的 \"Why the condition #1 and condition #2 順序會交換?\" 混搭了中英文，很自然的口語表達。全英文的話可以寫成：\n\n> \"Why do condition #1 and condition #2 swap their order?\"\n\n- **\"Why the condition...\"** → **\"Why do condition #1 and #2...\"**（疑問句要用 do 倒裝：Why + do + subject + verb）\n- 你的句型 \"Why the X...\" 是中文語序直譯，英文需要助動詞倒裝才合文法。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "fd43e75ba596",
+      "date": "20260526",
+      "front": "\"命令預覽顯示有異常，請調整承跟...相同方式\"",
+      "body": "你的句子 \"命令預覽顯示有異常，請調整承跟...相同方式\" 是中文指令，以下是對應的英文表達：\n\n- \"The 'Command Preview' display is abnormal. Please adjust it to match the same approach used in TopicViewer.vue.\"\n- **補充：** \"adjust it to match\" 是很自然的用法，表示「調整使其一致」。也可以說 \"align it with\" 來表達同樣的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e6b0ccd13fde",
+      "date": "20260526",
+      "front": "\"Ok good 說明!\"",
+      "body": "\"Ok good 說明!\" — 如果要用英文表達同樣的意思，可以說：\n- \"Ok, good explanation!\" — 最直接的對應。`explanation` 比 `description` 更適合，因為你是在肯定我對 icsc 不需調整的「解釋」，而非單純的「描述」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c7789a83cb8a",
+      "date": "20260526",
+      "front": "\"can ... no longer\"",
+      "body": "你的句子 \"進階查詢的值現在是不是不能使用'空白字元'?\" 翻譯成英文：\n\n> \"Can the advanced query values no longer accept space characters?\"\n\n- **「是不是不能」** → **\"can ... no longer\"** — 表示「以前可以但現在不行了嗎？」的意思，用 \"no longer\" 很精準。\n- 另一種問法：**\"Has the advanced query stopped accepting space characters in the value field?\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bfa04f9d5e51",
+      "date": "20260526",
+      "front": "\"What I mean is\"",
+      "body": "你這次全中文溝通，我來提供英文對照：\n\n> \"What I mean is: why do the conditions swap their order when I open the saved mytopic in MyTopicViewer — the original condition #1 becomes condition #2, and vice versa?\"\n\n- **「不是我的意思是」** → **\"What I mean is\"** — 用來澄清對方的誤解，很實用的句型。\n- **「打開後…卻變成」** → **\"when I open it, ... becomes ...\"** — 用 when 子句描述觸發時機。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b8588de81fd7",
+      "date": "20260526",
+      "front": "你的描述「空白字元的數量並沒有一致」英文可以說：",
+      "body": "你的描述「空白字元的數量並沒有一致」英文可以說：\n\n> \"The number of whitespace characters doesn't match between the two.\"\n\n- **「並沒有一致」** → **\"doesn't match\"** — 簡潔有力，比 \"is not consistent\" 更口語自然。\n- 也可以說 **\"The whitespace count is inconsistent between the two displays.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "aff6fbb22467",
+      "date": "20260526",
+      "front": "\"Does the ICSC side need the same changes?\"",
+      "body": "你沒有寫英文句子，提供一個實用的表達：\n\n- \"Does the ICSC side need the same changes?\" — 你的問題用英文可以這樣問。`the same changes` 簡潔地指「相同的調整」，比 \"Does ICSC also need to be adjusted?\" 更具體，因為它暗示了是指同一組修改。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ab694636d64c",
+      "date": "20260526",
+      "front": "\"use image #1 to save\"",
+      "body": "你的句子 \"I use image #1 to save mytopic, but I open mytopic 卻變成 image #2\" 混用了中英文，但溝通上很清楚。如果要全英文，可以說：\n\n> \"I saved a mytopic using the setup shown in Image #1, but when I open it, it looks like Image #2 — the advanced query conditions are incomplete.\"\n\n- **\"use image #1 to save\"** → **\"saved using the setup shown in Image #1\"**（用 image #1 的設定來存，而不是「用圖片來存」）\n- **\"conditions is error\"**（上一句）→ **\"conditions are incomplete\"**（更精確描述缺失的狀況）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a4099ca64734",
+      "date": "20260526",
+      "front": "\"look at\"",
+      "body": "\"Please look at image\" — 這句文法正確也很簡潔！更自然一點的說法：\n\n> \"Please take a look at this image.\"\n\n- **\"look at\"** vs **\"take a look at\"** — 兩者都正確，但 \"take a look at\" 語氣更自然且稍帶禮貌，適合請求別人花時間檢視的情境。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a399078174fe",
+      "date": "20260526",
+      "front": "\"Can we optimize this proactively? We'll definitely have hundreds of records in the future.\"",
+      "body": "你沒有寫英文句子，提供一個討論效能優化時的實用表達：\n\n- \"Can we optimize this proactively? We'll definitely have hundreds of records in the future.\" — `proactively` 精確表達「優先/預先」的意思，`definitely` 比 \"probably\" 更能傳達你對未來資料量增長的確定性。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a221ee3a43d2",
+      "date": "20260526",
+      "front": "\"I'll analyze the codebase and create a CLAUDE.md file.\"",
+      "body": "本次未收到英文句子，以下是實用的相關表達：\n\n- \"I'll analyze the codebase and create a CLAUDE.md file.\" — 這是說明即將執行分析工作的自然寫法。\n- 如果想請人建立文件，可以說：\"Could you set up an onboarding guide for this repository?\" — 用 `set up` 比 `create` 更強調「配置/建立一套完整的東西」的語感。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "97352bf47c98",
+      "date": "20260526",
+      "front": "\"Only mytopics the user is authorized to access — or created themselves — should appear in the cascader.\"",
+      "body": "你沒有寫英文句子，提供一個相關的自然表達：\n\n- \"Only mytopics the user is authorized to access — or created themselves — should appear in the cascader.\" — 這句話精確描述了你的需求。注意 `authorized to access` 比 `have permission` 更正式，而 `created themselves` 用反身代名詞強調「自己建立的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "919fac63e92b",
+      "date": "20260526",
+      "front": "\"Why isn't it ... like ...\"",
+      "body": "你這次沒有寫英文句子，所以我幫你把問題翻譯成英文供參考：\n\n> \"When saving as a dataset in SqlManager.vue, the 'authCode' field requires manual input. Why isn't it a dropdown select like the one in DataSetList.vue's edit dialog?\"\n\n**學習重點：** 「為什麼不是跟...一樣」可以用 **\"Why isn't it ... like ...\"** 或 **\"Why doesn't it match ...\"** 來表達。例如：*\"Why doesn't it match the edit dialog's dropdown approach?\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "861f9ff4a0cf",
+      "date": "20260526",
+      "front": "\"The changes look good to me.\"",
+      "body": "你這次沒有寫英文句子，以下提供本次 review 相關的實用表達：\n\n> \"The changes look good to me — the auth code field now uses a dropdown, which is consistent with the edit dialog in DataSetList.vue.\"\n\n**學習重點：**「看起來沒問題」在 code review 中常用 **\"LGTM\" (Looks Good To Me)** 或更完整的 *\"The changes look good to me.\"*。「與...保持一致」則用 **\"consistent with\"**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8332a670f839",
+      "date": "20260526",
+      "front": "\"conditions is\"",
+      "body": "Your sentence \"I use '進階查詢' to set conditions in @file, and then I save to mytopic, but conditions is error in @file\" is understandable but has a grammar issue. \"conditions is error\" should be \"the conditions are wrong\" or \"the conditions are incorrect.\" Here's a more natural version:\n\n> \"I set conditions using '進階查詢' in TopicViewer, then save them to mytopic, but the conditions come out wrong in MyTopicViewer.\"\n\n- **\"conditions is\"** → **\"conditions are\"**（conditions 是複數，動詞要用 are）\n- **\"is error\"** → **\"are wrong/incorrect\"**（\"error\" 是名詞，不能直接接在 be 動詞後面當形容詞用；用 \"wrong\" 或 \"incorrect\"）",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "7a4efa63ca38",
+      "date": "20260526",
+      "front": "\"Does it filter the mytopic list by permission?\"",
+      "body": "你沒有寫英文句子，以下提供相關技術討論的自然表達：\n\n- \"Does it filter the mytopic list by permission?\" — 這是詢問是否依權限過濾的自然說法。用 `filter ... by permission` 比 `display according to authority` 更道地。\n- 另一種說法：\"Are mytopics access-controlled based on user roles?\" — 用 `access-controlled` 更精確地表達「依權限控管存取」的概念。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "71d3e7cb07f5",
+      "date": "20260526",
+      "front": "\"More precisely\"",
+      "body": "你的句子「應該說是動態組SQL的部分在進階查詢無法組出」翻譯成英文：\n\n> \"More precisely, the dynamic SQL composition part fails to generate the query in the advanced query mode.\"\n\n- **「應該說是」** → **\"More precisely\"** 或 **\"To be more specific\"** — 用來修正或補充先前說法，非常自然的表達。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "61d3e104d471",
+      "date": "20260526",
+      "front": "\"Ok, improve all\"",
+      "body": "\"Ok, improve all\" — 簡潔有力，語意完全清楚。更正式一點的說法可以是 \"Go ahead and fix all of them.\" 或 \"Please apply all the fixes.\" 都是很自然的表達方式。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "18838b01dfb1",
+      "date": "20260526",
+      "front": "\"After your fix, ... but ...\"",
+      "body": "你這次的中文訊息很精確，我來提供英文翻譯：\n\n> \"After your fix, the generated SQL is in the correct order, but the conditions below (#1 and #2) are still visually swapped. Please investigate and fix this.\"\n\n- **「修正後雖然…但是…」** → **\"After your fix, ... but ...\"** — 很好的讓步+轉折結構\n- **「請仔細檢查並修正」** → **\"Please investigate and fix this\"** — investigate 比 check 更適合用在需要深入排查的情境",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1647d3b96a69",
+      "date": "20260526",
+      "front": "\"Please review all the UI in MyTopicViewer.vue again and check for any anomalies.\"",
+      "body": "你這次的指令是中文，以下是自然的英文表達：\n\n- \"Please review all the UI in MyTopicViewer.vue again and check for any anomalies.\"\n- **補充：** \"check for anomalies\" 或 \"look for issues\" 都是很常見的說法。也可以說 \"audit the UI for any inconsistencies\"，語感更正式。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0605176d032c",
+      "date": "20260526",
+      "front": "\"Do 【...】\"",
+      "body": "你寫了 **\"Do 【...】\"** — 這裡用 \"Do\" 作為指令非常簡潔有力，語意清楚。更完整的寫法可以是：\n\n> *\"Go ahead and apply that suggestion.\"*\n> *\"Please implement the parallel API call improvement.\"*\n\n**學習重點：** 在指令情境中，**\"Do X\"** 是完全合法且自然的祈使句。如果想稍微禮貌一點，可以加 *\"Go ahead and...\"*，語氣更像是「你就去做吧」的授權感。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0348a346d2f2",
+      "date": "20260526",
+      "front": "\"in sync\"",
+      "body": "你的句子「這兩處必須要同步!」簡潔有力，英文可以說：\n\n> \"These two must be in sync!\"\n\n- **「同步」** → **\"in sync\"** — 非常精準的對應，技術和日常英文都常用。\n- 另一種說法：**\"These two outputs must match.\"**（強調結果要一致）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fb345d37b04a",
       "date": "20260525",
       "front": "\"Also make sure it won't trigger LINE's push message billing.\"",
