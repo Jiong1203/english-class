@@ -1,6 +1,114 @@
 {
   "entries": [
     {
+      "id": "ea9f92f6ece3",
+      "date": "20260527",
+      "front": "\"Given the same mytopic, could you help me identify what differences might exist between the results produced by the two components?\"",
+      "body": "您沒有提供英文句子，這裡提供等效英文說法：\n\n> 「請協助確認以相同一份 mytopic 的前提下，兩個元件產出的結果可能會有哪裡不同」\n\n自然英文翻譯：\n> \"Given the same mytopic, could you help me identify what differences might exist between the results produced by the two components?\"\n\n💡 **語言小補充：**\n- `\"Given the same X\"` = 以相同的 X 為前提（常用學術/技術表達）\n- `\"identify differences between A and B\"` 比 `\"check where A and B differ\"` 更正式\n- 也可說 `\"Under the assumption that both components share the same mytopic...\"` 語氣更嚴謹",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e0da89d35866",
+      "date": "20260527",
+      "front": "你寫的 \"紅色區塊內顯示不完整，請優化\" 的自然英文對應是：",
+      "body": "你寫的 \"紅色區塊內顯示不完整，請優化\" 的自然英文對應是：\n\n**\"The content inside the red-highlighted area isn't fully displayed — please fix it.\"**\n\n補充：「顯示不完整」可以說 **\"not fully displayed\"**、**\"cut off\"**（被截斷）或 **\"clipped\"**（技術術語，對應這個 bug 最精確）。例如：*\"The step number badges are getting clipped — can you fix the overflow?\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d6e0f7a0e147",
+      "date": "20260527",
+      "front": "\"The requirement is that the Excel file produced by NotificationSchedule should match the content displayed in MyTopicViewer.\"",
+      "body": "您沒有提供英文句子，這裡提供等效英文翻譯：\n\n> 「需求是要 NotificationSchedule 這邊最後產出的 excel 檔案要跟 MyTopicViewer 所呈現的是一樣的內容」\n\n自然英文翻譯：\n> \"The requirement is that the Excel file produced by NotificationSchedule should match the content displayed in MyTopicViewer.\"\n\n💡 **語言小補充：**\n- `\"should match\"` = 應該要一致（比 `\"should be the same as\"` 更簡潔地道）\n- `\"the content displayed in X\"` = X 所呈現的內容（名詞化寫法，更自然）\n- 也可說：`\"The Excel output from the scheduled notification must be consistent with what MyTopicViewer shows.\"` — 用 `must` 強調強制需求，`consistent with` 強調一致性",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d09d6ae7cad1",
+      "date": "20260527",
+      "front": "\"When saving a dataset, there should be a dropdown for selecting the **permission code**.\"",
+      "body": "你這次沒有提供英文句子，所以我來翻譯你的指令：\n\n- 中文：「保存資料集時應該要有【權限碼】下拉選單可以設定」\n- English: \"When saving a dataset, there should be a dropdown for selecting the **permission code**.\"\n\n**補充說明：** \"dropdown\" 在 UI 語境中是最常見的說法，也可以說 \"dropdown selector\" 或 \"select field\"。\"permission code\" 是「權限碼/權限代碼」的標準翻譯。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c6b05c72ba7a",
+      "date": "20260527",
+      "front": "你寫的 \"Can you make the auth_code_usage_guide.md into an HTML user manual?\" 的自然英文等價是：",
+      "body": "你寫的 \"Can you make the auth_code_usage_guide.md into an HTML user manual?\" 的自然英文等價是：\n\n**\"Can you convert auth_code_usage_guide.md into an HTML user manual?\"**\n\n補充：「做成」在這個語境下用 **\"convert ... into\"** 最精確，表示從一種格式轉換成另一種。也可以說 **\"turn it into\"**，更口語一些。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b7cb0100a9c0",
+      "date": "20260527",
+      "front": "你寫的「優化一下」對應的自然英文是：",
+      "body": "你寫的「優化一下」對應的自然英文是：\n\n**\"Can you polish/improve the `auth_code_usage_guide.html`?\"**\n\n補充：「優化」在技術情境中常用 **\"optimize\"**（效能導向）或 **\"polish/improve/refine\"**（品質導向）。這裡的情境是介面調整，用 **\"refine\"** 或 **\"improve\"** 最貼切，例如：*\"Please refine the HTML manual with the following fixes.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9d8bba678dd6",
+      "date": "20260527",
+      "front": "\"I've updated the CLAUDE.md with improvements.\"",
+      "body": "這次沒有英文輸入，以下提供本次作業相關的實用英文：\n\n- \"I've updated the CLAUDE.md with improvements.\" — 我已經更新了 CLAUDE.md 的改進內容。\n- \"The existing documentation was comprehensive but missing some key operational details.\" — 現有文件已很完整，但缺少一些關鍵的操作細節。\n- **補充片語**：\"flesh out\" 意思是「充實、補充細節」，例如 \"I fleshed out the missing sections.\"（我補充了缺少的章節內容。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7279cbe9be36",
+      "date": "20260527",
+      "front": "\"Initialize a CLAUDE.md file\"",
+      "body": "本次對話中您沒有撰寫英文句子。以下提供一個與本次任務相關的實用英文表達：\n\n- **\"Initialize a CLAUDE.md file\"** — 這裡 \"initialize\" 是很好的用法，表示「建立初始版本」。另一種說法是 **\"Bootstrap a CLAUDE.md file\"**，在技術語境中帶有「從零開始設定」的意涵。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5cff2ca25b5e",
+      "date": "20260527",
+      "front": "你寫的 \"幫我了解一下 ... 的 merge change and give me 建議\" 混用了中英文，這在工作對話中完全自然。英文部分 \"merge change and give me\" 語法正確，不過如果想讓英文部分更完整，可以說：",
+      "body": "你寫的 \"幫我了解一下 ... 的 merge change and give me 建議\" 混用了中英文，這在工作對話中完全自然。英文部分 \"merge change and give me\" 語法正確，不過如果想讓英文部分更完整，可以說：\n\n> \"Help me understand the merge changes and give me suggestions.\"\n\n`merge change` → `merge changes`（複數較自然，因為通常不止一個變更）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3784642223cc",
+      "date": "20260527",
+      "front": "你寫的 \"read first\" 是很自然的簡短指令，意思清楚表達了「先讀這個檔案」。另一種常見的說法是 **\"Please read this file first.\"** — 加上 \"please\" 和 \"this file\" 讓語氣更完整，但在指令式溝通中省略是完全沒問題…",
+      "body": "你寫的 \"read first\" 是很自然的簡短指令，意思清楚表達了「先讀這個檔案」。另一種常見的說法是 **\"Please read this file first.\"** — 加上 \"please\" 和 \"this file\" 讓語氣更完整，但在指令式溝通中省略是完全沒問題的。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "27f4c60520af",
+      "date": "20260527",
+      "front": "\"Please organize a usage flow manual for the authorization code feature.\"",
+      "body": "你這次的訊息是中文，以下提供自然的英文對應：\n\n**\"Please organize a usage flow manual for the authorization code feature.\"**\n\n補充說明：「整理一份手冊」可以用 **\"organize\"** 或 **\"put together\"**，例如 *\"Could you put together a guide for the auth code workflow?\"* 兩者都很自然，`put together` 更口語一些。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0ba844e0e036",
+      "date": "20260527",
+      "front": "\"What if we update `mytopicShared.condition` with the latest query conditions every time the mytopic is saved?\"",
+      "body": "您沒有提供英文句子，以下提供等效英文翻譯：\n\n> 「那如果 `mytopicShared.condition` 在每次 mytopic 被更新的時候都把最新的查詢條件更新進去呢？」\n\n自然英文翻譯：\n> \"What if we update `mytopicShared.condition` with the latest query conditions every time the mytopic is saved?\"\n\n💡 **語言小補充：**\n- `\"What if we...\"` = 那如果我們...呢？（提出假設方案的最自然英文句型）\n- `\"every time X is saved\"` 比 `\"every time X is updated\"` 更口語，saved 強調使用者主動儲存\n- 也可說 `\"How about syncing the condition to mytopicShared whenever a mytopic update is committed?\"` — `syncing` 強調「同步」這個概念，語意更精準",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "febe5c638b20",
       "date": "20260526",
       "front": "你寫的 \"Why the condition #1 and condition #2 順序會交換?\" 混搭了中英文，很自然的口語表達。全英文的話可以寫成：",
