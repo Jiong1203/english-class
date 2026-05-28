@@ -10,6 +10,16 @@
       ]
     },
     {
+      "id": "ed950ba5db3f",
+      "date": "20260528",
+      "front": "你訊息全中文,以下是這次需求的自然英文寫法:",
+      "body": "你訊息全中文,以下是這次需求的自然英文寫法:\n\n| 不推薦 (生硬直譯) | 推薦 (自然說法) |\n| --- | --- |\n| Please fill the command list in welcome card, and add one command can call welcome card | Please flesh out the command list in the welcome card, and add a command that re-displays the welcome card on demand |\n| !flexmessage is not easy to remember, can we replace it? | `!flexmessage` is hard to recall — could we rename it to something more memorable? |\n\n**重點解析:**\n- `flesh out` 是「把(框架/草稿)補齊細節」的慣用片語,比 `fill` 更精準描述「在既有結構上補上內容」。\n- `re-displays ... on demand` 把「隨時呼叫」拆成 *re-display*(再次顯示)+ *on demand*(按需),比 `can call ... so that user can ...` 簡潔很多。\n- `hard to recall` 比 `not easy to remember` 自然;在軟體討論裡 `recall` 常用於「想起指令/名稱」這類記憶任務。\n- `memorable` 是工程/UX 詞彙中對應「好記」的標準形容詞 —— 例如 *memorable URL*、*memorable shortcut*。",
+      "tags": [
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
       "id": "cc6b3f8cc367",
       "date": "20260528",
       "front": "\"I clicked the '更新/存到最愛' button to update the mytopic in MyTopicViewer. I noticed that `mytopicShared.condition` wasn't updated. Please check.\"",
@@ -162,6 +172,15 @@
       "body": "你的問題：「所以在 @src/views/ezomd/Topic/components/DataSetList.vue 的\"欄位設定\"的\"日期格式\"不需要添加其他選項嗎?」\n\n自然英文說法：\n\n> \"So for the column settings' 'Date Format' field in `DataSetList.vue`, do we need to add more options — like `YYYY-MM`?\"\n\n**語氣說明：**\n- **\"do we need to add more options\"** = 需要添加其他選項嗎，比 \"don't need to add\" 的雙重否定更自然\n- **\"like `YYYY-MM`\"** = 例如 YYYY-MM，直接舉例是英文常見的說法\n- 也可說 **\"Are there any missing format options we should include?\"** = 有沒有遺漏的格式選項需要補上？（更口語化）",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "258aa5b4c372",
+      "date": "20260528",
+      "front": "你這次的訊息「現在有給OWNER的使用者教學嗎? 例如onboard流程、控制指令等等的」是中文,以下提供自然的英文說法供參考:",
+      "body": "你這次的訊息「現在有給OWNER的使用者教學嗎? 例如onboard流程、控制指令等等的」是中文,以下提供自然的英文說法供參考:\n\n| 不推薦 (直譯) | 推薦 (自然說法) |\n| --- | --- |\n| Is there a user tutorial for OWNER? Like onboard flow, control commands, etc. | Do we have any OWNER-facing documentation yet — like an onboarding guide or a command reference? |\n\n**重點解析:**\n- `user tutorial` 雖然可懂,但在軟體脈絡下 `documentation` / `guide` / `reference` 更精準。\n- `OWNER-facing` 是常見的 SaaS 寫法,表示「面向擁有者角色的(內容)」,比 `for OWNER` 更精煉。\n- `command reference` 是業界對「指令一覽表」的標準說法,比 `control commands` 自然許多 —— 後者聽起來像在講機械控制台。",
+      "tags": [
+        "comparison"
       ]
     },
     {
