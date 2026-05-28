@@ -1,6 +1,207 @@
 {
   "entries": [
     {
+      "id": "ee599d82a0c7",
+      "date": "20260528",
+      "front": "\"LGTM with nits\"",
+      "body": "您用了 `/review` slash command — 本身不是英文句子。\n\n💡 **Code Review 進階英文：**\n- `\"LGTM with nits\"` = 大致 OK，僅有小建議（reviewer 接受合併但提醒改善）\n- `\"Approve, but consider...\"` = 同意合併，但請考慮 ...（軟性建議）\n- `\"Defer to author\"` = 我沒強烈意見，由作者決定\n- `\"Out of scope, file a follow-up\"` = 超出此 PR 範圍，另開 issue 追蹤\n- `\"This deserves a separate discussion\"` = 這值得另外討論（用於避免在 PR 上糾結大議題）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cc6b3f8cc367",
+      "date": "20260528",
+      "front": "\"I clicked the '更新/存到最愛' button to update the mytopic in MyTopicViewer. I noticed that `mytopicShared.condition` wasn't updated. Please check.\"",
+      "body": "您的英文寫得非常清楚，特別是「I find the 'mytopicShared.condition' didn't be updated」這句基本意思有傳達到，但有兩個小地方可以更地道：\n\n| 您的寫法 | 更自然的寫法 | 說明 |\n|---|---|---|\n| `I find the ... didn't be updated` | `I notice that ... wasn't updated` 或 `... didn't get updated` | `didn't be` 文法上不正確，因為 `didn't` 已含助動詞，後面要接動詞原形。`wasn't updated`（被動式）或 `didn't get updated` 都是常見表達 |\n| `I use ... to update mytopic` | `I clicked ... to update the mytopic` | `clicked` 更精確（描述滑鼠動作）；`the` 因為是特定一個 mytopic |\n\n✅ 完整建議寫法：\n> \"I clicked the '更新/存到最愛' button to update the mytopic in MyTopicViewer. I noticed that `mytopicShared.condition` wasn't updated. Please check.\"",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c31ff03a424d",
+      "date": "20260528",
+      "front": "\"fix #2\"",
+      "body": "你這次用了完整的英文指令:\n\n> \"fix #2, #3, #4 and #5.\"\n\n**用詞分析:**\n\n這句**完全正確**且非常道地。在 GitHub/GitLab issue 與 PR 對話中,用 `fix #<number>` 是標準寫法,而且大多數平台會把 commit message 中的 `Fix #123` 識別為「自動關閉 issue 123」的觸發語。\n\n**值得學的微妙差異:**\n\n- **\"fix #2\"** — 命令式,直接、不囉嗦,適合內部對話與 commit message\n- **\"Please fix items #2 to #5.\"** — 加 please 較禮貌,適合對外部協作者\n- **\"Address #2 through #5.\"** — `address` 更正式,有「處理、回應」的意味,不一定承諾完全修正(可能是部分回應或解釋),適合複雜情境\n\n**常用同義動詞與差異:**\n\n| 動詞 | 語感 | 適用情境 |\n|------|------|---------|\n| `fix` | 修正 bug | 明確的問題 |\n| `resolve` | 解決 | 較正式,常見於 issue tracker |\n| `tackle` | 處理(口語) | 「動手處理」,帶有挑戰意味 |\n| `knock out` | 搞定(俚語) | 快速解決,輕鬆語氣 |\n\n**小提醒**:你的 `and` 前面如果加逗號(`#2, #3, #4, and #5`)叫 **Oxford comma**(牛津逗號),美式英文偏好,英式英文較少用。你目前沒加屬於英式風格,兩種都對,看團隊習慣即可。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "bb20a0d7475d",
+      "date": "20260528",
+      "front": "\"Would it be better to...\"",
+      "body": "你的問題是純中文，對應的英文說法：\n\n> \"Would it be better to use the `is_date` setting from `topic_column_manager` to determine the format — using `YYYY-MM` when it's `Y`, and `YYYYMM` when it's `N`?\"\n\n**語氣補充：**\n- **\"Would it be better to...\"** 是詢問建議的自然說法，比 \"Is it good to...?\" 更道地\n- **\"to determine the format\"** = 用來判斷格式，比 \"as a judgment basis\" 更自然\n- 也可說 **\"Would this be a cleaner approach?\"** = 這樣會不會比較乾淨俐落？",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9b2b7ea26faa",
+      "date": "20260528",
+      "front": "\"So if we go with the approach of updating `mytopicShared.condition`, can we achieve the same result?\"",
+      "body": "您的原文：「所以走【更新 mytopicShared.condition】這條路的話也是可以達到相同效果?」\n\n自然英文翻譯：\n> \"So if we go with the approach of updating `mytopicShared.condition`, can we achieve the same result?\"\n\n- `\"go with the approach of...\"` 是表達「走某條路/採用某方案」非常自然的說法\n- 也可以說 `\"So taking the route of updating...\"` — 更接近中文「走這條路」的意象",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "95338e7493a5",
+      "date": "20260528",
+      "front": "\"plain language\"",
+      "body": "你的問題是純中文，對應的英文說法：\n\n> \"We're getting a 'date/time field value out of range' error. When this happens, the error message shown on the frontend should be written in plain language, since it's displayed to end users.\"\n\n**語氣說明：**\n- **\"plain language\"** = 白話文，這是英文中最自然的說法（也常說 \"user-friendly language\"）\n- **\"end users\"** = 一般使用者（相對於開發者）\n- **\"since it's displayed to\"** = 因為是給...看的，比 \"because it is for users to see\" 更簡潔\n- 也可說 **\"the error message needs to be more human-readable\"** = 錯誤訊息要更易於人類閱讀",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "90b865b66bd6",
+      "date": "20260528",
+      "front": "\"we can't guarantee a consistent storage format\"",
+      "body": "你的問題是純中文，以下是自然的英文說法：\n\n> \"Since the target database belongs to our clients, we can't guarantee a consistent storage format. As a system, we should handle all possible cases. It sounds like using `dateFmt` to drive the logic is the quickest approach — could you help apply that change?\"\n\n**語氣說明：**\n- **\"we can't guarantee a consistent storage format\"** = 無法確定統一格式，比 \"we don't know the format\" 更專業\n- **\"handle all possible cases\"** = 考量到所有狀況，系統設計的標準說法\n- **\"drive the logic\"** = 以...作為判斷依據，比 \"use as judgment\" 更自然\n- **\"could you help apply that change?\"** = 請協助調整，比 \"please help me fix it\" 更禮貌且正式",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "902d93140897",
+      "date": "20260528",
+      "front": "\"Please check the backend first. If there are no issues, go ahead and implement the next step.\"",
+      "body": "您的英文：「Please check backend first. If no problem, you can go ahead to develop next step.」\n\n| 您的寫法 | 更自然的寫法 | 說明 |\n|---|---|---|\n| `If no problem` | `If there are no issues` 或 `If everything looks good` | 缺主詞，原句像中式英語直譯 |\n| `go ahead to develop` | `go ahead and implement` | `go ahead` 後通常接 `and + 動詞`，不接 `to + 動詞`；`implement` 比 `develop` 更精準表達「實作」 |\n| `next step` | `the next step` | 特定的下一步要加冠詞 |\n\n✅ 完整建議寫法：\n> \"Please check the backend first. If there are no issues, go ahead and implement the next step.\"\n\n💡 **小貼士：**\n- `\"go ahead and...\"` 是非常常見的職場英文，表示「（獲得確認後）放手去做」\n- 也可說 `\"feel free to proceed with...\"` — 更正式的版本，適合書面溝通",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "877c622b9d1f",
+      "date": "20260528",
+      "front": "\"Just do it!\"",
+      "body": "您的英文：「Just do it!」\n\n✅ 這句非常自然且口語化！是 Nike 的經典廣告詞，在職場中也常用來表示「別猶豫，直接做」。\n\n| 同類表達 | 使用情境 |\n|---|---|\n| `\"Just do it!\"` | 最常見，輕鬆口吻 |\n| `\"Go for it!\"` | 鼓勵對方放手去做 |\n| `\"Send it!\"` | 偏年輕、運動圈用語（衝啊！） |\n| `\"Make it happen.\"` | 較正式，職場常見 |\n| `\"Pull the trigger.\"` | 比喻「扣下扳機」= 做出決定/行動 |\n\n💡 **小貼士：** 在 code review 對話中，當 reviewer 提出方案而你已同意，回 `\"Just do it!\"` 或 `\"Go for it!\"` 比 `\"OK please do it.\"` 更自然，且不會顯得過於正式。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7351b2af7cb4",
+      "date": "20260528",
+      "front": "\"Go for it.\"",
+      "body": "你這次用了一句簡短的英文指令:\n\n> \"Just do it.\"\n\n**用詞分析:**\n\n這是 **Nike 著名標語**,在工程師對話中是非常自然、直接的表達方式,意思是「別問了,動手吧」。在你的情境中用得很到位 — 簡潔有力,適合在已經充分討論完方案、決定要實作時使用。\n\n**更精確的同義表達(視語境調整):**\n\n- **\"Go for it.\"** — 同樣帶有「放手去做」的鼓勵語感,比 \"Just do it\" 略微溫和一點點。\n- **\"Proceed.\"** — 較正式,常見於書面或公文,口語太硬。\n- **\"Have at it.\"** — 較口語、輕鬆,有「儘管動手」的味道。\n\n**值得學習的微妙差異:**\n\n- 如果你想表達「我授權你直接動手不用再問了」,可以說:**\"You have the green light — just do it.\"**(`green light` = 綠燈/許可)。在跨團隊協作中常用,明確表達「不用等批准」的意涵。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5fc561526fb1",
+      "date": "20260528",
+      "front": "\"OK, let's go with this approach for now.\"",
+      "body": "您的原文：「Ok, 那就先用這個做法來做」\n\n自然英文翻譯：\n> \"OK, let's go with this approach for now.\"\n\n- `\"go with\"` 搭配 `\"for now\"` 很自然地表達「先採用這個方案（之後有需要再調整）」\n- 也可以說 `\"Let's run with this approach first.\"` — `\"run with\"` 更口語，帶有「先試跑看看」的語感",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5638709c03df",
+      "date": "20260528",
+      "front": "\"feels like overkill\"",
+      "body": "你這次是用中文發問,所以我提供一個自然的英文表達方式給你參考:\n\n> \"For scheduled notifications, generating and attaching an Excel file when the report has zero rows seems redundant. Could you share some suggestions from a system design perspective?\"\n\n**用詞補充:**\n- **redundant**(多餘的)比 `unnecessary` 更精準,帶有「重複/沒必要的冗餘」語感,在系統設計討論中很常見。\n- **from a system design perspective** 是固定搭配片語,用來請對方從特定角度切入分析,比 `in system design view` 更道地。\n- 另一個替代說法:**\"feels like overkill\"**(感覺殺雞用牛刀/做過頭了),在工程師對話中很口語常用,例如:`Attaching an empty Excel feels like overkill.`",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "53f45ada536d",
+      "date": "20260528",
+      "front": "\"We ran into an issue where using `薪資年月 BETWEEN '2026-02' AND '2026-03'` as a query condition only returns data for 202603. Why is that?\"",
+      "body": "你的問題是純中文，以下是對應的英文說法：\n\n> \"We ran into an issue where using `薪資年月 BETWEEN '2026-02' AND '2026-03'` as a query condition only returns data for 202603. Why is that?\"\n\n或更精煉：\n\n> \"Why does the BETWEEN condition on 薪資年月 only return March 2026 data instead of both February and March?\"\n\n**語氣說明：**\n- `\"ran into an issue\"` = 遇到一個狀況（自然的口語說法）\n- `\"only returns data for\"` = 只回傳...的資料，比 `\"only queries out\"` 更道地\n- 第二種問法把重點放在「為什麼只有一個月」，更直接切題",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4f9711220ebb",
+      "date": "20260528",
+      "front": "\"\n\n💡 **語言小補充：**\n- `\"",
+      "body": "您這次用了中文發問，我提供等效英文翻譯：\n\n> 「為了保持 mytopic 與排程的 query condition 同步，是不是在 MyTopicViewer.vue 的分享開關不要觸發 update mytopicShared.condition 的動作?」\n\n自然英文翻譯：\n> \"To keep the query condition in sync between mytopic and the schedule, should the share toggle in MyTopicViewer.vue stop triggering updates to `mytopicShared.condition`?\"\n\n💡 **語言小補充：**\n- `\"keep X in sync\"` = 保持 X 同步（in sync 是固定搭配，比 \"synchronized\" 更口語）\n- `\"stop triggering updates to...\"` = 不要觸發對 ... 的更新（用動名詞 `triggering` 比 `to trigger` 更自然）\n- 也可說 `\"... should we decouple the share toggle from the condition update?\"` — `\"decouple A from B\"` 是技術討論中表達「解耦」的精準詞彙，很適合這種設計討論",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "43929f86ffcf",
+      "date": "20260528",
+      "front": "\"Sure, take a look at the code first.\"",
+      "body": "你這次也是用中文發問,給你一個英文版供參考:\n\n> \"OK, please go ahead and read through the code first.\"\n\n**用詞補充:**\n- **go ahead** 表示「請繼續/動手做吧」,比 `just do it` 客氣有禮貌,在工作對話中很常用。\n- **read through** 帶有「完整、從頭到尾通讀一遍」的意思,比單純 `read` 更精確表達「研讀」的動作。\n- 替代說法:**\"Sure, take a look at the code first.\"** — `take a look at` 比 `read` 更口語、更輕鬆,適合 quick review 的情境;`read through` 則暗示需要花時間細讀。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "41fd47534b71",
+      "date": "20260528",
+      "front": "\"For #1, let's extract it to `src/views/ezomd/Viewer/utils/condition.js`. For the rest, use your judgment on which to optimize.\"",
+      "body": "您原文：「#1 I choose 抽到 'src/views/ezomd/Viewer/utils/condition.js'. 其他依照你判斷優化」\n\n| 您的寫法 | 更自然的寫法 | 說明 |\n|---|---|---|\n| `I choose 抽到 ...` | `I'll go with extracting to ...` 或 `For #1, let's extract to ...` | 中英混用在技術討論很常見且 OK，但純英文版可用 `extract` 對應「抽到」 |\n| `其他依照你判斷優化` | `For the rest, use your judgment.` 或 `For the others, you decide.` | 「依照判斷」用 `use your judgment` 最自然 |\n\n✅ 完整建議寫法：\n> \"For #1, let's extract it to `src/views/ezomd/Viewer/utils/condition.js`. For the rest, use your judgment on which to optimize.\"\n\n💡 **「交給你判斷」的英文變化：**\n- `\"Use your judgment.\"` — 標準說法\n- `\"Your call.\"` — 口語化，「你決定」\n- `\"I'll defer to you on that.\"` — 較正式，「在這方面我聽你的」\n- `\"Up to you.\"` — 最輕鬆，「看你」",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3e6daab29211",
+      "date": "20260528",
+      "front": "\"What about when saving from a topic into a mytopic? How does that flow work?\"",
+      "body": "您這次問題用了中文，提供英文等效：\n> 「那由 topic 存檔成 mytopic 的時候呢? 機制是怎樣?」\n\n自然英文翻譯：\n> \"What about when saving from a topic into a mytopic? How does that flow work?\"\n\n💡 **語言小補充：**\n- `\"What about...\"` = 那 ... 呢？（用於追問新場景，非常常用）\n- `\"How does that flow work?\"` = 那個流程是怎麼運作的？（`flow` 在技術討論中專指「流程」，比 `mechanism` 更口語）\n- 也可說 `\"How does it work when saving from a topic to a mytopic?\"` — 把場景條件放在問句後半，語氣更平緩",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2bdf0ff1e910",
+      "date": "20260528",
+      "front": "\"do we need to add more options\"",
+      "body": "你的問題：「所以在 @src/views/ezomd/Topic/components/DataSetList.vue 的\"欄位設定\"的\"日期格式\"不需要添加其他選項嗎?」\n\n自然英文說法：\n\n> \"So for the column settings' 'Date Format' field in `DataSetList.vue`, do we need to add more options — like `YYYY-MM`?\"\n\n**語氣說明：**\n- **\"do we need to add more options\"** = 需要添加其他選項嗎，比 \"don't need to add\" 的雙重否定更自然\n- **\"like `YYYY-MM`\"** = 例如 YYYY-MM，直接舉例是英文常見的說法\n- 也可說 **\"Are there any missing format options we should include?\"** = 有沒有遺漏的格式選項需要補上？（更口語化）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1bd3d4cb1da9",
+      "date": "20260528",
+      "front": "\"review the diff\"",
+      "body": "你這次用了一個短的命令:\n\n> \"/review\"\n\n(其實這是 slash command,不算英文輸入,但我們可以聊聊 review 這個動詞在工程脈絡的用法。)\n\n**用詞延伸:**\n\n- **\"review the diff\"** vs **\"review the PR\"** — 兩者都對,但細微差異:\n  - `review the diff` 強調「看修改內容」,適合本地工作目錄(像現在這個情境)\n  - `review the PR` 強調「審查整個 Pull Request」,包含 description、commit 訊息、CI 狀態等\n\n- 更精準的動詞選擇:\n  - **\"audit\"**(稽核) — 偏向找出問題、合規性檢查\n  - **\"go over\"**(口語) — 隨意過一下,不深入\n  - **\"walk through\"** — 一行一行帶你看\n  - **\"sanity check\"** — 快速確認沒明顯錯誤\n\n**值得學的句型:**\n\n> \"Could you sanity-check my diff before I push?\"\n> (push 之前幫我快速 review 一下嗎?)\n\n`sanity-check` 當動詞用,在工程師之間很常用,意思是「快速確認還在合理範圍內」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "198ed7120611",
+      "date": "20260528",
+      "front": "\"Looks good to me (LGTM)\"",
+      "body": "您用了 `/review` slash command — 這是專案內部指令而非英文句子，所以本次沒有英文可分析。\n\n💡 **Code Review 英文常用語：**\n- `\"Looks good to me (LGTM)\"` = 看起來沒問題\n- `\"Needs revision\"` = 需要修改\n- `\"Edge case to consider\"` = 需要考慮的邊界情況\n- `\"Out of scope for this PR\"` = 不在此 PR 範圍內（用於婉拒擴大改動）\n- `\"Nit:\"`（nitpick 縮寫）= 雞蛋裡挑骨頭的小建議\n- `\"Blocker:\"` = 必須先解決才能合併的問題",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "10b133f629c4",
+      "date": "20260528",
+      "front": "\"Go ahead and fix it based on your suggestions.\"",
+      "body": "您原文：「按照你的建議修復吧」（中文）\n\n自然英文翻譯：\n> \"Go ahead and fix it based on your suggestions.\"\n\n💡 **語言小補充：**\n- `\"based on your suggestions\"` = 按照你的建議（based on 用於決策依據，很自然）\n- 也可說 `\"Please address the issues as you proposed.\"` — `\"address\"` 在 code review 語境中專指「處理（問題/評論）」，非常專業\n- `\"Let's go with your recommended fixes.\"` — `\"go with\"` 表達「採用」很口語化\n\n🏆 **Code Review 回覆常用語：**\n- `\"All comments addressed.\"` = 所有建議都處理完了\n- `\"Will address in a follow-up PR.\"` = 之後另開 PR 處理\n- `\"Good catch!\"` = 看得很仔細！（reviewer 抓到 bug 時的回覆）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "03b5044dab13",
+      "date": "20260528",
+      "front": "\"進階查詢\"",
+      "body": "您原文：「I use \"進階查詢\" but mytopicShared.condition didin't updated. I think is \"WHERE 1=1\" problem, please check.」\n\n| 您的寫法 | 更自然的寫法 | 說明 |\n|---|---|---|\n| `didin't updated` | `didn't get updated` 或 `wasn't updated` | 拼字錯誤（多了 i）+ 助動詞後要接原形動詞，而非過去式 |\n| `I think is \"WHERE 1=1\" problem` | `I think it's a \"WHERE 1=1\" problem` | 缺主詞 `it` 和冠詞 `a` |\n| `I use ...` | `I tried using ...` | 描述「測試使用」更自然 |\n\n✅ 完整建議寫法：\n> \"I tried using '進階查詢' mode, but `mytopicShared.condition` wasn't updated. I think it's a 'WHERE 1=1' issue — please take a look.\"\n\n💡 **抓蟲詞彙加分：**\n- `\"I suspect...\"` 比 `\"I think...\"` 更精確地表達「我懷疑是...」這種未驗證的推測\n- `\"root cause\"` = 根本原因（你抓到了真正的 root cause，很厲害！）",
+      "tags": [
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
       "id": "ea9f92f6ece3",
       "date": "20260527",
       "front": "\"Given the same mytopic, could you help me identify what differences might exist between the results produced by the two components?\"",
