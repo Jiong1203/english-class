@@ -1,6 +1,162 @@
 {
   "entries": [
     {
+      "id": "fde0d2373463",
+      "date": "20260529",
+      "front": "你這次用「你幫我整理一個SQL腳本讓我可以把舊有資料做個更新」這種「請對方產出某個產物」的句型，提供道地英文：",
+      "body": "你這次用「你幫我整理一個SQL腳本讓我可以把舊有資料做個更新」這種「請對方產出某個產物」的句型，提供道地英文：\n\n- *Could you put together a SQL script that lets me update the existing data so that topic and mytopic stay in sync with the dataset's `auth_code`?*\n\n用詞 nuance（繁中說明）：\n- **put together**（彙整、整理出）非常貼切你「整理一個腳本」的語意，比 *make / write* 更有「把各部分組織成一份完整產物」的味道，工程界很常用，例如 *put together a migration script*。\n- 「舊有資料」→ *existing data* 或 *legacy data*。*legacy* 帶有「遺留的、舊系統留下的」語感，若強調是歷史包袱可用；單純指「現存資料」用 *existing data* 即可。\n- 「與…同步」→ *stay in sync with* 是最道地的搭配（in sync 是固定用法）。動詞用 *stay* 強調「持續保持一致」，比 *be synced* 更自然。\n\n你這幾輪從「發現問題 → 確認設計意圖 → 修程式 → 補存量資料腳本」一路收尾得非常完整，這正是處理 data integrity 問題的標準閉環。👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "f492be6841d3",
+      "date": "20260529",
+      "front": "\"Do you remember that we previously fixed the Excel export feature in TopicViewer.vue and MyTopicViewer.vue?\"",
+      "body": "您剛才使用的句子是中文，這裡提供自然的英文對應：\n> \"Do you remember that we previously fixed the Excel export feature in TopicViewer.vue and MyTopicViewer.vue?\"\n\n**細節說明**：\n- `Do you remember that...` 是引入回憶問句最自然的開頭。\n- `previously fixed` 比 `fixed before` 更書面、更專業，適合在工作對話中使用。\n- 提到具體檔案時，英文習慣用 `in <file>` 而非 `of <file>`，因為功能是「存在於」檔案中。\n- 若要更口語，可說 `\"Remember when we fixed the Excel export in TopicViewer.vue and MyTopicViewer.vue?\"` — 省略 `Do you` 讓語氣更輕鬆。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f27b8c425eaa",
+      "date": "20260529",
+      "front": "你這次澄清「我是說這兩項都跳過不要做的意思」是很重要的溝通修正，提供道地英文：",
+      "body": "你這次澄清「我是說這兩項都跳過不要做的意思」是很重要的溝通修正，提供道地英文：\n\n- *I meant to skip both of those — don't do them.*\n- 或更完整：*I meant we should skip both items, not implement them.*\n\n用詞 nuance（繁中說明）：\n- **skip**（跳過、略過）正是你要表達的「不做這項」最精準的字。先前我把你的「PASS」理解成「approve（核准通過）」，但你的原意比較接近 *pass on something*（婉拒、略過某事）——這也是 *pass* 這個字有趣的雙義：在審核語境是「通過」，在「pass on」片語裡卻是「不採用」。難怪會誤會，這個提醒給你參考。\n- 為了避免類似歧義，工程溝通中講「不做某項」用 **skip** 或 **drop**（捨棄）會比 *pass* 清楚，例如 *Let's drop the unit tests for now*（單元測試先不做）。\n\n下次若想表達「這幾項都先別做」，直接說 *Let's skip these* 對方就不會誤解了。👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "f0c2514a43fd",
+      "date": "20260529",
+      "front": "你這次的問句「這樣理解正確嗎?」「那現在系統是有按照這樣的邏輯去跑嗎?」都是技術討論中很實用的確認句型，提供道地英文：",
+      "body": "你這次的問句「這樣理解正確嗎?」「那現在系統是有按照這樣的邏輯去跑嗎?」都是技術討論中很實用的確認句型，提供道地英文：\n\n- 「這樣理解正確嗎?」→ *Is my understanding correct?* 或更簡潔的 *Do I have this right?*（口語、自然，工程師常用）\n- 「現在系統是有按照這樣的邏輯去跑嗎?」→ *Does the system actually behave this way right now?* 或 *Is the system actually doing that today?*\n\n用詞 nuance（繁中說明）：\n- **actually** 在這兩句裡是關鍵字——它精準傳達你「想確認『實際行為』是否符合『理論預期』」的意圖，跟「理論上應該…但實際上呢？」的語氣完全吻合。\n- **behave this way** / **do that**：描述「系統的實際行為」用 *behave* 最professional；口語則用 *do that* 即可。\n- 「按照這樣的邏輯去跑」不用逐字翻成 *run according to this logic*（偏生硬），英文用 *behave this way* 就涵蓋了，更道地。\n\n你連續幾輪「先確認理解、再質疑現況、最後要求查證實際程式碼」的提問節奏非常扎實——這正是 senior engineer 在 code review 時的標準思路。👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "d9931a3436d0",
+      "date": "20260529",
+      "front": "這次你全程使用中文下指令（「幫我爬…整理成一份MD」），所以這裡提供對應的自然英文說法，幫你累積表達方式：",
+      "body": "這次你全程使用中文下指令（「幫我爬…整理成一份MD」），所以這裡提供對應的自然英文說法，幫你累積表達方式：\n\n- 「幫我爬 auth_code 相關的內容，整理成一份 MD」\n  → *Crawl through the code related to `auth_code` and compile it into a Markdown document.*\n  → 更口語：*Dig into the `auth_code` logic and write it up as a Markdown doc.*\n\n幾個用詞 nuance（以繁體中文說明）：\n- **crawl through** / **dig into**：都表示「深入翻查程式碼」，後者更口語、更有「鑽研」的味道。\n- **compile into** 比 **organize into** 更精準表達「彙整成一份文件」，常用於整理文件、報告。\n- 「說明這幾個議題」可說 *explain the following topics* 或 *walk users through these scenarios*（walk through 有「一步步帶著看」的親切感，很適合使用者手冊情境）。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "9b4f3f7d0612",
+      "date": "20260529",
+      "front": "你這次的指令「這樣問題大了! 先不確認 DB 欄位定義，先幫我補上 auth_code 缺失的部分」語氣與重點都很清楚。以下提供對應的自然英文：",
+      "body": "你這次的指令「這樣問題大了! 先不確認 DB 欄位定義，先幫我補上 auth_code 缺失的部分」語氣與重點都很清楚。以下提供對應的自然英文：\n\n- 「這樣問題大了！」→ *This is a serious problem!* / 更口語的工程師說法：*Okay, this is a real issue.* 或 *That's a big deal.*\n- 「先不確認 DB 欄位定義，先幫我補上缺失的部分」→ *Let's hold off on checking the DB column definition for now—just patch the missing `auth_code` part first.*\n\n用詞 nuance（繁中說明）：\n- **hold off on (doing) something**：表示「暫緩、先不做某事」，比 *don't check* 更精準傳達你「之後再說、現在先跳過」的語氣。\n- **patch**：在工程語境指「補上、修補（缺漏或漏洞）」，比 *add* 更貼切你這次「補缺失」的情境。\n- 「先…先…」連用兩個「先」在中文很自然，英文不需重複，用 *for now* + *first* 各放一處即可，避免冗贅。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "65ab9696ff05",
+      "date": "20260529",
+      "front": "你的中文 → 自然英文：*In principle, every mytopic's `auth_code` should match the `auth_code` of its parent topic and dataset, right?*",
+      "body": "你這次的句子「原則上應該所有 mytopic 都會跟所屬的 topic 和 dataset 的 auth_code 都相同吧?」意思清楚，但有兩個小地方可以更道地（另外你把 `auth_code` 打成了 `suth_code`，純筆誤，提醒一下）：\n\n- 你的中文 → 自然英文：*In principle, every mytopic's `auth_code` should match the `auth_code` of its parent topic and dataset, right?*\n\n用詞 nuance（繁中說明）：\n- **match** 比 *be the same as* 更精煉，描述「值相符／一致」時工程界很常用，例如 *the values don't match*。\n- **its parent topic / dataset**：用 *parent* 來表達「所屬的、上層的」關聯物件，比直譯 *the topic it belongs to* 更簡潔，且在資料關聯（parent-child relationship）語境非常標準。\n- 句尾的「吧?」用 *right?* 或 *correct?* 來表達「尋求確認」的語氣最貼切。\n\n順帶一提，你這句用 *In principle*（原則上、理論上）開頭非常到位——它正好暗示「實際上可能有例外」，跟我上面回覆「理想情況不一定成立」的提醒剛好呼應。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "620c874f63c4",
+      "date": "20260529",
+      "front": "\"Take a look at git commits [hash] and [hash].\"",
+      "body": "您上次的中文指令是「去看 git [hash] and [hash]」，自然的英文對應：\n> \"Take a look at git commits [hash] and [hash].\"\n\n或更口語：\n> \"Check out these two commits: [hash] and [hash].\"\n\n**細節說明**：\n- `Take a look at` 是工作中請對方查看某內容最常用、語氣中性的說法。\n- 提到具體 commit 時，明確加上 `commits` 比只說 `git [hash]` 自然，因為 `git` 在英文中通常指工具本身，不是動詞。\n- `Check out` 更口語，但在 git 情境中要小心 — `git checkout` 是動作指令，書面溝通用 `look at` / `review` 避免歧義。\n- 若想更精確指示「審查」而非「查看」，可說 `\"Review commits [hash] and [hash]\"` — `review` 暗示要評估內容，不只是看過。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5b902d5545f2",
+      "date": "20260529",
+      "front": "這次你用 slash command `/review` 觸發，沒有自己的英文句子，所以這裡補充這個情境下的實用英文：",
+      "body": "這次你用 slash command `/review` 觸發，沒有自己的英文句子，所以這裡補充這個情境下的實用英文：\n\n- 「幫我 review 這些改動」口語可說 *Can you review these changes?* 或 *Could you give these changes a once-over?*\n- **give something a once-over** 是道地片語，指「快速但完整地檢視一遍」，很適合 code review 的語境。\n- 若想請對方「正式審查 PR」：*Could you do a formal review of PR #123?* —— *formal review* 對比 *quick look*，能精準表達你要的深度。\n\n另外提醒一個實務點：你這次 `/review` 沒帶 PR 編號，加上專案還不是 git repo——若想用標準的 PR review 流程，英文情境下你會需要先 *initialize the repo and push to a remote*（初始化並推送到遠端），再 *open a pull request*。這也是我上面建議 `git init` 的原因。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "58bc065a12ac",
+      "date": "20260529",
+      "front": "\"false\"",
+      "body": "您這次使用的是中文提問，以下提供對應的自然英文表達：\n\n> **您說**：「可以幫我把這個五吉的chatbot在畫面上隱藏起來嗎?」\n\n| 自然英文表達 | 說明 |\n|---|---|\n| **Can you hide the ChatBot from the UI?** | 最簡潔的說法，`UI` 就是「畫面/介面」 |\n| **Please hide the ChatBot component on the screen.** | 稍正式，指定是「元件」 |\n| **Could you remove the ChatBot from the view?** | `remove from view` 有「讓它消失在視線內」的語感 |\n\n**補充說明**：\n- 「隱藏」在英文有兩種語意差別：`hide`（仍存在但看不見，對應 `v-show`）vs. `remove` / `comment out`（不渲染，對應 `v-if=\"false\"` 或註解）。這次實際做的是「完全不渲染」，所以說 `comment it out` 或 `disable the ChatBot` 語意更精確。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "42f288c0a695",
+      "date": "20260529",
+      "front": "\"There are errors in the Jenkins build. Could you help me analyze and explain them?\"",
+      "body": "您描述錯誤時用了：「Jenkins 有錯誤出現，請協助並說明」，這句中文完全正確，以下提供對應英文說法：\n\n**您可以這樣說：**\n> \"There are errors in the Jenkins build. Could you help me analyze and explain them?\"\n\n或更簡潔：\n> \"The Jenkins build is failing. Can you help debug it?\"\n\n**細節說明：**\n\n| 中文 | 自然英文說法 |\n|------|-------------|\n| 請協助並說明 | Could you help me analyze and explain? |\n| Jenkins 有錯誤出現 | The Jenkins build is throwing errors / failing with errors |\n| 協助 | help / assist（assist 較正式）|\n\n\"Help me **analyze and explain**\" 是個很道地的組合動詞，工程師在 review log 時常說 \"analyze the error\" 或 \"walk me through what went wrong\"，都很自然。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "3ee7f91b1935",
+      "date": "20260529",
+      "front": "你這次「把 A1 + A2 做了」是非常精簡有效的指令——用代號指涉先前清單項目，溝通成本最低。對應英文：",
+      "body": "你這次「把 A1 + A2 做了」是非常精簡有效的指令——用代號指涉先前清單項目，溝通成本最低。對應英文：\n\n- *Go ahead and do A1 and A2.* 或更簡短的 *Let's do A1 and A2.*\n- **Go ahead and...** 是道地的「動手去做吧」開頭，帶有「我授權/批准你進行」的語氣，在交辦工作時很自然。\n\n用詞 nuance（繁中說明）：\n- 中文「做了」是完成式語感的祈使句（「去把它做掉」），英文祈使句不用過去式，用原形 *do* 即可；若要強調「現在就動手」可加 *now* 或 *go ahead*。\n- 若想指「只做這兩項、其他不碰」，可說 *Just do A1 and A2.* —— *just* 在這裡精準框定範圍，呼應你前幾輪在意的「不要多做」。這個 *just* 的限定用法很實用，推薦記下來。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "278d2535c0ed",
+      "date": "20260529",
+      "front": "\"As far as I know, `schema.sql` is outdated. Could you redefine it to match the current entities?\"",
+      "body": "你的這句「據我所知，現在的 @ezomd-md-icsc\\src\\main\\resources\\schema.sql 是老舊的定義，你是否可以重新定義成新版的?」對應的自然英文寫法：\n\n> \"As far as I know, `schema.sql` is outdated. Could you redefine it to match the current entities?\"\n\n幾個小技巧：\n- **As far as I know** 比 \"I know that...\" 更謙虛，留有「我可能漏掉什麼」的餘地，工程協作中常用。\n- **outdated** 一個字就表達「過時/老舊」，比 \"old version\" 更精準（\"old\" 只是「舊」，未必「過時」）。\n- **redefine it to match X** 是技術討論常見句型：把「重新定義成新版」轉換成「重新定義以對齊 X」，意圖更明確。\n\n替代說法：\n> \"The current `schema.sql` looks stale. Can you regenerate it based on the latest entity definitions?\"\n\n這裡的 **stale** 跟 **outdated** 同義，但在程式語境（cache、branch、schema）更口語化；**regenerate** 隱含「機械式重新生成」，比 \"redefine\" 更貼近本任務的本質。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "25615147d7dd",
+      "date": "20260529",
+      "front": "\"Columns that should have stayed as numeric format got exported as text instead, which is confusing for users.\"",
+      "body": "您剛才的中文「原本的欄位資料正確應為數值格式的，但匯出後卻又都變成文字格式了」對應的自然英文：\n\n> \"Columns that should have stayed as numeric format got exported as text instead, which is confusing for users.\"\n\n**細節說明**：\n- `that should have stayed as ...` 是描述「原本應該保持為某狀態」的自然表達，比直譯 `should be` 更精確 — 暗示「期望狀態 vs 實際狀態」的對比。\n- `got exported as text instead` 中 `got + 過去分詞` 是被動式的口語版本，比 `were exported` 更自然，常用於描述「非預期的結果」。\n- `which is confusing for users` 用 `confusing for` 比 `confusing to` 更地道；強調「對使用者造成困惑」。若想更正式可說 `which causes confusion among users`。\n- 若想更精準描述問題嚴重度，可加 `silently`：`got silently exported as text` — 強調「無聲無息地被轉成文字」，技術討論中很常見。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "21081393d723",
+      "date": "20260529",
+      "front": "\"What's the role of `schema.sql` in this project?\"",
+      "body": "你的句子「說明一下 @ezomd-md-icsc\\src\\main\\resources\\schema.sql 的用途」對應的自然英文：\n\n> \"Walk me through what `schema.sql` is used for.\"\n\n幾個寫法亮點：\n- **Walk me through X** 是工程協作中超常用的請求句型，比 \"explain X\" 更口語、更隨意，表達「帶我從頭到尾理解一遍」的意思。對應「說明一下」恰到好處。\n- **what X is used for** 比 \"the purpose of X\" 更輕量自然。\"purpose\" 在口語中偏正式。\n- 另一個替代：**\"What's the role of `schema.sql` in this project?\"** — 強調「在整個專案的定位」，適合追問結構性問題。\n\n更精簡的版本：\n> \"What does `schema.sql` do?\"\n\n注意這裡用 **does** 而不是 **is for**，因為對「檔案 / 程式碼」而言，英文母語者更常問「它做什麼」而非「它的目的是什麼」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1b6ce4c7aba5",
+      "date": "20260529",
+      "front": "你這次的句子「不對啊，我查看實際作業畫面，在建立主題時不會再設定一次 auth_code 呀!」語氣自然、表達清楚。提供對應的道地英文說法：",
+      "body": "你這次的句子「不對啊，我查看實際作業畫面，在建立主題時不會再設定一次 auth_code 呀!」語氣自然、表達清楚。提供對應的道地英文說法：\n\n- *Hold on, that's not right — I checked the actual UI, and `auth_code` isn't set again when creating a topic.*\n\n用詞 nuance（繁中說明）：\n- **Hold on** / **Wait** 用來表達「不對啊、等一下」這種當下提出異議的語氣，比直譯 *No, it's wrong* 更自然、不生硬。\n- 「實際作業畫面」→ *the actual UI* 或 *the actual screen*。工程語境用 **UI** 最精簡；若想強調「實際執行畫面」也可說 *the actual working screen*。\n- 「不會再設定一次」→ *isn't set again* 用被動語態剛好，因為重點是「auth_code 這個值沒被再設定」，而非「誰去設定」。\n\n順帶一提，你這次主動「查實際畫面去推翻假設」是非常好的 debugging 習慣——英文可以說 *I verified it against the actual behavior*（我拿實際行為去驗證），這個 **verify against** 的搭配在工程討論中很常用，推薦記起來。",
+      "tags": [
+        "grammar",
+        "nuance"
+      ]
+    },
+    {
+      "id": "0f63b3bf4ce2",
+      "date": "20260529",
+      "front": "你這次用中文提問（「現在 mytopic 被建立時是不是都沒被帶入 topic 的 auth_code 值?」），以下提供精準的英文技術問法，這在 code review 或寫 issue 時很實用：",
+      "body": "你這次用中文提問（「現在 mytopic 被建立時是不是都沒被帶入 topic 的 auth_code 值?」），以下提供精準的英文技術問法，這在 code review 或寫 issue 時很實用：\n\n- 直譯：*When a mytopic is created, does it currently not inherit the `auth_code` value from its topic?*\n- 更道地（工程師常用）：*When a mytopic gets created, is the topic's `auth_code` never carried over?*\n\n幾個用詞 nuance（繁中說明）：\n- **inherit** / **carry over** / **propagate**：描述「值從 A 帶到 B」最自然的三個動詞。`inherit`（繼承）最常用於父子關係的資料；`carry over`（沿用、帶過去）較口語；`propagate`（傳遞）偏技術、強調「層層傳下去」。\n- 你原句的「被帶入」用被動很到位，英文對應 *be carried over / be populated*。若要講「欄位沒被填值」，工程上常說 *the field isn't populated*（這個 `populate` 在描述「填入欄位值」時很道地，建議記起來）。",
+      "tags": [
+        "grammar",
+        "nuance"
+      ]
+    },
+    {
       "id": "ee599d82a0c7",
       "date": "20260528",
       "front": "\"LGTM with nits\"",
