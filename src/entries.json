@@ -1,6 +1,132 @@
 {
   "entries": [
     {
+      "id": "fbb4ccd5538c",
+      "date": "20260531",
+      "front": "\"according to the PRD\"",
+      "body": "這輪你大多用中文溝通，少數英文詞彙都用得精準（例如「PRD」「agent」的使用情境正確）。提供一個你會用到的英文表達，方便你之後跟前端 agent 交接時用：\n\n> \"I've implemented the backend API; please build the frontend page according to the PRD.\"\n\n用字說明：\n- 「依照 PRD」用 **\"according to the PRD\"** 最自然（according to = 依據）。\n- 「交接」這個動作的英文常用 **hand off**（動詞）/ **handoff**（名詞），例如 \"Here's the handoff doc for the member-management page.\"\n\n下次交付給另一個 agent 時，可以用 \"Here's the handoff: ...\" 開頭，很道地。",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "d57078e872da",
+      "date": "20260531",
+      "front": "\"I'm wondering if we could…\"",
+      "body": "你這次是用中文發問（「我在想是不是可以加一個指令…」），這裡幫你做個自然的英文版翻譯供參考：\n\n> \"I'm wondering if we could add a command — maybe something like '團團' — that shows the currently available features and lets users operate them directly by tapping buttons.\"\n\n幾個用字說明：\n- 「我在想是不是可以…」用 **\"I'm wondering if we could…\"** 最自然，比直譯的 \"I am thinking whether…\" 更口語、更禮貌。\n- 「讓用戶直接按按鈕來操作」→ **\"lets users operate them directly by tapping buttons\"**。在 LINE/手機情境，點按鈕慣用 **tap**（行動裝置）或 **click**（桌機）；這裡用 tap 較貼切。\n\n下次你可以試著用英文描述需求，我會即時幫你修。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ac163285813c",
+      "date": "20260531",
+      "front": "\"如果有不需要的 test case 就可以清除，請你檢查一下\"",
+      "body": "你這句 **\"如果有不需要的 test case 就可以清除，請你檢查一下\"** 是中文，提供自然的英文說法：\n\n> \"Feel free to remove any unnecessary test cases — please take a look.\"\n\n用字說明：\n- 「就可以清除」帶有「不必特地問我、可自行處理」的授權語氣，英文用 **\"Feel free to...\"** 最傳神（比 \"you can remove\" 更能表達那份授權）。\n- 「請你檢查一下」→ **\"please take a look\"** 或 **\"please review them\"**；`take a look` 較口語、輕鬆。\n\n下次想授權我自行判斷處理某件事時，用 \"Feel free to...\" 開頭會很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9f05995aa88b",
+      "date": "20260531",
+      "front": "\"a small enhancement\"",
+      "body": "這則需求你用中文下達（「做一個優化：群組中的『團團』多加一個…按鈕」）。提供自然的英文說法供參考：\n\n> \"A small enhancement: add a '我要成員登記' button to the group's 團團 menu.\"\n\n用字說明：\n- 「做一個優化」在工程語境最自然的講法是 **\"a small enhancement\"** 或 **\"a minor improvement\"**。注意 **optimization** 在英文通常專指「效能/速度的優化」（如查詢加速、減少記憶體），拿來指「新增按鈕」這種功能調整會讓母語者覺得用詞不精準——這是中英文「優化」一詞範圍不同的常見落差。\n- 「多加一個按鈕」→ **\"add a button\"** 即可，中文的「多」在這裡是語氣詞，英文不需要額外翻出 \"one more\"。\n\n下次可以試著用英文描述這類小需求，會很適合練習精準動詞（add / remove / rename / move）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "98ab7acf410f",
+      "date": "20260531",
+      "front": "你的中文指示精簡明確，授權範圍也交代得很清楚，這是很好的工程溝通習慣 👍",
+      "body": "這次你的輸入是中文（兩個 bullet 決策 + 「其他依照你的專業知識與既有的專案結構來開發」），我提供自然的英文對照：\n\n> \"Use a single shared modal (your suggestion); fetch the name via /users/{uid}/groups. For everything else, develop based on your expertise and the existing project structure.\"\n\n**用字 nuance 說明（zh-tw）：**\n- 「依照你的專業知識」→ **\"based on your expertise\"**。`expertise`（專業知識／專長）是不可數名詞，不要加 s，也別誤用 `experience`（那是「經驗」，語意較廣）。\n- 「既有的專案結構」→ **\"the existing project structure\"**。這裡用 `existing` 比 `original` 更貼切，因為強調「目前已存在的」而非「最初的」。\n\n你的中文指示精簡明確，授權範圍也交代得很清楚，這是很好的工程溝通習慣 👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "821c49f27292",
+      "date": "20260531",
+      "front": "\"Start by reading @PRD_member_management.md.\"",
+      "body": "你這次的輸入是中英混合的指令：「Read @PRD_member_management.md first.」這句**完全正確且自然** ✅。\n\n- 用 \"first\" 放句尾來表達「先做某事」是很道地的口語用法。\n- 一個可擴充的替代說法：**\"Start by reading @PRD_member_management.md.\"**（用 \"Start by + V-ing\" 開頭，常見於技術指示，語氣更像在交派步驟流程。）\n\n兩者語意相同，你原本的寫法更簡潔有力，繼續保持！",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "80e35ecdda81",
+      "date": "20260531",
+      "front": "你這次輸入的是 slash 指令 `/review`（非英文句子），所以沒有可批改的英文。借這個情境補一個 code review 常用的英文表達給你：",
+      "body": "你這次輸入的是 slash 指令 `/review`（非英文句子），所以沒有可批改的英文。借這個情境補一個 code review 常用的英文表達給你：\n\n- 「這段有資料不一致的風險」可說：*This path can leave the data in an inconsistent state.*\n- 「靜默失敗」的道地說法就是 *fail silently* / *a silent failure*（例如 *the increment fails silently when the activity is closed*）。\n\n下次在 PR 留言用得上。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "80322d1a2ae8",
+      "date": "20260531",
+      "front": "\"還是說管理成員的操作改到前端網頁做？\"",
+      "body": "你這句 **\"還是說管理成員的操作改到前端網頁做？\"** 是中文提問，提供自然的英文說法給你參考：\n\n> \"Or should we move the member management over to the frontend web page instead?\"\n\n用字說明：\n- 「還是說…?」在提出替代方案時，英文最自然是用 **\"Or should we…?\"** 開頭，比直譯的 \"Or do you mean…\" 更貼近你想表達的「或者我們改成…如何」。\n- 「改到…做」→ **\"move … over to …\"**，這個 `move over to` 片語很道地，帶有「整個搬遷過去」的語感；句尾加 **instead**（而非原本的做法）能讓對比更清楚。\n\n下次討論架構選擇時，\"Should we do A, or B instead?\" 是很實用的句型，推薦你記起來。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7aebd8729213",
+      "date": "20260531",
+      "front": "你這次的訊息是中文，提供自然的英文說法供參考：",
+      "body": "你這次的訊息是中文，提供自然的英文說法供參考：\n\n> Let's adjust the rule: instead of closing once start_time has passed, only close after end_time has passed.\n\n**用字小提醒：**\n- 「超過某個時間點」用 `past`（例如 `past its end_time`）或 `after end_time has passed` 最自然；不要用 `over the time`，那會被理解成「超時/加班」。\n- 「狀態不異動」工程上常說 `leave the status untouched` 或 `leave it as is`；`untouched`（原封不動）在描述「不要動到某筆資料」時很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "77f44173125c",
+      "date": "20260531",
+      "front": "你寫的是「commit message 要用 en 才對!」(中英混合)，自然英文對照：",
+      "body": "你寫的是「commit message 要用 en 才對!」(中英混合)，自然英文對照：\n\n> \"The commit message should be in English, actually!\"\n\n**用字 nuance（zh-tw）：**\n- 句尾的「才對」帶有「修正先前認知」的語氣，英文最貼切的是句尾加 **\"actually\"**，或用 **\"It should be in English, not Chinese.\"** 來明確對比。\n- 若要更口語、輕鬆地提醒，也可說 **\"Oops, the commit message should be in English.\"**（用 \"Oops\" 緩和語氣）。\n\n下次若想在指令裡直接指定語言，可以說 **\"Commit in English.\"** 這種祈使句最精簡，工程協作中很常見 👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "5c7ef0d25b54",
+      "date": "20260531",
+      "front": "\"Please create a new branch first.\"",
+      "body": "你這句 **\"Please create a new branch first.\"** 完全正確、自然，是道地的工程祈使句。\n- `first` 放句尾強調「先做這件事（再做別的）」，位置與語氣都很準。\n- 小提醒：口語/聊天情境其實連 `Please` 都可省略，直接說 **\"Create a new branch first.\"** 在團隊溝通中同樣禮貌且更俐落；但加上 `Please` 也毫無問題，顯得客氣。\n\n下次可以試試在句尾加上分支用途，例如 **\"Create a new branch for this first.\"** 來練習 `for + 名詞` 的目的表達。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "2cd52b46e847",
+      "date": "20260531",
+      "front": "你這次同樣是用中文提問（「依照你對目前專案的見解，會建議採取甚麼模式最適合?」），提供自然的英文說法給你參考：",
+      "body": "你這次同樣是用中文提問（「依照你對目前專案的見解，會建議採取甚麼模式最適合?」），提供自然的英文說法給你參考：\n\n> Based on your understanding of the current project, which approach would you recommend?\n\n**用字小提醒：**\n- 「模式 / 做法」在技術討論裡用 `approach` 最自然；`mode` 偏向「運作模式、開關狀態」（例如 dev mode），這裡講「要採哪種設計做法」用 `approach` 或 `pattern` 會更精準。\n- 「最適合」可以用 `would be the best fit` 或 `is most suitable`；口語上 `which approach makes the most sense?`（哪種做法最合理）也很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1c7e28203145",
+      "date": "20260531",
+      "front": "你這次是中文指令（「幫我拉一個分支然後寫 commit message…」），提供自然的英文說法供參考：",
+      "body": "你這次是中文指令（「幫我拉一個分支然後寫 commit message…」），提供自然的英文說法供參考：\n\n> Create a `feat/activity_cancel` branch and commit the recent changes with a proper commit message.\n\n**用字小提醒：**\n- 「拉一個分支」中文習慣說「拉」，但英文不是 `pull a branch`（`pull` 是從遠端拉取更新，意思不同）。建立新分支要用 **`create a branch`** 或 **`cut a branch`**（後者是工程口語，常見於「從 main 切一條新分支」）。\n- 「寫 commit message 在 commit 改動」可精簡為 `commit the changes with a message`；`commit` 本身當動詞就含「提交改動」之意，不必說 `commit the commit`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "149547a0eacd",
+      "date": "20260531",
+      "front": "這次你的提問是用中文（「請問現在 activity 有處理活動過期的機制嗎?」），這裡提供自然的英文說法供你參考：",
+      "body": "這次你的提問是用中文（「請問現在 activity 有處理活動過期的機制嗎?」），這裡提供自然的英文說法供你參考：\n\n> Does the activity currently have any mechanism for handling expiration?\n\n或更口語、更貼近工程情境的說法：\n\n> Is there any logic to handle expired activities right now?\n\n**用字小提醒：**\n- 「過期機制」用 `expiration mechanism` 或 `expiration handling` 都很自然；口語上工程師更常直接說 `handle expired activities`（處理過期的活動）。\n- 「目前 / 現在」在這種句子裡，放句尾的 `right now` 或 `currently` 都可以，`currently` 稍微正式一點，適合寫在文件或 PR 描述裡。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fde0d2373463",
       "date": "20260529",
       "front": "你這次用「你幫我整理一個SQL腳本讓我可以把舊有資料做個更新」這種「請對方產出某個產物」的句型，提供道地英文：",
