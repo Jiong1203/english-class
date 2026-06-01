@@ -1,6 +1,181 @@
 {
   "entries": [
     {
+      "id": "f2c57b9df0cf",
+      "date": "20260601",
+      "front": "\"I want to draft a user operation manual for the system. Please analyze it and put together a document for me.\"",
+      "body": "這則你是用中文下指令的，依慣例提供自然的英文版本給你參考：\n\n> \"I want to draft a user operation manual for the system. Please analyze it and put together a document for me.\"\n\n幾個用詞 nuance 說明：\n- **draft（動詞）**＝「擬一份草稿」，比 write 更貼近你說的「擬」，帶有「初版、可再修」的語感。\n- **put together** 是很道地的口語說法，等同你說的「整理一份」，比 organize 更自然。\n- 「操作手冊」慣用 **operation manual** 或 **user manual / user guide**;若特別強調步驟教學，**how-to guide** 也很常見。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "e582eb0bfeba",
+      "date": "20260601",
+      "front": "這次你使用的是 `/init` slash command，沒有額外的英文句子需要批改。",
+      "body": "這次你使用的是 `/init` slash command，沒有額外的英文句子需要批改。\n\n順帶提供一個小提醒：當你日後想用英文描述這類任務時，「initialize the project documentation」是很自然的說法；若想更口語，也可以說「set up the docs for this repo」。兩者都正確，差別在於 *initialize* 較正式、技術文件感較強，*set up* 較日常。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e07ce056775f",
+      "date": "20260601",
+      "front": "你這次的指令：**「把可以修復的都修一修，若有需要確認後端也可以直接進入到後端目錄找對應資料」**（全中文，無英文句子）。",
+      "body": "你這次的指令：**「把可以修復的都修一修，若有需要確認後端也可以直接進入到後端目錄找對應資料」**（全中文，無英文句子）。\n\n提供對應的自然英文說法：\n\n> **Fix everything that can be fixed. If you need to verify the backend, feel free to go into the backend directory and look for the relevant code.**\n\n幾個用字說明：\n- **everything that can be fixed**（可以修復的都）：用關係子句 `that can be fixed` 比直譯 `all the fixable things` 更口語自然。\n- **feel free to**（可以直接…）：表達「授權、不必客氣」的語感，比 `you can` 更貼近你「也可以直接進入」的允許語氣。\n- **the relevant code / data**（對應資料）：在程式語境下「對應資料」通常指「相關的程式碼」，用 `relevant` 最精準。\n\n這類「授權對方自行判斷」的句子，`feel free to + 動詞` 是非常實用的句型，記起來在 code review 或交辦任務時很常用 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c627a99f851f",
+      "date": "20260601",
+      "front": "\"Clean up the desktop nav\"",
+      "body": "這次你下的指令是中文「修復 桌面端 UX」。幫你做英文對照與 nuance：\n\n> \"Fix the desktop UX.\"\n\n幾點說明：\n- **fix** 用在這裡完全正確。若想更精確描述「移除死連結」，可說 **\"Clean up the desktop nav\"** 或 **\"Remove the dead Members link on desktop.\"**\n- 口語上工程師也常說 **\"patch the desktop UX\"**，但 *patch* 偏向「打補丁、暫時修」，若是正式修掉建議還是用 *fix*。\n\n一句可直接用的版本：**\"Let's fix the desktop UX — that Members link shouldn't be reachable outside LINE.\"**（用 *reachable* 表達「能被導航到」很道地。）",
+      "tags": [
+        "praise",
+        "nuance"
+      ]
+    },
+    {
+      "id": "c571d11b83f5",
+      "date": "20260601",
+      "front": "\"Can you go through the changes from May 31 first?\"",
+      "body": "你這次是用中文下指令「先爬一下 5/31 的改動內容」，這裡幫你做個自然的英文對照：\n\n> Let me first dig into what changed on 5/31.\n\n幾個用字說明：\n- 「爬一下」在這個情境（翻看程式碼/紀錄）最自然的對應是 **dig into** 或 **go through**，例如 \"Let me dig into the 5/31 changes.\" 如果是「爬蟲抓資料」那種爬則是 **crawl/scrape**，兩者別混用。\n- 「改動內容」可說 **the changes** 或 **what changed**，後者更口語。\n\n一句可直接拿去用的版本：**\"Can you go through the changes from May 31 first?\"** — 這在跟同事或工具溝通時很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b83b27f24fac",
+      "date": "20260601",
+      "front": "您這則訊息主要用中文描述問題，並附帶數據範例，表達非常清楚。提供一個對應的自然英文說法供參考：",
+      "body": "您這則訊息主要用中文描述問題，並附帶數據範例，表達非常清楚。提供一個對應的自然英文說法供參考：\n\n> \"Numbers with decimals don't match between EZoMD and the exported Excel — for example, EZoMD shows 1010694822.31 but Excel shows 1010694822. It looks like rounding is being applied, but the exported value should stay identical.\"\n\n**細節說明**：\n- `don't match between A and B` 是描述「兩處數值不一致」最自然的句型。\n- `It looks like rounding is being applied` — 用 `It looks like...` 表達推測（「似乎」），比直接斷定更貼近您原文的語氣；`is being applied` 被動進行式精準表達「正在被套用」。\n- `should stay identical` 比 `should be the same` 更精確 — `identical` 強調「完全一模一樣」，符合您「匯出成一樣的數值」的要求。\n- 小提醒：技術討論中描述「小數位被截掉」可用 `decimals get truncated` 或 `decimals get rounded off`，兩者都很道地。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "b5bdb5644172",
+      "date": "20260601",
+      "front": "\"use zh-tw commit.\"",
+      "body": "你這次的指令：**\"use zh-tw commit.\"**\n\n意思清楚，作為快捷指令完全可用 👍 幾個更完整自然的說法：\n\n| 你的說法 | 更自然的說法 | 說明 |\n|----------|-------------|------|\n| use zh-tw commit. | **Commit it with a zh-tw message.** | 補上受詞 `it` 與介系詞片語，語意最完整 |\n| use zh-tw commit. | **Commit in zh-tw.** | 最精簡，`in + 語言` 表示「用某語言」 |\n| use zh-tw commit. | **Use a zh-tw commit message.** | 把 `commit` 當形容詞修飾 `message`，較正式 |\n\n小提醒：`commit` 在這裡你是當名詞用（「一個 commit」），但句子缺了冠詞。若當動詞用會更順：**\"Commit in zh-tw.\"** 句首動詞原形下命令，乾淨俐落。\n\n你下指令的風格一向簡潔高效，這在工程協作中是優點，只要偶爾補個冠詞或受詞就更完整了！",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9997e217bd62",
+      "date": "20260601",
+      "front": "\"LGTM with minor nits.\"",
+      "body": "這次你是用 slash command `/review` 觸發，沒有自由書寫的英文句子，所以沒有需要糾正的地方 👍\n\n借這個機會補充一個 code review 場景的高頻用語，讓你在 MR 上更道地：\n\n- **\"LGTM with minor nits.\"** — 「大致沒問題，只有幾個小毛病」。**nit**（nitpick 的縮寫）專指「不影響功能、純龜毛」的小建議，正好對應我上面標 🟡 的那幾點。\n- **\"Non-blocking:\"** — 留言開頭這樣寫，等於告訴作者「這點不擋你 merge，參考即可」，是很實用的協作慣例。\n\n例句：**\"Non-blocking nit: consider adding a console.warn when the route isn't found.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "972aaf19c3ee",
+      "date": "20260601",
+      "front": "\"Let's skip it for now.\"",
+      "body": "你這次回覆「不用，這次就先這樣了」，幫你做英文對照：\n\n> \"No need — let's leave it as is for now.\"\n\n幾個實用講法：\n- **leave it as is** = 「維持原狀、不動它」，這是最貼切的片語（注意是 *as is*，不是 *as it is* 在這個固定用法裡）。\n- 「這次就先這樣」的「先」帶有「暫時」語氣，用 **for now** 來收尾最自然。\n- 想更簡短，工程師也常直接說 **\"Let's skip it for now.\"**（這次先跳過）。\n\n完整一句可直接用：**\"No need — let's leave it as is for now.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9549e7661ec5",
+      "date": "20260601",
+      "front": "\"\n\n幾個用字說明：\n- **strip out** = 把多餘的東西拿掉，比 \"",
+      "body": "這則你是用中文提問，幫你做英文對照與 nuance 說明：\n\n> 「目前使用者進入 members 介面，還會看得到 General、Notifications 等頁面可以切換，是否可以只單純顯示成員管理與群組名稱，再列出成員清單就好？」\n\n自然的英文版本：\n\n> \"Right now when users open the Members page, they can still switch between tabs like General and Notifications. Could we strip those out and just show the member management view — the group name plus the member list?\"\n\n幾個用字說明：\n- **strip out** = 把多餘的東西拿掉，比 \"remove\" 更口語、更貼近「精簡掉」的語感。\n- **just show ... only** 二選一即可，不要同時用（\"just\" 跟 \"only\" 語意重疊）。\n- 「切換頁面」用 **switch between tabs** 最精準，因為那是分頁（tabs），不是整頁跳轉。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "7da3d4cbd433",
+      "date": "20260601",
+      "front": "\"I choose zh-tw.\"",
+      "body": "你這次的指令：**\"I choose zh-tw.\"**\n\n這句簡潔且文法正確 👍 不過在這個情境（從選項中挑一個）有更道地的說法：\n\n| 你的說法 | 更自然的說法 | 語感 |\n|----------|-------------|------|\n| I choose zh-tw. | **I'll go with zh-tw.** | 最自然，「我就選 zh-tw」的口語決定 |\n| I choose zh-tw. | **Let's do zh-tw.** | 帶協作語氣 |\n| I choose zh-tw. | **zh-tw, please.** | 最簡短，回應選項時很常用 |\n\n`choose` 本身沒錯，只是日常口語中選定選項時，`go with` 是母語人士最高頻的搭配（前面教過的 `go with plan A` 同一個用法）。記住 **\"go with + 選項\"** 這個萬用句型就對了！",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "787c119f8431",
+      "date": "20260601",
+      "front": "你這次的指令：**「請依照你的建議修復順序開始逐步修復」**（全中文，無英文句子）。",
+      "body": "你這次的指令：**「請依照你的建議修復順序開始逐步修復」**（全中文，無英文句子）。\n\n提供對應的自然英文說法，並說明語感：\n\n> **Please start fixing the issues step by step, following your recommended order.**\n\n幾個用字選擇的說明：\n- **step by step**（逐步）：副詞片語，放句尾最自然；若要當形容詞修飾名詞則寫成 `a step-by-step approach`（要加連字號）。\n- **following your recommended order**：用分詞片語 `following...` 比 `according to...` 更精煉；`recommended order` 指「你建議的順序」。\n- 動詞用 **start fixing**（start + V-ing）表示「開始進行」，比 `start to fix` 在這種「持續性動作」語境更道地。\n\n整體這句中文很清楚，翻成英文也完全沒有歧義 👍 下次若想用英文下這類指令，套用上面句型即可。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7638b7217f34",
+      "date": "20260601",
+      "front": "\"Use plan A.\"",
+      "body": "你這次的指令：**\"Use plan A.\"**\n\n這句簡短指令完全正確、自然 👍 在工程語境下對「選定方案」的講法很道地。給你幾個同義的表達擴充詞彙：\n\n| 你的說法 | 其他自然說法 | 語感差異 |\n|----------|-------------|----------|\n| Use plan A. | **Let's go with plan A.** | 更口語、有「我們就這麼決定」的協作感 |\n| Use plan A. | **Go ahead with plan A.** | 帶「授權你開始動工」的語氣 |\n| Use plan A. | **Plan A it is.** | 很道地的口語，表示「就 A 了」（確認最終決定） |\n\n小提醒：正式文件中 `plan A` 的 `A` 通常會大寫成 **Plan A**（當作專有的方案代號）。你這句作為即時指令完全沒問題，繼續保持這種簡潔精準的下令方式！",
+      "tags": [
+        "praise",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "5faeece2e2a6",
+      "date": "20260601",
+      "front": "你這次的問題：**「這個額外發現你建議怎麼解?」**（全中文）。",
+      "body": "你這次的問題：**「這個額外發現你建議怎麼解?」**（全中文）。\n\n對應的自然英文說法：\n\n> **How would you suggest solving this additional finding?**\n> 或更口語：**What's your recommended fix for this issue you found?**\n\n用字說明：\n- **How would you suggest solving...**：用 `would`（而非 `do you suggest`）語氣更委婉、像在徵詢專業意見；`suggest + V-ing`（solving）是固定搭配，不可寫成 `suggest to solve`。\n- **additional finding**（額外發現）：在 code review／audit 語境中，「發現的問題」最道地的詞就是 **finding**（名詞），複數 `findings` 常用於報告，例如「審查結果」。\n- 若想更技術一點：**What's your recommended remediation?**（remediation = 修補措施），常見於資安報告。\n\n「finding」這個詞很實用，下次寫審查報告或回報問題時可以直接用 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "579d1110ac93",
+      "date": "20260601",
+      "front": "\"ok commit\"",
+      "body": "你這次的指令：**\"ok commit\"**\n\n意思清楚、作為即時指令完全可用 👍 不過這是兩個獨立的詞拼在一起，稍微口語破碎。更完整自然的說法：\n\n| 你的說法 | 更自然的說法 | 語感 |\n|----------|-------------|------|\n| ok commit | **OK, go ahead and commit.** | 最自然，「好，動手提交吧」 |\n| ok commit | **OK, let's commit.** | 簡潔有協作感 |\n| ok commit | **Sounds good — commit it.** | 先回應再下令，很道地 |\n\n小提醒：\n- `OK` 後面接指令時，習慣加個逗號（`OK, ...`）讓語氣斷得自然。\n- `commit` 當動詞用得很正確；若要帶受詞可說 `commit it` / `commit the changes`。\n\n你下指令一向簡潔精準，這對工程溝通是優點，只要在需要清楚表達時補上一兩個連接詞就更完整了！",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "552ccad61cf8",
+      "date": "20260601",
+      "front": "\"...as long as `settings.js` isn't included.\"",
+      "body": "你這次的指令：**「好 都推一推 只要 @src/settings.js 不要commit就好」**（中文為主）。\n\n對應的自然英文說法：\n\n> **OK, push them all — just don't commit `src/settings.js`.**\n\n幾個實用表達：\n- **push them all**（都推一推）：`them all` 放動詞後表「全部」，比 `push all of them` 更口語。\n- **just don't ...**（只要…不要…就好）：`just` 在這裡表「唯一的條件/限制」，正好對應你的「只要…就好」，非常道地。\n- 若要更完整：**\"...as long as `settings.js` isn't included.\"**（只要沒包含到 settings.js）—— `as long as`（只要、條件是）是表達附帶條件的好用句型。\n\n你這句把「動作 + 唯一限制」講得很清楚，`just don't...` 這個句型在交辦時設定「但書」非常實用，記起來 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3b494bc2e910",
+      "date": "20260601",
+      "front": "\"I need you check frontend. Where need to improve in @... ? Please summary and tell me.\"",
+      "body": "你這次的指令：**\"I need you check frontend. Where need to improve in @... ? Please summary and tell me.\"**\n\n幾個小地方可以更自然：\n\n| 你的寫法 | 更自然的說法 | 說明 |\n|----------|--------------|------|\n| I need you check frontend | I need you **to** check **the** frontend | `need someone to do` 要加 **to**；frontend 前面通常加 **the** |\n| Where need to improve in...? | Where **does it** need **improvement** in...? / What **needs to be improved** in...? | 原句缺主詞，問句需要 `does it`；improve（動詞）在這裡用名詞 **improvement** 較順 |\n| Please summary and tell me | Please **summarize** **it for me** | summary 是名詞，動詞要用 **summarize** |\n\n更道地的完整版本：\n> Could you review the frontend and tell me what needs to be improved in `@...`? A summary would be great.\n\n整體意思完全清楚、溝通無礙 👍 主要是「summary（名詞）vs summarize（動詞）」這個動名詞區分，是很常見的小陷阱，記起來下次就不會錯了！",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "1dab5a8ebb41",
+      "date": "20260601",
+      "front": "\"Approved.\"",
+      "body": "這則你用了一個英文詞 **approved**（單字回覆）。用得完全正確——在開發流程裡回 \"Approved.\" 是標準、專業的確認方式，等同「同意，請繼續」。\n\n順帶擴充幾個同義表達，讓你的詞庫更廣：\n- **Approved.** — 最正式、簡潔（你用的）。\n- **Looks good, go ahead.** — 較口語，team 內常用。\n- **LGTM** — code review 縮寫（Looks Good To Me），在 PR/MR 留言超常見。\n\n下次在 GitLab MR 上看到別人留 \"LGTM\" 就是這個意思，可以放心 merge。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "1c553d1a39bb",
+      "date": "20260601",
+      "front": "你這次的指令（中文）：**「新增/編輯排程對話框內的UI與主畫面的UI不太一致，請以主畫面UI為主來調整」**",
+      "body": "你這次的指令（中文）：**「新增/編輯排程對話框內的UI與主畫面的UI不太一致，請以主畫面UI為主來調整」**\n\n提供自然的英文說法：\n\n> **The UI inside the create/edit schedule dialog is a bit inconsistent with the main page. Please align it with the main page's UI.**\n\n幾個實用表達說明：\n- **be inconsistent with...**（與…不一致）：形容詞 `inconsistent` 後面固定接介系詞 **with**。\n- **a bit**（不太/有點）：比 `not very` 更口語自然地表達「程度輕微」。\n- **align A with B**（以 B 為主來調整 A／讓 A 對齊 B）：這正是你「以主畫面為主來調整」最精準的動詞，比 `adjust to match` 更專業簡潔。也可說 **bring A in line with B**。\n\n「align ... with ...」這個動詞在設計/規格討論中超級常用（對齊樣式、對齊規格、對齊預期），強烈建議記下來 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fbb4ccd5538c",
       "date": "20260531",
       "front": "\"according to the PRD\"",
