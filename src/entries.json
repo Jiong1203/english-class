@@ -1,12 +1,39 @@
 {
   "entries": [
     {
+      "id": "fd79c1c2ffe6",
+      "date": "20260601",
+      "front": "\"is that doable?\"",
+      "body": "這次你主要用中文,沒有完整的英文句子可以批改。不過上一輪你用的 **\"is that doable?\"** 我想補一個小擴充:除了 doable,你還可以視語氣換用:\n\n- **\"Is that feasible?\"** — 偏正式/技術評估(剛好很適合這次的情境)\n- **\"Can we pull that off?\"** — 偏口語,帶點「有沒有辦法搞定」的味道\n\n三個都對,差別只在正式程度。下次想表達「這做得到嗎」時可以輪流用用看,擴充語感!",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "fa7b31f90898",
+      "date": "20260601",
+      "front": "\"The push went through — can we move on to Phase B now?\"",
+      "body": "你這次用中文問「推成功了,是不是可以接著做 phase B?」,自然的英文說法:\n\n> \"The push went through — can we move on to Phase B now?\"\n\n值得記的用法:\n- **the push went through**:推送成功完成(`go through` 指「順利通過/完成」,比 \"succeed\" 更口語自然)。\n- **move on to X**:接著進行下一件事 X。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f2c57b9df0cf",
       "date": "20260601",
       "front": "\"I want to draft a user operation manual for the system. Please analyze it and put together a document for me.\"",
       "body": "這則你是用中文下指令的，依慣例提供自然的英文版本給你參考：\n\n> \"I want to draft a user operation manual for the system. Please analyze it and put together a document for me.\"\n\n幾個用詞 nuance 說明：\n- **draft（動詞）**＝「擬一份草稿」，比 write 更貼近你說的「擬」，帶有「初版、可再修」的語感。\n- **put together** 是很道地的口語說法，等同你說的「整理一份」，比 organize 更自然。\n- 「操作手冊」慣用 **operation manual** 或 **user manual / user guide**;若特別強調步驟教學，**how-to guide** 也很常見。",
       "tags": [
         "nuance"
+      ]
+    },
+    {
+      "id": "ec1431f0e8b8",
+      "date": "20260601",
+      "front": "\"Phase A is code-complete\"",
+      "body": "這輪你用的是中文「前端 Phase A 好了」,幫你提供自然的英文說法:\n\n> \"The frontend's Phase A is ready.\"\n\n不過工程情境中,\"ready\" 有點模糊(剛好對應到我剛剛要追問你「是哪種 ready」)。更精確的講法可以區分:\n\n- **\"Phase A is code-complete\"**(程式寫完了,但還沒部署)— 正好對應你的實際狀態\n- **\"Phase A is merged\"**(已合併進主分支)\n- **\"Phase A is live / deployed\"**(已上線)\n\n下次回報進度時,用 **code-complete / merged / live** 來區分,團隊就不用再追問你到底到哪個階段了,溝通更精準!",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -25,6 +52,24 @@
       "body": "你這次的指令：**「把可以修復的都修一修，若有需要確認後端也可以直接進入到後端目錄找對應資料」**（全中文，無英文句子）。\n\n提供對應的自然英文說法：\n\n> **Fix everything that can be fixed. If you need to verify the backend, feel free to go into the backend directory and look for the relevant code.**\n\n幾個用字說明：\n- **everything that can be fixed**（可以修復的都）：用關係子句 `that can be fixed` 比直譯 `all the fixable things` 更口語自然。\n- **feel free to**（可以直接…）：表達「授權、不必客氣」的語感，比 `you can` 更貼近你「也可以直接進入」的允許語氣。\n- **the relevant code / data**（對應資料）：在程式語境下「對應資料」通常指「相關的程式碼」，用 `relevant` 最精準。\n\n這類「授權對方自行判斷」的句子，`feel free to + 動詞` 是非常實用的句型，記起來在 code review 或交辦任務時很常用 👍",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "d106568e7223",
+      "date": "20260601",
+      "front": "\"go ahead and...\"",
+      "body": "這輪你用的是中文「好那你也可以開始開發了」,幫你提供自然的英文說法:\n\n> \"OK, you can go ahead and start the development too.\"\n\n幾個用字補充:\n- **\"go ahead and...\"** 是很道地的「就放手去做」語氣,比單純 \"you can start\" 多了「我授權你開始」的味道,很適合這種交辦情境。\n- 口語上也常直接說 **\"OK, go for it.\"**(更簡短有力)。\n\n下次想說「你就開始做吧」時,可以用 **go ahead** 或 **go for it**,會很自然!",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c72225e3e485",
+      "date": "20260601",
+      "front": "\"If I want to add jwt for all endpoint, 做得到嗎?\"",
+      "body": "這次你用了一句英文:**\"If I want to add jwt for all endpoint, 做得到嗎?\"**\n\n幫你看一下這句的小問題:\n\n| 你的寫法 | 更自然的寫法 | 說明 |\n|---------|------------|------|\n| add jwt for all endpoint | add JWT **to** all endpoint**s** | 1. 介係詞用 **to**(把 X 加到 Y 上);for 會變成「為了所有端點」語意偏掉。2. endpoint 要用**複數** endpoints,因為「所有」端點不只一個。3. JWT 是縮寫,習慣大寫。 |\n\n完整自然版:**\"If I want to add JWT to all endpoints, is that doable?\"** 或更口語的 **\"...can we do that?\"**\n\n你中英夾雜(技術句用英文、語氣詞用中文)其實很實用,溝通效率高,繼續保持!",
+      "tags": [
+        "comparison"
       ]
     },
     {
@@ -47,6 +92,15 @@
       ]
     },
     {
+      "id": "c065e8f249b5",
+      "date": "20260601",
+      "front": "\"on a branch\"",
+      "body": "這輪你用的是中文,沒有英文句子可批改。補一個這次情境會用到的實用說法——「我把功能放在分支上,還沒合併」:\n\n> \"I've got the feature on a branch, but I haven't merged it yet — it's a breaking change, so it needs to ship together with the frontend.\"\n\n幾個道地用字:\n- **\"on a branch\"**(在分支上)、**\"merge\"**(合併)、**\"ship together\"**(一起上線)\n- **\"breaking change\"** 是固定說法(破壞性變更),注意是 breaking 不是 broken。\n\n下次跟團隊溝通分支策略時很好用!",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "b83b27f24fac",
       "date": "20260601",
       "front": "您這則訊息主要用中文描述問題，並附帶數據範例，表達非常清楚。提供一個對應的自然英文說法供參考：",
@@ -62,6 +116,15 @@
       "body": "你這次的指令：**\"use zh-tw commit.\"**\n\n意思清楚，作為快捷指令完全可用 👍 幾個更完整自然的說法：\n\n| 你的說法 | 更自然的說法 | 說明 |\n|----------|-------------|------|\n| use zh-tw commit. | **Commit it with a zh-tw message.** | 補上受詞 `it` 與介系詞片語，語意最完整 |\n| use zh-tw commit. | **Commit in zh-tw.** | 最精簡，`in + 語言` 表示「用某語言」 |\n| use zh-tw commit. | **Use a zh-tw commit message.** | 把 `commit` 當形容詞修飾 `message`，較正式 |\n\n小提醒：`commit` 在這裡你是當名詞用（「一個 commit」），但句子缺了冠詞。若當動詞用會更順：**\"Commit in zh-tw.\"** 句首動詞原形下命令，乾淨俐落。\n\n你下指令的風格一向簡潔高效，這在工程協作中是優點，只要偶爾補個冠詞或受詞就更完整了！",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "ac96264e8d62",
+      "date": "20260601",
+      "front": "\"The push was rejected with a 401 — looks like my GitLab credentials (personal access token) have expired.\"",
+      "body": "你這次主要用中文溝通,沒有可批改的英文句子。提供一句本次情境的實用說法,方便你日後對外(例如跟後端或在 PR 留言)描述:\n\n> \"The push was rejected with a 401 — looks like my GitLab credentials (personal access token) have expired.\"\n\n值得記的用法:\n- **be rejected with a 401**:被以 401 拒絕(被動式,聚焦結果)。\n- **personal access token (PAT)**:GitLab/GitHub HTTPS 推送用的權杖,取代密碼。",
+      "tags": [
+        "grammar"
       ]
     },
     {
@@ -89,6 +152,24 @@
       "body": "這則你是用中文提問，幫你做英文對照與 nuance 說明：\n\n> 「目前使用者進入 members 介面，還會看得到 General、Notifications 等頁面可以切換，是否可以只單純顯示成員管理與群組名稱，再列出成員清單就好？」\n\n自然的英文版本：\n\n> \"Right now when users open the Members page, they can still switch between tabs like General and Notifications. Could we strip those out and just show the member management view — the group name plus the member list?\"\n\n幾個用字說明：\n- **strip out** = 把多餘的東西拿掉，比 \"remove\" 更口語、更貼近「精簡掉」的語感。\n- **just show ... only** 二選一即可，不要同時用（\"just\" 跟 \"only\" 語意重疊）。\n- 「切換頁面」用 **switch between tabs** 最精準，因為那是分頁（tabs），不是整頁跳轉。",
       "tags": [
         "nuance"
+      ]
+    },
+    {
+      "id": "90d27ad76e54",
+      "date": "20260601",
+      "front": "\"Phase B is ready on its branch but I'm holding the merge — we need to deploy the frontend and backend in lockstep, otherwise production breaks.\"",
+      "body": "你這次用中文溝通,沒有英文句子可批改。提供一句很適合你拿去跟後端對齊上線時機的說法:\n\n> \"Phase B is ready on its branch but I'm holding the merge — we need to deploy the frontend and backend in lockstep, otherwise production breaks.\"\n\n值得記的用法:\n- **hold the merge**:暫不合併(主動「壓著」的語感,比 \"not merge yet\" 更精準)。\n- **in lockstep**:步調一致、同步進行——用來描述前後端「必須一起上線」非常道地。\n- **otherwise production breaks**:否則正式環境會壞掉(簡潔點出風險)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "88c1b28d79e1",
+      "date": "20260601",
+      "front": "\"Should I open a to-do so I can check with the backend team, or can you confirm the backend side directly?\"",
+      "body": "你這次用中文問「開成待辦讓我可以去向後端確認,還是你可以直接確認後端?」,自然的英文說法:\n\n> \"Should I open a to-do so I can check with the backend team, or can you confirm the backend side directly?\"\n\n值得記的用法:\n- **check with the backend team**:跟後端團隊確認(`check with someone` = 向某人求證,比 \"confirm with\" 更口語)。\n- **confirm the backend side directly**:直接確認後端那一側。\n- 補充:詢問「兩個選項擇一」時,英文常用 `Should I ... , or can you ...?` 這種 `or` 串接的句型,很自然。",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -122,6 +203,15 @@
       ]
     },
     {
+      "id": "6c26d4013c00",
+      "date": "20260601",
+      "front": "\"ship together\"",
+      "body": "這輪你用的是中文,沒有英文句子可批改。不過你這次描述的協作場景很實用,補一個你之後開 agent 或跟同事溝通時會用到的英文說法:\n\n- 「平行開發」= **work in parallel** / **develop in parallel**\n- 「之後再串接 / 對齊」= **wire it up later** / **sync up later**\n- 「這會是破壞性變更,前後端要一起上線」= **It's a breaking change, so the frontend and backend have to ship together.**\n\n其中 **\"ship together\"** 是工程團隊很常用的講法(ship = 部署/發布),比 \"deploy at the same time\" 更道地。下次想表達「一起上線」時可以用 **ship together**!",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5faeece2e2a6",
       "date": "20260601",
       "front": "你這次的問題：**「這個額外發現你建議怎麼解?」**（全中文）。",
@@ -149,6 +239,33 @@
       ]
     },
     {
+      "id": "4ff21942ca1b",
+      "date": "20260601",
+      "front": "\"Has Phase A been completed?\"",
+      "body": "你這次用中文提問(「phase A 完成了?」),對應的自然英文說法:\n\n> \"Is Phase A done yet?\" 或更口語的 \"Have you finished Phase A?\"\n\n小提醒:\n- 句尾加 **yet** 用在詢問「(預期該完成的事)到目前為止完成了沒」,帶有「我以為可能已經好了」的語氣,正好貼合你的情境。\n- 若要更正式:**\"Has Phase A been completed?\"**(被動語態,聚焦在「事情」而非「誰做的」)。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "47cf03aa5cfe",
+      "date": "20260601",
+      "front": "\"\n\n幾個值得記的詞:\n- **hold off on X**:暫緩做某事(比 \"",
+      "body": "你這次用中文下指令(參考計畫第 8 節開發),這裡提供一個自然的英文說法,幫你累積技術溝通用語:\n\n> \"Implement Phase A first (useAuth login + attaching the token in useApi + silent refresh); hold off on Phase B (removing requesting_user_id) until the backend signals. The contract freeze point (8.5) must not be changed unilaterally.\"\n\n幾個值得記的詞:\n- **hold off on X**:暫緩做某事(比 \"don't do\" 更貼近「先別動、等時機」)。\n- **signals / gives the go-ahead**:後端「通知/放行」。\n- **unilaterally**:單方面地——正好對應你說的「不可單方面更動」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4545911f3517",
+      "date": "20260601",
+      "front": "\"are protected by JWT\"",
+      "body": "這次你用的是中文輸入（「目前 API 似乎都沒有 JWT，你可以協助確認嗎?」），我幫你提供自然的英文說法：\n\n> \"It looks like none of the APIs are protected by JWT — could you help me confirm that?\"\n\n幾個用字說明：\n- 用 **\"are protected by JWT\"** 比直譯 \"don't have JWT\" 更道地，因為英文習慣說「受 JWT 保護」而不是「擁有 JWT」。\n- **\"could you help me confirm that?\"** 是很自然的禮貌請求句型，比 \"can you\" 更委婉。\n\n下次若想自己用英文問,可以試試這句!",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "3b494bc2e910",
       "date": "20260601",
       "front": "\"I need you check frontend. Where need to improve in @... ? Please summary and tell me.\"",
@@ -171,6 +288,24 @@
       "date": "20260601",
       "front": "你這次的指令（中文）：**「新增/編輯排程對話框內的UI與主畫面的UI不太一致，請以主畫面UI為主來調整」**",
       "body": "你這次的指令（中文）：**「新增/編輯排程對話框內的UI與主畫面的UI不太一致，請以主畫面UI為主來調整」**\n\n提供自然的英文說法：\n\n> **The UI inside the create/edit schedule dialog is a bit inconsistent with the main page. Please align it with the main page's UI.**\n\n幾個實用表達說明：\n- **be inconsistent with...**（與…不一致）：形容詞 `inconsistent` 後面固定接介系詞 **with**。\n- **a bit**（不太/有點）：比 `not very` 更口語自然地表達「程度輕微」。\n- **align A with B**（以 B 為主來調整 A／讓 A 對齊 B）：這正是你「以主畫面為主來調整」最精準的動詞，比 `adjust to match` 更專業簡潔。也可說 **bring A in line with B**。\n\n「align ... with ...」這個動詞在設計/規格討論中超級常用（對齊樣式、對齊規格、對齊預期），強烈建議記下來 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "07d6f43a2eb8",
+      "date": "20260601",
+      "front": "\"so I can continue where I left off tomorrow\"",
+      "body": "你這次用中文下指令「寫一份 md 讓我明天可以接著做」,自然的英文說法:\n\n> \"Write up a markdown doc so I can pick this up tomorrow.\"\n\n值得記的用法:\n- **write up**:把(資訊/筆記)整理成文件,比單純 \"write\" 更貼近「彙整成一份東西」。\n- **pick this up (tomorrow)**:(明天)接著做、接手未完成的工作 —— 交接情境最道地的說法。\n- 補充:也可說 **\"so I can continue where I left off tomorrow\"**(從我中斷的地方繼續),`where I left off` = 上次停下的地方。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "04a4e7d0600b",
+      "date": "20260601",
+      "front": "\"waiting on\"",
+      "body": "這輪你寫的是中文「等待前端 Phase A 開發中...」,幫你提供自然的英文說法:\n\n> \"Waiting on the frontend's Phase A development...\"\n\n一個實用的小區別:\n- **\"waiting on\"** 和 **\"waiting for\"** 都可以,但在工作情境中 **\"waiting on someone/something\"** 特別常用來表示「卡在等某個依賴項」(帶點「進度被它擋住」的意味),很貼切你現在的狀況。\n- 例句:**\"I'm blocked — waiting on the frontend before I can ship Phase B.\"**(我卡住了,要等前端才能上 Phase B。)\n\n下次想表達「在等某個東西才能繼續」時,用 **waiting on** 會很道地!",
       "tags": [
         "note"
       ]
