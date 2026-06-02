@@ -73,6 +73,15 @@
       ]
     },
     {
+      "id": "dd4411e47891",
+      "date": "20260602",
+      "front": "\"are we good to...?\"",
+      "body": "這次你用中文提問(「JWT相關開發後端都部署好了，這邊可以開始 merge 了嗎」),提供一個自然的英文說法供參考:\n\n> \"The backend work for JWT is fully deployed now — are we good to start merging on the frontend side?\"\n\n幾個用詞說明:\n- **\"are we good to...?\"** 是口語中很常用、很自然的「可以開始…了嗎/沒問題了嗎」說法,比直譯的 \"can we start...\" 更道地。\n- **\"on the frontend side\"**:用 \"on the ... side\" 來表達「在…這一端/這邊」,正好對應你說的「這邊」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "dcdddc62d663",
       "date": "20260602",
       "front": "\"self-check\"",
@@ -89,6 +98,33 @@
       "tags": [
         "grammar",
         "comparison"
+      ]
+    },
+    {
+      "id": "d8a472611246",
+      "date": "20260602",
+      "front": "\"take a look\"",
+      "body": "你這次回的是中文短句「好去看一下」,沒有英文句子需要批改。提供對應的自然英文說法:\n\n> 好,去看一下 → \"Sure, go ahead and take a look.\" 或更口語的 \"Okay, go check it out.\"\n\n語感補充:\n- 「去看一下」這種「順手查一下、確認一下」的語氣,英文最貼切的是 **\"take a look\"** 或 **\"check it out\"**;不要用 \"go to see\",那比較像「特地前往觀看(某個表演/地點)」。\n- 開頭的「好」當作答應,可用 **\"Sure\"** / **\"Okay\"** / **\"Go ahead\"**,其中 \"Go ahead\" 帶有「我授權你去做」的味道,用在這裡很合適。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d3237d89fc4c",
+      "date": "20260602",
+      "front": "\"have been deployed\"",
+      "body": "你這次的輸入主要是中文(只夾了一個 `deploy`),所以沒有可糾正的英文句子。提供你這句話的自然英文說法供參考:\n\n> 後端的 JWT 相關內容已經 deploy,所以我現在正在 deploy 前端的部分,請問有什麼需要注意的?\n> → \"The JWT-related backend changes are already deployed, so I'm now deploying the frontend. Is there anything I should watch out for?\"\n\n語感補充:\n- 口語上「deploy 完成了」用現在完成式 **\"have been deployed\"** 最自然,強調「已完成、且現在仍有效」。\n- 「有什麼需要注意的?」道地說法是 **\"anything I should watch out for?\"** 或 **\"anything to keep in mind?\"**;不要直譯成 \"anything need to notice\",`notice` 是「(被動地)注意到」,這裡要的是「(主動)留意、提防」,所以用 `watch out for` / `keep in mind`。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "d2ff3ac95db2",
+      "date": "20260602",
+      "front": "\"get shipped\"",
+      "body": "這次的中文輸入(「忘了說要 deploy 的話要把 HANDOFF 的文件清除,不要把文件上上去」),自然的英文說法:\n\n> \"I forgot to mention — before we deploy, we need to remove the HANDOFF doc. Don't let it get shipped.\"\n\n用詞說明:\n- **\"get shipped\"**:在軟體情境裡 \"ship\" 就是「把東西發佈/上線出去」,\"don't let it get shipped\" 正好對應你說的「不要把文件上上去」,比 \"don't upload the file\" 更道地。\n- **\"before we deploy\"**:用 \"before...\" 帶出前提,比直譯「要 deploy 的話」更精簡自然。",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -309,10 +345,28 @@
       ]
     },
     {
+      "id": "61593641dfac",
+      "date": "20260602",
+      "front": "\"we're good\"",
+      "body": "這次同樣是中文輸入,提供一個自然的英文說法:\n\n> \"As long as the JWT changes can merge and deploy smoothly, we're good — the backend already has `LINE_LOGIN_CHANNEL_ID` set up in both the dev and prod environments. So the frontend is clear to move on to the next step.\"\n\n用詞說明:\n- **\"we're good\"**:口語中表示「這樣就沒問題/可以了」,呼應你的「即可」。\n- **\"is clear to move on to the next step\"**:\"be clear to...\" 表示「可以放心進行…」,比直譯 \"can start the next action\" 更自然;\"the next step\" 比 \"next move/action\" 在工作情境中更常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5572be6d9602",
       "date": "20260602",
       "front": "\"tie up loose ends\"",
       "body": "這一輪是系統自動觸發、你沒有輸入新的英文句子。補一個與本輪「補小細節」相關的實用英文：補上零碎的收尾細節，英文常說 **\"tie up loose ends\"**（把鬆散的線頭綁好 → 處理收尾細節）。例如 **\"I'm just tying up a few loose ends in the manual.\"**（我只是在把手冊的一些收尾細節處理掉。）這個片語很生動，源自「把繩子鬆掉的末端綁起來」，引申為「把未完成的小事收拾乾淨」，職場與寫作都常用，正好貼合你這份手冊進入收尾微調的階段。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "528d9ee3e557",
+      "date": "20260602",
+      "front": "\"cut a branch\"",
+      "body": "這次中文輸入(「因為要deploy的話要像之前一樣建立新分支dev-vx.x.x,請你幫忙」),自然的英文說法:\n\n> \"To deploy, I need to cut a new `dev-vx.x.x` branch like before — could you help with that?\"\n\n用詞說明:\n- **\"cut a branch\"**:在版本控制情境裡,\"cut a branch/release\" 是很道地的講法,表示「切出一個新分支/發一個版本」,比 \"create a branch\" 更貼近工程口吻。\n- **\"like before\"**:簡潔對應「像之前一樣」,放在句尾當補述很自然。",
       "tags": [
         "note"
       ]
@@ -387,6 +441,15 @@
       "body": "你這次的指令 **\"Please review all JWT code.\"** 完全正確、自然，是很道地的祈使句下法。\n\n- **道地點**：用 **Please + 動詞原形** 是工程情境最常見的禮貌請求；`all JWT code` 當不可數集合名詞用（code 不加 s）也完全正確。\n- **進階替換**（擴充語感）：若想更精確指定範圍，可說\n  > Could you do a thorough review of all the JWT-related code?\n\n  其中 **JWT-related**（加 `-related`）能更明確涵蓋「周邊受影響的檔案」，而不只是字面上含 JWT 的檔案——這在你這次的情境（Phase B 改了一堆 composables）其實更貼切。",
       "tags": [
         "praise"
+      ]
+    },
+    {
+      "id": "14106510353d",
+      "date": "20260602",
+      "front": "\"convert\"",
+      "body": "這次中文輸入(「commit message 應該要使用 en,請把之前的都替換一下,不要留有 zh-tw 的紀錄」),自然的英文說法:\n\n> \"Commit messages should be in English. Please convert the previous ones and don't leave any zh-tw records behind.\"\n\n用詞說明:\n- **\"convert\"**:用於語言/格式轉換比 \"replace\"(取代)更精準,因為你要的是「把同一筆改寫成英文」,而非換成另一筆內容。\n- **\"leave ... behind\"**:片語動詞,表示「遺留下…」,\"don't leave any zh-tw records behind\" 比直譯 \"don't keep zh-tw records\" 更道地。",
+      "tags": [
+        "note"
       ]
     },
     {
