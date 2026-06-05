@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "f6e9217ee9af",
+      "date": "20260605",
+      "front": "你這次冷靜說明「另一個 agent 同時在開發、改了相同檔案」,把根因講得很清楚 👍。實用英文:",
+      "body": "你這次冷靜說明「另一個 agent 同時在開發、改了相同檔案」,把根因講得很清楚 👍。實用英文:\n\n> **Another agent was working in parallel and happened to edit the same files; I cut it off, but didn't notice what it had already changed.**\n\n語感補充(nuance):\n- 「同時在開發」→ **working in parallel**;`in parallel`(並行)比 `at the same time` 更精準專業。\n- 「剛好改了」→ **happened to edit**;`happen to do` =「碰巧、剛好做了某事」,很道地。\n- 「把他中斷」→ **cut it off** 或 **stopped/interrupted it**;`cut off` 口語、有「切斷」的果斷感。\n- 「沒注意到他改了哪些」→ **didn't notice what it had already changed**(用過去完成式 `had changed` 表達「在我中斷之前就已改的」,時態精準)。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
       "id": "f3b9525d2018",
       "date": "20260605",
       "front": "這次你的句子「把這個誠實的插曲更新到 CLAUDE.md 中,這個算是很重要的,記得一律都要先 fetch!」語氣自然、重點明確 👍。提供道地英文說法:",
@@ -42,6 +51,24 @@
       "date": "20260605",
       "front": "\"have-to-ask-three-times\"",
       "body": "這次你的句子「先前要重複詢問三次的問題似乎沒有改善,請再確認」清楚且禮貌 👍。提供道地英文說法:\n\n> **The \"have-to-ask-three-times\" issue doesn't seem to be fixed yet. Please take another look.**\n\n語感補充(nuance):\n- 「似乎沒有改善」→ **doesn't seem to be fixed / improved yet**;`seem to` 表達「看起來/似乎」很自然,加 `yet`(尚未)點出「還在等修好」。\n- 「請再確認」→ **please take another look** 或 **please double-check**;`take another look` 比直譯 \"please confirm again\" 更口語、更像請對方「再查看一下」。\n- 把現象當形容詞用很道地:**the \"have-to-ask-three-times\" issue**(用連字號把一串字組成一個形容詞),工程討論常這樣濃縮描述一個特定 bug。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "d636605b2264",
+      "date": "20260605",
+      "front": "你這次的指令「請你幫我生成 DEMO 劇本的 md 檔」簡潔清楚 👍。道地說法:",
+      "body": "你這次的指令「請你幫我生成 DEMO 劇本的 md 檔」簡潔清楚 👍。道地說法:\n\n> **Please generate the demo script as a markdown file for me.**\n\n語感補充(nuance):\n- 「生成…檔」→ **generate … as a file** 或 **create a … file**;`generate` 用在程式產出檔案很自然。\n- 「DEMO 劇本」→ **demo script**(照唸的演練腳本);若是給觀眾的「腳本大綱」也可說 **demo walkthrough**。\n- 「md 檔」口語直接說 **a markdown file** 或 **a `.md` file** 都通。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "d157edb14111",
+      "date": "20260605",
+      "front": "你這次的描述「主要發生點是在呼叫 A 資料庫動作後,要改呼叫 B 資料庫動作的時候」定位得非常精準 👍,這種「能說出穩定重現步驟」的回報對除錯極有幫助。道地說法:",
+      "body": "你這次的描述「主要發生點是在呼叫 A 資料庫動作後,要改呼叫 B 資料庫動作的時候」定位得非常精準 👍,這種「能說出穩定重現步驟」的回報對除錯極有幫助。道地說法:\n\n> **It mainly happens when I switch from database action A to action B — calling B takes three tries to succeed.**\n\n語感補充(nuance):\n- 「主要發生點是…的時候」→ **It mainly happens when…**;`happen when` 描述觸發條件最自然。\n- 「改呼叫 B」→ **switch from A to B**;`switch from X to Y`(從 X 切換到 Y)精準表達「換成」。\n- 「要呼叫三次才成功」→ **takes three tries to succeed** 或 **only works on the third try**;`take N tries` 是「要試 N 次」的固定講法,很道地。",
       "tags": [
         "nuance"
       ]
@@ -93,6 +120,25 @@
       ]
     },
     {
+      "id": "864417c487aa",
+      "date": "20260605",
+      "front": "你這次的提問「What are those different?」有個小文法問題，整理成對照表：",
+      "body": "你這次的提問「What are those different?」有個小文法問題，整理成對照表：\n\n| 你寫的 | 更自然的說法 |\n|---|---|\n| What are those **different**? | What are the **differences** between those? |\n| | 或口語：How are those **different**? |\n\n說明（zh-tw）：\n- `different` 是形容詞，不能直接當「差異」這個名詞用。要問「差異是什麼」應該用名詞 **`differences`**：`What are the differences between A, B and C?`\n- 如果想保留 `different`（形容詞），句型要改成 **`How are they different?`**(它們有什麼不同？) —— 用 `how` 而非 `what`，因為你問的是「方式/狀態」。\n- 你前面用中文列出三個項目、再用英文提問，這種混用很 OK，溝通清楚。下次只要把 `different` → `differences` 就完全道地了。👍",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "7623a96b8eb3",
+      "date": "20260605",
+      "front": "\"Here's the **test playbook** — each case lists the steps, the expected result, and the **pass criteria**.\"",
+      "body": "這次同樣是中文指令,無英文句子可修正。補充「測試劇本」情境的兩個道地用語:\n\n> \"Here's the **test playbook** — each case lists the steps, the expected result, and the **pass criteria**.\"\n\n- **playbook**:比直譯 \"test script\" 更貼近「一套照著走的劇本/手冊」,QA 與 SRE 圈常用;若指自動化程式碼才用 \"test script\"。\n- **happy path / edge case**:本劇本的「正面案例」英文常說 **happy path**,「邊界案例」是 **edge case**——例如 \"TC-2.3 covers the edge case where the KB name doesn't exist.\"\n\n下次要驗收功能時,可以說 \"Walk me through the test playbook for this.\" —— 非常自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5dfcecc9663f",
       "date": "20260605",
       "front": "你這次說「請再用白話一點的來向我說明」，以下提供自然的英文說法：",
@@ -102,12 +148,66 @@
       ]
     },
     {
+      "id": "3f771d01039c",
+      "date": "20260605",
+      "front": "\"The change has already shipped — it's on `main`, tagged `v0.5.24`, and the tag triggers the deploy.\"",
+      "body": "這次同樣是中文提問,無英文句子可修正。補充一個與「確認部署狀態」情境貼切的英文表達:\n\n> \"The change has already shipped — it's on `main`, tagged `v0.5.24`, and the tag triggers the deploy.\"\n\n- **ship**(動詞):軟體圈口語,指「功能已發佈／上線」,比 \"deploy\" 更自然地表達「東西已經出去了」。\n- **trigger the deploy**:「觸發部署」,正好對應你們「推 tag → 自動部署」的 CI 流程。\n\n下次想說「這功能上線了嗎?」,英文可以問 \"Has this shipped yet?\" —— 非常道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3c1787a2026f",
+      "date": "20260605",
+      "front": "你這次主動補上完整 CI log 幫助極大 👍。實用英文:",
+      "body": "你這次主動補上完整 CI log 幫助極大 👍。實用英文:\n\n> **Here's more of the CI log in case it helps you pinpoint the problem.**\n\n語感補充(nuance):\n- 「比較好找問題點」→ **pinpoint the problem**;`pinpoint`(精準定位)比 `find` 更傳神,正好對應「找到確切問題點」。\n- 「附上更多資訊」→ **Here's more info / more of the log**;`in case it helps` =「以防有幫助」,語氣謙和自然。\n- 「若需要更多再請提出」→ **Let me know if you need more.**(道地、簡潔的收尾句)。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "3a0217754aa6",
+      "date": "20260605",
+      "front": "你這次提供 F12 三張圖、精準回答 (b),是工程診斷的最佳協作 👍。實用英文:",
+      "body": "你這次提供 F12 三張圖、精準回答 (b),是工程診斷的最佳協作 👍。實用英文:\n\n> **Here's the Response, EventStream, and Payload you asked for.**\n\n語感補充(nuance):\n- 「附上」交付截圖/檔案最自然說 **Here's...** 或 **Attached is/are...**;口語用 `Here's` 最順。\n- 技術名詞 **EventStream / Payload / Response** 在 F12 語境直接用英文原詞即可,不必翻譯,工程師之間溝通反而更精準。\n- 描述「我提供你要的證據」可說 **the evidence you asked for** 或 **the info you requested**;`asked for` 口語、`requested` 正式。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
       "id": "21ade06723ea",
       "date": "20260605",
       "front": "你這次用中文提問（「…的 agent 無法找到對應檔案，請問原因?」），以下提供自然的英文說法：",
       "body": "你這次用中文提問（「…的 agent 無法找到對應檔案，請問原因?」），以下提供自然的英文說法：\n\n| 你的中文 | 自然英文 |\n|---|---|\n| 文件版次更迭的 agent 無法找到對應檔案，請問原因？ | The doc-version agent can't find the matching files — any idea why? |\n\n- **can't find the matching files** 比直譯 `cannot find corresponding files` 更口語自然；`matching` 在這裡比 `corresponding` 更常用於「符合條件的那些」。\n- 結尾的 **any idea why?** 是工程師之間問原因最道地、輕鬆的說法，比 `please tell me the reason` 自然許多。\n- 若要正式一點可說：**Could you explain why the doc-version agent fails to locate the files?**（`fail to locate` 是技術文件常見措辭。）",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "1cc3b3dda4c8",
+      "date": "20260605",
+      "front": "你連續提供精準的重現步驟與 EventStream 截圖,是讓我能逐步逼近根因的關鍵 👍。一句道地的總結說法:",
+      "body": "你連續提供精準的重現步驟與 EventStream 截圖,是讓我能逐步逼近根因的關鍵 👍。一句道地的總結說法:\n\n> **This is the latest test result.**(這是最新測試結果)\n\n語感補充(nuance):\n- 「最新測試結果」→ **the latest test result**;`latest`(最新的)比 `newest` 更常用於「最近一次的」結果/版本。\n- 回報觀察結果時,工程上常用 **As of the latest test, …**(截至最新測試,…)起頭,精準表達「目前為止的觀察」。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "095666b5e39a",
+      "date": "20260605",
+      "front": "你這次「現在平台上看到是 v0.5.19」一句話提供了最關鍵的資訊,精準有效 👍。道地說法:",
+      "body": "你這次「現在平台上看到是 v0.5.19」一句話提供了最關鍵的資訊,精準有效 👍。道地說法:\n\n> **The platform is showing v0.5.19 now.**\n\n語感補充(nuance):\n- 「平台上看到是…」→ **The platform is showing…** 或 **I'm seeing … on the platform**;用現在進行式 `is showing` 表達「畫面當下顯示」很自然。\n- 確認版本號也常說 **It's on v0.5.19 now.**(`on` + 版本號 =「跑在某版本上」),更簡潔。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "07372c393b63",
+      "date": "20260605",
+      "front": "\"Both safeguards are already in place — the front-end auto-fills the internal KB code, and the back-end falls back to resolving the display name.\"",
+      "body": "這次你全程使用中文，沒有英文句子可供修正。提供一個與本次主題相關的實用英文表達供你擴充詞彙：\n\n> \"Both safeguards are already in place — the front-end auto-fills the internal KB code, and the back-end falls back to resolving the display name.\"\n\n- **in place**：表示「已就位／已落實」，比 \"done\" 更精準地描述「機制已建置好並運作中」。\n- **fall back to**：技術情境下的固定片語，指「退而採用備援方案」，正好對應你說的「兜底／容錯」。\n\n下次回報實作狀態時可以試著用 \"X is in place\" 來描述已落實的機制喔。",
+      "tags": [
+        "vocab"
       ]
     },
     {
