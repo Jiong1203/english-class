@@ -1,6 +1,151 @@
 {
   "entries": [
     {
+      "id": "e68a675fa16f",
+      "date": "20260607",
+      "front": "\"feel free to recommend a better approach\"",
+      "body": "你這則訊息混用了中英:「sorry我主要是想要在 group around 這邊加上這兩大功能,跟 shuttlecockTracker 脫鉤也沒關係,或者你有更好的設計方式也可以請你推薦」。\n\n整句翻成自然英文:\n- **\"Sorry, what I really want is to add these two major features here in group-around itself. Decoupling from shuttlecockTracker is totally fine — and if you have a better design in mind, feel free to recommend it.\"**\n\n用字說明(繁中):\n- 「脫鉤」工程語境用 **decouple**(動詞)/ **decoupling**(名詞)最精準,指「解除相依、各自獨立」。\n- 「有更好的設計方式也可以請你推薦」可用 **\"feel free to recommend a better approach\"**;`feel free to...` 是很道地、語氣輕鬆的「歡迎你儘管…」說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "df934a7babb4",
+      "date": "20260607",
+      "front": "\"What do you mean by that? Are you referring to stats on the activities a user has joined?\"",
+      "body": "這次你三則回覆都是中文,我挑你第 4 點的提問來看:「甚麼意思? 意思是指統計使用者參加過的活動嗎?」\n\n幫你轉成自然英文:\n- **\"What do you mean by that? Are you referring to stats on the activities a user has joined?\"**\n\n用字說明(繁中):\n- 反問「甚麼意思?」用 **\"What do you mean by that?\"** 最自然,比直譯的 `What's the meaning?` 道地很多(後者像在查字典)。\n- 「你是指…嗎?」用 **\"Are you referring to...?\"** 很適合用於確認對方的意思,語氣中性、專業,在技術討論釐清需求時很好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dcd25be184f4",
+      "date": "20260607",
+      "front": "\"Just to add: the activity records feature (history/stats/profit) should be OWNER-only — ADMINs can't access it.\"",
+      "body": "這則是中文補充:「開團紀錄(歷史/統計/利潤)是只能給OWNER使用,ADMIN無法使用」。\n\n自然英文說法:\n- **\"Just to add: the activity records feature (history/stats/profit) should be OWNER-only — ADMINs can't access it.\"**\n\n用字說明(繁中):\n- 「先補充一下」開頭很適合用 **\"Just to add:\"** 或 **\"One more thing:\"**,語氣自然,表示要追加一個重點。\n- 「只能給 OWNER 使用」用形容詞 **\"OWNER-only\"** 最精簡道地(例:`an OWNER-only feature`);權限語境也常說 **\"restricted to OWNERs\"**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dc3441a9d53f",
+      "date": "20260607",
+      "front": "\"review the changes\"",
+      "body": "你這次用的是 slash 指令 `/review` 加參數 `& migration`,沒有自由書寫的英文句子,所以這次沒有可批改的內容。\n\n補充一個小知識:在程式碼審查語境,「審查某項變更」道地說法是 **\"review the changes\"** 或 **\"do a review of the migration\"**;若想表達「順便也看一下 migration」,可以說 **\"...and the migration while you're at it.\"**,其中 `while you're at it`(趁你在做這件事時順便)是很自然的口語片語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8206bfef94a8",
+      "date": "20260607",
+      "front": "\"Do CHANGELOG.md and VERSION.md need updating too?\"",
+      "body": "你這次的訊息是中文加檔名引用:「@CHANGELOG.md & @VERSION.md 需要更新嗎?」\n\n對應的自然英文:\n- **\"Do CHANGELOG.md and VERSION.md need updating too?\"**\n\n用字說明(繁中):\n- 「需要更新嗎?」用 **\"Does it need updating?\"** 或 **\"Should I update ...?\"** 都很自然。注意 `need` 後面接動名詞 **updating**(`need updating` = 需要被更新),這是英式常見、語感地道的用法;美式也可寫成 **\"need to be updated\"**。\n- 用 **\"too\"** 結尾能帶出「除了剛剛的程式碼,連這些文件也…」的延續語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4b1c13e2bd9c",
+      "date": "20260607",
+      "front": "\"First create a new branch, then commit and push M1. Use English (for the commit message).\"",
+      "body": "你這次的指令:「先開 new branch 把 M1 commit & push. use en.」中英混用,意思清楚。\n\n整句的自然英文寫法:\n- **\"First create a new branch, then commit and push M1. Use English (for the commit message).\"**\n\n用字說明(繁中):\n- 「開 new branch」道地說法是 **\"create / cut a new branch\"**;口語裡 **\"cut a branch\"** 也很常見,特別是在發版情境。\n- 你用 `&` 連接 commit 與 push 很口語、沒問題;正式書寫時用 **\"commit and push\"** 即可。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4425bd93d0d8",
+      "date": "20260607",
+      "front": "\"This works, but it could be tidied up / simplified.\"",
+      "body": "你這次同樣是用 `/review` 指令、無自由英文句子,因此沒有可批改處。\n\n補充一個 code review 常用語:當你想指出「這段在功能上沒問題,但可以更精簡」,英文常說 **\"This works, but it could be tidied up / simplified.\"**;若要標示「非阻擋性建議」,用 **\"nit:\"**(nitpick 的縮寫)當開頭是業界慣例,例如 *\"nit: this variable is now redundant.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "321e292fb522",
+      "date": "20260607",
+      "front": "\"commit & push\"",
+      "body": "你這次的指令 **\"commit & push\"** 簡潔正確、是工程日常最自然的說法 ✅。\n\n可擴充的相關講法:\n- 若想一次表達「提交並推上去開 PR」,可說 **\"commit, push, and open a PR.\"**\n- 口語中也常把這整串動作講成 **\"ship it\"**(把它出貨/上線),例如 *\"Looks good — ship it.\"* 帶有「審查通過、可以送出」的輕鬆語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1744cb68389c",
+      "date": "20260607",
+      "front": "\"This deviates from the spec, but intentionally—here's why.\"",
+      "body": "本則為 `/review` 指令、無自由英文,故略過批改。\n\n一個 review 常用語:當你想指出「某做法偏離了規格但有理由」,可說 **\"This deviates from the spec, but intentionally—here's why.\"**;`deviate from`(偏離)在技術討論中比 `be different from` 更精準傳達「原本應如何、實際卻不同」的語感。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e8e6e609771b",
+      "date": "20260606",
+      "front": "\"if there are any issues\"",
+      "body": "你這次的訊息有一個小拼字：**「review一夏」** 應該是 **「review 一下」**（注音選字選到「夏」了 😄）。\n\n順便提供你這句的自然英文說法：\n\n| 你的中文意圖 | 自然的英文說法 |\n|---|---|\n| 你幫我 review 一下那些 code 有沒有問題 | \"Could you review the code and check if there are any issues?\" |\n| （較口語）幫我看一下這段 code 有沒有問題 | \"Can you take a look at this code and see if anything's off?\" |\n\n小提醒：「有沒有問題」最自然的講法是 **\"if there are any issues\"** 或口語的 **\"if anything's off\"**（off 在這裡指「不對勁」）。不要直譯成 \"have no problem\"，那個是「沒問題（OK）」的意思，方向相反喔。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d75aa6d6db97",
+      "date": "20260606",
+      "front": "\"I don't have permission to configure the environment variables.\"",
+      "body": "你這次同樣用中文發問，提供對應的自然英文說法：\n\n| 你的中文意圖 | 自然的英文說法 |\n|---|---|\n| 我沒有配置環境參數的權限 | \"I don't have permission to configure the environment variables.\" |\n| 如果現在 deploy 上線會有什麼影響？ | \"What's the impact if we deploy this to production as-is?\" |\n| 我該怎麼請夥伴協助配置 env？ | \"How should I ask my teammate to help set up the env variables?\" |\n\n小提醒：「上線 / 部署」用 **deploy** 即可；「環境變數」標準說法是 **environment variables**（口語常縮寫成 **env vars**）。表達「目前這樣、原封不動」可以用 **as-is**，很道地，例如 \"if we ship it as-is\"（如果就這樣出貨/上線）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "bfb84cf478ce",
+      "date": "20260606",
+      "front": "\"Walk me through what commit a87ef9e does.\"",
+      "body": "你這次是用中文下指令（「讀取一下 git ... 做的事情在幹嘛」），以下提供自然的英文說法：\n\n| 你的中文意圖 | 自然的英文說法 |\n|---|---|\n| 讀取一下這個 commit 在幹嘛 | \"Walk me through what commit a87ef9e does.\" |\n| （較口語）這個 commit 在搞什麼 | \"What's this commit actually doing?\" |\n\n小提醒：「Walk me through ~」是工程師之間很常用的講法，意思是「帶我一步步了解」，比單純的 \"explain\" 更口語且自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b9b5c007c359",
+      "date": "20260606",
+      "front": "\"please read @file\"",
+      "body": "你這次的指令是 **\"please read @file\"** 這類的簡短命令(實際是 `please read <URL>`)。\n\n這句英文完全正確、自然 ✅。`please read ...` 是很道地的祈使句寫法,語氣禮貌且清楚。\n\n提供一個可以擴充詞彙的替代說法:\n- **\"Please go through this repo for me.\"** — `go through` 帶有「從頭瀏覽、仔細看過一遍」的語感,比單純的 `read` 更強調「通盤了解」,在請人幫忙看文件或程式碼時很常用。",
+      "tags": [
+        "praise",
+        "vocab"
+      ]
+    },
+    {
+      "id": "a55bf4ea2f7c",
+      "date": "20260606",
+      "front": "\"Once ... , I'll ...\"",
+      "body": "你這次用中文表達了一個計畫（「等夥伴配置好後再 merge 回 dev 跟推上 prod」），提供對應的自然英文說法：\n\n| 你的中文意圖 | 自然的英文說法 |\n|---|---|\n| 等夥伴配置好後，我再把分支 merge 回 dev | \"Once my teammate finishes the setup, I'll merge the branch back into dev.\" |\n| 然後推上 prod 進行部署 | \"Then I'll push it to prod and deploy.\" |\n\n小提醒：表達「等某件事完成後再做下一步」，用 **\"Once ... , I'll ...\"** 是最自然的句型（once 在這裡等於 \"after\",但更口語）。「merge 回 dev」介系詞用 **into**（merge into dev）比 \"merge to\" 更標準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4fdc05bea7d5",
+      "date": "20260606",
+      "front": "\"What are the credentials, and how do I configure and manage them?\"",
+      "body": "你這則同樣是用中文發問，提供對應的自然英文說法：\n\n| 你的中文意圖 | 自然的英文說法 |\n|---|---|\n| 帳號密碼是什麼？要怎麼管理怎麼設定？ | \"What are the credentials, and how do I configure and manage them?\" |\n| 在 dev 或 prod 環境都要帳密才能看嗎？ | \"Do both the dev and prod environments require credentials to view it?\" |\n\n小提醒：講「帳號密碼」時，英文工程圈習慣用 **credentials**（複數）來統稱 username + password，比逐字翻成 \"account and password\" 更道地。動詞用 **configure**（設定）和 **manage**（管理）即可精準對應你的問題。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "24f45e678681",
+      "date": "20260606",
+      "front": "\"I want to extract the activity-opening records and attendance features so this system can consume them — please write a PRD.\"",
+      "body": "你這則訊息是用中文寫的:「我要搬出開團紀錄跟人員簽到功能給這邊的系統使用,請寫一份 prd」。\n\n提供自然的英文說法:\n- **\"I want to extract the activity-opening records and attendance features so this system can consume them — please write a PRD.\"**\n\n幾個用字說明(用繁中解釋):\n- 「搬出…給…使用」在工程語境最貼切的動詞是 **extract**(抽離既有功能)或 **expose**(對外開放介面),比直譯的 `move out` 自然很多。\n- 「給別的系統使用」可用 **for another system to consume**;`consume` 是 API 整合領域的慣用語,指「消費 / 取用」另一個服務提供的資料。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f6e9217ee9af",
       "date": "20260605",
       "front": "你這次冷靜說明「另一個 agent 同時在開發、改了相同檔案」,把根因講得很清楚 👍。實用英文:",
