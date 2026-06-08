@@ -137,6 +137,15 @@
       ]
     },
     {
+      "id": "4170d0671e5e",
+      "date": "20260608",
+      "front": "\"commit and deploy\"",
+      "body": "你這則只有「提交並部署」四個字,是中文指令,幫你對應到開發場景最常用的英文講法:\n\n- **「提交並部署」** = **\"commit and deploy\"** —— 這兩個就是業界標準動詞,直接用。\n  - 完整一句:*\"Commit the changes and roll out the deployment.\"*(`roll out` = 推出/上線,比 deploy 更口語且有「逐步上線」語感。)\n- 補充三個部署流程常用語,你跟 DevOps 溝通會用到:\n  - **「打 tag 觸發部署」** → *\"tag the release to trigger the deployment\"*\n  - **「退版」** → *\"a version rollback\"*(動詞 *roll back*:*\"don't roll back to an older version\"*)\n  - **「上線/正式環境」** → *\"go live\"* / *\"production (prod)\"*。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "3b9b11ecd25a",
       "date": "20260608",
       "front": "\"...unify the user-facing wording to 'Cancel', but keep the internal command name as is.\"",
