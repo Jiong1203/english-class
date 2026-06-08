@@ -10,12 +10,30 @@
       ]
     },
     {
+      "id": "f350fc82e524",
+      "date": "20260608",
+      "front": "\"Where is the JWT key sourced from currently?\"",
+      "body": "你這次是用中文輸入（「jwt 的 key 現在是哪裡來的?」），這裡幫你做自動翻譯：\n\n> Where does the JWT key come from right now?\n\n語感小提醒：口語上更自然的講法也可以說 **\"Where is the JWT key sourced from currently?\"** 或更簡短的 **\"How is the JWT key being loaded right now?\"**。其中 *sourced from* 帶有「來源／取得管道」的技術語氣，很適合用在討論設定值（config）來源的情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f1c8815b7be6",
       "date": "20260608",
       "front": "\"\n\n**用字 nuance**：\n- 「帶出」在這裡用 **pull up**（叫出資料）或 **surface**（讓資料浮現）都很道地；technical 場合也常說 **list** 或 **load**。\n- 「狀態不為 A 或 B」最精準的英文是 **neither A nor B**，比 \"",
       "body": "這輪你的訊息以中文為主，我先針對這次需求的關鍵句做一個自然的英文翻譯，方便你日後用英文跟工程師描述這類需求：\n\n> 「當使用管理活動功能時，系統會自動帶出目前狀態不為 CLOSED 或 CANCELLED 的活動，每一筆活動提供編輯、取消、簽到等功能按鈕」\n\n自然的英文說法：\n> \"When the user opens **Manage Activities**, the system automatically pulls up activities whose status is **neither** CLOSED **nor** CANCELLED, and each activity exposes action buttons such as Edit, Cancel, and Check-in.\"\n\n**用字 nuance**：\n- 「帶出」在這裡用 **pull up**（叫出資料）或 **surface**（讓資料浮現）都很道地；technical 場合也常說 **list** 或 **load**。\n- 「狀態不為 A 或 B」最精準的英文是 **neither A nor B**，比 \"not A or B\" 更不會產生邏輯歧義（\"not A or B\" 在嚴格語意上可能被誤解為 \"(not A) or B\"）。\n- 「等功能按鈕」用 **such as ... and so on** 或 **action buttons like ...** 即可表達「等等」。\n\n整體你的需求描述邏輯非常清楚（連 CLOSED 之後無法簽到的隱含問題我都能推敲出來），溝通品質很高 👍",
       "tags": [
         "nuance"
+      ]
+    },
+    {
+      "id": "ee625626159b",
+      "date": "20260608",
+      "front": "\"a single key\"",
+      "body": "你這次同樣是中文輸入（「所以現在是所有 user 共用一把 key?」），自動翻譯如下：\n\n> So right now all users share a single key?\n\n語感小提醒：\n- 「一把 key」用 **\"a single key\"** 或 **\"one shared key\"** 最自然。\n- 動詞 **share** 在這裡很到位。如果想更技術一點，也可以說 **\"all users' tokens are signed with the same key\"**（所有使用者的 token 都用同一把 key 簽署），這種講法在資安討論中更精準，因為它點出了 key 的真正用途是「簽署 token」而非「屬於使用者」。",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -43,6 +61,15 @@
       "body": "你的指令「use en to commit & push」清楚明確，和先前一致。一個小回顧（之前也提過、可加深印象）：\n\n- **commit type 選用**：這次我用了 `style:` 而非 `feat:` / `fix:`。在 Conventional Commits 裡，**`style`** 專指「不影響程式邏輯的外觀/格式調整」（排版、空白、UI 顏色等），正好對應這次「只改按鈕顏色」的變更——選對 type 能讓 commit 歷史一眼看出變更性質。\n- 句子本身若要更道地：**\"Commit and push using en.\"**（把語言修飾語 `using en` 放句尾，動詞先行更流暢）。\n\n你下指令的精準度和一致性都很好，溝通效率高 👍",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "d62e311acedd",
+      "date": "20260608",
+      "front": "\"How does a user get their own token?\"",
+      "body": "你這兩則都用中文輸入(先「key」後更正為「token」),這次的自動翻譯:\n\n> How does a user obtain their own token?\n\n語感小提醒:\n- 動詞用 **obtain**(取得)很正式精準,口語也可以說 **get**:\"How does a user get their own token?\"\n- 你從「key」改成「token」這個更正非常關鍵,觀念完全正確 👍。在英文資安語境裡,**key**(簽章金鑰,伺服器私有)和 **token**(使用者持有的憑證)是嚴格區分的兩個詞,用錯會造成誤解。你能主動修正,代表你已經抓到這個核心差異了。",
+      "tags": [
+        "praise"
       ]
     },
     {
@@ -106,6 +133,15 @@
       "body": "這幾則你都用中文,沒有英文句子可分析。給你補充這次任務最核心的一個英文表達,demo/交付時用得到:\n\n- **「補齊缺口」** 最道地的講法是 **\"fill the gap\"** 或 **\"close the gap\"**(close 更有「徹底補上、收尾」的語感)。\n  - 例:*\"This new agent fills the delivery-performance gap in our procurement suite.\"*(這支新 agent 補上了採購工具組裡的交期績效缺口。)\n- **「交期準時率」** 在供應鏈英文是固定術語 **\"on-time delivery rate (OTD)\"** —— 跟外商或系統商溝通直接用 OTD 對方就懂。\n- **「逾期/遲到收料」** = **\"late receipts\"** 或 **\"overdue deliveries\"**。👍",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "96f9834e4ca5",
+      "date": "20260608",
+      "front": "你這次是中文輸入(「現在在使用開團助手的按鈕功能時,使用者 token 是如何取得的?」),自動翻譯:",
+      "body": "你這次是中文輸入(「現在在使用開團助手的按鈕功能時,使用者 token 是如何取得的?」),自動翻譯:\n\n> When using the 開團助手 (group-creation assistant) button features, how is the user's token obtained?\n\n語感小提醒:\n- 「按鈕功能」用 **button features** 或 **button actions** 都自然;在 LINE 開發語境裡也常直接說 **button actions**,因為 LINE 官方文件就是用 `action`(如 `message action`、`postback action`、`URI action`)這個詞,講起來更貼近技術術語。\n- 「是如何取得的」用被動語態 **how is ... obtained** 很標準。口語也可以說 **how does the user get their token?**,但你用的被動式在技術文件/討論中更顯精確客觀。",
+      "tags": [
+        "grammar"
       ]
     },
     {
