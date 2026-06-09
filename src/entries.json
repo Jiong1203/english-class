@@ -1,6 +1,168 @@
 {
   "entries": [
     {
+      "id": "ec7c6163d4fe",
+      "date": "20260609",
+      "front": "\"can't ... reliably\"",
+      "body": "你這次用中文描述 bug（「當我詢問…該員工無法順利回覆我…體驗較佳」），沒有英文句子需批改，提供對應的自然英文工程說法：\n\n| 中文 | 自然英文 |\n|---|---|\n| 員工無法順利回覆我 | The employee **fails to respond properly** / **can't answer it reliably**. |\n| 理論上應該要回覆出文件總數 | It **should return the total number of documents**. |\n| 這樣使用者對話體驗較佳 | This **gives the user a better conversational experience**. |\n\n> nuance 提醒：\n> - 「無法順利」常被直譯成 \"can't smoothly\"，但英文不這樣搭配；用 **\"can't ... reliably\"**（無法穩定地）或 **\"fails to ... properly\"**（沒能正確地）才道地。\n> - 「理論上」工程語境用 **\"ideally\"**（理想上）或 **\"in principle\"** 比字面的 \"theoretically\" 更貼切，例如 *\"Ideally it should list the files.\"*\n> - 「體驗較佳」說 **\"a better user experience\"**（或縮寫 better UX）最自然。\n\n完整一句範例：**\"When I ask what documents are in the workspace, the employee can't answer it reliably. Ideally it should return the file count — and list the filenames when there aren't many — for a better user experience.\"**",
+      "tags": [
+        "nuance",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c09c6ac63807",
+      "date": "20260609",
+      "front": "\"Claim Group Owner\"",
+      "body": "你這次是用中文下指令，以下提供自然的英文說法：\n\n> Please remove the \"Claim Group Owner\" button from the \"團團\" menu in the group. Since this is a one-time feature only used during onboarding, there's no need to expose it on subsequent \"團團\" calls.\n\n幾個用詞說明（以繁體中文解釋）：\n- 「清除按鈕」在英文裡用 **remove the button** 比 *clear the button* 更自然；*clear* 通常指清空內容（如清空輸入框）。\n- 「一次性功能」可說 **a one-time feature** 或 **a one-off feature**，兩者皆常見。\n- 「後續呼叫」用 **subsequent calls** 很精準；口語也可說 *later calls*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b4d1478a57bf",
+      "date": "20260609",
+      "front": "\"This is **good to merge**, with a couple of **non-blocking** operational notes.\"",
+      "body": "你這次是透過 `/review` slash command 觸發,沒有額外輸入英文句子,所以沒有可分析的內容。\n\n不過提供一個你日後在 code review 情境很常用的英文表達,擴充你的詞彙:\n\n> \"This is **good to merge**, with a couple of **non-blocking** operational notes.\"\n\n幾個實用片語(繁中說明):\n- **`good to merge`** / **`good to go`**:審查通過、可以合併的標準說法,比 `you can merge it` 更道地。\n- **`non-blocking`**:指「不阻擋合併的意見」,正好對應我們的 🟡(建議但不強制)。反義是 **`blocking`**(🔴 必須修)。\n- **`a couple of`**:口語上表示「兩三個、幾個」,比 `some` 更精確一點(暗示數量少)。\n\n例句:\"LGTM overall — just a couple of non-blocking nits.\"(`LGTM` = Looks Good To Me,`nits` = 吹毛求疵的小意見,review 留言超常見。)👍",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "b125506f9227",
+      "date": "20260609",
+      "front": "\"These endpoints leak metadata through a side channel.\"",
+      "body": "這次是 `/review` 指令（系統英文模板），沒有你的自然語句。補充幾個 code review 情境的實用英文，方便你日後用英文寫 MR review：\n\n- 「這幾條旁路會洩漏 metadata」→ *\"These endpoints leak metadata through a side channel.\"*（**side channel / bypass** = 旁路）\n- 「向後相容、零回歸」→ *\"backward-compatible, no regressions.\"*\n- 「列為後續處理」→ *\"Let's track this as a follow-up.\"*（**follow-up** = 後續事項，review 中極常用）\n- 「這段邏輯沒測試很容易回歸」→ *\"This logic is regression-prone without tests.\"*（**-prone** 後綴 = 容易發生…的，如 error-prone）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a82c6ff371cf",
+      "date": "20260609",
+      "front": "你這次的指令是「use en to commit & push」，語法非常簡潔自然，適合 CLI 情境。以下提供一個更完整的說法供參考，擴充你的表達方式：",
+      "body": "你這次的指令是「use en to commit & push」，語法非常簡潔自然，適合 CLI 情境。以下提供一個更完整的說法供參考，擴充你的表達方式：\n\n> Commit and push using an English commit message.\n\n幾點說明（以繁體中文解釋）：\n- 你用 `en` 當作關鍵字（搭配先前設定的 workflow）完全沒問題,這是你自訂的縮寫慣例。\n- 在完整句子裡，**using English** 比 *use en* 更符合語法(因為主要動詞已經是 commit/push,第二個動作要用 -ing 形式或 with)。\n- 也可以說 **Commit in English and push**,其中 *in English* 表示「以英文（書寫）」,是很道地的介係詞用法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "91219bde9676",
+      "date": "20260609",
+      "front": "\"OK, go for it.\"",
+      "body": "你這次回的 **「OK跑。」** 非常簡潔有力（中英混用在工程情境很常見）。對應的自然英文：\n\n- 最貼近的說法：**\"OK, go for it.\"** 或 **\"OK, run it.\"**\n- 若想更口語：**\"Go ahead and run it.\"**\n\n小提醒（繁中）：中文一個「跑」字就能當動詞用（跑程式、跑測試、跑建置），但英文的 *\"run\"* 通常需要接受詞，例如 *\"run it\"* / *\"run the build\"*，單獨說 *\"Run.\"* 會顯得突兀。這是中英文在「及物動詞省略受詞」習慣上的小差異。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "78e0a13a86d9",
+      "date": "20260609",
+      "front": "\"You still need to commit, push, and tag.\"",
+      "body": "你這次的指令「你尚未 commit & push & tag」是中文，這裡提供自然的英文工程說法與一個語感提醒：\n\n| 中文原意 | 自然英文 | 說明 |\n|---|---|---|\n| 你**尚未** commit & push & tag | You **haven't** committed, pushed, or tagged **yet**. | 口語也常說 \"You still need to commit, push, and tag.\" |\n\n> nuance 提醒:\n> - 在「列舉多個尚未完成的動作」時，英文習慣用 **haven't ... yet**，且動詞要變過去分詞：commit → **committed**、tag → **tagged**。直接說 \"haven't commit\" 是常見錯誤。\n> - 連接多個否定動作時用 **or** 而非 **and**（\"haven't committed, pushed, **or** tagged\"），因為否定句裡 \"and\" 會讓語意變得模糊。\n> - 若想更簡潔地催促，工程團隊裡很自然會說：**\"You still need to commit, push, and tag.\"**（此處肯定句用 and 即可。）",
+      "tags": [
+        "nuance",
+        "comparison"
+      ]
+    },
+    {
+      "id": "6eec24b3ceef",
+      "date": "20260609",
+      "front": "\"Let's fix the actual problems first.\"",
+      "body": "你這次的指令 **「先 fix 現在有問題的部分」** 對應的自然英文：\n\n- *\"Let's fix the actual problems first.\"* （**actual problems** 精準表達「真正有問題的」，相對於 nice-to-have）\n- 或 *\"Fix the real issues first.\"*\n\n用字說明（繁中）：\n- 「現在有問題的部分」中的「有問題」，英文不要直譯成 *\"the parts that have problems\"*（冗長），用 **\"the actual/real issues\"** 或 **\"what's actually broken\"** 更道地。\n- 工程情境常用 **\"P0 / blocking issues\"** 指「必須先修的關鍵問題」，例如 *\"Let's clear the blocking issues before polish.\"*（先清掉關鍵問題再做細節打磨）——剛好對應你「先 fix 問題，細節後談」的優先順序思維。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6ed6865a2fed",
+      "date": "20260609",
+      "front": "你這次輸入的是 `test`，這是一個非常簡短的指令式單字，本身沒有文法問題，用來測試系統運作很自然。",
+      "body": "你這次輸入的是 `test`，這是一個非常簡短的指令式單字，本身沒有文法問題，用來測試系統運作很自然。\n\n若想讓語氣更完整、更像母語人士在測試對話時的說法，可以參考以下幾種替代說法，能擴充你的詞彙：\n\n| 你的說法 | 更完整的替代說法 | 說明（zh-tw） |\n|---|---|---|\n| test | Just testing. | 口語中常用，表示「只是測試一下」 |\n| test | Is this working? | 帶有詢問語氣，確認系統是否正常運作 |\n| test | Testing, can you hear me? | 類似麥克風測試的說法，較生活化 |\n\n小提醒：單獨的 `test` 當動詞或名詞都正確，但在真實對話裡，補上一個主詞或語境（如上表）會讓表達更自然、更清楚。",
+      "tags": [
+        "grammar",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "69f0c14e7f93",
+      "date": "20260609",
+      "front": "\"It's unused, so let's just remove it.\"",
+      "body": "你這次同樣是純中文指令（「那既然無用處的話，請你幫忙清理掉吧」），我提供自然的英文說法給你參考：\n\n> \"Since it's unused, go ahead and clean it up for me.\"\n\n幾個用字 nuance（繁中說明）：\n- **「既然…的話」** 用 `Since...` 開頭最自然，表達「基於這個已確認的前提」。比 `Because` 更適合這種「承接前面結論」的語氣。\n- **「請你幫忙…吧」** 的那個「吧」帶有「放手去做」的語氣，英文用 **`go ahead and...`** 最傳神 —— 它正好表達「我授權你動手、不用再問」的意思。單講 `please clean it up` 也對，但少了那股「就這麼辦」的果斷感。\n- 口語上也可以更短：**\"It's unused, so let's just remove it.\"**（`let's just` 帶點「乾脆」的味道。）\n\nこれからも中文指令我都會附上英文對照,放心使用。👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "526a96b2f9e4",
+      "date": "20260609",
+      "front": "\"There's a field called *Detail SQL* (`querySql`) in `TopicList.vue` — is it actually used anywhere right now? If so, how does it work?\"",
+      "body": "你這次用的是純中文提問（「有個『細部SQL』，請問現在有用途嗎?」），所以我幫你做自然的英文翻譯版本：\n\n> \"There's a field called *Detail SQL* (`querySql`) in `TopicList.vue` — is it actually used anywhere right now? If so, how does it work?\"\n\n幾個用字 nuance 說明（繁中）：\n- **「有用途嗎」** 翻成 `is it actually used` 比直譯的 `does it have a use` 更自然、更口語，`actually` 帶出「實際上到底有沒有」那種想查證的語氣。\n- **「如何使用」** 在技術語境用 `how does it work`（它如何運作）會比 `how to use it`（我該怎麼用它）更貼切，因為你是在問「系統內部怎麼處理它」，而不是「我這個使用者該怎麼操作」。\n\nこれからも気軽に中英文混用で質問してください — 我會持續提供對照。👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "5083be39504d",
+      "date": "20260609",
+      "front": "\"can't tell\"",
+      "body": "這則你用中文＋截圖溝通（「不會知道…的選項分別是甚麼用途…請調整。要 UI 友善與 UX 友善」），沒有英文句子可批改，所以提供對應的自然英文說法，方便你日後跟英語同事描述同類需求：\n\n| 中文原意 | 自然英文 |\n|---|---|\n| 使用者不會知道每個選項的用途 | Users **can't tell what each option does**. |\n| 不知道這個欄位是什麼、要填什麼 | It's **unclear what this field is for or what to enter**. |\n| 請調整成 UI／UX 友善 | Please **make it more user-friendly** / **improve the UX**. |\n\n> nuance 提醒：\n> - 描述「分辨不出差異」時，**\"can't tell\"**（= 看不出來／分不清）比直譯的 \"don't know\" 更道地，例如 \"I can't tell which option to pick.\"\n> - 「這個欄位是做什麼用的」用 **\"what this field is for\"** 最自然（`be for` 表「用途」）；「要填什麼」用 **\"what to enter / fill in\"**。\n> - 工程情境講「友善」，**\"user-friendly\"**（介面好懂好用）與 **\"intuitive\"**（直覺、不必教就會用）是最常用的兩個詞，比逐字翻 \"friendly\" 精準。\n\n完整一句範例：**\"Users can't tell what each option does, and it's unclear what to enter in the 'Workspace KB Name' field — please make this form more intuitive.\"**",
+      "tags": [
+        "nuance",
+        "comparison"
+      ]
+    },
+    {
+      "id": "3fea3eaf332b",
+      "date": "20260609",
+      "front": "\"Commit and push using a zh-tw commit message.\"",
+      "body": "你這次的指令是「use zh-tw commit & push」—— 簡短的祈使句,文法完全正確、也很道地,工程師日常溝通就是這樣精簡。👍\n\n一個小小的 nuance 提醒:\n- 你用 **`use zh-tw`** 當作「指定語言關鍵字」,在我們約定的工作流裡很清楚。若想在一般情境更完整地表達,可以說:**\"Commit and push using a zh-tw commit message.\"**(用 `using...` 帶出方式)。\n- 動詞 **`commit`** 和 **`push`** 在 git 語境直接當動詞用是標準說法,不需要加 `do` 或其他輔助動詞,你的用法很正確。\n\n替代講法供你擴充:**\"Stage, commit, and push with a Traditional Chinese message.\"**(`stage` 是「加入暫存區」,把三個步驟講全。)",
+      "tags": [
+        "praise",
+        "grammar",
+        "nuance"
+      ]
+    },
+    {
+      "id": "318620de7fbb",
+      "date": "20260609",
+      "front": "\"The workspace is now bound to the digital employee, but the employee can't correctly retrieve the data inside the workspace — please investigate.\"",
+      "body": "這次你是用中文下指令（「現在『工作空間』綁定到數位員工上…請檢察」），所以這裡提供自然的英文說法，並點出一個常見的中翻英陷阱：\n\n| 你的原意（中文） | ❌ 易錯直譯 | ✅ 自然英文 |\n|---|---|---|\n| 請**檢察** | Please **inspect/examine**（太生硬，且「檢察」應為「檢查」) | Please **look into** / **investigate** this issue. |\n| 數位員工無法正確獲取工作空間內的資料 | The digital employee **cannot get correctly** the data | The digital employee **can't correctly retrieve** the data in the workspace. |\n\n> 補充 nuance：談「檢查 bug、找出原因」時，英文工程情境最自然的動詞是 **investigate** 或 **look into**；`inspect` 偏向「逐項目視檢察看（如檢查設備）」，語感較不貼合除錯。另外 `retrieve`／`fetch`（取得資料）比泛用的 `get` 更精準專業。\n\n整句範例：**\"The workspace is now bound to the digital employee, but the employee can't correctly retrieve the data inside the workspace — please investigate.\"**",
+      "tags": [
+        "nuance",
+        "comparison"
+      ]
+    },
+    {
+      "id": "2a0d31206dc8",
+      "date": "20260609",
+      "front": "\"are met\"",
+      "body": "這次你的需求是用中文＋附帶一份中文規格文件提出的，沒有出現英文句子，所以這次沒有需要修正的英文。\n\n不過，依「自動翻譯」慣例，提供你這次提問的自然英文說法，方便日後跟國外同事或在英文文件中描述：\n\n> \"Could you check whether requirements 1, 5, 7, 8, 9, and 11 are already met by the current system?\"\n\n幾個用字說明（繁中）：\n- **「是否已符合需求」** 最自然的英文動詞是 **\"are met\"**（被滿足）或 **\"are satisfied\"**，例如 \"the requirements are already met\"。避免直譯成 \"accord with\"，那個用法較生硬。\n- 若想更口語，可用 **\"whether the system already supports requirements 1, 5, ...\"**（系統是否已支援）。\n- 「符合度」這種評估語境，英文常用 **\"compliance\"** 或 **\"coverage\"**，例如 \"a requirement compliance review\"（需求符合度檢視）。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "1b8bbdfd1aa5",
+      "date": "20260609",
+      "front": "\"Just push it.\"",
+      "body": "你這次的指令是「直接推」——簡短中文命令，這裡給對應的自然英文說法與語感說明：\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| 直接推 | **Just push it.** / **Go ahead and push.** | 工程口語最常用 |\n| 直接推（含完整流程） | **Ship it.** | 「ship」在軟體圈＝發佈上線，語氣俐落自信 |\n\n> nuance 提醒：\n> - **\"Just push it.\"** 的 `just` 帶有「不必多問、照做就好」的語氣，正好對應你的「直接」。\n> - **\"Ship it!\"** 是工程文化裡很道地的說法，表示「沒問題，發出去吧」，比逐字翻的 \"push directly\" 自然得多——母語者幾乎不會說 \"push directly\"。\n> - 若要更完整：**\"Looks good — go ahead and commit, push, and tag.\"**",
+      "tags": [
+        "nuance",
+        "comparison"
+      ]
+    },
+    {
+      "id": "00df7855b922",
+      "date": "20260609",
+      "front": "\"So should I create a digital employee dedicated to procurement, and which agents should I bind to it?\"",
+      "body": "你這則用中文,挑核心句轉自然英文:\n\n> 原句:「所以我現在應該新建一個數位員工專門是『採購』領域的?然後 agent 要選哪些?」\n>\n> 英文:**\"So should I create a digital employee dedicated to procurement, and which agents should I bind to it?\"**\n\n語感說明(zh-tw):\n- 「專門是 X 領域的」→ **\"dedicated to X\"** 最精準(dedicated to = 專責/專門用於);比 \"specially for\" 更專業。\n- 「綁 agent」這裡動詞用 **\"bind to\"** 或 **\"attach to\"**;你們系統欄位叫 boundAgentIds,用 bind 最對應。\n- 兩個問題可用 **\"and\"** 串成一句,英文比拆成兩個短句更流暢自然。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fa712dfcbbf8",
       "date": "20260608",
       "front": "這則你用了中英混合的指令:「開個 new branch 用 en 推上去」,我幫你看 `new branch` 這個英文片語的用法。",
