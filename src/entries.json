@@ -1,6 +1,263 @@
 {
   "entries": [
     {
+      "id": "faecf3e7121b",
+      "date": "20260615",
+      "front": "\"\n\n幾個用字說明：\n- **toggle / switch**：兩者都可指「開關」。`toggle` 在軟體 UI 情境更常用來指這種「開/關」設定。\n- **enter a state**：「進入某狀態」的慣用搭配，比直譯的 \"",
+      "body": "你這次是用繁體中文下指令，以下提供自然的英文說法供參考：\n\n> 「現在文件上傳後會有『草稿』的狀態，但需要添加一個開關來控管是否需要草稿狀態。」\n\n自然的英文表達：\n> \"Right now documents enter a 'draft' state after upload. I'd like to add a toggle to control whether the draft state is required — when it's off, the document becomes official right away.\"\n\n幾個用字說明：\n- **toggle / switch**：兩者都可指「開關」。`toggle` 在軟體 UI 情境更常用來指這種「開/關」設定。\n- **enter a state**：「進入某狀態」的慣用搭配，比直譯的 \"have a status\" 更自然。\n- **right away / directly**：「直接、立刻」，描述跳過中間步驟很合適。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ed619b3a4b06",
+      "date": "20260615",
+      "front": "\"Sure, go ahead and stop it. So my database is running locally now, right?\"",
+      "body": "你這則用繁體中文寫（「好啊停吧。所以目前我的 DB 是本地端的 DB 沒錯吧?」），示範自然英文：\n\n> \"Sure, go ahead and stop it. So my database is running locally now, right?\"\n\n用字說明：\n- **go ahead and stop it**：「停吧」很自然的講法,`go ahead` 表示「動手做吧/請便」,帶點同意授權的語氣,正好對應你的「好啊」。\n- **..., right?**：句尾的「沒錯吧?」用 `right?` 來做確認最簡潔自然;若想更正式可用反義疑問句 \"isn't it?\",但口語上 `right?` 更常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bf61dbdde9ac",
+      "date": "20260615",
+      "front": "\"Reloading the window isn't enough — you need to **fully restart** VS Code for the new environment variables to take effect.\"",
+      "body": "你這則用繁體中文寫的,沒有英文句子可分析。這裡補充一個這次情境很實用的英文表達:\n\n- 「重載視窗」= **reload the window**;「完全重啟/重開」= **restart** 或 **fully quit and relaunch**。兩者差別正是這次的關鍵:\n  > \"Reloading the window isn't enough — you need to **fully restart** VS Code for the new environment variables to take effect.\"\n  (光是 reload window 不夠,要完全重啟 VS Code,新的環境變數才會生效。)\n- **take effect**:「生效」的固定說法,講設定/變更何時開始作用時非常好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b343ffc1ff1f",
+      "date": "20260615",
+      "front": "\"I'd like to confirm X before we merge.\"",
+      "body": "你連續兩次問的 **「這樣是不是可以 merge 了呢?」** 很自然。補充一個在「等驗證、還不能拍板」情境下，你可以對團隊說的英文：\n\n- 「我想先確認 X 再 merge」→ *\"I'd like to confirm X before we merge.\"*\n- 「就差最後一個驗證」→ *\"We're one check away from being good to go.\"*（**one X away from Y** = 距離 Y 只差一個 X，很道地）\n- 「趕在 deploy 前抓到問題」→ *\"caught it before it hit production.\"*（**hit production** = 上到正式環境，工程團隊高頻用語）\n\n你在「會自動 deploy」的前提下主動停下來問「是否安全」，這種對 production 的敬畏心是很好的工程直覺——英文有句常說的：***\"When in doubt, don't deploy on Friday.\"*** 🙂",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "adc944d4d4b1",
+      "date": "20260615",
+      "front": "\"Where is the category-level 'preview watermark' toggle implemented? I couldn't find the switch in the UI — can you tell me how to verify it?\"",
+      "body": "你這次是用中文提問的，依設定我提供自然的英文說法：\n\n> 中文：「分類層級『預覽浮水印』開關的部分是做在哪裡呢？我沒有在畫面上找到開關，請告訴我如何驗證。」\n>\n> 英文：*\"Where is the category-level 'preview watermark' toggle implemented? I couldn't find the switch in the UI — can you tell me how to verify it?\"*\n\n語感說明：\n- 「開關」在 UI 語境用 **toggle** 或 **switch** 都可以；**toggle** 更口語、偏功能描述，**switch** 更貼近 Element Plus 元件名稱。\n- 「做在哪裡」用 **\"Where is it implemented?\"** 最自然；若想更口語可說 **\"Where does this live in the code?\"**（\"live\" 在工程圈很常用來指「某段邏輯放在哪個檔案」）。\n- 「如何驗證」用 **\"how to verify it\"** 即可；若是指「手動測試確認」，**\"how to test it\"** 也通。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ab5e52b2e90b",
+      "date": "20260615",
+      "front": "\"Let's just go ahead and tag it directly.\"",
+      "body": "你這次的 **「改成直接打 tag 好了」** 很自然、口語！\n\n- *\"Let's just go ahead and tag it directly.\"*\n- 「改成…好了」表達「改變主意、就這樣決定」→ 英文 **\"Let's just ... instead\"** 或 **\"On second thought, let's just ...\"**（*on second thought* = 再想了一下、改變主意，很道地）。\n- 例：*\"On second thought, let's just cut the tag and deploy.\"*\n\n一個發版情境的提醒（繁中）：直接上而不先驗證，英文有個常用詞 **\"ship it\"**（直接出貨／上線），帶點「不囉嗦、就上」的語氣；謹慎版會說 **\"ship it and watch closely\"**（上了但盯緊）——正好對應你現在「直接打 tag 但要盯 healthcheck」的情況。🚢",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9fac30e369aa",
+      "date": "20260615",
+      "front": "\"Just drop it in an md.\"",
+      "body": "這次你用中文「請幫我整理成一個md」下指令。對應的自然英文說法：\n\n> \"Please organize this into a markdown file.\"\n> 或更口語：\"Can you put this together as a markdown doc?\"\n\n幾個用詞補充：\n- 「整理成」用 **organize into** 或 **compile into** 都很道地；若強調「把零散內容彙整」，**put together** 是很常用的片語動詞。\n- 口語中常把 markdown file 簡稱為 **a markdown** 或 **an md**，例如：*\"Just drop it in an md.\"*（drop in 在這裡是「放進去」的輕鬆說法）👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "959e87912cf9",
+      "date": "20260615",
+      "front": "\"Could it be because we were on the main branch?\"",
+      "body": "你這次的提問 **「會不會是因為剛剛的分支是在 main 的關係?」** 文法完全正確、而且是很好的除錯式提問！\n\n對應的自然英文：\n- *\"Could it be because we were on the main branch?\"*\n- 更口語的除錯語氣：*\"Could the branch being on main be the cause?\"* 或 *\"I wonder if it's because we were on main rather than develop.\"*\n\n幾個用字（繁中說明）：\n- 「會不會是因為…」表達「推測某原因」，英文最自然是 **\"Could it be because…?\"** 或 **\"Could it be that…?\"** —— 比直譯 *\"Will it be because\"* 正確（這裡是推測現況，不該用 will）。\n- 「…的關係」中文用來表「因為…的緣故」，英文不用翻出來，**\"because of X\"** 或 **\"due to X\"** 就涵蓋了。\n- 你這種「退一步質疑前提假設」的除錯直覺（branch 對不對）非常寶貴——英文有個說法 **\"question your assumptions\"**（質疑你的假設），正是你剛才做的，也是高效 debug 的核心。👍",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "93dcb752633b",
+      "date": "20260615",
+      "front": "你的指令 \"Please summary the author 'I30131' changes.\" 有一個小文法點可以修正：",
+      "body": "你的指令 \"Please summary the author 'I30131' changes.\" 有一個小文法點可以修正：\n\n| ❌ 你的寫法 | ✅ 建議寫法 |\n|---|---|\n| Please **summary** the author... | Please **summarize** the author's changes. |\n\n說明：\n1. **summary** 是名詞（摘要），不能直接當動詞用。動詞要用 **summarize**（英式拼 summarise）。\n2. \"the author I30131 changes\" 名詞直接相連會讀起來卡卡的，加上所有格 **'s** 更自然：*\"summarize author I30131's changes\"* 或 *\"summarize the changes by author I30131\"*。\n\n更道地的兩種說法：\n> \"Please summarize the changes made by author I30131.\"\n> \"Can you give me a summary of I30131's commits?\"\n\n第二句用名詞 *summary* 是正確的，因為前面有動詞 *give*——這就是名詞與動詞用法的差別 👍",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "92e6a46b9d85",
+      "date": "20260615",
+      "front": "\"What's the difference between A and B? If I just want to develop and test locally — and the database can be anything — which approach would you recommend?\"",
+      "body": "你這則是用繁體中文問的（「A 跟 B 差異在哪?」「推薦哪種方法?」），示範自然英文：\n\n> \"What's the difference between A and B? If I just want to develop and test locally — and the database can be anything — which approach would you recommend?\"\n\n用字說明：\n- **What's the difference between A and B?**：「差異在哪」最標準的問法,介系詞固定用 `between ... and ...`。\n- **the database can be anything**：「資料庫隨意」很道地的說法;也可說 \"I don't care about the database setup\"。\n- **which approach would you recommend?**：「推薦哪種方法」,用 `approach`(做法/方案)比 `method` 更貼近這種「整體做法選擇」的語境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "81ee24899a16",
+      "date": "20260615",
+      "front": "\"It's an environment issue, not a code issue.\"",
+      "body": "這輪是系統的驗證完成通知，沒有你的英文句子。補充一個正好貼合現在情境的實用表達：\n\n- 「問題出在環境，不是程式碼」→ **\"It's an environment issue, not a code issue.\"**（工程除錯時釐清歸屬的關鍵句）\n- 「把這件事交給 CI 把關」→ **\"Let CI be the gatekeeper for this.\"**（*gatekeeper* = 把關者）\n- 「我本地重現不出來」→ **\"I can't reproduce it locally.\"**（*reproduce* 是 debug 場景的核心動詞；「本地正常、別處出錯」可說 *\"it works on my machine\"* —— 工程界著名的自嘲梗 🙂）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7e8af880682c",
+      "date": "20260615",
+      "front": "\"So, what can I do now?\"",
+      "body": "你的 **\"So, what can I do now?\"** 完全正確、自然，是很地道的口語問法——用 *\"So, ...\"* 開頭銜接前面的對話、表達「那麼（在這情況下）」，很自然。\n\n幾個可擴充的同義說法（繁中說明）：\n- 更主動一點：**\"What can I do to help move this along?\"**（我能做什麼來推進這件事？）—— *move something along* = 推進、讓事情往前走。\n- 想確認分工：**\"Is there anything you need from me right now?\"**（你現在需要我提供什麼嗎？）—— 這句在協作時特別好用，把球丟回來確認對方是否在等你。\n- 你原句已經很好，若想更精準表達「在等的同時」，可加開頭：**\"While we wait, what can I do?\"**",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "7b7b9ff71202",
+      "date": "20260615",
+      "front": "\"Let's go with B then. I'll leave it in your hands.\"",
+      "body": "你這則用繁體中文寫的（「那就用 B 吧，交給你囉」），示範自然英文：\n\n> \"Let's go with B then. I'll leave it in your hands.\"\n\n用字說明：\n- **Let's go with B**：「就用 B 吧」最道地的講法,`go with` 在做選擇時表示「採用/選定」,比 \"use B\" 更自然口語。\n- **I'll leave it in your hands** 或 **I'll leave it to you**：「交給你囉」的對應說法,兩者都很自然,前者語氣稍微更「全權託付」一點。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7ac87d48c15f",
+      "date": "20260615",
+      "front": "\"cut a release\"",
+      "body": "這則訊息你用的是中文「幫我 push & tag」，對應的自然英文說法是：\n\n> \"Push it and tag a release for me.\"\n> 或更口語：\"Push the fix and cut a tag.\"\n\n補充一個業界常用詞：發布新版本動詞常說 **\"cut a release\"** 或 **\"cut a tag\"**（cut 在這裡是「裁切/發出」的意思，源自早期版本管理的習慣用語），比直譯的 \"make a tag\" 更道地。例如：*\"Once the MR is merged, I'll cut the release tag.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7a6fc7bd8ec3",
+      "date": "20260615",
+      "front": "\"This project seems to have a tagging requirement — could you help with that?\"",
+      "body": "你這次的 **「該專案似乎有 tag 的要求，請你幫忙一下」** 很自然！\n\n- *\"This project seems to have a tagging requirement — could you help with that?\"*\n- 「似乎有…的要求」→ **\"seems to have a ... requirement\"** 或 **\"appears to require ...\"**，例如 *\"The project appears to require a version tag for deployment.\"*\n\n幾個 release 情境用字（繁中）：\n- 「打 tag」→ 動詞用 **\"tag\"**（*\"tag the release\"*）或 **\"cut a tag / cut a release\"**（**cut a release** 是發版的行話，很常用）。\n- 「觸發部署」→ **\"trigger a deploy\"**；「回退」→ **\"roll back\"**（動詞，兩個字）/ **\"a rollback\"**（名詞，一個字）。\n- 你謹慎地「先驗證再 tag」，這在英文叫 **\"gate the release on a passing check\"**（讓發版以通過驗證為前提）——正是穩健發版的標準做法。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6e2a9e1f2099",
+      "date": "20260615",
+      "front": "\"List them out for me, please.\"",
+      "body": "你這次的指令 **「請你清單式列出」** 很清楚！對應的自然英文：\n\n- *\"List them out for me, please.\"* / *\"Can you list out the potential issues?\"*\n- 「清單式」= **\"as a list\"** 或 **\"in bullet points\"**，例如 *\"Could you lay out the risks in bullet points?\"*（**lay out** = 條理地陳列，比 list 更強調「攤開來清楚呈現」）\n\n幾個用字（繁中說明）：\n- 「可能會有什麼問題」→ **\"what could go wrong\"** 是最道地的說法（直譯 *\"what problems might there be\"* 也對，但 *\"what could go wrong\"* 更自然、更常用於風險評估情境）。例如 *\"Walk me through what could go wrong if we merge now.\"*\n- 工程上評估上線風險，常說 **\"What's the blast radius?\"**（字面「爆炸半徑」= 出事的話影響範圍多大）——很生動的行話，下次跟同事討論 deploy 風險可以用。💥",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6b11fb82afd4",
+      "date": "20260615",
+      "front": "\"I've started Docker Desktop — please go ahead and continue.\"",
+      "body": "你這次的指令 **「我開啟了 Docker Desktop，請你接著動作」** 文法完全正確、清楚！\n\n對應的自然英文：\n- *\"I've started Docker Desktop — please go ahead and continue.\"*\n- 或更精簡：*\"Docker Desktop is up. Carry on.\"*\n\n幾個用字（繁中說明）：\n- 「接著動作」→ **\"go ahead and continue\"** 或 **\"pick up where you left off\"**（從你剛才停下的地方繼續）——後者很道地，特別適合「中斷後接續」的情境。\n- 「我開啟了」用現在完成式 **\"I've started / I've opened\"** 比過去式 *\"I started\"* 更貼切，因為強調「現在已經是開著的狀態」——這正是英文現在完成式表達「過去動作造成的現在結果」的典型用法。",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "63a0dd3a5f85",
+      "date": "20260615",
+      "front": "\"merge back to main\"",
+      "body": "你這句 **「我現在如果 merge 回 main 它會自動開始 deploy，所以應該是可以直接 merge 嗎?」** 文法完全正確、邏輯清楚，很好！\n\n幾個讓它更道地的小調整（繁中說明）：\n- 中文「merge 回 main」的「回」，英文不用 *\"merge back to main\"*（雖然也通），更常直接說 **\"merge into main\"**。\n- 「自動開始 deploy」→ **\"it'll auto-deploy\"** 或 **\"it'll trigger a deploy automatically\"**（**trigger a deploy** 是 CI/CD 標準說法）。\n- 整句自然版：*\"If I merge into main now, it'll auto-deploy — so is it safe to just merge?\"*\n\n特別推薦把結尾的 *\"can I just merge?\"* 換成 **\"is it safe to merge?\"**——你問的本質是「安不安全」而非「能不能」，用 *\"safe\"* 更精準傳達你在評估風險，這在跟同事討論上線決策時很關鍵。👍",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "49ebdc28b373",
+      "date": "20260615",
+      "front": "\"We don't need an MR\"",
+      "body": "你這次的指令很道地，特別是：\n\n> \"Don't need MR. Please just merge it and tag.\"\n\n這句簡潔又清楚。一個小觀察——口語中省略主詞的 \"Don't need MR\" 完全 OK（母語者也常這樣講），若要寫得更完整文法可以是 *\"We don't need an MR\"* 或 *\"No MR needed\"*。後者 **\"No MR needed\"** 在工程聊天裡特別常見，當作簡短回覆很好用。\n\n另外 \"just merge it and tag\" 用 **just** 來表達「直接做、別繞流程」非常自然，這個語感掌握得很好 👍",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "49340544085c",
+      "date": "20260615",
+      "front": "\"Production already has those settings configured — so are we good to merge now?\"",
+      "body": "你這句 **「正式環境本來就有設定，這樣是不是可以 merge 了呢?」** 很自然！\n\n對應的道地英文：\n- *\"Production already has those settings configured — so are we good to merge now?\"*\n- **\"are we good to merge?\"** 是工程團隊超常用的口語，比 *\"can we merge?\"* 更自然地表達「都沒問題、可以動手了嗎」。\n\n一個小提醒（繁中）：「本來就有設定」的「本來就」，英文用 **\"already\"**（production already has it）最簡潔；若想強調「一直都是這樣配置的」可用 **\"is already configured to...\"**。你這次用「是不是可以…了呢」帶出的試探語氣，英文用句尾的 **\"now?\"** 或 **\"at this point?\"** 就能傳達。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3429268bb413",
+      "date": "20260615",
+      "front": "\"Standard Documents\"",
+      "body": "你這次是用中文描述問題的，提供一個自然的英文說法供你參考：\n\n> The frontend throws an error in both the \"Standard Documents\" and \"Engineering Drawings\" pages: `TypeError: Cannot read properties of undefined (reading 'visible')`.\n\n一個小提醒：描述「在某個畫面/功能裡發生錯誤」時，英文常用 **\"in\"**（in the page / in the module）或 **\"on\"**（on the screen）。例如 \"The error occurs **in** the document list view.\" 都很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2f450d946f20",
+      "date": "20260615",
+      "front": "\"I'm using Cursor as my IDE.\"",
+      "body": "你這則用繁體中文寫(「我是使用 cursor 作為 IDE」),示範自然英文:\n\n> \"I'm using Cursor as my IDE.\"\n\n用字說明:\n- 這句你若直接講英文,上面這樣寫就完全正確、很自然。\n- 小提醒:**IDE** 唸作字母音 \"I-D-E\",前面冠詞用 **an**(因為 \"I\" 的發音以母音開頭)→ \"Cursor is **an** IDE\"。這是少數「看起來像子音、其實發母音」要用 `an` 的情況,跟 \"an hour\"、\"an MVP\" 同理。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "1f706d4bb1f0",
+      "date": "20260615",
+      "front": "\"Why had upload error in local?\"",
+      "body": "你的提問 \"Why had upload error in local?\" 文法上有小問題,這裡用對照表說明:\n\n| ❌ 你的寫法 | ✅ 建議寫法 |\n|---|---|\n| Why **had** upload error in local? | Why **did** I get an upload error **on my local machine**? |\n\n說明:\n- **時態/助動詞**:詢問「為什麼發生」用 `did` 而非 `had`。`had` 是「擁有」的過去式,這裡語意不通;`Why did ...?` 才是問原因的標準結構。\n- **加主詞與冠詞**:英文句子需要主詞,`upload error` 是可數名詞要加冠詞 → `get an upload error`。\n- **\"in local\" → \"on my local machine\" / \"locally\"**:工程師口語雖常說 \"in local\",但正式說法是 `locally`(副詞)或 `on my local machine`。例:\"Why does the upload fail **when running locally**?\" 是很道地的問法。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "143a86d90188",
+      "date": "20260615",
+      "front": "\"Could you first check why the backend fails to start? Here's part of the log.\"",
+      "body": "這則訊息你是用繁體中文寫的（「請先幫我檢查看看為什麼後端啟動失敗」），這裡示範自然的英文說法：\n\n> \"Could you first check why the backend fails to start? Here's part of the log.\"\n\n用字說明：\n- **fails to start**：「啟動失敗」最自然的講法，比 \"start failed\" 更道地（`fail to + 原形動詞`)。\n- **Here's part of the log**：「擷取部分資訊給你」對應的英文,口語上常說 \"Here's a snippet of the log\" —— `snippet` 特別指「一小段擷取的程式碼/日誌」,很適合這個情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "103ae84e27eb",
+      "date": "20260615",
+      "front": "\"`、`0`、`undefined`(真正的 undefined 值)都是 *falsy*,但**字串** `\"",
+      "body": "你這則直接貼了錯誤訊息、沒有英文句子。補充一個這次很核心的詞:\n\n- **falsy / truthy**:JS 裡 `null`、`\"\"`、`0`、`undefined`(真正的 undefined 值)都是 *falsy*,但**字串** `\"undefined\"` 是 *truthy* —— 這正是 `|| 'null'` 擋不住它的原因。描述這個 bug 時很實用:\n  > \"The string `\\\"undefined\\\"` is **truthy**, so the `|| 'null'` fallback never kicks in.\"\n  (字串 `\"undefined\"` 是 truthy,所以 `|| 'null'` 這個退路根本不會被觸發。)\n- **kick in**:「(機制)開始作用/生效」的道地片語,講 fallback、防呆何時觸發時很好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "102d16c1966e",
+      "date": "20260615",
+      "front": "\"doesn't override\"",
+      "body": "這次你沒有提供英文句子（訊息是貼上的 build log），所以沒有可分析的英文。若下次想練習，可以試著用英文描述問題，例如：\n\n> \"The Docker build failed with a compilation error — the impl class doesn't override the abstract method from its interface.\"\n\n這句很實用，其中 *\"doesn't override\"* 跟編譯器的錯誤訊息 *\"does not override abstract method\"* 用詞一致，很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0449fefffde0",
+      "date": "20260615",
+      "front": "\"Please just fix it directly for me, and add `.localdata/` to `.gitignore`.\"",
+      "body": "你這則用繁體中文寫(「請你直接幫我解,並且把 .localdata/ 加進 .gitignore」),示範自然英文:\n\n> \"Please just fix it directly for me, and add `.localdata/` to `.gitignore`.\"\n\n用字說明:\n- **just fix it directly**:「直接幫我解」最自然的講法,`just` 在這裡帶「就(別問了)直接做」的語氣,很貼近你的口吻;`fix` 比 `solve` 更口語、更適合修 bug 的情境。\n- **add X to Y**:「把 X 加進 Y」固定用介系詞 `to`(不是 `into` 或 `in`),這是處理「加入清單/檔案」最標準的搭配。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "017a4a148bdc",
+      "date": "20260615",
+      "front": "\"commit, push, and tag\"",
+      "body": "你這次的指令 `commit & push & tag` 非常精簡、道地——用 `&` 串連連續動作在工程語境中很自然，等同於 \"commit, push, and tag\"。\n\n一個可以擴充的小提醒:若想讓指令更明確,可加上目標,例如:\n\n> Commit the fix, push it, **and tag a new release**.\n\n這裡 \"tag a new release\" 比單獨的 \"tag\" 更清楚地表達了「打版本標籤來發版」的意圖,在團隊溝通時能減少誤解。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ec7c6163d4fe",
       "date": "20260609",
       "front": "\"can't ... reliably\"",
@@ -35,6 +292,16 @@
       "body": "這次是 `/review` 指令（系統英文模板），沒有你的自然語句。補充幾個 code review 情境的實用英文，方便你日後用英文寫 MR review：\n\n- 「這幾條旁路會洩漏 metadata」→ *\"These endpoints leak metadata through a side channel.\"*（**side channel / bypass** = 旁路）\n- 「向後相容、零回歸」→ *\"backward-compatible, no regressions.\"*\n- 「列為後續處理」→ *\"Let's track this as a follow-up.\"*（**follow-up** = 後續事項，review 中極常用）\n- 「這段邏輯沒測試很容易回歸」→ *\"This logic is regression-prone without tests.\"*（**-prone** 後綴 = 容易發生…的，如 error-prone）",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "abd892c6a28e",
+      "date": "20260609",
+      "front": "\"ship it\"",
+      "body": "你這次的指令「commit & push & tag」是標準 Git 動詞片語，用得完全正確且道地——這三個都是開發者日常的及物動詞，直接接受詞即可（commit the change、push to main、tag the release），不需要多餘的介系詞。\n\n> 補充一個能擴充詞彙的說法：當你想表達「把這次修改完整發佈出去」的整串動作時，工程師常用一個動詞涵蓋——**\"ship it\"**。例如：\n> - *\"Commit, push, and tag — let's ship it.\"*（提交、推送、打標籤，發佈吧。）\n> - 名詞化也很常見：*\"This change is ready to ship.\"*（這個修改可以發佈了。）\n\n你給指令的簡潔風格很適合工程協作情境，繼續保持。",
+      "tags": [
+        "praise",
+        "vocab"
       ]
     },
     {
