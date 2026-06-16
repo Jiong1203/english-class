@@ -28,6 +28,16 @@
       ]
     },
     {
+      "id": "a396c1eb8bd7",
+      "date": "20260616",
+      "front": "\"Please update CLAUDE.md\"",
+      "body": "你這則 \"Please update CLAUDE.md\" 簡短、文法完全正確,是很標準的祈使句指令 👍\n\n補充一個細微語感:\n- **update** 在這裡是「更新(讓它跟上現況)」,用得精準。\n- 若想更明確指出「依我們剛討論的內容更新」,可加受詞或情境:\"Please update CLAUDE.md **accordingly**.\"(請據此更新)—— `accordingly`(據此/相應地)在「依前述結論去做某事」時很好用,讓指令更清楚連結到前文。",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
       "id": "9be5853b78d1",
       "date": "20260616",
       "front": "\"\n\n用字說明:\n- **walk me through ~**:「帶我走一遍/說明一下操作」最道地的片語,比 \"",
@@ -37,10 +47,38 @@
       ]
     },
     {
+      "id": "877e7350001b",
+      "date": "20260616",
+      "front": "\"Did CLAUDE.md need to update?\"",
+      "body": "你的提問 \"Did CLAUDE.md need to update?\" 文法上有個小地方可調整:\n\n| ❌ 你的寫法 | ✅ 建議寫法 |\n|---|---|\n| Did CLAUDE.md **need to update**? | Does CLAUDE.md **need updating**? / Does CLAUDE.md **need to be updated**? |\n\n說明:\n- **時態**:你問的是「現在這份文件是否需要更新」,屬於當下的狀態,用現在式 `Does` 比過去式 `Did` 更貼切(`Did` 會變成「(過去某時)它當時需要更新嗎」)。\n- **主動 vs 被動**:CLAUDE.md 是「被更新」的對象,所以要嘛用 `need updating`(need + V-ing 表被動,慣用法),要嘛用 `need to be updated`(完整被動)。原本的 `need to update` 會變成「CLAUDE.md 需要去更新(別的東西)」,主被動顛倒了。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "857a7cfd1aac",
       "date": "20260616",
       "front": "\"Before merging and tagging, please help me confirm whether the following items are complete.\"",
       "body": "你這則用繁體中文寫(條列 5 項需求請我確認),示範自然英文:\n\n> \"Before merging and tagging, please help me confirm whether the following items are complete.\"\n\n用字說明:\n- **Before merging and tagging**:介系詞 `before` 後接動名詞(V-ing),「merge」「tag」當動作都加 `-ing`,這是最自然的時間從句省略寫法。\n- **confirm whether ... are complete**:「確認…是否已完成」用 `confirm whether`(或 `verify whether`)接子句,比 `confirm if` 在書面語更正式精準。\n- 補充情境詞:**go/no-go** —— 發版前的「可不可以放行」決策,英文工程團隊常說 \"Is this a **go** for release?\",很適合你這種 merge/tag 前的驗收場景。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6bfb94c8e627",
+      "date": "20260616",
+      "front": "\"Commit, push, and cut the tag.\"",
+      "body": "你這則直接用英文指令 \"commit & push & tag\",簡潔正確,完全沒問題 👍 這種命令式短句在開發協作裡很常見、很自然。\n\n補充一個發版收尾常用講法:\n- **ship it**:「發版/出貨吧」最道地的口語,例:\"Looks good — **ship it**.\" 等同你這次的「發吧」。\n- 若想更完整:**\"Commit, push, and cut the tag.\"** —— `cut a tag` / `cut a release` 是業界對「打版本標籤發版」的慣用說法,比單純 \"tag\" 更顯專業。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5fdcb65b6727",
+      "date": "20260616",
+      "front": "\"commit and push\"",
+      "body": "你這則用了換行的 `commit` + `push` 兩個指令,簡潔明確 👍 在開發情境裡這種「動詞清單」式的命令很自然。\n\n補充一個小語感:口語上把這類連續 git 動作講成一句時,常用 **\"commit and push\"** 或更隨意的 **\"push it up\"**(把它推上去):\n> \"Commit and push it up to develop.\" (commit 後推上 develop。)\n- **push ... up**:「往上推(到遠端)」,`up` 帶有「推向 remote/上游」的方向感,工程師很常這樣講。",
       "tags": [
         "note"
       ]
