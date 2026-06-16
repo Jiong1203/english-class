@@ -1,6 +1,96 @@
 {
   "entries": [
     {
+      "id": "d38d818602fa",
+      "date": "20260616",
+      "front": "\"OK, split it into two commits — no need to push `changelog-I30131.md`.\"",
+      "body": "你這則用繁體中文寫(「ok 分兩個 commit (changelog 不用推)」),示範自然英文:\n\n> \"OK, split it into two commits — no need to push `changelog-I30131.md`.\"\n\n用字說明:\n- **split it into two commits**:「分成兩個 commit」最自然的講法,動詞用 `split ... into ...`(把某物分成幾份),介系詞固定搭 `into`。\n- **no need to push X**:「X 不用推」很簡潔道地的省略句型(= \"there's no need to push X\"),口語常直接這樣講。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b487757a4dd5",
+      "date": "20260616",
+      "front": "\"\n\n用字說明:\n- **tweak**:「小幅調整」最貼切的詞,比 \"",
+      "body": "你這則用繁體中文寫(兩點調整指示),示範自然英文:\n\n> \"Two tweaks, please: (1) In the permission settings, granting 'download' should always imply 'preview', but 'preview' shouldn't necessarily grant 'download'. (2) Keep the title on one line — don't let it wrap.\"\n\n用字說明:\n- **tweak**:「小幅調整」最貼切的詞,比 \"change\" 更傳達「微調」的語感,工程情境超常用。\n- **imply**:「蘊含/必然包含」,描述「A 一定帶來 B」的邏輯關係很精準(= \"download implies preview\")。\n- **wrap**:「(文字)換行」的標準動詞,`word wrap` / \"the text wraps to the next line\";「不換行」就是 \"keep it on one line\" 或 \"prevent wrapping\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "afb0c5d4a9ac",
+      "date": "20260616",
+      "front": "\"What are the implications of moving it...?\"",
+      "body": "你這則用繁體中文寫(「移到 docker-compose.override.yml 會有甚麼影響?」),示範自然英文:\n\n> \"What's the impact of moving it to `docker-compose.override.yml`?\"\n\n用字說明:\n- **What's the impact of + 動名詞(V-ing)**:「做某事會有什麼影響」最標準的句型,介系詞用 `of` 接動名詞 `moving`。\n- 也可用 **\"What are the implications of moving it...?\"** —— `implications`(連帶後果/影響)比 `impact` 更強調「衍生的間接後果」,在技術討論裡很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9be5853b78d1",
+      "date": "20260616",
+      "front": "\"\n\n用字說明:\n- **walk me through ~**:「帶我走一遍/說明一下操作」最道地的片語,比 \"",
+      "body": "你這則用繁體中文寫(三點指示),示範自然英文:\n\n> \"Please fix gap A. For the version bump, 'user-selectable minor/major is acceptable' is the more accurate take — but walk me through how it currently works. As for per-file permissions, setting them after upload is reasonable; only admins can assign preview/download rights.\"\n\n用字說明:\n- **walk me through ~**:「帶我走一遍/說明一下操作」最道地的片語,比 \"explain\" 更強調逐步示範,正好對應你的「說明一下目前如何操作」。\n- **the more accurate take**:「較正確的說法/觀點」,`take` 當名詞指「見解、解讀」,口語很常用(= \"my take on this is...\")。\n- **as for ~**:「至於~」轉到下一個主題的銜接詞,對應你第 3 點的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "857a7cfd1aac",
+      "date": "20260616",
+      "front": "\"Before merging and tagging, please help me confirm whether the following items are complete.\"",
+      "body": "你這則用繁體中文寫(條列 5 項需求請我確認),示範自然英文:\n\n> \"Before merging and tagging, please help me confirm whether the following items are complete.\"\n\n用字說明:\n- **Before merging and tagging**:介系詞 `before` 後接動名詞(V-ing),「merge」「tag」當動作都加 `-ing`,這是最自然的時間從句省略寫法。\n- **confirm whether ... are complete**:「確認…是否已完成」用 `confirm whether`(或 `verify whether`)接子句,比 `confirm if` 在書面語更正式精準。\n- 補充情境詞:**go/no-go** —— 發版前的「可不可以放行」決策,英文工程團隊常說 \"Is this a **go** for release?\",很適合你這種 merge/tag 前的驗收場景。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5469128a4c6b",
+      "date": "20260616",
+      "front": "\"ride along with\"",
+      "body": "你這則只輸入了 `/review` 指令,沒有英文句子可分析。補一個 code review 情境的實用講法:\n\n- **\"ride along with\"**:指「不相干的改動搭順風車混進同一個 commit/PR」,review 時很常用:\n  > \"The Docker port change shouldn't **ride along with** the feature commit — let's split it out.\"\n  (那個 Docker port 改動不該跟功能 commit 混在一起,拆開吧。)\n- **separation of concerns**:「關注點分離」,評論「一個 commit 做太多事」時的標準用語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "36e2f7d70ff8",
+      "date": "20260616",
+      "front": "\"\n\n用字說明:\n- **glitch**:「小毛病/小異常」,描述 UI 這種非致命的小 bug 很常用,比 \"",
+      "body": "你這則用繁體中文寫(描述 UI bug),示範自然英文:\n\n> \"There's a small UI glitch — could you fix it? See the screenshot: after toggling the switch for the first time, the Save / Cancel buttons pop up but the switch becomes uncontrollable, which feels off.\"\n\n用字說明:\n- **glitch**:「小毛病/小異常」,描述 UI 這種非致命的小 bug 很常用,比 \"problem\" 更精準傳神。\n- **pop up**:「(按鈕/視窗)冒出來、彈出」最自然的講法,對應你的「跳出」。\n- **feels off**:「感覺怪怪的」極道地的口語,`off` 在這裡指「不對勁、不太對」,正好對應你的「似乎怪怪的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "330230d671bd",
+      "date": "20260616",
+      "front": "\"OK, go ahead and commit, push, and tag everything for me.\"",
+      "body": "你這則用繁體中文寫(「好了那就幫我都 commit & push & tag 吧」),示範自然英文:\n\n> \"OK, go ahead and commit, push, and tag everything for me.\"\n\n用字說明:\n- **go ahead and ~**:「就(放手)去做~吧」,帶授權語氣,正好對應你的「那就幫我…吧」。\n- **commit, push, and tag**:三個動作並列,最後一個用 `and` 連接,逗號分隔(Oxford comma 在 \"push, and tag\" 前可加可不加,技術寫作常加以求清晰)。\n- 補個發版情境詞:**cut a release / cut a tag** —— 工程上「發一個版本/打 tag」很道地的講法,例:\"Let's cut the v1.14.28 release.\" 比 \"make a tag\" 更專業。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "306d2afe119c",
+      "date": "20260616",
+      "front": "\"I've already approved and finished processing the document, so why is the notification badge still showing?\"",
+      "body": "你這則用繁體中文寫(回報簽核後徽章殘留),示範自然英文:\n\n> \"I've already approved and finished processing the document, so why is the notification badge still showing?\"\n\n用字說明:\n- **approve**:「簽核通過」最精準的動詞;「退回」則是 **reject** 或 **send back**。\n- **badge**:就是這種數字小紅點,英文 UI 術語固定用 `badge`(`notification badge` / `count badge`)。\n- **still showing**:「還在顯示」用現在進行式 `still showing` 很自然,也可說 \"still showing up\" 或 \"still there\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1541875f8e58",
+      "date": "20260616",
+      "front": "\"Sure, go ahead. While you're at it, please apply all the review feedback too.\"",
+      "body": "你這則用繁體中文寫(「好啊那就幫我做吧,順便把剛剛的 review 都調整一下」),示範自然英文:\n\n> \"Sure, go ahead. While you're at it, please apply all the review feedback too.\"\n\n用字說明:\n- **While you're at it**:「順便、既然都在做了」最道地的片語,正好對應你的「順便」,比直譯 \"by the way\" 更貼切(by the way 偏「換個話題」)。\n- **apply the review feedback**:「調整 review(的意見)」用 `apply ... feedback`(採納/落實意見)很自然;也可說 \"address the review comments\"(`address` = 處理/回應指出的問題)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "faecf3e7121b",
       "date": "20260615",
       "front": "\"\n\n幾個用字說明：\n- **toggle / switch**：兩者都可指「開關」。`toggle` 在軟體 UI 情境更常用來指這種「開/關」設定。\n- **enter a state**：「進入某狀態」的慣用搭配，比直譯的 \"",
