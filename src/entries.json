@@ -1,6 +1,249 @@
 {
   "entries": [
     {
+      "id": "f5fb40368577",
+      "date": "20260617",
+      "front": "\"Does that make sense?\"",
+      "body": "這次你全程使用中文溝通，我先提供你這段需求說明的自然英文說法，並補充幾個情境用語：\n\n| 你的中文 | 自然英文說法 |\n|---|---|\n| 你的任務是協助驗證系統是否支援我的需求 | \"Your task is to help verify whether the system supports the requirement I describe.\" |\n| 請提供驗證成功的實際截圖 | \"Please provide actual screenshots proving the verification succeeded.\" |\n| 你理解我的意思嗎？ | \"Do you understand what I mean?\" / 更道地：\"Does that make sense?\" |\n\n**小提醒：** 在工程情境裡，要對方確認理解時，老外更常說 **\"Does that make sense?\"**（這樣說得通嗎？）而不是直譯的 \"Do you understand me?\"——後者語氣偏向懷疑對方的理解能力，前者則把責任放在「我說清楚了嗎」，較禮貌自然。\n\n等你提供需求，我就開始驗證。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f5d2f4bff243",
+      "date": "20260617",
+      "front": "\"http2\"",
+      "body": "這次你貼的是終端機輸出，沒有英文句子要分析，但解釋一下那行錯誤訊息對你有幫助：\n\n> `unknown directive \"http2\"` — 「無法辨識的指令 http2」\n\n`directive`（指令／指示詞）是設定檔語境的專有名詞，nginx、Apache 的每一行設定都叫一個 directive。`unknown`（未知的、無法辨識的）在這裡是「這個版本不認得這個指令」。日後看到 `unknown directive` 就知道：**多半是版本不支援，或拼錯指令名稱**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f1a650cb25d4",
+      "date": "20260617",
+      "front": "\"Why do I keep getting blocked?\"",
+      "body": "你這則用繁體中文問原因(「為什麼會一直有…發生?」),示範自然英文:\n\n> \"Why does this error keep popping up?\"\n\n用字說明:\n- **keep popping up**:「一直冒出來/反覆出現」最道地的講法,`pop up` 指(訊息/視窗)突然出現,`keep + V-ing` 表持續反覆 —— 比直譯 \"keep happening\" 更生動貼切。\n- 若指「卡住、被擋」:**\"Why do I keep getting blocked?\"** 也很自然(`get blocked` = 被擋下)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e6413902b459",
+      "date": "20260617",
+      "front": "你這次的問法層次很清楚——先問用途、再問「做 X」與「不做 X」各自的後果，這種對比式提問在技術討論中很高效。換成英文會這樣講：",
+      "body": "你這次的問法層次很清楚——先問用途、再問「做 X」與「不做 X」各自的後果，這種對比式提問在技術討論中很高效。換成英文會這樣講：\n\n> 「What does this setting do, and what happens if I push it versus if I don't?」\n\n兩個亮點：**versus**（用來對比兩個情境，「A 相對於 B」，唸作 /ˈvɜːrsəs/，技術討論常簡寫成 `vs`）、**what happens if...**（「如果……會怎樣」，問後果／影響最自然的句型，比直譯 `what is the impact` 更口語流暢）。你想表達的「用途」用 **what does it do** 就很到位，不必說 `what is the usage`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e55ded346517",
+      "date": "20260617",
+      "front": "\"Approving — just a couple of non-blocking nits.\"",
+      "body": "你用 `/review` 指令,無英文句子可分析。補一個 code review 結論常用語:\n\n- **LGTM**(Looks Good To Me):「我看沒問題」,審查通過時最常用的縮寫。\n- **non-blocking nit**:「不阻擋合併的小毛病」,`nit`(=nitpick)指吹毛求疵的小問題,`non-blocking` 表示「可合併、不必非改不可」—— 正好對應我上面標 🟡🟢 的那些。例:\"Approving — just a couple of non-blocking nits.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d871504fae4d",
+      "date": "20260617",
+      "front": "你這次貼的是設定檔內容，無英文句子可分析。補充這次情境最核心的一個說法：",
+      "body": "你這次貼的是設定檔內容，無英文句子可分析。補充這次情境最核心的一個說法：\n\n> 「It turns out the server was already serving this domain over HTTPS — so this is really just a cert swap.」\n\n亮點：**it turns out**（「結果發現／原來是」，用來帶出一個跟原本預期不同的真相，超級道地）、**cert swap**（換證，`swap` 是「替換、對調」，比 `change` 更精準表達「拿新的換掉舊的」）、**over HTTPS**（透過 HTTPS，介系詞用 `over` 表示「經由某協定／通道」，如 *over SSL* / *over the network*）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d3b48b4a7ab1",
+      "date": "20260617",
+      "front": "你這次全程貼指令操作、無英文句子，但你照著步驟精準執行、回報完整，這種「把輸出貼回來確認」的協作習慣非常好。補充一個這次的關鍵動作說法：",
+      "body": "你這次全程貼指令操作、無英文句子，但你照著步驟精準執行、回報完整，這種「把輸出貼回來確認」的協作習慣非常好。補充一個這次的關鍵動作說法：\n\n> 「Let's reload nginx to apply the new certificate.」（我們 reload nginx 來套用新憑證。）\n\n亮點：**apply**（套用設定／變更的標準動詞，如 *apply the change* / *apply the config*）、**reload**（重新載入，特指「不中斷服務地讓新設定生效」，與 `restart`「整個重啟」不同——維運上這個區別很重要，你這次用的正是零停機的 `reload`）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cf0702ad4dfc",
+      "date": "20260617",
+      "front": "你這次貼的是終端輸出，無英文句子可分析。補充一個這次情境的關鍵概念說法：",
+      "body": "你這次貼的是終端輸出，無英文句子可分析。補充一個這次情境的關鍵概念說法：\n\n> 「There's already an existing config serving this domain.」（已經有一個現成的設定在服務這個網域了。）\n\n`existing`（現有的、既存的）與 `serve`（提供服務／供應，web server 服務某網域就用這個動詞，如 *serving the domain* / *serving traffic*）都是維運語境的高頻字。你這次踩到的狀況英文叫 **a naming conflict**（命名衝突），而既有但沒被察覺的設定常被稱為 **a pre-existing setup**，`pre-` 字首強調「在你動手之前就存在」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c70d7fdcb6d0",
+      "date": "20260617",
+      "front": "\"No such file or directory\"",
+      "body": "這次是中文指令，無英文句子可分析。提供本次情境的實用說法：\n\n> 「The file doesn't exist on the server yet — I need to transfer it first.」（檔案還沒在 server 上，我得先傳過去。）\n\n關鍵詞：**transfer**（傳輸檔案的正式用詞，比 `send` 更貼近 scp/上傳情境）、句尾的 **yet** 用來表達「目前還沒、但即將會有」，是很道地的語感。若要描述「複製不到檔案」的錯誤，英文常說 **\"No such file or directory\"**——正是你終端機那行 `沒有此一檔案或目錄` 的原文。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b9fc270b19bd",
+      "date": "20260617",
+      "front": "\"After submitting for review, the 'My Approvals' badge doesn't show the count — I have to manually refresh before the pending number appears.\"",
+      "body": "你這則用繁體中文描述問題(送審後 badge 不更新、要手動重整),示範自然英文:\n\n> \"After submitting for review, the 'My Approvals' badge doesn't show the count — I have to manually refresh before the pending number appears.\"\n\n用字說明:\n- **submit for review**:「送審」最精準的講法(submit a document for review);「修訂送審」可說 \"submit a revision for review\"。\n- **manually refresh**:「手動重新整理」,`refresh` 是重整頁面的標準動詞;副詞 `manually` 對應「手動」。\n- **the count doesn't show / the number doesn't appear**:「數字沒顯示出來」,兩種說法都自然;`appear`(出現)特別貼合你描述的「重整後才顯示出來」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b06acf783594",
+      "date": "20260617",
+      "front": "你這次的決策回覆「那我覺得就按照你說的建議【保留並 push】吧」表達得很自然。換成英文會這樣講：",
+      "body": "你這次的決策回覆「那我覺得就按照你說的建議【保留並 push】吧」表達得很自然。換成英文會這樣講：\n\n> 「Let's go with your suggestion then — keep it and push.」\n\n兩個亮點：**go with**（採納、選擇某方案，前面教過的片語動詞，這裡再次活用很到位）、句首的 **then**（「那就……」，承接前面討論做出結論時用，放句尾 `...then` 也可，口語感很強）。你想表達的「按照你的建議」用 **follow your suggestion** 或 **go with your suggestion** 都很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "adec1494c8cd",
+      "date": "20260617",
+      "front": "你這次的指示「你自己安排，主要只是要放上 git 留存而已」表達得很清楚，把決定權交給我、並說明目的（留存），這種授權式溝通很有效率。換成英文會這樣講：",
+      "body": "你這次的指示「你自己安排，主要只是要放上 git 留存而已」表達得很清楚，把決定權交給我、並說明目的（留存），這種授權式溝通很有效率。換成英文會這樣講：\n\n> 「I'll let you decide where to put it — I just want it committed to git for safekeeping.」\n\n三個亮點：**I'll let you decide**（「我讓你決定」，授權對方做主的自然說法）、**for safekeeping**（「以供保存／留存」，正好對應你說的「留存」，常用於把東西存放到安全的地方）、**committed to git**（commit 當動詞的被動用法，「被提交進 git」）。你想表達的「你自己安排」也可以說 **it's up to you**（由你決定），口語又道地。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a7ed58b81330",
+      "date": "20260617",
+      "front": "這次是中文提問，句子結構清楚。提供更道地的英文問法：",
+      "body": "這次是中文提問，句子結構清楚。提供更道地的英文問法：\n\n> 「Should I drop the files into this folder, or is there a specific directory they belong in?」\n\n兩個亮點：**drop ... into**（拖放檔案的口語講法，正好對應你「拖到」）、**belong in**（「該放在哪」的地道說法，比直譯 `should be put` 自然）。你原句的「哪一層」用英文講就是 **which directory/folder/level**，技術情境最常用 **directory**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9dd224f1aae8",
+      "date": "20260617",
+      "front": "你這次全程貼指令輸出、沒有英文句子，但整個排錯協作非常順——遇到 `http2`、conflicting、檔案沒傳到等狀況都精準回報。補一個漂亮的收尾說法：",
+      "body": "你這次全程貼指令輸出、沒有英文句子，但整個排錯協作非常順——遇到 `http2`、conflicting、檔案沒傳到等狀況都精準回報。補一個漂亮的收尾說法：\n\n> 「The cert is now live and the old one is kept as a fallback.」（新證已上線，舊證留作備援。）\n\n亮點：**live**（形容詞，「已上線、正在運作中」，如 *the feature is live* / *go live* 上線）、**fallback**（名詞，「備援、退路」，系統維運常說 *keep X as a fallback* 或 *fall back to X* 退回到 X）。這兩個字在描述部署狀態時非常專業好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9790865e1f73",
+      "date": "20260617",
+      "front": "你這次貼的是指令輸出，沒有英文句子要分析。解釋一下這個關鍵字：",
+      "body": "你這次貼的是指令輸出，沒有英文句子要分析。解釋一下這個關鍵字：\n\n> `conflicting server name ... ignored` — 「衝突的伺服器名稱……已被忽略」\n\n`conflicting`（衝突的，動詞 `conflict` 的形容詞用法）在設定／排程／版本控制情境很常見，例如 `conflicting changes`（git 衝突的變更）。`ignored`（被忽略）這裡是被動語態，表示「nginx 主動略過它」。看到 `[warn]` 級別要特別留意：它**不會擋下 `nginx -t`**，但常常代表「設定沒照你預期生效」，比 `[emerg]` 還容易讓人誤以為沒事。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "95db1ea0f07a",
+      "date": "20260617",
+      "front": "\"All done — **it's live**.\"",
+      "body": "你這幾則都用「重試」精簡下令,清楚有效 👍 收尾補一個發版完成的道地說法:\n\n> \"All done — **it's live**.\" 或 \"The tag's pushed and the deploy is **kicking off**.\"\n\n用字說明:\n- **it's live**:「上線了/生效了」,發布完成最常用的講法。\n- **kick off**:「啟動、開跑」,描述 pipeline/部署開始很自然(= the deployment is starting)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "93281432d8bb",
+      "date": "20260617",
+      "front": "你這次的提問清楚自然。換成英文，工程情境最常這樣問：",
+      "body": "你這次的提問清楚自然。換成英文，工程情境最常這樣問：\n\n> 「What are the next steps after that?」或更口語的 「What do I do next?」\n\n提醒一個細節：「步驟」的英文 **step** 在這種「接下來要做什麼」的語境用**複數 steps** 最自然（因為通常不只一步）。另外 **after that**（在那之後）比直譯 `after finish` 正確——英文不會說 `after finished`，要嘛 `after that`、要嘛 `after finishing it`（動名詞）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "75e7e7e0af2a",
+      "date": "20260617",
+      "front": "你這次的問句結構清楚、邏輯完整（「為什麼 A 可以但 B 不行」對比問法很好）。換成英文會這樣講：",
+      "body": "你這次的問句結構清楚、邏輯完整（「為什麼 A 可以但 B 不行」對比問法很好）。換成英文會這樣講：\n\n> 「Why does it work over the domain name but not over the IP address?」\n\n兩個亮點：**work**（這裡指「正常運作、行得通」，問「為什麼 A 行 B 不行」用 *work / not work* 最自然）、**over the domain / over the IP**（透過網域／IP 連線，介系詞用 `over` 表達「經由某位址連線」）。你想表達的「憑證不符」這個現象，英文術語叫 **certificate name mismatch**（憑證名稱不符），是這個警告的正式說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "74382fb4e8ba",
+      "date": "20260617",
+      "front": "這次是中文指令，無英文句子可分析。提供本次情境的實用英文說法：",
+      "body": "這次是中文指令，無英文句子可分析。提供本次情境的實用英文說法：\n\n> 「Let's go with nginx instead — it makes future cert renewals easier.」（我們改用 nginx，之後換證比較方便。）\n\n兩個好用詞：**go with**（片語動詞，「決定採用某方案」，比 `choose` 更自然口語）、**cert renewal**（憑證續用/換發的固定說法，`renewal` 是 `renew` 的名詞形）。若要表達「改成」，用 **instead** 放句尾最簡潔，不必說 `change to nginx`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6ed5bdd15e00",
+      "date": "20260617",
+      "front": "你這次的請求表達得很完整、很professional，特別是「未來還有可能用到，所以請整理可重用的步驟」這個需求說得很清楚。換成英文會這樣講：",
+      "body": "你這次的請求表達得很完整、很professional，特別是「未來還有可能用到，所以請整理可重用的步驟」這個需求說得很清楚。換成英文會這樣講：\n\n> 「Could you put together a step-by-step guide I can reuse for future cert renewals?」\n\n三個亮點：**put together**（彙整、整理成一份，比 `make` 更貼近「把零散步驟組成一份文件」的語感）、**step-by-step guide**（逐步指南／SOP 的標準說法）、**reuse**（重複使用，對應你說的「未來可供使用」）。你想表達的「可供未來使用」也可以說 **for future reference**（供日後參考），是文件、筆記情境的高頻片語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "69793bc8a72b",
+      "date": "20260617",
+      "front": "\"Tighten up those comments while you're at it, then commit and push.\"",
+      "body": "你這則用繁體中文寫(「順手收斂註解後 commit & push」),示範自然英文:\n\n> \"Tighten up those comments while you're at it, then commit and push.\"\n\n用字說明:\n- **tighten up**:「使更精確/收緊」,用在修文字、收斂措辭很貼切(tighten up the wording / the comment),正好對應你的「收斂」。\n- **while you're at it**:「順手、既然在弄了」,前面也教過,這裡再次自然套用 —— 母語者非常常用來把一個附帶的小要求接在主要任務後。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6772520b8553",
+      "date": "20260617",
+      "front": "\"Retry.\"",
+      "body": "你用「重試」下指令,簡潔明確。對應英文常說:\n- **\"Retry.\"** / **\"Try again.\"** —— 最直接。\n- 若想說「再試一次看看」:**\"Give it another shot.\"** —— `give it a shot` 是「試一下」的道地口語,`another shot` 即「再試一次」,語氣輕鬆自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "56f82c503ced",
+      "date": "20260617",
+      "front": "\"ship it\"",
+      "body": "你連續用 `merge & tag`、`commit & push` 這類精簡指令,清楚高效 👍 收尾補一個發布節奏的道地說法:\n\n- **\"ship it\"** 已教過(發版吧)。再補:**\"roll out\"** —— 「推出、發布(到正式)」,常用於部署上線:\"v1.14.31 is **rolling out** now.\" 比 \"deploy\" 多了「逐步推送生效」的語感,描述 tag 觸發的 CI 部署很貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "49611fa4dfce",
+      "date": "20260617",
+      "front": "你這句問得很清楚，描述問題的能力很好。一個更道地的講法：",
+      "body": "你這句問得很清楚，描述問題的能力很好。一個更道地的講法：\n\n> 「Why can't I just type and edit directly in here?」\n\n亮點：**just type**（你想表達的「正常打字」，用 `just` 帶出「就單純打字而已」的語感最貼切）、**directly**（直觀地、直接地，對應你說的「直觀」）。你原句的「無法很直觀地編輯」也可說 **it's not very intuitive to edit**，`intuitive`（直覺的）正是「直觀」的對應字，在 UI／工具好不好用的語境很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "44e7b458db22",
+      "date": "20260617",
+      "front": "你這次用英文下指令「Ok, please tag」——簡潔有力，在工程情境中完全自然，`tag` 在這裡當動詞用（「打標籤」）非常道地。不過如果想講得更精確一點，可以補上對象或版本：",
+      "body": "你這次用英文下指令「Ok, please tag」——簡潔有力，在工程情境中完全自然，`tag` 在這裡當動詞用（「打標籤」）非常道地。不過如果想講得更精確一點，可以補上對象或版本：\n\n> 「Please tag this as a new release.」（請把這個標記成一個新版本。）\n> 或更明確：「Please create a new tag for these commits.」\n\n一個小知識：`tag` 當動詞時，後面常接 `as`（標記為），例如 *tag it as v1.0.46* / *tag this commit as a release*。你原本的「please tag」在我們已經有明確上下文（剛 push 完）的情況下，意思完全清楚，不必擔心——簡短反而更高效。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "32a61edfc801",
+      "date": "20260617",
+      "front": "\"Please audit all the badge trigger points to prevent this kind of issue from recurring.\"",
+      "body": "你這則用繁體中文寫(要求稽核所有 badge 觸發點、防止重複),示範自然英文:\n\n> \"Please audit all the badge trigger points to prevent this kind of issue from recurring.\"\n\n用字說明:\n- **audit**:「稽核、全面檢查」,比 \"check\" 更強調系統性逐一查核,正合你的「檢查所有」。\n- **trigger point**:「觸發點」直譯即通,技術討論很常用。\n- **prevent ... from recurring**:「防止…再次發生」的固定句型,`recur`(再發生)= 你的「重複發生」;動詞搭配是 `prevent X from V-ing`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "14e5c7fd0a1b",
+      "date": "20260617",
+      "front": "\"commit & push & tag\"",
+      "body": "你連續用了兩次 \"commit & push & tag\" 這個精簡指令,完全 OK 👍 在這種卡住的情境,英文可以這樣表達「稍後重試」:\n\n> \"The command service is temporarily down — let's **retry in a bit**.\" (指令服務暫時中斷,等一下重試吧。)\n\n用字說明:\n- **in a bit**:「等一下、過一會兒」很口語自然的講法,等同「稍待片刻」。\n- **temporarily down**:「暫時(服務)中斷/掛掉」,`down` 是形容服務不可用的標準詞(server is down / service is down)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "d38d818602fa",
       "date": "20260616",
       "front": "\"OK, split it into two commits — no need to push `changelog-I30131.md`.\"",
@@ -44,6 +287,15 @@
       "body": "你這則用繁體中文寫(三點指示),示範自然英文:\n\n> \"Please fix gap A. For the version bump, 'user-selectable minor/major is acceptable' is the more accurate take — but walk me through how it currently works. As for per-file permissions, setting them after upload is reasonable; only admins can assign preview/download rights.\"\n\n用字說明:\n- **walk me through ~**:「帶我走一遍/說明一下操作」最道地的片語,比 \"explain\" 更強調逐步示範,正好對應你的「說明一下目前如何操作」。\n- **the more accurate take**:「較正確的說法/觀點」,`take` 當名詞指「見解、解讀」,口語很常用(= \"my take on this is...\")。\n- **as for ~**:「至於~」轉到下一個主題的銜接詞,對應你第 3 點的語氣。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "983d1097d112",
+      "date": "20260616",
+      "front": "\"I need the download watermark to be configurable too — not just preview. Right now only preview can control whether a watermark is applied.\"",
+      "body": "你這則用繁體中文寫(要求下載浮水印也可設定),示範自然英文:\n\n> \"I need the download watermark to be configurable too — not just preview. Right now only preview can control whether a watermark is applied.\"\n\n用字說明:\n- **configurable**:「可設定/可配置」最精準的形容詞,比 \"can be set\" 更簡潔專業,描述功能開關時很常用。\n- **not just ~**:「不只是~」的對比句型,自然帶出「預覽以外、下載也要」的訴求。\n- **whether a watermark is applied**:「是否(被)加上浮水印」,用被動 `is applied` 描述系統行為很道地;`apply a watermark` 是「套用浮水印」的固定動詞搭配。",
+      "tags": [
+        "grammar"
       ]
     },
     {
