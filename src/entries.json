@@ -1,6 +1,65 @@
 {
   "entries": [
     {
+      "id": "b6b269414d2b",
+      "date": "20260618",
+      "front": "\"an orientation document\"",
+      "body": "你這次用的是 `/init` 指令,沒有額外英文句子可以分析。不過借這個機會擴充一個跟這次任務高度相關的詞彙:\n\n- 「導覽型的說明文件」在技術寫作裡常說 **\"an orientation document\"** 或 **\"a high-level overview\"**。\n- 「避免日後不同步」最自然的講法是 **\"to avoid them drifting out of sync\"** —— 動詞 `drift`(漂移)很傳神地表達「隨時間慢慢偏離」,比直接說 `become different` 更道地。\n\n例句:`I kept the root file as a high-level overview so the sub-project docs don't drift out of sync.`(我把 root 檔案維持成高層次概覽,這樣子專案文件才不會逐漸不同步。)",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "9375a7210cc7",
+      "date": "20260618",
+      "front": "\"Please review and check frontend's code. Let me know where can be better.\"",
+      "body": "這次你的開場指令是：\n> \"Please review and check frontend's code. Let me know where can be better.\"\n\n（這句我在上一則回覆已詳細批改過 `where can be better` → `what could be improved`，這裡不重複。）\n\n由於本輪你沒有新的英文句子，補充一組 code review 場景的高頻動詞供你擴充詞彙：\n\n| 中文 | 道地英文 | 例句 |\n|------|---------|------|\n| 拆分元件 | **break up / split** a component | \"We should break up this god component.\" |\n| 抽出共用邏輯 | **extract** into a helper/composable | \"Extract the duplicated logic into a composable.\" |\n| 收斂/統一 | **consolidate** | \"Consolidate the three locale maps into one.\" |\n| 釋放資源 | **release / clean up** resources | \"Release the blob URL on unmount.\" |\n\n`consolidate`（收斂、整合成一處）在重構討論裡極常用，很值得記下來。👍",
+      "tags": [
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "4fdad51791ce",
+      "date": "20260618",
+      "front": "\"Help me organize the `group-around-api` and `group-around-frontend` repos into one directory, split into backend and frontend, since they're the same project.\"",
+      "body": "你這次用中文下指令,以下是自然的英文說法,方便你日後用英文溝通類似需求:\n\n> \"Help me organize the `group-around-api` and `group-around-frontend` repos into one directory, split into backend and frontend, since they're the same project.\"\n\n幾個用詞 nuance 說明(用繁中解釋):\n- **「整理到同一目錄」** 用 `organize ... into one directory` 最自然;若想強調「合併」可用 `consolidate ... into`(更正式,常用於技術情境)。\n- **「區分為前後端」** 譯為 `split into backend and frontend`;`split into` 比 `divide into` 更口語、更貼近開發者用語。\n- **「相同專案」** 用 `the same project` 即可;`since they're the same project` 的 `since` 在這裡等於 `because`,但語氣更輕、更自然。\n\n鼓勵一下:你的需求描述邏輯很清楚(先講動作、再講分類方式、最後補原因),這種結構翻成英文也會很順,繼續保持!👍",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "4601a847ccd9",
+      "date": "20260618",
+      "front": "\"obscure\"",
+      "body": "你這次需求提到「不希望被水印遮擋」，我示範這個情境的自然英文：\n\n> \"You can configure, per category, whether files are watermarked **on preview** — so that certain file types (e.g. professional lab images) aren't **obscured by** the watermark.\"\n\n**用詞對照：**\n\n| 中文 | 道地英文 |\n|---|---|\n| 被浮水印遮擋 | \"obscured by the watermark\" / \"covered up by the watermark\" |\n| 預覽時加浮水印 | \"watermarked **on preview**\" / \"apply a watermark when previewing\" |\n| 特定分類下的檔案 | \"files **under** a specific category\" |\n| 滿足...的管理需求 | \"to meet the management needs of ...\" |\n\n**重點**：「遮擋／擋住視線」最精準的字是 **\"obscure\"**（動詞，使模糊看不清），比 \"block\" 更貼切視覺被覆蓋的情境；\"obscured by X\"（被 X 遮擋）是很道地的被動用法。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "1f5daffe895a",
+      "date": "20260618",
+      "front": "\"Please review and check frontend's code. Let me know where can be better.\"",
+      "body": "你這次的指令是：\n> \"Please review and check frontend's code. Let me know where can be better.\"\n\n整體很自然、可直接溝通，但有兩個小地方可以更道地：\n\n| 你的寫法 | 更道地的寫法 | 說明 |\n|---------|------------|------|\n| review **and check** frontend's code | review frontend's code / review the frontend code | review 已含「檢視檢查」之意，and check 稍微語意重複（redundant）。母語者通常擇一即可。 |\n| Let me know **where can be better** | Let me know **where it can be improved** / **what could be better** | \"where can be better\" 缺主詞，文法上不完整；補上 it 並改用 improved 更通順。 |\n\n更道地的整句範例：\n> \"Please review the frontend code and let me know what could be improved.\"\n\n鼓勵一下：你的句子意思 100% 清楚、語氣也恰當，只是差臨門一腳的語法精修。繼續保持用英文下指令的習慣！👍",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "03657aa542dc",
+      "date": "20260618",
+      "front": "\" | I want the folder**s to be named** \"",
+      "body": "這次你用英文溝通,有兩個小地方可以更道地,用對照表呈現:\n\n| 你的寫法 | 更自然的寫法 | 說明 |\n|---|---|---|\n| I want the folders name **is** \"...\" | I want the folder**s to be named** \"...\" / I want the folder **names to be** \"...\" | 「想要某物叫某名字」用 `want X to be named Y`;原句 `the folders name is` 主詞與動詞不一致(複數 folders 配單數 is),且 `want ... is` 文法不成立。 |\n| Just move those **in** \"group-around\" folder. | Just move **them into** the \"group-around\" folder. | 「移動到某容器裡」用 `into`(強調移入),`in` 偏向「在裡面」的靜態位置;指涉前述事物用 `them` 比 `those` 更順,並補上冠詞 `the`。 |\n\n句子重組後的自然版本:\n\n> \"Oh, I was wrong! I want the folders to be named `group-around-api` and `group-around-frontend` — just move them into the `group-around` folder.\"\n\n順帶一提,`Oh! I was wrong.` 這句完全正確且很自然,用來表達「我剛剛講錯了」很道地,繼續保持!👍",
+      "tags": [
+        "praise",
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "f5fb40368577",
       "date": "20260617",
       "front": "\"Does that make sense?\"",
@@ -154,6 +213,33 @@
       ]
     },
     {
+      "id": "8825d7b92337",
+      "date": "20260617",
+      "front": "\"organize ... by [criterion]\"",
+      "body": "你這次的需求「依照不同的需求將驗證報告歸類在不同的資料夾」翻成自然英文是：\n\n> \"Could you organize the verification reports into separate folders by requirement — screenshots included, not mixed together?\"\n\n**用詞對照與提醒：**\n\n| 中文 | 道地英文 |\n|---|---|\n| 歸類 / 分類到資料夾 | \"organize/sort into folders\" 或 \"categorize by ...\" |\n| 不要混在一起 | \"don't mix them together\" / \"keep them separate\" |\n| 包含截圖也是 | \"screenshots included\" / \"including the screenshots\" |\n\n**重點**：「歸類」用 **\"organize ... by [criterion]\"** 最自然，例如 \"organize files **by requirement**\"（依需求歸類）。動詞 \"categorize\" 也對，但偏正式；日常溝通 \"organize ... into folders\" 更口語通順。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7cc6201446bd",
+      "date": "20260617",
+      "front": "\"retained\"",
+      "body": "這次仍是中文需求，我把需求2 翻成自然的技術英文供你參考：\n\n> \"The approval workflow features — sign-off (签核) and submit-for-review (送审) — are retained and **configurable via toggle switches**.\"\n\n**幾個實用對照：**\n\n| 中文概念 | 道地英文用語 |\n|---|---|\n| 送審 | \"submit for review\" / \"submit for approval\" |\n| 簽核 / 核准 | \"sign off\" / \"approve\" |\n| 退回 | \"reject\" / \"send back\" |\n| 開關配置 | \"toggle-based configuration\" / \"configurable via toggles\" |\n\n**重點提醒**：「保留」這個功能在英文不要用 \"keep\"，技術文件更常說 **\"retained\"** 或 **\"preserved\"**——表示「沿用既有功能、未移除」，語氣比 keep 正式且精準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7a7e2028e64d",
+      "date": "20260617",
+      "front": "\"A becomes B\"",
+      "body": "你這次的需求偏長且是規格描述句，我示範如何用自然的技術英文表達核心：\n\n> \"With the draft/approval toggles turned off, an upload becomes the official first version (V1.0) directly; any later changes are stored as new versions (V2.0, V3.0), and the system only manages these formal, approved final versions.\"\n\n**幾個規格寫作常用語：**\n\n| 中文 | 道地英文 |\n|---|---|\n| 上傳即為正式第一版 | \"the upload becomes the official first version\" |\n| 以新版本的形式存入 | \"stored **as** new versions\" |\n| 系統僅需管理... | \"the system only needs to manage ...\" |\n| 最終稿 / 定稿 | \"final version\" / \"the finalized copy\" |\n\n**重點**：描述「A 變成 B」用 **\"A becomes B\"** 最簡潔；「以...形式儲存」用 **\"stored as ...\"**（介系詞 as 表示「作為某種形式」），不要寫成 \"stored by the form of\"——這是中式直譯，英文不通。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "75e7e7e0af2a",
       "date": "20260617",
       "front": "你這次的問句結構清楚、邏輯完整（「為什麼 A 可以但 B 不行」對比問法很好）。換成英文會這樣講：",
@@ -232,6 +318,42 @@
       "body": "你這則用繁體中文寫(要求稽核所有 badge 觸發點、防止重複),示範自然英文:\n\n> \"Please audit all the badge trigger points to prevent this kind of issue from recurring.\"\n\n用字說明:\n- **audit**:「稽核、全面檢查」,比 \"check\" 更強調系統性逐一查核,正合你的「檢查所有」。\n- **trigger point**:「觸發點」直譯即通,技術討論很常用。\n- **prevent ... from recurring**:「防止…再次發生」的固定句型,`recur`(再發生)= 你的「重複發生」;動詞搭配是 `prevent X from V-ing`。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "2c7b168c8eac",
+      "date": "20260617",
+      "front": "\"anomaly\"",
+      "body": "您這次是用繁體中文提問，以下提供自然的英文說法供參考：\n\n> \"Please help me confirm this anomaly: when an admin hasn't set a document's permissions yet, a regular user can see the 'Preview' button but gets an 'access denied' error when clicking it. Yet after the admin grants that user 'preview' permission, the 'Preview' button disappears.\"\n\n小提醒（zh-tw）：描述這類「前後矛盾」的 bug 時，英文常用 **\"anomaly\"** 或 **\"inconsistent behavior\"**;「按鈕消失」用 **\"the button disappears\"** 即可,很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2c647f405237",
+      "date": "20260617",
+      "front": "\"The system must support uploading documents in multiple formats (CAD, Word/Excel, PDF/PPT, JPG/PNG/BMP, TIFF) and **applying a watermark on download**.\"",
+      "body": "這次你全程使用中文，我針對你需求描述中的中英混用給點回饋。你的需求文字「需支持多种文件格式...文档上传加水印下载」如果要翻成自然的技術英文，會是：\n\n> \"The system must support uploading documents in multiple formats (CAD, Word/Excel, PDF/PPT, JPG/PNG/BMP, TIFF) and **applying a watermark on download**.\"\n\n**幾個用詞提醒：**\n\n| 中式直譯 | 更自然的英文 |\n|---|---|\n| watermark download（加水印下載） | \"watermarked download\" 或 \"apply a watermark **on/upon** download\" |\n| support multiple file formats upload | \"support uploading multiple file formats\"（support 後接動名詞 uploading，不要用名詞 upload 當受詞堆疊） |\n\n重點：英文裡「下載時加浮水印」用介系詞 **on download**（在下載這個動作發生時）最精準，比 \"watermark download\" 這種名詞並排清楚很多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "248093835d46",
+      "date": "20260617",
+      "front": "\"inconsistent with\"",
+      "body": "這一輪你主要以中文操作，沒有新的英文句子可分析。提供一個本次情境的實用英文表達供你累積詞彙：\n\n> \"The button visibility flag is **inconsistent with** the actual permission check, and both symptoms stem from the document not being in `PUBLISHED` status.\"\n\n小提醒（zh-tw）：描述「A 與 B 不一致」時用 **\"inconsistent with\"** 最自然;而「兩個症狀都源自同一個原因」可用 **\"both symptoms stem from...\"**,`stem from` 是描述「根源」很道地的動詞片語,比 `come from` 更專業。",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "2405f7fc8d4c",
+      "date": "20260617",
+      "front": "\"fine-grained authorization/permissions\"",
+      "body": "你這次的需求描述很完整，我把權限模型的核心句翻成自然技術英文：\n\n> \"The permission model must support **per-file, per-user** fine-grained authorization — for the same confidential drawing, Engineer A can download it while Engineer B can only preview it (or has no access at all).\"\n\n**權限相關常用語對照：**\n\n| 中文 | 道地英文 |\n|---|---|\n| 以單一檔案為單位精確授權 | \"per-file fine-grained authorization\" |\n| 逐一指定 | \"specify individually\" / \"grant on a case-by-case basis\" |\n| 完全無權查看 | \"no access at all\" / \"no view access whatsoever\" |\n| 機密圖紙 | \"confidential drawing\" |\n\n**重點**：「精確授權／細粒度權限」的標準英文術語是 **\"fine-grained authorization/permissions\"**（細粒度）；相對的「粗粒度」是 \"coarse-grained\"。在權限設計討論中，\"per-file / per-user\" 這種 **\"per-X\"** 構詞最精準表達「以 X 為單位」。",
+      "tags": [
+        "comparison"
       ]
     },
     {
