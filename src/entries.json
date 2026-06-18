@@ -1,6 +1,33 @@
 {
   "entries": [
     {
+      "id": "e6d5adf64e18",
+      "date": "20260619",
+      "front": "\"\n\n幾個用詞重點:\n- **doesn't clearly tell the user why**(沒清楚告訴使用者原因)比直譯的 \"",
+      "body": "這次你用中文下指令,我提供自然的英文說法供參考:\n\n> \"The form shows a 422 error when the end time is earlier than the start time, but the UI doesn't clearly tell the user why. Please improve the error message for a non-technical user.\"\n\n幾個用詞重點:\n- **doesn't clearly tell the user why**(沒清楚告訴使用者原因)比直譯的 \"doesn't show the reason clearly\" 更口語、更自然。\n- 「無軟體背景的使用者」最道地的說法是 **non-technical user**(而非 \"user without software background\")——這是業界標準用語。\n- 「優化提示」用 **improve the error message** 即可;若想更精準可說 **make the error message clearer**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bc5155f5ef14",
+      "date": "20260619",
+      "front": "\"Push it following the rules, and use English for the commit message.\"",
+      "body": "這次你的指令是中文「幫我按照規則推上去,要用 en」,提供自然的英文說法:\n\n> \"Push it following the rules, and use English for the commit message.\"\n\n用詞重點:\n- **following the rules**(按照規則)是最自然的講法;這裡的 \"rules\" 指 commit 規範與分支策略。\n- 「推上去」用 **push it** 即可,工程語境下大家都懂是 push to remote;若要明確可說 **push it to the remote branch**。\n- 若想更精確表達「用英文寫 commit 訊息」,完整說法是 **write the commit message in English**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9e5ea1cfaf9b",
+      "date": "20260619",
+      "front": "\"Also save this to memory — remember this project's cross-repo architecture.\"",
+      "body": "這則訊息你是用中文輸入的「也幫我建立記憶,記住這個專案的跨 repo 架構」,提供自然的英文說法:\n\n> \"Also save this to memory — remember this project's cross-repo architecture.\"\n\n- **save to memory** 是最自然的說法;若想更口語也可說 \"make a note of\"。\n- 「跨 repo」用 **cross-repo** 當形容詞即可(用連字號連接),例如 \"cross-repo architecture\"、\"cross-repo contract\",這在工程語境中很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ef7227ada2c8",
       "date": "20260618",
       "front": "\"Please check did the system has those feature now.\"",
@@ -26,6 +53,15 @@
       "body": "本輪你的回覆是：\n> \"Just use your advice.\"\n\n很簡潔、意思清楚（=「就照你的建議做」），但 `use your advice` 在介係詞搭配上略不道地：\n\n| 你的寫法 | 更道地的寫法 | 說明 |\n|---------|------------|------|\n| Just **use** your advice | Just **go with** your advice / Just **follow** your advice | 「採納建議」的動詞搭配通常是 *follow / take / go with* advice，不用 *use*。*go with* 帶「就選這個方案」的口語語氣，很自然。 |\n\n更道地：\n> \"Just go with your recommendation.\" 或 \"Let's follow your advice.\"\n\n`go with`（選定某方案）在做決策時超實用，例如 \"Let's go with option 1.\" 值得記下來。👍",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "d97622293af2",
+      "date": "20260618",
+      "front": "\"Move both repos into a single parent folder called `group-around`, keeping each repo in its own subfolder.\"",
+      "body": "這次你用的是中文輸入，沒有英文句子需要批改，這裡提供本次需求的自然英文說法：\n\n> \"Move both repos into a single parent folder called `group-around`, keeping each repo in its own subfolder.\"\n\n- 重點用字：`parent folder`（上層資料夾）、`subfolder`（子資料夾）很適合描述這種巢狀結構。\n- 動詞用 `move ... into ...` 最自然；若要強調「歸類在一起」也可說 `group both repos under a single folder`，這裡的 `group ... under ...` 是技術情境常見的講法。",
+      "tags": [
+        "note"
       ]
     },
     {
