@@ -1,10 +1,163 @@
 {
   "entries": [
     {
+      "id": "df116e60312c",
+      "date": "20260622",
+      "front": "\"Let's go with B.\"",
+      "body": "你這次的訊息很簡潔（「我選擇 B 方案」），對應自然英文：\n\n> \"I'll go with option B.\"\n\n用字說明（以中文解釋）：\n- **go with**：「選擇／採用某方案」最道地的片語動詞，比 `choose` 更口語自然（決策語境常用）。\n- **option B**：「B 方案」直接 `option B` 即可。\n- 也可說 **\"Let's go with B.\"**（更簡短）或 **\"I'd prefer option B.\"**（語氣較委婉）。\n\n做選擇時用 `go with X` 是英文會議/協作裡非常高頻的表達，值得記起來。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bfb4904dd8de",
+      "date": "20260622",
+      "front": "\"Please take screenshots of how the form looks for owners vs admins, for my reference.\"",
+      "body": "你這次用中文（「請截圖前端表單針對 owner/admin所顯示的不同畫面給我參考」），對應自然英文：\n\n> \"Please take screenshots of how the form looks for owners vs admins, for my reference.\"\n\n用字說明（以中文解釋）：\n- **how the form looks for X**：「針對 X 所顯示的畫面」用 `how it looks for...` 最自然，比直譯 `the screen shown for` 口語。\n- **owners vs admins**：「owner/admin 的不同」用 `vs`（versus）表對比，簡潔常見。\n- **for my reference**：「給我參考」的標準英文說法。\n\n把「對比兩種角色的畫面」用 `for X vs Y` 表達，是很俐落的需求描述方式。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a2666a68cac2",
+      "date": "20260622",
+      "front": "\"Is access to activity cost management restricted to certain roles? Is it owner-only?\"",
+      "body": "你這次用中文（「目前活動的成本管理有限定什麼角色可以使用嗎? 是不是只有擁有者才可使用呢?」），對應自然英文：\n\n> \"Is access to activity cost management restricted to certain roles? Is it owner-only?\"\n\n用字說明（以中文解釋）：\n- **restricted to certain roles**：「限定什麼角色」用 `restricted to`（限制給…）最精準。\n- **owner-only**：「只有擁有者」用複合形容詞 `owner-only` 很簡潔，常見於權限討論（如 `admin-only`、`read-only`）。\n- 兩個短問句拆開問（先問是否限制、再問是否 owner-only），邏輯清楚——英文也保留這種「概括問 + 具體確認」的節奏。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7d3c5c527d16",
+      "date": "20260622",
+      "front": "\"Let's focus on dev first — evaluate whether it can be merged into dev as-is, and if so, go ahead and merge it.\"",
+      "body": "你這次用中文（「先聚焦dev的部分，先評估看看現在狀態下是否可以merge進dev，若可以的話請協助merge」），對應自然英文：\n\n> \"Let's focus on dev first — evaluate whether it can be merged into dev as-is, and if so, go ahead and merge it.\"\n\n用字說明（以中文解釋）：\n- **as-is**：「現在狀態下」最精煉的講法，表示「照目前原樣、不再改動」。\n- **go ahead and merge**：「請協助merge」用 `go ahead and...` 表達「就動手做吧」，比 `please help merge` 更自然、果斷。\n- **whether it can be merged**：條件用 `whether`（是否）帶出評估的不確定性。\n\n「條件評估 + 條件執行」的指令（evaluate → if OK, do）結構清楚，很適合委派需要先判斷再行動的任務。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3d3b9774a621",
+      "date": "20260622",
+      "front": "\"Admins can enter venue fees as costs when creating an activity, but afterward only the owner can manage the amounts the admin entered.\"",
+      "body": "你這次的訊息（「建立活動時管理員是可以輸入場地費用作為成本的，但是後續擁有者一樣可以針對管理者輸入的金額進行管理」）邏輯較長，這裡示範精煉的英文表達：\n\n> \"Admins can enter venue fees as costs when creating an activity, but afterward only the owner can manage the amounts the admin entered.\"\n\n用字說明（以中文解釋）：\n- **enter ... as costs**：「輸入…作為成本」用 `enter X as Y` 很自然。\n- **afterward**：「後續／之後」單字副詞，比 `after that` 簡潔。\n- **the amounts the admin entered**：「管理者輸入的金額」用關係子句（省略 that）修飾 amounts，結構精準。\n\n把「誰、在什麼時機、能做什麼」用 `when ...`／`afterward only ...` 的對比句型講清楚，是描述權限規則很好的表達方式。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b3dcef98c9c0",
+      "date": "20260621",
+      "front": "\"Please explain the situation with the refresh_tokens migration, and the potential impact after merging it into dev/prod.\"",
+      "body": "你這次用了英文起手「Please 說明一下…」。`Please` 用得自然，這裡示範把整句講成英文：\n\n> \"Please explain the situation with the refresh_tokens migration, and the potential impact after merging it into dev/prod.\"\n\n用字說明（以中文解釋）：\n- **the situation with X**：「X 的狀況」最自然的講法，介系詞用 `with`。\n- **potential impact**：「可能會有的影響」，`potential`（潛在的）比 `maybe have` 精準。\n- **after merging it into dev/prod**：動名詞 `merging` 接時間副詞子句，比 `after merge` 文法正確。\n\n小提醒：中英夾雜（`Please 說明一下`）口語溝通沒問題，但若要全英文，整句化會更專業。👍",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a87b473fc452",
+      "date": "20260621",
+      "front": "\"On both dev and prod Supabase, `refresh_tokens` returns NULL (the table doesn't exist). The alembic version is `a6b7c8d9e0f1` on dev and `b4c5d6e7f8a9` on prod.\"",
+      "body": "你這次主要用中文，並貼了查詢結果。這裡示範如何用英文精簡回報這種「環境比對」結果：\n\n> \"On both dev and prod Supabase, `refresh_tokens` returns NULL (the table doesn't exist). The alembic version is `a6b7c8d9e0f1` on dev and `b4c5d6e7f8a9` on prod.\"\n\n用字說明（以中文解釋）：\n- **returns NULL / doesn't exist**：回報查詢結果用 `returns`，再補一句白話 `the table doesn't exist` 讓對方秒懂。\n- **on both dev and prod**：「dev 和 prod 都…」用 `on both X and Y` 最精煉。\n- **respectively**：若想對應「分別」，可說 \"...`a6b7c8d9e0f1` and `b4c5d6e7f8a9` respectively.\" —— `respectively` 專門表達「依序分別對應」。\n\n回報數據時用「環境 + 指標 + 值」的結構，對方最容易判讀。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "928fb4fd2a76",
+      "date": "20260621",
+      "front": "\"When calculating each person's fee, waitlisted people are being charged too — but only confirmed registrants should be billed.\"",
+      "body": "你這次用中文描述 bug（「計算人員的費用時，會把候補的人員的費用也算入…正確是只能向正取人員收費」），對應自然英文：\n\n> \"When calculating each person's fee, waitlisted people are being charged too — but only confirmed registrants should be billed.\"\n\n用字說明（以中文解釋）：\n- **waitlisted (people)**：「候補的人員」用形容詞 `waitlisted` 最精煉；名詞可說 *people on the waitlist*。\n- **confirmed registrants**：「正取人員」——`confirmed` 對應正取，`registrant`（報名者）比 `people` 更精確。\n- **be charged / be billed**：「收費」兩者皆可，`billed` 偏「開帳單應收」，`charged` 偏「實際扣款」，這裡用 billed 較貼切。\n\n清楚描述「現象 + 正確預期」的 bug report，很有助於定位問題。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2e58e003bd82",
+      "date": "20260621",
+      "front": "\"What's the current git status of both repos?\"",
+      "body": "你這次用中文（「向我報告一下目前前後端的git 狀態」），對應自然英文：\n\n> \"Give me a report on the current git status of both the frontend and backend.\"\n\n用字說明（以中文解釋）：\n- **Give me a report on...**：「向我報告…」最自然的講法；口語也可說 *Walk me through the git status*（帶我逐項看過）。\n- **both the frontend and backend**：「前後端」用 `both ... and ...` 並列最清楚。\n- 若想更簡潔：**\"What's the current git status of both repos?\"**\n\n這是工程協作常用的「請求狀態回報」句型，簡潔明確。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e78a63ff3b2b",
+      "date": "20260620",
+      "front": "\"Let's start on the create-form pre-selection.\"",
+      "body": "你這次用中文（「前端 create 表單預選的部分可以開始調整」），對應自然英文：\n\n> \"We can start working on the create-form group pre-selection now.\"\n\n用字說明（以中文解釋）：\n- **start working on**：「開始調整／著手處理」最自然的講法，`work on something` 表示投入處理某件事。\n- **pre-selection**：延續上次的「預選」用語，保持一致。\n- 若想更精簡，口語也可說 **\"Let's start on the create-form pre-selection.\"**，用 `start on` 省去 `working`。\n\n這是一句清楚的「開工指令」，方向明確、簡潔有力。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d4827dc08153",
+      "date": "20260620",
+      "front": "\"Please push it to dev-x.x.x following the rules.\"",
+      "body": "你這次用中文（「請按照規則推上dev-x.x.x」），對應自然英文：\n\n> \"Please push it to dev-x.x.x following the rules.\"\n\n用字說明（以中文解釋）：\n- **following the rules**：「按照規則」最自然的講法，用現在分詞片語修飾整個動作；也可說 *as per the rules*（較正式）。\n- **push it to**：git 語境中「推上某分支」用 `push to <branch>`。\n- `dev-x.x.x` 這種帶佔位符的寫法在團隊溝通很常見，對方會理解 `x.x.x` 是「實際版號」。\n\n簡潔明確的指令句，加上「按照規則」清楚設定了期待。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cde5cc8b0251",
+      "date": "20260620",
+      "front": "\"This one can wait — shouldn't we push the earlier changes first?\"",
+      "body": "你這次用中文（「這個問題感覺可以晚點處理，是不是應該可以將先前的改動先推上去？」），對應自然英文：\n\n> \"This one can wait — shouldn't we push the earlier changes first?\"\n\n用字說明（以中文解釋）：\n- **can wait**：「可以晚點處理」最道地的講法，比 *can be handled later* 更精簡口語。\n- **shouldn't we...?**：用否定疑問句提出建議、徵詢同意，語氣比 *should we* 更自然地表達「我覺得應該，你覺得呢」。\n- **push ... first**：`push` 是 git 語境的標準動詞，`first` 放句尾表「先」。\n\n這種「先擱置 A、優先處理 B」的取捨表達，在團隊協作很常用。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b03394d59f68",
+      "date": "20260620",
+      "front": "\"Both repos require commit messages in English — if you just used Traditional Chinese, please switch them over.\"",
+      "body": "你這次用中文（「這兩個repo的commit都必須使用en，如果你剛剛使用zh-tw的話，請你改過來」），對應自然英文：\n\n> \"Both repos require commit messages in English — if you just used Traditional Chinese, please switch them over.\"\n\n用字說明（以中文解釋）：\n- **require ... in English**：「必須使用 en」用 `require` 帶出規定最自然；也可說 *must be in English*。\n- **switch them over**：「改過來」用片語動詞 `switch over` 很道地，比 *change them back* 更貼近「轉換成另一種」的語感。\n- **if you just used...**：這裡 `just` 表「剛剛」，放在助動詞後、動詞前。\n\n這是一句清楚的規範提醒，條件句（if…）加上明確指令，結構很好。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "959f46e144b3",
+      "date": "20260620",
+      "front": "你這次主要用中文，並引用了 Stephen 的話。這裡示範把 Stephen 的回報整理成一句精煉的英文 bug report，工作上很實用：",
+      "body": "你這次主要用中文，並引用了 Stephen 的話。這裡示範把 Stephen 的回報整理成一句精煉的英文 bug report，工作上很實用：\n\n> \"On desktop LINE, the access token expires almost immediately and the in-browser session never refreshes, so the app throws a 'group or user not found' error. This doesn't happen on mobile.\"\n\n用字說明（以中文解釋）：\n- **expires almost immediately**：對應「一下就過期」，比 *expires fast* 更精準自然。\n- **never refreshes / doesn't refresh**：「不會 refresh」。加 *in-browser session* 點出是瀏覽器端的 session。\n- **This doesn't happen on mobile.**：用獨立短句講「手機不會遇到」，比塞進前句更清楚。\n\n把模糊的口語回報轉成這種「條件 + 現象 + 對照」結構，是工程溝通很值得練的能力。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4402f5b39d02",
+      "date": "20260620",
+      "front": "\"If ... is done\"",
+      "body": "你這次用中文（「前端 create 表單預選的部分完成了的話，請截圖實際作業畫面讓我查看」），對應自然英文：\n\n> \"If the create-form pre-selection is done, please take a screenshot of it actually running so I can review it.\"\n\n用字說明（以中文解釋）：\n- **take a screenshot of it actually running**：「截圖實際作業畫面」用 `actually running` 強調是「真的跑起來」而非 mockup，很到位。\n- **so I can review it**：「讓我查看」用 `so (that) I can...` 帶出目的最自然。\n- 條件句 **\"If ... is done\"** 開頭，語氣禮貌且明確設了前提。\n\n這是一句結構完整的驗收請求（前提 + 動作 + 目的），工程協作很實用。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "43d5fcbf9c44",
+      "date": "20260620",
+      "front": "\"my local DB is behind on migrations\"",
+      "body": "你這次是中文指令（「目前因為DB結構有變動許多，但本地DB版本未跟上，請協助更新」），對應自然英文：\n\n> \"The DB schema has changed quite a bit, but my local database is out of date — please help me update it.\"\n\n用字說明（以中文解釋）：\n- **out of date / behind**：「版本沒跟上」最道地的說法。也可說 *\"my local DB is behind on migrations\"*，在工程語境更精確。\n- **schema** 比 *structure* 更專業——資料庫的「結構」慣稱 schema。\n- **quite a bit**：對應「許多」，比 *very much* 自然，表示「相當程度地」。\n\n這是很實用的開發溝通句，方向清楚明確。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e6d5adf64e18",
       "date": "20260619",
       "front": "\"\n\n幾個用詞重點:\n- **doesn't clearly tell the user why**(沒清楚告訴使用者原因)比直譯的 \"",
       "body": "這次你用中文下指令,我提供自然的英文說法供參考:\n\n> \"The form shows a 422 error when the end time is earlier than the start time, but the UI doesn't clearly tell the user why. Please improve the error message for a non-technical user.\"\n\n幾個用詞重點:\n- **doesn't clearly tell the user why**(沒清楚告訴使用者原因)比直譯的 \"doesn't show the reason clearly\" 更口語、更自然。\n- 「無軟體背景的使用者」最道地的說法是 **non-technical user**(而非 \"user without software background\")——這是業界標準用語。\n- 「優化提示」用 **improve the error message** 即可;若想更精準可說 **make the error message clearer**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d60d1f002d1e",
+      "date": "20260619",
+      "front": "\"Is it in the `團團` menu too?\"",
+      "body": "你這次的提問是中文（「請問有加入到『團團』選單內嗎?」），對應自然的英文說法：\n\n> \"Did you also add it to the `團團` menu?\"\n\n用字說明（以中文解釋）：\n- **Did you add...?** 用過去式詢問「（剛才）有沒有做某事」最直接。\n- **also**：對應「也」，放在主詞與動詞之間（`Did you also add`）是最自然的位置。\n- 若想更口語確認，也可說 **\"Is it in the `團團` menu too?\"**（強調「結果狀態」而非「動作」）。\n\n這是很實用的 review/確認句型，工作上常用來追問某項變更是否完整。👍",
       "tags": [
         "note"
       ]
@@ -23,6 +176,24 @@
       "date": "20260619",
       "front": "\"Also save this to memory — remember this project's cross-repo architecture.\"",
       "body": "這則訊息你是用中文輸入的「也幫我建立記憶,記住這個專案的跨 repo 架構」,提供自然的英文說法:\n\n> \"Also save this to memory — remember this project's cross-repo architecture.\"\n\n- **save to memory** 是最自然的說法;若想更口語也可說 \"make a note of\"。\n- 「跨 repo」用 **cross-repo** 當形容詞即可(用連字號連接),例如 \"cross-repo architecture\"、\"cross-repo contract\",這在工程語境中很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6af94de2d9f3",
+      "date": "20260619",
+      "front": "\"Make the create form default to the current group.\"",
+      "body": "你這次是中文指令（「幫前端 create 表單加上預選當前群組」），對應自然英文：\n\n> \"Add current-group pre-selection to the frontend create form.\"\n\n用字說明（以中文解釋）：\n- **pre-selection / pre-select**：「預選」最精準的說法，前綴 `pre-` 表示「事先」。動詞用 `pre-select the current group`，名詞用 `pre-selection`。\n- **current group**：當前群組，比 `now group` 自然許多。\n- 也可說 **\"Make the create form default to the current group.\"**，用 `default to` 表達「預設選為」，語感更口語。\n\n這是清楚的功能需求句，方向明確。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "658ac5a7797f",
+      "date": "20260619",
+      "front": "\"!open\"",
+      "body": "這次你的輸入是中文（「\"!open\"的開團指令需要在群組中也可以使用，請協助調整」），這裡提供一個自然的英文說法：\n\n> \"The `!open` command needs to work in group chats too — please help adjust it.\"\n\n幾個用字說明（以中文解釋）：\n- **work in group chats**：在群組中「可以運作／可用」用動詞 `work` 最自然，比 `can be used in groups` 更口語精簡。\n- **too**：放句尾表示「也要」，對應你的「也可以」。\n- **help adjust it**：`help (to) adjust` 中間的 `to` 可省略，是道地用法。\n\n句子本身結構清楚，是很實用的工程溝通句型。👍",
       "tags": [
         "note"
       ]
