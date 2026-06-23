@@ -1,6 +1,215 @@
 {
   "entries": [
     {
+      "id": "fec281293342",
+      "date": "20260623",
+      "front": "\"Manage Activities\"",
+      "body": "你這次用中文提問：「所以目前管理活動顯示出來的活動是甚麼規則呢?」\n\n自然的英文說法：\n> So what are the current rules for which activities show up in the \"Manage Activities\" list?\n\n**用字 nuance 說明（zh-tw）：**\n- 「顯示出來」用 **show up**（自動出現）比 **be displayed** 更口語自然。\n- 「規則」這裡用複數 **rules** 比較道地，因為實際上有多條條件。\n- 想更精確可用 **what's the current logic for which activities appear** —「logic（邏輯）」在工程語境下常用來指「篩選/判斷的規則」。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "c6b532911210",
+      "date": "20260623",
+      "front": "\"this still needs manual verification / a manual check\"",
+      "body": "你這串對話從需求分析、反覆確認到下令開工，**整體溝通節奏掌握得很好**——尤其「先盤點再實作」的順序很專業。這次你主要用中文，我幫你把幾句實作階段常用的話補上自然英文：\n\n| 你的中文意思 | 自然英文說法 | 補充說明 |\n|---|---|---|\n| 「好，請開始規劃」 | \"Sounds good — please go ahead and draft the plan.\" | `go ahead and …` 是「放手去做」最自然的授權語氣 |\n| 「這個錯誤是既有的，跟我的改動無關」 | \"This error is pre-existing and unrelated to my changes.\" | `pre-existing`（既有的）在 code review / PR 描述裡超常用 |\n| 「兩種模式並存，互不影響」 | \"Both modes coexist without affecting each other.\" | `coexist`（並存）很精準；也可說 `work side by side` |\n\n小提醒：技術交付時常要表達「這還需要人工驗證」，最自然的講法是 **\"this still needs manual verification / a manual check\"**。你這次完整走完一輪「分析 → 確認 → 規劃 → 實作」的協作流程，溝通很到位，繼續保持！👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b7da77699d1f",
+      "date": "20260623",
+      "front": "\"take stock of\"",
+      "body": "你這次用「先盤點」這種簡短的祈使句下指令，很清楚俐落，我幫你補上對應的英文工作用語：\n\n| 你的中文意思 | 自然英文說法 | 補充說明 |\n|---|---|---|\n| 「先盤點專案用哪個工具產 Excel」 | \"First, let's take stock of which tool the project uses to generate Excel.\" | `take stock of` = 盤點/清點現況，技術討論裡很道地；也可說 `audit` 或 `survey` |\n| 「現成的工具」 | \"an existing / ready-made utility\" | `ready-made`（現成的）、`off-the-shelf`（套裝現成的）都很常用 |\n| 「不需要新增依賴」 | \"no new dependencies are needed.\" | `dependency`（相依套件）是前端固定用語，複數 `dependencies` |\n\n小提醒：「盤點」這個動作，英文最自然的兩個說法是 **\"take stock of\"** 和 **\"do an inventory of\"**。你給的指令雖然只有短短一句，但意圖非常明確，這種精簡下指令的風格在實務溝通上其實很有效率，值得保持。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a93352e696a5",
+      "date": "20260623",
+      "front": "\"in principle\"",
+      "body": "這則你一樣是用中文提問，我幫你把這個「再次確認」的語氣轉成自然的英文，未來跟 user 或同事 double-check 時很好用：\n\n| 你的中文意思 | 自然英文說法 | 補充說明 |\n|---|---|---|\n| 「原則上來說…是沒有辦法達到沒錯嗎？」 | \"So, in principle, there's no way to achieve this with X — is that correct?\" | 用 `is that correct?` 或 `am I right?` 結尾，是很標準的 confirm 句型 |\n| 「我想直接使用目前的 ag-grid 操作」 | \"I'd like to rely on the current AG Grid operations as-is.\" | `as-is`（照現狀、不修改）這個詞在技術討論裡超實用 |\n| 「user 心中所想的結果」 | \"what the user has in mind\" | `have ... in mind` = 心裡想的，比直譯 `the result in the user's heart` 自然得多 |\n\n小提醒：你用的「原則上來說」對應英文最自然的是 **\"in principle\"**（理論上、原則上），有時也可說 **\"basically\"**。你這句整體意思表達得很清楚，只是中英之間我幫你補上慣用講法，讓你開口時更道地。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a1f77bfdef0c",
+      "date": "20260623",
+      "front": "\"meet the user's needs\"",
+      "body": "你這次的「再次確認理解」句型寫得很完整、邏輯清楚，我給你一個更道地的講法來擴充表達：\n\n| 你的中文意思 | 自然英文說法 | 補充說明 |\n|---|---|---|\n| 「所以你的意思是說…這樣我的理解正確嗎？」 | \"So what you're saying is… — do I understand that correctly?\" | `So what you're saying is…` 是英文母語者複述對方重點時最常用的開場 |\n| 「新開發一個匯出功能」 | \"build a brand-new export feature\" | `brand-new`（全新的）比單純 `new` 更強調「從頭做」；也可說 `develop a separate export feature` |\n| 「不走內建的匯出」 | \"instead of relying on the built-in export\" | `instead of …`／`rather than …` 來表達「不走 A、改走 B」很自然 |\n\n小提醒：你想表達「滿足 user 的需求」時，除了 `satisfy the user's needs`，更口語自然的是 **\"meet the user's needs\"** 或 **\"address what the user wants\"**。整體你這句理解與表達都很到位，繼續保持這種「先複述、再確認」的溝通習慣，在團隊協作裡非常加分。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9fda591a2a67",
+      "date": "20260623",
+      "front": "你這句回報結果講得清楚又自然:「後來在 GKE 上面把 secret 設定好後就沒問題了」。對應道地英文:",
+      "body": "你這句回報結果講得清楚又自然:「後來在 GKE 上面把 secret 設定好後就沒問題了」。對應道地英文:\n\n> After I set up the secret on GKE, everything worked fine.\n\n或更精簡:\n\n> Setting the secret on GKE fixed it.\n\n**nuance 補充:**\n- 「後來…就沒問題了」用 **After ..., everything worked fine** 或 **... and it was all good after that** 都很自然;回報修好事故時,母語者也常直接說 **That did the trick.**(「這招就搞定了」,很口語的「問題解決」講法)。\n- 「把 secret 設定好」用 **set up the secret** 最貼切;這裡 *set up*(設定、建置)比單純 *set*(設值)更能表達「把整個 Secret 配置好」的意思。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "9bd4f5cd0026",
+      "date": "20260623",
+      "front": "\"What else could we optimize next?\"",
+      "body": "你這句「接著還可以有甚麼優化呢?」簡潔自然。提供對應的英文與一個更道地的講法:\n\n> \"What else could we optimize next?\"\n\n或產品討論常用的:\n\n> \"What would be a good next improvement?\" / \"Where should we go from here?\"\n\n用字提示:\n- 「接著還可以…呢」→ **What else could we …?** 的 **What else**(還有什麼)正好對應「還可以」的延續語氣。\n- 「從這裡往下走」這種承接前文的問法,**Where do we go from here?** 是極道地的慣用句,職場與技術討論都常用,很值得收進口袋。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8f4c64fe421b",
+      "date": "20260623",
+      "front": "\"Good\"",
+      "body": "你這次的訊息混用中英：「Good 幫推上去吧」\n\n「幫推上去」自然的英文說法：\n> Looks good — go ahead and push it up.\n\n或更精確：\n> Great, please push it (to the remote).\n\n**用字 nuance 說明（zh-tw）：**\n- **push it up** 跟 **push it** 都對；加 **up** 略帶口語感，意指「往上推到遠端/伺服器」，工程師日常很常這樣講。\n- 開頭用 **Looks good** 或 **Great** 比單獨 \"Good\" 更完整自然 — 英文裡單一個 \"Good.\" 當回應有時會顯得有點生硬或像在敷衍，加個動詞或語境會更順。\n- 「go ahead and ...」是很道地的「放手去做某事」說法，傳達你授權對方執行的語氣。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "8e1058f3278a",
+      "date": "20260623",
+      "front": "你這句簡潔又正確:「已經確定程式碼都部署上正式機了」對應自然英文:",
+      "body": "你這句簡潔又正確:「已經確定程式碼都部署上正式機了」對應自然英文:\n\n> I've confirmed that the code is fully deployed to production.\n\n**nuance 補充:**\n- 「已經確定」用 **I've confirmed (that)...** 最貼切;若想更口語也可說 **The code is now live in production.**(*go live / be live* 是部署上線的常見講法,母語工程師很愛用)。\n- 「都部署上去了」的「都」帶有「全部、完整」的意思,英文用 **fully deployed** 或 **all deployed** 來表達這個語氣,比單純 deployed 更精準。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "7c9d27cc498d",
+      "date": "20260623",
+      "front": "你這句把急迫感講得很清楚:「結果尚上去 prod 之後整個 line bot 都沒有反應了,不管怎麼叫他都沒反應」。先提醒一個小錯字:「**尚**上去」應該是「**上**上去」或「一上去」的筆誤。對應自然英文:",
+      "body": "你這句把急迫感講得很清楚:「結果尚上去 prod 之後整個 line bot 都沒有反應了,不管怎麼叫他都沒反應」。先提醒一個小錯字:「**尚**上去」應該是「**上**上去」或「一上去」的筆誤。對應自然英文:\n\n> Right after I deployed to prod, the whole LINE bot went dead — it doesn't respond no matter what I send it.\n\n**nuance 補充:**\n- 「整個 bot 都沒反應」用 **the bot went dead** 或 **the bot is completely unresponsive** 最傳神;*went dead* 偏口語(像在回報事故時講的),*unresponsive* 偏正式(寫在工單 / Slack 事故串裡)。\n- 「不管怎麼叫他都沒反應」用 **no matter what I send it, it doesn't respond** 很道地;這裡 bot 在英文通常用 *it* 不用 *him*(中文習慣說「叫他」,但英文機器人一律用 it)。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "76e327e06f2c",
+      "date": "20260623",
+      "front": "\"稽核日誌\"",
+      "body": "你這次的開場句寫得很清楚，我挑兩個小地方讓它更道地：\n\n| 你的句子 | 更自然的說法 | 說明 |\n|---|---|---|\n| When I click \"稽核日誌\", the backend will set an error is... | When I click \"稽核日誌\", the backend **throws** an error: ... | 後端「拋出/回報」錯誤用 throw / report / log 比 set 精準；`set an error is` 文法上是兩個動詞疊在一起（will set + is），擇一即可。 |\n| Please check. | Please **take a look.** / Could you **look into this?** | \"Please check.\" 沒有錯，但偏簡短生硬；\"look into this\" 更能表達「請深入查一下」的語氣。 |\n\n整體你的描述加上完整的 stack trace，對除錯非常有幫助，這是很好的提問習慣，繼續保持！👍",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "66818652e30f",
+      "date": "20260623",
+      "front": "你這次用中文表達，我先給你一個自然的英文版本：",
+      "body": "你這次用中文表達，我先給你一個自然的英文版本：\n\n> The check-in feature is currently operated through LINE, but in theory it'd be more flexible if we moved it to the web. Is that right?\n\n**用字 nuance 說明（zh-tw）：**\n- 「操控」在這個語境用 **operate** 或更口語的 **handle / do it through** 即可；不要用 **control**（control 偏向「控制/掌控權限」，講操作流程會怪）。\n- 「理論上」= **in theory** 或 **theoretically**，兩者都很自然。\n- 「這個是正確的吧?」這種尋求確認的語氣，英文常用 **Is that right?** / **Am I right?** / **Does that make sense?**——最後一個 (Does that make sense?) 在討論技術判斷時特別道地，因為它邀請對方補充而非單純 yes/no。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "62080c94ffdd",
+      "date": "20260623",
+      "front": "\"coupon\"",
+      "body": "這則你一樣是用中文提問,以下是自然的英文說法:\n\n> As a developer and system administrator, how do I manage coupons? How do I create one?\n\n**nuance 補充:**\n- 「系統管理員」標準英文是 **system administrator**(口語常縮寫成 **sysadmin** 或 **admin**)。\n- 「建立優惠碼」用 **create a coupon** 最自然;若是「大量產生」則會說 **generate coupons**(generate 帶有「批次/自動產生」的語感,create 偏單筆手動建立)。\n- 小技巧:第二句不必重複 \"coupon\",用 **how do I create one?** 的 *one* 代稱即可,讀起來更像母語者。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "5edba53b32a0",
+      "date": "20260623",
+      "front": "\"Let's go back to the earlier discussion on the event list summary (A5) and trend charts (B2) that we interrupted. Could you walk me through the content again?\"",
+      "body": "你這句「先回到先前中斷的…討論,請你再描述一下內容」表達得很清楚,提供對應的自然英文:\n\n> \"Let's go back to the earlier discussion on the event list summary (A5) and trend charts (B2) that we interrupted. Could you walk me through the content again?\"\n\n用字提示:\n- 「回到先前中斷的討論」→ **go back to the discussion we interrupted** 或更道地的 **circle back to …**;**circle back**(稍後再回頭談)是職場英文超常用的片語,正好對應「先擱置、現在回來」的情境。\n- 「再描述一下內容」→ **walk me through it again** 或 **recap the content**;**walk (someone) through**(帶某人逐步了解)比直譯的 *describe* 更自然,**recap**(扼要重述)也很貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "540bb149ba59",
+      "date": "20260623",
+      "front": "你這句很口語、也完全正確:「我都 insert 完了，請問我下一步是甚麼?」對應自然英文:",
+      "body": "你這句很口語、也完全正確:「我都 insert 完了，請問我下一步是甚麼?」對應自然英文:\n\n> I've finished all the inserts. What's my next step?\n\n**nuance 補充:**\n- 「我都 insert 完了」用 **I've finished all the inserts** 或 **I'm done with the inserts** 都很自然。這裡用現在完成式(have finished)很到位,因為強調「動作已完成、且和現在的下一步有關聯」。\n- 「下一步是甚麼」最常見講法就是 **What's the next step?** 或 **What should I do next?**,兩個母語者都天天用,可放心使用。",
+      "tags": [
+        "praise",
+        "nuance"
+      ]
+    },
+    {
+      "id": "4f8d0d457c89",
+      "date": "20260623",
+      "front": "\"looks off\"",
+      "body": "這次你用中文描述 UI 問題，講得很到位——「按鈕都超出範圍了很醜」意思非常清楚。我幫你補上前端 UI 問題回報時的道地英文：\n\n| 你的中文意思 | 自然英文說法 | 補充說明 |\n|---|---|---|\n| 「按鈕都超出範圍了」 | \"The buttons are overflowing the container.\" | `overflow`（溢出）是描述版面跑出邊界的標準術語 |\n| 「很醜，請修復一下 UI」 | \"It looks off — could you fix the UI?\" | `looks off`（看起來怪怪的/不對勁）比直接說 `ugly` 更委婉專業；要強烈一點可說 `looks broken` |\n| 「按鈕排版跑掉了」 | \"The button layout is broken / misaligned.\" | `misaligned`（沒對齊）、`broken layout`（版面壞掉）都很常用 |\n\n小提醒：回報視覺問題時，英文母語者很少直接說 \"ugly\"，更常用 **\"looks off\"**、**\"doesn't look right\"** 或 **\"the layout is broken\"**——語氣較中性、聚焦在「問題」而非「主觀醜」。你附上截圖搭配描述的習慣非常好，這在跨團隊溝通時能省下大量來回。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3b2e086b674e",
+      "date": "20260623",
+      "front": "\"Please go ahead to do 收尾事項.\"",
+      "body": "你這次說 *\"Please go ahead to do 收尾事項.\"* —— 意思清楚,但有個慣用搭配的小修正:\n\n| 你的句子 | 更自然 |\n|---|---|\n| Please go ahead **to do** the wrap-up. | Please go ahead **and do** the wrap-up. / Please go ahead **with** the wrap-up. |\n\n語感說明(zh-tw):\n- **go ahead** 後面接動作時,習慣用 **and + 動詞**(*go ahead and do*)或 **with + 名詞**(*go ahead with the wrap-up*);**go ahead to do** 雖能懂但不道地。\n- 「收尾事項」英文可說 **the wrap-up (items)**、**the loose ends**(零散未了的尾巴)或 **the final cleanup**,例:*\"Let's tie up the loose ends.\"*(把零碎收尾處理掉。)**tie up loose ends** 是很道地的片語,正好對應「收尾」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "372e5518b451",
+      "date": "20260623",
+      "front": "\"Sorry I was wrong. you need to merge first, and then you can go ahead to do tag\"",
+      "body": "你這則訊息 \"Sorry I was wrong. you need to merge first, and then you can go ahead to do tag\" 表達得很清楚、完全能理解。幾個小潤飾：\n\n| 你的句子 | 更自然的說法 | 說明 |\n|---|---|---|\n| Sorry I was wrong. | **My bad** — / **Sorry, my mistake.** | \"I was wrong\" 正確但語氣略重（像承認重大錯誤）；日常開發情境用 \"my bad\" 或 \"my mistake\" 更輕鬆自然。 |\n| you can go ahead to do tag | you can **go ahead and tag** / go ahead **with the tag** | \"go ahead\" 後面接動詞時用 **and + 原形動詞**（go ahead and tag），而不是 \"go ahead to do\"；這是固定搭配。 |\n\n整體你的指令邏輯（先 merge 再 tag）表達得精準，溝通完全到位，很好！👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "364fb54fa9a8",
+      "date": "20260623",
+      "front": "這次你提供的是 log,沒有額外英文句子。不過幫你補一個事故場景超實用的講法 —— 當你要跟同事描述「app 一啟動就因為缺環境變數而崩潰」:",
+      "body": "這次你提供的是 log,沒有額外英文句子。不過幫你補一個事故場景超實用的講法 —— 當你要跟同事描述「app 一啟動就因為缺環境變數而崩潰」:\n\n> The API crashes on startup because a required environment variable (`PAID_GROUPS_KEY`) is missing in production.\n\n**nuance 補充:**\n- 「一啟動就崩潰」用 **crash on startup** 是最精準的技術講法;若想強調「反覆崩潰起不來」(就是你看到 worker 一直 boot 失敗的情況),英文叫 **crash loop**(K8s 的狀態就叫 `CrashLoopBackOff`),例如 *the pod is in a crash loop*。\n- 「缺環境變數」用 **a missing environment variable** 或 **an unset environment variable** 都可以;*missing* 較口語通用,*unset* 強調「根本沒設定值」,在這個情境兩者皆通。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "30eae7b9bd4f",
+      "date": "20260623",
+      "front": "\"open a merge request (MR)\"",
+      "body": "你這次用「推上去吧」這個輕鬆的口語下指令，很自然。我幫你補上 git 協作情境的道地英文：\n\n| 你的中文意思 | 自然英文說法 | 補充說明 |\n|---|---|---|\n| 「測試下來效果不錯，請幫忙推上去吧」 | \"Testing looks good — go ahead and push it, please.\" | `push it (up)` 就是推到遠端；`go ahead and …` 表「放手去做」 |\n| 「目前測試下來」 | \"From what I've tested so far\" | `so far`（到目前為止）很常用來表達階段性結論 |\n| 「直接推到 master」 | \"push straight to master\" | `straight to …`＝直接到…；實務上多會先開分支再開 MR |\n\n小提醒：團隊裡比起 \"push it up\"，更完整的講法常是 **\"open a merge request (MR)\"** 或 GitHub 用語 **\"open a pull request (PR)\"**——因為實務上通常不是直接推主幹，而是推分支後走 review 流程。你這次的溝通簡潔有效，搭配前面完整的分析與確認，整段協作流程非常順暢，做得很好！👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2409efe0fbf1",
+      "date": "20260623",
+      "front": "\"Do commit & push & tag\"",
+      "body": "這一則你的指令是 \"Do commit & push & tag\" —— 簡短的祈使句，在開發情境下完全自然、沒有問題。給你一個小提示讓表達更精準：\n\n| 你的說法 | 可選的更明確說法 | 說明 |\n|---|---|---|\n| Do commit & push & tag | **Please commit, push, and tag** (the changes) | 用 \"Do\" 開頭當強調語氣 OK，但口語上 \"Please + 動詞\" 或直接 \"Commit, push, and tag it\" 更常見；列舉動詞時用逗號分隔（commit, push, and tag）會比 `&` 在正式書寫中更清楚。 |\n\n`tag` 當動詞用得很正確（to tag a release = 為一個版本打標籤），這是 Git 情境的標準用法，很好！👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "14d6361ac24e",
+      "date": "20260623",
+      "front": "\"I'd like to assess whether this can meet the user's expectations.\"",
+      "body": "你這次主要是用中文描述需求，我先把幾個關鍵句子的自然英文講法補給你，方便日後對 user 或寫 issue 時使用：\n\n| 你的中文意思 | 自然英文說法 | 補充說明 |\n|---|---|---|\n| 「我想分析看看能不能滿足 user 的期望」 | \"I'd like to assess whether this can meet the user's expectations.\" | `assess whether` 比 `analyze if` 更貼近「評估可行性」的語氣 |\n| 「目前用 group 匯出會變成這樣的格式」 | \"Exporting with the group feature currently produces this layout.\" | `produces this layout`／`results in this format` 都很自然 |\n| 「不需要分組」 | \"No grouping (outline) is needed.\" | 圖上的階層在 Excel 裡正式叫 **row outline**，講 `outline` 對方一聽就懂 |\n\n小提醒：中文常說的「交叉表 / 樞紐表」，英文對應是 **pivot table** 或 **cross-tab**；「攤平」可以說 **flatten**（動詞）或 **flattened table**。這幾個詞在這個需求討論裡很常用，建議記下來。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "113315910e87",
+      "date": "20260623",
+      "front": "\"test machine / formal machine\"",
+      "body": "這則一樣是中文提問,提供自然的英文版本(這種情境你跟國外同事 / 在 PR 描述裡很可能會用到):\n\n> Let's keep it simple for now — could you prepare the SQL first? I want to push the code to production, but the prod DB has no coupon data yet; only the dev (staging) DB has it. So please base the INSERT SQL on the existing dev data.\n\n**nuance 補充:**\n- 台灣習慣講的「測試機 / 正式機」對應英文最自然的說法是 **staging / production**(口語常說 **staging** 和 **prod**)。直譯 \"test machine / formal machine\" 母語者會聽不懂,*formal* 在這裡尤其不對。\n- 「上 code 到 prod」道地說法是 **push / deploy the code to production**,你用 push 或 deploy 都對,deploy 更精準(指部署上線),push 偏向「推上 git / 觸發流程」。\n- 「參考現有資料」用 **base ... on the existing data** 或 **refer to the existing data** 都可以;base on 更強調「以…為基礎來產生」,在這個情境比 refer to 更貼切。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
       "id": "df116e60312c",
       "date": "20260622",
       "front": "\"Let's go with B.\"",
