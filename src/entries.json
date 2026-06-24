@@ -1,6 +1,205 @@
 {
   "entries": [
     {
+      "id": "e9cd3af13de1",
+      "date": "20260624",
+      "front": "\"Please consolidate these into a Markdown or HTML file for future reference, so it's handy for future innovation and development.\"",
+      "body": "這則你用中文表達，提供自然英文說法：\n\n> 「幫我把這些整理成一個 md 或 html 留存，方便未來創新開發使用。」\n>\n> *\"Please consolidate these into a Markdown or HTML file for future reference, so it's handy for future innovation and development.\"*\n\n語感說明：\n- 「整理成」用 **consolidate into**（彙整成一份）最貼切；較中性可用 **compile / organize into**。\n- 「留存」這裡指「保存供日後查閱」，用 **for future reference** 或 **to keep on file** 很自然；單純存檔可用 **save / archive**。\n- 「方便未來…使用」用 **so it's handy for …** 口語且道地；正式可用 **to facilitate future development**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e827c67cb5fc",
+      "date": "20260624",
+      "front": "\"Please evaluate which part of the multi-dimensional system would be a good place to add AI features.\"",
+      "body": "這則你用中文提問，提供自然英文說法：\n\n> 「請你評估看看在多維度系統中哪個區塊適合添加上 AI 元素」\n>\n> *\"Please evaluate which part of the multi-dimensional system would be a good place to add AI features.\"*\n\n語感說明：\n- 「區塊」在軟體語境用 **part / area / component / module** 都可；想更精確指「介面上的某一塊」可用 **section**。\n- 「添加上 AI 元素」的「元素」直譯 **AI elements** 可理解，但英文更道地的說法是 **AI features** 或 **AI capabilities**；若指「整合 AI」可用 **incorporate / integrate AI**。\n- 小提醒：「評估看看」的「看看」語氣，英文不需逐字翻；**evaluate** 或 **assess** 本身就含「審視」之意，加上 *\"take a look at\"* 反而稍顯口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dd377d804f36",
+      "date": "20260624",
+      "front": "\"it leaves too much dead space\"",
+      "body": "本回合你以中文溝通。提供本主題實用英文：\n\n| 中文意圖 | 自然英文 |\n|---------|---------|\n| 不需要那麼寬，有點浪費空間 | \"It doesn't need to be that wide — it wastes some space.\" |\n| 右側留了一大片空白 | \"There's a large blank area on the right.\" |\n| 收窄到剛好夠用 | \"Narrow it down to just enough.\" |\n\n小提醒：「浪費空間」用 **waste space** 即可；若要更道地地形容版面留白過多，可說 **\"it leaves too much dead space\"**——*dead space* 是設計／排版常用語，指「未被利用的空白區」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "dab066ee04dc",
+      "date": "20260624",
+      "front": "\"This value needs fine-tuning through real testing.\"",
+      "body": "本回合你未輸入英文句子。提供本任務的實用表達：\n\n| 中文意圖 | 自然英文 |\n|---------|---------|\n| 這個數值需要實測微調 | \"This value needs fine-tuning through real testing.\" |\n| 表格底部留白太多 | \"There's too much empty space at the bottom of the grid.\" |\n| 移除沒用到的死碼 | \"Remove the unused dead code.\" |\n\n小提醒：「留白」在排版／UI 語境的專業說法是 **whitespace**（不可數），口語也常說 **empty space**；若指「刻意的留白設計」則用 **negative space**。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d22a838d4064",
+      "date": "20260624",
+      "front": "\"merge the branch into master\"",
+      "body": "你這次的指令 \"merge into master and push\" 文法完全正確、簡潔道地，是工程上最自然的講法 👍\n\n補充一個小擴充：若要更精確表達「把分支合併進 master」，也可說 **\"merge the branch into master\"**；而合併後常見的後續句是 **\"and then delete the feature branch\"**（合併後刪掉功能分支）。\n\n要我幫你刪除遠端的 `feat/viewer-ag-grid-toolbar-ux` 分支嗎？",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "d0f85950dc44",
+      "date": "20260624",
+      "front": "這次你的訊息以中文為主，我依規則提供自然的英文說法：",
+      "body": "這次你的訊息以中文為主，我依規則提供自然的英文說法：\n\n> 「目前 dzp 和 MultiSearch 可總結為『多維度報表』系統，請你先記錄一下，並看看是否更新 CLAUDE.md」\n>\n> *\"The `dzp` and `MultiSearch` modules can be summarized as a 'multi-dimensional reporting' system. Please make a note of this first, and then check whether CLAUDE.md needs updating.\"*\n\n語感說明：\n- 「多維度報表」用 **multi-dimensional reporting** 最貼切；若指 OLAP 那種立方體分析，也可說 **multi-dimensional analytics**。\n- 「先記錄一下」這裡指「記在記憶/筆記」，用 **make a note of this** 很自然；若是寫進文件則可用 **document this**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c9b02c80aadc",
+      "date": "20260624",
+      "front": "\"Let's not say 'already built-in', since these features don't actually exist yet — let's reframe it around feasibility instead.\"",
+      "body": "這則你用中文表達，提供自然英文說法：\n\n> 「不要寫『已內建』，因為實際上還沒有這些功能，我們改成『可行性』的方向來撰寫。」\n>\n> *\"Let's not say 'already built-in', since these features don't actually exist yet — let's reframe it around feasibility instead.\"*\n\n語感說明：\n- 「改成…的方向來撰寫」用 **reframe it around …** 最精準；**reframe**（重新框定）正是「換個角度寫」的專業說法。\n- 「已內建」對應 **built-in** 或 **already in place**；想更口語可說 **already there**。\n- 「實際上還沒有」用 **don't actually exist yet** 很自然，**actually** 在此強調「事實上」，語氣貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ac7003e98db5",
+      "date": "20260624",
+      "front": "\"There are trade-offs, and it's unavoidable.\"",
+      "body": "本回合你以中文溝通。提供本主題實用英文：\n\n| 中文意圖 | 自然英文 |\n|---------|---------|\n| 有捨有得，無法避免 | \"There are trade-offs, and it's unavoidable.\" |\n| 一直切來切去 | \"Constantly toggling back and forth.\" |\n| 這些區塊是重複的 | \"These sections are redundant.\" |\n\n小提醒：「有捨有得」最貼切的英文就是 **trade-off**（名詞，常用複數 trade-offs）；「重複、多餘」用 **redundant** 比 \"repeated\" 更專業，特別在 UI／工程語境表示「多此一舉、可省略的重複」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a99253d38674",
+      "date": "20260624",
+      "front": "\"Pull the toolbar out into a standalone container.\"",
+      "body": "本回合你以中文溝通。提供本主題的實用英文：\n\n| 中文意圖 | 自然英文 |\n|---------|---------|\n| 把工具欄拉出來放（獨立容器） | \"Pull the toolbar out into a standalone container.\" |\n| 受限於表格高度 | \"It's constrained by the grid's height.\" |\n| 全螢幕放大切換 | \"A fullscreen maximize toggle.\" |\n\n小提醒：「獨立的」面板用 **standalone**（獨立運作、不依附）最精準，例如 \"a standalone panel\"；若強調「從某物分離出來」則用 **detached**，如 \"a detached toolbar\"。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9f5eaf142055",
+      "date": "20260624",
+      "front": "\"Understood. To address the business need, I first need to put together a one-pager.\"",
+      "body": "這則你用中文表達，提供自然英文說法：\n\n> 「理解，因應業務需求，需要先整理出『一頁式說明』。」\n>\n> *\"Understood. To address the business need, I first need to put together a one-pager.\"*\n\n語感說明：\n- 「因應業務需求」用 **to address / to meet the business need(s)** 最自然；正式場合也可用 **in response to business requirements**。\n- 「一頁式說明」業界常說 **one-pager**（名詞，極道地），或 **a one-page brief / overview**。\n- 「整理出」用 **put together** 或 **draw up / prepare** 都好；**put together** 偏口語、**draw up** 偏正式（常用於文件、計畫）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9dec7a482263",
+      "date": "20260624",
+      "front": "\"The LINE and web check-in flows will coexist.\"",
+      "body": "這一輪同樣是系統的任務通知，你沒有輸入英文句子。給你一個本情境的實用表達：\n\n> The core check-in logic is reusable; what's missing is a REST API and the LIFF page.\n\n- 「可重用」用形容詞 **reusable** 最簡潔（比 \"can be reused\" 更精煉）。\n- 「缺的是…」用 **what's missing is…** 是很自然的強調句型，口語書面皆可。\n- 「並存」可用 **coexist** 或 **live side by side**：*\"The LINE and web check-in flows will coexist.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9c298795c291",
+      "date": "20260624",
+      "front": "\"The brief should be framed around exploring whether we can add AI — but written as if it's already part of the system — and should avoid developer-only jargon.\"",
+      "body": "這則你用中文下指令，提供自然英文說法：\n\n> 「該說明主要方向要是『看看能否增加 AI，然後要講得很像目前就有』的角度去切入，並避免寫出開發者才看得懂的名詞。」\n>\n> *\"The brief should be framed around exploring whether we can add AI — but written as if it's already part of the system — and should avoid developer-only jargon.\"*\n\n語感說明：\n- 「以…的角度去切入」用 **framed around / approached from the angle of** 最貼切；**frame** 當動詞在簡報語境很常用。\n- 「講得很像目前就有」用 **written as if it's already part of the system** 或 **presented as an existing capability**，能精準傳達那種「現在式、既成感」的語氣。\n- 「開發者才看得懂的名詞」＝ **developer-only jargon** 或 **technical jargon**；`jargon` 本身就指「行話／術語」，是很道地的字。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9a0431aa2b02",
+      "date": "20260624",
+      "front": "\"not smooth\"",
+      "body": "你這次用中文描述需求，以下提供自然的英文說法：\n\n| 中文原句 | 自然英文 |\n|---------|---------|\n| ag-grid 的工具欄都侷限在右側 | The ag-grid toolbar is confined to the right side. |\n| 礙於 ag-grid 的高度，顯示範圍有限 | Constrained by the grid's height, its display area is limited. |\n| 操作起來很不通順 | It feels clunky / awkward to operate. |\n\n小提醒：「不通順」在 UX 情境下，英文常用 **clunky**（笨重不順手）或 **awkward to use**，比直譯的 \"not smooth\" 更道地。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8267ec722c9b",
+      "date": "20260624",
+      "front": "\"push to git\"",
+      "body": "你這次的指令「推上git」是中文，提供對應的英文說法供參考：\n\n| 中文意圖 | 自然英文 |\n|---------|---------|\n| 推上 git | \"Push it to git.\" / \"Push the changes.\" |\n| 幫我開一個 MR | \"Open a merge request for me.\" |\n| 這個分支從 master 切出來 | \"This branch is branched off master.\" |\n\n小提醒：口語中「推上 git」最自然就是 **\"push to git\"** 或更精確的 **\"push to the remote\"**（推到遠端）。若要指定分支，可說 *\"push this branch to origin\"*。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6db4fba6bc5c",
+      "date": "20260624",
+      "front": "\"Just generate the HTML file directly under D:\\ezoGit\\csc instead.\"",
+      "body": "這則你用中文下了簡短指令，依規則也回饋一下：\n\n> 「HTML 幫我改生成在 D:\\ezoGit\\csc 即可」\n>\n> *\"Just generate the HTML file directly under D:\\ezoGit\\csc instead.\"*\n\n語感說明：\n- 「改…即可」帶有「改成這樣就好、不用多做」的語氣，英文用 **just … instead** 很傳神；**instead** 對應「改」(取代原本放 scratchpad 的做法)。\n- 句末的「即可」也可用 **that's all / that'll do** 收尾，例如 *\"Just put it under D:\\ezoGit\\csc — that's all.\"*\n- 小提醒：口語指令省略主詞在中文很自然，但英文仍需補上 **Just generate it…**，句子才完整。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "63214a7f5a2a",
+      "date": "20260624",
+      "front": "\"Please document this first, then see whether CLAUDE.md should be updated.\"",
+      "body": "這則訊息你以中文表達為主，以下提供自然英文說法：\n\n> 「請你先記錄一下，並看看是否更新 CLAUDE.md」\n>\n> *\"Please document this first, then see whether CLAUDE.md should be updated.\"*\n\n語感說明：\n- 「記錄」在「寫入專案文件」的情境用 **document** 比 **record** 更道地（record 偏向「記下數據/錄音」，document 強調「寫成文件供日後參考」）。\n- 「看看是否…」用 **see whether / check whether** 都可以；口語也常說 **see if**，例如 *\"see if CLAUDE.md needs updating\"*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "55ad117eb95e",
+      "date": "20260624",
+      "front": "\"Please analyze whether the multi-dimensional system currently uses any AI-related content.\"",
+      "body": "這則你用中文下指令，提供自然英文說法：\n\n> 「請你分析看看目前在『多維度』系統內是否有使用到 AI 相關的內容」\n>\n> *\"Please analyze whether the multi-dimensional system currently uses any AI-related content.\"*\n\n語感說明：\n- 「分析看看」的「看看」帶有「試著、探查一下」的語氣，英文用 **Please analyze whether…** 或 **Take a look at whether…** 都自然；想更口語可用 *\"Can you check whether…\"*。\n- 「有使用到」用 **uses / makes use of** 即可；若想強調「是否整合了 AI」可用 **incorporates any AI** 或 **involves any AI**，語感更技術化。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "53e5b034aa8e",
+      "date": "20260624",
+      "front": "\"These two components also handle the query-result display — please take a look and analyze them.\"",
+      "body": "這則你用中文加上 `@檔案路徑` 提問，英文自然說法：\n\n> 「這兩隻也是在顯示查詢結果的作業，請你分析看看」\n>\n> *\"These two components also handle the query-result display — please take a look and analyze them.\"*\n\n語感說明：\n- 你口語用的「這兩隻」是台灣工程師對「元件/程式」很道地的說法；對應英文中性說法是 **these two components / these two files**，英文沒有對應的「隻」這種量詞俏皮感。\n- 「作業」在這裡指「負責處理某項工作」，英文用動詞 **handle / are responsible for** 最自然，例如 *\"both handle result display\"*；不建議直譯成 **operation/job**，語意會偏向「批次任務」。\n- 「分析看看」前面教過：**analyze** 已含審視意味，口語想加緩和語氣可用 *\"take a look at and analyze\"*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4e4bf44874a5",
+      "date": "20260624",
+      "front": "這一輪你沒有輸入新的英文句子（是系統的任務完成通知），所以沒有可分析的內容。提供一個本情境常用句给你擴充詞彙：",
+      "body": "這一輪你沒有輸入新的英文句子（是系統的任務完成通知），所以沒有可分析的內容。提供一個本情境常用句给你擴充詞彙：\n\n> I'm still waiting on the backend exploration before I can scope out the full plan.\n\n「scope out」=「界定範圍、評估規模」，在規劃工作量時非常道地；「waiting on」比「waiting for」更口語，常用於「等某個東西的結果」。",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "25c15fd4c5fb",
+      "date": "20260624",
+      "front": "\"bulk actions\"",
+      "body": "你這次的回覆：「沒錯! 我的痛點就是「名單太長、要批次/搜尋簽到」」\n\n自然的英文說法：\n> Exactly! My pain point is that the roster gets too long, and I need batch and search check-in.\n\n**用字 nuance 說明（zh-tw）：**\n- 「沒錯!」用 **Exactly!** 或 **That's it!** 最傳神，比 **Yes** 更能表達「你完全說中了」的認同感。\n- 「名單」在簽到/活動報名語境下，英文常用 **roster**（名冊）或 **attendee list**；你之前的程式碼註解也是用「名單」對應 roster，很一致。\n- 「批次簽到」= **batch check-in** 或 **bulk check-in**（bulk 在 UI 操作情境更常見，例如 \"bulk actions\"）。\n\n我先等探查結果回來，再繼續。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "20fc93cf647e",
+      "date": "20260624",
+      "front": "\"Could you list out the AI features you previously assessed as feasible again? I'd like them for reference.\"",
+      "body": "這則你用中文表達，提供自然英文說法：\n\n> 「請把先前評估可導入 AI 的相關功能再列出來，我需要參考。」\n>\n> *\"Could you list out the AI features you previously assessed as feasible again? I'd like them for reference.\"*\n\n語感說明：\n- 「列出來」用 **list out** 或 **lay out** 都自然；想更正式可用 **provide a list of**。\n- 「我需要參考」直譯 *\"I need it for reference\"* 沒問題，但語氣較硬；用 **I'd like them for reference** 或 **for my reference** 更圓融禮貌。\n- 「先前評估可導入的」可用 **previously assessed as feasible (to introduce)**；**feasible** 正好呼應你這份文件的「可行性」主題，用詞一致。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "197878f15426",
+      "date": "20260624",
+      "front": "\"The panel is too narrow, so the column names get truncated.\"",
+      "body": "本回合你以中文與選項作答，無英文句子可批改。提供實用表達：\n\n| 中文意圖 | 自然英文 |\n|---------|---------|\n| 這個面板太窄，欄位名被截斷 | \"The panel is too narrow, so the column names get truncated.\" |\n| 把重複的拖拉區關掉 | \"Hide the redundant drag zones.\" |\n| 操作分工更清楚 | \"It makes the division of operations clearer.\" |\n\n小提醒：「截斷」(文字顯示不全) 的標準英文是 **truncated**；UI 情境很常用，例如 \"the text is truncated with an ellipsis（用刪節號截斷）\"。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "fec281293342",
       "date": "20260623",
       "front": "\"Manage Activities\"",
