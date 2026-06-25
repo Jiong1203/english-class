@@ -10,6 +10,15 @@
       ]
     },
     {
+      "id": "fba7a4845da4",
+      "date": "20260625",
+      "front": "\"What's the scope of this change?\"",
+      "body": "你這次的提問「請問這次的改動是只針對活動簽到的 LIFF 頁嗎？還是已經是針對所有 LIFF 頁了呢？」用中文表達，這裡示範自然的英文說法：\n\n> \"Does this change apply only to the check-in LIFF page, or to all LIFF pages?\"\n\n用詞提醒：\n- 「針對／適用於」用 **apply to** 最自然，例如 \"Does this fix apply to all pages?\"\n- 也可以用 **cover**：「這次改動涵蓋所有頁面嗎？」→ \"Does this change cover all LIFF pages?\"\n- 詢問影響範圍時，工程師常直接問 **\"What's the scope of this change?\"**（這次改動的範圍是什麼？），很精簡實用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "faf98bbcfb5f",
       "date": "20260625",
       "front": "你這則提問清楚精準。補充本次「區分擁有者」情境的實用英文：",
@@ -82,6 +91,25 @@
       ]
     },
     {
+      "id": "dfd2da7fd7cd",
+      "date": "20260625",
+      "front": "\"Of course!\"",
+      "body": "\"of course yes!\" 是很自然、帶點熱情的口語回覆，文法完全正確 👍\n\n小提醒一個語感差異：\n- **\"Of course!\"** 本身就帶有「那還用說、理所當然」的意味，後面再加 \"yes\" 稍微重複，但在口語中完全 OK、反而顯得有活力。\n- 若想更精簡，單講 **\"Of course!\"** 或 **\"Yes, please!\"** 也很道地。\n- 在正式書面（如回覆同事的 PR 詢問）可用 **\"Yes, please go ahead.\"** 語氣更穩重。",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "df9baeffec08",
+      "date": "20260625",
+      "front": "\"I think we should unify check-in to go through the front-end page only — it'd make the flow smoother.\"",
+      "body": "這次你用中文輸入（「應該統一由前端頁面來簽到我認為會比較好，操作會比較流暢」），提供自然的英文說法：\n\n> \"I think we should unify check-in to go through the front-end page only — it'd make the flow smoother.\"\n\n幾個用詞點：\n- 「統一由前端」用 **unify ... to / consolidate ... into** 最貼切，例如 \"consolidate check-in into the web page\"。\n- 「操作會比較流暢」→ **the flow/UX would be smoother**；smooth 比 fluent 適合描述操作流程（fluent 多用於語言能力）。\n- 「我認為」放句首 **I think / I'd say** 比放句中更自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "df8fb3b27410",
       "date": "20260625",
       "front": "你說的「小按鈕」很口語可愛，英文對應 **a small button** 就好；若想表達「不顯眼的輔助按鈕」可用 **a subtle helper button**。",
@@ -95,6 +123,33 @@
       "date": "20260625",
       "front": "\"A routes to the wrong place; it should go to B.\"",
       "body": "這則需求你用中文描述，沒有英文句子需要糾正。針對「修 bug」這個情境補幾個道地說法：\n\n- 「A 導向錯誤，應該導到 B」最自然的講法是 **\"A routes to the wrong place; it should go to B.\"** 或更口語的 **\"A is pointing to the wrong page.\"**\n- 描述「根因」用 **root cause**：例如 *\"The root cause was substring matching — `'Topic'` accidentally matched `TopicViewLog`.\"*\n- 「順帶修掉潛在問題」可說 **\"This also fixes two latent bugs that would have caused the same misrouting.\"**（`latent bug` = 潛伏但尚未被發現的 bug，很貼切這次情況。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dc9803697e83",
+      "date": "20260625",
+      "front": "\"Sorry, I sent that twice — please ignore the duplicate.\"",
+      "body": "你這次送出的句子和上一則完全相同，文法一樣正確，這裡就不重複批改了。\n\n不過補充一個情境小技巧：如果你發現訊息**重複送出**、想請對方忽略前一則，英文可以說：\n\n> \"Sorry, I sent that twice — please ignore the duplicate.\"\n\n其中 **duplicate**（重複的東西）和 **ignore**（忽略）是這種情境的關鍵字，很實用。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "dc70736dc093",
+      "date": "20260625",
+      "front": "\"Yes, please fix it properly / for good.\"",
+      "body": "你這次「好幫我根治吧」很口語自然。對應的英文，依語氣有幾種：\n\n> \"Yes, please fix it properly / for good.\"\n\n用詞提醒：\n- 「根治」= **fix it properly**、**fix it for good**、或 **a proper/permanent fix**（相對於 **a quick workaround** 暫時繞過）。\n- 工程語境也常說 **address the root cause**（處理根本原因），例如 \"Let's address the root cause instead of patching it.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d42b9125f194",
+      "date": "20260625",
+      "front": "\"Help me confirm how the activity check-in process currently works.\"",
+      "body": "這次你的訊息是用中文輸入的（「幫我確認一下現在活動人員簽到是如何操作的」），這裡提供自然的英文說法：\n\n> \"Help me confirm how the activity check-in process currently works.\"\n\n或更口語、精簡的版本：\n\n> \"Can you walk me through how check-in currently works?\"\n\n小提醒：「簽到」在這個情境用 **check-in**（名詞）/ **check in**（動詞，分開寫）最自然；「點名」可用 **roll call** 或 **mark attendance**。「walk me through ~」是很實用的片語，表示「帶我逐步了解某流程」，比 explain 更生動。",
       "tags": [
         "note"
       ]
@@ -166,12 +221,39 @@
       ]
     },
     {
+      "id": "8f4ced99b7a1",
+      "date": "20260625",
+      "front": "\"I'm getting a `Could not validate credentials` error when...\"",
+      "body": "這次你的提問「為什麼開啟簽到頁面時會出現這個?」用中文輸入，提供自然的英文說法：\n\n> \"Why does this error show up when I open the check-in page?\"\n\n用詞小提醒：\n- 「出現（錯誤/畫面）」用 **show up** 或 **appear** 最自然，例如 \"this error shows up / appears\"。口語裡 **pop up** 也很常見（指突然跳出來）。\n- 描述這類問題時，工程師常用 **\"I'm getting a `Could not validate credentials` error when...\"**，用 **get an error** 這個搭配比 \"an error appears\" 更道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "881a945ad44a",
       "date": "20260625",
       "front": "\"This bug stems from the same keep-alive caching issue.\"",
       "body": "你這則用中文回報，沒有英文句子要修正。補充這次情境的實用講法：\n\n- 「無法順利預選」：**the preselection doesn't take effect** 或 **fails to preselect**。`take effect`（生效）很適合描述「設定了但沒作用」。\n- 「同源於同一個根因」：**stems from the same root cause**，例如 *\"This bug stems from the same keep-alive caching issue.\"* `stem from`（源自）是道地的因果用語。\n- 「重入 / 重新進入」這個 keep-alive 概念，英文常說 **re-enter / on re-entry**，例如 *\"On re-entry, onMounted doesn't run again, so the preselection is skipped.\"*",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "7f3f8c71220f",
+      "date": "20260625",
+      "front": "\"The change looks good to me — no blocking issues.\"",
+      "body": "這次你是用 slash command（`/review`）觸發，沒有自由輸入英文句子，所以沒有可批改的內容。\n\n順帶補充一個 code review 情境的實用說法：當你想表達「這個改動沒問題、可以合併」，自然的英文是：\n\n> \"The change looks good to me — no blocking issues.\" （\"LGTM\" 是工程師常用縮寫，= Looks Good To Me）\n\n而「這只是小瑕疵，不擋合併」可說：\n\n> \"This is just a nit, not a blocker.\" （**nit** = 雞毛蒜皮的小問題，code review 高頻字）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "74e8d1a53188",
+      "date": "20260625",
+      "front": "\"Go ahead and + 動詞\"",
+      "body": "這次你輸入的是 \"please commit\" —— 簡短、正確、很自然的指令式英文，沒有需要修正的地方 👍\n\n補充一個小擴充：在 git 情境中，如果想更精確表達「把這些改動提交上去」，也可以說：\n\n> \"Please commit these changes.\" 或 \"Go ahead and commit.\"\n\n其中 **\"Go ahead and + 動詞\"** 是很道地的口語，表示「你就放手去做某事吧」，比單純 \"please commit\" 多了一點「授權、放行」的語氣，在指示他人或工具執行動作時很常用。",
+      "tags": [
+        "praise"
       ]
     },
     {
@@ -212,6 +294,15 @@
       ]
     },
     {
+      "id": "645aae7f0480",
+      "date": "20260625",
+      "front": "\"the only way to recover is...\"",
+      "body": "你這次用中文詳細描述了重現步驟，這裡示範如何用自然的英文回報這種 bug（工程師常見寫法）：\n\n> \"After the page sits idle for a while, reopening the check-in page throws a 401 `Could not validate credentials`. The only way to recover is to open DevTools, clear site data, and refresh.\"\n\n幾個實用搭配：\n- 「待機／閒置一陣子」→ **sit idle for a while** 或 **after being idle for a while**。\n- 「重現步驟」這個詞本身 = **steps to reproduce**（bug report 標準用語）。\n- 「自救／恢復正常」→ **recover**，例如 \"the only way to recover is...\"。\n- 「跳出登入機制」→ **prompts a login** 或 **a login screen pops up**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "61d160b0527b",
       "date": "20260625",
       "front": "\"Shall I go ahead and start?\"",
@@ -245,6 +336,15 @@
       "body": "你這次：「Item 2 如果按照你的建議做的話具體的影響有甚麼?」\n\n自然的英文說法：\n> If we go with your recommendation for Item 2, what would the concrete impact be?\n\n**用字 nuance 說明（zh-tw）：**\n- 「按照你的建議做」用 **go with your recommendation** 或 **follow your suggestion** 最自然；go with 帶「就採用這個方案」的決定語氣。\n- 「具體的影響」= **concrete impact** 或 **the actual impact**；concrete 在此強調「不要空泛、給我實際後果」，用得很到位。\n- 「唄」「囉」這類語尾助詞英文沒有對應，靠語氣詞如 **just**、**then** 或驚嘆號傳達輕鬆感，例如前一句 \"Item 4 就直接做了唄\" → *\"Let's just go ahead with Item 4.\"*",
       "tags": [
         "nuance"
+      ]
+    },
+    {
+      "id": "416b7fb0f47e",
+      "date": "20260625",
+      "front": "\"Approved, go ahead.\"",
+      "body": "這次你只回了「approved」這個指令，簡潔且完全正確——在 code review / 計畫核准情境，\"approved\" 是最標準的回覆，無需修改 👍\n\n補充幾個同義的道地說法，讓你回覆時更有變化：\n- **\"Approved, go ahead.\"**（核准，動手吧）\n- **\"LGTM, proceed.\"**（看起來沒問題，繼續）\n- **\"Sounds good, ship it.\"**（\"ship it\" 是工程師很常用的「上吧／發布吧」口語）",
+      "tags": [
+        "praise"
       ]
     },
     {
