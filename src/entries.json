@@ -1,6 +1,353 @@
 {
   "entries": [
     {
+      "id": "fc916286ebad",
+      "date": "20260625",
+      "front": "\"I'll fix that while I'm in there.\"",
+      "body": "你這次：「請把 5 個真錯誤順手修復掉」\n\n自然的英文說法：\n> Please go ahead and fix those 5 real errors while you're at it.\n\n**用字 nuance 說明（zh-tw）：**\n- 「順手」這個語感很道地，英文對應是 **while you're at it**（既然你正在處理、順帶做了）或 **as well**。\n- 「修復掉」的「掉」表完成語氣，英文用 **fix ... up** 或單純 **fix** 即可；**go ahead and fix** 帶「就動手吧」的允許/催促感。\n- 補充一個工程常用語：發現順帶要修的小問題時，常說 *\"I'll fix that while I'm in there.\"*（既然都改到這檔案了，順手修）—— in there 指「人在那個檔案/區塊裡」，很生動。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "faf98bbcfb5f",
+      "date": "20260625",
+      "front": "你這則提問清楚精準。補充本次「區分擁有者」情境的實用英文：",
+      "body": "你這則提問清楚精準。補充本次「區分擁有者」情境的實用英文：\n\n- 「區分自己的與他人分享的」：**distinguish between my own and shared-by-others**，或更簡潔 **tell apart owned vs shared** reports。`tell apart`（分辨、區分）是很道地的口語片語。\n- 「擁有者 / 建立者」：**owner / creator**；「依擁有權標示」：**label by ownership**。\n- 「不影響排序」：**without affecting the sort order** 或 **while keeping the sort order intact**。`intact`（完好不變的）很適合強調某功能維持原狀。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f477dd69c9e3",
+      "date": "20260625",
+      "front": "\"Unavailable\"",
+      "body": "你這則用反問句點出問題，很自然。補充相關英文：\n\n- 「失效 / 已不可用」：報表這種情境最貼切的是 **unavailable** 或 **broken**；資料連結失效常說 **stale** 或 **dead** (a dead link)。UI 標籤用 **\"Unavailable\"** 最清楚。\n- 「誤判」：**false positive**（把正常的誤判為失效就是一種 false positive）。你這個「清單沒載入就不標失效」的防呆，英文可說 **avoid false positives when the list fails to load**。\n- 你的反問句 \"應該要給失效之類的才對吧?\" 對應的自然英文是 **\"Shouldn't it be labeled something like 'Unavailable' instead?\"** — 用 `Shouldn't it...instead?` 表達「不是應該……才對嗎」很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "edb6085c50ec",
+      "date": "20260625",
+      "front": "你這次的訊息：「先遵照你的建議順序來先 commit 簽到功能」",
+      "body": "你這次的訊息：「先遵照你的建議順序來先 commit 簽到功能」\n\n自然的英文說法：\n> Let's follow your suggested order — commit the check-in feature first.\n\n**用字 nuance 說明（zh-tw）：**\n- 句子裡有兩個「先」，中文很自然，但直譯成英文（first... first...）會重複；英文用一個 **first** 放句尾即可。\n- 「遵照你的建議順序」用 **follow your suggested order** 最直接；也可說 **go with your proposed sequence**（go with 有「就採用」的口語決定感）。\n- commit 作為動詞在 git 語境直接用即可：**commit the feature**、**commit first**，母語工程師天天這樣講。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "ebb14d013dc7",
+      "date": "20260625",
+      "front": "\"Did we forget to bump the version?\"",
+      "body": "你這次：「想請問 VERSION 跟 CHANGELOG 你是不是都忘記要更新?」\n\n自然的英文說法：\n> Quick question — did you forget to update both VERSION and the CHANGELOG?\n\n**用字 nuance 說明（zh-tw）：**\n- 「想請問」開頭用 **Quick question —** 或 **Just wondering —** 很自然，語氣客氣不生硬。\n- 「你是不是都忘記…」用 **did you forget to…?** 直接精準；「都」（兩者皆）用 **both X and Y** 表達。\n- 小提醒：你這句英文化之後是個很好的 review 提問範本——母語工程師 review 時常這樣輕問一句確認遺漏，例如 *\"Did we forget to bump the version?\"*（我們是不是忘了 bump 版號？）。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "e48492200dd1",
+      "date": "20260625",
+      "front": "\"Let's finish scoping before implementation.\"",
+      "body": "你這幾則討論都是中文，邏輯清晰、決策明確。補充這次「規劃新功能」情境的實用英文：\n\n- 「跨前後端的功能」：**a full-stack feature** 或 **a feature spanning both frontend and backend**。`span`（橫跨）很適合描述跨層/跨模組。\n- 「動工前先對齊」：**align before we start building** / **get on the same page first**。`get on the same page`（取得共識）是職場很常用的片語。\n- 「資料模型定稿」：**finalize the data model**；「破圖 / 顯示異常」工程上常說 **broken UI** 或 **broken state**。\n- 你做的這種「先確認需求範圍再實作」的習慣，英文叫 **scoping**（界定範圍）：*\"Let's finish scoping before implementation.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e451449db83c",
+      "date": "20260625",
+      "front": "你這則指令簡潔（「請修正檢測出的項目吧!」）。補充 code review 修正情境的實用英文：",
+      "body": "你這則指令簡潔（「請修正檢測出的項目吧!」）。補充 code review 修正情境的實用英文：\n\n- 「修正審查發現的項目」：**address the review findings** 或 **fix the issues raised in the review**。`address`（處理、解決）比 `fix` 更涵蓋「回應每一項」的語氣。\n- 「降級燈號 / 標記為已解決」：**mark as resolved** / **downgrade the severity**。\n- 「接受現狀（不改）」：**accept as-is** / **leave as-is**（你這次有幾項就是 leave as-is）。\n- 「原子性 / 一次到位」：**atomicity**；你修的 #3 正是讓批次刪除更接近 **all-or-nothing 以外的優雅降級（graceful partial success）**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e3828b4cdc17",
+      "date": "20260625",
+      "front": "\"should we do it?\"",
+      "body": "你這次：「2.13 個 warnings是甚麼? 要處理嗎? 大型 pnpm format pass 是甚麼? 要處理嗎?」\n\n自然的英文說法：\n> What are the 13 warnings — should we deal with them? And what's the big `pnpm format` pass — is it worth doing?\n\n**用字 nuance 說明（zh-tw）：**\n- 「要處理嗎?」最自然是 **should we deal with them?** 或 **do we need to address these?**；address 較正式、deal with 較口語。\n- 「值得做嗎?」用 **is it worth doing?** 比直譯 \"should we do it?\" 更傳神——強調「投入產出值不值」，正好對應這種「成本高、效益低」的取捨。\n- 提問列舉多個問題時，英文習慣用 **And** 串接、每個問題獨立成句，比中文一連串問號更清楚易讀。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "e1ece51e949f",
+      "date": "20260625",
+      "front": "你這次的提問：「開發中發現的4個既有問題會建議要處理? 測試的部分是不是如果是過期的或是錯誤的話就應該要清理掉呢?」",
+      "body": "你這次的提問：「開發中發現的4個既有問題會建議要處理? 測試的部分是不是如果是過期的或是錯誤的話就應該要清理掉呢?」\n\n英文可以這樣說：\n> Would you recommend addressing the 4 pre-existing issues? And for the tests — if they're outdated or broken, shouldn't we just clean them up?\n\n**用字 nuance 說明（zh-tw）：**\n- 「處理問題」用 **address** 比 **handle / deal with** 更專業精準，特別指「正視並著手解決」。\n- 「過期的」測試在工程語境用 **outdated** 或 **stale**（stale 更道地，常用來形容沒跟上程式碼的測試/快取/分支）。\n- 「清理掉」用 **clean up** 沒問題；但若是「刪除」測試，更精確是 **remove / delete**。我上面特別區分了「clean up（整理）」與「delete（刪除）」——因為母語工程師會強調：red test 是 *investigate first*, not *delete first*（先查、別急著刪）。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "df8fb3b27410",
+      "date": "20260625",
+      "front": "你說的「小按鈕」很口語可愛，英文對應 **a small button** 就好；若想表達「不顯眼的輔助按鈕」可用 **a subtle helper button**。",
+      "body": "你這則指令簡短明確（\"好的加上…的小按鈕\"）。補充相關英文：\n\n- 「批次清除 / 批次刪除」：**bulk delete** 或 **batch remove**；「一鍵清除」**clear … in one click** / **one-click cleanup**。\n- 「當且僅當」這種條件，工程上常說 **only when** 或正式一點的 **if and only if**：*\"The button shows only when there are stale pins.\"*\n- 「自動消失 / 自動隱藏」：**automatically hides** / **disappears on its own**。\n- 你說的「小按鈕」很口語可愛，英文對應 **a small button** 就好；若想表達「不顯眼的輔助按鈕」可用 **a subtle helper button**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "de3d3dd2eace",
+      "date": "20260625",
+      "front": "\"A routes to the wrong place; it should go to B.\"",
+      "body": "這則需求你用中文描述，沒有英文句子需要糾正。針對「修 bug」這個情境補幾個道地說法：\n\n- 「A 導向錯誤，應該導到 B」最自然的講法是 **\"A routes to the wrong place; it should go to B.\"** 或更口語的 **\"A is pointing to the wrong page.\"**\n- 描述「根因」用 **root cause**：例如 *\"The root cause was substring matching — `'Topic'` accidentally matched `TopicViewLog`.\"*\n- 「順帶修掉潛在問題」可說 **\"This also fixes two latent bugs that would have caused the same misrouting.\"**（`latent bug` = 潛伏但尚未被發現的 bug，很貼切這次情況。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cc4da8ac27ad",
+      "date": "20260625",
+      "front": "\"please start to develop\"",
+      "body": "你這次的訊息「對齊完成, please start to develop!」很自然！\n\n\"please start to develop\" 母語者更常說：\n> Alignment done — please **go ahead and start the implementation**.\n\n**用字 nuance 說明（zh-tw）：**\n- 「對齊完成」用 **Alignment done** 或 **We're aligned** 都很道地，後者更口語。\n- 「start to develop」文法正確，但 **start developing**（動名詞）或 **start the implementation** 更順；工程語境裡 **implementation/implement** 比泛稱的 develop 更精確指「把設計寫成程式」。\n- 小提醒：句首 **please** 後面建議補一個明確動作（go ahead / kick off），語氣會更完整自然。",
+      "tags": [
+        "grammar",
+        "nuance"
+      ]
+    },
+    {
+      "id": "cb51b5ac93f8",
+      "date": "20260625",
+      "front": "\"It doesn't look like a button\"",
+      "body": "你這則 UI 回饋描述得很清楚（「只是一段文字，沒有按鈕的感覺」）。補充相關英文：\n\n- 「看起來不像可以點」：**it doesn't look clickable** / **it lacks affordance**。`affordance`（可操作暗示）是 UI/UX 專業術語，指「物件外觀讓人知道能怎麼操作」——你這個情境正是「按鈕缺乏 affordance」。\n- 「純文字連結 vs 實心/外框按鈕」：**a plain text link** vs **an outlined / solid button**。\n- 「視覺回饋」：**visual feedback**（hover 變色就是一種 visual feedback）。\n- 你想表達的「沒有按鈕的感覺」最道地的說法就是 **\"It doesn't look like a button\"** 或 **\"There's no visual cue that it's clickable.\"**（`visual cue` = 視覺提示）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c76fc2c6c9f1",
+      "date": "20260625",
+      "front": "\"Pass with minor suggestions.\"",
+      "body": "你這次用 `/review` 指令，無英文句子需糾正。補充 code review 情境的實用英文：\n\n- 「健壯性 / 強韌度」：**robustness**；「邊界情況」**edge case**；「並發競爭」**race condition**。\n- 「不阻擋上線」：**not a blocker** / **no blocking issues**；「可後續迭代」**can be addressed in a follow-up**。\n- 「資料與畫面不一致」：**UI/DB state mismatch** 或 **out of sync**。\n- 審查結論常用句：**\"Pass with minor suggestions.\"**（通過，有少數建議）——正是這次的情況。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bdda03836b1b",
+      "date": "20260625",
+      "front": "\"Are '最近瀏覽' and '我的常用報表' personalized services? Will they show different content depending on the logged-in account?\"",
+      "body": "你的提問很清楚、文法完全正確。這裡幫你把這兩個問題譯成自然的英文，方便日後在規格討論或跟同事溝通時使用：\n\n> \"Are '最近瀏覽' and '我的常用報表' personalized services? Will they show different content depending on the logged-in account?\"\n\n幾個用字說明（以繁中解釋）：\n- **personalized service**（個人化服務）是業界標準說法；形容詞 `personalized` 比 `personal` 更精準——`personal` 偏「私人的」，`personalized` 才是「為個別使用者量身呈現的」。\n- **depending on the logged-in account**：用 `depending on ...`（取決於……）來表達「依……不同而不同」，比直譯 `by different account` 自然許多。\n- 「登入帳號」慣用 **logged-in account** 或 **the current user**；動詞片語「登入」是 `log in`（兩個字），但當形容詞時要加連字號寫成 `logged-in`（如 `logged-in user`）。",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "aba07d09573b",
+      "date": "20260625",
+      "front": "\"comment 'Done' on the issue\"",
+      "body": "這次是中文指令（「issue也順便幫忙留言\"Done\"後關閉」），提供自然的英文說法：\n\n> \"Please also leave a 'Done' comment on the issue and then close it.\"\n\n用字提醒：\n- 「留言」在 GitLab/GitHub 情境用 **leave a comment** 或 **add a comment** 最自然；動詞 comment 也可：*\"comment 'Done' on the issue\"*。\n- 「順便」可用 **also** 或 **while you're at it**（口語，較隨意）。\n- 「留言後關閉」用 **comment and then close it**，用 then 把先後順序講清楚，跟你中文的「後」對應得很好。\n\n表達得很清楚，繼續保持！",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a94e25ed2640",
+      "date": "20260625",
+      "front": "這則你用中文交付需求。補充本次「全端功能完工」情境的實用英文：",
+      "body": "這則你用中文交付需求。補充本次「全端功能完工」情境的實用英文：\n\n- 「端到端完成」：**implemented end-to-end** 或 **wired up end-to-end**。`wire up`（把各部分接起來）很適合描述前後端串接完成。\n- 「需重啟服務讓變更生效」：**restart the service for the changes to take effect**。\n- 「先查再插（防重複）」：**check-then-insert to prevent duplicates**；資料庫層的「唯一鍵」是 **unique constraint**，程式層的等效防呆可說 **application-level dedup**。\n- 「資料流」：**data flow**；描述一條龍流程可用 **the full round-trip**（從前端送出到後端再回到前端的完整往返）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a704b3753da4",
+      "date": "20260625",
+      "front": "\"How is '我的常用報表' currently populated?\"",
+      "body": "你的提問簡潔精準，文法完全正確。幫你把它譯成自然的英文：\n\n> \"So what's the current rule for listing '我的常用報表'?\"\n\n幾個用字說明（以繁中解釋）：\n- **rule for listing ...**：「列出……的規則」用 `rule for + 動名詞(listing)`，比 `rule of list` 正確自然。\n- 口語上你也可以說 **\"How is '我的常用報表' currently populated?\"**——`populate`（填入資料）在前端語境很常用，指「這個清單是怎麼被填出來的」。\n- 補一個你接下來可能會用到的詞：「使用頻率」= **usage frequency**；「依使用頻率排序」= **sort by usage frequency**。",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "881a945ad44a",
+      "date": "20260625",
+      "front": "\"This bug stems from the same keep-alive caching issue.\"",
+      "body": "你這則用中文回報，沒有英文句子要修正。補充這次情境的實用講法：\n\n- 「無法順利預選」：**the preselection doesn't take effect** 或 **fails to preselect**。`take effect`（生效）很適合描述「設定了但沒作用」。\n- 「同源於同一個根因」：**stems from the same root cause**，例如 *\"This bug stems from the same keep-alive caching issue.\"* `stem from`（源自）是道地的因果用語。\n- 「重入 / 重新進入」這個 keep-alive 概念，英文常說 **re-enter / on re-entry**，例如 *\"On re-entry, onMounted doesn't run again, so the preselection is skipped.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "74a76b414e74",
+      "date": "20260625",
+      "front": "\"I'd like to redesign the home page so users can jump straight into each feature by clicking cards, while keeping the left-side menu as well.\"",
+      "body": "這次你的需求是用中文描述的，我幫你提供一個自然的英文說法，方便日後跟國際團隊溝通：\n\n> \"I'd like to redesign the home page so users can jump straight into each feature by clicking cards, while keeping the left-side menu as well.\"\n\n幾個用字說明（以繁中解釋）：\n- **jump straight into** —「直接進入」，比 \"go to\" 更口語、更強調「省去中間步驟」的感覺，正好對應你說的「直接點擊後導向」。\n- **while keeping ...** — 用 `while + 動名詞` 來表達「同時保留……」，是描述「需求 A 但也要兼顾 B」時很順的句型。\n- **cards**（卡片）在 UI/UX 語境是固定說法，指首頁那種一塊一塊可點的區塊。\n\n小提醒：描述「導向某個作業」時，英文常用 **navigate to** 或 **direct users to**，例如 \"clicking a card navigates the user to the corresponding operation.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "716a12e8cf5c",
+      "date": "20260625",
+      "front": "你這次：「你說得很完整，那就按照你說的來做吧!」",
+      "body": "你這次：「你說得很完整，那就按照你說的來做吧!」\n\n自然的英文說法：\n> That's a thorough explanation — let's go ahead and do it the way you described.\n\n**用字 nuance 說明（zh-tw）：**\n- 「你說得很完整」用 **That's thorough** 或 **That's a complete picture** 很道地；thorough（徹底、周全）特別適合稱讚解釋詳盡。\n- 「按照你說的來做」= **do it the way you described** 或更簡潔的 **let's go with your approach**。\n- 小提醒：口語裡稱讚對方說明後要接「動手做」，常用 **Sounds good — let's do it.** 這種短句，乾脆自然。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "70b8d5eb34d2",
+      "date": "20260625",
+      "front": "\"all checks passed\"",
+      "body": "你這次：「先 B 然後跑一次 code review 再 C」——前面已分析過，這裡看你整體的指揮節奏。\n\n一個道地的收尾說法（你之後想表達「全部搞定、收工」時可用）：\n> Everything's merged into dev and all checks are green — we're good to wrap up.\n\n**用字 nuance 說明（zh-tw）：**\n- 「收工/收尾」= **wrap up**（結束一段工作），口語又專業。\n- 「全部通過檢查」= **all checks are green**（綠燈），CI/測試語境的標準說法，比 \"all checks passed\" 更生動。\n- 「沒問題了/可以了」= **we're good**（一切就緒），工程團隊日常高頻用語。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "69100656b3a7",
+      "date": "20260625",
+      "front": "\"maybe I think too more, haha.\"",
+      "body": "你這次夾了一句英文：**\"maybe I think too more, haha.\"** 這句意思能懂，但文法不太自然，我們來修正一下：\n\n| ❌ 原句 | ✅ 建議說法 |\n|--------|-----------|\n| maybe I think too more | **maybe I'm overthinking it** |\n| | **maybe I'm thinking too much** |\n\n說明（以繁中解釋）：\n- `too more` 是重複比較級——`too` 和 `more` 不能疊用。「想太多」最道地的單字是動詞 **overthink**：*\"I'm overthinking it.\"*（我想太多了。）\n- 若想保留 \"think\" 結構，要用 **think too much**（不是 too more），因為 `much` 才能搭配不可數的「思考量」。\n- 進行式 `I'm overthinking` 比 `I think` 更貼切，因為你描述的是「此刻正在（過度）思考這件事」的狀態。\n\n延伸一個討論情境很好用的句子：*\"This might be premature, but I want to explore it anyway.\"*（這也許言之過早，但我還是想先探討一下。）`premature`（為時過早的）很適合用來表達「我可能想得太前面」。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "61d160b0527b",
+      "date": "20260625",
+      "front": "\"Shall I go ahead and start?\"",
+      "body": "你這幾輪的決策溝通都很到位。補充這次情境的實用英文：\n\n- 「沿用現有慣例保持一致」：**follow the existing convention for consistency**。`for consistency`（為了一致性）是很常見的技術理由片語。\n- 「這會偏離現有模式」：**that would deviate from the existing pattern**。`deviate from`（偏離）很適合描述「跟既有做法不同」。\n- 「分段做、每段確認」：**build it in stages and check in after each one**。`check in`（同步確認進度）在協作語境很常用。\n- 你問「要我開始動工嗎」對應的自然英文是 **\"Shall I go ahead and start?\"** 或 **\"Want me to kick this off?\"**（`kick off` = 啟動、開始進行）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "55bcd550c3fe",
+      "date": "20260625",
+      "front": "\"Please read the contents of this directory and convert them into a Claude-compatible format.\"",
+      "body": "你這次用的是中文指令（「請你讀一下這個目錄下的內容，並將她轉成 claude 可應用的模式」），這裡提供一個自然的英文說法供你參考：\n\n> \"Please read the contents of this directory and convert them into a Claude-compatible format.\"\n\n幾個小提醒：\n- 「轉成某種模式/格式」用 **convert ... into ...** 最自然；如果是指相容性，用 **Claude-compatible format**（Claude 相容格式）會比直譯的 \"Claude applicable mode\" 更道地。\n- 中文的「她」在這裡指的是「目錄內容」，英文用 **them**（複數，指 contents）即可，不需用 she/it。\n\n繼續用中文或英文下指令都可以，我會持續協助你練習！",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "518102f35b7b",
+      "date": "20260625",
+      "front": "\"Steps to reproduce: open '資料集管理', go back home, then click '主題管理' — the tab doesn't switch.\"",
+      "body": "你這則用中文描述 bug，沒有英文句子要修正。補充描述這類 bug 的道地說法：\n\n- 「快取導致狀態沒更新」：**stale state caused by caching** 或 **the cached component keeps stale state**。`stale`（過時的、不新鮮的）是描述快取舊值的標準字。\n- 「元件被重用，setup 沒重跑」：**the component instance is reused, so setup doesn't re-run**。\n- 回報重現步驟時常用 **steps to reproduce**，例如：*\"Steps to reproduce: open '資料集管理', go back home, then click '主題管理' — the tab doesn't switch.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4c855b06e805",
+      "date": "20260625",
+      "front": "\"Let's just go ahead with Item 4.\"",
+      "body": "你這次：「Item 2 如果按照你的建議做的話具體的影響有甚麼?」\n\n自然的英文說法：\n> If we go with your recommendation for Item 2, what would the concrete impact be?\n\n**用字 nuance 說明（zh-tw）：**\n- 「按照你的建議做」用 **go with your recommendation** 或 **follow your suggestion** 最自然；go with 帶「就採用這個方案」的決定語氣。\n- 「具體的影響」= **concrete impact** 或 **the actual impact**；concrete 在此強調「不要空泛、給我實際後果」，用得很到位。\n- 「唄」「囉」這類語尾助詞英文沒有對應，靠語氣詞如 **just**、**then** 或驚嘆號傳達輕鬆感，例如前一句 \"Item 4 就直接做了唄\" → *\"Let's just go ahead with Item 4.\"*",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "3e0df2feee7d",
+      "date": "20260625",
+      "front": "\"Shouldn't we...?\"",
+      "body": "你這則用中文提問，文法與表達都很清楚，沒有需要修正的地方。幫你把核心問題譯成自然的英文，方便日後在需求/設計討論時使用：\n\n> \"Shouldn't '我的常用報表' exclude reports that have never been opened? Maybe replace them with a symbol or something instead?\"\n\n幾個用字說明（以繁中解釋）：\n- **exclude ... that have never been opened**：「排除從未被開啟的」用 `exclude` + 關係子句 `that have never been opened`（現在完成式表「至今從未」）最精準。\n- 「用符號代替」= **replace them with a symbol**；口語想說「用個什麼東西代替」可講 **replace them with a placeholder**（`placeholder` = 佔位用的替代物，很適合這個情境）。\n- 句首用 **\"Shouldn't we...?\"**（我們是不是該……？）是提出建議時很自然的反問句型，比直接 \"We should...\" 更帶討論口吻，正好對應你「是不是應該」的語氣。",
+      "tags": [
+        "praise",
+        "grammar"
+      ]
+    },
+    {
+      "id": "32e5517d84f1",
+      "date": "20260625",
+      "front": "你這則中文指令簡潔清楚。補充相關實用英文：",
+      "body": "你這則中文指令簡潔清楚。補充相關實用英文：\n\n- 「顯示名稱 vs 技術名稱」：**display name** vs **technical / internal name**。資料庫表的對外友善名稱常稱 **display name** 或 **label**。\n- 「UUID 標準長度是 36 碼」：**a UUID is 36 characters long (including hyphens)**。標準 UUID 含 4 個連字號共 36 字元。\n- 「相容兩種 id」：**accommodate both id formats** 或 **be compatible with both**。`accommodate`（容納、相容）很適合描述「欄位設計能同時裝得下兩種值」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "312f519aa272",
+      "date": "20260625",
+      "front": "你這次：「先 B 然後跑一次 code review 再 C」",
+      "body": "你這次：「先 B 然後跑一次 code review 再 C」\n\n自然的英文說法：\n> Let's do B first, then run a code review, and finally C.\n\n**用字 nuance 說明（zh-tw）：**\n- 「先…然後…再…」這種序列，英文用 **first… then… finally…** 串接最清楚自然。\n- 「跑一次 code review」= **run a code review**；run 用在執行檢查/流程/測試非常道地（run the tests、run a check）。\n- 小提醒：表達「最後一步」用 **finally** 或 **lastly**；口語也常說 **and then C to wrap up**（收尾）。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "26b26a0e65a2",
+      "date": "20260625",
+      "front": "你這次：「那如果說是前端目錄內的CLAUDE.md呢?」",
+      "body": "你這次：「那如果說是前端目錄內的CLAUDE.md呢?」\n\n自然的英文說法：\n> What about the CLAUDE.md inside the frontend directory, then?\n\n**用字 nuance 說明（zh-tw）：**\n- 「那如果說是…呢?」這種「換個對象再問一次」的句型，英文用 **What about X?** 最自然、最精簡。\n- 句尾的「呢」對應英文放句尾的 **then**（What about ..., then?），帶「那這個情況下又如何」的延伸語氣。\n- 若想更完整：**How about the frontend's own CLAUDE.md — does it have the same issue?**（直接把潛台詞「是不是也有同樣問題」講出來），溝通更清楚。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "22e91f483a4a",
+      "date": "20260625",
+      "front": "\"The GitLab issue needs to be closed too.\"",
+      "body": "這次你寫的是中文（「gitlab 的 issue 也要關閉」），提供自然的英文說法：\n\n> \"The GitLab issue needs to be closed too.\"\n\n或更口語、帶請求語氣的版本：\n\n> \"Please close the GitLab issue as well.\"\n\n用字提醒：\n- 「也要」在句尾用 **too** 或 **as well** 都很自然；as well 稍微正式一點。\n- 「關閉 issue」就是 **close the issue**（GitLab/GitHub 的標準動詞用 close，對應重開是 reopen）。\n- 小提醒：英文句首的品牌名習慣大寫為 **GitLab**（駝峰式），就像 GitHub 一樣。\n\n持續加油！需要練習時隨時可改用英文下指令。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1b1d38ff3bc5",
+      "date": "20260625",
+      "front": "\"The home page resolves each operation's route dynamically from the permission store, so we don't hard-code any paths.\"",
+      "body": "這則訊息你主要用中文溝通，沒有需要糾正的英文句子。我補充一個與這次任務高度相關的實用講法，方便你日後在 PR 或跟同事討論時使用：\n\n- 「動態解析路徑（不寫死）」的英文常說 **resolve the path dynamically** 或 **avoid hard-coding the path**。\n  > \"The home page resolves each operation's route dynamically from the permission store, so we don't hard-code any paths.\"\n- 「死連結」（點了沒反應）= **dead link / broken link**；「優雅降級」（找不到就隱藏）= **gracefully degrade / fail gracefully**。\n- 小技巧：描述「沿用既有做法」可用 **mirror the existing approach** 或 **reuse the same pattern as ...**，例如 \"MyTopicViewer now mirrors TopicViewer's query-preselect logic.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1aef2eadd6af",
+      "date": "20260625",
+      "front": "\"Split the '資料集主題' card into two separate cards.\"",
+      "body": "這則你用中文下指令，沒有英文句子需要修正。補充這次情境的實用講法：\n\n- 「把一張卡拆成兩張」最自然是 **split ... into two cards**：*\"Split the '資料集主題' card into two separate cards.\"*\n- 「導向到對應分頁」可說 **open the corresponding tab** 或 **land on the right tab**：*\"Clicking '主題管理' opens the Topic page on the correct tab.\"*\n- 補一個你可能會用到的技術詞：**deep link**（深連結）指「直接連到 App 內某個特定狀態/分頁」，例如 *\"These cards deep-link into a specific tab via a query parameter.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "156e7e113a44",
+      "date": "20260625",
+      "front": "\"…, right?\"",
+      "body": "你這則用反問確認（「應該可以推上 git 了沒錯吧?」）。補充 git 協作情境的實用英文：\n\n- 「推上分支 / 開 MR」：**push the branch and open a merge request (MR)**（GitLab 用 MR；GitHub 用 PR = pull request）。\n- 「排除某檔不進版控」：**exclude the file from version control** / **keep it out of the commit**。\n- 「不動主分支」：**without touching master/main** / **leave the default branch untouched**。\n- 你的確認句型「…沒錯吧?」對應自然英文是 **\"…, right?\"** 或 **\"I should be good to push these, right?\"**（`be good to <do>` = 可以放心去做某事）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "14f4d1ee7c7a",
+      "date": "20260625",
+      "front": "\"The backend will guard against duplicate pins even without a unique constraint.\"",
+      "body": "你這則用中文下指令，清楚明確。補充這次「給資料表結構」情境的實用英文：\n\n- 「資料表結構 / 綱要」：**table schema** 或 **table structure**；「欄位」是 **column**（DB 語境）或 **field**（表單/設計語境）。\n- 「主鍵」**primary key (PK)**；「唯一鍵 / 唯一約束」**unique constraint**；「外鍵」**foreign key**；「索引」**index**。\n- 「冗餘儲存（為了免 join）」：**store redundantly (denormalized) to avoid a join**。`denormalize`（反正規化）是資料庫設計的標準術語，正好描述你這個 `target_name` 欄位的用意。\n- 「程式層兜底 / 防呆」：**handle it at the application layer** / **guard against it in code**，例如 *\"The backend will guard against duplicate pins even without a unique constraint.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "14f25a6a1edc",
+      "date": "20260625",
+      "front": "你這次：「我已經手動push了，所以你可以merge進dev囉! 然後也可以接著做下一步」",
+      "body": "你這次：「我已經手動push了，所以你可以merge進dev囉! 然後也可以接著做下一步」\n\n自然的英文說法：\n> I've already pushed manually, so you can go ahead and merge into dev! Then feel free to move on to the next step.\n\n**用字 nuance 說明（zh-tw）：**\n- 「你可以merge進dev囉」的「囉」帶輕鬆許可語氣，英文用 **go ahead and merge** 或 **feel free to merge** 最貼切。\n- 「接著做下一步」= **move on to the next step** 或 **proceed with the next step**；move on 更口語自然。\n- 小提醒：merge 的介系詞固定是 **merge into**（不是 merge to）；「合併到 dev」= *merge into dev*。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "07785df01f1b",
+      "date": "20260625",
+      "front": "\"The 'AG Grid: Side Bar layout optimization' task is now done. Could you help me update it?\"",
+      "body": "這次你同樣使用中文（「那目前...這項已完成，你可以協助調整嗎?」）。提供一個自然的英文說法：\n\n> \"The 'AG Grid: Side Bar layout optimization' task is now done. Could you help me update it?\"\n\n幾個用字提醒：\n- 「協助調整」在這個情境其實是「更新狀態」，英文用 **update it** 比直譯的 \"adjust it\" 更精準；adjust 偏向「微調數值/設定」。\n- 「這項已完成」可說 **this task is done / completed**；口語常用 done，正式文件用 completed。\n- 「你可以協助嗎」最自然的禮貌句型是 **Could you help me ...?**\n\n繼續保持，有需要練習英文表達隨時可以切換成英文下指令！",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e9cd3af13de1",
       "date": "20260624",
       "front": "\"Please consolidate these into a Markdown or HTML file for future reference, so it's handy for future innovation and development.\"",
