@@ -1,6 +1,60 @@
 {
   "entries": [
     {
+      "id": "e5e1642c0f8f",
+      "date": "20260627",
+      "front": "\"I reviewed your code and found two issues you should **revise**.\"",
+      "body": "這次你輸入的是 slash 指令 `/review`，沒有自由書寫的英文句子，所以沒有可批改的內容。\n\n借這個指令名稱補充一個實用區別：\n- **review**（動詞/名詞）— 「審查、檢視」，用於 code review、PR review，語氣中性專業。\n- 容易混淆的 **revise** — 指「修訂、修改（已寫好的東西）」。例如 \"I reviewed your code and found two issues you should **revise**.\"（我審查了你的程式碼，發現兩處你該修改的地方。）\n\n一句可直接拿來用的指令英文：\n> \"Please review my local changes before I commit.\"（commit 前先幫我審查本地變更。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "90f58b9ee5b2",
+      "date": "20260627",
+      "front": "\"Should I also...?\"",
+      "body": "你這次的輸入「@CHANGELOG.md & @VERSION.md 需要更新?」是中英混用的提問，這裡提供自然的英文說法：\n\n> \"Do CHANGELOG.md and VERSION.md need to be updated?\"\n> 或更口語：「Should I also update the changelog and version files?」\n\n兩個語感重點：\n- 用 **need to be updated**（被動）比 **need to update** 更精準——主詞是檔案（被更新的對象），不是「你」。若用主動則要說 \"Do I need to update...?\"。\n- 詢問「是否該順帶做某事」時，**\"Should I also...?\"** 是很道地的徵詢句型，比直譯的 \"Do ... need update?\" 更自然。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "76891a137b31",
+      "date": "20260627",
+      "front": "\"Merge it into `dev` and cut a new `dev-vx.x.x` branch.\"",
+      "body": "你這次輸入「merge 進 dev 並另開 dev-vx.x.x」是中英混用的指令，這裡給你完整的英文說法：\n\n> \"Merge it into `dev` and cut a new `dev-vx.x.x` branch.\"\n\n兩個道地用詞：\n- **cut a branch** — 工程界很常用「cut」表示「從某基準點開出一條新分支／發佈版本」，例如 \"cut a release branch\"。比起單純的 \"create a branch\"，cut 更有「從主線切出一條去做版本/部署」的語感。\n- **merge it into dev** — 介系詞固定用 **into**（合併「進入」某分支），不要用 \"merge to dev\"。\n\n一句完整可用的句子：\n> \"Once it's reviewed, merge it into `dev` and cut `dev-v0.0.19` for deployment.\"（審查通過後，合併進 dev 並切出 dev-v0.0.19 來部署。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2791fa3d94a6",
+      "date": "20260627",
+      "front": "你這次用中文描述 bug，這裡示範如何用英文清楚回報這個問題（回報 bug 是工程溝通很重要的技能）：",
+      "body": "你這次用中文描述 bug，這裡示範如何用英文清楚回報這個問題（回報 bug 是工程溝通很重要的技能）：\n\n> \"After the previous token fix, it does redirect to the LINE login screen, but **even after logging in**, the page still shows the same error and is unusable. The only way to make it work is to clear site data via F12 and refresh.\"\n\n幾個實用表達：\n- **it does redirect** — 用助動詞 `does` 強調「確實有跳轉」，對應你想表達的「雖然有成功跳轉」的轉折語氣。\n- **even after logging in** — 「即使登入後仍…」，`after` 接動名詞 `logging`，是描述「做了某動作後問題依舊」的標準句型。\n- **the only way to make it work is to...** — 「唯一能讓它正常運作的方法是…」，回報 workaround 時非常好用的句型。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2326d1deee94",
+      "date": "20260627",
+      "front": "\"ok commit.\"",
+      "body": "你輸入的是 **\"ok commit.\"** — 在指令情境下意思清楚、簡潔，是很自然的開發者口語。\n\n不過這是片語化的省略句。如果想講成完整、稍微正式一點的句子，可以說：\n\n> \"OK, go ahead and commit.\"（好，請進行 commit。）\n> 或 \"Looks good, let's commit it.\"（看起來沒問題，我們 commit 吧。）\n\n一個小語感重點：**commit** 在這裡當動詞用很道地；口語中工程師也常說 **\"ship it\"**（出貨/合併上去吧）表示「審查通過、可以送出了」，是團隊裡很常見的說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "45872a3100c5",
+      "date": "20260626",
+      "front": "\"Let's hide the *type* and *category* fields in the UI for now, and just store the data as `EVENT`.\"",
+      "body": "這次你沒有輸入英文句子（需求是用中文描述的），所以這裡提供你這次需求的自然英文說法，幫你累積詞彙：\n\n> \"Let's hide the *type* and *category* fields in the UI for now, and just store the data as `EVENT`.\"\n\n幾個值得記住的用法：\n- **hide ... for now** — 「先暫時隱藏…」，`for now` 精準表達「目前先這樣、之後可能會改」的語氣，比單純 `hide` 更貼近你的原意。\n- **store the data as `EVENT`** — 「以 EVENT 儲存資料」，介系詞用 **as**（表示「當作某種值/型別」），不要用 `store to` 或 `store in EVENT`。\n\n下次若用英文交辦類似任務，可以試著套用這個句型。",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
       "id": "fc916286ebad",
       "date": "20260625",
       "front": "\"I'll fix that while I'm in there.\"",
