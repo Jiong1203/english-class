@@ -19,6 +19,15 @@
       ]
     },
     {
+      "id": "dd8e2f67c898",
+      "date": "20260629",
+      "front": "\"show the remark, **if any**\"",
+      "body": "你這次的補充說明寫得很清楚，我幫你把它轉成自然的英文：\n\n| 你的中文 | 自然英文說法 | 語感說明 |\n| --- | --- | --- |\n| 補充一點：這裡顯示的名單也要顯示出備註資訊（若有備註的話） | One more thing: the roster shown here should also display the remark, if there is one. | 「補充一點」用 **One more thing** 或 **Just to add** 最自然；「若有備註的話」用 **if there is one**（避免重複 remark）很道地。 |\n\n小提醒：條件子句「若有的話」英文常用 **if any** 或 **if present**，例如 \"show the remark, **if any**\"，比完整講 \"if there is a remark\" 更精簡專業。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "c650dd2202f9",
       "date": "20260629",
       "front": "\"Go ahead and fix them.\"",
