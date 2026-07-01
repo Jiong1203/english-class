@@ -1,6 +1,204 @@
 {
   "entries": [
     {
+      "id": "e6d6d6a08888",
+      "date": "20260701",
+      "front": "\"the equivalent of X in ___\"",
+      "body": "你這句「cursor 的 IntelliJ 選單在哪裡?如何開啟?」其實藏了一個小矛盾(Cursor 和 IntelliJ 是兩個不同的軟體),但意思完全能懂。給你更精準的英文問法:\n\n> \"I'm using Cursor, not IntelliJ — where's the equivalent menu, and how do I open it?\"\n\n關鍵字 **equivalent**(對應的、相等的)在這種情境超好用:當你想問「A 工具的某功能,在 B 工具裡對應的是哪個」,就說 **\"the equivalent of X in ___\"** 或 **\"X's equivalent\"**。例如:\"What's the equivalent of IntelliJ's Rebuild in Cursor?\"(IntelliJ 的 Rebuild 在 Cursor 對應哪個?)",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9be4d25d8785",
+      "date": "20260701",
+      "front": "\"it works now\"",
+      "body": "你這句「預覽正常了,幫我 commit 並 push」簡潔明確,是很標準的工程指令句。對應的自然英文:\n\n> \"The preview works now — please commit and push.\"\n\n小提醒:\n- 「正常了」在工程語境最常說 **\"it works now\"** 或 **\"it's working now\"**;若想強調「恢復正常」可用 **\"it's back to normal\"**。\n- 下指令給工具/同事時,**commit and push** 直接當動詞用即可,不需要加受詞(大家都知道是指這次的變更),跟你中文「幫我 commit 並 push」的省略習慣一致,很地道。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "96a06de7f30b",
+      "date": "20260701",
+      "front": "\"it didn't take effect\"",
+      "body": "你這次的中文「經測試,還是沒有成功」很口語自然。給你對應的英文回報說法:\n\n> \"I tested it, but it still didn't work.\"(經測試,還是沒成功)\n>\n> 更精確一點:\"I rebuilt and tested, but the watermark still doesn't show.\"\n\n小提醒:「還是沒有成功」的「還是」= **still**,位置放在助動詞後、主要動詞前(*still didn't* / *still doesn't*),這是最自然的語序。另外描述功能沒生效,工程上常說 **\"it didn't take effect\"**(改動沒生效)——很適合你這種「改了但沒作用」的情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "89e79e5486b6",
+      "date": "20260701",
+      "front": "\"Let's push to develop first, then try out the suggested fix for the preview.\"",
+      "body": "你這次的中文「先 push 到 develop,然後再依建議的預覽修法試試看」語意清楚。對應的英文:\n\n> \"Let's push to develop first, then try out the suggested fix for the preview.\"\n\n兩個好用說法:\n- 「試試看」= **try ... out**(片語動詞,指「實際試用某方案/功能看看效果」),比單純 *try* 更口語道地。例:\"Let me try out this approach.\"\n- 「依建議的修法」= **the suggested fix / approach**,用過去分詞 *suggested* 當形容詞修飾,簡潔又自然;不用說成 \"the fix according to the suggestion\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "24cfdcf37d47",
+      "date": "20260701",
+      "front": "\"\n\n幾個實用表達（繁中說明）：\n- **「操作步驟」** 在軟體回報情境的道地講法是 **steps to reproduce**（重現步驟），比逐字翻的 \"",
+      "body": "這次你全程使用中文下達需求，我先示範這段需求的自然英文說法，供你參考：\n\n> \"I'd like to build an issue-reporting feature that lets users report problems they run into. They can write up the issue, the steps to reproduce, and attach screenshots. Once submitted, the issue is saved and can be viewed in an **Issue List** screen.\"\n\n幾個實用表達（繁中說明）：\n- **「操作步驟」** 在軟體回報情境的道地講法是 **steps to reproduce**（重現步驟），比逐字翻的 \"operation steps\" 更專業自然。\n- **「問題回報功能」** 用 **issue-reporting feature** 或 **bug-reporting feature**；口語上工程師也常直接說 **file/submit an issue**（提交問題）。\n- **「附上截圖」** 用 **attach screenshots**，動詞 attach 最貼切。\n\n鼓勵一下：你的需求描述邏輯非常清楚（先說目的 → 再說輸入 → 最後說結果），這種結構用英文寫也完全通用，很好！",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "23742ba9a6d2",
+      "date": "20260701",
+      "front": "\"Before we do B, should we do A first?\"",
+      "body": "你這次的中文「在確認預覽功能浮水印之前是不是應該先將下載功能浮水印的調整先上git呢?」邏輯清楚。對應的自然英文:\n\n> \"Before we look into the preview watermark, shouldn't we commit the download-watermark fix first?\"\n\n兩個好用的表達:\n- 「上 git」在英文工程情境沒有直譯,就說 **commit**(存進版控)或 **push**(推到遠端);「commit the fix first」最自然。\n- 「先做 A 再做 B」句型:**\"Before we do B, should we do A first?\"**——用 **Before ...** 開頭帶出順序考量,比直譯「in the confirming ... before」通順很多,也很符合你想表達的謹慎語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f31c10ce798f",
+      "date": "20260630",
+      "front": "\"Why aren't any results showing up? I have a document called '版本管理測試文件', so why doesn't the smart search find anything related to it?\"",
+      "body": "你這次用中文：「為什麼都查不到資料呢？…那為什麼我…卻查不到相關資料？」\n\n對應自然英文：**\"Why aren't any results showing up? I have a document called '版本管理測試文件', so why doesn't the smart search find anything related to it?\"**\n\n語感說明（繁體中文）：\n- 「查不到資料」→ **\"no results showing up\"** 或 **\"not getting any results\"**；口語很常用 *show up*（出現）。\n- 「查不到相關資料」→ **\"can't find anything related\"** / **\"isn't finding anything relevant\"**，*related / relevant*（相關的）這個字在描述搜尋結果時很關鍵。\n- 一個實用句型：**\"Why isn't X showing up in the search results?\"**（為什麼 X 沒出現在搜尋結果裡？）——回報搜尋類問題時非常好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e96e9c17540f",
+      "date": "20260630",
+      "front": "\"Oh right, I actually launch the backend from Cursor now. Could you walk me through the steps to adjust the settings?\"",
+      "body": "你這次用中文：「哦哦對啦我現在都是使用 cursor 啟動後端…那請你跟我說調整設定的步驟。」\n\n對應自然英文：**\"Oh right, I actually launch the backend from Cursor now. Could you walk me through the steps to adjust the settings?\"**\n\n語感說明（繁體中文）：\n- 「哦哦對啦」這種恍然想起的語氣，英文常用 **\"Oh right,\"** 或 **\"Oh yeah,\"** 開頭，很自然。\n- 「跟我說…的步驟」→ **\"walk me through the steps\"** 是非常道地的說法，*walk someone through* 意為「一步步帶某人完成」，比直譯 \"tell me the steps\" 更生動、更常用於請人教學。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b0904208e27b",
+      "date": "20260630",
+      "front": "\"The frontend runs on :5173, so I'm testing at /rag. But the backend still returned a 401.\"",
+      "body": "你這次用中文回報：「前端是啟 …5173… ，所以我是在 …/rag 去做測試的。結果後端還是回覆了：（401）」\n\n對應自然英文：**\"The frontend runs on :5173, so I'm testing at /rag. But the backend still returned a 401.\"**\n\n語感說明（繁體中文）：\n- 「啟」（啟動）→ 講服務在哪個 port 跑，用 **\"runs on\"** 最自然：*\"the frontend runs on port 5173\"*。\n- 「還是回覆了 401」→ **\"still returned a 401\"** 或 **\"is still throwing a 401\"**；*still*（仍然）精準傳達「改了設定但問題沒消失」的挫折感，這在回報除錯進度時很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9b121cd169f1",
+      "date": "20260630",
+      "front": "\"After rebuilding, the background watermark now shows up in Word.\"",
+      "body": "你這次貼的是純檔案路徑、沒有英文句子,所以沒有可修正的內容。給你一句之後回報結果時很好用的英文:\n\n> \"After rebuilding, the background watermark now shows up in Word.\" (修正後背景浮水印在 Word 顯示了)\n>\n> 或若還是失敗:\"It still doesn't render in Word, but the footer is fine.\" (Word 還是沒顯示,但頁尾正常)\n\n小提醒:「(浮水印)有顯示出來」最道地的動詞是 **show up** 或 **render**(後者偏技術,常用於描述軟體把元素「畫」出來),比直譯的 *appear* 更貼近工程語境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8a2d96392186",
+      "date": "20260630",
+      "front": "\"only … is left\"",
+      "body": "這次你主要用中文描述問題（情境清楚、邏輯完整），所以我幫你做中翻英，供你日後用英文回報這類 bug 時參考：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 下載後的文件浮水印只剩下文件尾端有，但背景卻無浮水印 | In the downloaded file, the watermark only appears in the footer — the diagonal background watermark is missing. |\n| 在預覽模式時，可以清楚看見該文件背景也有浮水印顯示 | In preview mode, the background watermark is clearly visible. |\n\n小提醒：描述「只剩下…」可以用 **\"only … is left\"** 或更技術性的 **\"only … remains\"**；而「背景浮水印」業界慣稱 **\"background / diagonal watermark\"**，對角的那種也常說 **\"tiled watermark\"**（平鋪浮水印），跟你程式碼裡的 tile 邏輯剛好呼應。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "83fb23e8ccc8",
+      "date": "20260630",
+      "front": "\"重發活動卡片\"",
+      "body": "你這次的指令「請把【重發活動卡片】改成【發活動卡片】」很清楚。對應的自然英文：\n\n| 你的中文 | 自然英文說法 | 語感說明 |\n| --- | --- | --- |\n| 請把【重發活動卡片】改成【發活動卡片】 | Please rename \"重發活動卡片\" to \"發活動卡片\". | 改按鈕/標籤文字用 **rename ... to ...** 最精準；若是改一般內文則用 **change ... to ...**。 |\n\n小提醒:UI 上把某個標籤、變數、檔名改名，英文慣用 **rename A to B**;若強調「把文字內容換掉」可用 **relabel**(重新標示),例如 \"relabel the button to 發活動卡片\"。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "80a073efc975",
+      "date": "20260630",
+      "front": "\"put yourself in the user's shoes\"",
+      "body": "你這次的提問邏輯清楚、有同理心（站在用戶角度思考），很棒。挑兩個表達看一下：\n\n| 你的中文 | 自然英文說法 | 語感說明 |\n| --- | --- | --- |\n| 站在用戶的角度，他會不知道為什麼自己會發出這個指令 | From the user's perspective, they wouldn't know why they sent that command. | 「站在…的角度」用 **From X's perspective** 或 **From X's point of view** 最道地。 |\n| 考量到管理員還會需要這種指令，所以也要保留下來 | Since admins still need this command, we should keep it as well. | 「考量到」用 **Since** 或 **Given that** 最自然；「保留下來」用 **keep it** 即可。 |\n\n小提醒:做產品/UX 決策時,「站在用戶角度」這個思維英文常說 **\"put yourself in the user's shoes\"**(設身處地為用戶著想),是很地道的慣用語。例如 \"If you put yourself in the user's shoes, sending !roster feels confusing.\" 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "79ccc13e44f7",
+      "date": "20260630",
+      "front": "\"Ship it!\"",
+      "body": "你這次用簡短指令「推上測試機」，很有效率。提供完整的自然說法：\n\n| 你的中文 | 自然英文說法 | 語感說明 |\n| --- | --- | --- |\n| 推上測試機 | Ship it to staging. / Push it to the test server. | 「測試機」= **staging** 或 **the test server**；口語上 **ship it** 帶有「發佈上線」的俐落語感。 |\n\n小提醒:當某個功能做完、測試過、要送到測試或正式環境時,英文工程師常只說一句 **\"Ship it!\"**(出貨/發佈吧!),是團隊裡很常見、帶點俐落果斷語氣的說法。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "74df93def79a",
+      "date": "20260630",
+      "front": "\"run / launch the backend from my IDE\"",
+      "body": "這則你用的是中文短問句，幫你補上自然的英文問法，方便日後跟英語同事確認流程：\n\n> \"I'm running the backend from my IDE — do I still need to run `docker compose up -d --build`?\"\n\n文法上完全沒問題的講法。幾個小提醒：\n- 「用 IDE 啟後端」最自然是 **\"run / launch the backend from my IDE\"**（用 *from*，不是 *by*）。\n- 想更口語可以說 **\"...so do I still need to spin up Docker?\"**，**spin up** 是工程師圈很常用來指「啟動服務/容器」的片語，比 `run` 更道地。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "611c4b527c36",
+      "date": "20260630",
+      "front": "\"Do 協助查 vLLM 連線/金鑰 first.\"",
+      "body": "你這次的輸入是 slash 指令 + 簡短英文 **\"Do 協助查 vLLM 連線/金鑰 first.\"**（中英夾雜的指示）。\n\n語感說明（繁體中文）：\n- 純英文會寫成 **\"Check the vLLM connection / API key first.\"** —— 用祈使句開頭動詞 *Check*，比 *\"Do ... first\"* 包一個中文片語自然。\n- 若要強調順序：**\"Let's start by checking the vLLM connection and API key.\"**（我們先從檢查…開始）是很流暢的講法。\n- 小提醒：`Do X first` 這種 \"Do + 名詞\" 在口語可通，但 X 通常要接英文動作（如 \"Do the connection check first\"）；接中文片語時，直接用該動作的英文動詞開頭會更俐落。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5a1e1aec9f11",
+      "date": "20260630",
+      "front": "你這次用的是中文提問(「幫我查查…是透過EZoMQ嗎?」),所以這裡提供自然的英文說法供你參考:",
+      "body": "你這次用的是中文提問(「幫我查查…是透過EZoMQ嗎?」),所以這裡提供自然的英文說法供你參考:\n\n> Can you check how the data gets into `DB.TBDZPMULTIADDRESSBOOK`? Is it through EZoMQ?\n\n幾個用字說明:\n- 「資料是如何進去的」用 **how the data gets into...** 最自然,口語且精準;若想更正式可用 *how the data is populated into...*(populate 是資料庫情境的常用動詞)。\n- 「是透過 EZoMQ 嗎」用 **Is it through EZoMQ?** 即可;**through** 表示「經由某個管道/機制」,在這裡比 *via* 略口語,兩者都正確。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "51f1496300c4",
+      "date": "20260630",
+      "front": "\"still ... even after I restarted\"",
+      "body": "你這句「那為什麼我…還是沒有浮水印呢？」翻成英文最自然的說法：\n\n> \"Then why is the downloaded file still missing the watermark even after I restarted from the IDE?\"\n\n幾個用字提醒：\n- 「重啟之後還是沒效」→ **\"still ... even after I restarted\"**，用 **even after** 帶出「我已經做了 X，結果仍然沒變」的語氣，比單純 *after* 更貼切你想表達的「不解」情緒。\n- 「沒有浮水印」描述檔案缺東西時，**\"the file is missing the watermark\"** 比 *\"the file has no watermark\"* 更技術、更常用於回報 bug。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "48d487dcd8e8",
+      "date": "20260630",
+      "front": "\"I found this info in another project's config file — not sure if it's useful, but could you take a look?\"",
+      "body": "你這次用中文：「從另一個專案的設定檔找到這些資訊，不曉得有沒有用，請你確認看看。」\n\n對應自然英文：**\"I found this info in another project's config file — not sure if it's useful, but could you take a look?\"**\n\n語感說明（繁體中文）：\n- 「不曉得有沒有用」→ **\"not sure if it's useful\"** 最自然；口語也常說 **\"not sure if this helps\"**。\n- 「請你確認看看」→ **\"could you take a look?\"** 或 **\"could you verify this?\"**；take a look 較輕鬆、verify 較正式（強調「驗證對不對」）。這次情境兩者皆可，你提供線索讓我去驗證，用 verify 也很貼切。\n\n結果證明你找到的這份設定**非常有用**——金鑰正確、還間接幫我們抓出 embedding 模型名也設錯了！👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3b96bf0cc8b9",
+      "date": "20260630",
+      "front": "\"The dev server was proxying to a different backend than the one I configured.\"",
+      "body": "你這次貼的是錯誤 log + 截圖（非英文句子），補一個實用說法：\n\n描述這種「請求打錯後端」的情況，英文常說：**\"The dev server was proxying to a different backend than the one I configured.\"**（dev server proxy 到的後端，不是我設定的那個）\n- 「打到…」→ **\"proxying to ...\"** 或 **\"hitting ...\"**（hit 表示請求落到某個端點）。\n- 「不是同一個」→ **\"a different ... than ...\"**，這個 *different X than Y* 結構在比較兩者不一致時很好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "399f33bef333",
+      "date": "20260630",
+      "front": "\"I want to test locally first — is this the file I should edit?\"",
+      "body": "你這次用中文：「我現在要先在本機測試，請問是改這隻嗎？」\n\n對應自然英文：**\"I want to test locally first — is this the file I should edit?\"**\n\n語感說明（繁體中文）：\n- 「這隻」是台灣口語對「這個檔案／這支程式」的親切說法，英文沒有對應的量詞，直接說 **\"this file\"** / **\"this one\"** 即可。\n- 「在本機測試」→ **\"test locally\"** 或 **\"test on my local machine\"**；*locally* 一個副詞最簡潔道地。\n- 整句也可說 **\"Is this the right file to change for local testing?\"**（這是本機測試要改的檔案嗎？）更口語流暢。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "30e20ac12d17",
+      "date": "20260630",
+      "front": "\"merge with --no-ff\"",
+      "body": "你這次的句子有個很實用的表達，我幫你看一下：\n\n| 你的中文 | 自然英文說法 | 語感說明 |\n| --- | --- | --- |\n| 你在 merge 到 dev 時記得要有新的線，像圖中紅框處這樣 | When you merge into dev, make sure it creates a separate branch line, like the red box in the image. | 「有新的線」在 git 語境其實是指 **a merge commit / a separate branch line**;技術上講就是 **use a non-fast-forward merge (--no-ff)**。 |\n\n小提醒:git 的「線」在英文是 **branch line** 或 **graph line**;你想保留的這種合併方式,英文精確說法是 **a no-fast-forward merge**(`--no-ff`),它會強制建立 **merge commit**,讓分支歷史在 graph 上保留分岔。下次你可以直接說 \"merge with --no-ff\" 或 \"keep the merge commit\"。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "fc9dce0066b5",
       "date": "20260629",
       "front": "\"But the display order should still follow: Management, Technical Standards, Data, Drawings.\"",
@@ -194,6 +392,15 @@
       "date": "20260629",
       "front": "\"feels a bit odd\"",
       "body": "你這次的句子寫得很清楚，我幫你看一下並提供更道地的英文說法：\n\n| 你的中文 | 自然英文說法 | 語感說明 |\n| --- | --- | --- |\n| 假如 A 報名了多個人，但是備註只顯示在第 1 個人，這樣似乎有點怪 | If A signs up several people but the remark only shows under the first one, it feels a bit off. | 「有點怪」用 **feels a bit off** 最道地（off = 不太對勁）；也可說 \"feels a bit odd\"。「報名多個人」用 **sign up several people** 即可。 |\n\n小提醒：描述 UI/行為「怪怪的、不太對」時，英文工程師很常用 **off** 這個字，例如 \"the spacing looks off\"（間距看起來怪怪的）、\"something feels off here\"（這裡怪怪的）。比 strange/weird 更口語自然。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0b834daa7073",
+      "date": "20260629",
+      "front": "\"**Merge to dev and ship it to staging.**\"",
+      "body": "你這次寫的「merge 到 dev 推上測試機」是混用中英的簡潔指令，很實用。完整自然的英文說法：\n\n| 你的中文 | 自然英文說法 | 語感說明 |\n| --- | --- | --- |\n| merge 到 dev 推上測試機 | Merge it into dev and push it to staging. | 「merge 到 dev」直接用 **merge into dev**；「推上測試機」用 **push to staging**（測試/預備環境）。 |\n\n小提醒：口語上工程師常把這整串說成 \"**Merge to dev and ship it to staging.**\"，其中 **ship** 有「發佈、部署出去」的意味，比 push 更有「把東西送上線」的語感。👍",
       "tags": [
         "comparison"
       ]
