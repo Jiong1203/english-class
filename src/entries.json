@@ -1,6 +1,186 @@
 {
   "entries": [
     {
+      "id": "ff3eb816b702",
+      "date": "20260703",
+      "front": "你這幾則都是簡短的中英文催促指令（「go ahead run」「請繼續完成未完成項目」），表達清楚無誤。",
+      "body": "你這幾則都是簡短的中英文催促指令（「go ahead run」「請繼續完成未完成項目」），表達清楚無誤。\n\n- **go ahead run** — 意思到位，更自然的說法是 *go ahead and run it* 或直接 *go ahead*（「go ahead」本身已含「你可以開始／繼續」之意，後面接動詞時習慣加 *and*）。\n- 若要催促「繼續完成剩下的」，英文可說 *Please carry on and finish the remaining items.*（`carry on` = 繼續進行）。\n\n小提醒：`go ahead` 是很地道的「請便／動手吧」，單獨使用就很完整；要接動作時用 *go ahead and + 動詞* 會更順口。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "fdb670be9f95",
+      "date": "20260703",
+      "front": "你這句「把回報人用 tag 的方式加在狀態旁邊」很清楚，對應的自然英文：",
+      "body": "你這句「把回報人用 tag 的方式加在狀態旁邊」很清楚，對應的自然英文：\n\n> Add the reporter as a tag next to the status.\n\n用字重點：\n- 「用 tag 的方式加」用 **add ... as a tag** 最簡潔；`as a tag` 表示「以 tag 的形式」。\n- 「在狀態旁邊」用 **next to the status**；若要更精確說「左邊／右邊」可用 *to the left/right of the status*。\n\n小提醒：這種「A as (a) B」句型（把 A 當作 B 來呈現）在描述 UI 需求時很好用，例如 *show the count as a badge*（把數量做成徽章顯示）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "caff55272f3a",
+      "date": "20260703",
+      "front": "你這句「給點好看的顏色吧」很口語，對應的自然英文可以是：",
+      "body": "你這句「給點好看的顏色吧」很口語，對應的自然英文可以是：\n\n> Let's add some nicer colors.\n\n或更隨性一點：\n\n> Make it look a bit nicer with some color.\n\n用字重點：\n- 「好看的」用 **nice / nicer** 最口語；若想強調視覺質感可用 *make it look more polished*（更精緻）。\n- 中文的「吧」帶有輕鬆提議的語氣，英文用 **Let's ...** 或句尾加 *a bit* 就能傳達那種不強硬的感覺。\n\n小提醒：polished 這個字（原意「拋光的」）在 UI 設計討論中常用來形容「細節到位、看起來精緻」的成品，是很地道的說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c435e4ef700a",
+      "date": "20260703",
+      "front": "\"merge and push\"",
+      "body": "你這次同樣用了最精煉的 **\"merge and push\"** —— 完全正確、道地,是版本控制流程的標準說法。\n\n延伸幾個實務場景的講法,幫你擴充:\n- 「把 feature 分支併回 master」→ **\"merge the feature branch into master\"**(併入用介系詞 `into`,方向是「併進去」)。\n- 「合併後刪掉分支」→ **\"delete the branch after merging\"** 或 **\"clean up the merged branch\"**(`clean up` 指整理/清除已無用的分支)。\n- 「快轉合併 vs 建立合併 commit」→ **\"fast-forward merge\"** vs **\"create a merge commit\"**(`--no-ff` 就是強制後者);這兩個術語在 code review 討論時很常用。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "bb6ded239fba",
+      "date": "20260703",
+      "front": "你這個指令「commit and push」用得完全正確、也是最道地的講法 👍。這是 Git 工作流最常用的搭配動詞。",
+      "body": "你這個指令「commit and push」用得完全正確、也是最道地的講法 👍。這是 Git 工作流最常用的搭配動詞。\n\n補充一個小擴充，讓表達更精確：\n- 若想一次做完並指定分支，可說 *commit and push to master*。\n- 若只想暫存本機、稍後再推，可說 *commit but hold off on pushing*（`hold off on ...` 表示「暫緩做某事」）。\n\n小提醒：commit 與 push 是兩個獨立動作，你能清楚分開使用這兩個詞，代表你對 Git 流程的英文掌握很到位。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "ad21480646f4",
+      "date": "20260703",
+      "front": "\"consolidate the deployment notes into deploy-notes.md.\"",
+      "body": "你這次「先幫我把…刪除，然後將…彙整寫入…」用「先…然後…」清楚交代了動作順序，指令很明確。\n\n小提醒（繁中說明）：\n- 「彙整寫入」= **consolidate into** 或 **compile ... into**，例如 **\"consolidate the deployment notes into deploy-notes.md.\"**（`consolidate` = 把分散資訊整合，正好對應「彙整」）。\n- 「先…然後…」用 **First ... , then ...** 最直接；口語也常用 **\"Delete X, then write up the deployment info in Y.\"**（`write up` = 整理成文件，很道地）。\n- 一句話漂亮版：**\"First delete the two README files, then consolidate all the deployment info into deploy-notes.md.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a42e50465b59",
+      "date": "20260703",
+      "front": "\"Please update the AI model to Qwen/Qwen3.6-27B everywhere it's used across the project.\"",
+      "body": "你這句「把目前專案中有使用到 AI 相關功能的地方，將 AI 模型都改為 Qwen/Qwen3.6-27B」指令清楚，範圍界定明確。\n\n對應英文說法：\n> **\"Please update the AI model to Qwen/Qwen3.6-27B everywhere it's used across the project.\"**\n\n小提醒（繁中說明）：\n- 「有使用到…的地方」用 **everywhere it's used** 或 **all the places that use ...**（`everywhere` 精準表達「所有出現處」）。\n- 「統一改為」= **standardize on** 或 **switch ... to**，例如 **\"standardize on Qwen/Qwen3.6-27B.\"**（`standardize on X` = 統一採用 X，工程情境很道地）。\n- 補充：這種「找出所有出現處再一起改」的動作，英文口語常說 **sweep through** 或 **do a find-and-replace across the codebase**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "99f9037a38ba",
+      "date": "20260703",
+      "front": "\"it feels like it freezes\"",
+      "body": "你這次用中文提了兩個問題,我幫你把它翻成自然、精簡的英文 bug-report 說法(對外溝通很好用):\n\n- 你的意思:「按鈕沒對齊,請改善。截圖時能不能顯示『截圖中』的 loading?不然還是有停頓感。」\n- 自然英文:**\"The buttons are misaligned — please fix that. Also, can we show a 'Capturing…' loading indicator during the screenshot? Otherwise it still feels like the screen freezes.\"**\n\n用字提醒:\n- 「沒對齊」→ **misaligned**(形容詞)最精準;動詞想說「對齊它們」是 **align the buttons**。\n- 「loading 畫面 / 指示」→ 英文常說 **loading indicator** 或 **loading spinner**;若是覆蓋整頁的那種,叫 **loading overlay**。\n- 「停頓感 / 卡住的感覺」→ **\"it feels like it freezes\"** 或 **\"it feels laggy\"**,`feel like + 子句` 是很道地的口語結構。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "970c8e3592a7",
+      "date": "20260703",
+      "front": "\"reads awkwardly\"",
+      "body": "你這次的回饋用了很生動的中文口語「有夠不通順」,我幫你轉成自然的英文表達:\n\n- 中文:「這段話有夠不通順!你直接列出可以上傳的格式,不要用『圖片』『文字檔』這種通稱,使用者搞不好不知道文字檔有哪些。」\n- 自然英文:**\"This sentence reads really awkwardly! Just list the actual file formats users can upload — don't use umbrella terms like 'images' or 'text files', since users might not know which formats those cover.\"**\n\n用字提醒:\n- 「不通順」→ **\"reads awkwardly\"** 或 **\"doesn't read well\"**;形容文句拗口最道地。「有夠~」這種加強語氣,英文用 **\"really\"** 或 **\"so\"**(so awkward)。\n- 「通稱 / 籠統的分類詞」→ **umbrella term**(涵蓋一大類的統稱)或 **generic term**,很精準對應你說的「通義詞」。\n- 「使用者搞不好不知道」→ **\"users might not know\"**;`might not` 表達「搞不好、說不定不」的不確定語氣剛好。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "840c604c43fd",
+      "date": "20260703",
+      "front": "\"AI Summary\"",
+      "body": "你這次用中文＋圖片說明需求，以下提供對應的英文說法：\n\n> Please design it based on this image.\n> - Move the time, category, reporter and other info to the top.\n> - No need to explicitly show the \"AI Summary\" label.\n\n用字重點：\n- 「請參考此圖設計」用 **design it based on / following this image** 最自然；口語也可說 *use this image as a reference*。\n- 「調整至上方」用 **move ... to the top**；若強調重新排列可用 *rearrange ... to the top*。\n- 「不需特別顯示」用 **no need to explicitly show / display**；`explicitly`（明確地、特意地）在這裡很貼切，表示「不用特地標出來」。\n\n小提醒：label 在 UI 語境中指「標籤、欄位名稱文字」，用來描述像「AI 彙整」這種標示文字非常精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7d09220b15c3",
+      "date": "20260703",
+      "front": "\"1. Don't allow archive files to be uploaded. 2. Replace 'Office' with 'Word, Excel, PPT, etc.'\"",
+      "body": "你這則用中文條列需求,清楚俐落。我把它翻成自然的英文說法:\n\n- 中文:「1. 不可上傳壓縮檔 2. Office 請改成 Word、Excel、ppt 等」\n- 自然英文:**\"1. Don't allow archive files to be uploaded. 2. Replace 'Office' with 'Word, Excel, PPT, etc.'\"**\n\n用字提醒:\n- 「壓縮檔」→ 英文技術用語常說 **archive files**(zip/rar/7z 這類封存壓縮檔)或口語 **compressed files**;`archive` 在軟體語境更精準。\n- 「請改成…」→ **\"replace A with B\"** 或 **\"change A to B\"**;你若想強調「把某項換掉」,`replace ... with ...` 最道地。\n- 「等」→ 英文用 **\"etc.\"** 或 **\"and so on\"**;放在清單後面很自然,如 \"Word, Excel, PPT, etc.\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "69e3a9ee8139",
+      "date": "20260703",
+      "front": "\"The domain resolves to 10.201.82.83.\"",
+      "body": "你這則是中文提問，沒有英文句子需要修正，我提供這次主題的關鍵英文表達供你擴充：\n\n- **反向代理** = **reverse proxy**；「擋在前面」道地說法是 **sits in front of the backend**（`sit in front of` = 位於…前方）。\n- **DNS 解析** = **DNS resolution** 或動詞 **resolve**，例如 **\"The domain resolves to 10.201.82.83.\"**（這個網域解析到…）。\n- **轉發請求** = **forward / route the request**；「HTTPS 終結」的專有名詞是 **TLS/SSL termination**。\n- 一句實用的架構描述：**\"Nginx sits in front of the app and forwards requests to port 8080.\"**（Nginx 擋在 app 前面，把請求轉發到 8080 埠）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5e2649caba53",
+      "date": "20260703",
+      "front": "\"Please align these two buttons so they're level with each other — right now one sits higher than the other.\"",
+      "body": "你這次的指令「按鈕請對齊,不要一高一低」很精簡,我補上道地的英文說法:\n\n- 中文:「請把這兩個按鈕對齊,不要一高一低。」\n- 自然英文:**\"Please align these two buttons so they're level with each other — right now one sits higher than the other.\"**\n\n用字提醒:\n- 「一高一低 / 沒齊平」→ 最道地是 **\"they're not level\"** 或 **\"one is higher than the other\"**;`level` 當形容詞(齊平的)在這裡比 `aligned` 更口語。\n- 若要指「垂直方向沒對齊」,可明確說 **\"vertically misaligned\"**,工程溝通很精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "41ed0130e5c3",
+      "date": "20260703",
+      "front": "\"makes users think...\"",
+      "body": "這次你全程用中文下指令,我把你這則需求的核心句翻成自然的英文技術說法,供你日後對外(例如寫 issue / 跟同事溝通)參考:\n\n- 你的意思:「截圖時畫面會停頓,讓使用者以為系統卡頓,而且看不到截圖結果無法確認是否正確。」\n- 自然英文:**\"The screen freezes briefly during capture, which makes users think the system is lagging; also, users can't see the captured result, so they can't tell whether the screenshot is correct.\"**\n\n實用片語:\n- 「卡頓 / 頓一下」→ **lag** (動詞/名詞) 或 **freeze / stutter**;「錯覺」用 **\"makes users think...\"** 或 **\"gives the impression that...\"** 最自然。\n- 「無法確認是否正確」→ **\"can't tell whether it's correct\"**;`tell` 在這裡是「判斷、分辨」的意思,比 `confirm` 更口語道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "183a9f7036f6",
+      "date": "20260703",
+      "front": "你這句表達得很清楚，尤其「又變得跟狀態不一致了」的因果說明很到位。對應的自然英文：",
+      "body": "你這句表達得很清楚，尤其「又變得跟狀態不一致了」的因果說明很到位。對應的自然英文：\n\n> If the reporter tag is round, it becomes inconsistent with the status tag again. Could we just adjust the color instead?\n\n用字重點：\n- 「跟…不一致」用 **inconsistent with ...** 最精準；也可說 *it doesn't match the status tag*（較口語）。\n- 「單純調整顏色就好」用 **just adjust the color** 即可，`just` 傳達「只要、單純」的語氣。\n\n小提醒：你用「又」表達「再次發生」，英文對應的是句尾的 **again**，位置放在句尾最自然，例如 *it breaks again*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "124816ecb8a2",
+      "date": "20260703",
+      "front": "\"I want to learn along the way, not just get the answer.\"",
+      "body": "你這句「假如有一些專有名詞我不理解…讓我除了獲得結果外也能有所成長」把需求和背後動機都講得很清楚，這種「說明 why」的表達在協作上非常有價值。\n\n實用英文表達（繁中說明）：\n- 「專有名詞／術語」= **technical term** 或 **jargon**（`jargon` 特指外人不易懂的行話）。\n- 「有所成長／邊做邊學」= **learn along the way** 或 **grow my understanding**，例如 **\"I want to learn along the way, not just get the answer.\"**（我想邊做邊學，不只是拿到答案）。\n- 「加入記憶」在這個工具情境= **remember this** / **save this preference**，例如 **\"Can you remember this preference for future chats?\"**\n- 一句漂亮的整合版：**\"Whenever my question contains an unfamiliar term, please explain it too — I'd like to grow, not just get results.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0fc7b06a89fd",
+      "date": "20260703",
+      "front": "\"AI Summary\"",
+      "body": "這次你同樣以中文說明需求，以下提供對應的自然英文講法：\n\n> The \"AI Summary\" overlaps with \"Description\" and \"Steps\", since it's just a summary of what the user typed. So please show only the AI-processed content.\n\n用字重點：\n- 「偏重複的內容」用 **overlaps with** 最自然（動詞），或 *is largely redundant with*（較正式）。\n- 「拿…來做彙整」用 **it's a summary of…** 就很簡潔；若要強調動作可說 *it's generated by summarizing what the user typed*。\n- 「顯示…即可」用 **just / only show…** 即可，口語又精確。\n\n小提醒：redundant（多餘、重複）在軟體討論裡很常用來描述「重複、可省略的內容或程式碼」，是很實用的一個詞。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0df981a345ea",
+      "date": "20260703",
+      "front": "\"upload screenshots\"",
+      "body": "你這段需求描述得很完整、邏輯清楚，特別是「不過當然是要避開問題回報視窗」這個補充，把邊界條件講得很到位。以下提供整段的參考英文：\n\n> Currently the issue report lets users fill in a description, steps, and upload screenshots. I suggest changing \"upload screenshots\" to \"upload attachments\" — besides images, files like Excel, Word, and PDF should also be allowed. As for screenshots, provide a separate button that captures the current browser view directly — but of course it should exclude the issue report dialog.\n\n用字重點：\n- 「附檔」用 **attachment(s)** 最標準；「上傳附檔」= *upload attachments*。\n- 「擷取當前畫面」用 **capture the current (browser) view / screen**；`capture` 是螢幕截圖的專業動詞。\n- 「避開…視窗」用 **exclude / avoid the dialog**；你原文的「當然」用 *of course* 對應得很自然。\n\n小提醒：你寫的「包刮」應是「包括」的筆誤（同音字），提醒你留意；不影響我理解需求。英文對應詞是 *including*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0941b762e3d7",
+      "date": "20260703",
+      "front": "你這次用中文下指令（「請確認 git 狀態，幫我將現有的異動整理一下，並放上 git」），這裡提供自然的英文說法供你參考：",
+      "body": "你這次用中文下指令（「請確認 git 狀態，幫我將現有的異動整理一下，並放上 git」），這裡提供自然的英文說法供你參考：\n\n> Please check the git status, help me organize the current changes, and commit them.\n\n幾個用字重點：\n- 「放上 git」在英文裡通常拆成兩個動作：**commit**（存到本機版控）與 **push**（推到遠端）。若你要我一次做到推遠端，可說 *commit and push them*。\n- 「整理異動」用 **organize / tidy up the changes** 都自然；若強調「分成幾個有意義的 commit」，可說 *split the changes into logical commits*。\n\n小提醒：中文的「放上 git」語意較模糊，養成用 commit / push 區分，能讓需求更精確喔。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "08b5d7b987ce",
+      "date": "20260703",
+      "front": "\"commit and push\"",
+      "body": "你這次用了最精簡的英文指令 **\"commit and push\"** —— 完全正確且道地,這正是工程師日常掛在嘴邊的說法,不用加任何多餘字詞。\n\n補充一組實用的相關講法,擴充你的表達:\n- 「把變更 push 上去」→ **\"push the changes up\"**(`up` 指推到遠端);「推到某分支」→ **\"push to the feature branch\"**。\n- 若想一次講完整流程:**\"Stage the changes, commit them, and push to a new feature branch.\"**(stage=加入暫存區、commit=提交、push=推送)——這三個動詞是 Git 工作流的標準用語。\n- 「開一個 MR/PR」→ **\"open a merge request\"**(GitLab 用 MR)或 **\"open a pull request\"**(GitHub 用 PR)。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
       "id": "bcf799e234fb",
       "date": "20260702",
       "front": "\"The whole calculation chain already reads the **per-detail price**, so editing a fee **propagates automatically** to the order total, settlement, and records.\"",
