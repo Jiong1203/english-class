@@ -146,6 +146,15 @@
       ]
     },
     {
+      "id": "5e48bc51d9d0",
+      "date": "20260706",
+      "front": "\"Please also display the activity time.\"",
+      "body": "你這次用中文下指令「請把活動時間也顯示出來」，我幫你翻成自然的英文說法：\n\n> \"Please also display the activity time.\"\n\n或更口語一點：\n\n> \"Can you show the activity time as well?\"\n\n小提醒：口語中要表達「也一併加上」時，`as well` 放句尾會比 `also` 更自然、更道地；`also` 通常放在動詞前（如 \"please also show...\")。兩者都對，只是語感位置不同。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5b9a4477f3c3",
       "date": "20260706",
       "front": "\"Two main issues: (1) the total row is missing, and (2) the groups can't be collapsed.\"",
