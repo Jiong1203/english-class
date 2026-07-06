@@ -155,6 +155,15 @@
       ]
     },
     {
+      "id": "5b924b78328a",
+      "date": "20260706",
+      "front": "\" 字眼移除，可以只留下「請描述遇到的問題」」。自然的英文說法會是：\n\n> Please remove the \"",
+      "body": "你這次用中文下指令：「請將 \"AI\" 字眼移除，可以只留下「請描述遇到的問題」」。自然的英文說法會是：\n\n> Please remove the \"AI\" wording — just keep \"請描述遇到的問題\".\n\n小提醒（用繁中說明）：中文的「字眼」在英文裡通常用 **wording**（措辭）或 **mention**（提及）。如果你想強調「把某個詞拿掉」，可以說 *remove the mention of \"AI\"*；若是整段措辭，用 *wording* 更貼切。兩者都比直譯的 *word* 自然，因為 *word* 聽起來像單指一個單字。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5a477236ee8e",
       "date": "20260706",
       "front": "\"It works now! Verified OK on the test server.\"",
