@@ -1,6 +1,150 @@
 {
   "entries": [
     {
+      "id": "d628fd2c85c6",
+      "date": "20260708",
+      "front": "\"clash with ...\"",
+      "body": "你這則是貼輸出,無英文句子。我用一句點出這台的備份陷阱,供你用英文提醒團隊:\n\n> \"On Ubuntu, nginx includes every file under `sites-enabled/`, so never leave a backup there — it'd get loaded as config and clash with the real one. Keep backups outside the include path.\"\n\n**用字說明(zh-tw):**\n- **\"clash with ...\"**(與…衝突、相撞)很適合描述「重複設定互相衝突」的情況;名詞與動詞同形,例如 \"a naming clash\"(命名衝突)。\n- **\"outside the include path\"**(在 include 路徑之外)精準表達「別放進會被載入的目錄」;**include path** 這裡指 nginx 設定會掃描載入的目錄範圍。這個陷阱很隱蔽,連有經驗的人都可能中招,你先了解「為什麼備份要放外面」就能避開。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b5864789b5ed",
+      "date": "20260708",
+      "front": "\"in place\"",
+      "body": "你這則是貼輸出,無英文句子。我用一句總結即將完成的修復,供你用英文回報:\n\n> \"The fix is in place and the config test passes on the culprit host — I just need to reload nginx to make it live.\"\n\n**用字說明(zh-tw):**\n- **\"in place\"**(已就位、已到位)描述「改動已放好、準備生效」很自然,例如 \"The safeguards are in place.\"\n- **\"make it live\"**(讓它上線/生效)是口語中把設定或功能「正式啟用」的說法,**go live / make it live** 在部署情境很常見,對應這裡 reload 後設定真正作用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b4a337a9cd43",
+      "date": "20260708",
+      "front": "\"pushed them to a feature branch\"",
+      "body": "你這則指令很精簡:「commit and push」,是完全正確、道地的工程指令,無需修正。\n\n**補充說明(zh-tw):** 這兩個字幾乎是工程師的日常慣用語,簡潔明確。若想在正式一點的場合(如寫給團隊的說明)講得更完整,可以說:\n\n> \"I've committed the changes and pushed them to a feature branch on GitLab.\"\n\n其中 **\"pushed them to a feature branch\"** 明確點出「推到 feature 分支」而非主幹,在有分支規範的團隊裡這樣講更精準,能避免對方誤以為你直接推了 main。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "902e2d2b459d",
+      "date": "20260708",
+      "front": "\"clear most of the 504s on its own\"",
+      "body": "你今天全程用中文操作,我用一句總結這個里程碑,供你用英文向團隊回報:\n\n> \"Both nginx hosts now have `proxy_read_timeout` bumped to 180s and reloaded, which should clear most of the 504s on its own. The backend and frontend code changes are ready but not deployed yet — they'll need a build and release to take effect.\"\n\n**用字說明(zh-tw):**\n- **\"clear most of the 504s on its own\"**:**clear** 這裡是「消除、解決(問題)」;**on its own**(單靠它自己)強調「光這一項就能解決大部分」,語氣精準。\n- **\"ready but not deployed yet\"**(改好了但還沒部署)是描述「程式完成待上線」最直接道地的講法,團隊溝通很常用;**deploy / release / ship** 都可指「部署上線」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "89db73bd14a4",
+      "date": "20260708",
+      "front": "\"Nope\"",
+      "body": "你這則「Nope! Just merge and push」簡潔明快、語氣自然,是很道地的口語糾正,無需修正。\n\n**補充說明(zh-tw):**\n- **\"Nope\"** 是 \"No\" 的輕鬆口語版,用來否定對方提議(我問要不要開 MR)很自然,語氣friendly不生硬。\n- **\"Just merge and push\"** 中的 **\"Just\"**(直接、就…就好)精準傳達「不用那些額外步驟,做這個就行」的意思——你想跳過 MR、直接合併,用 \"just\" 表達得剛剛好。這種用 \"just\" 收斂範圍的講法在給指令時非常實用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "812ce7863991",
+      "date": "20260708",
+      "front": "\"Good! It's so great! Let's commit and push!\"",
+      "body": "你這句 **\"Good! It's so great! Let's commit and push!\"** 語氣很自然、很有活力，完全正確 👍。這裡給你兩個小地方讓表達更精煉：\n\n- **\"It's so great!\"** 完全 OK。若想避免和前面的 \"Good!\" 語意重複，可以換成具體一點的稱讚，例如 **\"It works perfectly!\"**（它運作得很完美）或 **\"That's exactly what I wanted!\"**（正是我要的），會讓對方更清楚你滿意的點。\n- **\"Let's commit and push!\"** 很道地。在工程情境中你也常會聽到更完整的說法 **\"Let's commit and push it up.\"**，其中 `push it up` 的 `up` 帶有「推上遠端／上游（upstream）」的語感，是開發者間的常見口語。\n\n整體而言你的英文流暢自然，繼續保持！",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "7bd82953b946",
+      "date": "20260708",
+      "front": "\"Can I drag to resize the width instead?\"",
+      "body": "你這句「請問有辦法在不換行的情況下自行拖拉寬度嗎?」很清楚，這裡給你對應的自然英文，方便日後跟工程師溝通：\n\n> \"Is there a way to drag to resize the width instead of wrapping the items?\"\n\n用字說明（繁體中文）：\n- **drag to resize**：「拖拉調整大小」的標準搭配，比逐字翻 \"drag the width\" 更道地；resize 本身就含「改變尺寸」。\n- **instead of wrapping**：「而不是換行」，`instead of + Ving` 是表達「用 A 取代 B」最簡潔的句型。\n- 小提醒：口語問「有沒有辦法…」除了 \"Is there a way to...\"，也可以更輕鬆地說 **\"Can I drag to resize the width instead?\"**，語氣更直接。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "78e4be3c1dee",
+      "date": "20260708",
+      "front": "\"..., right?\"",
+      "body": "你這句是簡短的確認問句:「現在的目標秒數是120秒?」對應自然英文說法:\n\n> \"So the current target is 120 seconds, right?\"\n\n**用字說明(zh-tw):**\n- 句尾的 **\"..., right?\"** 是口語中最常用的確認方式,等於中文的「…對吧?」,語氣輕鬆自然;比正式的 tag question(如 \"isn't it?\")更口語。\n- 若想更完整,可說 **\"So as it stands, the effective ceiling is 120 seconds?\"**,其中 **\"as it stands\"**(就目前情況而言)很適合確認「現況數值」,是實用的商務/技術片語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "772cfe53582c",
+      "date": "20260708",
+      "front": "\"In pivot mode, the group columns get clipped and become invisible once there are more than four of them.\"",
+      "body": "這次你的需求是用中文寫的，這裡提供一個自然的英文說法，讓你在跟國外同事描述類似 bug 時可以直接用：\n\n> \"In pivot mode, the group columns get clipped and become invisible once there are more than four of them.\"\n\n幾個用字說明（以繁體中文解釋）：\n- **get clipped**：這是 UI/CSS 情境描述「被裁切」最道地的動詞，比 \"be cut\" 更精準；也可用 **get truncated**（偏向文字被截斷）。\n- **become invisible / disappear**：「看不到了」用這兩個都自然。\n- **once there are more than four**：`once` 在這裡等於「一旦…就…」，比 `when` 更能表達「達到某個門檻後觸發」的語感。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6bed02327db3",
+      "date": "20260708",
+      "front": "\"align accordingly\"",
+      "body": "你這句需求講得清楚:「請檢查一下 nginx 設定調整後,關於本專案程式碼還有沒有哪裡需要配合調整的」,對應自然英文說法:\n\n> \"Now that the nginx settings are adjusted, could you check whether anything in the project code needs to be aligned accordingly?\"\n\n**用字說明(zh-tw):**\n- **\"align accordingly\"**(相應地對齊/配合調整)非常精準——**align** 指「使一致、對齊」,**accordingly** 指「相應地、依此」,合起來正是你說的「配合調整」。這組搭配在技術討論很好用。\n- 開頭 **\"Now that ...\"**(既然…、在…之後)是很自然的條件連接,表示「基於某件已完成的事,接著要…」,比 \"After nginx is adjusted\" 更能表達因果銜接。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "659275a617f0",
+      "date": "20260708",
+      "front": "\"in plain language\"",
+      "body": "你這則指令講得很清楚(「要白話一點,因為該對象並無軟體背景」),對應自然英文說法:\n\n> \"Could you draft a reply for the user? Please keep it in plain language, since they don't have a technical background.\"\n\n**用字說明(zh-tw):**\n- **\"in plain language\"**(用白話、淺白的說法)是英文裡專門指「避免術語、講給外行人聽」的固定講法,非常貼切你這個需求;相對的「行話、術語」則叫 **jargon**。\n- **\"non-technical\"** 是形容「無技術背景的人」最常用的形容詞,例如 \"explain it to a non-technical audience\"(講給非技術的聽眾聽),比 \"no software background\" 更精煉,你之後可直接套用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "59c65aa58bb0",
+      "date": "20260708",
+      "front": "\"the query fails\"",
+      "body": "這次你兩封信都是用中文寫的,我先幫你把重點翻成自然的英文,並補上情境用法。\n\n你信中的意思,用英文可以這樣說:\n\n> \"Filtering with only `>= -30` works, and only `<= 60` works too. But whether I use BETWEEN or split it into two intersecting conditions, the query always fails. I later fixed it by adding a 'not null' condition.\"\n\n- 「查詢失敗」在技術情境最自然的說法是 **\"the query fails\"** 或 **\"the query throws an error\"**;不要用 \"the query is failed\"(be + failed 是錯的,fail 這裡是不及物動詞)。\n- 「用內層交集」→ **\"intersecting conditions\"** 或 **\"AND-ing the two conditions together\"**;交集在 SQL 語境就是用 `AND` 串接。\n- 「解決了」口語常說 **\"I fixed it by...\"** 或 **\"I worked around it by...\"**。其中 **work around**(動詞片語)特別適合你這種「不是修根本原因,而是繞過去」的情況,語感比 fix 更精準。\n\n小提醒:描述「加上某個條件」時,介係詞用 **by + Ving**(by adding...)最順,例如 \"I solved it **by adding** a not-null filter.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "43b1b60843d4",
+      "date": "20260708",
+      "front": "\"Do commit and push first.\"",
+      "body": "你這次的指令 **\"Do commit and push first.\"** 是完全自然、道地的英文,沒有任何錯誤,語氣簡潔明確。給你一個小小的擴充:\n\n| 你的說法 | 其他等效說法 | 語感差異 |\n|---------|------------|---------|\n| Do commit and push first. | Go ahead and commit and push first. | `Go ahead and...` 更口語、帶「你就放手去做」的授權感 |\n| Do commit and push first. | Please commit and push first. | `Please` 更中性禮貌;你的 `Do` 帶輕微強調(強調「先做這件事」) |\n\n**小提醒**:句首用 `Do + 原形動詞`(如 `Do commit`)是一種**強調祈使句**,語氣上比單純 `Commit and push first.` 更強調「務必、就是要」。你用得很準,母語者也常這樣強調。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "34037bcd0114",
+      "date": "20260708",
+      "front": "\"How would you word the reply if we were responding to this by email?\"",
+      "body": "你這次的提問「要回 EMAIL 的話你會如何回覆呢?」是很自然的中文,對應到職場英文可以這樣說:\n\n> \"How would you word the reply if we were responding to this by email?\"\n\n或更簡短:\n\n> \"How would you reply to this email?\"\n\n- 「回信 / 回覆郵件」的動詞就用 **reply to** an email,或 **respond to** an email;不要說 \"reply an email\"(reply 是不及物動詞,後面一定要接 **to**)。\n- 若要說「擬一封回信草稿」,職場很常用 **draft a reply**:例如 \"Could you draft a reply for me?\" —— **draft**(動詞)= 起草,比 \"write\" 更精準地表達「先擬一版讓我改」。\n- 補充一個實用搭配:**word it**(措辭、遣詞)。\"How would you word it?\" = 「你會怎麼措辭?」很適合你這種「想參考怎麼寫比較得體」的情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "11fbc090f1a6",
+      "date": "20260708",
+      "front": "\"go with\"",
+      "body": "你這句「那就依照你的建議調整」很簡潔,對應自然英文說法:\n\n> \"Let's go with your recommendation, then.\"\n\n**用字說明(zh-tw):**\n- **\"go with\"**(採用、選擇)是決定採納某方案時最道地的片語,例如 \"Let's go with option B.\" 比 \"follow your suggestion\" 更自然、更有「拍板決定」的語氣。\n- 句尾的 **\"then\"**(那就…)呼應你的「那就」,放在句尾表示「基於前面的討論,就這麼定了」,是很自然的口語收尾。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0f96a4301900",
+      "date": "20260708",
+      "front": "\"Heads-up\"",
+      "body": "你這則是貼輸出,無英文句子。我用一句點出這台的關鍵陷阱,供你用英文向團隊說明:\n\n> \"Heads-up: on this host the `sites-enabled/ezosys` file is a real copy, not a symlink to `sites-available` — so we have to edit the one nginx actually loads, or the change won't take effect.\"\n\n**用字說明(zh-tw):**\n- **\"Heads-up\"**(提醒一下、注意)是很道地的開場詞,用來提示對方留意某個重點或陷阱,例如 \"Heads-up: the API changes next week.\"\n- **\"a real copy, not a symlink\"**(是真正的副本,不是符號連結)精準點出這個差異;**symlink** 是 symbolic link 的通用縮寫,工程溝通直接用縮寫即可。這個「改到沒被載入的檔」是很常見的坑,你能先看到 `ls -l` 的檔案型別差異很敏銳。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fa4e565e776c",
       "date": "20260707",
       "front": "\"commit and push\"",
