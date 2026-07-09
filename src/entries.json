@@ -10,6 +10,15 @@
       ]
     },
     {
+      "id": "eb0c566c1ba9",
+      "date": "20260709",
+      "front": "\"My Activity History\"",
+      "body": "你這次是用中文下指令（「請協助將…加分頁，一次大約顯示 3~5 筆資料即可」），以下提供對應的自然英文說法，幫你累積工程情境用語：\n\n> Please add pagination to the \"My Activity History\" section so it shows about 3–5 records per page.\n\n小提醒：\n- 「加分頁」＝加上「分頁功能」，英文用 **pagination**（名詞）；「翻到下一頁」則是 **paginate / go to the next page**。注意別和 \"add points\"（加分數）混淆。\n- 「一次顯示 3~5 筆」最自然的講法是 **show 3–5 records per page** 或 **display 3–5 items at a time**；`per page`（每頁）比 `at one time` 更精準地表達分頁語意。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "eada4d9581a4",
       "date": "20260709",
       "front": "你的中文原意 → 英文自然說法：**\"Explain the difference between plan mode and auto mode.\"**",
@@ -176,6 +185,15 @@
       "date": "20260709",
       "front": "\"garbled text\"",
       "body": "你這句 **「有一些亂碼，但看起來是成功了。」** 是中文,提供自然英文與語感:\n\n> There's some garbled text, but it looks like it worked.\n\n用詞補充:\n- **「亂碼」** 最道地是 **\"garbled text\"** 或 **\"mojibake\"**(這是從日文借來、專指編碼錯亂亂碼的術語,工程圈通用);口語也可說 **\"the characters are messed up\"**。\n- **「看起來是成功了」** = **\"it looks like it worked\"** 或 **\"it seems to have worked\"**;`it worked` 比 `it succeeded` 更自然口語。\n- 若要精確表達「亂碼只是顯示問題、不影響結果」:**\"It's just a display/encoding issue — the result is fine.\"**\n\n一句流利的整合說法:**\"There's some mojibake in the console output, but the push went through fine.\"**(went through = 順利完成,很道地)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2913369aebe6",
+      "date": "20260709",
+      "front": "你這次下的指令是 `commit and push`，非常道地、精簡，正是工程師日常的講法，無需修改。",
+      "body": "你這次下的指令是 `commit and push`，非常道地、精簡，正是工程師日常的講法，無需修改。\n\n補充兩個相關用語幫你擴充：\n- 若想一次表達「提交並發 PR」：**commit, push, and open a PR/MR**（GitHub 叫 PR、GitLab 叫 MR）。\n- 若想指定分支：**push to the feature branch**（推到功能分支）或 **push it up**（口語的「推上去」，母語者很常用）。",
       "tags": [
         "note"
       ]
