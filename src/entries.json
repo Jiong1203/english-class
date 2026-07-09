@@ -1,6 +1,222 @@
 {
   "entries": [
     {
+      "id": "ecc2336b15ad",
+      "date": "20260709",
+      "front": "\"Let's finish committing first, then move on to #12.\"",
+      "body": "這則你用了「先 commit 完再來做 #12」，翻成自然的英文：\n\n> **\"Let's finish committing first, then move on to #12.\"**\n\n幾個道地細節：\n- 「再來做」用 **\"then move on to...\"**（接著進行下一件事）比直譯 `then come to do` 自然很多；`move on to` 有「完成前一件、推進到下一件」的語感，很適合工作流程。\n- 「先…完」的「完」用 **\"finish + V-ing\"**（finish committing）表達，這是常見搭配。\n\n小提醒：這次很值得一提的是 —— 你交代做 #12，但我調查後發現「其實整個 ezomd 都沒用 i18n」這個與前提相反的事實，於是先回報再確認，而不是悶頭做完。這種情境在英文團隊常說：*\"Before I dive in, I found something that changes the picture...\"*（在我著手前，我發現了一件會改變全局的事）——`changes the picture` 是很好用的片語，指「改變了整體判斷」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "eada4d9581a4",
+      "date": "20260709",
+      "front": "你的中文原意 → 英文自然說法：**\"Explain the difference between plan mode and auto mode.\"**",
+      "body": "你這次是用中文下指令（「說明移下 plan mode 與 auto mode 的差異」），所以這裡提供自然的英文說法讓你參考：\n\n- 你的中文原意 → 英文自然說法：**\"Explain the difference between plan mode and auto mode.\"**\n- 若想更口語一點：**\"Can you walk me through how plan mode differs from auto mode?\"**（`walk me through` 是「帶我逐步了解」的常見道地用法）\n\n小提醒（zh-tw）：你打的「移下」應該是「一下」的筆誤，這在中文輸入很常見，不影響理解，這裡也一併幫你標註。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e25dda0ba788",
+      "date": "20260709",
+      "front": "\"Align the boxed area to the right.\"",
+      "body": "這則你用中文下指令「把紅框處改成靠右側」。翻成自然的英文說法：\n\n> **\"Align the boxed area to the right.\"** 或 **\"Move the highlighted section to the right side.\"**\n\n幾個實用說法：\n- 「靠右對齊」技術上就是 **\"right-align\"**（可當動詞：*\"right-align the pagination\"*）或 **\"align ... to the right\"**。\n- 「紅框處」在 UI 討論中常說 **\"the red box\"**、**\"the boxed area\"**、或 **\"the highlighted area\"**（highlighted 泛指被標記強調的區域，不限顏色）。\n\n小提醒：描述版面位置時，英文很常用 flexbox 術語直接溝通，例如 *\"justify it to the flex-end\"* 或口語的 *\"push it to the right\"*（把它推到右邊）——`push it to the right` 在跟前端同事討論時非常自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "df0f191bebfa",
+      "date": "20260709",
+      "front": "\"I pasted it in the wrong place.\"",
+      "body": "這則你貼的是終端機錯誤訊息,沒有自撰英文句子。借這個情境補一個實用說法 —— 當你想跟別人說明「我把指令貼錯地方了」:\n\n- **\"I pasted it in the wrong place.\"**（我貼錯地方了）\n- **\"That prefix belongs in the app's input box, not the terminal.\"**（那個前綴是要打在 app 輸入框,不是終端機)—— belong in 表示「該放在某處」,很道地。\n\n小提醒:paste 的過去式與過去分詞都是 **pasted**(規則變化),不要寫成 \"past\";past 是「過去/經過」不同字。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ce25f3dc4034",
+      "date": "20260709",
+      "front": "\"message alignment\"",
+      "body": "這則你同樣是用中文描述，提供自然英文說法與語感解析：\n\n> The speaker's position should be adjusted — messages from the logged-in account (系統管理員) should align to the right, while messages from others align to the left.\n\n語感補充：\n- 「發言人位置」在聊天 UI 情境用 **\"message alignment\"**（訊息對齊方式）比直譯 \"speaker position\" 更道地。\n- 「靠右／靠左」= **\"align right / align left\"**（動詞）或 **\"right-aligned / left-aligned\"**（形容詞）。\n- 「他人的發言」用 **\"messages from others\"** 最簡潔；others 已含「其他人」之意，不需再加 people。\n\n一句更精煉的工程說法：**\"Right-align the current user's own messages and left-align everyone else's — the standard chat convention.\"**（everyone else's ＝ everyone else's messages，用所有格省略重複名詞，很自然）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cddb92b65f58",
+      "date": "20260709",
+      "front": "\"List items #9 through #14 again so I can take a look.\"",
+      "body": "這則你混用了中文指令，其中「再列出一次我看看」翻成自然的英文：\n\n> **\"List items #9 through #14 again so I can take a look.\"**\n\n幾個道地細節：\n- 「#9~#14」口語唸作 **\"nine through fourteen\"**，寫作常用 **\"#9–#14\"**（en dash）或 **\"#9 to #14\"**。\n- 「我看看」用 **\"so I can take a look\"** 最自然；比直譯 **\"let me see\"** 更完整、更禮貌。\n- 「先 commit」你前面已用得很好，這裡 **\"commit the yellow-flagged ones first\"** 即可。\n\n小提醒：中文常說「列出來我看看」，英文若只說 **\"list them let me see\"** 會顯得兩個動詞硬接；用 **\"...so I can take a look\"** 把後半句接成目的子句，會通順很多。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c9bace558f2c",
+      "date": "20260709",
+      "front": "\"commit and push\"",
+      "body": "你這次的指令 **\"commit and push\"** 非常道地、精準，正是工程師之間最常用的說法，完全不用改。\n\n順帶補充兩個相關的實用表達，讓你的 Git 英文更完整：\n- **\"push to main\"** — 推送到 main 分支（介系詞用 **to**，不是 push in / push on）\n- **\"merge the branch back into main\"** — 把分支併回 main（合併回主幹時用 **into** 最自然，例如 \"I merged the fix back into main\"）\n\n小提醒：口語中大家常把 commit 當動詞直接用，例如 **\"Let me commit this first, then push.\"**（先提交這個，再推送），語氣自然流暢。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c4c4ff5cd55c",
+      "date": "20260709",
+      "front": "\"Commit first, then handle the remaining yellow-flagged items.\"",
+      "body": "這則你也是用中文下指令（「commit 後再處理黃燈號那幾項」），自然的英文說法：\n\n> **\"Commit first, then handle the remaining yellow-flagged items.\"**\n\n幾個用詞建議：\n- 「黃燈號」在英文技術情境沒有直譯，通常說 **\"medium-priority items\"** 或口語的 **\"the yellow-flagged ones\"**（flag 當動詞是「標記」，很常用於 review）。\n- 「那幾項」用 **\"those few items\"** 或 **\"the remaining items\"** 都自然。\n\n小提醒：`commit` 在 Git 語境可直接當動詞用（\"commit the changes\"），這點你用得很正確，不需要說 \"do a commit\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bec10248876e",
+      "date": "20260709",
+      "front": "這則你沒有寫英文句子（純中文指令「改下去，目前 dev server 已啟動了…」），所以這次沒有需要修正的地方。幫你把這句整理成自然的英文，方便日後跟外籍同事溝通：",
+      "body": "這則你沒有寫英文句子（純中文指令「改下去，目前 dev server 已啟動了…」），所以這次沒有需要修正的地方。幫你把這句整理成自然的英文，方便日後跟外籍同事溝通：\n\n> Go ahead and apply it. The dev server is already up — you can access it directly at http://localhost:3000/issue/issuereport.\n\n幾個道地用法：\n- **「改下去」** 承接前文「動手做」，用 *Go ahead and apply it* 或 *Go ahead and make the change* 最自然。\n- **「dev server 已啟動」** 口語常說 *the dev server is up* 或 *is up and running*（*up* 就是「在運行中」的意思，比 *started* 更常用於服務／伺服器）。\n- **「你可以直接訪問」** 用 *you can access it directly at <URL>* 即可；口語也常說 *you can hit <URL>*（工程師圈很常用 *hit an endpoint/URL* 表示「打這個網址」）。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "b49ee58f5725",
+      "date": "20260709",
+      "front": "這則你寫了一句混用中英的指令：「可以了，那 commit & push」。其中 *commit & push* 是工程師日常慣用的動詞，用得完全正確、很自然，這裡給你一個道地的完整說法：",
+      "body": "這則你寫了一句混用中英的指令：「可以了，那 commit & push」。其中 *commit & push* 是工程師日常慣用的動詞，用得完全正確、很自然，這裡給你一個道地的完整說法：\n\n> Looks good — go ahead and commit & push.\n\n幾個小補充：\n- **「可以了」** 在驗收通過的語境，最自然是 *Looks good* 或 *That works*（表示「這樣就行了」）。若要更明確表達「我確認 OK」可說 *Confirmed, looks good*。\n- **commit / push 當動詞**：在英文技術圈直接當動詞用非常普遍（*commit the change*、*push to master*），你這樣寫沒問題。\n- 小提醒：口語銜接詞「那…」對應英文常用 *then* 或 *so*，但更道地的其實是直接用 *go ahead and...*（帶「你就動手吧」的語氣），比逐字翻成 *then commit & push* 更自然。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "a9c377f447c9",
+      "date": "20260709",
+      "front": "\"Verify.\"",
+      "body": "你這次輸入的是單一詞 **「驗證」**（動詞,表示要我確認結果）。對應最自然的英文是:\n\n- **\"Verify.\"** — 你原意的直譯,簡潔正確,當指令用完全 OK。\n- 更道地的口語常說 **\"Can you verify?\"** 或 **\"Please double-check.\"**（double-check = 再次確認,很常用）。\n- 若想明確指「確認遠端狀態」,可說 **\"Verify the remote is clean now.\"**\n\n小補充:verify 與 confirm 語感差異—**verify** 偏「實際去查證、跑檢查」（動手驗證）;**confirm** 偏「確認/證實某事為真」（給出確認）。你要我實際去 git 查,用 verify 很精準 👍。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a94464fb2a53",
+      "date": "20260709",
+      "front": "\"Go ahead and fix all the high-priority items first, then show me the list again so I can confirm.\"",
+      "body": "這則你是用中文下指令，翻成自然的英文說法：\n\n> **\"Go ahead and fix all the high-priority items first, then show me the list again so I can confirm.\"**\n\n幾個道地的細節：\n- **\"Go ahead and...\"** 是很自然的「就先做吧」語氣，比直譯 `Please fix first` 更口語。\n- 「重新顯示清單」用 **\"show me the list again\"** 就好；若在正式文件中，可用 **\"re-display the checklist\"**。\n- 「給我確認」用 **\"so I can confirm\"**（讓我能確認）比 `for my confirm` 正確 —— `confirm` 在這裡是動詞，不能當名詞用。\n\n小提醒：中文的「值得優先處理」對應英文常說 **\"high-priority items\"** 或 **\"the items worth tackling first\"**，`tackle` 帶有「著手處理（有難度的事）」的語感，很適合技術情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "99fd8cdff795",
+      "date": "20260709",
+      "front": "\"Please make sure there's no '@' in the title — this is the second time.\"",
+      "body": "你這次的訊息 **「我不要有\"@\"在title，你上次已經犯錯一次了!」** 是中文,以下提供自然的英文說法,並解說語感:\n\n> I don't want the \"@\" in the commit title — you already made this mistake once.\n\n語感補充:\n- 表達不滿但仍專業,可用 **\"Please make sure there's no '@' in the title — this is the second time.\"**（point out 是第二次,語氣明確但不失禮）。\n- 「犯錯」動詞搭配用 **\"make a mistake\"**（不是 \"do a mistake\"）。若要更輕:**\"this slipped through last time\"**（上次漏掉了,slip through = 疏漏溜過去）。\n- 想強調「別再犯」可說 **\"Let's not let it happen again.\"**（我們別讓它再發生),語氣是提醒而非指責。\n\n再次為我第一次用錯 here-string 語法、以及沒能一次把 `@` 清乾淨致歉,後續我會更謹慎。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "87509ac0c3db",
+      "date": "20260709",
+      "front": "\"Analyze this file and point out anything that could be improved.\"",
+      "body": "這次你是用中文下指令（「分析一下，並說說有沒有甚麼部分可以精進」），我幫你翻成自然的英文說法：\n\n> **\"Analyze this file and point out anything that could be improved.\"**\n\n幾個實用的替代講法，讓你在跟同事或 code review 時更道地：\n- *\"Take a look at this component and let me know what could be refined.\"*（`refined` 比 `improved` 更帶「打磨、精進」的語感，剛好對應你說的「精進」）\n- *\"Review this file and suggest any areas for improvement.\"*（正式一點，適合寫在 PR 或 issue 裡）\n\n小提醒：「精進」在英文裡沒有單一對應詞。口語常用 **improve / refine / polish**；如果想表達「更上一層樓」的語氣，`refine` 或 `take it to the next level` 會很貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "512a99fd19b9",
+      "date": "20260709",
+      "front": "\"**\n- 關鍵詞彙:\n  - **from scratch** = 從零開始(非常道地的說法,比 \"",
+      "body": "你這次同樣是用中文提問,所以提供對應的自然英文說法:\n\n- 你的原意 → 英文:**\"Suppose I want to build a new system from scratch. I'd like to discuss it with you first, and only start once we have a clear direction — which mode should I choose?\"**\n- 關鍵詞彙:\n  - **from scratch** = 從零開始(非常道地的說法,比 \"start from zero\" 更自然)\n  - **have a clear direction** = 有明確方向\n  - **once we have...** = 「一旦我們有了…」,用 `once` 帶條件子句比 `after` 更口語流暢\n\n小提醒(zh-tw):你打的「重0開始」是很聰明的諧音寫法(「重」+「0」=「從零」),我懂你的意思 😄,正式書寫時建議寫成「**從零開始**」或「**從頭開始**」。",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "4d6c58ab8cf0",
+      "date": "20260709",
+      "front": "\"Scheduled email notifications don't preserve line breaks.\"",
+      "body": "這次你全程用中文溝通，我來提供對應的自然英文說法，方便你日後開 issue 或跟外籍同事討論這個 bug：\n\n| 中文原意 | 自然英文說法 |\n|---------|------------|\n| 定時郵件通知未保留換行格式 | \"Scheduled email notifications don't preserve line breaks.\" |\n| 換行符號在寄出的郵件中消失 | \"The line breaks are stripped / collapsed in the sent email.\" |\n| 應保留與輸入時一致的換行 | \"The line breaks should be preserved exactly as entered.\" |\n\n補充一個實用的技術動詞：**strip**（去除）和 **collapse**（摺疊）。描述 HTML 把多個空白或換行合併成一個空格時，母語工程師常說 \"HTML collapses whitespace\"，這個 collapse 用得很到位，比 \"disappear\" 更精準地點出「不是不見，而是被合併」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4c3214a7c507",
+      "date": "20260709",
+      "front": "\"Very good! Please commit and push.\"",
+      "body": "你這句 **\"Very good! Please commit and push.\"** 完全正確、自然，是很道地的簡潔指令 👍。\n\n一點延伸讓你的表達更豐富：\n- 口語稱讚除了 \"Very good!\"，工程情境常用 **\"Looks great!\"**、**\"Nice, that's exactly it!\"** 或 **\"Perfect!\"**，語氣更輕鬆。\n- 若想更精確地表達「確認無誤、可以進版」，可以說 **\"Looks good to me, go ahead and commit and push.\"**（\"looks good to me\" 常縮寫為 **LGTM**，是 code review 核准的慣用語，你在 GitLab MR 上會常看到）。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "4a6da20913b8",
+      "date": "20260709",
+      "front": "這次你是用中文提問（「請問為什麼要留下面紅框處的空間?有甚麼特別用意嗎?」），我幫你補上自然的英文說法：",
+      "body": "這次你是用中文提問（「請問為什麼要留下面紅框處的空間?有甚麼特別用意嗎?」），我幫你補上自然的英文說法：\n\n> Why is there empty space left at the bottom (the area in the red box)? Is there any particular purpose for it?\n\n幾個可以記的用法：\n- **「留白／空白」** 在 UI 語境用 *empty space* 或 *whitespace*（設計上的留白通常講 *whitespace*，中性、無貶意）。\n- **「有什麼特別用意」** 最道地的說法是 *Is there any particular purpose for it?* 或口語一點的 *Is it there on purpose?*（是刻意放的嗎）。\n- **「紅框處」** 可以說 *the area outlined in red* 或簡單的 *the red box*，兩者都自然。\n\n小提醒：這類「詢問設計動機」的句子，用 *purpose* 或 *intent* 會比直譯 *meaning* 更精準——*meaning* 偏向「意義／含義」，*purpose* 才是「用途／目的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3eb03ebde0bb",
+      "date": "20260709",
+      "front": "這次一樣是中文提問（「你追一下好了，因為我在想是不是改成滿版比較適合」）。幫你補上自然的英文：",
+      "body": "這次一樣是中文提問（「你追一下好了，因為我在想是不是改成滿版比較適合」）。幫你補上自然的英文：\n\n> Go ahead and trace it — I'm wondering whether making it full-height would be a better fit.\n\n幾個實用說法：\n- **「你追一下好了」** 的「好了」帶有「那就這樣決定吧」的語氣，英文用 *Go ahead and...* 最傳神（表示「你就動手做吧」）。\n- **「滿版」** 在版面語境要看你指的是哪一種：填滿高度是 *full-height*、填滿寬度是 *full-width*、整個鋪滿到邊緣則是 *full-bleed*(印刷/設計術語)。你這裡指的是高度填滿，所以 *full-height* 最準。\n- **「比較適合」** 用 *a better fit* 或 *more appropriate* 都可以，*a better fit* 更口語自然。\n\n用字提醒：中文常說「改成滿版」，直譯成 *change to full version* 會被誤解成「完整版本」。UI 的「滿版」跟「版本」無關，要用 *full-height / full-width* 這種描述佈局的詞。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "36266cb00694",
+      "date": "20260709",
+      "front": "\"garbled text\"",
+      "body": "你這句 **「有一些亂碼，但看起來是成功了。」** 是中文,提供自然英文與語感:\n\n> There's some garbled text, but it looks like it worked.\n\n用詞補充:\n- **「亂碼」** 最道地是 **\"garbled text\"** 或 **\"mojibake\"**(這是從日文借來、專指編碼錯亂亂碼的術語,工程圈通用);口語也可說 **\"the characters are messed up\"**。\n- **「看起來是成功了」** = **\"it looks like it worked\"** 或 **\"it seems to have worked\"**;`it worked` 比 `it succeeded` 更自然口語。\n- 若要精確表達「亂碼只是顯示問題、不影響結果」:**\"It's just a display/encoding issue — the result is fine.\"**\n\n一句流利的整合說法:**\"There's some mojibake in the console output, but the push went through fine.\"**(went through = 順利完成,很道地)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1f862c9f7351",
+      "date": "20260709",
+      "front": "\"more interactive\"",
+      "body": "你這次是用中文描述需求，以下提供自然的英文說法，並解說語感：\n\n> I'd like to move the \"processing history\" and \"reply\" section to the right side and design it like a chat room — it feels more modern and interactive.\n\n語感補充：\n- 「感覺比較有互動感」用 **\"more interactive\"** 最精準；口語也可說 **\"feels more engaging\"**（engaging＝吸引人投入的）。\n- 「新穎」除了 modern，也可用 **\"fresh\"** 或 **\"novel\"**；但 novel 偏書面、略正式，日常對話用 modern／fresh 更自然。\n- 「專注在該 issue 上」= **\"stay focused on that issue\"**，focus on 後面直接接名詞即可。\n\n如果要跟同事快速說明這個設計動機，可以說：**\"Threading the replies as a chat keeps the conversation in one place, so users can respond right where the engineer asks.\"**（把回覆串成聊天，讓對話集中在一處）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "158be739b119",
+      "date": "20260709",
+      "front": "\"commit and push and merge\"",
+      "body": "這則你用了三個簡潔的英文動詞指令：**\"commit and push and merge\"** —— 完全正確、道地，工程師之間就是這樣講。\n\n一個小小的自然度提升：連續三個動作時，英文通常最後一個才用 and，中間用逗號：\n\n> **\"commit, push, and merge\"**\n\n這個結尾的 and 前面加逗號叫 **Oxford comma（牛津逗號）**，在列舉時能讓語意更清楚，技術文件很常用。\n\n小提醒：你這三個字都是 Git 的標準動詞，直接當指令講完全沒問題。若想更完整地表達「幫我提交、推送並合併回主幹」，可以說：*\"Commit these changes, push the branch, and merge it into master.\"*（把變更提交、推送分支、再併回 master）——這樣把每個動作的受詞講清楚，在跨團隊溝通時更不會有歧義。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "0ddbe4bea416",
+      "date": "20260709",
+      "front": "\"Go ahead and fix them all.\"",
+      "body": "這則你用了很簡潔的中文「全部都改好了」。若要在工作中用英文表達「全部都改好了（請動手）」這種指令，最自然的說法是：\n\n> **\"Go ahead and fix them all.\"**\n\n如果是回報「都改好了」的完成狀態，則說：\n\n> **\"They're all fixed / All done.\"**\n\n小提醒：中文的「改好了」在英文要看語境分兩種 —— **指令**用原形動詞 `fix them all`，**回報完成**用被動或完成式 `they're all fixed` / `all done`。這次你的「全部都改好了」其實兩種都能解讀，所以我先跟你確認了 i18n 的範圍才動手，避免會錯意。這種「確認範圍再執行」在英文團隊也很受用，可以說：*\"Just to confirm the scope before I start...\"*（在開始前先確認範圍）。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "07ed564ed459",
+      "date": "20260709",
+      "front": "\"add a rule\"",
+      "body": "你這句 **「請你把本次 title 有 \"@\" 的問題寫入 claude 規則中，避免之後 commit 時又失誤」** 是中文,提供自然英文與語感:\n\n> Please add a rule to Claude about the \"@\" appearing in the commit title, so this mistake doesn't happen again.\n\n用詞補充:\n- 「寫入規則中」用 **\"add a rule\"** 或 **\"document a rule\"** 最自然;若強調寫進設定檔:**\"add this to the commit guidelines.\"**\n- 「避免之後又失誤」= **\"so it doesn't happen again\"** 或 **\"to prevent this from recurring\"**(recur = 再次發生,較正式)。\n- 「失誤」動詞可用 **\"slip up\"**(口語,小失誤):**\"so I don't slip up again on commits.\"**\n\n一句道地的整合說法:**\"Please document a rule about the stray '@' in the commit title so we don't run into it again.\"**(run into = 遇到某問題,很常用)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "d628fd2c85c6",
       "date": "20260708",
       "front": "\"clash with ...\"",
