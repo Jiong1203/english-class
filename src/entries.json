@@ -1,6 +1,159 @@
 {
   "entries": [
     {
+      "id": "ff8bc942ed42",
+      "date": "20260710",
+      "front": "\"I forgot to update...\"",
+      "body": "「url忘了改，我手動改了，再 commit and push 一次」的自然英文說法：\n\n> I forgot to update the URL — I've fixed it manually, so please commit and push again.\n\n- **\"I forgot to update...\"** 用過去式表達「先前漏做的動作」，比 \"I forget\" 正確（forget 是現在式）。\n- **\"I've fixed it manually\"** 用現在完成式，強調「動作已完成、結果現在有效」——這正是「我已經改好了」最貼切的時態。\n- 承接前文時，句尾的 **\"again\"** 就足以表達「再一次」，很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e6ff8c31b12f",
+      "date": "20260710",
+      "front": "\"Go ahead with the original plan.\"",
+      "body": "你這句「照原計畫繼續」簡潔明確，很好。對應的自然英文：\n\n> *\"Go ahead with the original plan.\"* 或 *\"Continue as planned.\"*\n\n用字說明（zh-tw）：\n- **「照原計畫」**最道地的固定說法是 *as planned*（*\"Let's proceed as planned.\"*）；*as originally planned* 則更強調「原本的」那份計畫。\n- **「繼續」**在這種「批准後往下做」的情境，*go ahead* 比 *continue* 更能傳達「放行、動手吧」的語氣，例如 *\"Go ahead.\"* 本身就是一句完整的許可。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e591e91f259f",
+      "date": "20260710",
+      "front": "\"You've been stuck for a while — can you check what you're doing?\"",
+      "body": "你這句「你卡的有點久，請確認一下你在幹嘛」很口語、很自然。幫你對應道地的英文說法：\n\n> *\"You've been stuck for a while — can you check what you're doing?\"*\n\n用字說明（zh-tw）：\n- **「卡住」**在技術情境用 *stuck* 最貼切；若指程式當掉沒回應，也可說 *hang / hung*（*\"the process is hanging\"*）。\n- **「你在幹嘛」**這種帶點催促的語氣，英文可用 *\"what are you up to?\"* 或 *\"what's going on?\"*，比直譯 *\"what are you doing\"* 更能傳達你「想確認狀況」的口吻。\n- 更工程口語的講法：*\"You've gone quiet for a bit — what's the status?\"*（你安靜了一陣子，現在狀況如何？）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e13828d58f91",
+      "date": "20260710",
+      "front": "\"Please commit and push\"",
+      "body": "這次你的指令 **\"Please commit and push\"** 非常標準、道地——簡潔的祈使句加上 \"Please\" 就是最自然的技術請求說法，沒有需要修正的地方。👍\n\n補充一個小擴充：若想明確指定分支，母語者常說：\n\n> Please commit these changes and push them to `main`.\n\n- 用 **\"push them to \\<branch\\>\"** 可以避免歧義，在多分支協作時特別實用。\n- 另外 **\"commit\"** 當動詞時，受詞通常是「變更」而非「檔案」，例如 \"commit the changes / commit my work\"，比 \"commit the files\" 更貼近工程師的口語習慣。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "d4caf97c780e",
+      "date": "20260710",
+      "front": "\"goes through N statuses\"",
+      "body": "這則你全程用中文，我幫你把核心那句轉成自然的英文，並補充幾個實用詞：\n\n> 「我們來討論一下問題列表的優化。目前一個 issue 會經歷 4 種狀態…若使用者驗證失敗，狀態是不是要跳回待處理或處理中？」\n\n自然英文：\n- *\"Let's discuss how to improve the issue list. Right now an issue goes through four statuses… If the user's verification fails, should the status roll back to 'Open' or 'In Progress'?\"*\n\n用字說明（zh-tw）：\n- **「經歷 N 種狀態」**用 *\"goes through N statuses\"* 最道地；狀態流轉的動詞常用 *transition*（名詞 *status transition* = 狀態轉換）。\n- **「跳回 / 退回」**在流程情境用 *roll back to* 或 *revert to* 最精準；口語也可用 *go back to*。\n- 幾個這主題的關鍵術語，之後跟工程師討論會很常用：**verify / verification（驗證）**、**reopen（重新開啟）**、**auto-close（自動結案）**、**assignee（處理人 / 受指派人）**、**reporter（回報者）**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b6c0fad7c449",
+      "date": "20260710",
+      "front": "\"commit and push\"",
+      "body": "這則你用的是簡短指令 *\"commit and push\"*：\n\n- 這是最標準、最道地的 Git 操作講法，完全正確、無可挑剔 👍。動詞用祈使句直接下命令，在工程情境中就是這樣講的。\n- 補充一個可擴充的說法：如果想更精確地表達「把這次的變更提交並推上去」，可以說 *\"commit these changes and push to master\"* 或 *\"commit and push to origin\"*，多了受詞與目標，指令更明確。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "b5ad785d92f8",
+      "date": "20260710",
+      "front": "\"the same change\"",
+      "body": "這次你用了中文加「同理」——幫你補上自然的英文說法：\n\n> `dist\\to83\\application.properties` needs the same change — please commit and push it too.\n\n- **\"the same change\"** 或 **\"the same treatment / likewise\"** 都能表達「同理、比照辦理」。口語上工程師也常直接說 **\"same for `dist\\to83\\...`\"**——簡短但母語者完全能懂。\n- 句尾的 **\"too\"** 呼應前一次的提交，讓語意連貫，是很自然的收尾。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a4ee828e16c4",
+      "date": "20260710",
+      "front": "\"No, let's keep it simple for now — just the one-way 'Resolved → notify the reporter' flow.\"",
+      "body": "這則你用簡短條列中文拍板，清楚俐落。幫你把第 2 點轉成自然英文：\n\n> 「不要，先單純只做『已解決→通知回報者』單向就好。」\n\n自然英文：\n- *\"No, let's keep it simple for now — just the one-way 'Resolved → notify the reporter' flow.\"*\n\n用字說明（zh-tw）：\n- **「單向」**在通知情境用 *one-way* 最貼切（相對 *two-way* 雙向）；也可說 *one-directional*，但 *one-way* 更口語自然。\n- **「先單純只做…就好」**用 *\"let's just do... for now\"* 或 *\"let's keep it to just... for now\"*；*for now* 精準表達「目前先這樣、保留日後擴充」的語氣，跟你的原意完全吻合。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a4571b463058",
+      "date": "20260710",
+      "front": "\"Between `src/layout/components` and `src/views/core`, would either be a good place to put it? Also, could you explain what these two directories are for?\"",
+      "body": "這則你也是用中文提問，我幫你準備一個自然的英文說法：\n\n> 「`src/layout/components` 和 `src/views/core` 這兩個，會有其中一個適合存放嗎？順便說明這兩個目錄。」\n\n自然英文：\n- *\"Between `src/layout/components` and `src/views/core`, would either be a good place to put it? Also, could you explain what these two directories are for?\"*\n\n用字說明（zh-tw）：\n- **「會有其中一個適合嗎」**用 *\"would either be a good place\"* 最順；`either` 本身就含「兩者之中任一」的意思，不用寫成 *\"one of these two\"* 那麼冗長。\n- **「說明一下這兩個目錄」**用 *\"explain what these directories are for\"*（說明用途）比單純 *\"explain these directories\"* 更精準，因為你真正想問的是它們的**定位/用途**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a02677da190f",
+      "date": "20260710",
+      "front": "\"Please stop dev server now.\"",
+      "body": "你這次的指令 **\"Please stop dev server now.\"** 完全正確、清楚又道地 👍。這是很標準的祈使句(imperative),用 `Please` 開頭讓語氣禮貌又明確。\n\n給你一個小小的擴充,讓表達更自然多元:\n- 同義說法:**\"Could you shut down the dev server now?\"**(`shut down` 是關閉伺服器/程式常用的動詞片語,比 `stop` 更貼近「關掉整個服務」的語感)\n- 若想表達「先暫時關著」:**\"Let's keep the dev server off for now.\"**(`keep ... off` = 維持關閉狀態)\n\n小提醒(zh-tw):`stop` 和 `shut down` 在這個情境幾乎可互換,`stop` 偏「停止執行中的動作」,`shut down` 偏「完整關閉整個程式/服務」,兩者用在這裡都很自然,不用擔心用錯。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "93343eceb33c",
+      "date": "20260710",
+      "front": "\"Sounds like the original naming works fine, so let's just keep it as is.\"",
+      "body": "這則你用條列中文回覆，很清楚。我幫你把其中一句轉成自然英文並補充說法：\n\n> 「聽起來按照原本的命名好像也可以，那就不改了。」\n\n自然英文：\n- *\"Sounds like the original naming works fine, so let's just keep it as is.\"*\n\n用字說明（zh-tw）：\n- **「那就不改了」**用 *\"let's keep it as is\"* 或 *\"let's leave it as is\"* 最道地；*as is* 是固定用法，意思是「維持原樣、不動它」。\n- **「做 A 即可」**這種拍板語氣，英文常說 *\"Let's just go with A.\"* — *just* 帶出「就這個、不用多想」的簡潔決定感。\n- **「之後有需要再說」**很實用的一句，可說 *\"We can revisit it later if needed.\"*（*revisit* = 之後再回頭處理），比直譯 *\"talk about it later\"* 更專業。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8161e2ae616e",
+      "date": "20260710",
+      "front": "\"I'm wondering if we could move IssueReport to a shared/common components location, so it's not confined to the EZoMD module.\"",
+      "body": "這則你是用中文溝通的，依照慣例我幫你附上自然的英文說法：\n\n> 「我在想是不是可以把 IssueReport 移到通用元件的地方存放，而不限於在 EZoMD 模組內。」\n\n自然英文：\n- *\"I'm wondering if we could move IssueReport to a shared/common components location, so it's not confined to the EZoMD module.\"*\n\n用字說明（zh-tw）：\n- **通用元件**在前端語境用 *shared components* 或 *common components* 最貼切；若強調「可跨模組重用」也可說 *reusable components*。\n- **不限於……模組內**用 *not confined to...* 或 *not tied to...* 比直譯 *not limited in...* 更道地，*confined/tied to* 帶有「被綁死在某處」的語感，正好符合你的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7f41c5a37914",
+      "date": "20260710",
+      "front": "\"leave off\"",
+      "body": "你這次用了「剛剛做到哪?」的中文提問，這裡幫你補上自然的英文說法：\n\n> Where did we leave off? / What was I working on just now?\n\n- **\"leave off\"** 是這個情境最道地的片語動詞，專指「（工作/閱讀）中斷的那個點」，比直譯的 \"Where did I do to?\"（文法不通）自然很多。\n- 若想更口語，也可說 **\"Where were we?\"**（我們剛講到哪了？）——開會或討論被打斷後回來時最常用。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "77d34d6bdfa4",
+      "date": "20260710",
+      "front": "\"I'll go with option B then.\"",
+      "body": "這則你用中文「那我選擇 B 好了」，自然的英文說法：\n\n> *\"I'll go with option B then.\"*\n\n用字說明（zh-tw）：\n- **「選擇 B」**口語上用 *\"go with B\"* 比 *\"choose B\"* 更道地、更輕鬆，*go with* 帶有「就這麼定了、採用這個」的決定語氣。\n- 句尾的 **「好了」** 那種「拍板」的語感，用句末的 *then* 來對應最貼切（*\"...option B then.\"*），表示「經過考慮後就這樣決定」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5532cbb5ddfd",
+      "date": "20260710",
+      "front": "\"It automatically strips the type prefix (feat/fix/…) from each commit message.\"",
+      "body": "你這次的訊息主要是中文加上檔案路徑,我幫你把這次任務的關鍵句整理成道地英文,方便你日後跟同事說明這個工具:\n\n- 「自動去掉 commit 的 type 前綴」→ **\"It automatically strips the type prefix (feat/fix/…) from each commit message.\"**\n  - `strip ... from ...` 是「從…去除…」最自然的動詞(比 remove 更口語精準)。\n- 「一鍵匯出成原本的格式」→ **\"Export to the original format with one click.\"**\n  - `with one click` = 一鍵;`one-click export`(當形容詞)也很常見,如 \"a one-click export\"。\n- 「往返驗證/來回轉換一致」→ **\"round-trip\"**(名詞/形容詞),如 \"The import/export round-trip is lossless.\"(匯入匯出來回無損)。`lossless` = 無損,技術文件很好用。\n\n小提醒(zh-tw):你先前寫的「先緩緩」很道地,對應英文可說 **\"let's hold off on the weekly report for now\"**(`hold off on X` = 暫緩處理 X),這個片語在工作溝通中很實用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "482631d863b2",
+      "date": "20260710",
+      "front": "\"Help me get this onto GitLab first.\"",
+      "body": "你這次的中文指令「先幫我弄上 gitlab」很口語自然。對應的道地英文可以這樣說:\n\n- 直譯自然版:**\"Help me get this onto GitLab first.\"**(`get something onto ...` = 把某物弄上某平台,很口語)\n- 更技術的說法:**\"Push this project to GitLab for me.\"** 或 **\"Set up a GitLab remote and push the initial commit.\"**\n- 關鍵詞:**push**(推送)、**remote**(遠端)、**initial commit**(初始提交)、**track**(建立追蹤關係,如 \"the branch now tracks origin/main\")\n\n小提醒(zh-tw):中文的「弄上 gitlab」很傳神,但英文沒有直接對應「弄」的字;依情境用 **get ... onto / push ... to / upload ... to** 會更精準。工程情境最常用的是 **push to**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2adf0644e152",
+      "date": "20260710",
+      "front": "\"It uses AI to turn technical daily logs into a plain-language weekly report that managers can easily understand.\"",
+      "body": "你這幾則都是用中文溝通,所以這裡幫你把這次專案最常用的一句話整理成道地英文,方便你日後跟同事或英文文件描述這個系統:\n\n- 「把技術日誌用 AI 轉成主管看得懂的白話週報」→ **\"It uses AI to turn technical daily logs into a plain-language weekly report that managers can easily understand.\"**\n  - 關鍵詞:**turn A into B**(把 A 變成 B)、**plain-language**(白話的,當形容詞用連字號)、**managers can understand**(主管看得懂)。\n- 「這是我的 side project」是完全道地的說法,可以放心用;更正式一點可說 **\"a personal project\"**。\n\n小提醒(zh-tw):「重0開始」這類諧音寫法聊天很生動,但正式技術文件建議寫「從零開始(from scratch)」,語氣會更專業。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ecc2336b15ad",
       "date": "20260709",
       "front": "\"Let's finish committing first, then move on to #12.\"",
