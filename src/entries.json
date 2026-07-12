@@ -1,10 +1,46 @@
 {
   "entries": [
     {
+      "id": "c00b7c6a8487",
+      "date": "20260712",
+      "front": "\"What happens if…\"",
+      "body": "你這次又是用中文提問,我幫你把這個很到位的技術提問轉成自然英文,這種「邊界條件/ 權限」的問法在 code review 很值錢:\n\n> \"What happens if a member doesn't have permission to view `/records`?\"\n\n或更精準地點出隱憂:\n> \"Where does a member without access to `/records` end up after clicking Close?\"\n\n用字重點:\n- 「會變成怎樣」用 **\"What happens if…\"** 最自然,不要直譯成 \"What will it become\"。\n- 詢問使用者最後停在哪一頁,英文常用 **\"where does the user end up\"**(end up = 最終落在某處),很道地。\n\n這種主動追問邊界情境(edge case)的習慣非常好 —— 這正是資深工程師 review 時最看重的能力。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ae4846a42b3d",
+      "date": "20260712",
+      "front": "\"nothing happens\"",
+      "body": "你這次是用中文下指令,我幫你把核心需求轉成自然的英文說法,方便日後直接對工程師或在 issue 中使用:\n\n> \"On every frontend page that has a **Close** button, clicking it should close the page, but right now nothing happens when I click it.\"\n\n幾個用字重點:\n- 「沒有反應」在工程語境最自然的說法是 **\"nothing happens\"** 或 **\"it doesn't do anything\"**,比直譯的 \"no response\"(那比較像 API 沒回應)更貼切。\n- 「按下按鈕」用 **\"click the button\"**(桌機/網頁)或 **\"tap the button\"**(手機),不要用 \"press\",press 多用於實體按鍵。\n\n延伸一個好用句型,回報 bug 時很常用:\n> \"It's supposed to **X**, but instead it **Y**.\" (它應該要 X,結果卻 Y。)",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "a26e6cff4032",
       "date": "20260712",
       "front": "\"The DB writes are negligible; the real bottleneck is the **push notification quota**, not the group creation itself.\"",
       "body": "你這輪同樣是全中文提問,沒有需要更正的英文。補充一個這主題的高頻工程用語,方便你評估負載時使用:\n\n> \"The DB writes are negligible; the real bottleneck is the **push notification quota**, not the group creation itself.\"\n\n- **negligible**（形容詞）:小到可忽略,講效能/負載時比 \"very small\" 更專業精準,例如 \"the overhead is negligible\"。\n- **bottleneck**（名詞）:瓶頸,指系統中限制整體吞吐的那一環——正是你這個問題的核心詞。\n- **thundering herd**:一個實用的行話,專指「大量請求/工作在同一瞬間湧入」的尖峰現象,在排程與快取設計中很常被提到。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "98ad78a2b1f3",
+      "date": "20260712",
+      "front": "\"feel weird\"",
+      "body": "你這次的指令「修正! 不然 MEMBER 會覺得很怪」很口語、很傳神,我幫你轉成工程情境的自然英文:\n\n> \"Let's fix it — otherwise it'll feel weird / confusing for members.\"\n\n用字重點:\n- 「覺得很怪」在 UX 語境最自然的是 **\"feel weird\"**(體感怪)或更精準的 **\"feel confusing\"**(令人困惑)。若要更專業一點,可說 **\"it's a confusing experience for members\"**。\n- 「不然」用 **\"otherwise\"** 最直接,口語也常用 **\"or else\"**。\n\n一個 UX 情境常用的加強說法:\n> \"This would leave members at a dead end.\" (這會讓成員卡在死路。)—— dead end 這個詞精準描述「走到底卻無路可走」的頁面,很適合這種情況。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "07c48a8bd2d5",
+      "date": "20260712",
+      "front": "\"merge the fix into dev\"",
+      "body": "你這次用「commit & push & merge」這種指令式簡寫,在開發情境中完全通用、清楚明瞭 —— 工程師之間就是這樣溝通的,用 `&` 串連動作很自然。\n\n若要在文件或對話中講得更完整一點,可以說:\n\n> \"Commit the changes, push the branch, then merge it into `dev`.\"\n\n一個小語感補充:\n- **merge into**(合併「進」某分支)介系詞用 **into**,不要用 \"merge to\"。例:*\"merge the fix into dev\"*。\n- 相對地,**push to**(推送「到」遠端)用 **to**。例:*\"push to origin\"*。\n\n這兩個介系詞(into vs. to)是台灣工程師常混用的地方,你可以特別留意一下。",
       "tags": [
         "note"
       ]
