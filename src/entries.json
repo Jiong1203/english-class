@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "a26e6cff4032",
+      "date": "20260712",
+      "front": "\"The DB writes are negligible; the real bottleneck is the **push notification quota**, not the group creation itself.\"",
+      "body": "你這輪同樣是全中文提問,沒有需要更正的英文。補充一個這主題的高頻工程用語,方便你評估負載時使用:\n\n> \"The DB writes are negligible; the real bottleneck is the **push notification quota**, not the group creation itself.\"\n\n- **negligible**（形容詞）:小到可忽略,講效能/負載時比 \"very small\" 更專業精準,例如 \"the overhead is negligible\"。\n- **bottleneck**（名詞）:瓶頸,指系統中限制整體吞吐的那一環——正是你這個問題的核心詞。\n- **thundering herd**:一個實用的行話,專指「大量請求/工作在同一瞬間湧入」的尖峰現象,在排程與快取設計中很常被提到。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ff8bc942ed42",
       "date": "20260710",
       "front": "\"I forgot to update...\"",
