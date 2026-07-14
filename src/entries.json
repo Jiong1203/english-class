@@ -10,6 +10,15 @@
       ]
     },
     {
+      "id": "f4a3966d3b19",
+      "date": "20260714",
+      "front": "\"Can you polish the UI of the filter section?\"",
+      "body": "你這則「篩選區塊的 UI 請幫忙優化一下」是簡潔的中文指令，對應自然英文：\n\n> \"Can you polish the UI of the filter section?\" / \"Please clean up the filter panel's layout.\"\n\n小提醒：「優化 UI」在英文語境，**polish**（打磨、精修）或 **clean up / tidy up**（整理）比直譯的 `optimize` 更貼切——`optimize` 在工程裡多指「效能最佳化」（optimize performance），描述視覺調整用 polish/refine 較不會誤會。例如：\n\n> \"The filter panel needs some polish — let's group it into a card.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "eff859686745",
       "date": "20260714",
       "front": "\"get mentioned\"",
@@ -28,6 +37,15 @@
       ]
     },
     {
+      "id": "df44e9b298e9",
+      "date": "20260714",
+      "front": "\"switch to\"",
+      "body": "「切回 dev」是簡短指令，對應自然英文：\n\n> \"Switch back to `dev`.\" / \"Check out `dev` again.\"\n\n小提醒：Git 語境切換分支的動詞，**\"switch to\"**（Git 2.23+ 有 `git switch` 指令）和 **\"check out\"**（傳統 `git checkout`）都通用且道地。你想強調「切回原本的」可加 **back**：「switch back to dev」，語感完全正確。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
       "id": "dda7480630d8",
       "date": "20260714",
       "front": "你寫的 `#1 驗證 ok` 混用了中英，口語溝通完全沒問題；若要寫得更完整，動詞用被動 **is verified**（「已被驗證過」）比 `verification ok` 更像母語者說法。",
@@ -43,6 +61,15 @@
       "date": "20260714",
       "front": "\"This is a blocking issue\"",
       "body": "這次是系統回報,你沒有輸入英文句子。補一個 code review 情境的高頻表達:當你想描述「這個 bug 合併前一定要修」,英文最道地的講法是 **\"This is a blocking issue\"** 或 **\"a blocker\"**;反之可先放著的則說 **\"non-blocking\"** 或 **\"a nice-to-have\"**。例句:**\"Finding #1 is a blocker; the cleanup items are non-blocking.\"** 這組對比在團隊分優先序時非常好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ce0dfe80800f",
+      "date": "20260714",
+      "front": "\"Let's push this to `dev` and deploy it to the staging server.\"",
+      "body": "你這次是用中文下指令（「那先上到 dev 跟部署到測試機好了」），提供自然英文說法：\n\n> \"Let's push this to `dev` and deploy it to the staging server.\"\n\n小提醒：中文的「測試機」在英文團隊語境通常說 **staging** 或 **the staging environment/server**，比直譯的 `test machine` 更道地。若特指開發用的環境也可說 **the dev environment**。而「部署」動詞用 **deploy** 最標準：\n\n> \"Once the build passes, click the manual deploy job to ship it to staging.\"\n\n（`ship` 在工程口語 = 發佈/上線，很常見的動詞。）",
       "tags": [
         "note"
       ]
@@ -102,6 +129,24 @@
       ]
     },
     {
+      "id": "8226785e0e54",
+      "date": "20260714",
+      "front": "\"Hold on\"",
+      "body": "你這則用中文夾雜提問，其中「你幫忙改一下名吧」很口語，提供對應的自然英文：\n\n> \"Hold on — the latest one on origin is `dev-v0.0.24`, right? So it should be `dev-v0.0.25`. Can you rename it?\"\n\n小提醒：糾正對方時，開頭用 **\"Hold on\"** 或 **\"Wait\"** 都很自然（你想表達的「等等!」）。而「幫忙改一下名」若嚴格說其實是「刪掉重開」，英文可精準說 **\"recreate it with the right name\"** 或 **\"rename the branch\"**——不過 Git 分支沒有真正的 rename，實務上就是 delete + recreate，所以說 **\"Can you fix the branch name?\"** 最省事又不失精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7fb275c4f0c1",
+      "date": "20260714",
+      "front": "你這次是用中文說明需求，我提供一個自然的英文說法供你參考：",
+      "body": "你這次是用中文說明需求，我提供一個自然的英文說法供你參考：\n\n> \"Since this section is mainly for OWNERs, and an OWNER may have multiple groups, I think the records page should first list all of the OWNER's groups. After selecting one, it should go into that group's dedicated records view.\"\n\n小提醒：中文的「介面」在這個情境用 **view**（畫面/視圖）或 **screen** 會比 `interface` 更自然 —— `interface` 在工程語境常指 API 介面或 TypeScript 的 `interface`，容易混淆。描述使用者看到的畫面時，`view` / `screen` / `page` 都更貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "7326684d78b0",
       "date": "20260714",
       "front": "\"Here we need the actual binding count, so it should bypass the permission check just like the admin/ICSC01 account does.\"",
@@ -138,6 +183,15 @@
       ]
     },
     {
+      "id": "5d20a137c4b7",
+      "date": "20260714",
+      "front": "\"Please deploy this to prod.\"",
+      "body": "你這則「請 deploy 上 prod」中英夾雜，意思清楚。純英文的自然說法：\n\n> \"Please deploy this to prod.\" / \"Let's ship this to production.\"\n\n小提醒：「上 prod」的「上」在英文用 **deploy to** / **ship to** / **release to** 都對；環境名稱口語常簡稱 **prod**，正式文件才寫全稱 **production**。若想強調「發佈正式版」可說：\n\n> \"Please cut a production release.\" （cut a release = 發佈一個版本，工程慣用語）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5b5e17fe3b3b",
       "date": "20260714",
       "front": "\"You can merge now.\"",
@@ -165,6 +219,24 @@
       ]
     },
     {
+      "id": "516abe907920",
+      "date": "20260714",
+      "front": "\"Approved, go ahead.\"",
+      "body": "你這次的回覆是中英夾雜的簡短指令（「Only OWNER」「清掉」「approved」），都清楚無誤。補充一個小地方：確認核准時，除了 `approved`，這些說法在工程情境也很自然且更明確：\n\n> \"Approved, go ahead.\" / \"Looks good, please proceed.\" / \"LGTM\"（Looks Good To Me，code review 常見縮寫）\n\n其中 **LGTM** 在 PR review 特別常用，你之後在 review 別人程式碼時可以直接用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4e690f72723f",
+      "date": "20260714",
+      "front": "\"ship it\"",
+      "body": "你這則「Deploy please」簡潔明確，完全正確、很道地——工程情境下這樣下指令剛剛好。補充一個小擴充，若想更精確指定環境：\n\n> \"Please deploy this to staging.\" / \"Ship it to dev, please.\"\n\n小提醒：「please」放句尾（\"Deploy please\"）在口語與團隊聊天中很自然；若要稍微正式一點可放句首：「Please deploy the latest to the dev environment.」兩種都對。而 **\"ship it\"** 是工程圈很常見的「發佈上線」口語，語氣輕鬆又道地。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
       "id": "4e4e02c9831c",
       "date": "20260714",
       "front": "\"I suspect this is also related to the ACL permission check — is that right?\"",
@@ -187,6 +259,24 @@
       "date": "20260714",
       "front": "您這次用中文下指令「幫我整理」，我幫您準備幾個常見的英文說法：",
       "body": "您這次用中文下指令「幫我整理」，我幫您準備幾個常見的英文說法：\n\n> 幫我整理（這封信 / 這則需求）\n>\n> - Help me organize this. （整理、歸納）\n> - Help me sort this out. （釐清、處理好）\n> - Can you summarize this for me? （幫我摘要）\n\n**用字說明：**\n- 「整理成清單」可說 **organize this into the list** 或 **log this as a new item**（log 當動詞有「記錄下來」的意思，很適合這種待辦追蹤情境）。\n- 若指「把雜亂的東西弄清楚」，**sort out** 比 organize 更口語，例如 *Let me sort out these permission codes first.*\n- 信件開頭的「炯文好」對應英文商務問候可用 **Hi Jiong-wen,**（英文信習慣用逗號，不用冒號）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "403b4af32fba",
+      "date": "20260714",
+      "front": "\"git branchs\"",
+      "body": "這則是用中文下的指令,以下提供你可能會用到的英文說法,並補充語感:\n\n> Help me write a skill to clean up git branches.\n\n- 「清理分支」用 **clean up** 最自然(片語動詞,語氣輕鬆);若想更技術一點可用 **prune branches**(`prune` 正是 git 的術語,如 `git fetch --prune`)。\n- 「分支越開越多」可以說 **branches keep piling up**(`pile up` = 不斷堆積),或 **branches accumulate over time**(較正式)。\n- 「一個一個點很耗時」→ **Deleting them one by one is time-consuming.**(`one by one` = 一個一個地;`time-consuming` = 耗時的形容詞)\n\n用 branch 複數時記得是 **branches**(字尾 `-ch` 加 `-es`),你原句寫的 \"git branchs\" 少了一個 `e`,正確拼法是 **branches**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "31964b3228f4",
+      "date": "20260714",
+      "front": "\"Please make the group stats and ranking collapsible to save vertical space.\"",
+      "body": "你這則「請提供收折功能，這樣可以減少版面佔據空間」需求描述清楚。對應的自然英文：\n\n> \"Please make the group stats and ranking collapsible to save vertical space.\"\n\n小提醒：「收折 / 收合」в UI 語境的標準英文是 **collapsible**（可收合的）、動詞 **collapse / expand**（收合／展開），或 **fold / unfold**。而「佔據版面空間」最常說 **take up space** 或 **save (vertical) space**：\n\n> \"Making these sections collapsible frees up a lot of vertical space.\"\n\n（`free up space` = 釋出空間，很道地的說法。）",
       "tags": [
         "note"
       ]
@@ -223,6 +313,15 @@
       "date": "20260714",
       "front": "\"So the login page won't show [object Object] to users anymore, right?\"",
       "body": "你這句問話寫成英文會是:\n\n- **\"So the login page won't show [object Object] to users anymore, right?\"**\n\n你用中文的「對嗎?」對應英文最自然的就是句尾加 **\", right?\"** 或 **\", correct?\"**(tag question,用來尋求確認)。更正式一點可說 **\"Can you confirm the login page no longer shows [object Object] to users?\"**。\n\n一個實用細節:「不會再…了」的「再」在英文用 **anymore**(句尾)或 **no longer**(動詞前):\n- 口語:**\"It won't show up anymore.\"**\n- 正式:**\"It no longer shows up.\"**\n\n兩個都很常用,挑順口的即可。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "18cc28869e19",
+      "date": "20260714",
+      "front": "\"a dev-only artifact\"",
+      "body": "你這則是用中文提問，提供自然的英文說法：\n\n> \"Why does it show '僅限主辦人檢視' (Owners only) here after I select a group?\"\n\n小提醒：描述這種「本地開發才會出現、正式環境不會」的現象，英文常用 **\"a dev-only artifact\"** 或 **\"it only repros in the dev bypass\"**（repro = reproduce，工程口語常縮寫）。例如：\n\n> \"This is a dev-only artifact — the stats endpoint 403s because the dev bypass never gets a JWT.\"\n\n`403s` 這種把 HTTP 狀態碼當動詞用（\"it 403s\", \"it 401s\"）在工程對話很常見，簡潔又精準。",
       "tags": [
         "note"
       ]
