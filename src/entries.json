@@ -1,6 +1,242 @@
 {
   "entries": [
     {
+      "id": "f8fd008ca001",
+      "date": "20260714",
+      "front": "您這次是中文陳述（標記某項目完成），我幫您準備一個工作情境常用的英文說法：",
+      "body": "您這次是中文陳述（標記某項目完成），我幫您準備一個工作情境常用的英文說法：\n\n> 「提供查詢各權限碼底下有哪些資料集」的功能已完成。\n>\n> The feature for querying which datasets exist under each permission code has been completed.\n\n**用字說明：**\n- 「功能已完成」在開發情境常說 **the feature is done / has been completed / is now live**（若已上線可用 live）。\n- 「查詢…的功能」用 **the feature for querying...** 或 **the query feature for...**，介系詞 for 後接動名詞 querying。\n- 「各權限碼底下」用 **under each permission code**（under 表示層級隸屬關係，很貼切）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "eff859686745",
+      "date": "20260714",
+      "front": "\"get mentioned\"",
+      "body": "這次你依舊是用中文交辦。整理成一句自然的英文,方便你日後描述這個功能:\n\n- **\"Add an @mention feature to the reply box in the issue list. When someone gets mentioned, email them — and I'm wondering whether we should also pop a notification up top.\"**\n\n幾個實用重點:\n- 「被 @ 到」被動語態用 **\"get mentioned\"** 或 **\"be tagged\"** 最自然。\n- 「站內通知的鈴鐺」= **notification bell**;「跳紅點」工程師口語常說 **\"show a red dot / badge\"**。\n- 「零 DB 變更」在技術討論裡可說 **\"no schema change / no DB migration needed\"**——`migration` 是資料庫結構變更的標準術語,很值得記起來。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "e5404f2b5931",
+      "date": "20260714",
+      "front": "\"Done!\"",
+      "body": "您這次用中文溝通，我幫您準備一個自然的英文說法：\n\n> gitlab issue 也幫關了，但關之前先留言個 \"Done!\"\n>\n> Please close the GitLab issue too, but leave a \"Done!\" comment before closing it.\n\n**用字說明：**\n- 「關閉 issue」道地說法是 **close the issue**（動詞用 close，不用 shut）。\n- 「留言」在 GitLab / GitHub 情境用 **leave a comment** 或 **post a comment** 最自然。\n- 「關之前」用 **before closing it**，這裡 closing 是動名詞（介系詞 before 後接動名詞），語感比 before you close 更精簡。\n- 一個進階說法：若想強調順序，可用 **but comment \"Done!\" first, then close it.**（先…再…用 first, then 串接，口語又清楚）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dda7480630d8",
+      "date": "20260714",
+      "front": "你寫的 `#1 驗證 ok` 混用了中英，口語溝通完全沒問題；若要寫得更完整，動詞用被動 **is verified**（「已被驗證過」）比 `verification ok` 更像母語者說法。",
+      "body": "這則你用中文為主，我幫你把這次的操作指令轉成自然的英文，方便日後在英文環境下對 AI 或同事下指令：\n\n- 「#1 驗證 ok, please commit and push」\n  → *\"#1 is verified. Please commit and push it.\"*\n\n小提醒（nuance）：\n- 你寫的 `#1 驗證 ok` 混用了中英，口語溝通完全沒問題；若要寫得更完整，動詞用被動 **is verified**（「已被驗證過」）比 `verification ok` 更像母語者說法。\n- `commit and push` 這兩個 Git 動詞你用得完全正確 👍，它們在英文技術語境本來就直接當動詞用（to commit、to push），不需要多加介係詞。",
+      "tags": [
+        "praise",
+        "grammar",
+        "nuance"
+      ]
+    },
+    {
+      "id": "cf68d01b5767",
+      "date": "20260714",
+      "front": "\"This is a blocking issue\"",
+      "body": "這次是系統回報,你沒有輸入英文句子。補一個 code review 情境的高頻表達:當你想描述「這個 bug 合併前一定要修」,英文最道地的講法是 **\"This is a blocking issue\"** 或 **\"a blocker\"**;反之可先放著的則說 **\"non-blocking\"** 或 **\"a nice-to-have\"**。例句:**\"Finding #1 is a blocker; the cleanup items are non-blocking.\"** 這組對比在團隊分優先序時非常好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c8123d975731",
+      "date": "20260714",
+      "front": "\"The 'resolved' notification needs the same change too.\"",
+      "body": "你這句 **「已解決」通知也要改** 很簡潔,翻成自然的英文:\n\n- **\"The 'resolved' notification needs the same change too.\"**\n- 或口語:**\"Apply the same thing to the 'resolved' notification.\"**\n\n一個實用重點:「把同樣的改動套用到 B」在工程討論裡最道地的說法是 **\"apply the same change to...\"** 或 **\"do the same for...\"**。例句:**\"We CC'd the operator on the mention email — let's do the same for the resolved one.\"** 這種「複製既有行為到另一處」的表達,`do the same for X` 特別順口好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c3a99292f559",
+      "date": "20260714",
+      "front": "\"say again.\"",
+      "body": "你這次寫的 **\"say again.\"** 意思有傳達到(我懂你要我再講一次),但這個說法其實帶有**無線電/軍事通訊**的味道(對講機裡確認訊息會說 \"Say again\")。日常對話中母語者較少這樣講,更自然的說法有:\n\n- 最口語:**\"Come again?\"** / **\"Sorry, what?\"**\n- 中性:**\"Could you say that again?\"** / **\"Could you repeat that?\"**\n- 想要「摘要重講」而非逐字重複:**\"Can you sum that up?\"** / **\"Give me the short version?\"**\n\n小提醒:單獨的 **\"say again.\"** 在朋友/同事間可能顯得有點生硬或像下指令,加個開頭會柔和很多,例如 **\"Sorry, could you say that again?\"**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bc52ac4f6986",
+      "date": "20260714",
+      "front": "\"to tag someone\"",
+      "body": "這次你同樣是用中文交辦需求。幫你把核心需求整理成自然的英文,方便你日後跟英語同事描述這個功能:\n\n- **\"Add an @mention feature to the reply box in the issue list. When someone is mentioned, send them an email — and I'm wondering whether we should also show an in-app notification up top.\"**\n\n幾個實用詞:\n- **@mention** 已是業界標準說法,可當名詞(an @mention)也可當動詞(to mention / to @ someone)。口語裡工程師常說 **\"to tag someone\"**(標記某人),跟 @ 同義,很好用。\n- 「站內通知」最道地的英文是 **in-app notification**;「訊息鈴鐺」則是 **notification bell**。\n- 「跳通知」用 **pop up a notification** 或 **push a notification** 都可以。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9f91826434d9",
+      "date": "20260714",
+      "front": "\"Update the memory, then fix the [object Object] on the login page.\"",
+      "body": "這次同樣是中文交辦,幫你整理成自然的英文:\n\n- **\"Update the memory, then fix the [object Object] on the login page.\"**\n\n兩個實用重點:\n- 「止血」這種比喻,英文技術圈常說 **\"a stopgap\"** 或 **\"a band-aid fix\"**(OK 繃式修法),指「先擋著、非根治」;相對的「根治」是 **\"a proper fix\"** 或 **\"fix the root cause\"**。例句:**\"This is a frontend stopgap; the proper fix is on the backend.\"**\n- 「兩層防護」很道地的講法是 **\"defense in depth\"** 或 **\"two layers of defense\"**——資安與健壯性設計常用,值得記起來。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "91c6ba0f41aa",
+      "date": "20260714",
+      "front": "\"psuh\"",
+      "body": "你這次的英文有個小地方可以修:\n\n- **\"psuh\"** 是 **\"push\"** 的拼字順序手誤(u 和 s 對調)—— 很常見的 typo,提醒你一下即可。\n- 整句 **\"Good! You can commit and push now.\"** 完全正確、自然、道地 👍。語氣輕鬆而清楚,是很好的指令句。\n\n若想更精確一點,口語上也常說 **\"Go ahead and commit and push.\"**(`go ahead and...` = 「你就放手去做…」),在授權對方執行某動作時特別自然,可以加進你的詞庫。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "874efc716f06",
+      "date": "20260714",
+      "front": "\"The 'Dataset' button in index.vue is now partially disabled — what's causing this?\"",
+      "body": "你這次的提問用的是中文，我先幫你把它翻成自然的英文，方便日後你直接用英文問：\n\n> 「index.vue 的【資料集】按鈕現在會部分 disable，請問原因?」\n>\n> 自然英文說法：**\"The 'Dataset' button in index.vue is now partially disabled — what's causing this?\"**\n\n**用字微調（nuance 說明）：**\n- 「部分 disable」用 **\"partially disabled\"** 最貼切；若想更口語，也可說 **\"disabled for some rows\"**（因為實際上是「某些列」被停用）。\n- 詢問原因時，工程情境下 **\"what's causing this?\"** 或 **\"why is this happening?\"** 比直譯的 \"what is the reason?\" 更自然、更像母語者的說法。\n\n由於你這次是用中文提問，沒有可修正的英文句子，因此以上提供翻譯與語感補充，讓你累積實用的技術英文表達。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "7326684d78b0",
+      "date": "20260714",
+      "front": "\"Here we need the actual binding count, so it should bypass the permission check just like the admin/ICSC01 account does.\"",
+      "body": "你這次用中文說明需求(「這邊要看真實綁定數,所以應該要像 admin/ICSC01 帳號一樣可以略過權限檢查」),我幫你轉成自然的英文,方便日後在 PR 或跟同事溝通時使用:\n\n> **\"Here we need the actual binding count, so it should bypass the permission check just like the admin/ICSC01 account does.\"**\n\n**用字說明:**\n- 「真實綁定數」→ **\"the actual binding count\"**;若想更技術一點也可說 **\"the true/raw count\"**。\n- 「略過權限檢查」→ **\"bypass the permission check\"** 是最道地的講法。動詞 `bypass` 本身就是「繞過、略過(某道關卡)」,比 `skip` 更專業、更常用於權限/安全情境——這也是我把後端參數命名為 `skipAuthFilter` 之外,口語上會用 `bypass` 的原因。\n- 「像 admin 帳號一樣」→ **\"just like the admin account (does)\"**,句尾補 `does` 可強調「就如同它的行為」。\n\n本次無英文句子需修正,以上補充 `bypass` 這個在權限情境很實用的動詞,值得記下來。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "708eb6425c9f",
+      "date": "20260714",
+      "front": "\"Can you review my changes?\"",
+      "body": "這次是你透過 `/code-review` 指令觸發,沒有額外自由書寫的英文句子。借這個機會補一個相關實用說法:當你想請別人幫忙看程式碼,最自然的講法是 **\"Can you review my changes?\"** 或 **\"Could you do a code review on this?\"**。工程師口語裡 review 常直接當動詞用(review the diff / review the PR),你已經很熟這個詞了,繼續保持。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6763be3d0a7c",
+      "date": "20260714",
+      "front": "\"Good, commit and push.\"",
+      "body": "你這次的英文指令 **\"Good, commit and push.\"** 非常自然、道地,是工程情境下最精簡有效的說法,完全不需要修正。👍\n\n補充一個可以擴充你表達的小地方——如果想一次交代得更完整,母語工程師常會這樣說:\n\n> **\"Looks good — go ahead and commit and push.\"**\n> **\"Great, let's commit and push it.\"**\n\n**語感說明:**\n- 你用的 **\"Good,\"** 當作簡短認可(acknowledgement)完全 OK;若想更口語一點,**\"Looks good\"** 或 **\"Great\"** 會更常見於 code review / 結對開發的對話中。\n- **\"go ahead and ...\"** 是很實用的片語,意思是「(我批准了)你就放手去做吧」,語氣上比單純的祈使句 \"commit and push\" 更自然地帶有「授權對方執行」的意味,很適合你在指揮我執行操作時使用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5dd9ba3a2a6f",
+      "date": "20260714",
+      "front": "\"High level must be fixed!\"",
+      "body": "這次你的英文指令很精練,我特別點出寫得好的地方:\n\n- **\"High level must be fixed!\"** —— 意思完全到位。若要更精準,工程界慣用 severity 當形容詞:**\"The high-severity issue must be fixed!\"** 或 **\"The high-priority one is a must-fix.\"**(`must-fix` 可當名詞/形容詞,很道地)。你用的 \"high level\" 在口語可通,但 **\"high level\"** 另有「高層次/概觀」的意思(如 high-level overview),為避免歧義,講嚴重度時用 **high-severity / high-priority** 更清楚。\n- **\"fix too\"** 簡潔正確,自然口語會說 **\"fix these too\"** 或 **\"...also need fixing.\"**\n\n整體表達清楚俐落,continue the good work! 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5b5e17fe3b3b",
+      "date": "20260714",
+      "front": "\"You can merge now.\"",
+      "body": "你這次的 **\"You can merge now.\"** 完全正確、自然 👍 —— 簡潔明確的授權句。\n\n補充幾個「合併」情境的道地說法,擴充你的詞庫:\n- 「合併回主幹」:**\"merge it back into main / master\"**(介系詞用 **into**)。\n- 想強調「保留分支線圖、不要快轉合併」:**\"Do a no-fast-forward merge.\"** 或 **\"Merge with --no-ff so we keep the branch history.\"**\n- 相對的,「直接快轉合併」是 **\"fast-forward it\"**。\n\n若想更精確表達「現在可以把這些分支合併進主幹了」,可以說:**\"You can go ahead and merge these into master now.\"**",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "581a0aef76c0",
+      "date": "20260714",
+      "front": "您這次用中文提問，我幫您準備一個自然的英文說法：",
+      "body": "您這次用中文提問，我幫您準備一個自然的英文說法：\n\n> 我給你問題列表的截圖，你有辦法幫我新增嗎？\n>\n> I'll give you a screenshot of the issue list — can you help me add these (to the list)?\n\n**用字說明：**\n- 「截圖」用 **screenshot**（單字，不加空格）；「問題列表」在軟體情境用 **issue list** 最貼切。\n- 「你有辦法幫我…嗎？」用 **can you help me...?** 即可，比直譯 do you have a way to 更自然道地。\n- 若想更禮貌，可用 **Could you help me add these based on the screenshot?**（based on 表示「依據」截圖）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "52554e570391",
+      "date": "20260714",
+      "front": "\"Sometimes the login screen shows this error — can you scan the code for possible causes?\"",
+      "body": "這次你是用中文下指令(「請你掃描一下可能的原因」),我幫你做個自然的英文對照:\n\n- 最自然的說法:**\"Sometimes the login screen shows this error — can you scan the code for possible causes?\"**\n- 更技術口語一點:**\"Users occasionally hit this error on the login page. Can you track down what's causing it?\"**\n\n小提醒兩個實用動詞:\n- **scan** 用在「快速掃過一遍找線索」很貼切,你的用詞很好。\n- 若要強調「追查到根源」,英文工程師常說 **track down** 或 **root-cause**(當動詞用,例:\"Let me root-cause this bug.\")—— 這在 code review 情境很常聽到,可以加進你的詞庫。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4e4e02c9831c",
+      "date": "20260714",
+      "front": "\"I suspect this is also related to the ACL permission check — is that right?\"",
+      "body": "你這次一樣是用中文提問(「應該跟 ACL 權限檢查也有關係?」),我幫你補上自然的英文說法,方便日後用英文追問:\n\n> 自然英文:**\"I suspect this is also related to the ACL permission check — is that right?\"**\n> 更簡潔的口語版:**\"Does this also have something to do with the ACL check?\"**\n\n**語感提醒:**\n- 中文的「應該…吧?」帶有推測語氣,英文用 **\"I suspect...\"** 或 **\"I'd guess...\"** 最能傳達;直接說 \"This should be related to...\" 反而會變成「理應如此」的斷定語氣,和你想表達的推測不太一樣。\n- 「跟…有關係」最道地的講法是 **\"be related to...\"** 或 **\"have something to do with...\"**,後者更口語。\n\n由於本次無英文句子可修正,以上提供推測語氣的實用表達,讓你日後能更精準地用英文表達不確定的猜測。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "458748ee79a0",
+      "date": "20260714",
+      "front": "你這次的英文寫得整體很清楚、技術描述精準，值得鼓勵 👍。幾個可以更道地的地方：",
+      "body": "你這次的英文寫得整體很清楚、技術描述精準，值得鼓勵 👍。幾個可以更道地的地方：\n\n| 你的寫法 | 更自然的說法 | 說明 |\n|----------|--------------|------|\n| The most important is #1. | **The most important one is #1.** | important 是形容詞，指「那一項」時補回名詞 `one` 會更完整。 |\n| look the export cross-tab | **look at the export cross-tab** / **take a look at...** | look 作「看向某物」要接介係詞 `at`；`look` 直接接受詞是不合語法的。 |\n| column L is C + ... + K, but this is wrong | column L is C + ... + K, **which is wrong** | 用關係代名詞 `which` 承接前一句，比另起 `but this is` 更精簡流暢。 |\n\n一個很好的用法：你用 `column L should be E + H + K, not C + ... + K` 這種 `should be X, not Y` 的對比句型，非常適合回報 bug 時「期望值 vs 實際值」的表達，clear and professional。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4535cda5af17",
+      "date": "20260714",
+      "front": "您這次用中文下指令「幫我整理」，我幫您準備幾個常見的英文說法：",
+      "body": "您這次用中文下指令「幫我整理」，我幫您準備幾個常見的英文說法：\n\n> 幫我整理（這封信 / 這則需求）\n>\n> - Help me organize this. （整理、歸納）\n> - Help me sort this out. （釐清、處理好）\n> - Can you summarize this for me? （幫我摘要）\n\n**用字說明：**\n- 「整理成清單」可說 **organize this into the list** 或 **log this as a new item**（log 當動詞有「記錄下來」的意思，很適合這種待辦追蹤情境）。\n- 若指「把雜亂的東西弄清楚」，**sort out** 比 organize 更口語，例如 *Let me sort out these permission codes first.*\n- 信件開頭的「炯文好」對應英文商務問候可用 **Hi Jiong-wen,**（英文信習慣用逗號，不用冒號）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2c66bc5f297f",
+      "date": "20260714",
+      "front": "\"@ 提及的寄信通知,是否可以把自己加到信件的 cc 中?\"",
+      "body": "你這句 **\"@ 提及的寄信通知,是否可以把自己加到信件的 cc 中?\"** 翻成自然的英文會是:\n\n- **\"For the @mention email notification, can I CC myself on it?\"**\n\n幾個道地用法:\n- **CC** 常直接當**動詞**用:**\"CC me on that email\"**(把我加到副本)、**\"I was CC'd on it\"**(我被列在副本)。BCC(密件副本)同理:**\"BCC him.\"**\n- 「把某人加到副本」也可說 **\"add someone to the CC line\"** 或 **\"loop someone in\"**(把某人拉進來、讓他知道狀況)——`loop in` 在職場 email 情境超常見,例:**\"Let me loop in my manager.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "25907afef146",
+      "date": "20260714",
+      "front": "\"First, analyze the current cross-tab export. The main thing I want to adjust is the 'total' (sum) part of the cross-tab.\"",
+      "body": "這次你的訊息主要是中文，我幫你把核心需求轉成自然的英文說法，方便你日後跟同事或寫 issue 時使用：\n\n- 「先分析一下目前的匯出交叉表，主要是針對交叉表的\"總和\"的部分要調整」\n  → *\"First, analyze the current cross-tab export. The main thing I want to adjust is the 'total' (sum) part of the cross-tab.\"*\n\n小提醒（nuance）：\n- 「交叉表」在英文裡常用 **cross-tab**（cross-tabulation 的縮寫）或 **pivot table**（若偏向 Excel/樞紐概念）。你們這個功能是樞紐模式匯出，兩個都通。\n- 「總和」若指整體加總用 **total** 或 **grand total**（最底部的總計）；若指某群組的小計用 **subtotal**；若指某一列/欄的加總，可講 **row total / column total**。你這次的需求剛好三種都可能沾到，所以英文我先用比較廣義的 **total**。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "22ddaf34d6c0",
+      "date": "20260714",
+      "front": "您這次的補充中文很清楚，我幫您準備一個自然的英文說法：",
+      "body": "您這次的補充中文很清楚，我幫您準備一個自然的英文說法：\n\n> 抱歉，補充一下，是 7/13 提出的。\n>\n> Sorry, just to add — it was actually raised on 7/13.\n\n**用字說明：**\n- 「補充一下」在口語中常用 **just to add** 或 **just a quick addition**，簡潔又自然。\n- 「（議題）提出」用 **raised** 最道地，例如 *The issue was raised on 7/13.*（raise an issue 是固定搭配）。\n- 「是 7/13」加上 **actually** 有「更正／澄清」的語氣，讓對方知道你在修正先前的資訊，比單純說 it was 7/13 更貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "19576e8c1ab0",
+      "date": "20260714",
+      "front": "\"So the login page won't show [object Object] to users anymore, right?\"",
+      "body": "你這句問話寫成英文會是:\n\n- **\"So the login page won't show [object Object] to users anymore, right?\"**\n\n你用中文的「對嗎?」對應英文最自然的就是句尾加 **\", right?\"** 或 **\", correct?\"**(tag question,用來尋求確認)。更正式一點可說 **\"Can you confirm the login page no longer shows [object Object] to users?\"**。\n\n一個實用細節:「不會再…了」的「再」在英文用 **anymore**(句尾)或 **no longer**(動詞前):\n- 口語:**\"It won't show up anymore.\"**\n- 正式:**\"It no longer shows up.\"**\n\n兩個都很常用,挑順口的即可。👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "128491bbb419",
+      "date": "20260714",
+      "front": "這次的溝通是中文，我幫您準備一個自然的英文說法：",
+      "body": "這次的溝通是中文，我幫您準備一個自然的英文說法：\n\n> 「Bug：交叉表匯出總加總欄重複計入各月小計導致金額錯誤」已完成\n>\n> The bug where the cross-tab export's grand total column double-counts the monthly subtotals, causing incorrect amounts, has been fixed.\n\n**用字說明：**\n- 「交叉表」在報表情境常用 **cross-tab** 或 **pivot table**（您清單中提到「樞紐模式」，因此 pivot 也很貼切）。\n- 「總加總欄」用 **grand total column**，比直譯的 total 更精準（grand total 特指「總計」，與各月的 subtotal 小計形成對比）。\n- 「重複計入」用 **double-count**(v.) 是最道地的說法，直接一個動詞就能表達「重複計算」。\n- 完成 Bug 修正時，動詞用 **fixed / resolved** 會比 completed 更專業（completed 較適合任務或功能，Bug 通常說 fix）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fd18aabade76",
       "date": "20260713",
       "front": "\"Help me create an issue on GitLab.\"",
