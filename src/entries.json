@@ -327,6 +327,15 @@
       ]
     },
     {
+      "id": "0e604ed66ae1",
+      "date": "20260715",
+      "front": "\"Run a high-effort code review on the reply-attachment changes.\"",
+      "body": "這則是系統執行 `/code-review` 產生的指令訊息，你沒有輸入英文句子，所以這裡改成補充一個這情境常用的英文表達，讓你之後能自己開審查：\n\n當你想請人「跑一次高強度的程式碼審查」時，道地的說法是：\n\n> **\"Run a high-effort code review on the reply-attachment changes.\"**\n> 若想指定只看某些檔案：**\"...but scope it to the controller and the Vue component.\"**\n\n用字說明：\n- **high-effort**（高強度／投入較多）是很自然的形容詞搭配，比 \"strong review\" 或 \"deep review\" 更貼近工程語境。\n- **scope it to ...**（把範圍限縮到…）是限定審查/工作範圍的慣用動詞用法，比 \"only check ...\" 更專業。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "02e5281188c9",
       "date": "20260715",
       "front": "\"paste it back\"",
