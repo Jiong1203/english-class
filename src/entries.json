@@ -1,6 +1,61 @@
 {
   "entries": [
     {
+      "id": "f21d3290c369",
+      "date": "20260716",
+      "front": "\"for now\"",
+      "body": "你這則同樣是中文，我補一個未來你在 PR 或跟團隊說明這個決策時會用到的英文句型：\n\n> \"Let's reuse the existing edit page for now, and only scope it down to a cost-only view if it turns out we need it.\"\n\n- 重點片語：**\"for now\"**（暫時先這樣）＋ **\"only ... if it turns out we need it\"**（真有需要再做）——這是工程上表達「先做 MVP、之後再優化」很常用、很自然的講法。\n- 「收斂成 B」的動詞可用 **scope it down to**（把範圍縮小到…），比 narrow 更常見於這個情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e10ff2a4e89a",
+      "date": "20260716",
+      "front": "\"Go ahead.\"",
+      "body": "你這次的指令「approved」用得完全正確、自然——在軟體開發流程裡，這正是核可計畫、放行實作的標準用語，簡潔有力。\n\n- 補充一個同義的說法讓你詞彙更豐富：**\"Go ahead.\"**（放手去做／照做吧）在口語 code review 中和 \"approved\" 幾乎等義，語氣更輕鬆。\n- 若想更完整可說：**\"Approved, go ahead with option A.\"**（核可，就照 A 方案進行）——把核可與指定方案一句講完，很適合你之前在多方案中拍板的情境。",
+      "tags": [
+        "praise",
+        "vocab"
+      ]
+    },
+    {
+      "id": "b5b2b097bdf9",
+      "date": "20260716",
+      "front": "\"because\"",
+      "body": "你這次是用中文提問，我幫你補上一個自然的英文說法，方便未來你要用英文回報這個 bug 給團隊時使用：\n\n> \"Organizers can't enter the activity cost after the event ends, because the status switches to *Closed* and the edit option disappears.\"\n\n- 小提醒：描述這種「因為 A 導致 B」的 bug 時，用 **\"because\"** 帶出原因、後面接 **\"the ... disappears / is hidden / is no longer available\"** 會很地道。\n- 「填入成本」動詞可用 **enter / fill in / input** the cost，其中 **enter the cost** 最口語自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "972d0d0b00e7",
+      "date": "20260716",
+      "front": "\"commit and push to a new branch\"",
+      "body": "你這則指令「commit and push」用得精準到位——這是 git 工作流裡最標準、最常見的動作組合，兩個動詞並列、簡潔明確，母語工程師也是這樣講。\n\n- 補充一個常見的擴充說法：**\"commit and push to a new branch\"**（提交並推到新分支），當你想明確指定不要推到 `dev`／`main` 時很有用。\n- 若想更口語，也可說 **\"push it up\"**，其中 \"up\" 帶有「推上去到遠端」的語感，例如：\"Go ahead and push it up.\" 是很自然的說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4a4c62b0f687",
+      "date": "20260716",
+      "front": "\"otherwise it breaks the logic of ...\"",
+      "body": "你這句「不然不符合開團邏輯啊！」講得很到位，我幫你轉成一個未來能用在 code review／PR 討論的自然英文說法：\n\n> \"Once an activity is closed, editing its date or title shouldn't be allowed — otherwise it breaks the whole logic of how a group event works.\"\n\n- 關鍵片語：**\"otherwise it breaks the logic of ...\"**——這正是你「不然就不符合邏輯」的地道對應，`break the logic` 比直譯的 `not fit the logic` 自然得多。\n- 「一旦…就…」用 **\"Once ..., ... shouldn't ...\"** 開頭，是表達這種狀態轉換規則最順的句型。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3cab573f399f",
+      "date": "20260716",
+      "front": "\"merge it into dev\"",
+      "body": "你這則單字指令「merge」用得精準——在 git 語境裡它就是「把分支合併」的標準動詞，單獨使用完全清楚，母語者也常這樣簡短下令。\n\n- 補充更完整的說法讓你表達更精確：**\"merge it into dev\"**（合併進 dev 分支），當你想明確指定目標分支時很實用。\n- 相關動詞辨析：**merge**（合併，保留雙方歷史）、**rebase**（變基，把提交接到另一分支頂端讓歷史線性）、**squash**（把多個提交壓成一個）——三者在 code review 討論中常出現，語感各不同，值得記起來。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fccf6b1f17d4",
       "date": "20260715",
       "front": "\"I'll give you the test credentials.\"",
