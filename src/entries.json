@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "f2ed6691c6dd",
+      "date": "20260720",
+      "front": "\"query conditions\"",
+      "body": "這輪你沒有輸入英文句子（都用中文與選項互動），所以這次沒有可修正的內容。\n\n補充一個這次任務相關、你日後跟同事討論時用得到的英文說法：\n\n> This column is **redundant with** the type column, so I refactored it to log the **actual filter conditions** applied in each query.\n> （這個欄位跟類型欄重複，所以我把它重構成記錄每次查詢實際套用的篩選條件。）\n\n- **redundant with**（與…重複／多餘）：描述「兩個欄位資訊重疊」最精準的技術用語。\n- **filter conditions**（篩選條件）：比直譯的 \"query conditions\" 更貼近前端表單語境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "9d3320c81ce6",
       "date": "20260720",
       "front": "\"Commit it and merge it into main.\"",
@@ -23,6 +32,15 @@
       "date": "20260720",
       "front": "\"prune the dead remote branches\"",
       "body": "這次是 `/clean-branches` slash command，沒有自由書寫的英文句子。順帶補個和這次任務高度相關的 Git 英文小知識：\n\n- 「已合併的分支」＝ **merged branches**；「還沒併回的」＝ **unmerged branches** 或 **stale branches**（stale＝放著沒動、過時的）。\n- 「清掉遠端已刪除的追蹤參考」這動作叫 **prune**，就是 `git fetch --prune` 的那個字，口語會說 **\"prune the dead remote branches\"**（清掉遠端已死的分支參考）。\n- 描述「保持 repo 乾淨」很道地的說法：**\"keep the branch list tidy\"** 或 **\"keep the repo clean\"**。\n\n小提醒：日常說「刪分支」用 **delete a branch** 最標準；`remove` 也可以但較少用在分支上，`delete` 更貼近 `git branch -d` 的語感。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1410e6079bd1",
+      "date": "20260720",
+      "front": "\"查詢主題\"",
+      "body": "這次你用中文提問，我幫你補上自然的英文說法：\n\n> The 【備註 / remark】column in the browsing log only ever shows two values — \"查詢主題\" and \"查詢我的最愛\". That seems pretty meaningless, doesn't it? Do you have any suggestions?\n\n**用字提醒（繁中說明）：**\n- 「似乎好像」在中文是兩個近義詞疊用，英文只要一個 **seems** 就夠了，寫 \"seems seemingly\" 反而不自然。\n- 「沒甚麼意義」最道地的講法是 **doesn't carry much meaning** 或 **feels redundant（顯得多餘）**;在這個情境用 **redundant** 特別精準,因為它正好是「與類型欄重複」的意思。\n- 附加問句 **doesn't it?** 是英文口語裡表達「你說是不是？」很自然的反問方式。\n\n一個更精煉的替代說法:\n> Since the remark column is redundant with the type column, do you have any suggestions?（既然備註欄與類型欄重複，你有什麼建議嗎？）",
       "tags": [
         "note"
       ]
