@@ -1,6 +1,33 @@
 {
   "entries": [
     {
+      "id": "9d3320c81ce6",
+      "date": "20260720",
+      "front": "\"Commit it and merge it into main.\"",
+      "body": "你這次用最精簡的英文指令 `commit + push` 完成溝通——這在工程情境完全道地，`+` 當「和」用、兩個 Git 動詞並列，母語工程師也這樣寫 commit 待辦。\n\n若要擴充成完整句子，可以說：\n\n> \"Go ahead and commit and push.\"（那就 commit 並 push 吧。）\n\n- **Go ahead and …** 是很自然的「著手去做、放手做」起手式，帶「我授權你進行」的語氣，很適合你這種「確認後放行」的情境。\n- 若想更明確指定併回主幹：**\"Commit it and merge it into main.\"**（把它 commit 並併進 main。）\n- 小提醒：口語裡連續動作常用 **and** 串接就好（commit and push），不必寫成 `commit, then push`——後者較正式、強調嚴格先後，日常對話用 and 更順。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7983e58a78e8",
+      "date": "20260720",
+      "front": "\"The old version was much clearer / much easier to read.\"",
+      "body": "你這則用了一句很關鍵的中文：「你看紅框處都擠在一起，這樣內容都看得不清楚」。自然的英文說法：\n\n> \"See the red box? The columns are **all cramped together**, so the content is **hard to read**.\"\n\n- 「擠在一起」用 **cramped together** 最傳神（cramped＝空間不足而擁擠）；也可說 **squished together**（口語、生動）。\n- 「看不清楚」用 **hard to read** 或 **difficult to make out**（make out＝辨認出）。\n- 對比「舊版清楚多了」：**\"The old version was much clearer / much easier to read.\"**\n\n小提醒：描述欄位被切掉看不到，工程上常用 **truncated**（截斷）或 **cut off**，例如 \"The header text is getting **cut off**.\"（標題文字被切掉了。）這個詞在報 bug 時很精準好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "61cf63252eb8",
+      "date": "20260720",
+      "front": "\"prune the dead remote branches\"",
+      "body": "這次是 `/clean-branches` slash command，沒有自由書寫的英文句子。順帶補個和這次任務高度相關的 Git 英文小知識：\n\n- 「已合併的分支」＝ **merged branches**；「還沒併回的」＝ **unmerged branches** 或 **stale branches**（stale＝放著沒動、過時的）。\n- 「清掉遠端已刪除的追蹤參考」這動作叫 **prune**，就是 `git fetch --prune` 的那個字，口語會說 **\"prune the dead remote branches\"**（清掉遠端已死的分支參考）。\n- 描述「保持 repo 乾淨」很道地的說法：**\"keep the branch list tidy\"** 或 **\"keep the repo clean\"**。\n\n小提醒：日常說「刪分支」用 **delete a branch** 最標準；`remove` 也可以但較少用在分支上，`delete` 更貼近 `git branch -d` 的語感。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f7dba10737da",
       "date": "20260717",
       "front": "\"Users can spot the 0-vs-blank difference at a glance.\"",
