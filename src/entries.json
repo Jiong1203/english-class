@@ -148,6 +148,15 @@
       ]
     },
     {
+      "id": "5f399b9ab48d",
+      "date": "20260721",
+      "front": "\"Let's not...\"",
+      "body": "你這次「不要用 dialog 開好了，我覺得操作範圍有點受限」把「不滿意點 + 期望」講得很清楚,是很好的產品回饋方式 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 不要用 dialog 開好了 | \"Let's **not open it in a dialog**.\" / \"I'd rather it **not be a modal**.\" |\n| 操作範圍有點受限 | \"The **working area feels a bit cramped / limited**.\" |\n| 我想要更大的空間 | \"I'd like **more room to work**.\" |\n\n**用字提醒**:\n- 「操作範圍/空間受限」最道地:**cramped**(狹窄侷促)或 **limited working space**;`cramped` 特別傳神。\n- 「彈窗/對話框」= **dialog** 或 **modal**(強調它蓋住背景、要關掉才能操作時,用 modal 很精準)。\n- 提建議的緩和句型 **\"Let's not...\"** / **\"I'd rather...\"** 比直接命令更自然、更像協作討論 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "5f32d5b470d4",
       "date": "20260721",
       "front": "\"no fast-forward\"",
