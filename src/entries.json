@@ -1,6 +1,288 @@
 {
   "entries": [
     {
+      "id": "fcd5d47a26a1",
+      "date": "20260721",
+      "front": "\"Please commit and push.\"",
+      "body": "你這句 **\"Please commit and push.\"** 完全正確、自然，是工程情境最標準的說法，繼續保持！\n\n補充一個小擴充：如果想更精確地把兩個動作說成一步，也可以說 **\"Please commit and push the changes.\"**（加上受詞 the changes 讓句子更完整），或口語一點的 **\"Go ahead and push it up.\"**（\"push it up\" 是「推上遠端」的道地說法）。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "f878679f1a04",
+      "date": "20260721",
+      "front": "\"app password\"",
+      "body": "你這則是中文回覆，這裡幫你把剛才的決策整理成一句自然的英文，方便你日後跟人說明：\n\n> I set up a dedicated Gmail account with an app password to send the low-stock alerts, triggered by a daily Vercel cron job.\n\n- 「應用程式密碼」的標準英文就是 **\"app password\"**（Google 官方用詞），不用寫成 \"application password\"。\n- 「觸發」用 **\"triggered by\"** 最精準；「排程工作」= **\"cron job\"**，這是業界通用說法。\n- 「低庫存警示」再次複習：**\"low-stock alert(s)\"**，比 \"low inventory notification\" 更道地簡潔。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f27d339de3c7",
+      "date": "20260721",
+      "front": "\"The **original version displayed fine**.\"",
+      "body": "你這次用中文提醒「原本的是可以順利顯示出來的」,這是很好的除錯提醒 —— 指出「基準線(baseline)本來是好的」能幫助定位回歸問題(regression)。提供對應的道地英文:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 原本的是可以順利顯示的 | \"The **original version displayed fine**.\" |\n| 這是新版才有的問題 | \"This is a **regression** — it only happens in the new version.\" |\n| 請以原本的為基準確認 | \"Please **check it against the original** as a baseline.\" |\n\n**實用單字**:\n- **regression**(回歸缺陷)= 原本正常、改動後壞掉的問題 —— 你這個情況正是 regression,跟工程師講這個字他立刻懂。\n- **baseline**(基準)= 已知正常的參考點:\"The original is our baseline — the new one shouldn't be worse.\"\n- 「顯示正常」= **displays / renders correctly**(`render` 特別用在畫面繪製,很貼切)👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "ea7fd835e80c",
+      "date": "20260721",
+      "front": "\"call it a day\"",
+      "body": "你這次用「收工」漂亮收尾，這裡給你對應的道地英文：\n\n> Let's call it a day.\n\n- **\"call it a day\"** 是「今天到此為止／收工」最道地的片語，工作場合非常常用。\n- 若想強調「這個任務完成了、可以收了」也可說 **\"Let's wrap it up.\"**（wrap up = 收尾、總結）。\n- 更口語的版本：**\"That's a wrap!\"**（源自拍片術語，現泛指「搞定收工」）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dad426009079",
+      "date": "20260721",
+      "front": "\"Still blank.\"",
+      "body": "你這次的「還是空白」很簡潔。提供對應的英文回報說法:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 還是空白 | \"**Still blank.**\" / \"It's **still empty**.\" |\n| 完全沒改善 | \"**No change** — still the same.\" |\n| 資料還是沒出現 | \"The data **still isn't showing up**.\" |\n\n**小提醒**:\n- 回報「問題依舊」最短就是 **\"Still blank.\"** / **\"Still not working.\"** —— 母語者在來回除錯時很常這樣單句回,簡潔有力。\n- 若要表達「試了但沒用」:\"Tried it — **still no luck**.\" (`no luck` = 沒成功,很口語)👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "cf1dcf608095",
+      "date": "20260721",
+      "front": "\"It **freezes while loading the data**.\"",
+      "body": "你這次的技術描述(「在讀取資料時造成卡死，最後就 out of memory」)表達得很清楚。提供更道地的英文說法:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 讀取資料時卡死 | \"It **freezes while loading the data**.\" |\n| 最後記憶體不足 | \"It eventually **runs out of memory**.\" / \"…**throws an out-of-memory error**.\" |\n| 1 萬筆算常見情形 | \"10,000 rows is a **fairly common** case.\" |\n\n**用字提醒**:\n- 「記憶體不足」動詞片語是 **run out of memory**(注意 out **of**);當名詞/錯誤時說 **an out-of-memory error**(用連字號當形容詞)。你寫的 \"out of memory\" 完全正確 👍\n- 「還算常見」用 **fairly / pretty common** 或 **not unusual**,比 \"common situation\" 更自然。\n- 描述效能瓶頸可用 **bottleneck**(瓶頸):\"The **bottleneck** is `autoFitColumn`.\" — 工程討論很好用。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c7655bc0fd9c",
+      "date": "20260721",
+      "front": "\"commit and push\"",
+      "body": "這輪你的指令是 **\"commit and push\"** — 簡短但完全正確、道地，這正是工程師日常最標準的講法，無需修改。👍\n\n補充一組實務上常搭配的說法，讓你表達更精準：\n- **\"commit and push\"** = 提交並推送（到目前分支）\n- 若要指定推到遠端分支：**\"push it to a feature branch\"**（推到一條 feature 分支）\n- 若要表達「合併回主幹」：**\"merge it back into master\"**（把它併回 master）\n\n例句：\n> Commit and push it to a feature branch, then merge it back into master with a no-ff merge.\n> （提交並推送到 feature 分支，再用 no-ff 合併併回 master。）",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "bf170077ecef",
+      "date": "20260721",
+      "front": "\"匯出報表\"",
+      "body": "你這次的回報「Still blank. But I use \"匯出報表\" can read data in the excel.」把關鍵線索講出來了,非常有幫助 👍 這種「附帶說明我試了什麼、結果如何」的除錯回報很有價值。句子有兩個小地方可以更道地:\n\n| 你的寫法 | 更自然的寫法 | 說明 |\n|----------|--------------|------|\n| But I use \"匯出報表\" can read data in the excel. | But when I use **the** \"匯出報表\" **(Export)** button, the exported Excel **does contain the data**. | 原句缺主詞銜接;英文需要 \"when I..., the... \" 的結構。 |\n| — | \"So the data **is** there — it just isn't **showing on screen**.\" | 補一句點出「資料在、只是沒顯示」會讓對方立刻抓到重點。 |\n\n**用字提醒**:\n- 「匯出的檔案裡有資料」道地說法:\"The exported file **contains / has** the data.\" 動詞用 contain/have,不要用 \"can read data\"(read 的主詞應該是人)。\n- 想表達「所以問題是顯示、不是資料」:\"So it's a **display / rendering** issue, not a data issue.\" — 這句在除錯時超好用,能幫工程師快速定位 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "bab46b7a4755",
+      "date": "20260721",
+      "front": "\"Why does the page **freeze / hang** when I open it?\"",
+      "body": "你這句「打開後網頁為什麼會卡死?」很自然、我完全懂。提供道地的英文說法:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 網頁為什麼會卡死? | \"Why does the page **freeze / hang** when I open it?\" |\n| 整個瀏覽器卡住沒反應 | \"The whole browser **becomes unresponsive**.\" |\n| 大資料量會拖慢效能 | \"A large dataset **slows things down / hurts performance**.\" |\n\n**用字提醒**:\n- 「卡死」最常用 **freeze** 或 **hang**(both work);若強調「沒反應/轉圈圈」用 **unresponsive** 或 **hangs / gets stuck**。\n- 不要用 \"the page is dead\"(母語者會覺得怪);\"the page froze\" 才自然。\n- 描述效能問題:**laggy**(卡頓)、**sluggish**(遲鈍)、**freezes up**(整個卡住)都很實用 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b7f10299ec86",
+      "date": "20260721",
+      "front": "\"Migrate all usages from the old SpreadJS components to the new ones.\"",
+      "body": "你這次寫的是英文指令,句意清楚、我完全理解,但有兩處小地方可以更道地。用對照表呈現:\n\n| 你的寫法 | 更自然的寫法 | 說明 |\n|----------|--------------|------|\n| Please change all old version to new version. | Please migrate **everything from the old version to the new one**. | 1️⃣ 名詞單複數:泛指「所有舊的東西」用 *everything / all the old code*,若真要用 version 則需複數或加冠詞。2️⃣ 避免 version 重複,第二個用代名詞 **the new one** 更順。 |\n| Clean old version first. | Clean up **the** old version first. | 「清理程式碼」慣用片語動詞 **clean up**(帶 up 才是「整理/清除」);單數可數名詞 version 前面要加冠詞 **the**。 |\n\n**專業用詞加分**:在軟體語境,「把舊的換成新的」最精準的動詞是 **migrate**(遷移)或 **replace ... with ...**。例如:\n- \"Migrate all usages from the old SpreadJS components to the new ones.\"\n- \"Replace the old version with the new one, then remove the dead code.\"\n\n這兩句都是工程師日常會用的道地說法,推薦記起來 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "ad6c87ade54b",
+      "date": "20260721",
+      "front": "\"Let's go with the **reliable approach** first.\"",
+      "body": "連續除錯了好幾輪,你的耐心與精準回報幫了大忙 👍 補充一組除錯情境常用的英文:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 先用穩定的做法 | \"Let's go with the **reliable approach** first.\" |\n| 這條路我不再嘗試了 | \"I'll **stop pursuing** that approach.\" |\n| 這是一個取捨 | \"It's a **trade-off**.\" |\n\n**實用說法**:\n- **fall back to**(退回到某個備案):\"Let's **fall back to** the plain editable grid.\" —— `fall back to` 精準表達「主方案不行,改用備援方案」。\n- **workaround**(繞過問題的變通做法):\"Using GcSpreadSheets is a **workaround** for the Designer rendering bug.\" 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a4b7cc415c24",
+      "date": "20260721",
+      "front": "\"(沒傳進來)或 \"",
+      "body": "你這次的回報「資料沒有進來，要把所查詢出的資料帶入」意思清楚。提供對應的道地英文:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 資料沒有進來 | \"The data **didn't load / didn't come through**.\" |\n| 要把查詢出的資料帶入 | \"We need to **load / populate the queried data** into it.\" |\n| 表格是空的 | \"The sheet is **empty / blank**.\" |\n\n**用字提醒**:\n- 「把資料帶入(某介面/表格)」最道地的動詞是 **load ... into** 或 **populate**(填入):\"Populate the grid with the query results.\" — `populate` 特別適合「把資料填進表格/欄位」。\n- 「資料沒進來」口語可說 \"the data **didn't come through**\"(沒傳進來)或 \"**nothing showed up**\"(什麼都沒出現)👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "95dd750b62f6",
+      "date": "20260721",
+      "front": "\"Commit these changes.\"",
+      "body": "你這次的指令「commit this」簡短又標準,是工程場景最常見的講法,完全正確 👍\n\n補充幾個相關的道地說法,擴充你的 git 英文詞彙:\n\n| 情境 | 自然英文 |\n|------|----------|\n| 提交這些變更 | \"Commit these changes.\" / \"Commit this.\" |\n| 幫我合併回主幹 | \"Merge it back into master.\" |\n| 先別 push | \"Hold off on pushing for now.\" |\n| 把這些改動暫存起來 | \"Stage these changes.\" |\n\n**小提醒**:\n- `commit`(提交)、`stage`(暫存,即 git add)、`push`(推送)、`merge`(合併)這幾個動詞在 git 語境是固定用法,直接當動詞用即可:\"Let's commit and push.\"\n- 想強調「只 commit 不 push」可說:\"Just commit it, **don't push yet**.\" — 你這次的單獨 \"commit this\" 我也已按此理解(只提交、未推送)👍",
+      "tags": [
+        "praise",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "8cda9bd74b3b",
+      "date": "20260721",
+      "front": "\"quick heads-up\"",
+      "body": "你這則訊息以中文條列需求（回報、更新文件、詢問自動化），這裡提供一個自然的英文整合說法：\n\n> Also, quick heads-up: the test emails were received, so you can clean up the scratchpad script. Please update CLAUDE.md and the manual too. One question — does `supabase db push` run automatically on a Vercel deploy, and if not, can we make it automatic?\n\n- **\"quick heads-up\"** 是「先跟你說一聲／順帶一提」最道地的口語，很適合你「忘了回報」這種補充語氣。\n- **\"if not, can we make it automatic?\"** 是英文提出「如果沒有，能不能做成自動」最精煉的問法，比逐字翻譯自然許多。\n- 「順手幫」的語氣用祈使句 + **\"too\"**（Please update ... too）即可傳達，不必另找對應詞。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7d0ed447a6c9",
+      "date": "20260721",
+      "front": "\"Our license has **expired**, so the component now shows a watermark.\"",
+      "body": "你這次是用中文提出需求(更新授權碼)。以下提供這段需求的自然英文說法,方便你日後對接原廠或英文同事時使用:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 授權到期了,畫面顯示浮水印 | \"Our license has **expired**, so the component now shows a watermark.\" |\n| 請幫我把這組授權碼更新到專案裡 | \"Please **update the project with this new license key**.\" |\n| 這組授權綁定的網域不包含我們的部署網域 | \"This license key isn't **bound to** our deployment domain.\" |\n\n**實用單字**:\n- 授權「綁網域」的動詞用 **bound to**(be bound to a domain);「網域鎖定」名詞是 **domain-locked license**。\n- 「浮水印/試用提示」= **watermark** 或 **trial banner**。\n- 跟原廠要新碼時可說:\"Could you **reissue** a key that **covers** the `testezomd.icsc.com.tw` domain?\" — `reissue`(重新核發)、`cover a domain`(涵蓋某網域)都是很道地的說法 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "76b8fd1fc479",
+      "date": "20260721",
+      "front": "\"Analyze the current SpreadJS setup.\"",
+      "body": "你這次是用中文下指令「分析一下目前 SpreadJS 相關」,以下提供自然的英文說法,方便你日後直接用英文對我下同樣的指令:\n\n| 情境 | 自然英文說法 |\n|------|------|\n| 最口語 | \"Analyze the current SpreadJS setup.\" |\n| 更精確(強調現況) | \"Give me an analysis of how SpreadJS is currently used in this project.\" |\n| 想要總覽 | \"Walk me through everything related to SpreadJS here.\" |\n\n**用字提醒**:\n- 中文「目前」對應英文常用 **current**(形容詞,放名詞前:*current setup*)或 **currently**(副詞,放動詞旁:*how it's currently used*),不要用 *now* 當形容詞(*now setup* ✗)。\n- 「相關」在這裡不必硬翻成 *related things*,直接說 *the SpreadJS setup* 或 *everything about SpreadJS* 更道地。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5f32d5b470d4",
+      "date": "20260721",
+      "front": "\"no fast-forward\"",
+      "body": "這輪你的指令「直接本地 --no-ff 合併」是中文，我幫你補上自然的英文說法：\n\n> Just do the no-ff merge locally.\n> （直接在本地做 no-ff 合併。）\n\n**用字提醒（繁中說明）：**\n- 「直接」在這裡是「不用透過 MR、就地處理」的語氣，英文用 **just** 最傳神(帶有「省略中間步驟」的意味)。\n- 技術旗標 `--no-ff` 口語唸作 **\"no fast-forward\"** 或簡稱 **\"no-ff\"**;寫在句子裡當形容詞時，常寫成 **a no-ff merge**(名詞前當修飾語)。\n\n更完整的一句：\n> Go ahead and merge it back into master locally with --no-ff.\n> （請直接用 --no-ff 在本地把它併回 master。）\n- **Go ahead and...** 是「你就放手去做…」的道地起手式,比單純的 \"do\" 更自然、更有授權的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5d7f94558ca9",
+      "date": "20260721",
+      "front": "\"Do you have any leads on...?\"",
+      "body": "你這次用中文提問，這裡提供自然的英文說法：\n\n> Do you have any leads on building a low-stock email notification feature?\n\n- 「有頭緒嗎」用 **\"Do you have any leads on...?\"** 或 **\"Any thoughts on...?\"** 最自然。\"leads\" 有「線索、切入點」的意味，很貼近「頭緒」。\n- 若想更口語：**\"Any idea how we'd build...?\"**\n\n補充一個實用片語：**\"low-stock alert\"**（低庫存警示）是業界標準說法，比 \"low inventory notification\" 更精簡道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4ecf41a9ac5d",
+      "date": "20260721",
+      "front": "\"failed with <error>\"",
+      "body": "你這次貼的是 CI log、沒有自撰英文句子，這裡補一個你日後回報 CI 結果會用到的地道說法：\n\n> The migration failed with a view-column ordering error, but it's fixed now — re-running the workflow.\n\n- 「以某個錯誤失敗」英文是 **\"failed with <error>\"**（介系詞用 with），例如 \"failed with a 500 error\"。\n- 「重跑」用進行式 **\"re-running\"** 表示正在進行的動作，簡潔自然。\n- CI 情境常見詞：綠燈/紅燈可直接說 **\"the build is green / red\"**，母語者都聽得懂。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "48f884ed6f3d",
+      "date": "20260721",
+      "front": "\"OK, let's go with **option 1** first so it displays on localhost — that makes **local development** easier for me.\"",
+      "body": "你這句「好先用方法1讓local可以顯示，方便我本機開發」意思很清楚。自然的英文說法:\n\n> \"OK, let's go with **option 1** first so it displays on localhost — that makes **local development** easier for me.\"\n\n**用字提醒**:\n- 選方案用 **go with option 1** 或 **let's use approach 1**,比直譯 \"use method 1\" 更口語道地(工程討論裡 option/approach 比 method 常見)。\n- 「本機開發」固定說 **local development**;「在本機跑」= **run it locally**。\n- 「方便我開發」用 \"so I can develop **more easily**\" 或 \"to make development **easier**\",避免直譯 \"convenient my development\"(convenient 不這樣用)👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3f1e4bf30c9a",
+      "date": "20260721",
+      "front": "\"up and running\"",
+      "body": "你這幾則都是操作輸出、沒有英文句子可分析，這裡補一個部署情境常用的地道說法給你：\n\n> The email channel is up and running — all that's left is pushing the migration and setting the env vars on Vercel.\n\n- **\"up and running\"**（已順利運作）是描述系統/服務就緒最常見的片語。\n- **\"all that's left is...\"**（剩下的就只是……）用來收尾、列出待辦，語氣自然俐落。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3ad4fea618e9",
+      "date": "20260721",
+      "front": "\"exclude ... from\"",
+      "body": "這次你下的是中文短指令「改 middleware 排除 _vercel」，我幫你補上對應的英文技術講法：\n\n自然的英文說法：\n> \"Update the middleware to exclude `_vercel` from the matcher.\"\n> 或更口語：\"Add `_vercel` to the middleware exclusion list.\"\n\n用字說明（繁中）：\n- **「排除」** 在這個情境用 **\"exclude ... from\"** 最精準；若指「加進忽略清單」也可用 **\"add to the exclusion list\"**。\n- 動詞開頭用 **\"Update\"** 或 **\"Tweak\"**（微調）都很道地；工程師口語常說 **\"Have the middleware skip `_vercel`\"**（讓 middleware 跳過），\"skip\" 這個字很生動。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "321b0d076032",
+      "date": "20260721",
+      "front": "\"What should I put in...?\"",
+      "body": "你這則是中文提問，這裡給你對應的自然英文說法：\n\n> My Supabase project is at [URL]. What should I put in the `SUPABASE_ACCESS_TOKEN` secret in Actions?\n\n- 「要填什麼」用 **\"What should I put in...?\"** 最自然口語；也可說 **\"What value goes in...?\"**（語氣稍正式）。\n- 提到某個設定項時，英文常用 **\"the `X` secret\"**（把名稱當形容詞放在 secret 前），比 \"the secret which is called X\" 精簡得多。\n- 你這句結構清楚、資訊完整，是很好的技術提問範例，繼續保持！",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2b95c1319674",
+      "date": "20260721",
+      "front": "你的原句：**「我的 Vercel Speed Insights 突然掛了，幫我確認一下問題。」**",
+      "body": "這次你的訊息是中文，我幫你做「中翻英」練習。\n\n你的原句：**「我的 Vercel Speed Insights 突然掛了，幫我確認一下問題。」**\n\n自然的英文說法：\n> \"My Vercel Speed Insights suddenly stopped working — can you help me figure out what's wrong?\"\n\n用字說明（繁中）：\n- **「掛了」** 這種口語，最貼切的講法是 **\"stopped working\"** 或 **\"broke\"**；別直譯成 \"died / hung\"（\"hung\" 專指程式凍結不動、\"died\" 太字面）。\n- **「確認一下問題」** 用 **\"figure out what's wrong\"**（找出哪裡出錯）比 \"confirm the problem\" 更道地——\"confirm\" 語感是「證實一個已知的事實」,但你其實是要「找出原因」。\n- 更工程師口吻的替代句：**\"Speed Insights just went blank on me — mind taking a look?\"**（\"went blank\" 很生動地描述「畫面變空、沒資料」的情況）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2b7980cb5011",
+      "date": "20260721",
+      "front": "\"先直接commit and push\"",
+      "body": "你這句 **\"先直接commit and push\"** 是中英混用的口語，這裡給你完整的英文說法：\n\n> Just go ahead and commit and push directly.\n\n- **\"go ahead and...\"** 完美對應「直接、就去做」的語氣，是母語者最常用的說法。\n- 「先」在這個情境其實不用硬翻，若要表達可用開頭的 **\"For now, just...\"**（現在就先……）。\n- 小提醒：`commit` 和 `push` 是英文動詞，中英夾雜時它們本身沒問題，但完整說一句英文會更利於你練習～",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "29932cfcc220",
+      "date": "20260721",
+      "front": "\"dedicated ... just for this system\"",
+      "body": "這則你用中文回答，這裡給你「用專用 Gmail 寄通知」的自然英文說法：\n\n> I'm thinking of setting up a dedicated Gmail account just for this system's notification emails — would that work?\n\n- 「系統專用的」用 **\"dedicated ... just for this system\"** 最道地，\"dedicated\" 就是「專用的」。\n- 「拿來...用」→ **\"use it for...\"** 或直接用 \"for ... emails\"，不用逐字翻「拿來」。\n- 「可以嗎？」在提案情境用 **\"would that work?\"** 比 \"is it OK?\" 更自然、更像在徵詢技術可行性。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "20d5ef9a126d",
+      "date": "20260721",
+      "front": "\"Let's go with A.\"",
+      "body": "你的回覆「I choose A.」簡潔正確,完全沒問題 👍 這種在選項中做選擇的講法很道地。\n\n補充幾個同義的自然說法,讓表達更有變化:\n\n| 情境 | 自然英文 |\n|------|----------|\n| 我選 A | \"I choose A.\" / \"Let's go with A.\" / \"I'll go with A.\" |\n| A 對我來說比較好 | \"A works better for me.\" |\n| 就照 A 做 | \"Let's do it the A way.\" / \"Go with option A.\" |\n\n**小提醒**:\n- 口語上 **\"Let's go with A.\"** 比 \"I choose A.\" 更常聽到,語氣也更像在團隊裡做決定 —— choose 稍微正式一點,go with 更輕鬆自然。\n- 若想補充理由:\"Let's go with A — I'd like to see it working first.\"(想先看到實際效果)👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "17690cca1bcb",
+      "date": "20260721",
+      "front": "\"It didn't actually run out of memory, but it **felt like it did**.\"",
+      "body": "你這次描述得很生動(「體感上也已經OOM了，因為整個都不能動」)。提供對應的道地英文:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 雖然沒真的 OOM,但體感上就像 OOM | \"It didn't actually run out of memory, but it **felt like it did**.\" |\n| 整個畫面都不能動 | \"The **whole UI is completely unresponsive / frozen**.\" |\n| 在「基礎報表」就會這樣了 | \"It happens **even on the Basic Report tab**.\" |\n\n**用字提醒**:\n- 「體感上」= **it feels like…** / **subjectively**;工程場景很常說 \"it feels laggy\"(體感很卡)。\n- 「動不了/沒反應」最精準是 **unresponsive** 或 **frozen**;若是輸入有延遲用 **laggy** / **janky**。\n- 「連…都會」用 **even**:\"It lags **even with** just 8 columns.\" — even 擺對位置能強調「連這麼少都不行」👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0c726f75b142",
+      "date": "20260721",
+      "front": "\"commit and push.\"",
+      "body": "這次你的指令是 **\"commit and push.\"**——非常標準、道地的工程師講法，沒有任何問題，給你一個讚 👍。\n\n補充可以擴充的說法：\n- 想更精確表達「一起做」可說 **\"commit and push it up.\"**（`up` 暗示推到遠端 remote，很常見的口語尾綴）。\n- 若想指定分支：**\"Commit this and push to main.\"**\n- 若想分開兩步驟講：**\"Stage the change, commit it, then push.\"**（`stage` 就是 `git add` 的動作）。\n\n用字說明（繁中）：動詞 **\"commit\"** 與 **\"push\"** 在 Git 語境已是專有動詞，直接用即可，不需加受詞也能被理解——這正是你這句自然的原因。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "095fb50d0e6d",
+      "date": "20260721",
+      "front": "\"Walk me through\"",
+      "body": "這次你的訊息是用中文寫的（「跟我說說……分別的用途」），以下提供自然的英文說法：\n\n> Walk me through what `.env.development`, `.env.production`, and `.env.staging` are each used for.\n\n- 「跟我說說」翻成 **\"Walk me through\"** 比直譯的 \"Tell me about\" 更道地，帶有「帶我逐步了解」的語感，很適合請人講解技術設定。\n- 「分別的用途」用 **\"what ... are each used for\"**，這裡的 **each** 放在主詞後面表示「各自」，是很自然的位置。\n- 若想更簡短，也可以說：**\"What's the purpose of each `.env` file?\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "03701df25f91",
+      "date": "20260721",
+      "front": "\"Why is it showing an **‘invalid license’** message?\"",
+      "body": "你這次的提問「為什麼會『無效授權信息』?」很清楚。提供對應的英文問法給你參考:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 為什麼會顯示「無效授權」? | \"Why is it showing an **‘invalid license’** message?\" |\n| 授權碼對這個網域無效 | \"The license key **isn't valid for this domain**.\" |\n| 本機開發不需要授權 | \"You don't need a license **when running on localhost**.\" |\n\n**實用觀念用詞**:\n- 「網域鎖定」= **domain-locked** / **domain-bound**;動詞可說 \"the license is **tied to** specific domains\"。\n- 「浮水印」在授權語境常說 **watermark** 或 **license banner/notice**。\n- 想描述「載入了但被判為無效」可用:\"The key **is loaded but rejected as invalid** for this host.\" — `rejected as invalid`(被判定為無效)是很精準的說法 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "f2ed6691c6dd",
       "date": "20260720",
       "front": "\"query conditions\"",
