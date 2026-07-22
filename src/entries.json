@@ -1,6 +1,408 @@
 {
   "entries": [
     {
+      "id": "f43b79baa342",
+      "date": "20260722",
+      "front": "你這則訊息用中文寫的，這裡提供自然的英文說法：",
+      "body": "你這則訊息用中文寫的，這裡提供自然的英文說法：\n\n> Let's just hide it for non-uploaders and non-admins — that feels better.\n\n- 「隱藏好了」帶有「就這樣決定」的語氣，英文用 **Let's just hide it** 的 *just* 很傳神。\n- 「體感比較好」在 UI/UX 情境常說 **that feels better** 或 **for a better user experience**；口語的「體感」對應 **feels** 這個字最自然。\n- 提醒：「非上傳者」英文用連字號複合形容詞 **non-uploaders**、**non-admins**，前綴 *non-* 後面通常加連字號，讀起來更清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ef2c80ce1e8f",
+      "date": "20260722",
+      "front": "你這則訊息是用中文寫的，這裡提供自然的英文說法：",
+      "body": "你這則訊息是用中文寫的，這裡提供自然的英文說法：\n\n> Only the original uploader or an admin should have permission to submit for review — that makes more sense.\n\n- 「這樣比較合理」用 **that makes more sense** 或 **that would be more reasonable** 最自然。\n- 「有權限」動詞用 **should have permission to...** 或更簡潔的 **should be allowed to...**。\n- 提醒：`or` 連接兩個主詞時，冠詞要各自帶——**the uploader or an admin**（uploader 用 the 指特定本人，admin 用 an 泛指任一管理員）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e9b12198cfae",
+      "date": "20260722",
+      "front": "\"approved\"",
+      "body": "你這則只回了一個字 **\"approved\"**——用得完全正確、自然，正是軟體開發流程中核准變更的標準用語。👍\n\n補充幾個同義的實用說法，幫你擴充詞彙：\n- **\"Approved.\"** — 最中性、正式,適合流程核准（你用的這個）。\n- **\"Go ahead.\"** — 較口語的「動手吧」。\n- **\"LGTM.\"** — 工程師 code review 常用縮寫，全稱 **\"Looks good to me.\"**（我看沒問題），在 PR/MR 核准時特別道地。\n\n下次核准 PR 時可以試試 **\"LGTM, go ahead and merge.\"**（沒問題，去合併吧）。",
+      "tags": [
+        "praise",
+        "vocab"
+      ]
+    },
+    {
+      "id": "e6ff2df2b91c",
+      "date": "20260722",
+      "front": "\"looks too generic\"",
+      "body": "你這次的 UI 回饋「這個背景配色 AI 感太重，而且顏色與系統整體風格不一致」講得很到位 —— \"AI 感\" 是很生動的說法 👍 英文對應:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 這配色 AI 感太重 | \"This color scheme looks **too 'AI-generated'**.\" / \"It looks **too generic/templated**.\" |\n| 跟系統整體風格不一致 | \"It's **inconsistent with the rest of the system**.\" / \"It **doesn't match the overall style**.\" |\n| 換成跟系統一致的配色 | \"Match it to the **system's color scheme / design system**.\" |\n\n**用字提醒**:\n- 「配色/色彩方案」= **color scheme** 或 **color palette**;整套設計規範 = **design system**。\n- 「風格一致/不一致」= **consistent / inconsistent with**;或 **(doesn't) match the overall look**。\n- 「AI 感太重」很難直譯,母語者會說 **\"looks too generic\"**(太通用/沒特色)或 **\"looks like a template\"**(像模板),都能傳達那種「不夠貼合品牌」的感覺 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "e2d4605de2d4",
+      "date": "20260722",
+      "front": "你這三點都是用中文寫的,幫你整理成自然的英文表達:",
+      "body": "你這三點都是用中文寫的,幫你整理成自然的英文表達:\n\n> - It's already 11:35 now.\n> - I can see there's a record in the dedup table.\n> - My group already has an email set up.\n\n- **nuance**:「去重表」的英文技術用語就是 **dedup table**(deduplication 的縮寫),你直接用很地道。\n- 「有設定 email」用 **has an email set up** 或 **has a contact email configured** 都很自然;動詞 **set up**(設定好)比單純 **set** 更能表達「已經配置完成」的狀態。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "dee935c28aa2",
+      "date": "20260722",
+      "front": "\"The toggle **takes a moment to load**.\"",
+      "body": "你這次「因為在切換的時候會需要 loading 的時間，所以請幫我做個 loading 遮罩」把「原因 + 需求」講得很清楚 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 切換時會需要一點載入時間 | \"The toggle **takes a moment to load**.\" |\n| 幫我加個 loading 遮罩 | \"Please add a **loading mask / overlay**.\" / \"Add a **loading spinner**.\" |\n| 避免使用者以為卡住了 | \"so users don't think it **froze / hung**.\" |\n\n**用字提醒**:\n- 「載入遮罩」= **loading mask** / **loading overlay**;轉圈圈的圖示 = **spinner**;整句常說 \"show a **loading indicator**\"(顯示載入指示)。\n- 「需要一點時間」= **takes a moment** / **takes a bit** / **has a slight delay**。\n- 進階:「阻塞主執行緒」= **blocks the main thread**;「轉場/切換動畫」= **transition** 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "dec65cb073d6",
+      "date": "20260722",
+      "front": "\"The PDF is **full of garbled text / gibberish**.\"",
+      "body": "你這次「PDF 一大堆亂碼!」+ 附上原始資料截圖對照,是很到位的 bug 回報(有預期 vs 實際) 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| PDF 一大堆亂碼 | \"The PDF is **full of garbled text / gibberish**.\" |\n| 原始資料是這樣 | \"Here's what the **source data** looks like.\" |\n| 中文變成亂碼 | \"The Chinese characters came out **garbled / as mojibake**.\" |\n\n**用字提醒**:\n- 「亂碼」最道地是 **garbled text** 或 **gibberish**;技術圈也直接用日文借詞 **mojibake**(文字化け)專指編碼/字型造成的亂碼,工程師都懂。\n- 「字型沒內嵌」= **the font isn't embedded**;「字模/字符」= **glyphs**:\"the PDF has no **CJK glyphs**.\" 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "dbf8f4bb384c",
+      "date": "20260722",
+      "front": "\"Let's commit and push this first, and deal with the rest later.\"",
+      "body": "你這則是簡短中文指令(「先 commit and push.」),你直接混用了英文技術動詞 `commit` 和 `push`,在工程情境下這樣講完全自然,母語工程師也天天這樣說。一個更完整的說法:\n\n> Commit and push it first.\n\n- **nuance**:句尾加 `it` 讓受詞明確(指這次的變更),再加 `first` 對應你的「先」,語意更完整。不加也完全能溝通,口語中省略受詞很常見。\n- 若想表達「先 commit,晚點再處理其他事」,可以說 *\"Let's commit and push this first, and deal with the rest later.\"*",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "d77dee752317",
+      "date": "20260722",
+      "front": "\"doesn't it?\"",
+      "body": "你這則用中文提問(「所以補貨補到門檻以上後,去重表內的紀錄就會被刪除囉?」),自然的英文說法:\n\n> So once I restock above the threshold, the record in the dedup table gets deleted, right?\n\n- **道地句型**:句尾用 **..., right?** 來表達「囉?」這種尋求確認的語氣,非常自然;比 tag question(\"doesn't it?\")更口語輕鬆。\n- **用字**:「補貨」動詞用 **restock** 最精準;「補到門檻以上」用 **restock above the threshold** 很簡潔。開頭的 **once**(一旦…就…)很適合表達你這種條件語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cf59532b3f0a",
+      "date": "20260722",
+      "front": "\"regression\"",
+      "body": "這則是系統指令（`/code-review`），沒有你自己寫的英文句子需要批改。趁機補充一個這次審查用到的實用詞：\n\n- **\"regression\"**（回歸）= 原本正常、因新改動而壞掉的 bug。像 #2 我就說 \"a newly introduced crash path / regression\"。在 code review 與 QA 場景極常用，例如：**\"This change introduces a regression in the roster card.\"**（這個改動讓名單卡出現回歸性 bug。）\n- 相關搭配：**\"regression test\"**（回歸測試）= 為防止某 bug 再度發生而寫的測試——正是我為 #2 補的那條。\n\n一句道地示範：**\"Good catch — I've fixed the regression and added a regression test to lock it down.\"**（抓得好，我已修好回歸並補上回歸測試把它釘住。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bdf197afd006",
+      "date": "20260722",
+      "front": "\"How do I keep my emails from landing in the spam folder?\"",
+      "body": "你這則是用中文提問(「有甚麼方法可不讓信件被認定為垃圾郵件呢?」),自然的英文說法:\n\n> Is there any way to keep my emails from being marked as spam?\n\n- **關鍵字彙**:「被判定為垃圾郵件」的標準英文是 **marked as spam** 或 **flagged as spam**;整個主題領域叫 **email deliverability**(郵件送達率),你要 Google 相關解法時用這個詞最精準。\n- **句型 nuance**:`keep something from doing`(防止某事發生)是很道地的用法,比 `let it not be...` 自然得多。例如 *\"How do I keep my emails from landing in the spam folder?\"*(land in = 掉進某處,很生活化的動詞)。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "b076622ebd81",
+      "date": "20260722",
+      "front": "\"approved\"",
+      "body": "你這則又是精簡的 **\"approved\"**，用得完全正確。👍 這次換個角度補充一組**在技術審查／流程中表達「核准」與「打回」**的常用搭配，擴充你的詞彙光譜：\n\n| 情境 | 道地說法 |\n|---|---|\n| 核准、放行 | \"Approved.\" / \"Go ahead.\" / \"Ship it.\" |\n| 核准但有小意見 | \"Approved with nits.\"（nits = 雞毛蒜皮的小問題）|\n| 需要修改再議 | \"Needs changes.\" / \"Let's iterate on this.\" |\n| 打回、不通過 | \"Let's hold off on this.\" / \"This needs rework.\" |\n\n其中 **\"Ship it!\"** 是工程文化裡很經典的「沒問題，發吧！」，語氣輕鬆帶點興奮，adequate 用在你核准一個做完的功能時。",
+      "tags": [
+        "praise",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "acc8e51ebb16",
+      "date": "20260722",
+      "front": "\"layer\"",
+      "body": "你這則是簡短中文指令(「幫我改第二層吧!」),自然的英文說法:\n\n> Go ahead and implement the second option!\n\n- **道地表達**:`Go ahead and...` 是「你就動手做吧」很自然的口語開頭,帶有「我授權你進行」的語氣,比直接說 `Do the second layer` 更順。\n- **用字**:「第二層」在這個情境用 **the second option / the second approach** 會比直譯的 `the second layer` 更貼切,因為對英文母語者來說 \"layer\"(層)通常指堆疊結構,而你指的是「第二個做法」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a4f03943117d",
+      "date": "20260722",
+      "front": "\"**Failed to load** the font.\"",
+      "body": "你這次直接貼 console 錯誤訊息(含堆疊)是最有效的除錯回報方式 👍 不用多說,我一看就懂。\n\n| 中文 | 自然英文 |\n|------|----------|\n| 載入字型失敗 | \"**Failed to load** the font.\" |\n| 找不到檔案 (404) | \"The file **wasn't found** (404).\" / \"It's **returning a 404**.\" |\n| 是不是還沒放進去? | \"Maybe it **hasn't been added yet**?\" |\n\n**用字提醒**:\n- 「404 / 找不到」= **not found**;動詞常說 \"it **returns / throws** a 404\" 或 \"the request **fails with** a 404\"。\n- 「放檔案 / 放到某目錄」= **place / drop / put the file in …**:\"**drop** the font into `public/fonts/`\" 很口語自然 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a3964f6defc7",
+      "date": "20260722",
+      "front": "\"This is the file **I got** after downloading.\"",
+      "body": "你這次「下載完是這個檔案」+ 用 `@` 標出實際檔案,溝通很精準 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 下載完是這個檔案 | \"This is the file **I got** after downloading.\" / \"The download **gave me this file**.\" |\n| 檔名跟預期不一樣 | \"The filename **is different from** what was expected.\" |\n| 是變動字型版本 | \"It's the **variable font** version.\" |\n\n**用字提醒**:\n- 「下載下來/拿到的是…」= **what I got is…** / **the download gave me…**;口語常說 \"I **ended up with** this file\"(結果拿到這個)。\n- 「變動字型」= **variable font**;對應的固定字重版本 = **static font / static instance** 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9e02955f57c8",
+      "date": "20260722",
+      "front": "你這則用中文指令(「請你用 plan 開始規劃吧!」),自然的英文說法:",
+      "body": "你這則用中文指令(「請你用 plan 開始規劃吧!」),自然的英文說法:\n\n> Go ahead and start planning with the Plan agent!\n\n- **道地表達**:延續上次教過的 **Go ahead and...**(你就放手去做吧),很適合這種「授權開始」的語氣。\n- **用字**:「規劃」動詞用 **plan** 或名詞 **planning** 都可以;若想更正式一點,「擬定實作計畫」可說 **draft an implementation plan**(draft 當動詞 = 草擬)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9a7340c2e0df",
+      "date": "20260722",
+      "front": "\"I'd suggest...\"",
+      "body": "你這次的建議「下方紅框處我建議隱藏…若要查看資訊可透過按鈕呼叫出來顯示可能比較適合」是很成熟的 UX 提案 —— 點出問題 + 給出替代方案 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 我建議把這塊隱藏 | \"I'd suggest **hiding this part**.\" |\n| 讓介面滿版、空間更大 | \"so the UI can go **full-width** and feel more spacious.\" |\n| 需要時再用按鈕呼叫出來 | \"and **pull it up with a button** when needed.\" |\n\n**用字提醒**:\n- 「呼叫出來/叫出」某個面板,英文用 **pull up**、**bring up**、或 **toggle**(切換顯示):\"**toggle** the info panel with a button\" 很道地。\n- 「滿版」= **full-width** / **full-screen**;「空間更寬敞」= **more spacious** / **more room to work**。\n- 提案句型 **\"I'd suggest...\"** / **\"It might be better to...\"** 語氣專業又不強勢,很適合提 UX 建議 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9458c8389788",
+      "date": "20260722",
+      "front": "\"Could you update the docs real quick?\"",
+      "body": "你這則用中文下指令(「幫我更新一下文件」),自然的英文說法:\n\n> Could you update the docs for me?\n\n- **道地用字**:「文件」在工程情境口語常說 **the docs**(documentation 的縮寫);若特指使用手冊可說 **the user manual**。\n- **語氣 nuance**:「更新一下」的「一下」帶有輕鬆、不那麼正式的語感,英文用 **Could you ... for me?** 或加上 **real quick**(*\"Could you update the docs real quick?\"*)就能傳達那種「順手幫我改一下」的輕量語氣。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "793c5467cba5",
+      "date": "20260722",
+      "front": "你這則用中文提問(「是否可以提供【生成下訂訊息】的功能?」),自然的英文說法:",
+      "body": "你這則用中文提問(「是否可以提供【生成下訂訊息】的功能?」),自然的英文說法:\n\n> Could you add a feature that generates an order message for me?\n\n- **道地用字**:「生成/產生」用 **generate** 最精準;「下訂訊息」= **an order message** 或 **a purchase-order draft**(訂單草稿,更正式)。\n- **句型 nuance**:用 **Could you add a feature that...**(你能不能加一個…的功能)是提出功能需求時很客氣自然的講法;結尾的 **for me** 讓語氣更口語、更像日常請求。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "74d03491d9fe",
+      "date": "20260722",
+      "front": "\"merge to dev and create new branchs 'dev-vx.x.x' and 'prod-vx.x.x'.\"",
+      "body": "你這則指令 **\"merge to dev and create new branchs 'dev-vx.x.x' and 'prod-vx.x.x'.\"** 整體清楚達意，我完全理解。有一個小拼字要修正：\n\n| 你的寫法 | 正確寫法 | 說明 |\n|---|---|---|\n| new **branchs** | new **branches** | branch 的複數是 branches（字尾 -ch 要加 -es，不是 -s） |\n\n其他都很自然。額外補充：用 `vx.x.x` 當佔位符是很聰明的表達方式，一看就懂是「版號待填」，工程溝通中很實用。👍\n\n一個更道地的說法可以是：\n\n> \"Merge into dev, then cut new release branches `dev-vX.X.X` and `prod-vX.X.X`.\"\n\n其中 **\"cut a branch\"**（開一條分支）是版本發佈情境的行話，比 create 更專業道地；**\"cut a release\"** 也常用來指「發一個版本」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "74ac7aaeb50c",
+      "date": "20260722",
+      "front": "\"So it will not...\"",
+      "body": "你這則用中文說明需求,其中「佔用推播成本」是很好的產品思維表達,提供對應英文:\n\n> We shouldn't generate the order message right away — send the alert first, but put a button below it that the user taps to trigger the order message. That way it won't consume push-notification quota.\n\n- **關鍵用字**:「佔用推播成本/額度」的道地說法是 **consume push(-notification) quota**(消耗推播額度);「觸發」用 **trigger** 最精準。\n- **句型 nuance**:**That way ...**(這樣一來…)用來說明「這麼做的好處」,是很自然的承接語;比直譯的 \"So it will not...\" 更順口。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "6f2d98147286",
+      "date": "20260722",
+      "front": "\"The colors are **too similar**.\"",
+      "body": "你這次「淺色跟 spreadJS 工具列顏色太相近了，沒有一個區塊分隔的感覺」把問題描述得很精準 —— 點出「缺乏視覺分隔」是很專業的 UI 回饋 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 顏色太相近了 | \"The colors are **too similar**.\" / \"They **blend together**.\" |\n| 沒有區塊分隔的感覺 | \"There's **no visual separation** between the sections.\" |\n| 我想要有顏色但不糊 | \"I'd like some color, but **without things blending together**.\" |\n\n**用字提醒**:\n- 「區塊分隔感」= **visual separation** / **visual distinction** between sections;或說 \"the header doesn't **stand out from** the toolbar\"。\n- 「(顏色)糊在一起/分不清」= **blend together** / **blend in**;\"the button **blends into** the background\" 很精準。\n- 「相近」= **too similar** / **too close in color**;想更技術一點可說 **low contrast**(對比不足)👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "694265047f02",
+      "date": "20260722",
+      "front": "你這則是簡短中文指令(「建立好了...請你用 plan 開始規劃吧!」的延續),這裡幫你補一個實務上很好用的表達 —— 當你想請人「先做風險低的部分」時:",
+      "body": "你這則是簡短中文指令(「建立好了...請你用 plan 開始規劃吧!」的延續),這裡幫你補一個實務上很好用的表達 —— 當你想請人「先做風險低的部分」時:\n\n> Let's start with the low-risk parts first — the ones that don't touch the existing cron.\n\n- **道地用字**:「解耦/不相干」用 **don't touch**(不碰)最口語自然;正式一點可用 **are decoupled from**(與…解耦)。\n- **實用句型**:**start with...**(從…開始著手)後面接名詞,是描述實作順序時最常用的講法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6771a34a5297",
+      "date": "20260722",
+      "front": "\"link an account\"",
+      "body": "你這則用中文說明需求(綁定流程),其中「驗證碼」「綁定」是很實用的技術詞,幫你補上英文:\n\n- 驗證碼 → **verification code**(6-digit verification code)\n- 綁定 → **link / bind**(帳號綁定 = account linking;\"link an account\" 最自然)\n- 加好友 → **add (the account) as a friend**\n\n一個完整的英文表達參考:\n\n> Show a QR code and a 6-digit verification code; after the user adds the account as a friend and sends the code in the chat, we link their LINE account.\n\n- **nuance**:「綁定成功」說 **successfully linked** 即可;帳號綁定這整個功能在英文文件裡通常叫 **account linking**,你查 LINE 官方文件時用這個關鍵字最準。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "648d5e2dbdb1",
+      "date": "20260722",
+      "front": "\"How should I do?\"",
+      "body": "你這則用中文提問(「我只想留下 admin 和 demo001 兩個帳號的相關資料,請問該怎麼做?」),自然的英文說法:\n\n> I only want to keep the data for the admin and demo001 accounts. How should I go about this?\n\n- **道地片語**:「該怎麼做」用 **How should I go about this?** 比直譯的 \"How should I do?\"(文法不完整)自然得多;`go about (doing) something` 意思是「著手處理某事」。\n- **nuance**:「相關資料」用 **the data for these accounts** 或 **the data associated with these accounts** 都很清楚;口語用前者即可。",
+      "tags": [
+        "grammar",
+        "nuance"
+      ]
+    },
+    {
+      "id": "63ab3aaa93ea",
+      "date": "20260722",
+      "front": "\"commit(en) & push\"",
+      "body": "你這則指令 **\"commit(en) & push\"** 精簡明確、在開發情境完全達意，我照做無誤。👍\n\n若要更完整地道一點，口語上工程師常說：\n- **\"Commit it in English and push.\"** — 最自然的完整句。\n- **\"Commit with an English message, then push to the branch.\"** — 更精確地指明「英文訊息」與「推到分支」。\n\n小提醒：你的 `commit(en)` 這種括號縮寫在快速下指令時很好用，我完全理解；但如果是寫在 PR 說明或跟同事溝通，展開成完整句子會更清楚易讀。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6137974d01ca",
+      "date": "20260722",
+      "front": "你這則用中文提問(「是否還可以發送 LINE 訊息給廠商下訂球呢?」),自然的英文說法:",
+      "body": "你這則用中文提問(「是否還可以發送 LINE 訊息給廠商下訂球呢?」),自然的英文說法:\n\n> Besides email, is it also possible to send a LINE message to the supplier to place a shuttlecock order?\n\n- **關鍵用字**:「下訂/下單」的道地英文是 **place an order**(place 當動詞,「下」訂單);「廠商/供應商」用 **supplier** 或 **vendor**。\n- **句型**:開頭用 **Besides email, ...**(除了 email 之外)很自然;「是否可以」用 **is it possible to...** 是最標準的可行性詢問句型。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5d0fe5dea8b8",
+      "date": "20260722",
+      "front": "\"aim at\"",
+      "body": "本次你的訊息是以繁體中文提出的，這裡提供自然的英文說法：\n\n> Please confirm whether a user other than the original uploader can submit a document for review after it has been uploaded.\n\n- 「送審」在文件系統情境中常用 **submit for review** 或 **submit for approval**。\n- 「非上傳者本人」用 **a user other than the original uploader** 最精準；口語也可說 **someone who isn't the uploader**。\n- 「針對該文件」用 **on that document** 即可，不必逐字翻成 \"aim at\"（aim at 在此不自然）。\n\n小提醒：中文的「本人」在英文通常不需要額外一個字對應，用 **the original uploader** 或 **the uploader themselves** 就涵蓋了「本人」的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "57d1b3d70364",
+      "date": "20260722",
+      "front": "\"I didn't get any notification emails at all.\"",
+      "body": "你這則同樣是用中文提問(「那我今天為什麼沒有收到信?」),提供自然的英文說法:\n\n> Why didn't I get the email today?\n\n- **nuance**:口語上 \"get the email\" 完全自然;若想更正式可用 \"receive the email\"。時態用過去式 **didn't** 是對的,因為你指的是「今天(已發生的時段)沒收到」。\n- 延伸實用句:如果想描述「我一封通知信都沒收到」,可以說 *\"I didn't get any notification emails at all.\"*——用 **at all** 加強語氣。",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "56a992d243d3",
+      "date": "20260722",
+      "front": "\"a Copy address feature\"",
+      "body": "你這則是用中文寫的需求，我提供自然的英文說法，方便你日後用英文開 ticket：\n\n> \"Add a **Copy address** feature so activity participants can copy the venue address and paste it into a maps app for navigation.\"\n\n用字說明（繁體中文）：\n- **「複製地址」功能** → **\"a Copy address feature\"** 或 **\"a copy-to-clipboard button for the address\"**。功能名稱當按鈕標籤時，英文常寫成 **\"Copy address\"**（動詞開頭，簡潔）。\n- **「舉辦地址／地點」** → 英文最常用 **\"venue\"**（活動場地）或 **\"venue address\"**，比直譯的 \"holding address\" 自然得多。\n- **「方便取用後用來導航」** → **\"so they can use it for navigation\"** 或更道地的 **\"to navigate there\"**。「取用」不用逐字翻，英文合併成「copy and paste it into a maps app」就涵蓋了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "496b5b3688be",
+      "date": "20260722",
+      "front": "\"Commit and push, please.\"",
+      "body": "你這次「commit and push please」簡潔又禮貌 👍 標準工程指令,完全正確。\n\n| 中文 | 自然英文 |\n|------|----------|\n| 幫我 commit 並 push | \"Commit and push, please.\" / \"Please commit and push **this / these changes**.\" |\n| 推到遠端分支 | \"Push it to the **remote branch**.\" |\n| 開個 MR / PR | \"**Open a merge request** (MR).\" / \"…a **pull request** (PR).\" |\n\n**用字提醒**:\n- GitLab 叫 **merge request (MR)**,GitHub 叫 **pull request (PR)** —— 你們用 GitLab,說 MR 最貼切。\n- 「設定上游分支」= **set the upstream branch**;「追蹤遠端」= **track the remote**。\n- 加 \"please\" 就很禮貌了,工程對話中 \"Commit and push, please.\" 或 \"Let's commit and push.\" 都自然 👍",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "470550a4e21f",
+      "date": "20260722",
+      "front": "\"Is this in UTC or my local time?\"",
+      "body": "這則訊息你是用中文提問的（「為什麼我看 Vercel 的 Cron Jobs 是 01:00 AM ?」），這裡提供你一個自然的英文說法：\n\n> Why does Vercel show my cron job running at 01:00 AM?\n\n- 補充 nuance：如果你想更明確表達「在 Vercel 的介面上」，可以說 \"Why does the Vercel dashboard show...\"。用 **running at** 比 **is** 更精準,因為你問的是「執行時間」而非「這個 job 等於 01:00」。\n- 若想追問時區問題，很實用的一句是：*\"Is this in UTC or my local time?\"*（這是 UTC 還是我的當地時間?）",
+      "tags": [
+        "nuance"
+      ]
+    },
+    {
+      "id": "40d164536a80",
+      "date": "20260722",
+      "front": "\"are all configured\"",
+      "body": "你這則訊息條列了四項確認事項,英文很適合用這種簡潔的 bullet 回報進度。其中「都設定好了」你寫成中文,提供對應的自然英文:\n\n> - Migration is triggered via a GitHub Action.\n> - The QR image is @735hyytk.png.\n> - The Vercel environment variables are all set.\n> - The LINE Console settings are done too.\n\n- **道地用字**:「透過…觸發」用被動 **is triggered via / through** 最精準;「都設定好了」用 **are all set**(全部就緒)是母語者很常用的說法,比 \"are all configured\" 更口語。\n- **nuance**:結尾的「也都好了」用 **... are done too** 的 **too**(也)呼應前面幾項,語氣自然連貫。",
+      "tags": [
+        "grammar",
+        "nuance"
+      ]
+    },
+    {
+      "id": "3d9947458f3b",
+      "date": "20260722",
+      "front": "\"Nothing happens\"",
+      "body": "你這次「點『匯出 / 列印 ▾』目前沒反應」把「操作 + 結果(無反應)」講得很精準,是很好的 bug 回報 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 點了沒反應 | \"**Nothing happens** when I click it.\" / \"It's **not responding** to clicks.\" |\n| 按鈕沒作用 | \"The button **doesn't do anything**.\" |\n| 選單沒彈出來 | \"The **dropdown doesn't open / pop up**.\" |\n\n**用字提醒**:\n- 「沒反應」最自然:**\"Nothing happens\"** 或 **\"It's unresponsive\"**;點擊無效可說 \"the click **doesn't register**\"(點擊沒被接收)。\n- 「彈出選單/下拉選單」= **dropdown (menu)**;動詞 **pop up** / **open**:\"the dropdown won't **pop up**.\" 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3ba7949ba6d3",
+      "date": "20260722",
+      "front": "\"1. ... 2. ... 3. ...\"",
+      "body": "你這次連續三點式回覆(1./2./3.)把決策交代得非常清楚俐落 👍 這種「逐點回覆問題」在協作中很高效。\n\n| 中文 | 自然英文 |\n|------|----------|\n| 我偏好重建 | \"I'd **prefer the rebuild approach**.\" |\n| 重建後還是可以編輯 | \"since it's **still editable after rebuilding**.\" |\n| 併一列 | \"**Combine them into one row**.\" |\n| 我選切換 | \"I'll go with the **toggle**.\" |\n\n**用字提醒**:\n- 「偏好 A」= **I prefer A** / **I'd lean toward A**;比 \"I like A more\" 更精準。\n- 「合併成一列/一行」= **combine/merge into one row**;「分成兩列」= **split into two rows**。\n- 逐點回答時,英文常用 **\"1. ... 2. ... 3. ...\"** 或 **\"For the first point, ...; for the second, ...\"** 都很清楚 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "330931664171",
+      "date": "20260722",
+      "front": "你這幾則訊息大多是中文,這裡回饋你先前寫的一句英文技術訊息習慣 —— 你很自然地在中文裡混用 `commit`、`push`、`token`、`plan` 等詞,這在工程團隊溝通中完全道地。補充一個實務場景說法,當你想說「我這邊環境變數都設定好了」:",
+      "body": "你這幾則訊息大多是中文,這裡回饋你先前寫的一句英文技術訊息習慣 —— 你很自然地在中文裡混用 `commit`、`push`、`token`、`plan` 等詞,這在工程團隊溝通中完全道地。補充一個實務場景說法,當你想說「我這邊環境變數都設定好了」:\n\n> I've set up all the environment variables on my end.\n\n- **道地片語**:**on my end**(我這邊/我這一側)非常適合表達「負責的那部分我做完了」,常用於分工協作情境。\n- **時態**:用現在完成式 **I've set up**(已經設定好)最貼切,強調「完成並持續有效」的狀態。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "22b0b6ee84e3",
+      "date": "20260722",
+      "front": "\"Could we…?\"",
+      "body": "你這次「是否可以提供匯出成PDF或者列印等功能?」是很標準的功能詢問 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 是否可以提供…功能? | \"Could we **add** a … feature?\" / \"Is it possible to **support** …?\" |\n| 匯出成 PDF | \"**export to / as** PDF\" |\n| 列印等功能 | \"printing **and the like**\" / \"print **and similar** features\" |\n\n**用字提醒**:\n- 「匯出成 X」= **export to X** 或 **export as X**(兩者都通);「列印」= **print**(當動詞/名詞皆可)。\n- 「…等功能」= **… and the like** / **… and so on** / **features like … and …**。\n- 詢問可行性最自然:**\"Could we…?\"** / **\"Is it possible to…?\"** / **\"Would it be feasible to…?\"**(feasible = 可行的,較正式)👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "227f870dcab9",
+      "date": "20260722",
+      "front": "\"There's **a lot of empty space** on the right.\"",
+      "body": "你這次「右側還有很多空位，是否可以預設是補滿的?」把問題(右側空白)和期望(補滿)講得很清楚 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 右側還有很多空位 | \"There's **a lot of empty space** on the right.\" |\n| 可以預設補滿嗎? | \"Can it **fill the width by default**?\" / \"Can we **fill up** the remaining space?\" |\n| 只顯示到 J 欄 | \"It **only goes up to column J**.\" |\n\n**用字提醒**:\n- 「補滿/填滿(空間)」= **fill (up)** / **fill the width**;「滿版」= **full-width**。\n- 「延伸到…」= **extend to** / **go up to**:\"the columns only **go up to** J\"。\n- 「預設就…」= **by default**:\"fill the width **by default**\" 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "1d62b12e4faa",
+      "date": "20260722",
+      "front": "\"scratch that\"",
+      "body": "你這次「我反悔了」很口語生動 👍 這在開發討論中很常見(改變主意)。英文對應:\n\n| 中文 | 自然英文 |\n|------|----------|\n| 我反悔了 | \"I **changed my mind**.\" / \"Actually, **scratch that**.\" |\n| 改用這個顏色仿 Excel | \"Let's use this color **to mimic Excel** instead.\" |\n| 還是用回原本的做法 | \"Let's **go back to** the original approach.\" |\n\n**用字提醒**:\n- 「反悔/改變主意」最自然是 **I changed my mind**;更口語的 **\"scratch that\"**(當作我剛剛沒說)或 **\"on second thought\"**(再想想後)都很道地。\n- 「仿/模仿(某風格)」= **mimic** / **mirror** / **match**:\"to **mimic** Excel's look\" 很精準。\n- 想表達「推翻剛才的決定」:\"Let's **revert** that\" 或 \"**undo** that last change\" 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "1bbfbabd7279",
+      "date": "20260722",
+      "front": "\"tapping Save does nothing\"",
+      "body": "這則你是用中文提問的，我先提供自然的英文說法，方便你日後用英文回報類似 bug：\n\n> \"I'm on mobile trying to adjust a person's fee on the check-in screen, but tapping **Save** does nothing. Can you help me look into it?\"\n\n幾個用字說明（用繁體中文解釋）：\n- **「按下儲存無反應」** 英文最自然的講法是 **\"tapping Save does nothing\"** 或 **\"the Save button doesn't respond\"**。手機用 **tap**（輕觸），滑鼠才用 **click**——你這個情境在手機上，用 tap 更精準。\n- **「人員簽到介面」** → **\"the check-in screen\"**（介面用 screen 比 interface 更口語；interface 偏技術文件用語）。\n- **「協助確認」** → **\"help me look into it\"** 或 **\"help me figure out why\"**，比直譯的 \"help me confirm\" 更符合「幫我查清楚原因」的意思。confirm 偏向「確認某個已知事實成立」，而你的情境是「找出未知原因」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "12dc090d7329",
+      "date": "20260722",
+      "front": "\"I'd like each button to have **its own color**.\"",
+      "body": "你這次「按鈕我想要有獨自的顏色」簡潔清楚 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 按鈕我想要有各自的顏色 | \"I'd like each button to have **its own color**.\" |\n| 讓它們區分開來 | \"so they're **visually distinct** from each other.\" |\n| 統一顏色太單調 | \"One uniform color is **too plain/monotonous**.\" |\n\n**用字提醒**:\n- 「各自的/獨立的顏色」= **its own color** / **distinct colors** / **individual colors**;想強調彼此不同用 **distinct from each other**。\n- 「區分開來」= **differentiate** / **tell them apart**:\"different colors help users **tell the buttons apart**.\"\n- 「單調」= **plain** / **monotonous** / **bland** 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0d323d943c9d",
+      "date": "20260722",
+      "front": "\"Let's **commit first**.\"",
+      "body": "你這次「先 commit」中英夾雜很自然 —— 工程師日常都直接把 commit / push / merge 當動詞用 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 先 commit | \"Let's **commit first**.\" / \"**Commit** what we have first.\" |\n| 先存個檔點 | \"Let's **save a checkpoint** first.\" |\n| 之後再繼續 | \"We'll **continue after that**.\" |\n\n**用字提醒**:\n- 「先做 X」= **do X first** / **X first**;\"Let's commit first, then continue.\" 很順。\n- 想表達「先存起來以防萬一」可說 \"let's **commit this as a checkpoint**\"(當作一個檢查點),`checkpoint` 很傳神 👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "093a4270a835",
+      "date": "20260722",
+      "front": "\"幫我commit and push and tag\"",
+      "body": "你這則指令 \"幫我commit and push and tag\" 中英夾雜，這裡示範完整自然的英文說法：\n\n> Please commit, push, and tag it for me.\n\n- 三個動作並列時用逗號分隔、最後一個加 and 即可：**commit, push, and tag**，不必每個都接 and（你寫的 \"commit and push and tag\" 文法沒錯，但連續 and 稍嫌累贅）。\n- 「幫我」用 **for me** 放句尾，或用 **Can you...** / **Please...** 開頭都很自然。\n- 動詞 commit / push / tag 在 Git 情境可直接當及物動詞用，後面接 it（指這份變更），道地又簡潔。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "0881f5845da7",
+      "date": "20260722",
+      "front": "你這則用中文寫(「確認一下低庫存信件通知發送時機。」),自然的英文說法:",
+      "body": "你這則用中文寫(「確認一下低庫存信件通知發送時機。」),自然的英文說法:\n\n> Let me double-check when the low-stock email notifications are sent.\n\n- **道地用字**:「發送時機」用 **when ... are sent**(何時被寄出)最直接自然;若想更技術性,可用 **the trigger timing / the send schedule**(發送排程)。\n- **實用動詞**:**double-check**(再次確認)非常適合你這種「想再核對一下」的語氣,比單純 confirm 更口語、更貼近母語者說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fcd5d47a26a1",
       "date": "20260721",
       "front": "\"Please commit and push.\"",
