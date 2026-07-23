@@ -1,6 +1,98 @@
 {
   "entries": [
     {
+      "id": "f698e8fd69ae",
+      "date": "20260723",
+      "front": "\"Let's go with the first approach\"",
+      "body": "你這則訊息「先做 A 好了」很精簡，這裡示範自然的英文說法：\n\n> Let's go with option A for now.\n\n- 「先做…好了」帶有「就先這樣決定」的語氣，英文用 **Let's go with... for now** 最傳神；**for now** 精準對應「先」（暫且、目前）。\n- 選擇某方案動詞用 **go with**（選定）比 **do** 道地，例如 \"Let's go with the first approach\"。\n- 若想更明確可加：**Let's go with option A for now and revisit the snapshot issue later.**（先做 A，snapshot 問題之後再談），revisit 是「日後再檢視」的常用字。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f5e706cfc56d",
+      "date": "20260723",
+      "front": "\"follow\"",
+      "body": "這次你的訊息全是中文，我提供一個能精準表達此需求的英文說法，未來對工程夥伴溝通很好用：\n\n| 你的意思 | 自然英文說法 |\n|---------|------------|\n| SpreadJS 要跟著 ag-grid 目前顯示的樣子 | The SpreadJS view should **mirror the grid's current state** — columns, grouping, pivot, aggregation, and sorting included. |\n| 報表已經過使用者在 grid 內加工 | The data has already been **manipulated by the user in the grid**. |\n\n用字重點：**mirror**（動詞：忠實反映、如鏡像）是描述「A 要跟 B 完全一致」最地道的技術用語，比 \"follow\" 或 \"be the same as\" 專業精準；我在程式碼註解裡也用了「鏡像模式」正是對應這個概念。另外 **manipulate**（加工、操作資料）比 \"handle\" 更能表達使用者對資料做了排序/群組等實際操作。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a76da5023d62",
+      "date": "20260723",
+      "front": "\"put ... in\"",
+      "body": "這次你的指令是中文「幫我把SpreadJS相關的弄到 @...MyTopicViewer.vue 內」，以下提供自然的英文說法供你擴充詞彙：\n\n| 你的意思 | 自然英文說法 | 說明 |\n|---------|------------|------|\n| 把 SpreadJS 相關的弄進 MyTopicViewer.vue | Please **port the SpreadJS integration into** `MyTopicViewer.vue`. | `port ... into` 是工程界慣用語，指「把某功能移植到另一處」，比 \"put ... in\" 精確 |\n| （若是要對齊另一支檔案） | Please **bring `MyTopicViewer.vue`'s SpreadJS in line with** `TopicViewer.vue`. | `bring A in line with B` = 讓 A 與 B 一致，很地道 |\n\n小提醒：「弄」在中文很萬用，但翻成英文時建議想清楚實際動作是 **port（移植）**、**refactor（重構）** 還是 **add（新增）**，選對動詞會讓需求更清楚。這次你其實是要「重構成與另一支一致」，用 `align ... with` 或 `refactor ... to match` 會最貼切。",
+      "tags": [
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "9d840ac46da6",
+      "date": "20260723",
+      "front": "\"報表格式\"",
+      "body": "你這次的訊息「@...MyTopicViewer.vue 可提供\"報表格式\"?」是中文夾檔名，以下提供對應的自然英文問法：\n\n| 你的意思 | 自然英文說法 |\n|---------|------------|\n| MyTopicViewer 可以提供「報表格式」嗎？ | Can `MyTopicViewer` **offer** a \"report format\" option? |\n| （更完整）能不能在鏡像上加報表抬頭？ | Can we **add a report header band on top of** the mirrored grid? |\n\n用字重點：詢問某功能「能不能提供」時，動詞用 **offer** 或 **support** 最自然（\"Can it offer / support X?\"），比直譯的 \"provide\" 在口語與技術討論中更順。另外我在實作裡用的「抬頭」對應英文是 **header band**（一段橫跨表格頂端的標題區塊），band 這個字很適合描述「一整條橫向區域」，你日後描述報表版面時可以用上。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8703487875b4",
+      "date": "20260723",
+      "front": "\"stays blank for a moment\"",
+      "body": "這次你用的是繁體中文下指令，我提供一個自然的英文說法供你參考：\n\n> \"When I open the 'Group Account Settings' dialog, the 'Contact Email' input stays blank for a moment before the saved value appears. Please explain why and look into how to fix it.\"\n\n幾個用字說明（繁體中文）：\n- **「頓了一下」** 在 UI 情境最自然的說法是 **\"stays blank for a moment\"** 或 **\"flickers\"**（閃爍）／ **\"there's a brief flash of empty state\"**。若指卡頓，才用 **\"lags\"**。\n- **「輸入框」** = **\"input\"** 或 **\"input field\"**，比逐字翻的 \"input box\" 更道地。\n- **「已設定的值」** 用 **\"the saved value\"** 或 **\"the previously set value\"** 都很自然。\n\n鼓勵一下：你的問題描述其實非常清楚、邏輯完整（先講現象再要求說明與修復），這在技術溝通上是很好的習慣，翻成英文也幾乎可以直接照這個結構走。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5d4e894ef50f",
+      "date": "20260723",
+      "front": "\"Please tidy up the UI — don't show so many input fields at once, and the button colors in the restock-password editing flow don't look good.\"",
+      "body": "這次你全程用中文下指令，語意清楚沒問題。這裡提供把你這句需求講成自然英文的說法，順便擴充詞彙：\n\n> **「幫我調整一下 UI。不要顯示那麼多輸入框、入庫密碼修改時的按鈕顏色不好」**\n>\n> Natural English: *\"Please tidy up the UI — don't show so many input fields at once, and the button colors in the restock-password editing flow don't look good.\"*\n\n幾個實用片語：\n- **tidy up / clean up the UI** — 「整理、優化介面」比直譯 adjust 更自然道地。\n- **at once** — 「一次（同時）」，用來精準表達「不要一次顯示那麼多輸入框」的「一次」。\n- **don't look good / look off** — 「（顏色）看起來不好、怪怪的」，`look off` 是母語者常用來形容「說不上來但就是不對勁」的口語。",
+      "tags": [
+        "praise",
+        "vocab"
+      ]
+    },
+    {
+      "id": "2f0f1dc53b07",
+      "date": "20260723",
+      "front": "\"The banner isn't showing up\"",
+      "body": "你這次用中文描述 bug，這裡示範幾句工程情境常用的英文 bug 回報說法：\n\n| 你的意思 | 自然英文說法 |\n|---------|------------|\n| 報表抬頭沒有順利顯示 | The report header **isn't showing up** (properly). |\n| 標題不要顯示 ID，要顯示報表名稱 | The title should show the **report name**, not the ID. |\n\n用字重點：描述「東西沒出現／沒正常顯示」時，**show up**（出現）是最口語自然的片語動詞，例如 \"The banner isn't showing up\"；比 \"display unsuccessfully\"（不道地）好很多。回報「應該要 X 而不是 Y」的句型 **should show X, not Y** 簡潔又清楚，很適合寫在 issue 或跟工程師溝通時使用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "1a6ef3e00b7f",
+      "date": "20260723",
+      "front": "\"Does the `735hyytk.png` file not need to be pushed as well?\"",
+      "body": "這則你用的是繁體中文（「不用推上去嗎?」），提供自然的英文說法：\n\n> \"Shouldn't we push it too?\" \n> 或更完整：**\"Does the `735hyytk.png` file not need to be pushed as well?\"**\n\n用字說明（繁體中文）：\n- **「不用…嗎?」** 這種反問確認，英文最自然是用否定問句 **\"Shouldn't we...?\"** 或 **\"Don't we need to...?\"**，語氣上帶有「我以為要，但你好像沒做」的確認意味，跟中文原意完全吻合。\n- 若只是單純詢問而非帶預設，也可用 **\"Should this file be pushed too?\"**（中性）。\n- **「too / as well」** 放句尾表示「也一起」，比 \"also\" 放句中在口語中更自然。\n\n小提醒：`commit and push please` 這句英文本身完全正確、道地，祈使句加 `please` 很適合下指令的語境，讚 👍",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "11397783d583",
+      "date": "20260723",
+      "front": "\"add the files\"",
+      "body": "你這次的指令「commit and push」是標準的 git 慣用祈使句，完全正確自然 —— 這是開發者每天都在用的說法，簡潔到位，沒有需要修正的地方。\n\n補充一個小擴充：如果想更精確表達「把某些變更提交並推上遠端分支」，可以說：\n- **Commit these changes and push them to the remote branch.**（把這些變更提交並推到遠端分支）\n- **Stage the two files, commit, and push.**（把那兩個檔案加入暫存、提交、推送）\n\n其中 **stage**（動詞：加入暫存區）是描述 `git add` 動作最精準的專業用語，比 \"add the files\" 更明確指向 git 的 staging area 概念，你日後跟工程師討論 git 流程時可以用上。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "10676bb35e43",
+      "date": "20260723",
+      "front": "\"LINE console\"",
+      "body": "這則你用繁體中文(「但是…是我從 LINE 後台取得的」),提供自然的英文說法:\n\n> \"But `735hyytk.png` is something I got from the LINE console (admin backend).\"\n\n用字說明(繁體中文):\n- **「LINE 後台」** 英文慣用 **\"LINE console\"** 或 **\"LINE admin console / backend\"**。開發者導向的管理介面英文多稱 **\"console\"**(如 LINE Developers Console),一般「後台管理」也可說 **\"admin panel / backend\"**。避免直譯成 \"LINE backstage\"(那是「後台/幕後」的劇場用語,不合此情境)。\n- **「取得的」** 用 **\"got from\"**(口語)或 **\"obtained from\"**(正式)都可以。\n- 若要強調「這是官方來源、不是隨便的檔案」,可加語氣:**\"This QR code actually comes from the official LINE console, not a random file.\"**\n\n小提醒:你這句的邏輯轉折用「但是」很到位,英文對應的 **\"But...\"** 開頭同樣能表達「你剛才的判斷可能有誤,補充一個關鍵事實」,溝通上很清楚 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f43b79baa342",
       "date": "20260722",
       "front": "你這則訊息用中文寫的，這裡提供自然的英文說法：",
@@ -172,6 +264,16 @@
       "body": "你這則用中文提問(「是否可以提供【生成下訂訊息】的功能?」),自然的英文說法:\n\n> Could you add a feature that generates an order message for me?\n\n- **道地用字**:「生成/產生」用 **generate** 最精準;「下訂訊息」= **an order message** 或 **a purchase-order draft**(訂單草稿,更正式)。\n- **句型 nuance**:用 **Could you add a feature that...**(你能不能加一個…的功能)是提出功能需求時很客氣自然的講法;結尾的 **for me** 讓語氣更口語、更像日常請求。",
       "tags": [
         "nuance"
+      ]
+    },
+    {
+      "id": "772307aee0af",
+      "date": "20260722",
+      "front": "\"merge to dev and create branches dev-v0.0.30 and prod-v0.2.16\"",
+      "body": "你這則 **\"merge to dev and create branches dev-v0.0.30 and prod-v0.2.16\"** 文法完全正確、指令清楚。👍 這次用字沒有需要修正的地方，我補一個道地說法：\n\n- 這種「開版本分支發布」的動作，工程上常說 **\"cut a release branch\"** 或 **\"tag a release\"**。例如：**\"Merge to dev and cut release branches dev-v0.0.30 and prod-v0.2.16.\"**\n- 你這次用 **\"create branches\"** 完全正確且通用；**\"cut\"** 只是版本發布情境更道地的行話（cut 有「裁切出一個發布點」的意象）。\n\n一個小提醒（非文法）：這次版號剛好跨了兩個 repo 而對不上——日後開 release 分支時，句子裡可以補一句 repo 名，例如 **\"in the api repo\"**，能避免歧義：**\"Cut prod-v0.3.13 in the api repo.\"**",
+      "tags": [
+        "praise",
+        "grammar"
       ]
     },
     {
@@ -373,6 +475,15 @@
       "body": "你這次「按鈕我想要有獨自的顏色」簡潔清楚 👍\n\n| 中文 | 自然英文 |\n|------|----------|\n| 按鈕我想要有各自的顏色 | \"I'd like each button to have **its own color**.\" |\n| 讓它們區分開來 | \"so they're **visually distinct** from each other.\" |\n| 統一顏色太單調 | \"One uniform color is **too plain/monotonous**.\" |\n\n**用字提醒**:\n- 「各自的/獨立的顏色」= **its own color** / **distinct colors** / **individual colors**;想強調彼此不同用 **distinct from each other**。\n- 「區分開來」= **differentiate** / **tell them apart**:\"different colors help users **tell the buttons apart**.\"\n- 「單調」= **plain** / **monotonous** / **bland** 👍",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "10e53434382c",
+      "date": "20260722",
+      "front": "\"commit & push\"",
+      "body": "你這則 **\"commit & push\"** 簡潔精準，是開發流程中的標準指令，完全正確。👍\n\n補充一個小語感觀察：用 **\"&\"** 連接兩個動作在指令／commit 語境很自然（例如 GitHub 按鈕就寫 \"Commit & push\"）。但如果是寫在句子或文件裡，展開成 **\"commit and push\"** 會更正式易讀。兩種都對，看場合：\n- 指令、按鈕、標題 → **\"commit & push\"**（簡潔）\n- 完整句子 → **\"Please commit and push the changes.\"**（正式）\n\n道地延伸說法：**\"Commit and push it up.\"**——口語上常在 push 後面加 **\"up\"**（把東西推「上去」遠端），很自然。",
+      "tags": [
+        "praise"
       ]
     },
     {
