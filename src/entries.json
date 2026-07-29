@@ -1,6 +1,150 @@
 {
   "entries": [
     {
+      "id": "d62bd27ae453",
+      "date": "20260728",
+      "front": "\"Isn't it these four files?\"",
+      "body": "你這則用反問確認，幫你轉成自然英文：\n\n> 「不是這 4 個檔案嗎?」\n\n- 自然英文：*\"Isn't it these four files?\"* / *\"Aren't these the four files?\"*\n- 用字說明：\n  - 中文「不是…嗎?」這種帶點「我記得應該是」的反問，英文用 **\"Isn't it...?\"** / **\"Aren't these...?\"** 開頭最貼切（否定疑問句，預期對方同意）。\n  - 「就是這 4 個」肯定回去時可說 **\"Yes, it's exactly these four.\"**（`exactly` 強調「正是」）。\n  - 提醒：口語列舉檔案時常說 **\"these four files here\"**，`here` 指「就這幾個」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d567f536478d",
+      "date": "20260728",
+      "front": "你的中文原句：**",
+      "body": "**你的中文原句：**\n> 先commit and push\n\n這句是中英夾雜的工程日常用語，非常自然——`commit` 和 `push` 在中文語境裡已經是不翻譯的術語，直接用英文反而最精確。\n\n**若要全英文表達：**\n\n> Let's commit and push first.\n\n**幾個實用的細節：**\n\n| 情境 | 英文 | 說明 |\n|------|------|------|\n| 先做這個 | **…first** / **Let's start by…** | *first* 放句尾最自然。放句首的 *First, commit and push* 則偏向「步驟一」的列舉語氣 |\n| 只 commit 不 push | **Just commit for now** | *for now*（暫時）很好用，暗示稍後會 push |\n| 提交部分檔案 | **stage only the …** | *stage*（暫存）是 `git add` 的正式說法，比 *add* 更精確 |\n| 排除某檔案 | **leave … out of the commit** | 或 *exclude … from the commit* |\n\n**一組道地的 git 動詞：**\n\n中文常一律說「提交」，但英文各階段動詞不同，混用會讓人困惑：\n\n- **stage** — 加入暫存區（`git add`）\n- **commit** — 建立提交（本地）\n- **push** — 推送到遠端\n- **land / merge** — 合併進主幹\n\n所以「這個功能還沒進 master」道地的說法是：\n\n> This hasn't **landed** on master yet.\n\n`land` 這個字很傳神——像飛機降落，指變更最終「落地」到主幹。在 code review 討論中很常見。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d29f50b8af60",
+      "date": "20260728",
+      "front": "你寫的是「再統整一下回報給我」。對應的自然英文：",
+      "body": "你寫的是「再統整一下回報給我」。對應的自然英文：\n\n> **Can you give me a condensed version of that report?**\n> 或更簡短：**Sum that up for me.**\n\n| 中文 | 英文 |\n|---|---|\n| 統整一下 | **sum it up** / **condense it** / **pull it together** |\n| 給我重點就好 | **Just give me the gist.** |\n| 我要能直接貼出去的版本 | **I need a version I can paste as-is.** |\n\n語感細節：\n\n- **sum up**（動詞片語）和 **summary**（名詞）同源，但口語中 `Can you sum that up?` 遠比 `Can you make a summary?` 自然。中文母語者常過度使用名詞結構，改用動詞片語會道地很多。\n- **the gist**（要點、大意）是個很好用的字，專指「剝掉細節後剩下的核心」。`Just the gist` 三個字就能表達「不用講那麼細」。\n- 你的「再…一下」帶有「在原有基礎上再處理一次」的意味，英文可以用 **again** 或直接用 `Can you...` 就好 —— 英文不需要像中文那樣用語氣詞軟化請求，加太多反而累贅。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "bc61a17d609d",
+      "date": "20260728",
+      "front": "\"cd dot dot\"",
+      "body": "這則你輸入的是 shell 指令 `cd ..`（切換上層目錄），不是英文句子，所以沒有可批改的內容。順帶補個小知識：`cd ..` 的英文會唸成 **\"cd dot dot\"**（`..` = 上一層目錄 / *the parent directory*）；「回到上一層」英文常說 **\"go up a directory\"** 或 **\"move up one level.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ba9ee6d0f169",
+      "date": "20260728",
+      "front": "\"Shouldn't the version track the prod-vX.Y.Z tags to be accurate? And fill in the CHANGELOG for me.\"",
+      "body": "你這則兩個訴求都很清楚，幫你把它轉成自然英文：\n\n> 「版號是不是應該要跟著 prod-vX.Y.Z 的 XYZ 比較正確？CHANGELOG 幫我補齊。」\n\n- 自然英文：*\"Shouldn't the version track the prod-vX.Y.Z tags to be accurate? And fill in the CHANGELOG for me.\"*\n- 用字說明：\n  - 「跟著…比較正確」＝ **\"should track ... to be accurate\"** / **\"should line up with ...\"**（`line up with`＝與…一致對齊，很道地）。\n  - 「補齊」＝ **\"fill in\"** / **\"fill out\"** / **\"catch up\"**（`catch up the CHANGELOG`＝把落後的 changelog 補上）。\n  - 完整口語版：*\"Let's make the version match the prod tags, and catch the CHANGELOG up.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b96ab32e5c50",
+      "date": "20260728",
+      "front": "你這次是把原文貼回來問「這點處理過了嗎?」，很實用的追蹤問法。對應英文：",
+      "body": "你這次是把原文貼回來問「這點處理過了嗎?」，很實用的追蹤問法。對應英文：\n\n| 中文 | 英文 |\n|---|---|\n| 這點處理過了嗎？ | **Has this one been addressed?** / **Did we cover this one?** |\n| 是在哪一版修的？ | **Which release did that go out in?** |\n| 已經上線了嗎？ | **Is it live yet?** |\n| 還沒驗收 | **It hasn't been verified yet.** |\n\n語感細節：\n\n- **address**（處理、著手解決）在 issue 追蹤語境比 `handle` 或 `deal with` 更常用，而且不預設「已修好」—— 它涵蓋「修了／評估過決定不修」兩種情況，正好符合這題的實際狀況（部分照做、部分因分析結果沒照字面做）。\n- **go out in**（隨某版本發出去）是講發版的固定說法：`That fix went out in v1.16.16.` 比 `was released in` 更口語。\n- 「驗收」在英文分兩層：**verify**（技術上確認修好了）和 **UAT / user acceptance**（使用者驗收）。你們現在缺的是前者，說 `It hasn't been verified in the test environment yet.` 最精確。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a798aef2e2e1",
+      "date": "20260728",
+      "front": "這次你只打了 `/release`，沒有自撰英文。既然這是今天第三次發版，補充幾個講「發版節奏」時很實用的說法：",
+      "body": "這次你只打了 `/release`，沒有自撰英文。既然這是今天第三次發版，補充幾個講「發版節奏」時很實用的說法：\n\n| 中文 | 英文 |\n|---|---|\n| 今天發第三版了 | **That's our third release today.** |\n| 這版只是修 bug | **This one's just a bugfix release.** |\n| 累積幾個一起發 | **Let's batch a few fixes into one release.** |\n| 先別發，等 CI 綠燈 | **Hold off on the release until CI goes green.** |\n\n語感細節：\n\n- **batch**（動詞）在工程語境指「把零散的東西湊成一批處理」，正好對應你之前提過的「一次審閱多題、合併成一個版本發出去」。`Let's batch these.` 兩個字就講完。\n- **hold off (on something)** 是「暫緩」，比 `wait` 更精準 —— 它隱含「已經準備好了但刻意延後」，不是單純的等待。\n- **go green / go red** 指 CI 狀態轉換：`CI went red on the backend build.` 這個動詞用 `go` 而非 `become` 或 `turn`，是固定搭配。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a361da6a29ce",
+      "date": "20260728",
+      "front": "今天六版連發，補充「累積未驗收的變更」這個狀況的英文說法：",
+      "body": "今天六版連發，補充「累積未驗收的變更」這個狀況的英文說法：\n\n| 中文 | 英文 |\n|---|---|\n| 有六版還沒驗收 | **We have six releases pending verification.** |\n| 這些是疊著上去的 | **These are stacked on top of each other.** |\n| 未驗證的變更一直累積 | **Unverified changes are piling up.** |\n| 建議先停下來驗一輪 | **Let's pause and do a verification pass.** |\n\n語感細節：\n\n- **pile up**（堆積）帶有「越積越多、該處理了」的隱含警訊，比 `accumulate`（中性描述）更能傳達「這樣下去不妙」。技術債的語境也常用：`Tech debt is piling up.`\n- **a verification pass**（一輪驗證）—— `pass` 當名詞指「把整批東西從頭到尾過一遍」，很適合描述「一次驗完六版」。同類用法：`a review pass`、`a cleanup pass`。\n- 「疊著上去」的反面是 **independent**（各自獨立）。回退時這個區別很關鍵，值得明講：`v1.16.17 and .18 are stacked — you can't roll back .17 without also reverting .18.`",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a24a96db10fc",
+      "date": "20260728",
+      "front": "這次值得談的是「查證後發現前提不成立」這件事的英文表達 —— 在技術溝通中很常見，但講不好容易顯得在指責回報者。",
+      "body": "這次值得談的是「查證後發現前提不成立」這件事的英文表達 —— 在技術溝通中很常見，但講不好容易顯得在指責回報者。\n\n| 中文 | 英文 |\n|---|---|\n| 這個前提不成立 | **That premise doesn't hold.** |\n| 我沒辦法重現 | **I couldn't reproduce it.** |\n| 系統本來就是這樣運作的 | **That's how it already works.** |\n| 但我找到相關的另一件事 | **But I did find something related.** |\n\n語感細節：\n\n- **doesn't hold** 是說「（前提／論點）站不住腳」，語氣客觀，針對的是命題而非人。比 `You're wrong` 或 `That's incorrect` 溫和得多，卻同樣明確。\n- 回報「查了但沒問題」時，最重要的是**接上「但是」**。只說 `It already works` 會讓對方覺得被打發；加上 `But I did find...` 就把對話從「誰對誰錯」轉向「那真正的問題是什麼」。這裡的 **did** 是強調用法（emphatic do），表示「我確實有找到」。\n- 另一個好用的說法：**The symptom is real, but the cause is different.**（症狀是真的，只是成因不同）—— 一句話同時肯定對方的觀察、又修正了診斷，非常適合這種情況。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "79a39c2c7e4d",
+      "date": "20260728",
+      "front": "你這次的描述裡有個小地方值得一提：「应在待我審核审核过程中可以做预览」—— 繁簡混用了（「待我**審核**」+「**审核**过程中」），而且「審核」重複了一次。原句應是「应在『待我审核』的审核过程中可以做预览」。這不影響我理解，但貼回騰訊文檔前建議統一成簡體。",
+      "body": "你這次的描述裡有個小地方值得一提：「应在待我審核审核过程中可以做预览」—— 繁簡混用了（「待我**審核**」+「**审核**过程中」），而且「審核」重複了一次。原句應是「应在『待我审核』的审核过程中可以做预览」。這不影響我理解，但貼回騰訊文檔前建議統一成簡體。\n\n對應的英文說法：\n\n| 中文 | 英文 |\n|---|---|\n| 應該可以做預覽 | **should be able to preview it** |\n| 在審核過程中 | **while it's under review** / **during the review** |\n| 文件為本人上傳 | **for documents they uploaded themselves** |\n\n整句可以說：\n\n> **A regular user should be able to preview their own uploaded document while it's under review.**\n\n語感細節：\n\n- **under review** 是固定片語，指「審查中」這個狀態，比 `in the review process` 精簡自然得多。同類的還有 `under construction`（施工中）、`under discussion`（討論中）—— `under + 名詞` 表示「正處於某個過程中」，是很好用的結構。\n- 「本人上傳」的「本人」在英文用反身代名詞 **themselves** 或所有格 **their own** 表達。注意這裡用 `they/their` 而非 `he/his` —— 指涉不特定的人時，單數 they 是現代英語的標準用法，也避免了性別預設。\n- 「應該」在需求描述中用 **should** 就對了。技術規格書裡 `should`（建議）和 `must`（強制）是有正式區別的（RFC 2119），寫需求時選對字能省去很多來回確認。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "70edd7719ad3",
+      "date": "20260728",
+      "front": "這一輪你只打了 `/release`。今天走完一個完整的「回報 → 分析 → 修復 → 發版」循環好幾次，補充幾個描述這個工作流的英文：",
+      "body": "這一輪你只打了 `/release`。今天走完一個完整的「回報 → 分析 → 修復 → 發版」循環好幾次，補充幾個描述這個工作流的英文：\n\n| 中文 | 英文 |\n|---|---|\n| 這題結案了 | **That one's closed out.** / **That's wrapped up.** |\n| 等使用者驗收 | **pending user acceptance** |\n| 部署後再確認 | **We'll confirm after it's deployed.** |\n| 這串修正是連著的 | **These fixes are stacked on top of each other.** |\n\n語感細節：\n\n- **close out**（結案）比單純的 `close` 更完整，帶有「所有後續都處理完了」的意味。issue tracker 的語境下很常聽到：`Let's close this out once QA signs off.`\n- **stacked**（疊上去的）精準描述你今天這種「一版接一版、後面依賴前面」的情況。相對的概念是 `independent`（各自獨立、可任意順序回退）。講清楚哪些 commit 是 stacked，對回退決策很重要。\n- **sign off (on something)** 是「正式核可」，跟你們的簽核流程剛好對應：`Waiting for the reviewer to sign off.` 名詞形式寫作 `sign-off`（加連字號）：`We need her sign-off before deploying.`",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3ed5b7b7feb8",
+      "date": "20260728",
+      "front": "\"We never updated the CHANGELOG or the VERSION, did we?\"",
+      "body": "你這則問句很實用，幫你轉成自然英文：\n\n> 「CHANGELOG 和 VERSION 是不是都沒更新?」\n\n- 自然英文：*\"We never updated the CHANGELOG or the VERSION, did we?\"*\n- 用字說明：\n  - 中文的「是不是…?」帶點「我猜應該是」的語氣，英文最道地的對應是**句尾反問（tag question）** **\"..., did we?\"** / **\"..., right?\"**，比直接 \"Did we update...?\" 更貼近你原本的語感。\n  - 「都沒更新」＝ **\"never got updated\"** / **\"were both left un-updated\"**；口語常說 **\"they both fell through the cracks.\"**（`fall through the cracks`＝被漏掉、沒人顧到，超道地）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "260904304fcf",
+      "date": "20260728",
+      "front": "\"adding a flag\"",
+      "body": "你這次寫的兩句都很清楚。針對第二句「加旗標是甚麼?」，補充這個概念的英文：\n\n| 中文 | 英文 |\n|---|---|\n| 加一個旗標 | **add a flag** |\n| 這個欄位是布林值 | **it's a boolean field** |\n| 前端據此決定要不要顯示按鈕 | **the frontend uses it to decide whether to show the button** |\n| 按了才知道不行 | **you only find out when you click** |\n\n語感細節：\n\n- **flag** 在程式語境就是「一個表示是/否的標記」，中文譯作「旗標」是直譯（想像升旗表示某個狀態）。相關搭配：`set a flag`（設定）、`check the flag`（檢查）、`flag is on/off`。\n- 你問「加旗標是甚麼?」—— 英文問這種「某個術語是什麼意思」時，最自然的是 **What do you mean by \"adding a flag\"?**，而不是 `What is add a flag?`。用 **What do you mean by X?** 這個句型，等於在說「我知道這幾個字，但不確定你指的具體是什麼」，比單純問定義更精準也更禮貌。\n- 另一個實用句型：**Can you walk me through that?**（可以帶我走一遍嗎？）—— 適合請對方把一個概念或流程拆開解釋，比 `Explain it` 客氣得多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2324e10bf4bc",
+      "date": "20260728",
+      "front": "你寫的是「還有在這個部分也是，會有上傳者本人在文件審核中無法預覽的狀況」。對應的自然英文：",
+      "body": "你寫的是「還有在這個部分也是，會有上傳者本人在文件審核中無法預覽的狀況」。對應的自然英文：\n\n> **This happens here too — the uploader still can't preview their own document while it's under review.**\n\n| 中文 | 英文 |\n|---|---|\n| 這個部分也是 | **This happens here too.** / **Same thing here.** |\n| 會有…的狀況 | **There's a case where...** / 直接用直述句 |\n| 我指的是這一頁 | **I'm referring to this screen.** |\n\n語感細節：\n\n- 中文很習慣用「會有…的狀況」這種名詞化結構來描述問題，但英文直接用**直述句**更有力：`The uploader can't preview it.` 勝過 `There's a situation where the uploader cannot preview it.` —— 後者不算錯，只是繞了一圈。這是中英文很典型的節奏差異。\n- **Same thing here.** 三個字就能表達「這裡也一樣」，在指出重複問題時非常好用，比完整句子自然。\n- 講 UI 位置時，英文用 **screen**（畫面）或 **page**（頁面）比 `part`（部分）精準。`this part` 會讓人不確定你指的是畫面、功能還是程式碼；`on this screen` 就毫無歧義。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "08666ce96166",
+      "date": "20260728",
+      "front": "這一輪你只打了 `/release`。今天連發了四版（v1.16.14 → v1.16.17），補充幾個描述「一連串發版」的英文說法：",
+      "body": "這一輪你只打了 `/release`。今天連發了四版（v1.16.14 → v1.16.17），補充幾個描述「一連串發版」的英文說法：\n\n| 中文 | 英文 |\n|---|---|\n| 今天連發四版 | **We shipped four releases today.** |\n| 一版接一版 | **back-to-back releases** |\n| 這版是接續上一版的修正 | **This one's a follow-up to the last release.** |\n| 修完就發，節奏很快 | **We're on a fast release cadence.** |\n\n語感細節：\n\n- **back-to-back** 指「連續不間斷」，用在會議、比賽、發版都很自然：`three back-to-back releases`。比 `continuous` 更口語，也更精確地表達「一個緊接一個」。\n- **cadence**（節奏、頻率）是團隊流程討論的常見字，特別是 `release cadence`（發版節奏）、`meeting cadence`（會議頻率）。比 `frequency` 更帶有「規律性」的意味。\n- **follow-up** 當名詞用時指「後續處理」，這裡指「承接前一版的補強」。動詞形式要分寫並加介係詞：`I'll follow up on that.`（我會跟進）—— 名詞連字號、動詞分開，這個區別常被寫錯。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "06968f9399dd",
+      "date": "20260728",
+      "front": "你這次寫的兩個問句都很清楚，特別是「現在還會嗎?」這種追問前一次修正是否見效的問法，很實用。對應英文：",
+      "body": "你這次寫的兩個問句都很清楚，特別是「現在還會嗎?」這種追問前一次修正是否見效的問法，很實用。對應英文：\n\n| 中文 | 英文 |\n|---|---|\n| 現在還會嗎？ | **Is that still happening?** / **Did that get fixed?** |\n| 部分文件無法預覽 | **Some documents can't be previewed.** |\n| 應該要提供下載功能 | **There should be a download option.** |\n| 讓使用者可以看到原件 | **so users can see the original file** |\n\n語感細節：\n\n- **Is that still happening?** 是追問 bug 現況的標準說法，比 `Does it still have the problem?` 精簡自然。如果想問得更精確，可以說 **Is that still reproducible?**（還重現得出來嗎？）—— `reproducible` 是 bug 追蹤的關鍵字。\n- 「應該要提供…」用 **There should be...** 開頭最自然，這是提出需求時的常見句型，語氣是建議而非命令。\n- **the original file** 指「原始檔案」；如果強調「未經加工的版本」可以用 **the raw file**。你這裡是「原件」，`original` 就對了。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "f12384153a40",
       "date": "20260727",
       "front": "\"hit / run into an error\"",
