@@ -47,6 +47,15 @@
       ]
     },
     {
+      "id": "d665cd11f87e",
+      "date": "20260730",
+      "front": "\"Can these commit messages be changed to English?\"",
+      "body": "你這次是用中文提問，沒有輸入英文句子，所以沒有需要糾正的地方 👍。提供一句你這個情境常用的英文表達，擴充詞彙：\n\n- 「這幾筆紀錄可以改成英文嗎？」→ *\"Can these commit messages be changed to English?\"*\n- 若要更精準表達「已經推送、不想改寫歷史」的顧慮：*\"These commits are already pushed, so I'd rather not rewrite history.\"*（rewrite history 是 git 情境的固定說法，指改寫已存在的提交歷史。）",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
       "id": "cb79b2fc3606",
       "date": "20260730",
       "front": "\"Tell me about X\"",
@@ -92,12 +101,30 @@
       ]
     },
     {
+      "id": "a0cccf56658d",
+      "date": "20260730",
+      "front": "你這則是中文提問,語意清楚,沒有需要糾正的英文。補充這個情境常用的英文技術說法,方便你日後跟團隊溝通:",
+      "body": "你這則是中文提問,語意清楚,沒有需要糾正的英文。補充這個情境常用的英文技術說法,方便你日後跟團隊溝通:\n\n- 「續訂機制」→ *renewal mechanism* / *subscription renewal flow*\n- 「原地延長(不建新列)」→ *extend in place* — 這正是程式碼註解用的說法,描述「不新增資料列、直接更新既有那筆」。\n- 「到期日往後疊加」→ *the expiry date is pushed out / extended*(*push out a date* 是很道地的講法,表示把某個期限往後推)。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "986c110bba1e",
       "date": "20260730",
       "front": "\"keep the merge commit\"",
       "body": "你這次寫的是「merge 回 master」，中英混用，其中 `merge` 與 `master` 都是正確的 Git 術語。完整的英文說法：\n\n> **Merge it back into master.**\n\n一個關鍵細節 — 介系詞：\n\n| 說法 | 正確性 | 說明 |\n|---|---|---|\n| merge **into** master | ✅ 標準 | 「併入」某分支用 into，這是 Git 官方文件的用法 |\n| merge **to** master | ⚠️ 聽得懂但較少見 | 口語中會出現，但正式文件都用 into |\n| merge **back into** master | ✅ 最精準 | *back* 對應你的「回」字，強調這條分支原本就是從 master 長出去的 |\n| merge master | ❌ 意思相反 | 這是「把 master 併進當前分支」，方向剛好倒過來 |\n\n最後一列是實務上很容易出事的誤用 — `git merge master` 和 `git merge feature` 差別就在你站在哪個分支上，講錯方向可能讓對方做出相反的操作。想講得絕對不含糊可以說：\n\n> **Merge the feature branch into master with a no-fast-forward merge.**\n> （*no-fast-forward* 當形容詞用時加連字號；也常直接說 \"keep the merge commit\" — 「保留合併節點」，講的是同一件事。）",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "948bf2efd548",
+      "date": "20260730",
+      "front": "\"From now on, make sure everything is in English.\"",
+      "body": "你這則是中文，補一個道地的英文說法，未來要跟隊友交代這個規範時可以用：\n\n- 「之後務必都要用英文」→ *\"From now on, make sure everything is in English.\"*\n- 更正式、講規範時常見：*\"Going forward, all commit messages must be in English.\"*（*going forward* 是職場英文裡「從現在起、往後」很自然的講法，比 *from now on* 更書面一點。）",
+      "tags": [
+        "note"
       ]
     },
     {
