@@ -1,6 +1,45 @@
 {
   "entries": [
     {
+      "id": "bb98f1e2cf75",
+      "date": "20260802",
+      "front": "你這次寫「API 也上正式機、前端也上正式機」，用「也…也…」並列兩件事，英文說法如下：",
+      "body": "你這次寫「API 也上正式機、前端也上正式機」，用「也…也…」並列兩件事，英文說法如下：\n\n| 版本 | 句子 |\n| --- | --- |\n| 最自然 | **Ship both the API and the frontend to prod.** |\n| 強調兩者 | **Let's get both to production — API and frontend.** |\n| 逐項交代 | **Deploy the API to prod, and the frontend too.** |\n\n語感說明：\n- 中文「A 也…B 也…」的並列，英文最簡潔的對應是 **both A and B**，不需要重複動詞。你的原句重複了「上正式機」，英文若照譯成 `Deploy the API to prod, deploy the frontend to prod` 會顯得冗贅。\n- 「正式機」＝ **production**，口語一律縮成 **prod**（跟 `dev` 對稱）。完整寫 `the production environment` 只在正式文件中用。\n- 這次的情境還有個關鍵詞值得學：**deployment order**（部署順序）。要表達「順序不能顛倒」，母語者會說 **The order matters here** 或更強烈的 **Don't flip the order**。若要解釋原因：**The frontend depends on an API change, so the API has to go first.**\n- 另外 **backward-compatible**（向後相容）這個詞很適合描述我上面說的「安全降級」：`The API change is backward-compatible, so deploying it first is safe.` 這是討論跨服務部署順序時最常用的判準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "723875142140",
+      "date": "20260801",
+      "front": "你寫的是中文「請繼續你的驗證」，先給你自然的英文說法：",
+      "body": "你寫的是中文「請繼續你的驗證」，先給你自然的英文說法：\n\n> **Please continue your verification.**\n\n更口語、在團隊裡更常聽到的幾種：\n\n| 說法 | 語感 |\n|------|------|\n| `Please continue your verification.` | 最貼近原句，中性偏正式 |\n| `Go ahead and finish the verification.` | 「你繼續做完」，帶有「我授權你往下做」的語氣 |\n| `Please pick up where you left off.` | 「從你上次停下的地方接著做」——你這次正是中斷後重啟，這句最傳神 |\n\n**兩個實用重點：**\n\n1. **`verification` vs `validation`**：`verification` 是「確認做出來的東西符合規格」（我們有沒有把東西做對），`validation` 是「確認這東西真的解決了問題」（我們有沒有做對的東西）。這次是前者，用 `verification` 完全正確。這組字在軟體品保領域常被合稱 **V&V**。\n2. **`pick up where you left off`** 是很道地的片語，字面是「從你離開的地方撿起來」。`leave off` = 停下、中斷。用在中斷後恢復工作的情境非常自然，比 `continue` 多了「接續先前進度」的意味。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "663c2c34dc6f",
+      "date": "20260801",
+      "front": "你寫的是中文「本機直接併回 master」，先給你自然的英文說法：",
+      "body": "你寫的是中文「本機直接併回 master」，先給你自然的英文說法：\n\n> **Merge it back into master locally.**\n\n幾種在團隊中常聽到的變體：\n\n| 說法 | 語感 |\n|------|------|\n| `Merge it back into master locally.` | 最貼近原句，`locally` 明確表示不走 MR／遠端流程 |\n| `Just merge it into master directly.` | `just` 和 `directly` 都在強調「跳過中間步驟」，很口語 |\n| `Skip the MR — merge straight into master.` | 明確說出跳過什麼，在有 code review 文化的團隊裡講得最清楚 |\n\n**三個實用重點：**\n\n1. **`merge into` 而不是 `merge to`**。Git 的合併概念是「把 A 融入 B 之中」，所以介系詞用 `into`。`merge A into B` = 把 A 併進 B。這是固定搭配，用 `to` 會顯得不道地。\n2. **`merge back`** 的 `back` 很重要。因為分支是**從** master 長出來的，併回去是「回到原點」，所以加 `back`。如果是把 master 併進 feature 分支（同步最新進度），就不會說 `back`，而是 `merge master into my branch`。\n3. **`locally` 的位置**。英文副詞習慣放句尾，`Merge it back into master locally.` 比 `Locally merge it back into master.` 自然得多。中文的「本機直接」放在句首，英文則傾向放句尾——這是中英文語序的一個典型差異，值得留意。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "435234795f8f",
+      "date": "20260801",
+      "front": "你寫的是 **\"commit and push.\"** ——這句完全正確、也很自然，是開發者之間最常用的講法。",
+      "body": "你寫的是 **\"commit and push.\"** ——這句完全正確、也很自然，是開發者之間最常用的講法。\n\n**為什麼它好：** 這是典型的祈使句（imperative），在下指令的情境中省略主詞 `you`，簡潔有力。而且 `commit` 和 `push` 都是 Git 的標準動詞，直接動詞並列（`commit and push`）比 `do a commit and do a push` 精煉得多——英文母語者在技術情境中偏好用動詞本身，而不是「動詞 + 名詞」的迂迴說法。\n\n**擴充你的說法（同義但各有語感）：**\n\n| 說法 | 語感 |\n|------|------|\n| `Commit and push.` | 你用的——最簡潔直接 |\n| `Ship it.` | 「發出去吧」，非常口語，帶有「我信任這份成果，直接送出」的爽快感 |\n| `Commit and push it up.` | 加上 `up` 強調「推到遠端上去」，日常對話很常見 |\n| `Let's get this committed and pushed.` | 較緩和、有商量語氣，適合對同事而非對工具 |\n\n**一個延伸詞彙：** 在 Git 情境裡，「把改動送上遠端讓別人看到」常說 **`push it up`**（up 指遠端 repo），相對地「把遠端的拉下來」是 **`pull it down`**。這組 up/down 的方向感在團隊口語中很常出現，例如 `Can you push up your branch? I want to review it.`（你可以把分支推上去嗎？我想 review。）",
+      "tags": [
+        "praise",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
       "id": "ffe83680a47b",
       "date": "20260731",
       "front": "你這次寫「前端上測試機」，是很簡潔的中文指令，英文說法如下：",
