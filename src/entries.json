@@ -1,10 +1,119 @@
 {
   "entries": [
     {
+      "id": "e5e85fd3e66e",
+      "date": "20260802",
+      "front": "你這則訊息是全中文，我補充一組實用說法。當你要別人幫忙確認登入資訊時，英文可以這樣講：",
+      "body": "你這則訊息是全中文，我補充一組實用說法。當你要別人幫忙確認登入資訊時，英文可以這樣講：\n\n| 中文 | 自然英文 |\n|---|---|\n| 你有辦法訪問這個網址嗎？ | Are you able to access this URL? / Can you reach this URL? |\n| 帳號用 X，密碼用 Y | Log in with username X and password Y. |\n| 我這邊密碼過不了 | The password isn't going through on my end. |\n\n**重點提醒：**\n\n1. **「有辦法」別直譯成 `Do you have a way to`** —— 英文用 **Are you able to** 或直接 **Can you** 就好，更簡潔自然。\n2. **「訪問」網址** 動詞用 **access** 或 **reach**（reach 更口語，指「連得上」）。存取檔案／系統用 access，連線到主機用 reach 都很道地。\n3. **`on my end`** 是很好用的片語，意思是「我這一端／我這邊」，講技術問題時常用：`It works on my end`（我這邊是好的）、`The login fails on my end`（我這邊登入失敗）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "e5c21a6ade93",
+      "date": "20260802",
+      "front": "你這次全程使用中文，所以這裡提供自動翻譯。",
+      "body": "你這次全程使用中文，所以這裡提供自動翻譯。\n\n你的訊息若要用英文表達，自然的說法是：\n\n> \"First, scan the whole system and study how users operate it — including dashboard design, component design, component value configuration, writing data filters, and configuring component interaction modes. Once you're done, I'll provide case screenshots with some explanation, so you can walk me through how to build the example dashboard.\"\n\n幾個用詞的細微差別，值得留意：\n\n- **「掃過」用 `scan`** 是對的，但如果想強調「大略看過、建立整體印象」，母語者更常說 `go through` 或 `get an overview of`。`scan the whole system` 帶有「快速掃視找重點」的意味，正好符合你的意圖。\n- **「學習使用者的操控方法」不要直譯成 `learn the user's control method`** — `control method` 在英文裡偏向機械控制或控制理論。這裡指的是「使用者怎麼操作這套系統」，所以用 `how users operate it` 或 `the user workflow` 才自然。\n- **「協助教學」用 `walk me through`** 是很道地的說法，字面是「帶我走過一遍」，意思是「一步一步教我」。比 `teach me` 更貼近你要的「陪著我做完」的語感。另一個同義選擇是 `guide me through`。\n- **「附上部分說明」的「部分」用 `some`** 就夠了。若寫成 `partial explanation` 會聽起來像「解釋不完整、有缺陷」，帶負面意味。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c7d52c806064",
+      "date": "20260802",
+      "front": "語感說明：**",
+      "body": "| 中文原句 | 自然英文 |\n|---|---|\n| 我剛剛 pull 最新進度回來 | I just pulled the latest changes. |\n| 是否可請你再重新學習一次 | Could you go through it again? |\n\n**語感說明：**\n\n1. **`pull` 用得完全正確** —— 這是 Git 的標準動詞，母語工程師就是這樣講：`I just pulled` / `I pulled the latest`。要注意的是後面的受詞：習慣說 **the latest changes**（最新變更）或 **the latest commits**，而不是逐字翻成 `the latest progress`。「進度」在英文技術語境偏向指專案進展的狀態（如 `How's the progress?`），不會用來指拉下來的程式碼。\n\n2. **「是否可請你…」不必逐字翻。** 中文的客套如果直譯成 `Is it possible to ask you to...` 會顯得囉嗦又生硬。英文靠情態動詞（modal verb）表達客氣，一個 **Could you** 就足夠了；再客氣一點可以說 `Would you mind going through it again?`（注意 mind 後面接動名詞 -ing）。\n\n3. **「重新學習」用 `go through` 或 `re-read`，避免 `learn again`。** `learn` 在英文裡帶有「習得一項技能」的重量，用在「再看一遍資料」的情境會怪。這裡更貼近的說法：\n   - `Could you go through it again?`（再看過一遍 —— 最自然）\n   - `Could you re-familiarize yourself with the codebase?`（正式、精準）\n   - `Can you take another pass at it?`（口語，常見於工程團隊，*take a pass at* = 過一輪）\n\n把兩句合起來，母語者最可能這樣寫：\n\n> I just pulled the latest changes — could you go through everything again?\n\n（破折號在這裡取代「，」很地道，用來銜接前因後果。）",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
       "id": "bb98f1e2cf75",
       "date": "20260802",
       "front": "你這次寫「API 也上正式機、前端也上正式機」，用「也…也…」並列兩件事，英文說法如下：",
       "body": "你這次寫「API 也上正式機、前端也上正式機」，用「也…也…」並列兩件事，英文說法如下：\n\n| 版本 | 句子 |\n| --- | --- |\n| 最自然 | **Ship both the API and the frontend to prod.** |\n| 強調兩者 | **Let's get both to production — API and frontend.** |\n| 逐項交代 | **Deploy the API to prod, and the frontend too.** |\n\n語感說明：\n- 中文「A 也…B 也…」的並列，英文最簡潔的對應是 **both A and B**，不需要重複動詞。你的原句重複了「上正式機」，英文若照譯成 `Deploy the API to prod, deploy the frontend to prod` 會顯得冗贅。\n- 「正式機」＝ **production**，口語一律縮成 **prod**（跟 `dev` 對稱）。完整寫 `the production environment` 只在正式文件中用。\n- 這次的情境還有個關鍵詞值得學：**deployment order**（部署順序）。要表達「順序不能顛倒」，母語者會說 **The order matters here** 或更強烈的 **Don't flip the order**。若要解釋原因：**The frontend depends on an API change, so the API has to go first.**\n- 另外 **backward-compatible**（向後相容）這個詞很適合描述我上面說的「安全降級」：`The API change is backward-compatible, so deploying it first is safe.` 這是討論跨服務部署順序時最常用的判準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "963f840a851f",
+      "date": "20260802",
+      "front": "這次你全程使用中文，沒有英文句子可以分析，所以我提供中文的英文說法：",
+      "body": "這次你全程使用中文，沒有英文句子可以分析，所以我提供中文的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 你先參考一下 X | **Take a look at X first.** / **Have a look at X for context first.** |\n\n**用法說明：**\n- 「參考一下」在英文裡通常不直譯成 `refer to`。`refer to` 偏正式，帶有「查閱、援引」的意味（例：*Please refer to Section 3.*）。日常請人「先看一下、先有個概念」用 **take a look at** 或 **have a look at** 最自然。\n- 「先」對應句尾的 **first**，比放句首的 `First, take a look...` 更口語。\n- 如果你想強調「看完之後我們再談下一步」，可以說：**Take a look at this file first — I'll tell you what I need after that.**（先看這個檔案，之後我再告訴你要做什麼。）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8cb57480106b",
+      "date": "20260802",
+      "front": "這次同樣是中文指令。「請你先生成假靜態資料替換掉」的自然英文說法：",
+      "body": "這次同樣是中文指令。「請你先生成假靜態資料替換掉」的自然英文說法：\n\n> Please generate some fake static data to replace the real data first.\n\n幾個用詞值得留意：\n\n- **fake data** vs **dummy data** vs **mock data**：三者在工程情境下都通用，但語感有別。`dummy data` 最中性，單純指「填充用的假資料」；`mock data` 常帶有「模擬特定情境以供測試」的意味（和 `mock API`、`mocking` 同源）；`fake data` 最直白，也最常用於「不能外洩真實資料，所以換成假的」這種情境——正好符合你這次的需求。另外還有 `synthetic data`，指用演算法生成、統計特性貼近真實的資料，語感最正式，常見於資料科學與隱私保護的討論。\n- **replace A with B**：「用 B 取代 A」的固定搭配是 `replace A with B`，不是 `replace A to B`（這是中文使用者很常見的錯誤）。若只講「替換掉 A」，`replace the real data` 就夠了。\n- 句尾的 **first**：中文的「先」放在動詞前（「先生成」），英文則習慣把 `first` 放句尾。若要放句首則多用 `First, please generate...`，語氣上更像在交代步驟順序。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "71811553a11d",
+      "date": "20260802",
+      "front": "\"They must support multiple selection\"",
+      "body": "這次你同樣全程使用中文。這段需求的自然英文說法：\n\n> Next, please add three filters to the dashboard — Calendar Year, Year, and YYMM. They must support multiple selection, matching the ones in `財務安全指標儀表板.xlsm`. See the red boxes in this screenshot for reference.\n\n幾個值得注意的表達：\n\n- **multiple selection** vs **multi-select**：名詞用 `multiple selection`，當形容詞則寫 `multi-select`（如 `a multi-select dropdown`）。你要表達「必須可以多選」，最道地的說法是 **\"They must support multiple selection\"** 或更口語的 **\"They need to be multi-select.\"**\n- **交叉分析篩選器**在 Excel 英文版的正式名稱是 **slicer**，不是 `filter`。跟熟悉 Excel 的人溝通時說 \"three slicers\" 會更精準；對一般前端工程師講 `filter panel` 則比較容易懂。\n- **\"matching the ones in ...\"**：要表達「跟某個檔案裡的一樣」，用 `matching` 或 `the same as the ones in ...` 都很自然，比直譯的 `like the xlsm` 精確，因為 `the ones` 明確指涉「那些篩選器」而非整個檔案。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5ebee6329b78",
+      "date": "20260802",
+      "front": "你這則是道歉更正的中文短訊，補一組實用說法：",
+      "body": "你這則是道歉更正的中文短訊，補一組實用說法：\n\n| 中文 | 自然英文 |\n|---|---|\n| 抱歉，我說錯了 | Sorry, my mistake. / Sorry, I misspoke. |\n| 密碼是 1111 | The password is 1111. |\n\n**語感說明：**\n\n1. **「我說錯了」最道地的兩種講法**：\n   - **My mistake.** — 最簡短自然，口語裡認錯的萬用句，工作場合也很常用。\n   - **I misspoke.** — 精準表達「口誤／講錯了」，比 `I said wrong`（不自然）好很多。`misspoke` 是 `misspeak` 的過去式，專指「說錯話」。\n\n2. **別說 `I said the wrong thing`** 除非你是指「講了不該講的內容」。單純講錯數字/資訊，用 `My mistake` 或 `I gave you the wrong password` 就好。\n\n一個好記的完整版：\n\n> Sorry, my mistake — the password is 1111.\n\n（用破折號銜接「道歉」和「更正」，簡潔又自然，跟你這則中文的節奏完全對得上。）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5456955b26fd",
+      "date": "20260802",
+      "front": "你的中文原句：「上次有請你針對系統做一個行銷講稿，你有印象嗎」",
+      "body": "這次你全程使用繁體中文，沒有英文句子可供批改，不過依照慣例還是給你一組實用的英文說法。\n\n你的中文原句：「上次有請你針對系統做一個行銷講稿，你有印象嗎」\n\n自然的英文說法：\n\n> **\"I asked you to write a marketing pitch script for the system last time — do you remember it?\"**\n\n或更口語、更貼近工作場景的說法：\n\n> **\"Last time I had you put together a marketing script for the system. Does that ring a bell?\"**\n\n**用字說明（zh-tw）：**\n\n| 中文 | 英文 | 說明 |\n|------|------|------|\n| 請你做… | **had you + 動詞原形** | `have someone do something` 是使役動詞，語氣比 `asked you to` 更輕、更自然，適合對熟悉的對象講 |\n| 講稿 | **script** / **pitch script** | `script` 就是「講稿」；加上 `pitch` 更明確是「銷售／推廣用的講稿」 |\n| 你有印象嗎 | **Does that ring a bell?** | 這是非常道地的慣用語，字面是「那有敲響鈴鐺嗎」，意思正是「你對這件事有印象嗎」。比直譯的 `Do you have an impression?`（❌ 錯誤用法）自然太多 |\n\n補充一個常見錯誤提醒：中文的「印象」直翻成 `impression` 在這個情境是**不通**的。`impression` 指的是「別人給你的觀感」（例如 `He made a good impression on the client.` 他給客戶留下好印象），不能拿來問「你記不記得」。要表達「有印象」，用 `remember`、`recall`，或慣用語 `ring a bell` 才對。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "50f351f1783b",
+      "date": "20260802",
+      "front": "你這次是全中文指令，先給你自然的英文說法：",
+      "body": "你這次是全中文指令，先給你自然的英文說法：\n\n| 中文原句 | 自然英文 |\n|---|---|\n| 請你先整個掃過系統 | Please do a full sweep of the system first. |\n| 然後學習一下使用者的操控方法 | Then get familiar with how users operate it. |\n| 學習完成後，我會提供案例截圖，並附上部分說明 | Once you're up to speed, I'll share screenshots of a case along with some notes. |\n| 讓你協助教學如何完成範例看板 | so you can walk me through how to build the sample dashboard. |\n\n**語感說明：**\n\n1. **「掃過」用 `sweep` 或 `go through`**：`do a full sweep of` 帶有「地毯式掃描」的意味，很貼近你的原意；較口語可用 `go through the whole system first`。\n2. **「學習操控方法」不要直譯成 `study the user's control method`**：英文會覺得生硬。`get familiar with how users operate it` 或 `learn the user workflows` 更道地。技術文件中常說 **user workflows**（使用者操作流程）。\n3. **`up to speed` 是好用的片語**：`Once you're up to speed` = 「等你熟悉之後」，比 `after you finish learning` 自然許多，職場英文很常用。\n4. **「協助教學」用 `walk me through`**：這是英文母語者表達「一步一步帶我做」最常用的說法，比 `teach me how to` 更符合這種協作情境。\n\n順帶記一個實用句型，之後你要我教學時可以直接用：\n\n> Walk me through how to rebuild this dashboard, step by step.\n> （一步一步帶我重建這個看板。）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4e2bcf092e40",
+      "date": "20260802",
+      "front": "你的中文重點：「濃縮到 8~10 分鐘，主要是做個開場白，抓住客戶目光、激發興趣，之後再讓工程師或業務用三寸不爛之舌詳細報告。」",
+      "body": "這次你同樣全程使用繁體中文，沒有英文句子需要批改，一樣給你這段話的英文說法。\n\n你的中文重點：「濃縮到 8~10 分鐘，主要是做個開場白，抓住客戶目光、激發興趣，之後再讓工程師或業務用三寸不爛之舌詳細報告。」\n\n自然的英文說法：\n\n> **\"Could you condense it to 8–10 minutes? It's mainly meant to be an opener — something that grabs the client's attention and gets them interested. Once they're hooked, our engineers or sales reps can take over and do the full pitch.\"**\n\n**用字說明（zh-tw）：**\n\n| 中文 | 英文 | 說明 |\n|------|------|------|\n| 濃縮 | **condense** / **trim down** | `condense` 強調「濃縮但保留精華」，正好符合你的需求；`cut down` 只是「砍短」，少了「保留精華」的意涵 |\n| 開場白 | **an opener** | 簡報情境的標準說法。也可說 `an opening pitch`。注意不要用 `opening remarks`——那偏向「致詞、客套話」，不是用來勾起興趣的 |\n| 抓住目光 | **grab their attention** | `grab` 這個動詞非常傳神，比 `catch their eyes`（偏字面、略中式）道地得多 |\n| 有興趣了 | **once they're hooked** | `hooked` 字面是「被鉤住了」，正好呼應行銷上的 `hook`（鉤子）概念，跟你講稿裡的「開場鉤子」是同一個詞 |\n| 讓業務接手 | **take over** | 「接手、接棒」的標準片語動詞 |\n\n**關於「三寸不爛之舌」**：這是很生動的中文成語，但**英文沒有對應的直譯**（直翻 `three-inch tongue` 會讓對方完全聽不懂）。依語氣不同有幾種轉換方式：\n\n- 中性、專業場合 → **do the full pitch**（做完整的推銷簡報）\n- 想強調口才好 → **work their magic**（施展他們的看家本領，帶點幽默）\n- 想強調有說服力 → **use their powers of persuasion**（略帶調侃的正式說法）\n\n以你的情境來說，**`take over and do the full pitch`** 最貼切也最自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "212810f05d55",
+      "date": "20260802",
+      "front": "這次你全程使用中文，沒有英文句子可以修正，我提供這段話的自然英文說法供參考：",
+      "body": "這次你全程使用中文，沒有英文句子可以修正，我提供這段話的自然英文說法供參考：\n\n> After the last change, I checked it in preview mode and found some leftover components inside the red boxes in the screenshots. Please remove them and take a screenshot to verify afterwards. You can create a new folder under `D:\\ezoGit\\ezov-icsc` to store the screenshots.\n\n幾個用詞的細微差別說明：\n\n- **leftover components** vs **residual components**：口語、日常工作溝通用 `leftover` 最自然（「剩下沒清掉的」）；`residual` 偏學術／正式書面（如殘餘應力 residual stress），在 code review 裡講「殘留元件」用 leftover 或 stray（走失的、孤兒的）都很道地。上面我在說明裡用的 orphan（孤兒元件）也是工程師常用的講法。\n- **take a screenshot to verify** vs **screenshot it for verification**：前者是動詞片語、比較輕快；後者名詞化（nominalization）顯得公文腔，日常溝通建議用前者。\n- **in preview mode**：模式前面固定搭配介系詞 `in`（in preview mode / in dark mode / in debug mode），不用 `at` 或 `on`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1236fc809b89",
+      "date": "20260802",
+      "front": "這次你寫的是「那你先幫我加上 MCP 好了」，全中文。這句話的語氣很值得拿來對照：",
+      "body": "這次你寫的是「那你先幫我加上 MCP 好了」，全中文。這句話的語氣很值得拿來對照：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 那你先幫我加上 MCP 好了 | **Go ahead and set up the MCP then.** |\n| （語氣更輕一點） | **Sure, let's add the MCP first.** |\n\n**用法說明：**\n\n- 「那…好了」是中文很特別的**「被說服後的順勢同意」**語氣——不是熱烈贊成，而是「聽起來有道理，那就這樣吧」。英文最貼近的是 **Go ahead and…** 或句尾加 **then**。`then` 放句尾正是「既然你這樣說，那就…」的意思，和中文的「那…好了」幾乎一一對應。\n- 「幫我」在這種情境下**不用翻出來**。英文說 `help me add the MCP` 反而怪，因為那聽起來像「你協助我，我來做」。你要的是對方直接做，所以 **Go ahead and set it up** 就夠了。這是中英差異很大的一點：中文的「幫我」常常只是禮貌軟化詞，不是真的請求協助。\n- 「加上 MCP」用 **set up** 比 **add** 更準確——因為不只是加一行設定，還包含裝好、能用。`add` 偏向單純新增條目，`set up` 含「配置到可運作」的意思。\n- 補充一個很實用的同義句型：**Let's go with that.**（就照那個做吧。）用在你採納對方建議的時候，比 `OK` 更明確表示「我選這個方案」。",
       "tags": [
         "comparison"
       ]
