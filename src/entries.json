@@ -1,6 +1,114 @@
 {
   "entries": [
     {
+      "id": "ecd6c32b9cfa",
+      "date": "20260804",
+      "front": "這一則是中文指令，沒有英文句子需要修正。提供對應的英文說法：",
+      "body": "這一則是中文指令，沒有英文句子需要修正。提供對應的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 一併改 | Go ahead and change all of them. |\n| 你都先改看看，我再依照結果來決定 | Just make the changes first — I'll decide based on the result. |\n\n用字說明：\n- **Go ahead and…** 是授權對方動手的標準說法，語氣比 `Please change all` 更自然、更像同事之間的對話。\n- **Just … first** 裡的 `just` 帶有「先做就好、別想太多」的輕鬆授權語氣，很貼近你「先改看看」的意思。\n- 「依照結果來決定」用 **based on the result** 就夠了；如果想強調「看實際跑出來的樣子」，可以說 **based on how it actually turns out**，`turn out` 是「結果變成怎樣」的道地動詞片語，很值得記下來。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "ec8f583a83a6",
+      "date": "20260804",
+      "front": "\"總和(小計)\"",
+      "body": "這一則是中文提問，沒有英文句子需要修正。提供對應的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 這個\"總和(小計)\"不能排在後面嗎? | Can't this \"總和(小計)\" column go on the right instead? |\n\n用字說明：\n- 你用的是**反問句**（「不能…嗎?」），英文對應的 `Can't…?` 同樣帶有「我覺得應該可以吧？」的期待語氣，語感抓得很準。想更中性一點可以說 **Could we move it to the right?**\n- 「排在後面」在講欄位位置時，英文習慣講 **on the right**（靠右）而不是 `at the back`。`at the back` 會讓人聯想到排隊或隊伍的尾端。\n- 句尾的 **instead** 是很實用的一個字，隱含「取代現在的位置」，省得你多寫一句「而不是現在這樣」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "db66199a623d",
+      "date": "20260804",
+      "front": "你這次用中文，先給自然的英文說法：",
+      "body": "你這次用中文，先給自然的英文說法：\n\n> The import worked. Please go ahead and split out the remaining three.\n\n或口語一點：\n\n> Import went through — let's split out the other three now.\n\n值得記的幾點：\n- **go ahead and ~** 正好對應你的「緊接著…吧」，帶有「授權對方繼續動手」的語感，比 `please continue to` 自然許多。\n- 「匯入成功」不必說 `import is successful`（太書面）。母語者會說 `the import worked`、`import went through`，或直接 `imported fine`。\n- **the remaining three** vs **the other three**：前者偏正式書面，後者較口語，兩者都對。\n- 上次教的 `split out` 你這句剛好可以直接複用——這種「動詞 + 介副詞」的片語動詞（phrasal verb）是英文口語的骨幹，多累積幾個會讓句子瞬間道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cf75129d275d",
+      "date": "20260804",
+      "front": "語法說明：`go ahead` 後面接動詞時，中間需要 **and**，因為這是兩個並列的動作（「進行」＋「合併」），不是 `go ahead` 直接帶受詞。少了 `and` 讀起來會卡一下，但意思完全傳達得到，母語者也會這樣脫口而出，所以不是什麼大問題。",
+      "body": "| 你的英文 | 更自然的說法 |\n|---|---|\n| Go ahead merge. | Go ahead and merge. |\n\n語法說明：`go ahead` 後面接動詞時，中間需要 **and**，因為這是兩個並列的動作（「進行」＋「合併」），不是 `go ahead` 直接帶受詞。少了 `and` 讀起來會卡一下，但意思完全傳達得到，母語者也會這樣脫口而出，所以不是什麼大問題。\n\n幾個都自然的選擇：\n- **Go ahead and merge.** — 加上 `and` 的標準寫法\n- **Go ahead, merge it.** — 用逗號斷開成兩句，語氣更明快\n- **Merge it.** — 最精簡；上下文已經很清楚時，直接下指令完全通順\n- **Ship it.** — 工程圈很常見的俚語，意思是「就這樣上吧」，帶點輕鬆的批准語氣，很適合這種「驗證過了，推上去」的場合\n\n順帶一提，你這次三則訊息 `Good` → `Go ahead merge` 的節奏很像真實的 code review 對話 —— 簡短、直接下決定，這正是英文技術溝通的常態，不需要寫長句才顯得禮貌。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "c34cc4ffd92f",
+      "date": "20260804",
+      "front": "你這次開頭用了英文 **Good**，用得很自然 —— 單獨一個 `Good` 當作認可回饋完全通順。若想讓語氣更飽滿一點，這幾個都很道地：",
+      "body": "| 你的中文 | 自然的英文說法 |\n|---|---|\n| Good，幫我分段commit上去吧 | Nice — go ahead and commit this in separate chunks. |\n\n你這次開頭用了英文 **Good**，用得很自然 —— 單獨一個 `Good` 當作認可回饋完全通順。若想讓語氣更飽滿一點，這幾個都很道地：\n\n- **Nice** / **Nice work** — 最輕鬆順口，同事之間最常用\n- **Looks good** — 特別適合看過結果（程式碼、報告、驗證數據）之後的認可，比單獨的 `Good` 更精確地表達「我看過了，沒問題」\n- **Perfect** — 語氣更強，帶「正是我要的」\n\n用字說明：\n- 「分段 commit」用 **in separate chunks** 或 **in separate commits** 都可以；`chunk` 在 git 語境還特別貼切，因為 `hunk`（差異區塊）正是這次拆 commit 實際操作的單位。\n- 「上去」的 push 語意，英文通常不會另外翻出來 —— 說 `commit and push` 就夠明確。若只想講推送，直接說 **push it up** 就好，`up` 這個介副詞剛好對應你的「上去」，是少見能直譯又道地的例子。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9c60ba540bbd",
+      "date": "20260804",
+      "front": "你的英文句子：**\"commit and push and merge please.\"**",
+      "body": "你的英文句子：**\"commit and push and merge please.\"**\n\n**評語：** 語意完全清楚，我照著做了。不過三個 `and` 串在一起在英文裡稍嫌鬆散（英文對重複連接詞比中文敏感）。母語者通常這樣寫：\n\n| 你的寫法 | 更自然的寫法 | 差異 |\n|---------|-------------|------|\n| commit and push and merge please | Please commit, push, and merge. | 三項以上用逗號分隔，只在最後一項前留一個 `and`（這叫 **serial comma** / 牛津逗號） |\n| — | Commit, push, and merge, please. | 同上，`please` 放句尾要加逗號 |\n| — | Go ahead and commit, push, and merge. | 更口語，`go ahead and…` 有「就放手做吧」的授權語氣，很適合對 agent 下指令 |\n\n**兩個實用觀察：**\n\n1. **`please` 的位置**：放句首（`Please commit…`）最中性通用；放句尾（`…, please.`）語氣更輕鬆隨意，但前面要加逗號。你原句沒加逗號，這是最常見的小疏漏。\n2. **開發者的超簡寫法**：實務上工程師之間常直接寫 **\"commit + push + merge\"** 或 **\"commit, push, merge — thanks!\"**，完全不用完整句子。這在 Slack、PR comment、對 AI 下指令的情境都很道地，你可以放心用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "908fd8ba09ec",
+      "date": "20260804",
+      "front": "這一則是中文提問，沒有英文句子需要修正。提供對應的英文說法：",
+      "body": "這一則是中文提問，沒有英文句子需要修正。提供對應的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 這是故意這樣設計的嗎? 還是是bug? | Is this by design, or is it a bug? |\n| 會導致 excel 也會缺少了沒展開的資料 | The collapsed columns end up missing from the Excel file too. |\n\n用字說明：\n- **by design** 是工程討論裡的固定用法，專指「這是刻意的設計行為，不是故障」。比 `intentional` 更道地，`Is this by design?` 幾乎是提 issue 時的標準問法，很值得記住。\n- 你這句「還是是bug?」中文有個小重複（「還是」＋「是」），英文對應的 `or is it a bug?` 剛好需要那個 `is`，結構是平行的 —— 這種對照很適合拿來記句型。\n- **end up + V-ing** 表示「最後變成…（非預期的結果）」，比直譯的 `will cause Excel to lack…` 自然得多。`lack` 在這種語境偏書面、偏正式，口語討論用 `missing` 更順。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8f23d81683ca",
+      "date": "20260804",
+      "front": "這一則是中文提問，沒有英文句子需要修正。提供對應的英文說法：",
+      "body": "這一則是中文提問，沒有英文句子需要修正。提供對應的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 定時郵件通知也有同步嗎? | Does the scheduled email notification pick this up too? |\n\n用字說明：\n- **pick up** 在這裡是「一併吃到／自動跟上（某個變更）」的意思，是討論改動影響範圍時很順口的說法。比直譯的 `Is it synced?` 自然 —— `sync` 通常指資料雙向同步，用在「程式改動有沒有涵蓋到」這個語境會有點怪。\n- 另一個同樣道地的問法：**Does this apply to the scheduled emails as well?** 想更口語一點可以說 **Do the scheduled emails get this too?**\n- 「定時」在這個情境用 **scheduled** 就好；`timed` 會讓人以為是「計時的」，`regular` 則偏向「定期的、規律的」，都不如 `scheduled` 精準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7a99199759e1",
+      "date": "20260804",
+      "front": "\"This is a poor UX — can we redesign it?\"",
+      "body": "這次你的訊息全部使用中文，以下提供自然的英文說法：\n\n| 你的中文 | 自然的英文表達 |\n|---------|---------------|\n| 若針對「下拉選單」要配置選項必須在「選單API」中去寫 JSON，但這樣使用體驗上不好 | To configure options for a dropdown, you currently have to hand-write JSON in the \"Option API\" field, which makes for a poor user experience. |\n| 是否可以重新設計別的方式？ | Could we redesign this with a better approach? |\n\n**用字說明：**\n\n- **「使用體驗上不好」** 最道地的說法是 **poor user experience**（或口語一點的 **clunky** / **painful to use**）。工程討論中常見的完整句型是 *\"This is a poor UX — can we redesign it?\"*\n- **「配置」** 在軟體語境是 **configure**（名詞 configuration），不要用 *deploy*（那是「部署」）或 *allocate*（那是「分配資源」）。\n- **「重新設計別的方式」** 直譯成 *redesign another way* 會不自然。英文習慣說 **redesign this**（重新設計「這個東西」）或 **rethink the approach**（重新思考做法）。後者在提出改善建議時語氣更專業。\n- **「手動寫 JSON」** 有個很傳神的英文說法：**hand-write JSON** 或 **hand-craft JSON by hand**，隱含「這種事本來該由工具做」的抱怨語氣，正好符合你的意思。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "526bb532e3c1",
+      "date": "20260804",
+      "front": "\"Key Ratios\"",
+      "body": "你這次用中文下指令，先給你一個自然的英文說法：\n\n> This dashboard currently has four tabs. I'd like to split them out into separate dashboards one by one — please start with the \"Key Ratios\" section, since I'll be using the import-dashboard feature to create the new dashboards afterwards.\n\n幾個值得記的用法：\n- **split out** 是「把某部分獨立拆出來」的標準說法，比 `separate` 更貼近你的意思。`split A into B` 則是「把 A 拆成 B」。\n- **one by one** = 一個一個來；如果想強調「逐步進行」也可以說 `one at a time`。\n- **start with ~** 比 `please help me first do ~` 自然得多，英文習慣把「先做哪個」講成 `start with X`。\n- 「後續要用…的功能」→ `I'll be using the ... feature afterwards`。這裡用未來進行式 `I'll be using` 帶出「接下來我會拿它來做事」的語感，比 `I will use` 更順。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2c56a889e0f4",
+      "date": "20260804",
+      "front": "這次訊息全是中文，沒有英文句子可以修正，所以我提供你這則需求的英文說法，方便你日後直接對外／對 AG Grid 官方論壇提問時使用：",
+      "body": "這次訊息全是中文，沒有英文句子可以修正，所以我提供你這則需求的英文說法，方便你日後直接對外／對 AG Grid 官方論壇提問時使用：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 欄的層級縮放應該像範本這樣才有意義 | The column outline should behave like the template — otherwise collapsing serves no purpose. |\n| 全縮全放連列總計都不見了 | It's all-or-nothing: collapsing hides every column, and the row totals disappear with them. |\n\n用字說明：\n- **outline** 是 Excel 官方對「群組分層／縮放」的正式用語，比直譯的 `level zoom` 精準得多。\n- **all-or-nothing** 是很道地的片語，正好對應你說的「全縮全放」，帶有「沒有中間選項、要嘛全有要嘛全無」的抱怨語氣。\n- **row totals** 指「每一列的橫向總計」；若要指底部那條總計列，英文會說 **grand total row**。兩者容易混淆，對外溝通時分清楚可以少一輪來回。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "17a89be78aab",
+      "date": "20260804",
+      "front": "這一則是中文指令，沒有英文句子需要修正。提供對應的英文說法：",
+      "body": "這一則是中文指令，沒有英文句子需要修正。提供對應的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 後端也一併改，改完用 avg 驗證 | Change the backend too, and verify with avg once it's done. |\n| 這樣體感上才會讓系統產出的 excel 都一致 | That way the Excel files the system produces will actually feel consistent. |\n\n用字說明：\n- **once it's done** 比 `after finishing` 更自然、更口語，`once` 在這裡等於「一旦…就」，帶有順序感。\n- 「體感上」這個中文詞很難直譯，`feel` 就是最貼切的對應。加上 **actually** 可以傳達你言下之意的「（現在不一致，改了之後）才真的會」——這種語氣詞是中文轉英文時最容易漏掉、卻最影響語感的部分。\n- 若要更正式一點（例如寫在 issue 或 MR 說明裡），可以說 **so that all Excel output from the system is consistent** —— 用 `output` 當不可數名詞，是技術文件裡的標準寫法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "f808d2edff63",
       "date": "20260803",
       "front": "這次你的訊息是中文，我先給一個自然的英文說法：",
