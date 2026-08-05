@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "dce18d59a749",
+      "date": "20260805",
+      "front": "這次同樣是中文提問，自然的英文說法：",
+      "body": "這次同樣是中文提問，自然的英文說法：\n\n> So if the GA10 coupon originally grants 10 activity credits, will bumping the quota override to 50 make it 50?\n\n用字說明（zh-tw）：\n- **bump ... to 50** 是工程圈很道地的說法，指「把某個數值往上調」，比 `change to` 更精準也更口語（常見於 `bump the version`、`bump the timeout`）。\n- **grants** 用來描述「發放額度」比 `has` 精確：優惠碼本身不「擁有」額度，而是兌換時「授予」額度。\n- 句型 `So if X, will Y?` 是確認理解時最順的結構，開頭的 `So` 帶有「我這樣理解對嗎」的語氣，很適合你這句的情境。\n\n另一種更簡短的問法：\n\n> Does raising the quota override to 50 apply retroactively?\n\n這句直接切中重點——`retroactively`（回溯地）正好是這題真正的關鍵字，答案是不會回溯。這個字在討論設定變更、計費、權限調整時非常常用，值得記起來。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2f9df9b24ae7",
+      "date": "20260805",
+      "front": "\"quota override\"",
+      "body": "這次你是用中文提問（「優惠碼管理的額度覆寫是甚麼意思?」），提供自然的英文說法：\n\n> What does \"quota override\" mean in the coupon management page?\n\n或更口語一點：\n\n> In the coupon admin page, what exactly does the \"quota override\" field do?\n\n用字說明（zh-tw）：\n- **override** 在程式領域是標準用語，指「以某個值蓋掉預設值」，正好對應「覆寫」。名詞和動詞同形：`a quota override`（名詞）／`this coupon overrides the plan's quota`（動詞）。\n- **quota** 比 `limit` 更貼近「可用配額」的語感；若想強調上限值本身，說 `activity limit` 也很自然。\n- 問「這是什麼意思」時，`What does X mean?` 最直接；若想問「它實際上會怎麼運作」，用 `What does X actually do?` 會更精準，通常也能得到更實用的答案。\n\n順帶一提，中文原句的「甚麼」在台灣書面語較常寫作「什麼」，兩者皆通，但後者更普遍。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ecd6c32b9cfa",
       "date": "20260804",
       "front": "這一則是中文指令，沒有英文句子需要修正。提供對應的英文說法：",
