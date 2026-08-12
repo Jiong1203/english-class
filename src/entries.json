@@ -1,6 +1,43 @@
 {
   "entries": [
     {
+      "id": "fea7ec06f5dc",
+      "date": "20260811",
+      "front": "\"latest 10,000 rows\"",
+      "body": "這次你的訊息是中文的問題回報單，格式很清楚。以下提供這類 bug report 的標準英文說法，這在跨國團隊或寫 GitHub issue 時很實用：\n\n| 中文 | 標準英文欄位名 |\n|------|--------------|\n| 問題摘要 | Summary |\n| 重現步驟 | Steps to Reproduce |\n| 預期結果 | Expected Result |\n| 實際結果 | Actual Result |\n\n**描述這個問題的自然說法：**\n\n- `Queries containing an ORDER BY clause fail on SQL Server, but run fine once the clause is removed.`（含 ORDER BY 的查詢在 SQL Server 上失敗，移除該子句後就正常）\n- `We're concerned that dropping the sort would break the \"latest 10,000 rows\" requirement.`（我們擔心拿掉排序會破壞「最新 10,000 筆」的需求）\n\n**用字重點：**\n\n- **clause（子句）**：SQL 的組成單位就叫 clause —— `WHERE clause`、`ORDER BY clause`、`GROUP BY clause`。不要說 `ORDER BY sentence` 或 `ORDER BY command`。\n- **run fine / work as expected**：描述「正常運作」的口語與正式說法，比 `is normal` 自然得多。\n- **be concerned that...**：表達擔憂的正式說法，比 `worry about` 更適合書面回報。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "df23348efa9e",
+      "date": "20260811",
+      "front": "\"相關內容，並協助修復。 | Please look into anything related to the \"",
+      "body": "這次你的訊息全部使用中文，沒有英文句子可以修正，以下提供自然的英文說法：\n\n| 中文原句 | 自然英文翻譯 |\n|---------|-------------|\n| 使用者反映資料集綁定的資料庫由 Oracle 切換為 SQL Server 時，系統會清空原先已設定的類型資料。 | Users reported that when a dataset's bound database is switched from Oracle to SQL Server, the system wipes out the previously configured type. |\n| 請協助確認\"類型\"相關內容，並協助修復。 | Please look into anything related to the \"type\" field and fix it. |\n\n**用字說明：**\n- **wipes out / clears**：`wipe out` 語氣較強，帶有「整個被抹掉」的感覺，很適合描述資料被誤刪的 bug；中性一點可用 `clears` 或 `resets to empty`。\n- **look into**：比 `check` 更貼近「深入查看、調查」的意思，回報 bug 時很常用，例如 `Could you look into this issue?`\n- **bound database**：`bind`（綁定）的過去分詞是 `bound`，注意不是 `binded`。名詞形式為 `binding`，例如 `clear the binding`（清除綁定）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d82441cbf237",
+      "date": "20260811",
+      "front": "這次的輸入是 `/commit-push-merge` 這個 slash command，屬於指令名稱而非英文句子，但仍值得看一下它的構詞：",
+      "body": "這次的輸入是 `/commit-push-merge` 這個 slash command，屬於指令名稱而非英文句子，但仍值得看一下它的構詞：\n\n`commit-push-merge` 是把三個動詞用連字號串成的複合名稱，這在 CLI 工具命名中很常見（例如 `find-replace`、`build-test-deploy`）。用 **動詞原形** 串接是慣例，不會寫成 `committing-pushing-merging`。若要在句子中描述這個動作，可以說：\n\n- `Run the commit-push-merge flow for both repos.`（請對兩個 repo 跑一次 commit-push-merge 流程）\n- `I'll commit, push, and merge the changes.`（我會提交、推送並合併這些變更）\n\n注意第二句中三個動詞共用一個受詞 `the changes`，這種並列結構在英文中要保持詞性一致（都用原形），這叫 **parallel structure（平行結構）**，是英文寫作很重視的一個原則。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "80b32a80d053",
+      "date": "20260811",
+      "front": "`package.json 可以 discard 嗎?` 這句是中英混用的工程師日常說法，`discard` 用得很準確 —— 在 Git 語境中，「丟棄尚未提交的工作區變更」正是用 `discard`（SourceTree、VS Code 的按鈕就叫 Discard Chan…",
+      "body": "`package.json 可以 discard 嗎?` 這句是中英混用的工程師日常說法，`discard` 用得很準確 —— 在 Git 語境中，「丟棄尚未提交的工作區變更」正是用 `discard`（SourceTree、VS Code 的按鈕就叫 Discard Changes）。\n\n**自然的英文說法：**\n\n- `Can I discard the changes to package.json?`（可以丟棄 package.json 的變更嗎？）\n- `Is it safe to discard package.json?`（discard package.json 安全嗎？）\n\n**近義詞辨析：**\n\n| 動詞 | 語意 | 使用時機 |\n|------|------|---------|\n| `discard` | 丟棄未提交的變更 | 工作區的修改不要了 |\n| `revert` | 用一個新 commit 抵銷舊 commit | 已提交、甚至已推送的內容 |\n| `reset` | 把分支指標移回某個 commit | 改寫歷史，比較危險 |\n\n這三個常被混用，但在 Git 中意思差很多。你這次要做的正是 `discard`，用字完全正確。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
       "id": "e0a976480997",
       "date": "20260810",
       "front": "這次訊息全中文，挑幾句實用的：",
