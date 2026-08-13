@@ -65,6 +65,15 @@
       ]
     },
     {
+      "id": "1987dcbc0afd",
+      "date": "20260813",
+      "front": "你這次沒有輸入英文句子，所以提供這輪對話幾個關鍵概念的英文說法，都是實際開發討論中會用到的：",
+      "body": "你這次沒有輸入英文句子，所以提供這輪對話幾個關鍵概念的英文說法，都是實際開發討論中會用到的：\n\n| 中文 | 英文 |\n|---|---|\n| 金額由系統計算，不讓使用者輸入 | Totals are **computed**, never user-entered. |\n| 價格快照（歷史訂單不受改價影響） | We store a **price snapshot** on each line item. |\n| 衍生欄位／快取值 | a **derived field** / a **cached aggregate** |\n| 後端一律重算，不信任前端傳來的總額 | The server **recalculates** the total and **ignores** whatever the client sends. |\n\n用字說明：\n- **computed** 和 **derived** 在資料建模的語境中幾乎可互換，但語感不同：`computed` 強調「算出來的動作」，`derived` 強調「從別的資料推導而來的身分」。描述資料表欄位時 `derived field` 更專業。\n- **never user-entered** 這種「never + 過去分詞」的緊縮寫法在技術文件裡很常見，比 `users cannot enter them` 更簡潔有力。\n- **snapshot** 當名詞用在資料領域指「某個時間點的資料副本」，`price snapshot`、`snapshot the current price`（也可當動詞用）都是道地說法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "1347e30c13af",
       "date": "20260813",
       "front": "你這次是中文提問。這種「該我們改還是該對方改」的責任歸屬討論，英文有一組很好用的說法：",
