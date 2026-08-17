@@ -47,6 +47,24 @@
       ]
     },
     {
+      "id": "e3b73e8b507b",
+      "date": "20260817",
+      "front": "用字提醒：**",
+      "body": "| 中文原句 | 自然英文 |\n| --- | --- |\n| 請你監聽目前的 code review 任務 | Please keep an eye on the running code review task. |\n| 若 code review 執行完畢 | Once the code review finishes |\n| 請依照你的建議進行修復 | go ahead and apply the fixes you recommended. |\n\n**用字提醒：**\n\n- 「監聽」在程式語境確實是 **listen**（listener、event listener），但用在「盯著某件事的進度」時，英文母語者會說 **keep an eye on** 或 **watch for**，而不是 listen。例如：`Keep an eye on the build.`\n- 若要強調「等它結束再動作」，有個很精準的說法：**stand by for**（待命等候）。`I'll stand by for the review results.` —— 我上面正文用的就是這個概念。\n- 「依照你的建議」的 **as you recommended** 或 **per your recommendation** 都對。`per` 較簡潔正式，常見於書面指示；口語則多用 `like you suggested`。\n- 補充一個詞：**act on**。「依據某個結果採取行動」用 `act on the findings` 最貼切，比 `do the fixes` 更專業，也涵蓋「決定不修」這種處置。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "da222751bdcc",
+      "date": "20260817",
+      "front": "\"good to develop\"",
+      "body": "你這次用中文說明規格，以下是對應的自然英文說法：\n\n| 中文原句 | 自然英文 |\n| --- | --- |\n| 我再說的明確一點好了 | Let me be more specific. |\n| 你幫我看看這樣是否好開發 | Could you tell me whether this is straightforward to build? |\n| 他不占用原本的活動名額 | It doesn't consume the activity's regular capacity. |\n| 對原活動的報名流程無任何影響 | It has zero impact on the existing sign-up flow. |\n| 會有影響的只有在活動簽到中會多了獨立區塊 | The only change is an additional standalone section on the check-in page. |\n| 供 Owner 管理 | for the owner to manage |\n\n**用字提醒：**\n\n- 「好開發」不要直譯成 \"good to develop\"。工程語境的慣用說法是 **straightforward to build**、**easy to implement**，或評估可行性時用 **feasible**。想強調「省事」也可以說 **low-effort**。\n- 「不占用名額」的 **occupy** 其實可以用，但更道地的是 **consume**（消耗）或 **count toward**。例如：`Extra slots don't count toward the activity's capacity.` —— `count toward` 這個片語在講額度、配額時非常常見。\n- 「無任何影響」寫成 **zero impact on** 比 \"no any influence\" 自然得多（後者是中式英文的常見錯誤，`no` 和 `any` 不能連用）。\n- 「獨立區塊」用 **standalone section** 或 **separate section**。UI 語境講「區塊」通常是 **section**，不是 \"block\"（block 偏向版面排版的方塊）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "cfd7f345098c",
       "date": "20260817",
       "front": "\"Absence of evidence isn't evidence of absence.\"",
@@ -110,6 +128,15 @@
       ]
     },
     {
+      "id": "7f5429d6e155",
+      "date": "20260817",
+      "front": "用字提醒：**",
+      "body": "| 中文原句 | 自然英文 |\n| --- | --- |\n| 修完 review 發現後走 git flow | Once the review findings are fixed, run the git flow. |\n\n**用字提醒：**\n\n- 「review 發現」的標準英文是 **review findings**（複數）。`finding` 在稽核、資安、code review 的語境裡就是「查出來的問題項」，比 `problems` 或 `issues` 更精準中性 —— 它不預設嚴重程度。\n- 「修完…後」除了 `once ... is fixed`，工程師也常用 **after addressing the findings**。`address` 這個動詞很好用，因為它涵蓋「修掉」和「回應說明為什麼不修」兩種處理方式，而 `fix` 只有前者。\n- 「走",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "7700bd77cfc2",
       "date": "20260817",
       "front": "你這次的中文寫得很清楚，特別是最後那句「看你怎麼評估是最好的」—— 把判斷權交出來但又不是完全放手，這種措辭在協作中很有價值。英文對應的說法：",
@@ -129,6 +156,24 @@
       ]
     },
     {
+      "id": "67747df67e8d",
+      "date": "20260817",
+      "front": "\"add, delete, modify\"",
+      "body": "你這次是用中文提問的，以下提供對應的自然英文說法：\n\n| 中文原句 | 自然英文 |\n| --- | --- |\n| 現在活動簽到作業所顯示的名單，只能單純依照群組內成員報名的結果來顯示 | The check-in roster currently only reflects sign-ups made by group members. |\n| 若臨時有新增人員或人員異動，Owner 並不能手動調整 | If someone shows up unannounced or the lineup changes, the owner has no way to adjust the list manually. |\n| 請評估 Owner 對於活動名單的增刪修功能 | Please assess adding owner-side create / update / delete capabilities for the activity roster. |\n\n**用字提醒：**\n\n- 「增刪修」在英文技術語境不會直譯成 \"add, delete, modify\"，慣用說法是 **CRUD operations**，或在這種只講寫入操作的情境用 **create / update / delete**。\n- 「臨時加人」在活動報到的語境有個很道地的名詞：**walk-in**（名詞）或 **walk-in registration**。例如：`We need to support walk-ins at check-in time.`\n- 「人員異動」若指名單上的人換掉，英文常說 **roster change** 或 **substitution**（尤其在球類活動中「換人代打」就是 substitution）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "525250b0df0d",
+      "date": "20260817",
+      "front": "你這次用中文下指令，以下是對應說法：",
+      "body": "你這次用中文下指令，以下是對應說法：\n\n| 中文原句 | 自然英文 |\n| --- | --- |\n| 那這樣可以定案了 | That settles it. / Let's lock that in. |\n| 請你直接開始動作 | Go ahead and start implementing. |\n| 最後用一個 code-review 作為結尾 | …and wrap up with a code review. |\n| 讓我看一下 | so I can take a look |\n\n**用字提醒：**\n\n- 「定案」在專案討論中最道地的說法是 **lock it in**（定下來、不再改）或 **that settles it**（那就這麼決定）。正式一點可以說 **finalize the decision**。\n- 「直接開始動作」用 **go ahead and...** 最自然 —— 這個片語專門表達「不用再確認了，動手吧」，正好對應你的語氣。單講 `start action` 是中式英文。\n- 「作為結尾」用 **wrap up with...** 很道地，字面是「用…收尾」。例如：`Let's wrap up with a summary.`\n- 補充一個這次很實用的詞：**scope creep**（範圍蔓延）。我上面第 2 點就是典型的 scope creep 判斷 —— 為了資料一致性而多做了範圍外的事。跟工程師說 `I want to flag a bit of scope creep here` 是很標準的做法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "3ff17e4e7fb5",
       "date": "20260817",
       "front": "這次你的訊息全為中文，提供這段回饋情境的英文對照：",
@@ -142,6 +187,16 @@
       "date": "20260817",
       "front": "\"The TCP check **came back** FAIL.\"",
       "body": "這次你貼的是終端機操作紀錄，沒有完整英文句子，但裡面有幾個很實用的技術英文值得補充（以下說明皆為繁體中文）：\n\n**1. `TCP-FAIL` / `TCP-OK` — 這個命名習慣很好**\n\n你直接沿用了我給的旗標字串。這種「大寫 + 連字號」的結果標記在 shell 腳本中是標準做法，例如 `HEALTH-OK`、`DNS-FAIL`。口語討論時會說：\n\n> \"The TCP check **came back** FAIL.\" （這個 check 測出來是失敗的）\n\n`come back` 用在檢測結果非常道地，比 `The result is` 自然得多。同類說法還有 `the test came back clean`（測試結果乾淨、沒問題）。\n\n**2. 描述這個狀況的道地說法**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 連不到 / 不可達 | **unreachable** | 網路領域的標準用字：`The GitLab host is unreachable from the CSAC server.` |\n| 被防火牆擋掉 | **blocked by the firewall** | 也可說 `the traffic is being dropped`（封包被丟棄，指沒有回應、而非明確拒絕）—— 你這次 timeout 的情況正是 `dropped` 而不是 `rejected`。 |\n| 單向通 | **one-way reachability** | 或動詞形式：`Traffic only flows one way.` |\n| 申請開通 | **request a firewall rule** | 不要說 `apply to open`，正確說法是 `request a firewall rule` 或 `request the port to be opened`。 |\n\n**3. 一個實戰句型**\n\n如果之後要用英文寫這張申請單，主句可以這樣寫：\n\n> \"Please allow outbound HTTPS (TCP 443) from 10.4.200.17 to 10.201.81.231. The connection is currently timing out.\"\n\n`outbound`（對外連出）／`inbound`（連入）是防火牆申請的必備詞彙，用對了對方一眼就懂方向。",
+      "tags": [
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "3f192937e288",
+      "date": "20260817",
+      "front": "用字提醒：**",
+      "body": "| 中文原句 | 自然英文 |\n| --- | --- |\n| 請你監聽目前的 code review 任務 | Please keep an eye on the code review task. |\n| 若 code review 執行完畢 | Once the code review comes back |\n| 請依照你的建議進行修復 | apply the fixes as you recommended |\n\n**用字提醒：**\n\n- 「執行完畢」對背景任務而言，母語者更常說 **comes back**（回來了）而不是 `finishes executing`。例如 `Once CI comes back green, I'll merge.` —— `come back green` 是「跑完且全過」的固定說法，很值得記。\n- 這次 review 報告裡出現的三個詞很值得收進詞彙庫：\n  - **finding** — 查出的問題項（中性，不預設嚴重度）\n  - **scenario** — 具體重現情境，好的 review 都要求附上\n  - **backstop** — 後備防線。我在程式註解裡寫的 `stays as a backstop for non-HTTP callers` 就是這個用法，指「平常用不到但留著兜底」\n- 補一個描述第 1 項那種 bug 的道地說法：**stale data**（過時資料）或更精準的 **orphaned rows**（孤兒列）—— 主體已失效但關聯資料沒跟著清掉，正是那個 bug 的本質。",
       "tags": [
         "vocab",
         "comparison"
@@ -167,6 +222,24 @@
       ]
     },
     {
+      "id": "24bfb34257d0",
+      "date": "20260817",
+      "front": "\"special\"",
+      "body": "你這次用中文提問，以下是對應的自然英文說法：\n\n| 中文原句 | 自然英文 |\n| --- | --- |\n| 評估下來的確不是單純的 CRUD | It turns out this isn't just plain CRUD. |\n| 會嚴重影響到報名順序、候補機制、超收等問題 | It has serious knock-on effects on sign-up ordering, the waitlist mechanism, and overbooking. |\n| 如果說不想影響到原本的報名的話 | If we want to leave the existing sign-up flow untouched… |\n| 有點算是 owner 自行開放的額外特殊名額 | It'd be more like extra slots that the owner opens up at their own discretion. |\n| 這個方向會不會比較好發揮？ | Would that direction give us more room to work with? |\n\n**用字提醒：**\n\n- 「不影響到原本的 X」在技術討論中最道地的說法是 **leave X untouched** 或 **without touching X**。工程師之間也常用 **non-invasive**（非侵入式的）形容這種作法：`a non-invasive approach that leaves the booking pipeline untouched`。\n- 「超收」的標準英文是 **overbooking**（航空業借來的詞，在活動報名語境完全通用）。動詞是 **to overbook**。\n- 「比較好發揮」很難直譯。依語境可以說 **give us more room to work with**（有更多發揮空間）、**be more tractable**（比較好處理，偏正式）、或口語的 **be easier to build on**。\n- 「額外特殊名額」建議簡化成 **extra slots** 或 **additional spots**。加上 \"special\" 反而模糊 —— 英文技術寫作偏好用最短的具體詞，特殊性讓上下文去交代。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2410de634a45",
+      "date": "20260817",
+      "front": "\"you can also explain\"",
+      "body": "你這次的提問方式很值得學，特別是後半句：\n\n| 中文原句 | 自然英文 |\n| --- | --- |\n| 比較一下 A 和 B，你會選擇哪一個 | Compare A and B — which would you go with? |\n| 若是這兩個不是同一件事情的話 | If these two aren't actually the same thing… |\n| 你也可以說明一下 | …feel free to explain that instead. |\n\n**用字提醒：**\n\n- 「你也可以說明一下」這種**給對方轉圜空間**的說法，英文裡最自然的是 **feel free to...**（隨意、不必拘束）。它比 \"you can also explain\" 客氣得多，也更像母語者的語氣。另一個同樣好用的是 **let me know if...**：`Let me know if they're not really comparable.`\n- 「不是同一件事」除了 `not the same thing`，在技術討論中還有一個很精準的詞：**not equivalent**（不對等）。若想表達「兩者根本無法直接比較」，則用 **not comparable** 或 **apples and oranges**（這是慣用語，字面是「蘋果和橘子」，意思是兩者性質不同、沒得比）。\n- 補充一個這次討論的核心詞：**fail-open** / **fail-closed**。這是安全與可靠性工程的標準術語 —— fail-open 指「出錯時預設放行」，fail-closed 指「出錯時預設阻擋」。你這次的需求（額外名額預設不外洩）就是典型的 fail-closed 設計，用這個詞跟工程師溝通會非常快。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "1bfcfe1f6174",
       "date": "20260817",
       "front": "你這次寫的是「按照你的建議修復」，簡潔明確。英文對照：",
@@ -180,6 +253,15 @@
       "date": "20260817",
       "front": "你這次是用 slash command `/code-review`，沒有英文句子，提供這個情境的對照：",
       "body": "你這次是用 slash command `/code-review`，沒有英文句子，提供這個情境的對照：\n\n| 中文 | 自然英文說法 |\n|------|--------------|\n| 這是我改出來的回歸 | That's a regression I introduced |\n| 抵銷了先前的修正 | It undid the earlier fix |\n| 我漏看了一個呼叫端 | I missed a call site |\n| 先驗證再採信 | Verify before trusting it |\n| 一次改完比較省事 | Easier to do them in one pass |\n\n**語感說明：**\n\n- **regression** 是軟體測試的專有名詞，指「原本正常的功能因新改動而壞掉」，比 `new bug` 精準得多。動詞搭配用 **introduce a regression**（造成回歸）或 **cause a regression**，不用 `make`。\n- **undo**（抵銷、還原）在描述「新改動把舊修正弄回原狀」時最傳神：`The new flag undid the timeout handling.` 若要更強調完全抹除，可用 **wipe out** 或 **negate**。\n- **call site** 是「呼叫某函式的地方」的標準說法，這次的教訓正好用得上：`I checked the call sites for one function but not the other.` 這個詞在重構討論中非常常見，中文常說「呼叫端」或「使用處」。\n- **in one pass** 承接上次提到的 `pass`（一輪），「一次做完」就是 `do it in one pass`，相對的「分幾次做」是 `spread it over several passes`。\n- 補充一個 code review 情境的實用句型：當你認同某個發現時說 **Good catch**（抓得好），這是英文 code review 裡最高頻的肯定語；反之若認為誤報則說 **I think that's a false positive**（我認為那是誤報）。這次 10 項裡有 3 項我會說 `Good catch — those are real regressions`，其餘則是 `valid but out of scope for now`（成立但目前不在範圍內）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0ac2a9aa0f5d",
+      "date": "20260817",
+      "front": "你這次的提問切中要害，以下是對應的自然英文說法：",
+      "body": "你這次的提問切中要害，以下是對應的自然英文說法：\n\n| 中文原句 | 自然英文 |\n| --- | --- |\n| 我會選擇你建議的 (b) | I'll go with your recommendation, option (b). |\n| 若不走獨立表 | If we don't go with a separate table… |\n| 而是將額外名額透過狀態來區別 | …and instead distinguish extra slots by status |\n| 這樣會不會比較少工？ | Would that be less work? |\n\n**用字提醒：**\n\n- 「走某方案」在英文裡最自然的動詞是 **go with**：`Let's go with the status approach.` 這個片語專門用在「從幾個選項中選定一個」，比 `choose` 更口語、更像工程師在會議上會說的話。\n- 「比較少工」是很道地的中文工程用語，英文對應說法是 **less work** 或 **less effort**。若想更精確地說「省下的工時」，可以用 **saves us about a day**（省我們大概一天）。\n- 「透過狀態來區別」的 **distinguish A by B** 是標準搭配。另一個常見說法是 **encode it in the status column**（把它編碼在 status 欄位裡）—— 這在討論資料建模時特別道地，因為它點出「用既有欄位承載新語意」這層意思。\n- 補充一個這次討論用得上的詞：**overload**。你這個做法在英文技術寫作裡會被描述成 `overloading the status column`（讓 status 欄位身兼多職）。它帶有中性偏警示的語氣，正好對應我說的「混載語意」那筆技術債。",
       "tags": [
         "comparison"
       ]
