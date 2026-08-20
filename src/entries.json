@@ -1,6 +1,42 @@
 {
   "entries": [
     {
+      "id": "f6a2706f37cf",
+      "date": "20260820",
+      "front": "\"sometimes it fails\"",
+      "body": "這次你貼的是 CI 日誌，自己寫的英文不多，但開頭那句中英夾雜的描述值得看一下：\n\n> frontend 在 merge-proposed-helm-mr-and-deploy 發生錯誤\n\n如果要用英文向同事回報同一件事，自然的說法是：\n\n> The frontend pipeline failed at the `merge-proposed-helm-mr-and-deploy` job.\n\n或更完整：\n\n> The frontend deploy failed at the Helm MR merge step — GitLab returned 405.\n\n幾個報錯情境的實用講法：\n\n| 中文 | 英文 |\n|---|---|\n| 在某個 job 掛掉 | **failed at** the `xxx` job |\n| 卡在某個階段 | **is stuck at** the `xxx` stage |\n| 錯誤訊息說…… | The error says… / It's throwing… |\n| 重跑一次 | **retry** the job / **re-run** it |\n\n- 注意介系詞：講「在哪個 job 失敗」用 **fail at**（後面接位置／階段），不是 fail in 或 fail on。`fail on` 通常接條件，例如 *the build fails on Windows*（在 Windows 上會失敗）。\n- **be stuck at** 和 **fail at** 差別在於：stuck 是還沒結束、卡住不動；fail 是已經結束且失敗了。你這次是後者。\n- 補一個工程上很常用的詞：**flaky**（不穩定的、時好時壞的）。如果同一個 job 重跑就過了，英文會說 *that job is flaky* —— 這比 \"sometimes it fails\" 精準得多，而且是團隊裡的標準用語。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d795fb2acd1c",
+      "date": "20260820",
+      "front": "你這次同樣是用中文：「幫我推上測試機，我要在測試機測一下」。",
+      "body": "你這次同樣是用中文：「幫我推上測試機，我要在測試機測一下」。\n\n自然的英文說法：\n\n> Push it to the dev environment — I want to test it there.\n\n或更完整一點：\n\n> Can you deploy this to staging? I'd like to try it out myself.\n\n用字上有兩個值得注意的地方：\n\n| 中文原意 | 較不自然 | 自然說法 |\n|---|---|---|\n| 測試機 | test machine | **dev environment** / **staging** / **the dev server** |\n| 我要在測試機測一下 | I want to test on test machine | **I want to test it there** / **I'd like to try it out on dev** |\n\n- 「測試機」直譯成 test machine 在英文語境裡聽起來像是「一台實體測試用的電腦」。軟體團隊講的通常是環境而不是機器，所以用 **dev environment**（開發環境）或 **staging**（預備上線環境）才對得上。你們專案的 `dev.grouparound.app` 正好就是 dev environment。\n- 第二句用 **there** 代替重複的「測試機」就好，英文很避免在相鄰句子裡重複同一個名詞，改用代名詞會流暢很多。\n- 補充一個實用動詞：**deploy**（部署）。「推上測試機」在團隊溝通裡最常講的其實是 *deploy to dev*，比 *push* 更精準——push 只是把 code 推到 git，deploy 才是真的讓它跑起來。這次的情況兩個都用得到：先 push 分支，pipeline 再 deploy。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b1607c7345fb",
+      "date": "20260820",
+      "front": "你這次是用中文下指令：「幫我繼續處理現在git未完成的進度合併」。",
+      "body": "你這次是用中文下指令：「幫我繼續處理現在git未完成的進度合併」。\n\n自然的英文說法會是：\n\n> Help me finish the pending git merges.\n\n或更口語一點：\n\n> Can you pick up where the git merge left off?\n\n幾個用字上的細節，用中文說明：\n\n| 中文原意 | 較不自然 | 自然說法 |\n|---|---|---|\n| 未完成的進度合併 | unfinished progress merge | **pending merges** / **the merges that are still outstanding** |\n| 繼續處理 | continue to handle | **finish** / **pick up where … left off** / **carry on with** |\n\n- 「進度」在這裡其實不用直譯成 progress。英文講 pending（待處理的）或 outstanding（未了結的）就涵蓋了「還沒完成」這層意思，硬加 progress 反而會讓母語者困惑。\n- **pick up where something left off** 是很道地的片語，意思是「從上次中斷的地方接著做」，用在這種「延續前一段工作」的情境非常貼切。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0fba6dc735ed",
+      "date": "20260820",
+      "front": "\"no permission\"",
+      "body": "你這次的訊息用中文寫，其中「我按太快」和「還沒跑完我就按了」很值得練，因為這在跟同事解釋 CI 事故時超常用：\n\n> I jumped the gun — I hit merge before the helm-repo pipeline had finished.\n\n或直白一點：\n\n> I clicked it too early. The helm-repo pipeline was still running.\n\n| 中文 | 英文 |\n|---|---|\n| 我按太快了 | I **jumped the gun** / I clicked it **too early** |\n| 還沒跑完 | it **hadn't finished yet** / it was **still running** |\n| 我沒有那個權限 | I **don't have access to** it / I don't have **permissions on** that repo |\n| 應該是這樣啦 | **I think that's what happened** / that's my **best guess** |\n\n- **jump the gun** 是很道地的片語，字面是「賽跑時搶跑」，引申為「時機未到就先動作」。用在你這個情境（閘門還沒準備好就按下去）完全精準，而且帶點自嘲的輕鬆語氣，跟你原句的「哈哈」語感很搭。\n- 注意 access 的介系詞：**have access to** something。講權限時另一個常見說法是 *I'm not a maintainer on that project*（我在那個專案不是 maintainer），在 GitLab/GitHub 的情境下比籠統的 \"no permission\" 更精確，對方一聽就知道要幫你調哪個角色。\n- 「應該是這樣啦」這種不確定的推測，英文除了 I think，還可以用 **presumably** 或 **I'm guessing**。例如 *Presumably that's why it failed.*（大概就是因為這樣才失敗的吧。）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "f096154a3ff0",
       "date": "20260819",
       "front": "你這次是中文提問，先給你這句的英文說法：",
