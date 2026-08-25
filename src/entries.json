@@ -39,6 +39,15 @@
       ]
     },
     {
+      "id": "cdb980951d52",
+      "date": "20260825",
+      "front": "你這次用中文表達，先給你自然的英文說法：",
+      "body": "你這次用中文表達，先給你自然的英文說法：\n\n> **I don't have access to the helm-repo, so I have no way of telling what's actually going on.**\n\n幾個用字上的說明：\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 我沒有…的權限 | **I don't have access to…** | 比 `I don't have permission to…` 更常用。`access` 指「進得去、看得到」；`permission` 偏「被授權做某動作」。講 repo、資料庫、後台一律用 `access` |\n| 所以不知道到底是什麼情況 | **so I have no way of telling what's going on** | `have no way of telling` = 「無從得知」，比直譯的 `so I don't know` 更能傳達「我想知道但查不到」的無奈 |\n| 到底 | **actually** / **really** | 中文的「到底」帶有追問語氣，英文放 `actually` 在句中即可，不需要額外強調詞 |\n\n更簡潔的口語版本，實務上跟同事這樣講最自然：\n\n> **I don't have access to the helm-repo, so I'm flying blind here.**\n\n`flying blind`（盲飛）是很好用的工程師慣用語，意思是「手上沒有儀表資訊、只能瞎猜」，正好對應你現在看不到 MR 狀態的處境。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "cc1d1a48ac2f",
       "date": "20260825",
       "front": "\"I triggered 方案管理 in LINE, but the page fails to open with `Page not found: /svc/admin/plans`.\"",
@@ -273,6 +282,17 @@
       "front": "\"That didn't do it.\"",
       "body": "你這句「我都已經按了，但是還是一樣是 404」的自然英文：\n\n> \"I've already clicked them both, but it's still 404.\"\n\n或更完整一點：\n\n> \"I already pressed the deploy buttons, but I'm still getting the same 404.\"\n\n**幾個細節值得注意：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 都已經按了 | **I've already clicked/pressed them** | 「都」在這裡指「兩個都」，英文用 **`both`** 表達：`clicked them both` 或 `clicked both of them` |\n| 還是一樣 | **still the same** / **it's still...** | `still` 是關鍵字，表示「狀態未改變」，位置放在 be 動詞後、實義動詞前 |\n| 我還是拿到 404 | **I'm still getting a 404** | 用進行式 `getting` 比 `I still get` 更能表達「現在正發生」 |\n\n**一個很實用的表達 —— 「照做了但沒用」：**\n\n回報「我試過你說的方法但問題還在」時，英文有幾個地道說法：\n\n- **\"That didn't do it.\"** —— 最簡短，「那個沒解決」\n- **\"No luck.\"** —— 「沒成功」，很常用的口語\n- **\"Still no dice.\"** —— 同上，稍微俏皮\n- **\"I tried that, but it's still happening.\"** —— 完整版\n\n所以你這句最道地的說法可以是：\n\n> **\"Already did both — no luck, still 404.\"**\n\n這種「動作 + 結果」用破折號串起來的短句，在工程團隊的即時通訊裡非常常見，比完整句子更有效率。",
       "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "27bd5e6dddd2",
+      "date": "20260825",
+      "front": "你寫的 \"What is the problem?\" 完全正確自然，文法與冠詞使用都沒問題——用定冠詞 `the` 而非 `a`，正確地指向「我剛貼上的這段 log 裡的那個問題」，這個細節很多人會弄錯。",
+      "body": "你寫的 \"What is the problem?\" 完全正確自然，文法與冠詞使用都沒問題——用定冠詞 `the` 而非 `a`，正確地指向「我剛貼上的這段 log 裡的那個問題」，這個細節很多人會弄錯。\n\n給你幾個同義但語氣不同的替代說法，擴充一下語感：\n\n| 說法 | 語氣／使用場合 |\n| --- | --- |\n| **What's going wrong here?** | 較口語，暗示「正在出錯」，適合貼 log 求診 |\n| **What's causing this failure?** | 更聚焦「根因」，會引導對方直接講 root cause |\n| **Any idea why this is failing?** | 最委婉、同事之間閒聊式的問法 |\n| **Can you diagnose this CI failure?** | 較正式、明確下指令，適合對工具或 AI 說 |\n\n若想更精準地把這次的需求講清楚，可以說：\n> **What's causing this CI job to fail?**\n\n中文對照：「是什麼導致這個 CI job 失敗的？」——比起泛泛的 \"What is the problem?\"，這句把範圍鎖定在 CI job 上，對方比較不會答偏。",
+      "tags": [
+        "praise",
+        "grammar",
         "comparison"
       ]
     },
