@@ -21,6 +21,15 @@
       ]
     },
     {
+      "id": "f5f098b8a440",
+      "date": "20260827",
+      "front": "你這次是用中文下指令，以下提供自然的英文說法：",
+      "body": "你這次是用中文下指令，以下提供自然的英文說法：\n\n| 你的中文 | 自然英文 | 說明 |\n|---|---|---|\n| 評估一下目前系統的 rich menu 設計 | Take a look at how the rich menu is designed in the current system. | 最口語、最貼近「評估一下」的隨性語氣 |\n| （較正式）同上 | Could you evaluate the current rich menu design? | 適合寫在 issue 或給同事的正式請求 |\n\n**用字提醒：** 中文的「評估一下」語氣其實很輕，加上「一下」就帶了「隨便看看、給個意見」的意思。直譯成 `evaluate` 會偏正式、偏「做一份正式評鑑」。想保留那個輕鬆感，英文常用的是 **take a look at** 或 **give me your thoughts on**：\n\n- *Take a look at the rich menu design and let me know what you think.*（最貼近原意）\n- *What are your thoughts on the current rich menu design?*\n\n另外，「目前系統的」在英文裡通常不必逐字譯成 `of the current system` —— 直接說 `the current rich menu design` 就夠了，把 current 移到要修飾的名詞前面，句子會俐落很多。這是中英文的一個常見差異：中文習慣用「的」層層修飾，英文則傾向壓縮成單一形容詞。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "f2ecc2bac8bb",
       "date": "20260827",
       "front": "你這次的訊息是中文，提供英文對照。",
@@ -103,6 +112,15 @@
       ]
     },
     {
+      "id": "572020212aca",
+      "date": "20260827",
+      "front": "你這次的中文提問，自然的英文說法是：",
+      "body": "你這次的中文提問，自然的英文說法是：\n\n| 你的中文 | 自然英文 |\n|---|---|\n| A-1、A-2 做 | Let's do A-1 and A-2. |\n| 但是 B 跟 D 是不是應該放團團磚官網比較合適? | But wouldn't it make more sense for B and D to point to the official site? |\n\n**用字重點 ——「是不是應該…比較合適」：**\n\n這個中文句式帶著「我有個想法，但想聽你的意見」的試探語氣，直譯成 `Is it more suitable to...` 會太生硬。英文表達這種軟性提議，最地道的是用 **wouldn't** 開頭的否定疑問句：\n\n- ***Wouldn't it make more sense to point B and D at the official site?***（最貼近你的語氣）\n- *Should B and D point to the official site instead?*（更直接，但一樣自然；`instead` 是關鍵字，它承載了「取代原方案」的意思）\n\n`wouldn't it make more sense...` 這個句型在技術討論裡非常好用，因為它同時做到兩件事：提出你的看法，又留了餘地給對方反駁。比 `I think you're wrong` 溫和得多，但論點一樣清楚。\n\n**一個小提醒 ——「放」：**\n\n中文的「放官網」很簡潔，但英文不能直譯成 `put the official site`。連結的動詞要用 **point to / point at** 或 **link to**：\n\n- *Should we point it to the official site?*\n- *Should it link to the homepage instead?*\n\n順帶一提，網站首頁的英文是 **homepage** 或 **landing page**（後者特指行銷用的著陸頁，你們的 `/` 正好是這種），不是 `official website's first page`。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "4e90d4e592d7",
       "date": "20260827",
       "front": "\"what actually happens\"",
@@ -119,6 +137,15 @@
       "body": "你這次的訊息是中文，提供英文對照。你這句「是不是應該給我一個 SQL 是⋯就好？」在英文裡是很典型的「收斂範圍」提議，值得學會。\n\n**你的兩句話：**\n\n- 都沒有，會有什麼影響嗎？ → **Neither one is there — what's the impact?**\n- 是不是應該給我一個 SQL 只設 default 跟 NOT NULL 就好？ → **Shouldn't you just give me one SQL that sets the defaults and NOT NULL, and leave it at that?**\n\n**三個實用表達：**\n\n1. **`leave it at that`** —— 「就到此為止、不要再多做」。正好對應你說的「⋯就好」，用來把範圍收住：`Let's just fix the default and leave it at that.`（就修預設值，其他別動。）\n\n2. **`what's the impact?`** —— 詢問影響的標準說法，比 `what will happen` 更專業精準。想問得更具體可以說 `What breaks if we don't fix it?`（不修的話會壞掉什麼？）——這個問法很好用，因為它逼對方講出具體後果而不是含糊的擔憂。\n\n3. **`Neither one is there.`** —— 「兩個都沒有」。`neither` 用於兩者皆非，注意動詞用單數 `is`。若是三個以上則用 `None of them are there.`\n\n延伸一句，把你的完整意思寫成英文：\n`Neither the constraint nor the trigger is there — what's the impact? Shouldn't we just set the defaults and NOT NULL and leave it at that?`\n\n（`neither... nor...` 是把兩件事並列否定的正式句型，在技術討論中讀起來很清楚。）",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "48c0a41f2ce9",
+      "date": "20260827",
+      "front": "你這次的指令，自然的英文說法：",
+      "body": "你這次的指令，自然的英文說法：\n\n| 你的中文 | 自然英文 |\n|---|---|\n| 改完就幫我推到測試機 | Once you're done, push it to the dev environment for me. |\n| guide.vue 是我自己手改的 | I edited guide.vue by hand myself. |\n| 請你也一起推上去沒關係 | Go ahead and include it in the push — that's fine. |\n\n**用字重點 ——「測試機」：**\n\n中文的「測試機」在英文有幾種說法，選哪個取決於你指的是什麼：\n\n- **the dev environment**（最貼近你們的情境，因為你們的分支就叫 `dev-*`、網域是 `dev.grouparound.app`）\n- **staging** — 特指「上線前最後一關、盡量貼近 prod」的環境。如果你們之後多開一層，那層才叫 staging\n- **the test machine** — 這是字面直譯，英文母語者聽得懂，但通常指「某台實體機器」，而不是一個部署環境\n\n因為你們的架構是 Kubernetes + Helm，講 **environment** 比 **machine** 精確得多 —— 那裡根本沒有一台固定的「機器」。\n\n**另一個地道說法 ——「⋯⋯沒關係」：**\n\n中文用「沒關係」來表示「我授權、不介意」，但英文不能直譯成 `it doesn't matter`（那聽起來像「這不重要」，語氣偏冷淡）。表達「你放手去做，我同意」用：\n\n- ***That's fine.*** / ***That's OK.***（最簡單直接）\n- ***Go ahead.***（帶有明確授權的意味，正好對應你這句的功能）\n- *Feel free to include it.*（更客氣一點的說法）\n\n順帶一提，你這句「請你也一起推上去沒關係」同時包含了「請求」和「授權」兩層意思，英文通常會拆成兩句講，像是 *Go ahead and push it too — no need to ask.*（放手推吧，不用再問我）。",
+      "tags": [
+        "comparison"
       ]
     },
     {
@@ -162,6 +189,24 @@
       "date": "20260827",
       "front": "\"Right now, when someone adds the LINE bot as a friend, is there no welcome message or welcome card? Wouldn't that leave them lost and make onboarding hard?\"",
       "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"Right now, when someone adds the LINE bot as a friend, is there no welcome message or welcome card? Wouldn't that leave them lost and make onboarding hard?\"\n\n幾個用詞的細微差別值得記：\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 茫然、不知道從何開始 | **feel lost** / **be at a loss** | `feel lost` 最口語自然；`confused` 偏「被搞混」，語氣不同 |\n| 不好入門 | **hard to get started** / poor **onboarding** | `onboarding`（名詞）是產品圈標準術語，專指「新使用者上手流程」，講產品時比 `hard to start` 精準得多 |\n| 入門摩擦 | **onboarding friction** | `friction` 在 UX 語境指「讓使用者卡住的阻力」，是很好用的字 |\n\n另外「是不是會導致…?」這種確認性反問，英文最自然的是 `Wouldn't that...?` 或 `Doesn't that mean...?`，比直譯的 `Will it cause...?` 道地。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "10385a519965",
+      "date": "20260827",
+      "front": "這次你是用中文下指令（「先跟我報告一下目前進度」），所以提供自然的英文說法給你參考：",
+      "body": "這次你是用中文下指令（「先跟我報告一下目前進度」），所以提供自然的英文說法給你參考：\n\n| 中文 | 自然英文 | 語感差異 |\n|------|----------|----------|\n| 先跟我報告一下目前進度 | **Give me a status update first.** | 最口語、最常用，職場對話首選 |\n| （同上，較正式） | **Could you brief me on the current progress first?** | `brief someone on X` 是「就某事向某人簡報」，比 report 更像口語商務用法 |\n| （同上，較簡短） | **Where do things stand?** | 慣用語，字面「事情站在哪」＝「目前到什麼程度了」，母語者很常用 |\n\n**細節提醒：**\n- 「進度」多數情況用 **progress**（不可數，不能說 ~~a progress~~ / ~~progresses~~）或 **status update**（可數）。\n- 「報告」在這種輕量情境下，用 `report to me` 會有點上對下的軍事感；`give me an update` 或 `walk me through` 更貼近同事間的語氣。\n- 若想強調「先」這個順序，把 **first** 放句尾最自然：`Give me a status update first.`",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0fb20d675257",
+      "date": "20260827",
+      "front": "你這次全程使用中文，以下提供對應的自然英文說法：",
+      "body": "你這次全程使用中文，以下提供對應的自然英文說法：\n\n| 你的中文 | 自然英文 |\n|---|---|\n| 先幫我看一下這個 | Take a look at this first. |\n| 現在可以從哪些地方導向過去？ | Where does this currently get linked from? |\n| 是不是沒有教學頁的入口？ | Is there no entry point to the guide page? |\n\n**用字重點 —— 「導向」：**\n\n中文的「導向」在這個情境下，英文最自然的不是 `direct to`，而是要看你問的角度：\n\n- **問來源** → **link from**：*Where is `/guide` linked from?*（最貼近你的原意）\n- **問路徑** → **navigate to**：*How can users navigate to the guide page?*\n- **技術上的自動跳轉** → **redirect**：這個字要留給 HTTP 301/302 那種強制跳轉，不要拿來指「頁面上有一個連結」\n\n初學者很常把「導向」直譯成 `direct to`，但英文母語者講網頁連結時幾乎只說 **link to / link from**。\n\n**另一個地道說法 —— 「入口」：**\n\n中文的「入口」翻成 `entrance` 是錯的（那是實體建築的入口）。網頁與產品設計的語境要用 **entry point**：\n\n- *The landing page has only one entry point to the guide.*\n- *There's no entry point back to the guide from inside LINE.*\n\n`entry point` 這個詞在軟體領域用途很廣，程式的 main function、API 的起始端點也都叫 entry point，很值得記起來。",
       "tags": [
         "comparison"
       ]
