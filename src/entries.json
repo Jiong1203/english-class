@@ -1,6 +1,107 @@
 {
   "entries": [
     {
+      "id": "d7fc2a0fd468",
+      "date": "20260831",
+      "front": "這次你全程使用中文提問，沒有英文句子可以檢視，所以這裡提供你這句話的自然英文說法：",
+      "body": "這次你全程使用中文提問，沒有英文句子可以檢視，所以這裡提供你這句話的自然英文說法：\n\n> 群組中使用「發活動卡片(!card)」呼叫出活動卡片的動作，現在假如這個群組中有多個開放報名的活動，這樣會如何運作呢?\n\n**自然英文版本：**\n\n> How does the `!card` command behave when the group has multiple activities open for sign-up?\n\n或者更口語一點：\n\n> What happens if there's more than one activity open for registration when someone runs `!card` in the group?\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 開放報名 | **open for sign-up** / **open for registration** | `sign-up` 較口語，`registration` 較正式。動詞是 `sign up`（分開寫），名詞／形容詞是 `sign-up`（有連字號）。 |\n| 這樣會如何運作 | **How does it behave** / **What happens** | 講程式行為時，`behave` 比直譯的 `operate` 或 `work` 更精準，因為你問的是「遇到某條件時的反應」。 |\n| 呼叫出卡片 | **run the command** / **trigger the card** | 中文的「呼叫」直譯成 `call out` 會很怪；指令用 `run` 或 `invoke`，觸發結果用 `trigger`。 |\n\n**小提醒：**在英文技術討論中，描述「某條件下的行為」很常用 `when` 開頭的從句，例如 `How does X behave when Y?`，這個句型你可以直接套用在之後的提問上。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "c0908e81df15",
+      "date": "20260831",
+      "front": "\"Give me a deep dive on the Cost Index Query feature.\"",
+      "body": "你這次是用中文提問的（「\"成本指標查詢\"請分析一下」），提供自然的英文說法：\n\n> Could you analyze the \"Cost Index Query\" feature for me?\n\n或更貼近你這種「丟一個模組名稱要我分析」的簡潔語氣：\n\n> Take a look at the \"Cost Index Query\" module and tell me what you find.\n\n語感說明：\n- **`analyze` vs `take a look at`**：前者較正式、暗示有系統的拆解；後者是工程師日常口語，語氣輕但期待一樣完整。你原句的「請分析一下」帶有「一下」這種輕量化語尾，其實更接近 `take a look at`。\n- **「一下」不要直譯**。中文的「一下」是弱化語氣的助詞（軟化命令感），英文沒有對應詞。千萬別寫成 `analyze it one time` 或 `analyze a bit`；英文靠 **`Could you...`** 這個句型本身來達到同樣的客氣效果。\n- **`for me` 的作用**：加在句尾讓請求更自然、更有人味，這是英文母語者常用的軟化手法（類似中文的「幫我」）。\n- 若要強調「深入分析」，可說 **\"Give me a deep dive on the Cost Index Query feature.\"** —— `deep dive` 是技術圈非常常用的名詞化說法。\n\n小提醒：模組名稱在英文句子中若是專有的功能名稱，習慣用引號或首字母大寫（`\"Cost Index Query\"`），讓對方知道那是介面上的固有名詞而非你臨時的描述。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c0206d4f2f02",
+      "date": "20260831",
+      "front": "你這次的訊息是「方案部分我選擇 B。approved」——`approved` 用得完全正確，這正是我計畫結尾請你回覆的關鍵字，簡潔明確。",
+      "body": "你這次的訊息是「方案部分我選擇 B。approved」——`approved` 用得完全正確，這正是我計畫結尾請你回覆的關鍵字，簡潔明確。\n\n**自然英文版本：**\n\n> For the plan scope, I'll go with option B. Approved.\n\n或更完整一點：\n\n> Let's go with B for the plan filtering. Approved — please proceed.\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 我選擇 B | **I'll go with B** / **Let's go with B** | `go with` 是做選擇時最自然的說法，比 `I choose B` 口語且不生硬。正式場合可用 `I'd opt for B`。 |\n| 方案部分 | **For the plan scope** / **As for the plans** | 中文的「⋯⋯部分」在英文裡通常用 `For...` 或 `As for...` 開頭，不需要直譯成 `the part of`。 |\n| 核准 | **Approved** | 單獨一個過去分詞當簡短回覆，是英文審批流程的慣用法（同類還有 `Confirmed`、`Noted`、`Acknowledged`）。 |\n\n**小提醒：**`Approved` 單獨使用時語氣是中性偏正式的「批准」。如果想更輕鬆，同事之間常說 `Sounds good, go ahead` 或 `LGTM`（Looks Good To Me，程式碼審查時的標準縮寫）。你在 code review 留言時可以直接用 `LGTM`。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "bf3a67053372",
+      "date": "20260831",
+      "front": "\"Let's knock out #3 first.\"",
+      "body": "你這次是用中文下指令的（「先處理 3，把 C+D 的死碼刪掉」），提供自然的英文說法：\n\n> Let's start with #3 — go ahead and strip out the dead code in C and D.\n\n語感說明：\n- **`strip out` 比 `delete` 更貼切**。刪死碼的慣用動詞組有三個層次：`remove`（中性）、`strip out`（把夾雜在活碼中的無用部分「剝掉」）、`rip out`（大刀闊斧、語氣較猛）。你這次是把混在方法裡的殘留碼挑出來刪，`strip out` 最精準。\n- **`dead code` 是標準術語**，不可數名詞，前面不加 `a`、也不加複數 `s`。同義的還有 `cruft`（累積的垃圾碼，語氣更口語）和 `leftovers`（殘留物）。\n- **`go ahead and ...` 的作用**：中文「把…刪掉」的祈使語氣直譯成英文會偏硬（`Delete the dead code.` 像在對機器下令）。加上 `go ahead and` 就成了「你就動手吧」的授權語氣 —— 這正好對應你原句「先處理 3」裡那種「我已經決定了，你做」的感覺。\n- **`Let's start with #3`**：技術討論中引用清單編號，英文習慣寫 `#3` 或 `item 3`，口語念作 \"number three\"。若要強調順序，也可說 **\"Let's knock out #3 first.\"**（`knock out` = 快速完成某件事，工程師很愛用）。\n\n小提醒：「先處理 3」的「處理」不要反射性翻成 `handle` 或 `process`。`handle #3` 語意模糊（是刪除？修改？還是只是研究？）；這裡你有明確動作，直接說 `start with #3` 再接具體動詞（`strip out`）最清楚。`process` 更是專指「資料處理」，用在任務上會很怪。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7f7e6f116f54",
+      "date": "20260831",
+      "front": "\"Why is `csccg.bat` failing to start the backend?\"",
+      "body": "你這次是用中文提問的，這裡提供自然的英文說法：\n\n> Why won't the backend start when I run `csccg.bat`?\n\n語感說明：\n- **`won't` 比 `can't` 更貼近你的語意**。`won't start` 是「（明明該啟動卻）就是不啟動」，指涉實際觀察到的行為；`can't start` 聽起來像在講「能力上不可能啟動」。工程師抱怨東西不動，慣用 `won't`。\n- 另一個更口語的說法：**\"Why is `csccg.bat` failing to start the backend?\"** 用進行式強調「現在正在發生的問題」。\n- 若要更正式地報 bug：**\"The backend fails to start via `csccg.bat` — any idea why?\"**\n\n小提醒：「啟動不起來」的「不起來」是中文的補語結構，英文沒有對應詞，千萬別直譯成 `start not up`；用 `won't start` / `fails to start` 就對了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "48a348df00fa",
+      "date": "20260831",
+      "front": "你這次是用中文下指令的（「前端UIUX的部分也先幫我優化」），提供自然的英文說法：",
+      "body": "你這次是用中文下指令的（「前端UIUX的部分也先幫我優化」），提供自然的英文說法：\n\n> Let's polish up the frontend UI/UX next.\n\n或更完整地把「也先」的兩層語意都表達出來：\n\n> Before we touch the backend, go ahead and clean up the frontend UI/UX too.\n\n語感說明：\n- **`polish` 是 UI/UX 場景的第一選擇**。`optimize` 在工程語境裡幾乎專指「效能最佳化」（速度、記憶體、bundle size）；你要的是可用性與外觀的改善，母語者會說 `polish`（打磨）、`clean up`（整理）、`improve`（中性）。說 `optimize the UI` 會讓對方以為你要處理渲染效能。\n- **「UIUX」在英文要寫成 `UI/UX`**，中間有斜線。這是兩個縮寫的併寫（User Interface / User Experience），不能連成一個字。\n- **「也先」的處理**：中文一個短語同時帶了「附加」（也）和「順序」（先）兩層意思，英文拆成兩個位置表達 —— 用句尾的 **`too`** 表達「也」，用句首的 **`next`** 或 **`Before we...`** 表達「先」。硬要塞在一起（`also first`）會很不自然。\n- **`polish up` vs `polish`**：加 `up` 讓動作聽起來更完整、更有「收尾」感，很適合你這種「主要功能已在、把細節做好」的情境。\n\n小提醒：`the frontend UI/UX part`（對應「前端UIUX的部分」）在英文中 `the part` 通常可以省略。中文愛用「…的部分」來界定範圍，英文直接說 `the frontend UI/UX` 就夠了 —— 多加 `part` 不算錯，但會顯得囉嗦。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "23e4576a9d63",
+      "date": "20260831",
+      "front": "你這次的訊息是中文的「幫推上測試機」，以下是自然的英文說法：",
+      "body": "你這次的訊息是中文的「幫推上測試機」，以下是自然的英文說法：\n\n**自然英文版本：**\n\n> Could you push this to the dev environment?\n\n或更簡潔的團隊內說法：\n\n> Let's ship this to dev.\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 測試機 | **the dev environment** / **dev** | 中文的「測試機」在英文裡幾乎不說 `test machine`（那聽起來像一台實體機器）。依用途分別是 `dev`（開發環境）、`staging`（預備環境，最接近正式）、`QA environment`（測試團隊用）。你們這個環境在 CI 裡叫 `dev`，所以講 `dev` 最精確。 |\n| 推上 | **push to** / **deploy to** / **ship to** | `push` 嚴格說是推 git 分支；真正要表達「讓它上線到某環境」用 `deploy to` 最準，`ship` 則是口語且帶點「交付出去」的味道，工程團隊很常用。 |\n| 幫我⋯⋯ | **Could you...** / **Let's...** | 中文的「幫」在英文請求裡通常不用直譯成 `help me`，直接用 `Could you...` 就是禮貌的請求。若說 `Help me push it` 反而像是「請協助我一起完成」。 |\n\n**小提醒：**這組詞在日常工作中出現頻率極高，建議整組記起來：`push to dev` → `verify on dev` → `promote to prod`（推上正式）。其中 `promote` 專指「把同一份東西從低環境升到高環境」，是部署流程的標準用字。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2026ff800a01",
+      "date": "20260831",
+      "front": "你這次全程用中文，這裡提供關鍵句的英文說法：",
+      "body": "你這次全程用中文，這裡提供關鍵句的英文說法：\n\n> The backend repo is at `D:\\ezoGit\\csc\\csccg\\dzp` — please add that to CLAUDE.md. That's the only backend location I develop and push from; anything else that shows up as modified is just my local environment, so it doesn't matter.\n\n語感說明：\n- **`the only ... I develop and push from`** —— 句尾這個 `from` 不能省。英文的 `develop from a location`、`push from a repo` 需要介系詞來連接「地點」與「動作」；漏掉 `from` 會變成 `the only location I push`（把地點誤當成推送的**對象**）。中文「我負責開發上傳的地方」沒有這個標記，所以是母語者中譯英時最常漏的一個字。\n- **`shows up as modified`** 精準對應「有改到」。`shows up` 帶有「（在 git status 裡）冒出來」的意味，比 `is changed` 更貼近你實際在講的現象 —— 你不是說你改了它，而是說它**顯示為**已修改。\n- **「所以不影響」的翻法**：`so it doesn't matter`（不重要）最口語；若要精確表達「不影響別人」則說 **`so it won't affect anyone else`**；技術文件裡常用 **`so it's safe to ignore`**（可以放心忽略）—— 三者語氣由輕到正式。\n- **`please add that to CLAUDE.md`**：中文說「更新到 CLAUDE.md」，英文若照翻成 `update to CLAUDE.md` 是錯的（`update` 後面不接 `to` 表示目的地）。正確有兩種：`add that to CLAUDE.md`（新增一段）或 `update CLAUDE.md with that`（用這個資訊去更新檔案）。\n\n小提醒：破折號 `—` 在英文技術溝通裡很好用，可以把「補充說明」自然接在主句後面，避免寫成一長串 `and ... and ...`。你原句用了句號分成三段，英文用一個破折號 + 一個分號會更緊湊。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "171c9a1b18e7",
+      "date": "20260831",
+      "front": "\"grouparound_trial_30d\"",
+      "body": "這次你同樣全程使用中文，以下提供這則需求的自然英文說法：\n\n> 建立優惠碼的「方案代碼」填寫，建議可調整成可搜尋的下拉選單，選項直接撈取已建立好的方案，且預設為空，不要預設為 \"grouparound_trial_30d\"\n\n**自然英文版本：**\n\n> For the coupon creation form, I'd suggest turning the \"plan code\" field into a searchable dropdown that pulls from the existing plans. It should default to empty rather than being pre-filled with `grouparound_trial_30d`.\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 可搜尋的下拉選單 | **a searchable dropdown** | UI 術語就是 `dropdown`；若要更精確地指「可搜尋 + 可選取」的元件，業界常稱 `combobox` 或 `typeahead`。 |\n| 直接撈取 | **pull from** / **populate from** | `populate the options from the existing plans` 是最道地的講法，`populate` 專指「把資料填進選單／表格」。 |\n| 預設為空 | **default to empty** | `default` 可當動詞用，後接 `to`。反面說法是 `be pre-filled with X`（被預先填入 X），正好用來描述你不想要的現況。 |\n| 已建立好的方案 | **the existing plans** / **plans that have already been created** | 前者精簡得多，中文的「已建立好」在英文裡通常一個 `existing` 就足夠。 |\n\n**小提醒：**提功能建議時，英文很常用 `I'd suggest + V-ing`（我建議做某事）或 `Could we make X ...?` 的句型，語氣比直述句 `Change X to Y` 柔和，適合團隊討論。而 `rather than` 用來對比「要什麼 vs. 不要什麼」，正好對應你這句的後半段。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "10c01748ae67",
+      "date": "20260831",
+      "front": "\"✏️ 我更新了《週二打球》的報名！一起來看名單 3QNG\"",
+      "body": "你這次的訊息很長且都是中文，以下是這段設計討論的自然英文說法：\n\n**自然英文版本：**\n\n> I've been wondering about this: a lot of our buttons fire off commands like `!open` or `!roster`, and those show up in the chat before the bot replies. Shouldn't we make them read more naturally — the way a sign-up posts \"✏️ 我更新了《週二打球》的報名！一起來看名單 3QNG\"?\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 我一直在想 | **I've been wondering** | 現在完成進行式正好表達「持續一段時間的思考」。若說 `I think` 就失去了「想很久」的意味；`I've been thinking about` 也可以，但 `wondering` 更適合帶著疑問的思考。 |\n| 觸發一串指令 | **fire off a command** / **trigger a command** | `fire off` 是很道地的口語，指「發送出去」，帶一點「咻一下就送出」的感覺。正式一點用 `trigger` 或 `dispatch`。 |\n| 比較好閱讀的內容 | **read more naturally** / **more human-readable** | `human-readable` 是工程界的標準用字，專門對比 machine-readable。動詞用法 `it reads naturally`（它讀起來自然）也很常見，主詞是被讀的東西而非讀者。 |\n| 是不是應該⋯⋯? | **Shouldn't we...?** | 這種否定疑問句在英文裡正是「提出建議並徵詢同意」的標準句型，語氣比 `Should we...?` 更帶一點「我覺得應該」的傾向，剛好對應你的「是不是應該」。 |\n\n**小提醒：**你這段話的結構其實非常好——先描述現象、再提出疑問、最後舉一個具體例子當對照。這在英文技術討論中叫 `observation → question → concrete example`，是提案最有說服力的順序。如果要用英文寫，直接照這個順序翻就行，不需要重組。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "073caa03e727",
+      "date": "20260831",
+      "front": "\"good /commit-push-merge\"",
+      "body": "你這次寫的是 **\"good /commit-push-merge\"** —— 一個英文單字加一個 slash command。\n\n先說結論：這個用法**完全自然，母語工程師天天這樣打字**。單獨的 `good` 在這裡是省略句（elliptical sentence），完整意思是 `That's good.` / `Looks good.`，用來確認前一步成果、同時放行下一步。\n\n三個更道地的變體，供你擴充語庫：\n\n| 說法 | 語感 |\n|---|---|\n| **`nice`** | 跟 `good`幾乎等價，但多一點「做得不錯」的讚許意味 |\n| **`lgtm`** | = Looks Good To Me，code review 的標準縮寫。這是**同意合併**的正式訊號，用在你這個 commit 情境特別貼切 |\n| **`ship it`** | 「就這樣出貨吧」，帶點俏皮的果斷感，常見於 approve 後直接部署 |\n\n若你想在確認之外再加一層「就照這樣做下去」的意思，可以說：\n\n> Looks good — go ahead and commit.\n\n小提醒：`good` 單獨使用時語氣偏平、偏簡短，對人的時候可能顯得有點冷淡（像在打考績）。對同事的成果，母語者更常說 `nice` 或 `looks good`，多一個字就親切很多。對 AI 或工具下指令則完全無妨 —— 你這次的用法很精準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "d7c88f2229b2",
       "date": "20260829",
       "front": "\"Let me walk through a scenario to make sure I understand this correctly.\"",
