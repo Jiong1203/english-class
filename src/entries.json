@@ -11,10 +11,48 @@
       ]
     },
     {
+      "id": "e492fea33473",
+      "date": "20260901",
+      "front": "\"scope\"",
+      "body": "你這句「ok驗證完了」很簡潔，英文對應：\n\n> \"OK, I've verified it.\" 或 \"Verified — it works now.\"\n\n補充幾個 code review / 交付情境很常用的說法：\n\n| 中文 | 英文 |\n|---|---|\n| 我驗證過了 | \"I've verified it\" / \"I've confirmed it works\" |\n| 幫我提交推送 | \"Commit and push it for me\" |\n| 合併回主幹 | \"Merge it back into master\" |\n| 這個要另外開一個 commit | \"That should go in a separate commit\" |\n| 超出這次的範圍 | \"That's out of scope for this change\" |\n\n想教你一個很實用的詞：**\"scope\"**（範圍）。工程師討論「這件事該不該一起做」時幾乎都用它：\n\n> \"Let's keep that out of scope for now.\"\n> （這個先不要納入範圍。）\n\n> \"That's scope creep.\"\n> （這是範圍蔓延／越做越多。）\n\n另外，「驗證完了」如果想強調「我實際跑過、確認沒問題」，英文最道地的是 **\"I tested it end to end and it works\"**（我從頭到尾測過，沒問題），比單純的 \"verified\" 更有說服力，跟同事回報時很好用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "d629fbc1f98b",
       "date": "20260901",
       "front": "\"set decimal places to 0\"",
       "body": "你這次的回報是中文，所以先給你這幾句的英文說法，工作上跟外籍同事講報表格式時很常用：\n\n| 中文 | 英文 |\n|---|---|\n| 把數值欄位設定為千分位格式 | format the numeric column with **thousands separators** |\n| 顯示格式（而非數值本身錯誤） | a **display format** issue, not a wrong value |\n| 保留小數位數 | **decimal places** (e.g. \"set decimal places to 0\") |\n| 這個設定屬於主題層級 | this setting applies at the **topic level** |\n| 重新查詢後就會生效 | it takes effect after you **re-run the query** |\n\n補充一個容易講錯的地方：中文說「千分位」，英文**不要**直譯成 \"thousandth\"（那是「千分之一」，數學上的分數），正確說法是 **thousands separator** 或 **comma separator**。順帶一提，程式裡那個 `thousandths` 欄位名其實也是同一個誤譯，命名上比較精確的會是 `useThousandsSeparator`——不過既有欄位就別改了，改了要動 DB。\n\n一句可以直接拿去用的完整句子：\n> \"Could you enable the thousands separator for this amount column and set the decimal places to 0?\"\n>（可以幫我把這個金額欄位開啟千分位、小數位數設成 0 嗎？）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "cd621a03ad96",
+      "date": "20260901",
+      "front": "\"pick up\"",
+      "body": "你這句問法很標準：「該如何讓 WSL 讀到 icscgit1.icsc.com.tw 的認證?」\n\n> \"How do I get WSL to pick up the credentials for icscgit1.icsc.com.tw?\"\n\n或更技術性的：\n\n> \"How can I make WSL's git use the Windows credential store?\"\n\n這次的關鍵詞彙：\n\n| 中文 | 英文 |\n|---|---|\n| 認證 / 憑證 | \"credentials\"（永遠複數） |\n| 憑證管理員 | \"credential manager\" / \"credential store\" |\n| 讀到 / 抓到 | \"pick up\" / \"pull from\" |\n| 跳脫字元 | \"escape\" (動詞) / \"escaping\" |\n| 條件式載入 | \"conditional include\" |\n| 還原設定 | \"revert the config\" / \"roll it back\" |\n\n想特別教你 **\"pick up\"** 這個片語動詞。它在技術情境裡非常常用，意思是「自動偵測到並採用」：\n\n> \"WSL doesn't pick up the Windows system gitconfig.\"\n> （WSL 讀不到 Windows 的 system gitconfig。）\n\n> \"Restart the server so it picks up the new env vars.\"\n> （重啟 server 讓它讀到新的環境變數。）\n\n比 \"read\" 更道地，因為它隱含「自己主動去拿」的意思。\n\n另外補一個小陷阱：中文說「認證」時，英文要分清楚兩個詞 —— **authentication**（驗證身分這個「過程」）和 **credentials**（帳密、token 這些「東西」）。你這句問的是後者，用 credentials 完全正確。如果要問流程，才會說 \"How does authentication work here?\"",
+      "tags": [
+        "praise",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "a8aa05a8aeab",
+      "date": "20260901",
+      "front": "你這次的指令是中文的，對應的英文說法：",
+      "body": "你這次的指令是中文的，對應的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n| --- | --- |\n| 幫我推上正式機 | *Please push this to production.* |\n| （更完整） | *Cut a prod release and push it for me.* |\n\n用字說明：\n\n- **「正式機」** 英文幾乎都說 **production**，口語常縮寫成 **prod**（例如 *ship it to prod*、*it's already live on prod*）。「production machine」這種直譯很少見；如果要強調環境會說 *the production environment*。\n- **「推上」** 用 **push** 就對了（你們正好也是 `git push`）。若想強調「發佈給使用者用」可以說 **ship** 或 **release**：*Let's ship 0.3.26.*\n- 這次的情境有一組很實用的搭配詞：**cut a release / cut a branch**（切一個版本／分支）。例如 *I cut prod-v0.3.26 from dev.* 這是業界標準說法，比 *create a branch* 更道地。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a1af0fe95bac",
+      "date": "20260901",
+      "front": "\"jq is installed now.\"",
+      "body": "> **中文原句：** 「jq 我裝好了」\n\n> **自然英文：** \"jq is installed now.\" / \"I've got jq installed.\"\n> 最口語的版本：\"jq's done.\" 或單純 \"**Done — jq's installed.**\"\n\n這句短，但「裝好了」的「好」很值得拆解，因為中文用一個「好」字表達的完成感，英文有好幾種對應：\n\n| 中文 | 英文 | 語感差異 |\n|---|---|---|\n| 我裝好了 | \"I've installed it.\" | 中性陳述，強調「我做了這個動作」 |\n| 裝好了（東西現在是裝好的狀態） | \"It's installed.\" | 強調**結果狀態**，比上一句更自然 |\n| 我把它裝好了（帶點「搞定」的成就感） | \"**I've got it installed.**\" | `have got sth done` 語氣輕鬆，很口語 |\n| 搞定了 | \"Done.\" / \"All set.\" | 最簡潔，回報任務完成時超好用 |\n\n**重點：`It's installed` 通常比 `I installed it` 更自然**\n\n因為在回報進度時，對方關心的是「現在能不能用」（狀態），而不是「誰做了什麼」（動作）。這是英文很重要的一個思維習慣 —— **狀態導向 > 動作導向**。同樣的邏輯：\n\n> ✅ \"The server**'s** running.\" （比 \"I started the server.\" 更常見）\n> ✅ \"It**'s** fixed.\" （比 \"I fixed it.\" 更輕、更像同事間的回報）\n\n**另外教你一個工程師超常用的字：`All set`**\n\n意思是「都準備好了 / 都搞定了」，比 `Done` 更有「萬事俱備」的感覺：\n\n> \"jq and uv are both installed — **all set**.\"\n> （jq 和 uv 都裝好了，都搞定了。）\n\n> A: \"Anything else you need from me?\"（還需要我做什麼嗎？）\n> B: \"Nope, **we're all set**.\"（不用了，都齊了。）\n\n這個片語在收尾對話時特別好用，記起來會讓你的英文聽起來很自然。",
       "tags": [
         "comparison"
       ]
@@ -42,6 +80,24 @@
       "date": "20260901",
       "front": "\"the moment I …\"",
       "body": "你這句「對，你看當我使用vxe-grid的排序功能後，排序就變不正常了」，英文可以這樣說：\n\n> \"Right — look, once I use vxe-grid's built-in sorting, the order goes wrong.\"\n\n或更技術性的講法：\n\n> \"Exactly. The moment I click the column header to sort, the ordering breaks.\"\n\n幾個這次用得到的說法：\n\n| 中文 | 英文 |\n|---|---|\n| 排序變不正常 / 排序壞掉 | \"the sorting breaks\" / \"the order goes wrong\" |\n| 字典序（字串排序） | \"lexicographic order\" / \"string comparison\" |\n| 千分位逗號 | \"thousands separator\" |\n| 根本原因 | \"root cause\" |\n| 這是預期行為，不是 bug | \"that's expected behavior, not a bug\" |\n\n想特別教你一個很道地的句型：**\"the moment I …\"**，意思是「我一…就…」，比 \"when I…\" 更強調「立刻發生」，回報 bug 時非常好用：\n\n> \"The moment I click the header, the rows jump around.\"\n> （我一點標題，列就亂跳。）\n\n另外，「就變不正常了」如果要更精確地描述「本來好好的，做了某動作之後壞掉」，英文常說 **\"it worked fine until I clicked the header\"**（在我點標題之前都好好的）。這種 \"worked fine until…\" 的講法在跟同事描述問題時很有效，因為它同時交代了「正常狀態」和「觸發點」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "65fb4a4ed0a1",
+      "date": "20260901",
+      "front": "你這次是用中文下指令的，這裡提供對應的英文說法：",
+      "body": "你這次是用中文下指令的，這裡提供對應的英文說法：\n\n| 你的中文 | 自然的英文說法 |\n| --- | --- |\n| 名單功能請不要添加顯示「✅」 | *Please don't show the ✅ mark in the roster feature.* |\n| （更口語一點） | *Drop the ✅ from the roster.* |\n\n用字說明：\n\n- **roster** 就是「名單」最貼切的詞（尤其是報名／出席名單），你們專案的程式碼裡也正是用這個字（`build_member_roster_flex`）。若指「參加者清單」也可以說 *attendee list*。\n- **「不要添加顯示」** 直譯成 *don't add and display* 會很冗贅。英文習慣用單一動詞：*don't show* / *hide* / *drop*（drop 帶有「拿掉既有的東西」的語感，最符合你這次的情境）。\n- 補充一個工程情境常用句型：*It's already fixed on `dev`, it just hasn't been deployed yet.*（已經在 dev 修好了，只是還沒部署）— 這句在跟同事對焦「為什麼我測還是舊的」時非常好用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2db0446f6244",
+      "date": "20260901",
+      "front": "\"while you're at it\"",
+      "body": "> **中文原句：** 「順便幫忙檢查 WSL 是否有裝 uv 相關?」\n\n> **自然英文：** \"While you're at it, could you check whether uv is installed in WSL?\"\n> 更簡短的口語版：\"Also, can you check if WSL has uv installed?\"\n\n這句有兩個很值得學的點：\n\n**1.「順便」怎麼說**\n\n中文的「順便」很常用，但英文沒有單一對應詞，要看情境選：\n\n| 情境 | 英文 | 例句 |\n|---|---|---|\n| 拜託對方「既然在做這件事，順手也做一下」 | **\"while you're at it\"** | \"While you're at it, could you check the logs too?\" |\n| 話題轉換的「順帶一提」 | **\"by the way\"** / \"BTW\" | \"By the way, what version are you on?\" |\n| 「順道、附帶地」（較正式書面） | \"incidentally\" | \"Incidentally, this also fixes the caching issue.\" |\n\n你這句是第一種 —— 因為我正在處理 WSL 的事，所以請我「順手」多查一個。**`while you're at it`** 是最貼切的，字面意思是「趁你還在忙這件事的時候」。這個片語非常道地，但華語使用者很少用，學起來很加分。\n\n⚠️ 常見錯誤：不要用 `by the way` 來表達「順手幫我做」。`by the way` 是**轉換話題**用的，不含「趁機一起做」的意思。\n\n**2.「是否有裝 X 相關」的處理**\n\n中文的「X 相關」很模糊好用，英文如果直譯成 \"uv-related things\" 會有點怪。母語者會這樣處理：\n\n- 明確一點：**\"whether uv is installed\"**（直接問 uv 本身）\n- 想涵蓋周邊生態：**\"uv and related tooling\"** / **\"the uv toolchain\"**\n- 最口語：**\"anything uv-related\"**（這個其實可以用，但通常搭配動詞 like \"is there anything uv-related installed?\"）\n\n你這次的意圖其實涵蓋了 uv、uvx、pip 等一整組，所以最精準的說法是：\n\n> \"Could you check if the **uv toolchain** is set up in WSL?\"\n\n`toolchain` 這個字在開發情境下很好用，指「一整套互相配合的工具」，比 \"related tools\" 專業得多。\n\n**額外句型：`while you're at it` 的實戰變化**\n\n> \"While you're at it, could you also bump the version?\"\n> （既然你在改了，順便把版號也升一下好嗎？）\n\n> \"Since you're in there, mind adding a comment?\"\n> （既然你已經在改那個檔案了，順手加個註解如何？）—— `since you're in there` 是同義的變體，特別用在「已經打開某個檔案/系統」的情境，工程師之間很常講。",
       "tags": [
         "comparison"
       ]
