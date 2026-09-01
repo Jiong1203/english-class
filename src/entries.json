@@ -1,6 +1,25 @@
 {
   "entries": [
     {
+      "id": "eac6018ed529",
+      "date": "20260901",
+      "front": "\"it still X, but it isn't Y\"",
+      "body": "你這次全程用中文提問，我來給你這段話的自然英文說法：\n\n> **中文原句：** 「因為我現在剛開始使用 XXX，但因為現在環境是 Windows，所以有切換到 WSL 內去使用 Claude，導致現在使用 Claude 的時候雖然一樣會回覆 English Corner，但是並沒有順利保存，請問該怎麼辦呢？」\n\n> **自然英文：** \"I've just started using XXX, but since I'm on Windows, I've been running Claude inside WSL instead. Now Claude still gives me the English Corner section, but it isn't getting saved. Any idea how to fix this?\"\n\n幾個值得注意的語感細節：\n\n| 中文思維直譯（不太自然） | 道地說法 | 為什麼 |\n|---|---|---|\n| \"Because I just started using...\" | \"**Since** I've just started using...\" | 英文口語中，句首的「因為」用 `since` 比 `because` 更順；`because` 開頭偏正式、也偏「強調因果」，日常敘述背景用 `since` 更輕 |\n| \"my environment is Windows\" | \"I'm **on** Windows\" | 講作業系統/平台，母語者習慣用介系詞 `on`，不會說 \"my environment is...\" |\n| \"switch to WSL to use Claude\" | \"**run** Claude **inside** WSL\" | `run X inside Y` 是講「在某個環境裡執行程式」的固定搭配 |\n| \"it did not save successfully\" | \"it **isn't getting saved**\" | 中文的「並沒有順利保存」帶有「本來應該要成功卻沒有」的意味，英文用被動進行式 `isn't getting saved` 最能傳達這種「持續處於未被處理的狀態」 |\n\n想特別教你一個回報問題時超級好用的句型：**\"it still X, but it isn't Y\"** —\n\n> \"It still **shows** the section, but it isn't **being saved**.\"\n> （它還是會顯示那個段落，但沒有被存下來。）\n\n這個句型的價值在於它一口氣交代了「哪部分是正常的」和「哪部分壞掉」，工程師之間 debug 時最需要這種對比。中文的「雖然…但是…」正好對應這個 `still…, but…` 結構。\n\n另外「請問該怎麼辦呢？」在技術情境下，比起字面的 \"What should I do?\"，母語者更常說：\n\n- **\"Any idea how to fix this?\"**（最自然、最口語）\n- **\"How should I go about fixing this?\"**（稍微正式一點，`go about doing sth` = 著手處理某事）\n- **\"What's the best way to handle this?\"**（想聽對方推薦做法時）\n\n`Any idea...?` 這個開頭很好用，它把問題包裝成「順口問一下」，語氣輕鬆但不失禮貌。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "d629fbc1f98b",
+      "date": "20260901",
+      "front": "\"set decimal places to 0\"",
+      "body": "你這次的回報是中文，所以先給你這幾句的英文說法，工作上跟外籍同事講報表格式時很常用：\n\n| 中文 | 英文 |\n|---|---|\n| 把數值欄位設定為千分位格式 | format the numeric column with **thousands separators** |\n| 顯示格式（而非數值本身錯誤） | a **display format** issue, not a wrong value |\n| 保留小數位數 | **decimal places** (e.g. \"set decimal places to 0\") |\n| 這個設定屬於主題層級 | this setting applies at the **topic level** |\n| 重新查詢後就會生效 | it takes effect after you **re-run the query** |\n\n補充一個容易講錯的地方：中文說「千分位」，英文**不要**直譯成 \"thousandth\"（那是「千分之一」，數學上的分數），正確說法是 **thousands separator** 或 **comma separator**。順帶一提，程式裡那個 `thousandths` 欄位名其實也是同一個誤譯，命名上比較精確的會是 `useThousandsSeparator`——不過既有欄位就別改了，改了要動 DB。\n\n一句可以直接拿去用的完整句子：\n> \"Could you enable the thousands separator for this amount column and set the decimal places to 0?\"\n>（可以幫我把這個金額欄位開啟千分位、小數位數設成 0 嗎？）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "8d6adc10aea7",
       "date": "20260901",
       "front": "\"Jenkins is missing some jars\"",
@@ -16,6 +35,15 @@
       "body": "你這次寫的是「gitlab上面也看不到jenkins」，這裡提供英文說法：\n\n> I can't find any Jenkins config on the GitLab side either.\n\n語感說明：\n- **`on the GitLab side` 是關鍵片語**。中文說「gitlab 上面」，直譯成 `on GitLab` 文法沒錯，但當你在對比「兩個系統之間」時，母語者慣用 `on the X side`（在 X 那一端）。你的情境正是 GitLab 與 Jenkins 兩端互找，用 `side` 語意更清楚。\n- **`either` 的位置**：中文的「也」放句中（「也看不到」），英文的 `either` 一律放**句尾**。而且否定句用 `either`、肯定句才用 `too` —— 這是華語母語者最常搞混的一組。你這句是否定（找不到），所以 `either` 正確，寫成 `too` 就錯了。\n- **`config` vs `settings`**：`config` 在工程口語中泛指「設定內容」，`settings` 偏指「設定頁面／介面」。你截圖的是設定頁，所以也可以說 `I don't see Jenkins in the GitLab settings either.`\n\n小提醒：回報「找不到」時，英文習慣補一句你**找過哪裡**，避免對方重複建議。例如：\n\n> I checked Webhooks — it's empty. Where else should I look?\n\n這種「先講已排除的範圍，再問下一步」的結構，在技術求助中非常吃香，能大幅減少來回次數。",
       "tags": [
         "grammar"
+      ]
+    },
+    {
+      "id": "6e4bb517ccf6",
+      "date": "20260901",
+      "front": "\"the moment I …\"",
+      "body": "你這句「對，你看當我使用vxe-grid的排序功能後，排序就變不正常了」，英文可以這樣說：\n\n> \"Right — look, once I use vxe-grid's built-in sorting, the order goes wrong.\"\n\n或更技術性的講法：\n\n> \"Exactly. The moment I click the column header to sort, the ordering breaks.\"\n\n幾個這次用得到的說法：\n\n| 中文 | 英文 |\n|---|---|\n| 排序變不正常 / 排序壞掉 | \"the sorting breaks\" / \"the order goes wrong\" |\n| 字典序（字串排序） | \"lexicographic order\" / \"string comparison\" |\n| 千分位逗號 | \"thousands separator\" |\n| 根本原因 | \"root cause\" |\n| 這是預期行為，不是 bug | \"that's expected behavior, not a bug\" |\n\n想特別教你一個很道地的句型：**\"the moment I …\"**，意思是「我一…就…」，比 \"when I…\" 更強調「立刻發生」，回報 bug 時非常好用：\n\n> \"The moment I click the header, the rows jump around.\"\n> （我一點標題，列就亂跳。）\n\n另外，「就變不正常了」如果要更精確地描述「本來好好的，做了某動作之後壞掉」，英文常說 **\"it worked fine until I clicked the header\"**（在我點標題之前都好好的）。這種 \"worked fine until…\" 的講法在跟同事描述問題時很有效，因為它同時交代了「正常狀態」和「觸發點」。",
+      "tags": [
+        "comparison"
       ]
     },
     {
