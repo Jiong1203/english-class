@@ -1,6 +1,42 @@
 {
   "entries": [
     {
+      "id": "8d6adc10aea7",
+      "date": "20260901",
+      "front": "\"Jenkins is missing some jars\"",
+      "body": "你這次的問題「找人問的話我應該如何發問?」很值得練，因為**求助訊息的英文結構**是職場最實用的技能之一。\n\n英文版的開場：\n\n> Hey — the `e1-dzp-iseas2` build is failing, but it's not a code issue. The jar source directories that `build.gradle` points to no longer exist on aplink. Two questions before I touch anything.\n\n三個語感重點：\n\n- **`it's not a code issue` 要放最前面**。英文的求助訊息習慣「先給結論、再給細節」（top-down），跟中文常見的「先鋪陳、後結論」相反。這句話能立刻讓對方放下「是不是你寫壞了」的預設，把注意力導到正確方向。\n- **`points to` 是這裡的正確動詞**。設定檔指向某個路徑用 `point to`，不用 `refer to`（那偏向「引述、提及」）。完整句型：`the path that X points to` / `X points to a directory that no longer exists`。\n- **`no longer exists` 比 `doesn't exist` 精準**。`no longer` 帶有「以前有、現在沒了」的時間變化，正好對應你的發現（2024 年還好好的，後來被搬走）。這個字選對了，對方立刻知道是「環境變動」而不是「一開始就設錯」。\n\n你原本問的那句「是說Jenkins上的jar檔有缺漏嗎?」如果要用英文表達，正確的說法是：\n\n> Should I frame it as \"Jenkins is missing some jars\"?\n\n注意 **`frame it as`**（把它定調為／表述成）—— 這是討論「該怎麼講一件事」時的專業用語，比 `should I say` 更精確，因為你問的不只是措辭，而是**問題的定性**。而我的回答會是：`No — frame it as a broken path in build.gradle, not missing jars on Jenkins.`（不要定調成 Jenkins 缺 jar，要定調成 build.gradle 路徑失效。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7fdb3c629057",
+      "date": "20260901",
+      "front": "你這次寫的是「gitlab上面也看不到jenkins」，這裡提供英文說法：",
+      "body": "你這次寫的是「gitlab上面也看不到jenkins」，這裡提供英文說法：\n\n> I can't find any Jenkins config on the GitLab side either.\n\n語感說明：\n- **`on the GitLab side` 是關鍵片語**。中文說「gitlab 上面」，直譯成 `on GitLab` 文法沒錯，但當你在對比「兩個系統之間」時，母語者慣用 `on the X side`（在 X 那一端）。你的情境正是 GitLab 與 Jenkins 兩端互找，用 `side` 語意更清楚。\n- **`either` 的位置**：中文的「也」放句中（「也看不到」），英文的 `either` 一律放**句尾**。而且否定句用 `either`、肯定句才用 `too` —— 這是華語母語者最常搞混的一組。你這句是否定（找不到），所以 `either` 正確，寫成 `too` 就錯了。\n- **`config` vs `settings`**：`config` 在工程口語中泛指「設定內容」，`settings` 偏指「設定頁面／介面」。你截圖的是設定頁，所以也可以說 `I don't see Jenkins in the GitLab settings either.`\n\n小提醒：回報「找不到」時，英文習慣補一句你**找過哪裡**，避免對方重複建議。例如：\n\n> I checked Webhooks — it's empty. Where else should I look?\n\n這種「先講已排除的範圍，再問下一步」的結構，在技術求助中非常吃香，能大幅減少來回次數。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "2bac808665f0",
+      "date": "20260901",
+      "front": "你這次的中文有個地方值得說明：**「訪問」在台灣的技術語境是陸式用語**。",
+      "body": "你這次的中文有個地方值得說明：**「訪問」在台灣的技術語境是陸式用語**。\n\n| 你的用字 | 台灣慣用 | 說明 |\n|---|---|---|\n| 訪問這一包的 Jenkins | **存取**／**連到**／**開** Jenkins | 「訪問」在台灣華語主要指「拜訪、採訪」（訪問某人），電腦領域的 access 台灣說「存取」 |\n| 這一包 | 這個專案／這個 repo／這包 | 「這一包」口語沒問題，正式文件建議用「這個專案」 |\n\n英文的說法：\n\n> I don't know where to access this project's Jenkins, but my local machine does have the aplink share mounted. Any suggestions?\n\n語感說明：\n- **`does have`（強調式）** —— 這裡的 `does` 不是贅字，而是用來反駁前半句造成的預期。你的中文用「不過」來轉折，英文除了 `but` 之外再加一個 `does`，語氣才對得上「Jenkins 我碰不到，**但是** aplink 我是通的」那種對比感。\n- **`have ... mounted` 比 `be connected to` 精準**。網路磁碟在英文裡的動詞是 `mount`（掛載）；`I'm connected to aplink` 聽起來像在講 VPN 或網路連線，`I have the aplink share mounted` 才是「磁碟機掛上去了、路徑讀得到」。\n- **`Any suggestions?`** 是「有甚麼解?」最自然的對應。其他選項：`What are my options?`（想聽到幾個方案並比較）、`How should I work around this?`（明確表達「先繞過去」的意圖）—— 你這次的情境其實最貼近第二個。\n\n小提醒：`solution` 這個字在英文技術對話裡偏正式、偏「最終解答」。日常求助更常說 `workaround`（繞過去的暫時辦法）或 `options`。你這次要的其實是 workaround（本機先驗證）+ 真正的 fix（修 build.gradle），英文會把這兩者分開講 —— 這個區分很值得記起來。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "1ea5e9c90e19",
+      "date": "20260901",
+      "front": "你這句「我請負責人幫忙把 ezodemotest 跟 icastest 補回 aplink 中就即可順利通過囉」有個小語病值得指出：",
+      "body": "你這句「我請負責人幫忙把 ezodemotest 跟 icastest 補回 aplink 中就即可順利通過囉」有個小語病值得指出：\n\n> ❌ 「…**就即可**順利通過囉」\n\n「就」和「即可」語意重複了（兩個都表示「便能夠」）。正確寫法擇一：\n\n- 「…補回 aplink 中**就能**順利通過囉」（口語）\n- 「…補回 aplink 中**即可**順利通過」（書面）\n\n英文的說法：\n\n> I'll ask the owner to restore `ezodemotest` and `icastest` on aplink — that should get the build passing.\n\n三個語感重點：\n\n- **`the owner` 是這裡的專業用字**。中文的「負責人」直譯成 `the person in charge` 文法沒錯，但技術圈更常說 `the owner`（負責維護某個系統／服務的人），例如 `the pipeline owner`、`the repo owner`、`the infra owner`。更口語的還有 `whoever owns aplink`。\n- **`should` 而不是 `will`**。你原句用「即可順利通過」是肯定語氣，但這裡還有一個未確認的前提（Linux 掛載）。英文用 `should` 表達「照理說會，但我不打包票」，是工程溝通裡非常重要的 hedge（保留語氣）。說 `that will fix it` 之後如果沒修好，會顯得判斷草率；`that should fix it` 就留了餘地。\n- **`get the build passing`**：CI 綠燈的慣用說法。相關表達：`get the build green`（更口語）、`make the build pass`、`unblock the build`（強調解除阻塞）。反過來說壞掉是 `the build is red` / `the build is broken`。\n\n小提醒：`restore A and B **on** aplink` 用 `on`（在某個磁碟／伺服器上），不用 `in`。網路磁碟、伺服器、平台都用 `on`（on the share, on the server, on GitLab）；只有明確的資料夾階層才用 `in`（in the lib folder）。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
       "id": "d7fc2a0fd468",
       "date": "20260831",
       "front": "這次你全程使用中文提問，沒有英文句子可以檢視，所以這裡提供你這句話的自然英文說法：",
