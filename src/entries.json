@@ -55,6 +55,15 @@
       ]
     },
     {
+      "id": "d4f39a0c609b",
+      "date": "20260903",
+      "front": "\"push\"",
+      "body": "你這句「好推上測試機」是很自然的中文口語指令,直接翻譯的話:\n\n> \"Okay, push it to the test machine.\"\n\n用字細節:\n\n| 中文 | 英文說法 |\n| --- | --- |\n| 好 | **Okay** / **Alright** |\n| 推上 | **push it to** / **deploy it to** |\n| 測試機 | **the test environment** / **the staging server** |\n\n補充說明:\n\n- 英文口語裡 **\"push\"** 這個字剛好也是 git 的動詞,跟中文的「推」概念完全對應,所以這句話直譯成英文完全自然,不會顯得生硬:*\"Okay, push it to the test environment.\"*\n- 「測試機」在英文工程語境裡更常說 **staging** 或 **dev environment**,而不是逐字翻的 \"test machine\"(那個說法比較像是指實體機器本身,而不是部署環境)。你們專案裡實際用的字是 **dev**(對應 `dev.grouparound.app`),所以更精確的講法會是 *\"push it to dev\"*。\n- 這種極短的指令句在英文工作場合很常見,不需要加更多修飾詞,直接說 *\"Ship it to dev\"* 或 *\"Deploy to staging\"* 都是同事間常聽到的說法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "c16134ddec7e",
       "date": "20260903",
       "front": "\"Create sqlCte.js first, then add unit tests.\"",
@@ -79,6 +88,15 @@
       "body": "你這次的提問：「紅框處要怎麼填?」\n\n**自然英文說法：**\n\n> **What should I put in the highlighted fields?**\n> 或指明紅框：**What goes in the red box?**\n\n**用字說明：**\n\n- **「紅框」** 英文常說 **the red box** 或 **the highlighted area**（標示出來的區域）。若是自己畫的框：*the part I circled in red*（我用紅色圈起來的部分）。技術截圖溝通中 `highlighted` 最通用，因為不限顏色或形狀。\n- **「要怎麼填」** 用 **What should I put in...?** 最自然。也有一個很簡潔的說法：**What goes here?**（這裡該放什麼？）——字面是「什麼東西放這裡」，母語者填表單時很常這樣問。\n- 注意別說 `How to fill the red box?`——`how`（如何）問的是方法，但你其實是問「填什麼內容」，該用 `what`。這是中文「怎麼填」直譯造成的常見偏差。\n\n**加分表達**——填表單／設定欄位的相關說法：\n\n> **Leave it blank.**（留空。）\n> **Leave the default as is.**（保持預設值不變。）\n> **That field is optional.**（那個欄位可以不填。）\n\n`leave it blank` 和 `leave it as is` 都是高頻表達。前面我們學過 `as is`（照原樣），這裡又出現一次，可見它的實用性。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "bb6f5ef11212",
+      "date": "20260903",
+      "front": "\"I need to debounce the postback handler\"",
+      "body": "你這次是用中文提問的，先給你一個自然的英文說法：\n\n> \"Users can trigger the same action multiple times by tapping the menu button repeatedly. Is there a way to prevent this?\"\n\n幾個用字上的細節值得記一下：\n\n| 中文 | 較生硬的直譯 | 更自然的說法 |\n| --- | --- | --- |\n| 連續按按鈕 | press the button continuously | **tap the button repeatedly** / **double-tap** |\n| 短時間內重複觸發 | trigger repeatedly in a short time | **fire multiple times in quick succession** |\n| 防止 | prevent it | **prevent this** / **guard against this** |\n\n補充說明：\n\n- `tap` 在手機情境比 `press` 或 `click` 自然，`click` 通常留給滑鼠。\n- **`in quick succession`** 是很道地的片語，意思是「接連地、一個緊接一個」，比 `in a short time` 精準得多。例：*The webhook received three identical events in quick succession.*\n- 這個問題在工程上有個專有名詞叫 **debounce**（去彈跳）或 **idempotency**（冪等性）。你之後跟人討論時可以直接說：*\"I need to debounce the postback handler\"*，對方馬上就懂。而伺服器端這種「重複請求只生效一次」的設計，正式說法是 **idempotent handling**。",
+      "tags": [
+        "comparison"
       ]
     },
     {
@@ -145,6 +163,16 @@
       ]
     },
     {
+      "id": "7cad2933c771",
+      "date": "20260903",
+      "front": "\"Just do it. Do it now.\"",
+      "body": "你這輪是指令句 \"Do it!\",語法完全正確、自然。這種祈使句(imperative)在英文裡就是這樣簡潔有力,不需要加主詞,是道地的口語用法。\n\n補充一個常見的用法對照:\n\n| 情境 | 說法 |\n| --- | --- |\n| 單純催促動作 | **Do it!** |\n| 強調「就照這個方案做」 | **Go ahead and do it.** / **Let's do it.** |\n| 更正式一點(工作場合) | **Go ahead.** / **Please proceed.** |\n\n`Do it!` 語氣比較強烈、帶點急切感,朋友間或指令明確時很自然;如果是對同事下指示,`Let's go with that` 或 `Go ahead` 會顯得更客氣一些。你這裡連續打三次,語境上很清楚是在強調「不要再問了,直接做」——這點英文母語者也會用重複來表達同樣的急迫感,例如 *\"Just do it. Do it now.\"*,用法上完全合理。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
       "id": "715daa38091d",
       "date": "20260903",
       "front": "你這次用中文提問：「現在想調整一下LINE端的歡迎訊息，你先說說現在歡迎訊息的機制為何」",
@@ -158,6 +186,15 @@
       "date": "20260903",
       "front": "這次幫你拆兩句你可能會想用的英文：",
       "body": "這次幫你拆兩句你可能會想用的英文：\n\n> **這次這個系統與 bento-order 無關**\n> → *This one has nothing to do with bento-order.*\n\n> **就是以一個超輕量、可以快速部署上線的 MVP 來走**\n> → *Let's just go with a super lightweight MVP that we can ship quickly.*\n\n**三個高頻表達：**\n\n| 中文 | 英文 | 說明 |\n|------|------|------|\n| 跟 A 無關 | `has nothing to do with A` | 比 `is not related to A` 口語自然得多，語氣也更乾脆 |\n| 就以…來走／方向就抓… | `go with...` | `go with` = 選定某個方案。`Let's go with option B.` 開會超常用 |\n| 上線 | `ship` | 工程圈最道地的講法 |\n\n**重點講一下 `ship`：**\n\n這是軟體業的行話，字面是「出貨」，實際意思是「把東西做完推上線給人用」。它跟 `deploy` 有微妙差別：\n\n- `deploy` = 純技術動作，把程式推到伺服器上\n- `ship` = 帶有「交付給使用者、這件事完成了」的成就感\n\n所以工程師會說 *We shipped it!*（我們上線了！）而不會說 ~~We deployed it!~~ 來慶祝。另外 `ship fast` 和 `ship it` 都是固定說法，後者常用在「別再改了，就這樣發吧」的情境。\n\n你這次的「快速部署上線」抓得很準，中文其實同時包含了 deploy 和 ship 兩層意思，英文用一個 `ship quickly` 就完整表達了。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6bb9007105d6",
+      "date": "20260903",
+      "front": "你這次全中文，先給自然的英文說法：",
+      "body": "你這次全中文，先給自然的英文說法：\n\n> \"The main thing is to stop the bot from flooding the chat. In both screenshots, a few rapid triggers made the bot fire off a burst of duplicate replies all at once.\"\n\n用字重點：\n\n| 中文 | 較生硬的直譯 | 更自然的說法 |\n| --- | --- | --- |\n| 洗版 | wash the version / spam the screen | **flood the chat** / **spam the chat** |\n| 瞬間造成嚴重洗版 | cause serious washing instantly | **flood the chat all at once** / **blow up the chat** |\n| 重覆回了很多次 | reply repeatedly many times | **fire off a burst of duplicate replies** |\n\n補充說明：\n\n- **「洗版」沒有字面對應的英文，千萬別直譯。** 標準說法是 **`flood`**（動詞，淹沒），這正是工程上 flood control、flood guard 這些詞的來源 —— 所以我上面把那層防護命名為 `_flood_allow`，用的就是這個字。\n- **`a burst of`** 是「一連串、突然一波」的意思，很適合描述「瞬間」的感覺。例：*a burst of notifications*。比 `many times` 更能傳達你說的「瞬間」。\n- **`blow up`** 在這個語境是口語的「訊息炸開了」，帶點誇張但很生動。例：*My phone blew up with notifications.* 適合跟同事閒聊時用，寫 issue 時還是用 `flood`。\n- 順帶一提，「主要是要…」開頭在英文用 **`The main thing is to...`** 或 **`Mainly, I want to...`** 都很自然，不需要拐彎。",
       "tags": [
         "comparison"
       ]
@@ -205,6 +242,15 @@
       "body": "你這次回了 **\"Go ahead\"** —— 用得完全正確，這是英文工作場合最自然的「放手去做」。相關表達的語氣差異：\n\n| 英文 | 語氣 |\n|---|---|\n| Go ahead. | 中性授權，你這次的用法 |\n| Go for it. | 更有鼓勵意味 |\n| Please proceed. | 較正式，會議或郵件 |\n| Sounds good, go ahead. | 先認可再授權，最溫和 |\n\n三個延伸用法：\n\n1. **\"Go ahead\" 也可以表示「你先說」** —— 兩人同時開口時說 *\"Go ahead.\"* 就是「你先請」。同一個片語，情境決定意思。\n\n2. **加上範圍更精確**：*\"Go ahead with the first two.\"*（前兩項就做吧）。你這次是全部授權，但實務上常需要限縮範圍，用 **\"go ahead with X\"** 這個結構。\n\n3. **反過來要對方暫停**：**\"Hold off on that for now.\"**（那個先緩緩）—— 和 \"go ahead\" 正好一組，在專案討論裡很好用。\n\n延伸一個這次很貼切的說法：**\"Ship it.\"** 字面是「出貨」，工程團隊用來表示「這可以上了」。你如果驗證完覺得沒問題，回一句 *\"Ship it.\"* 就是最道地的結案語。",
       "tags": [
         "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "3cf76dee89c3",
+      "date": "20260903",
+      "front": "\"What about the text commands? For example, what if someone sends `!open` several times in a row?\"",
+      "body": "你這次一樣用中文提問，先給自然的英文說法：\n\n> \"What about the text commands? For example, what if someone sends `!open` several times in a row?\"\n\n用字細節：\n\n| 中文 | 較生硬的直譯 | 更自然的說法 |\n| --- | --- | --- |\n| 那…的部分呢？ | What about the part of...? | **What about...?**（直接接名詞就好） |\n| 短時間內連續傳 | send continuously in a short time | **send it several times in a row** / **spam the command** |\n\n補充說明：\n\n- **「那…的部分呢？」是中文很常見的接續句型，但英文不要直譯成 `the part of`。** 英文用 `What about X?` 就完整表達了轉換話題、追問另一個面向的意思。你原句若直譯成 \"What about the part of sending commands?\" 會顯得累贅。\n- **`in a row`** 是「連續地、接連地」最口語的講法。例：*He tapped it three times in a row.* 上一則我提到的 `in quick succession` 語氣較正式，兩個都好用 —— 口語選 `in a row`，寫文件選 `in quick succession`。\n- 動詞 **`spam`** 在工程語境很常用且不失禮，指「短時間內重複送出」。例：*If a user spams `!own`, we'd send the push notification twice.* 這在 bug report 裡是很自然的寫法。",
+      "tags": [
         "comparison"
       ]
     },
