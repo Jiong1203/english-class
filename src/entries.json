@@ -19,6 +19,15 @@
       ]
     },
     {
+      "id": "eb4935191d9c",
+      "date": "20260907",
+      "front": "你這次的訊息全部使用中文，我依規則提供自然的英文說法：",
+      "body": "你這次的訊息全部使用中文，我依規則提供自然的英文說法：\n\n> **原句：** 為什麼我開某幾個 repo 都會一直跳出 gitlab 認證?\n>\n> **英文：** Why do some of my repos keep prompting me for GitLab authentication?\n\n**用詞細節說明：**\n\n1. **「跳出」→ `prompt` / `pop up`**\n   這裡最道地的動詞是 **`prompt`**。`It keeps prompting me for credentials.`（它一直向我索取認證資訊）是工程師最常用的講法。若你想強調「視窗彈出來」這個畫面感，可以說 `A login window keeps popping up.`——但 `prompt` 更精準，因為它同時包含了「要求你輸入」的意思。\n\n2. **「一直」→ `keep + V-ing`**\n   `keep prompting`（一直跳）是表達「反覆發生、很煩」最自然的結構。注意 `keep` 後面必須接 **V-ing**，不能說 ~~keep to prompt~~。\n\n3. **「某幾個」→ `some of my repos` / `certain repos`**\n   兩者都對，但語感不同：`some of my repos` 較中性；**`certain repos`** 帶有「特定的、有規律可循的那幾個」的暗示，在描述 bug 時更好用，因為它暗示了「其他的沒事，只有這幾個有事」——正好是你這次的情況。\n\n**如果想更精確地描述問題，可以這樣說：**\n\n> `Certain repos keep re-prompting for GitLab credentials, while my GitHub ones never do.`\n> （某幾個 repo 一直重複要求 GitLab 認證，但我的 GitHub repo 從來不會。）\n\n這裡的 **`re-prompt`** 用了字首 `re-`（再一次），精準傳達「明明已經登入過了，卻又問一次」的挫折感。而後半句用 **`while`** 做對比，等於直接把「差異點」交給對方——這在向同事或技術支援求助時非常有效，因為你不只描述了症狀，還提供了對照組，能大幅加快對方判斷問題的速度。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e6ac708a47da",
       "date": "20260907",
       "front": "你的中文：**",
@@ -92,6 +101,15 @@
       ]
     },
     {
+      "id": "8ddccb27eb9e",
+      "date": "20260907",
+      "front": "\"Let's drop the first-person voice\"",
+      "body": "你這次用中文，自然的英文說法：\n\n> \"There's no need for so many first-person subjects — something like \"📣 我來開一團！\" feels a bit off.\"\n\n用詞說明：\n- **feels a bit off** 是「感覺有點怪」最道地的說法，指「說不上哪裡錯，但不對勁」，正好對應你的語氣。比 \"feels weird\" 更含蓄專業。\n- 「主詞」是 **subject**；要強調是「我／我們」這類人稱，可說 **first-person subjects** 或 **first-person phrasing**。\n- 若想更具體地表達訴求，可以說 **\"Let's drop the first-person voice\"**（把第一人稱語氣拿掉）——voice 在文案討論中專指「語氣、口吻」，是很實用的一個字。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "870c8422adfc",
       "date": "20260907",
       "front": "你的中文：**",
@@ -114,6 +132,24 @@
       "date": "20260907",
       "front": "\"Of course we're doing 2 as well — and let's go with the thorough option.\"",
       "body": "> 「當然是連 2 也一起處理囉! 而且是選擇徹底處理的方案」\n> **\"Of course we're doing 2 as well — and let's go with the thorough option.\"**\n\n**用字說明：**\n\n- **as well** —— 「也一起」。放句尾比 `also` 更口語自然。你的「連 2 也」帶有「這還用問嗎」的語氣，英文用 `Of course` 開頭加上 `as well` 就能傳達。更強調的說法是 **\"2 included, obviously.\"**\n- **thorough** —— 「徹底」。發音 /ˈθʌrə/，注意不是 through（/θruː/），這兩個字長得像但完全不同，是華語使用者最常搞混的一組。`a thorough fix`（徹底的修法）、`thorough testing`（徹底測試）。\n- **go with** —— 前面提過的決策用語，這裡再次派上用場：`go with the thorough option`（選徹底那個方案）。\n\n**實用句型：** 決定要做完整方案時的三種表達：\n\n> **\"Let's do it properly.\"**（我們就好好做。）\n> **\"Half-measures will just bite us later.\"**（做一半以後會反咬我們。）\n> **\"If we're touching it anyway, let's close all the holes.\"**（反正都要動了，就把洞全補起來。）\n\n第二句的 **bite us later** 很生動，指「現在偷懶，之後會付出代價」——正是技術債的核心概念。第三句的 `if we're touching it anyway` 是很實用的論證：既然已經要修改這塊程式碼、承擔了測試與部署的成本，順手把相關問題一次解決的邊際成本很低。這次從「只修 DB2 那一句」擴大到「四層檢查點全部補上」，用的就是這個邏輯。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "49c96ed45453",
+      "date": "20260907",
+      "front": "\"Okay, go ahead and check this one first: D:\\work\\group-around\\api.\"",
+      "body": "你這句「那你先檢查這個 D:\\work\\group-around\\api」很自然，翻成英文可以是：\n\n> \"Okay, go ahead and check this one first: D:\\work\\group-around\\api.\"\n\n小提醒：\n- \"go ahead and check\" 是很道地的口語說法，表示「你就先去查一下」，比直翻 \"please check first\" 更符合日常對話的語氣。\n- 路徑這種專有名詞直接保留原文即可，不需要翻譯。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "48f198508523",
+      "date": "20260907",
+      "front": "\"commit message in English, please.\"",
+      "body": "你這次用中文下指令，自然的英文說法：\n\n> \"Let's push this to the dev environment.\" 或更完整地說 \"Push it to the test environment, and use English for the commit message.\"\n\n用詞說明：\n- 「測試機」在部署語境裡通常說 **dev environment**、**staging**，或 **test environment**。你們專案的 `dev.grouparound.app` 屬於 dev environment；如果是上線前最後一關的環境，英文圈更常叫 **staging**。\n- 「推上去」用 **push to** 就對了，這是 git 的標準動詞，不需要加 up。\n- 括號裡的 \"(用 en)\" 這種簡寫在團隊內很好用；寫成完整英文可以說 **\"commit message in English, please.\"**",
       "tags": [
         "note"
       ]
@@ -179,6 +215,15 @@
       "body": "你這次是用中文提問，我先給你自然的英文說法：\n\n> Right now the **問題對話** feature in `IssueReport/index.vue` lets multiple people exchange messages in real time, but sometimes people hit Enter by accident and send a message they didn't mean to. Would it be possible to add a \"recall message\" or \"edit message\" feature?\n\n用詞說明（值得記下來的幾個）：\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| 收回訊息 | **unsend** / **recall a message** / **delete for everyone** | LINE 官方英文用 \"unsend\"，Slack 用 \"delete\"，企業系統文件常見 \"recall\"（Outlook 就是 *Recall This Message*）。三者都通，但 **unsend** 最口語 |\n| 不小心按到 Enter | **hit Enter by accident** / **accidentally hit Enter** | 「不小心」用 `by accident` 放句尾最自然，比 `carelessly` 好 —— `carelessly` 帶「粗心、該被責備」的語氣 |\n| 誤送出訊息 | **send a message by mistake** / **send the wrong message** | 注意不要說 `mis-send`，那不是常用字 |\n| 即時訊息交換 | **exchange messages in real time** | `real time` 當名詞分開寫，當形容詞才加連字號：`a real-time chat` |\n\n另外提醒一個常見的中式英文陷阱：「請問是否可以…」直譯成 `Please ask whether it is possible to...` 是錯的 —— 「請問」在中文是禮貌語氣詞，不是動詞 `ask`。英文只要用 **Would it be possible to...?** 或 **Could we add...?** 就已經包含那份客氣了。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "066a24a754d3",
+      "date": "20260907",
+      "front": "\"\n\n用詞說明：\n- **readable wording**（好閱讀的字眼）比直譯的 \"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Let's do that adjustment first. When users tap a button I want the chat to show readable wording, while developers and anyone familiar with the system keep the option of triggering the same features by typing the raw commands.\"\n\n用詞說明：\n- **readable wording**（好閱讀的字眼）比直譯的 \"good-reading words\" 自然得多。也可以說 **human-readable text** 或 **plain-language wording**。\n- 「保留原始輸入指令觸發功能的路」用 **keep the option of triggering ... by typing** 最貼近；更口語一點可說 **still be able to trigger it by typing the command**。技術文件裡也常用 **keep the raw commands as an escape hatch**（escape hatch = 給進階使用者的備用途徑），這個說法在 UX 討論中很地道。\n- 「熟悉系統的人」用 **anyone familiar with the system** 就很到位，不用寫成 people who are familiar，形容詞片語直接接在名詞後面更簡潔。",
+      "tags": [
+        "note"
       ]
     },
     {
