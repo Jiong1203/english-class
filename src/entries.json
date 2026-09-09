@@ -1,6 +1,373 @@
 {
   "entries": [
     {
+      "id": "b30ae11bbc7d",
+      "date": "20260909",
+      "front": "你那句開頭的「...」很傳神，那種「來不及了」的語氣英文也有對應說法。",
+      "body": "你那句開頭的「...」很傳神，那種「來不及了」的語氣英文也有對應說法。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| … 我已經回覆他了 | Too late — I already sent it. |\n| 前面那個請忽略 | Please disregard my last message. |\n| 我後來實際測了一下 | I actually tested it afterwards. |\n| 還請您先將就一下 | Please bear with us for now. |\n\n用字說明：\n\n1. **「請忽略前一則」→ `Please disregard my last message.`** 這是商務書信的標準用法，寄錯或講錯時的固定句。口語一點可以說 `Ignore what I said earlier.`\n2. **「將就一下」→ `bear with us`**。字面是「忍耐我們一下」，用在請對方在問題修好前先容忍現況，語氣客氣。注意是 `bear with`（忍耐）不是 `bare`（裸露）——這是英文母語者也常拼錯的字。\n3. **「來不及了」→ `Too late`**，單獨當句子用就行，後面接破折號補說明，語感跟中文的「…」很像。\n4. **「後來」→ `afterwards`**（英式）或 `afterward`（美式）。放句尾最自然。\n\n延伸一句，正好是這次的狀況：\n\n> Correction: that workaround only works in a narrow case.\n> （更正一下：那個變通做法只在很窄的情況下有效。）\n\n用 `Correction:` 開頭直接標明是更正，比鋪陳一長串解釋更清楚，收訊的人一眼就知道要覆蓋掉先前的資訊。`workaround`（變通做法）正是你們說的「小撇步」的標準對應詞。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "936747518a66",
+      "date": "20260909",
+      "front": "\"Recently Viewed\"",
+      "body": "這次你用中文提問，先給你這句的英文說法：\n\n> **幫我查一下首頁的「最近瀏覽」是從哪張表篩出來的**\n> Can you trace where the homepage's \"Recently Viewed\" data comes from — which table is it queried from?\n\n這裡有兩個用字值得記：\n\n| 中文 | 英文 | 為什麼這樣說 |\n|------|------|------------|\n| 幫我查一下…是從哪來的 | **trace** where X comes from | `trace` 有「順著鏈路往回追」的意思，正好對應你這種「從畫面追到 SQL」的需求，比 `check` 或 `find` 精準得多。也可以說 `trace X back to its source` |\n| 從哪張表篩出來的 | which table is it **queried from** | 中文的「篩」在資料庫情境對應 `query`／`filter`。若要強調「過濾條件」用 `filter`，強調「從哪取得」用 `query from`。這裡問來源，所以 `queried from` 更貼 |\n\n順帶提一個很好用的動詞：**surface**。當你想說「這個資料被撈出來顯示在畫面上」，英文常說 `the data surfaced on the homepage`。例如這次的情況可以說：\n\n> The \"Recently Viewed\" panel **surfaces** the 6 most recent unique entries from `topic_view_log`.\n> （「最近瀏覽」面板從 `topic_view_log` 撈出最近 6 筆去重後的紀錄顯示出來。）\n\n`surface` 當動詞在產品／資料討論裡非常常見，意思是「把底層的東西呈現到使用者看得到的地方」，比 `show` 或 `display` 多一層「從深處帶到表面」的味道 —— 剛好就是你這個問題在追的那條路徑。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f71907601ac0",
+      "date": "20260908",
+      "front": "\"I deployed, but I got a GitLab CI failure alert on Telegram — the `helm diff` job failed. Can you help me figure out what might be causing it?\"",
+      "body": "> **原句：** 部署了但是 telegram 收到 Gitlab CI job failed，Job: helm diff，你可分析可能原因?\n>\n> **English:** \"I deployed, but I got a GitLab CI failure alert on Telegram — the `helm diff` job failed. Can you help me figure out what might be causing it?\"\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 收到…通知 | **I got an alert** / **an alert came through on Telegram** | **alert** 專指系統自動發的告警，比 `notification` 精準。動詞用 `got` 就夠自然，不需要 `received`（太正式）。 |\n| job failed | **the `helm diff` job failed** | 你直接照抄 GitLab 的原文是對的做法 —— job 名稱、stage 名稱都應該原樣引用，不要翻譯或改寫，方便對方搜尋。 |\n| 你可分析可能原因? | **Can you help me figure out what might be causing it?** | 你原句少了「以」（「你可**以**分析」），中文小筆誤。英文這句的重點是 **what might be causing it** —— 用 `might` 表達「還不確定、想知道可能性」，正好對應你要的是分診而不是定論。 |\n\n如果想更精確地表達「我要的是可能原因清單，不是單一答案」，這樣講最到位：\n\n> \"Can you walk me through the **likely causes**?\"\n>\n> （可以帶我過一遍可能的原因嗎？）\n\n**walk someone through something** 是很好用的片語，指「帶著某人逐步走過一遍」，用在請人解釋流程、分析、或 code review 都很自然。比 `explain` 多了「有條理地、一步步」的意味。\n\n另外補一個這次情境會用到的字：**triage**（分診）。這個字借自醫療，在工程上指「快速判斷問題的嚴重性與方向，但還沒真的修」：\n\n> \"I can't see the job log, so let me **triage** it from this side.\"\n>\n> （我看不到 job log，所以我先從這邊做分診。）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f43976519d28",
+      "date": "20260908",
+      "front": "\"Walk me through the fix for the XCM判3/4/5/6 case.\"",
+      "body": "> **原句：** 回顧一下「XCM判3/4/5/6」的修復內容\n>\n> **英文：** \"Walk me through the fix for the XCM判3/4/5/6 case.\" 或 \"Recap what was fixed for XCM判3/4/5/6.\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 回顧一下 | **recap** / **walk me through** | `recap`（= recapitulate 的縮寫）是「重點摘要回顧」，最貼近你的語意。`walk me through` 是「帶我從頭走一遍」，適合想聽細節時用。 |\n| 修復內容 | **the fix** / **what was fixed** | 英文直接用名詞 `the fix` 就好，不用把「內容」翻成 `content`——`the content of the fix` 會顯得冗贅。 |\n\n**三個層次的「回顧」，語氣由輕到重：**\n\n- **Recap** — 快速摘要重點（最常用，開會時 \"Let me recap.\" 極常聽到）\n- **Walk through** — 逐步講解過程，比 recap 詳細\n- **Review** — 帶有檢視、審查的意味，可能會找出問題\n\n你要的是第一種，所以 `recap` 最精準。\n\n**順帶一提，`fix` 當名詞很好用：**\n\n- ✅ What was the **fix**?（怎麼修的？）\n- ✅ The **fix** is already in master.（修正已經進主幹了）\n- ✅ That's a **quick fix**, not a real solution.（那是權宜之計，不是真正的解法）\n\n最後那個 `quick fix`（權宜修法、治標不治本）在技術討論中非常常用，值得記起來。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f13e59fe9540",
+      "date": "20260908",
+      "front": "\"Let's **fix it before it lands** on `dev`.\"",
+      "body": "你這次是用 slash command 觸發，沒有英文句子可批改。趁這輪的內容補一個很實用的主題 —— **「改壞了要修正」在英文裡怎麼講**，正好對應我這輪 amend merge 訊息那件事：\n\n| 情境 | 英文說法 | 說明 |\n| --- | --- | --- |\n| 推之前修掉 | **fix it before it lands** | **land** 指「（改動）落地、進到主幹」，`before it lands` 是「趁還沒進主幹」的固定講法。 |\n| 改寫已推的 commit | **rewrite history** | 這是 git 圈的標準說法，帶有「這件事有風險」的暗示，正好對應你們 `CLAUDE.md` 的警告。 |\n| 修改最後一個 commit | **amend the commit** | 動詞 **amend** 專指這個動作，跟 git 指令同名，講出來對方立刻懂。 |\n| 我判斷錯了 | **I misread that** / **I got that wrong** | 比 `I made a mistake` 輕、也更精準 —— **misread** 特指「看錯、解讀錯」，正是我把 `rev-parse` 的錯誤訊息讀錯的情況。 |\n\n一組值得記的對比，差別在「有沒有進主幹」：\n\n> - \"Let's **fix it before it lands** on `dev`.\" （趁還沒進 `dev` 修掉。）\n> - \"It already **landed** — **rewriting history** now isn't worth it.\" （已經進去了，現在改寫歷史不划算。）\n\n第二句幾乎就是你們 `CLAUDE.md` 那條規則的英文版，之後跟人解釋這個 policy 可以直接用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "edab78d5edad",
+      "date": "20260908",
+      "front": "「解一下前端 merge 衝突」這種祈使句在中文很自然，英文對應的講法也很固定。",
+      "body": "「解一下前端 merge 衝突」這種祈使句在中文很自然，英文對應的講法也很固定。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 解一下 merge 衝突 | Resolve the merge conflicts. |\n| 兩邊的改動都要留 | Keep both sides. |\n| 這個衝突沒有語意矛盾 | The conflict is not a semantic one. |\n| 停在未提交的狀態 | It's left uncommitted. |\n\n用字說明：\n\n1. **「解衝突」→ `resolve conflicts`**，這是 Git 的官方用語（`git status` 就會說 `fix conflicts`）。動詞用 `resolve` 或 `fix`，**不要用 `solve`**——`solve` 用在解謎題、解方程式，衝突要用 `resolve`。\n2. **「兩邊都要留」→ `keep both sides`**。Git 工具的按鈕通常就叫 `Accept Both Changes`，所以說 `accept both` 也通。`side` 在這裡指衝突的兩方（ours / theirs）。\n3. **「殘留標記」→ `leftover markers`**。`leftover` 當形容詞是「剩下沒清掉的」，`conflict markers` 就是 `<<<<<<<` 那些符號。`Check for leftover conflict markers.` 是 code review 時常說的一句。\n4. **「上游」再複習一次**：這次的 merge 是 `merging upstream changes`（合併上游的改動）。\n\n延伸一句，描述這次衝突的性質很精準：\n\n> Both sides just appended a row — it's a textual conflict, not a logical one.\n> （兩邊都只是在後面加了一列，這是文字衝突，不是邏輯衝突。）\n\n`textual conflict` vs `logical conflict` 是很有用的區分：前者是 Git 看到同一位置被改而報的衝突，後者是程式碼語意真的打架。很多衝突其實只是前者，講清楚能讓討論快很多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "ec2d850762cf",
+      "date": "20260908",
+      "front": "\"（去做吧 —— 最直接、最常用）\n> - \"",
+      "body": "> **原句：** 好，幫我改 VERSION.md 和 CHANGELOG.md\n>\n> **English:** \"Sounds good — go ahead and update VERSION.md and CHANGELOG.md for me.\"\n\n用字說明（繁體中文）：\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 好 | **Sounds good** / **Go ahead** | 單獨的 `OK` 有點冷，`Sounds good` 帶「我同意你的提議」的語氣，正好對應你這裡是在回應我上一則的提案。 |\n| 幫我改 | **update … for me** / **go ahead and update …** | 「改設定檔／文件」用 **update** 最自然。`change` 偏中性（只表示變動），`modify` 偏正式且常帶「小幅調整」的味道，`edit` 則偏向逐字修改文字內容。 |\n\n一個實用的補充：在工程對話裡要「授權對方直接動手」，最常見的三個說法強度不同 ——\n\n> - \"**Go ahead.**\"（去做吧 —— 最直接、最常用）\n> - \"**Feel free to** update both files.\"（你儘管改 —— 較客氣，把主導權交給對方）\n> - \"**Please go ahead and** update both files.\"（請動手 —— 較正式，適合對外或書面）\n\n你這句用第一種或第二種都很貼切。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "e21142677338",
+      "date": "20260908",
+      "front": "\" 嗎? 換成底線（全部非法字元）跟只處理路徑分隔符的差別在哪裡?\n>\n> **英文：** \"",
+      "body": "> **原句：** 所以產出無法像原本的主題名稱一樣有 \"/\" 嗎? 換成底線（全部非法字元）跟只處理路徑分隔符的差別在哪裡?\n>\n> **英文：** \"So the output filename can't keep the `/` from the original topic name? What's the difference between replacing all illegal characters and only handling path separators?\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 產出 | **the output** / **the generated file** | 「產出」單獨用 `output` 有點空泛，技術討論中最好講明是什麼產出：`the output filename`、`the generated file`。 |\n| 無法像…一樣 | **can't keep** / **can't preserve** | 中文的「像原本一樣」直翻成 `can't be the same as` 會很冗。英文用 **keep** 或 **preserve**（保留）一個動詞就解決了。 |\n| 非法字元 | **illegal characters** / **invalid characters** | 兩者都通用。檔名情境下也常說 **forbidden characters** 或 **reserved characters**。 |\n| 差別在哪裡 | **What's the difference between A and B?** | 這是最標準的問法。注意 `difference` 後面固定接 **between A and B**，不能用 `difference of`。 |\n\n**一個常見錯誤提醒：** 中文的「A 跟 B 的差別」很容易被直譯成 `the difference of A and B`，但英文的固定搭配是：\n\n- ✅ the difference **between** A **and** B\n- ❌ the difference **of** A and B\n\n另外你這次用了「?」問句加中文，如果要在工作場合用英文問同事，加一句 `Just want to make sure I understand the trade-off.`（想確認我理解了兩者的取捨）會讓語氣更專業自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d400b724811f",
+      "date": "20260908",
+      "front": "「目前我跟他的對話還在這裡」這句在工作交接時很常用，英文有個很漂亮的固定說法。",
+      "body": "「目前我跟他的對話還在這裡」這句在工作交接時很常用，英文有個很漂亮的固定說法。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 我跟他的對話還在這裡 | That's where we left off. |\n| 這則還沒回 | I haven't replied to this one yet. |\n| 對話停在她那則 | The thread's still sitting on her last message. |\n| 我先把稿子準備好 | Let me get a draft ready first. |\n\n用字說明：\n\n1. **`leave off`** 是「（暫時）停在某處」，`where we left off` 就是「我們上次談到的地方」。回頭接續某件事時很常說：`Let's pick up where we left off.`（我們從上次停的地方繼續。）這組 `leave off` / `pick up` 是配對使用的。\n2. **「對話串」→ `thread`**。Email、Slack、issue 的留言串都叫 `thread`。`the thread` 單獨用就指「這串對話」。\n3. **「還沒回」→ `haven't replied yet`**，或更口語的 `I still owe her a reply.`（我還欠她一個回覆。）`owe someone a reply` 帶點「該回沒回」的自責感，很生動。\n4. **「稿子」→ `draft`**。動詞也是 `draft`：`I drafted a reply.`（我擬了一份回覆。）\n\n延伸一句，正好是你現在的狀況：\n\n> The fix is done but not deployed yet, so let's not oversell it.\n> （修復完成但還沒部署，所以先別把話講太滿。）\n\n`oversell` 字面是「過度推銷」，用在這裡就是「講得比實際情況好」。跟客戶或使用者溝通時，`let's not oversell it` 是很實用的提醒。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d126cbbca9b0",
+      "date": "20260908",
+      "front": "「這題算是解決了嗎？」這種確認狀態的問法，英文在專案管理情境有好幾種說法，語感不太一樣。",
+      "body": "「這題算是解決了嗎？」這種確認狀態的問法，英文在專案管理情境有好幾種說法，語感不太一樣。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 這題算是解決了嗎？ | Can we call this one done? |\n| 這張單可以結了嗎？ | Can we close this ticket? |\n| 還沒，還差幾步 | Not yet — there are a few steps left. |\n| 程式碼寫完了，但還沒驗證 | The code's done, but it hasn't been verified. |\n\n用字說明：\n\n1. **「算是解決了嗎」→ `Can we call it done?`**。`call it ~` 是「把它認定為～」，帶有「我們可以這樣宣告嗎」的語氣，正好對應中文的「算是」。這比 `Is it solved?` 自然得多，因為後者聽起來像在問客觀事實，而你問的其實是「可不可以這樣認定」。\n2. **「結案」→ `close`**。issue、ticket、case 都搭配 `close`：`close the issue`、`the ticket is closed`。相對的開啟是 `open`，重開是 `reopen`。\n3. **「還差幾步」→ `a few steps left`**。`left` 放在名詞後面表示「剩下的」：`two days left`（剩兩天）、`nothing left`（什麼都不剩）。\n4. **「不確定性」→ `an open question`**。比 `uncertainty` 更口語：`There's still one open question.`（還有一個問題沒有答案。）很適合用在你這種「主因找到了但有個前提沒確認」的情況。\n\n延伸一句，正好描述現在的狀態：\n\n> The fix is in, but it's not verified yet.\n> （修復已經進去了，但還沒驗證。）\n\n`The fix is in` 是很地道的講法，指「修復已經合進程式碼了」。注意它跟 `it's fixed`（問題已解決）不同——前者只講程式碼動作，後者是對結果的保證。你現在的情況正是前者，用字精確能避免別人誤會已經沒事了。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d026eee472fb",
+      "date": "20260908",
+      "front": "\"Nice, it's live on production now! But why does this keep popping up?\"",
+      "body": "> **原句：** Good 正式機有順利運行了! 不過為什麼會一直跳出這個?\n>\n> **English:** \"Nice, it's live on production now! But why does this keep popping up?\"\n\n先稱讚一下：你直覺用了 **Good** 開頭 —— 這在英文對話裡是很自然的簡短肯定，用法完全正確。不過口語上 **Nice** 或 **Great** 會更順一點；單獨的 `Good` 有時會帶一點「評分」的味道（像老師在說「不錯」），而 `Nice` 純粹是「太好了」的反應。\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 有順利運行了 | **it's live now** / **it's up and running** | 上一輪教過 `live`，你這裡正好可以用上。**up and running** 是固定搭配，指「已經跑起來而且運作正常」，比單講 `running` 完整。 |\n| 一直跳出 | **keeps popping up** | **pop up** 就是「彈出（視窗）」的標準說法，名詞形 **a popup** 指彈窗本身。「一直」用 **keeps + V-ing** 表達，這個句型非常高頻。 |\n| 不過 | **But** / **Though** | 句首用 `But` 完全沒問題（學校教的「不能用 But 開頭」在口語與技術溝通裡並不適用）。想更輕一點可以把 `though` 放句尾：`Why does this keep popping up though?` |\n\n值得記的句型 —— **keep + V-ing** 表達「反覆發生、停不下來」，正是你這個情境：\n\n> - \"It **keeps asking** me to authorize.\" （它一直要我授權。）\n> - \"The pipeline **keeps failing** at the same stage.\" （pipeline 一直在同一個 stage 失敗。）\n> - \"Why does it **keep re-authenticating**?\" （為什麼它一直重新認證？）\n\n注意跟 **keep on V-ing** 的差別很小，後者語氣更強調「持續不停」，帶一點不耐煩，你這個情境兩個都適用。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "cb3b94d29dfd",
+      "date": "20260908",
+      "front": "\"Alright, one more change please. On the activity roster, remarks from waitlisted people never show up — that's not right. Please fix it.\"",
+      "body": "> **原句：** 好那接著幫我做一個調整，現在在活動報名的名單中，候補人員的備註都不會顯示，這是不對的！請調整吧\n>\n> **English:** \"Alright, one more change please. On the activity roster, remarks from waitlisted people never show up — that's not right. Please fix it.\"\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 報名的名單 | **the roster** / **the sign-up list** | **roster** 正是你們 code 裡用的字（`build_member_roster_flex`），指「參加者名單」。溝通時直接沿用 codebase 的詞彙，對方最快進入狀況。 |\n| 候補人員 | **waitlisted people** / **people on the waitlist** | 動詞 **waitlist** 可以直接當形容詞用：`a waitlisted registrant`。名詞是 **the waitlist**（一個字，不加連字號）。 |\n| 備註 | **remark** / **note** | 你們 DB 欄位叫 `remark`，講給工程師聽用 `remark` 最精準；對一般使用者講 **note** 比較自然，因為 `remark` 在日常英文偏「評論、發言」的意思。 |\n| 都不會顯示 | **never show up** / **aren't displayed** | **show up** 是「出現」的口語說法，配 `never` 表達「一次都沒出現過」，正好對應你的「都不會」。 |\n| 這是不對的！ | **That's not right.** / **That's a bug.** | 你原句的驚嘆號帶有「這明顯有問題」的語氣，英文用 `That's not right.` 就夠了 —— 英文技術溝通裡驚嘆號用得比中文少，語氣靠用字承載而不是標點。 |\n| 請調整吧 | **Please fix it.** / **Can you fix that?** | 修 bug 用 **fix**，不要用 `adjust`。`adjust` 指「微調一個本來就正常的東西」（例如調整間距、調整參數），用在 bug 上會讓對方以為只是外觀偏好問題。 |\n\n最值得記的一組區別，你這句剛好同時用到兩個概念：\n\n> - \"Please **fix** the waitlist remarks.\" → 這是 bug，行為錯了\n> - \"Please **adjust** the spacing between rows.\" → 這是偏好，本來沒壞\n\n用錯字會直接影響對方判斷優先級 —— `fix` 會被排進 bug 清單，`adjust` 常常被丟到 nice-to-have。你這次是前者。",
+      "tags": [
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c9f231962962",
+      "date": "20260908",
+      "front": "\"Take a look at the changes in commit d5130d00 — why is it already live on dev but not on production?\"",
+      "body": "你這次是用中文提問，先給你對應的英文說法：\n\n> **原句：** 你看一下 d5130d00 這版的改動，為什麼測試機環境已運行，但正式機環境卻沒有運行？\n>\n> **English:** \"Take a look at the changes in commit d5130d00 — why is it already live on dev but not on production?\"\n\n幾個用字上的 nuance 說明（繁體中文）：\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 測試機環境 / 正式機環境 | **dev** / **production**（口語常說 **prod**） | 工程圈很少講 \"test machine environment\"，直接講 `dev` 和 `prod` 最自然。若真的要指實體機器才用 `staging server`。 |\n| 已運行 | **is live** / **is deployed** / **has shipped** | 「已運行」講的是「已經上線生效」，用 `is live` 比直譯的 `is running` 更精準 —— `is running` 只表示「程式有在跑」，不表示「新版有上去」。 |\n| 沒有運行 | **hasn't been deployed** / **isn't live yet** | 加 `yet` 會帶出「預期會上、只是還沒」的語氣，很貼近你這個情境。 |\n| 你看一下…這版的改動 | **Take a look at the changes in commit …** | `this version` 在 git 語境下容易誤解為「版號」，指 commit 時直接說 `commit <sha>` 或 `this change` 比較清楚。 |\n\n補充一個之後很好用的句型，正是你這次的問題形狀：\n\n> \"It's on the `prod-v0.3.27` branch but it never actually shipped — the manual deploy gate was never triggered.\"\n>\n> （東西在 branch 上了，但實際上沒上線 —— 手動部署的閘門沒被觸發。）\n\n其中 **ship**（動詞，「出貨／上線」）是英文工程圈非常高頻的字，`shipped` 比 `deployed` 更帶「使用者真的拿到了」的意味，值得記起來。",
+      "tags": [
+        "nuance",
+        "comparison"
+      ]
+    },
+    {
+      "id": "9f291f1de5d8",
+      "date": "20260908",
+      "front": "「用瀏覽器實測」這個要求，結果證明是對的——實測推翻了推論。這組詞值得學。",
+      "body": "「用瀏覽器實測」這個要求，結果證明是對的——實測推翻了推論。這組詞值得學。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 請你用瀏覽器實測 | Verify it in an actual browser. |\n| 實測推翻了我的推論 | The test disproved my reasoning. |\n| 幸好沒有直接送出去 | Good thing we didn't send it out. |\n| 這個前提我沒想到 | I hadn't considered that precondition. |\n\n用字說明：\n\n1. **「推翻」→ `disprove`**（證明為假）或口語的 `prove ~ wrong`：`The test proved me wrong.`（測試證明我錯了。）注意 `disprove` 的受詞是「論點」，不是「人」——說 `disprove me` 不自然，要說 `disprove my theory`。\n2. **「幸好」→ `Good thing…`**。這是很口語的句首用法，後面直接接子句：`Good thing we tested it first.`（幸好我們先測了。）比 `Fortunately` 輕鬆得多。\n3. **「前提」→ `precondition`** 或 `prerequisite`。這次的情況是「小撇步成立有個前提」：`The trick only works under one condition — the panel mustn't overflow.`\n4. **「溢出」→ `overflow`**。CSS 屬性就叫 `overflow`，講版面超出容器範圍時直接用它當動詞或名詞都行：`The pills overflow the panel.`\n\n延伸一句，正好總結這次的經驗：\n\n> Reading the source got me the mechanism, but only the test caught the edge case.\n> （讀原始碼讓我搞懂機制，但只有實測才抓到那個邊界情況。）\n\n`edge case`（邊界情況、極端案例）是工程討論的高頻詞，指「一般情況沒問題、但在極端條件下會出錯」的狀況——溢出正是這次的 edge case。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9dcd5021b4d0",
+      "date": "20260908",
+      "front": "你這句「不是已經裝過 Playwright 了嗎?」是反問句，用來提醒對方可能記錯了，英文的對應句型很好用。",
+      "body": "你這句「不是已經裝過 Playwright 了嗎?」是反問句，用來提醒對方可能記錯了，英文的對應句型很好用。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 不是已經裝過了嗎？ | Isn't it already installed? / Didn't we install that already? |\n| 不然就安裝你需要的也可以 | Or just install whatever you need. |\n| 你需要什麼就裝什麼 | Install whatever you need. |\n| 它裝在別的專案底下 | It's installed under a different project scope. |\n\n用字說明：\n\n1. **「不是…了嗎？」→ 否定疑問句 `Isn't…?` / `Didn't…?`**。英文和中文在這裡結構一致，都用否定形式表達「我記得是有的，你確認一下」。語氣比直接說 `You're wrong` 客氣很多。\n2. **「不然就…也可以」→ `Or just…`**。`just` 在這裡不是「只是」，而是「乾脆、直接」的意思，帶有「別想太多，做就對了」的輕鬆語氣。`Or just install it.`（不然你就直接裝吧。）\n3. **「你需要的」→ `whatever you need`**。`whatever` 這種用法很方便，表示「不管是什麼，你決定」：`whatever works`（怎樣可行都行）、`whatever you prefer`（你喜歡哪個都行）。\n4. **「裝在別的專案底下」→ `under a different project scope`**。`scope`（範圍、作用域）正好是 MCP 設定的術語，`local scope` / `project scope` / `user scope` 都是官方用字。\n\n延伸一句，正好是這次的狀況：\n\n> It was installed, just not for this project.\n> （是裝了沒錯，只是不是裝在這個專案。）\n\n`just not ~` 是很精簡的轉折：先承認對方說的沒錯，再點出關鍵差異。比 `but it wasn't...` 更輕、更不像在糾正人。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9b006eae0606",
+      "date": "20260908",
+      "front": "你這次用了「你記一下」——這是很自然的中文口語指令，英文的對應方式跟中文結構差滿多的。",
+      "body": "你這次用了「你記一下」——這是很自然的中文口語指令，英文的對應方式跟中文結構差滿多的。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 你記一下 | Make a note of this. / Keep this in mind. |\n| 這是正確的，不是漏掉的 | That's intentional, not an oversight. |\n| 給我一個可以貼過去的 prompt | Give me a prompt I can paste over there. |\n| 因為需要與 ERP 串接 | because it needs to integrate with the ERP |\n\n用字說明：\n\n1. **「你記一下」→ `Make a note of this`**（記下來）或 `Keep this in mind`（放在心上）。英文不會說 `You remember this`，那是命令對方背起來，語氣很怪。要交代對方存檔記錄，就用 `Make a note`。\n2. **「是正確的」→ `intentional`**。你想表達的其實是「這是刻意這樣設計的」，英文用 `intentional`（有意的）或 `by design`（設計如此）最貼切。`That's by design.` 是工程師澄清「這不是 bug」時的標準句。\n3. **「不是漏掉的」→ `not an oversight`**。`oversight` 這個字很有意思——它同時有「疏忽、遺漏」和「監督」兩個意思，這裡是前者。`It was an oversight.`（那是個疏忽。）\n4. **「串接」→ `integrate with`**。台灣技術圈慣用的「串接」對應英文的 `integrate with` 或 `hook into`。名詞是 `integration`：`ERP integration`（ERP 串接）。\n\n延伸一句，正好是你這次交代的內容：\n\n> It's csac-specific by design — icsc doesn't need it.\n> （那是 csac 專屬的設計，icsc 不需要。）\n\n`X-specific` 是很好用的構詞法：`csac-specific`（csac 專屬的）、`browser-specific`（瀏覽器專屬的）、`environment-specific`（環境相關的），一個連字號就講完「限定於某範圍」的意思。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "990469edba2c",
+      "date": "20260908",
+      "front": "\"I drafted an email reply to the user — could you help polish it?\"",
+      "body": "> **原句：** 寫了封 mail 回覆 user，請幫忙潤飾一下\n>\n> **英文：** \"I drafted an email reply to the user — could you help polish it?\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 寫了封 mail | **drafted an email** | 「寫好但還沒寄出」用 **draft**（草擬）最精準。若已經寄出才是 `sent an email`。另外正式寫作中用 `email`，不用 `mail`——`mail` 在英文指實體郵件。 |\n| 潤飾 | **polish** | 「潤飾、把文字磨得更好」就是 `polish`，這個比喻在中英文剛好相通。相近的還有 `refine`（精煉）、`proofread`（校對錯字文法）、`tighten up`（讓文字更精簡）。 |\n| 幫忙…一下 | **could you help...?** | 中文的「一下」是緩和語氣的詞，英文靠 `could you`／`would you mind` 這類句型達到同樣效果，不用另外翻譯。 |\n\n**依需求選對動詞，對方才知道你要什麼：**\n\n- **Polish** — 整體潤飾，讓文字更流暢專業（你這次的需求）\n- **Proofread** — 只抓錯字、文法、標點\n- **Tighten up** — 太冗長，請幫忙精簡\n- **Reword** — 這段話怪怪的，請換個說法\n\n**一個道地說法：** 請人看過自己寫的東西，最常用的是：\n\n- ✅ Could you **take a look at** this before I send it?（寄出前可以幫我看一下嗎？）\n- ✅ Mind giving this a **quick once-over**?（可以幫我快速看過一遍嗎？）\n\n`once-over` 是名詞，指「快速檢查一遍」，語氣輕鬆，適合同事之間。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "8e636f796e54",
+      "date": "20260908",
+      "front": "\"I flagged this in the prompt\"",
+      "body": "這次你全程用中文，所以沒有英文可以糾錯。以下把幾個關鍵句子的英文說法整理給你，之後跟 fork 端或回報者溝通時可以直接用：\n\n| 中文 | 英文 | 說明 |\n|------|------|------|\n| 相關片段一字不差 | The relevant snippets are **character-for-character identical**. | `word-for-word` 是「逐字相同」，程式碼要強調到字元層級可用 `character-for-character`；口語也常說 `byte-for-byte identical` |\n| 這是繼承自上游的通用問題 | This is a **generic issue inherited from upstream**. | `upstream` 在 fork 情境是固定用法，不需要加 the |\n| 請你自己驗證一遍再動手 | Please **verify this yourself before touching the code**. | `before you act` 偏抽象；改動程式碼講 `before touching the code` 更自然 |\n| 這項的優先度我會排在 Bug 1 之上 | I'd **rank this above Bug 1** in priority. | `rank X above Y` 比 `put the priority of X higher than Y` 精簡得多 |\n| 不要讓人誤以為已驗證 | Don't **give the impression that** it's been verified. | `give the impression that...` 就是「讓人誤以為」，比 `let people misunderstand` 道地 |\n| 這是另一張單的問題 | That belongs to **a separate ticket**. | 軟體團隊講「單」用 `ticket`（Jira/GitLab issue 情境也可直接說 `a separate issue`） |\n\n另外一個實用的表達：你 prompt 裡「我在 prompt 裡標了」這種提醒，英文常寫成 **\"I flagged this in the prompt\"** —— `flag` 當動詞是「特別標記出來提醒注意」，在 code review 裡非常常用，例如 `I flagged two edge cases in the comments`（我在留言裡標出兩個邊界情況）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "76e293b31c16",
+      "date": "20260908",
+      "front": "\"I'll pull the log for FOR T42 after it fires this afternoon.\"",
+      "body": "> **原句：** FOR T42 的 log 等下午觸發了我再撈給你\n>\n> **英文：** \"I'll pull the log for FOR T42 after it fires this afternoon.\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| （排程）觸發 | **fire** / **trigger** | 排程、定時任務「到點執行」的道地說法是 **fire**：`the schedule fires at 15:30`。`trigger` 也對，但 `trigger` 更常用在「某事觸發了另一件事」（`the error triggered a rollback`）。 |\n| 等…了再… | **after it fires** / **once it fires** | 中文的「等…了再…」用 `after` 或 `once` 就好。`once` 帶有「一旦…就」的語感，比 `after` 更強調緊接著發生。 |\n| 撈給你 | **pull it for you** / **send it over** | 前面教過的 `pull` 正好用上了。如果重點是「傳給你」，用 **send it over** 更自然。 |\n\n**時態小提醒：** 這句話英文有個容易踩的點 —— 「等下午觸發了」講的是未來的事，但 `after`／`once` 引導的時間子句**要用現在式，不能用未來式**：\n\n- ✅ I'll pull the log after it **fires**.\n- ❌ I'll pull the log after it **will fire**.\n\n這是英文的固定規則：時間或條件子句中用現在式代替未來式。同樣適用於 `when`、`before`、`as soon as`、`if`。例如 `I'll let you know as soon as it **finishes**.`（一跑完我就告訴你）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "72de406a6972",
+      "date": "20260908",
+      "front": "你這次問的是「recall_time 的中文與欄位說明要填甚麼?」，英文可以這樣說：",
+      "body": "你這次問的是「recall_time 的中文與欄位說明要填甚麼?」，英文可以這樣說：\n\n> What should I put for `recall_time`'s display name and column description?\n\n幾個要點：\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| 欄位標題／中文名稱 | **display name** / **column label** | 資料庫工具的標準說法。不要說 `Chinese name` —— 那聽起來像「這個欄位的中文譯名」，而它真正的角色是「給人看的顯示名稱」 |\n| 欄位說明 | **column description** / **column comment** | 若指 DB 層的 `COMMENT ON COLUMN`，用 **comment**；若指設計器裡的說明欄位，用 **description** |\n| 要填什麼 | **What should I put for...?** / **What should go in...?** | `What should I fill in?` 也對，但 `fill in` 更常用於「填寫整份表單」；問單一格子用 `put for` 最自然 |\n| 元數據 | **metadata** | 注意是**不可數名詞**，永遠不加 s：`the metadata is stored...`（不是 `metadatas are`） |\n\n另外提醒一個中文母語者常見的細節：中文問句習慣把「要填什麼」放句尾，但英文的疑問詞一定要提到句首 —— **What** should I put…，不能寫成 `Recall_time's display name should put what?`。這是中英文語序最根本的差異之一，寫技術問題時特別容易踩到。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6fac6f6e5612",
+      "date": "20260908",
+      "front": "你這句「那就按照你的建議來做吧!」是很典型的「拍板定案」句型，英文有好幾種說法，語氣強度不同：",
+      "body": "你這句「那就按照你的建議來做吧!」是很典型的「拍板定案」句型，英文有好幾種說法，語氣強度不同：\n\n| 英文 | 語氣 | 適用場合 |\n|---|---|---|\n| **Let's go with your suggestion.** | 中性、最通用 | 最安全的選擇，同意採用某方案 |\n| **Let's do it your way.** | 稍微口語、帶「聽你的」 | 熟悉的同事之間 |\n| **Sounds good — go ahead.** | 輕快、放行 | 對方已經講完方案，你只要放行 |\n| **Let's proceed as you proposed.** | 正式、書面 | 寫信、正式回覆 |\n\n最自然的一句就是：**Let's go with your suggestion.** 或更簡短的 **Sounds good, let's do that.**\n\n**要避免的直譯**：中文「按照…來做」很容易被直譯成 `Please follow your suggestion to do.` —— 這句是錯的，問題在 `follow ... to do` 這個結構英文不存在。`follow` 後面直接接受詞就好：`follow your suggestion`、`follow the plan`，不再加 `to do`。\n\n另外一個小細節：你在句尾用了 `!`。中文的驚嘆號常常只是表達「爽快、有精神」，但英文的 `!` 語氣比中文重得多，用在工作訊息裡有時會讀起來像興奮或急迫。同樣的爽快感，英文更常用**短句**來表達，而不是靠標點：\n\n> Sounds good — let's do that.\n\n這樣就已經很有精神了，不需要驚嘆號。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6aa483727847",
+      "date": "20260908",
+      "front": "\"I cut a `chore/` branch off `dev`, merged it back with `--no-ff`, and burned 0.3.27 because the tag is derived from the commit sha.\"",
+      "body": "你這次是用 slash command（`/commit-push-merge`）觸發，沒有寫自然語言句子，所以沒有可批改的英文。不過趁這個機會補一個很實用的主題 —— **這次操作裡出現的 git 動作，英文怎麼講**：\n\n| 動作 | 英文說法 | 注意 |\n| --- | --- | --- |\n| 切一條新分支 | **cut a branch** / **branch off `dev`** | `cut a release branch` 是發版情境的固定說法，正是你這次做的事。 |\n| 合併回主幹（不快轉） | **merge it back with `--no-ff`** | 動詞片語是 **merge back into**，`back` 不能省，省了會像在講反方向的合併。 |\n| 主幹 | **trunk** / **the mainline** | 注意 **trunk** 是概念（開發主線），`main` / `dev` 是實際 branch 名。你這個 repo 正好兩者不一致，講清楚很重要。 |\n| 過時的分支 | **a stale branch** | **stale** 專指「太久沒更新、已經不能代表現況」，比 `old` 精準得多。 |\n| 版號跳號 | **skip a version number** / **burn a version** | `burn` 較口語，指「這個號碼作廢掉不用了」。 |\n\n一個直接可用的完整句子，描述你這次做的事：\n\n> \"I cut a `chore/` branch off `dev`, merged it back with `--no-ff`, and burned 0.3.27 because the tag is derived from the commit sha.\"\n>\n> （我從 `dev` 切了一條 `chore/` 分支，用 `--no-ff` 併回去，並且作廢了 0.3.27，因為 image tag 是從 commit sha 衍生出來的。）\n\n其中 **derive … from …**（從……衍生／推導出）在描述「A 的值是由 B 決定的」時非常好用，被動式 **is derived from** 出現頻率尤其高。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "6a91c36c4c18",
+      "date": "20260908",
+      "front": "「ok 推吧」這種「放行、去做吧」的短指令，英文有幾個道地說法：",
+      "body": "「ok 推吧」這種「放行、去做吧」的短指令，英文有幾個道地說法：\n\n| 英文 | 語氣 | 說明 |\n|---|---|---|\n| **Ship it.** | 最道地、最短 | 軟體業的經典說法，意思是「可以了，送上去」。GitHub 文化裡甚至有 🚢 emoji 代表這個 |\n| **Go ahead and push.** | 中性、明確 | 最安全通用的說法 |\n| **Push it up.** | 口語 | `up` 有「往上推到遠端」的方向感，很自然 |\n| **Let's get it in.** | 口語，偏「併進主幹」 | `get it in` 常指合併進主線 |\n\n你這句最貼近的就是 **Ship it.** —— 兩個字，跟中文「推吧」一樣簡潔有力。\n\n**一個容易搞混的動詞辨析**（這組在 git 工作流裡天天用到）：\n\n| 動詞 | 意思 | 例句 |\n|---|---|---|\n| **push** | 把本機 commit 推到遠端 repo | *I pushed to master.* |\n| **deploy** | 把程式部署到伺服器實際運行 | *Pushing doesn't deploy it — CI does.* |\n| **ship** | 交付給使用者（口語，常涵蓋整個流程） | *We shipped the recall feature today.* |\n| **release** | 正式發布一個版本 | *We released 2026.09.08.* |\n\n這四個中文常常都講「上線」，但英文分得很細 —— 特別是 **push ≠ deploy**，這正好對應我上面提醒你的那件事：程式推上 `main` 了，但還沒 deploy 到測試機。用英文講這個區別會非常清楚：\n\n> It's pushed to `main`, but not deployed yet — the pipeline only triggers on `to83`.",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6a4368e6507a",
+      "date": "20260908",
+      "front": "\"A user reported that two schedules failed to send in the scheduled notification job. Please list the possible causes.\"",
+      "body": "你這次用的是中文，我先提供對應的英文說法：\n\n> **原句：** User 反映定時通知發送作業有兩筆排程發送失敗，請列出可能原因\n>\n> **英文：** \"A user reported that two schedules failed to send in the scheduled notification job. Please list the possible causes.\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 反映（問題） | **report** / **raise** | 中文的「反映」在英文技術情境幾乎都用 `report`。不要用 `reflect`——`reflect` 是「反射／反映出某種現象」，不能用在「向上回報問題」。 |\n| 定時通知發送作業 | **scheduled notification job** | 批次／排程程式在英文裡叫 `job` 或 `batch job`，不是 `operation`。 |\n| 兩筆排程 | **two schedules** / **two schedule entries** | 中文的量詞「筆」在英文不必翻出來，直接用複數即可。若要強調是資料表中的一列，可說 `two schedule records`。 |\n| 列出可能原因 | **list the possible causes** | 也可以說 `identify the possible root causes`，語氣更偏向「找出真正的根因」。 |\n\n**一個實用句型：** 回報這類問題時，工程師常用 \"**X failed to Y**\" 這個結構，比 \"X has a failure on Y\" 自然得多：\n\n- ✅ Two schedules **failed to send**.\n- ✅ The job **failed to complete**.\n- ❌ Two schedules **had sending failure**.（不自然）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "63760ff35d0b",
+      "date": "20260908",
+      "front": "\"Push `dev-test-v0.3.34` for me.\"",
+      "body": "> **原句：** 幫我推 dev-test-v0.3.34\n>\n> **English:** \"Push `dev-test-v0.3.34` for me.\"\n\n這句很短但用字很值得說明：\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 推 | **push** | 這個你用對了 —— 中文技術圈直接講「推」，英文就是 `push`，完全對應。 |\n| 幫我 | **for me** / **Can you …** | `Push X for me.` 是同事之間最自然的講法。想更客氣就用 `Can you push X?`，語氣上兩者差不多，不需要加 `please help me`（那在英文裡反而顯得過於正式、甚至有點求助的味道）。 |\n\n值得注意的是，**「推一個分支」在英文裡有兩種說法，語意不同**：\n\n> - \"**Push** `dev-test-v0.3.34`.\" → 把某個東西推到那條分支（你這次的意思）\n> - \"**Cut** `dev-test-v0.3.34`.\" → 開出那條分支（強調「建立」這個動作）\n\n在你們這個 GitOps 流程裡，這兩件事其實是同一個動作（`git push origin dev:dev-test-v0.3.34` 同時建立並推送），所以兩個字都通。但 **cut a branch** 特別常用在發版情境 —— 之前 `cut a release branch`、`cut prod-v0.3.28` 都是這個用法，值得一起記起來。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "633a3065e10d",
+      "date": "20260908",
+      "front": "\"Fix the MONTHLY matching bug, and make sure a single-item exception doesn't abort the whole batch.\"",
+      "body": "你這次也是中文，先給對應的英文說法：\n\n> **原句：** 修掉 MONTHLY 的比對 bug，並讓單筆例外不中斷整批\n>\n> **英文：** \"Fix the MONTHLY matching bug, and make sure a single-item exception doesn't abort the whole batch.\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 修掉 | **fix** | 口語的「修掉／幹掉某個 bug」英文就是 `fix`。若要強調徹底解決，可說 `get rid of` 或 `eliminate`，但技術情境 `fix` 最自然。 |\n| 比對 bug | **matching bug** / **comparison bug** | 這裡是字串比對，用 `matching` 較貼切；若是數值大小比較則用 `comparison`。 |\n| 單筆例外 | **a single-item exception** | 「筆」在這裡指批次中的一個項目，英文用 `item`、`record` 或 `entry`。 |\n| 不中斷整批 | **doesn't abort the whole batch** | `abort` 是「中途強制終止」，最貼近「中斷整批」。也可以說 `doesn't bring down the entire batch`（語氣更口語）。 |\n\n**一個實用句型：** 描述「讓 A 不要影響 B」時，英文常用 `make sure A doesn't ...` 或更簡潔的 **isolate**：\n\n- ✅ **Isolate** per-item failures so one bad record doesn't kill the whole run.\n- ✅ Failures should be **contained** at the item level.\n\n`isolate` 和 `contain` 這兩個字在講錯誤處理時非常道地，比 \"let the error not affect others\" 精準得多，值得記下來。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5dee331d89db",
+      "date": "20260908",
+      "front": "\"I tested it in the dev LINE group and the remarks still aren't showing. The Telegram alert says: `GitLab CI job failed`.\"",
+      "body": "> **原句：** 我在測試機LINE群測試並沒有看到備註，telegram 訊息為 ❌ GitLab CI job failed\n>\n> **English:** \"I tested it in the dev LINE group and the remarks still aren't showing. The Telegram alert says: `GitLab CI job failed`.\"\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 在測試機…測試 | **I tested it on dev** | 「測試機」講 **dev** 就好，`test machine` 在英文技術圈幾乎不用。`on dev` 用介系詞 **on**（在某個環境上），不是 `in dev`。 |\n| 並沒有看到備註 | **the remarks still aren't showing** | 加 **still** 很關鍵 —— 它傳達「改了之後依然沒有」，對方立刻知道這是驗證失敗而不是第一次回報。 |\n| telegram 訊息為 | **the Telegram alert says** | 用 **says** 引述告警內容最自然。`the message is` 文法沒錯但偏生硬。 |\n\n這次想特別點出一個你已經做對、但值得意識到的習慣：**你把 Telegram 的原文完整貼上來了**（Job、Candidates、Commit 三行）。這在英文技術溝通裡叫做 **pasting the raw error**，是非常好的習慣：\n\n> \"Here's the raw alert:\" （以下是原始告警：）\n\n比起自己轉述，貼原文能讓對方看到你可能忽略的欄位 —— 這次就是 `Candidates: group-around-api-dev` 這行讓我確定不是別的 app 波及，`Commit: 22a0f3a5` 讓我確認那是 helm-repo 的 sha。**你轉述時會過濾掉的細節，往往正是解題的關鍵。**\n\n一個實用句型，用在你回報「驗證失敗」時：\n\n> \"I verified on dev — **no dice**. The remarks still aren't showing.\"\n>\n> （我在 dev 上驗過了 —— 沒用。備註還是沒出現。）\n\n**no dice** 是口語，意思是「行不通、沒成功」，用在回報嘗試失敗時很生動。正式一點可以說 **no luck** 或 **it didn't take**（後者特別指「改動沒有生效」，跟你這個情境最貼）。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "54d6f418b23d",
+      "date": "20260908",
+      "front": "\"First, commit and push those two bug fixes. Then here's the log I pulled for the first schedule from today.\"",
+      "body": "補上你上一則的英文說法：\n\n> **原句：** 先幫我把剛剛2個bug修復推上去，然後我給你第一筆我查到今天log的內容\n>\n> **英文：** \"First, commit and push those two bug fixes. Then here's the log I pulled for the first schedule from today.\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 推上去 | **push** | 中文的「推上去」直接對應 git 的 `push`。但要注意「推上去」通常隱含 commit + push 兩個動作，英文最好明講 `commit and push`，只說 `push` 可能讓對方以為你已經 commit 好了。 |\n| 剛剛的 | **those** / **the** | 中文愛用「剛剛」指涉前文，英文用 `those`、`the` 這類定冠詞就夠，硬翻成 `just now` 反而不自然（`just now` 是「方才發生」，不是「方才提到的」）。 |\n| 我查到的 log | **the log I pulled** / **the log I found** | 從系統撈資料，工程師常用 **pull**（拉出來）或 **grab**。`pull` 比 `find` 更精準地表達「主動從某處取出」。 |\n\n**一個道地說法：** 「我撈了一下 log」在英文口語中是：\n\n- ✅ I **pulled** the logs for that time window.（撈了那個時間區間的 log）\n- ✅ I **dug through** the logs and found this.（翻了一下 log，找到這個）\n\n`dig through` 這個片語很常用來形容「在大量資料裡翻找」，比 `search` 生動許多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3117b96c0ff5",
+      "date": "20260908",
+      "front": "「請你用瀏覽器實測」這句很簡潔，英文對應的講法在測試情境下很常用。",
+      "body": "「請你用瀏覽器實測」這句很簡潔，英文對應的講法在測試情境下很常用。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 請你用瀏覽器實測 | Test it in a real browser. |\n| 我沒有工具可以做這件事 | I don't have the tooling for that. |\n| 我先前說的機制是錯的 | I had the mechanism wrong. |\n| 沒把握 | I'm not confident it'll work. |\n\n用字說明：\n\n1. **「實測」→ `test it for real`** 或 `actually test it`。想強調「在真實環境跑一次」，說 `in a real browser`（真的用瀏覽器開）最清楚。相對的概念是 `on paper`（紙上談兵）：`It works on paper, but I haven't tested it for real.`\n2. **「工具」→ `tooling`**（不可數）。指「一整套可用的工具、工具鏈」，比 `tools` 更貼近「我這邊的裝備」的語感。`I don't have the tooling for that.` 是很自然的推辭說法。\n3. **「我說錯了」→ `I had it wrong`**。這個結構很簡潔：`I had the line number wrong.`（我行號記錯了。）比 `I was wrong about ~` 輕巧，適合快速更正而不大做文章。\n4. **「沒把握」→ `not confident`**。要更保守可以說 `I wouldn't bet on it.`（我不敢打包票。）\n\n延伸一句，正好是這次的處境：\n\n> I can verify it in the source, but I can't confirm it in the UI.\n> （我能在原始碼裡驗證，但沒辦法在介面上確認。）\n\n`verify` 和 `confirm` 這裡有微妙差別：`verify` 偏「檢查邏輯是否正確」，`confirm` 偏「實際跑過確認結果」。分清楚這兩個字，能讓別人準確知道你的結論到底有多硬。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2e8f77142c8e",
+      "date": "20260908",
+      "front": "你這次的中文有一個小地方值得先提：「**現在如果有上新功能長長使用者都不知道**」——「長長」應該是「常常」的誤字（注音打字很容易選錯）。這句順過來是「現在如果上了新功能，常常使用者都不知道」。",
+      "body": "你這次的中文有一個小地方值得先提：「**現在如果有上新功能長長使用者都不知道**」——「長長」應該是「常常」的誤字（注音打字很容易選錯）。這句順過來是「現在如果上了新功能，常常使用者都不知道」。\n\n英文可以這樣說：\n\n> When we ship new features, users often don't even know about them — same goes for smaller improvements. Should we show a small popup after login with the version and release notes? Also, I don't think we currently have anything like a VERSION.md or CHANGELOG.md to track this, right?\n\n幾個高頻表達：\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| 上新功能 | **ship a new feature** / **roll out a feature** | **ship** 是軟體業最道地的說法（把功能「送出門」）。`launch` 偏向對外大型發布，內部系統用 `ship` 或 `roll out` 更貼切 |\n| 使用者都不知道 | **users don't even know about them** | 加 `even` 才傳達出中文「都」的那種無奈語氣 |\n| 小優化 | **minor improvements** / **small tweaks** | **tweak**（微調）特別適合指「不影響流程的小調整」 |\n| 有小優化的地方也是一樣 | **same goes for...** | 「…也是一樣」的固定說法，比 `it is the same` 自然太多 |\n| 更新內容 | **release notes** / **what's new** | 產品 UI 上通常寫 **What's New**；文件裡用 **release notes** |\n| 我們是不是沒有…？ | **I don't think we have..., right?** / **we don't have ..., do we?** | 中文愛用「是不是沒有」，英文若直譯成 `Are we not having...?` 會很怪。用**否定陳述＋確認尾句**最自然 |\n\n最後補一個語感提醒：你問句用了兩次「是不是」（是不是應該…、是不是沒有…）。中文這樣連用完全自然，是一種徵詢語氣；但英文如果連續兩個 `Should we...? Do we not...?` 會顯得有點猶豫不決。英文的習慣是**第一個用問句、第二個轉成陳述句加確認**，像我上面那樣 —— 語氣會顯得比較有主張。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "260855c775c5",
+      "date": "20260908",
+      "front": "\"Go with the full illegal-character replacement.\"",
+      "body": "> **原句：** 用「全部非法字元」下去做\n>\n> **英文：** \"Go with the full illegal-character replacement.\" 或更口語的 \"Let's go with replacing all illegal characters.\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 用 X 下去做 | **go with X** | 這是英文中拍板定案時最自然的說法，意思是「就選 X、照 X 做」。比 `use X to do it` 精準得多，後者聽起來像在描述工具而非做決定。 |\n| 就這樣做 | **let's go with that** / **let's do it that way** | 同義的常用句。 |\n| 全部非法字元 | **all illegal characters** | 當形容詞用在名詞前時會加連字號：`full illegal-character replacement`。 |\n\n**這個片語很值得記：** `go with` 在工作場合的決策情境中極常出現：\n\n- ✅ Let's **go with** option A.（就選方案 A）\n- ✅ I'll **go with** your suggestion.（我照你的建議做）\n- ✅ We ended up **going with** the simpler approach.（我們最後採用了比較簡單的做法）\n\n你這句中文很簡潔明快，是下決定時該有的語氣。翻成英文時保持同樣的簡短就對了 —— 不需要寫成 \"I would like you to implement the option that replaces all illegal characters\"，那反而顯得拖泥帶水。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "254d1bef72b2",
+      "date": "20260908",
+      "front": "你這次寫的「這題目前算是已完成，接著回到前一題」是很典型的工作交接語氣，英文有對應的固定講法。",
+      "body": "你這次寫的「這題目前算是已完成，接著回到前一題」是很典型的工作交接語氣，英文有對應的固定講法。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 這題目前算是已完成 | This one's wrapped up for now. |\n| 接著回到前一題 | Let's circle back to the previous one. |\n| 收到的回覆如下 | Here's what they came back with: |\n| 這樣就抓到問題了 | That pins it down. |\n\n用字說明：\n\n1. **「算是完成」→ `wrapped up`**。`wrap up` 是「收尾、告一段落」，比 `finished` 更貼近「暫時到這裡」的語感，正好對應你說的「算是」。加 `for now` 更精準。\n2. **「回到前一題」→ `circle back to`**。這是職場英文裡極高頻的片語，意思是「回頭再談某件先前擱置的事」。比 `go back to` 更自然，也更專業。\n3. **「收到的回覆」→ `what they came back with`**。上一輪教過 `get back to someone`（回覆某人），這裡是它的變形：`come back with ~`（帶著某個答覆回來）。\n4. **「抓到問題了」→ `pin it down`**。`pin down` 字面是「用針釘住」，引申為「精確鎖定、確認下來」。除錯時說 `I finally pinned down the bug.`（我終於鎖定那個 bug 了。）非常地道。\n\n延伸一句，這次的情境剛好可以用：\n\n> Her answer narrows it down to two possible causes.\n> （她的回覆把可能原因縮小到兩個。）\n\n`narrow down`（縮小範圍）和 `pin down`（鎖定）常常一起出現在除錯對話裡——先 narrow down，再 pin down，是很自然的流程。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "188675d95222",
+      "date": "20260908",
+      "front": "\"Enter for newline, Ctrl/⌘+Enter to send\"",
+      "body": "你這段又是用中文寫的，我先給你完整的英文版：\n\n> I don't think we need to switch to \"Enter for newline, Ctrl/⌘+Enter to send\" now that we have the recall feature. The desktop version of LINE also keeps Enter as send and offers unsend, and I think that interaction pattern is more intuitive for Taiwanese users — regular users aren't necessarily used to the conventions of engineering-oriented tools.\n\n這段中文有幾個很值得學的表達，因為它們是「講設計理由」時的高頻句型：\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| 既然已經有…了，那應該可以不用… | **now that we have X, we don't need to...** | `now that` 是「既然、既然現在」最精準的對應，帶因果。不要用 `since already have`（缺主詞、也不夠自然） |\n| 維持 Enter 送出 | **keep Enter as send** / **stick with Enter to send** | `stick with` 是「沿用、不改」的口語說法，開會很常用 |\n| 比較好上手 | **more intuitive** / **easier to pick up** | 「上手」不要直譯成 `easier to get started with hands`。`intuitive`（直覺的）是產品討論的標準用字 |\n| 操作習慣 | **interaction pattern** / **muscle memory** | 講「使用者已經養成的操作反射」時，**muscle memory**（肌肉記憶）特別傳神：*Changing Enter would break their muscle memory.* |\n| 不一定習慣… | **aren't necessarily used to...** | 注意是 `be used to + N/Ving`（習慣於），跟 `used to + V`（過去曾經）完全不同意思 |\n| 工程類系統常見的使用方式 | **conventions of engineering-oriented tools** / **developer-tool conventions** | `convention` 在這裡指「業界慣例、約定俗成的做法」，比 `common usage` 精準 |\n\n一個小提醒：中文說「畢竟一般使用者也不一定習慣…」，這個「畢竟」很多人會直譯成 `after all`。但英文的 `after all` 放句首時常帶有「你忘了嗎、我提醒你一下」的辯解語氣，用在說服同事時可能略強。講設計理由時更常用的是 **given that**（考慮到）或直接用破折號接補充，像我上面的英文版那樣 —— 語氣比較平穩。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "169d02c26aeb",
+      "date": "20260908",
+      "front": "\"zero to sixty-five thousand five hundred and thirty-five\"",
+      "body": "這次你貼的是純 log，沒有自己寫的英文句子，所以我改成教 log 裡那句錯誤訊息 —— 讀懂英文錯誤訊息是工程師最實用的英文能力之一：\n\n> `Invalid row number (65536) outside allowable range (0..65535)`\n>\n> **中譯：** 列號 65536 無效，超出允許範圍（0 到 65535）\n\n**拆解這個句型：**\n\n| 片段 | 說明 |\n|---|---|\n| **Invalid X** | 「無效的 X」。錯誤訊息最常見的開頭之一，同類還有 `Illegal`（不合法）、`Malformed`（格式錯誤）、`Unsupported`（不支援）。 |\n| **outside allowable range** | 「超出允許範圍」。`allowable` = 可允許的，同義字 `permitted`、`valid`。反過來說「在範圍內」是 **within range**。 |\n| **(0..65535)** | `..` 是程式界表示「連續區間」的寫法，讀作 \"zero to sixty-five thousand five hundred and thirty-five\"。 |\n\n**其他常見的「超出範圍」說法**，都值得認得：\n\n- `Index out of bounds` — 索引超出邊界（陣列最常見）\n- `Value exceeds the maximum allowed` — 數值超過允許的最大值\n- `Row number must be between 0 and 65535` — 列號必須介於 0 與 65535 之間\n\n**一個實用動詞：exceed（超過）**\n\n- ✅ The result set **exceeds** the row limit.（結果集超過列數上限）\n- ✅ The file size **exceeds** 10MB.（檔案大小超過 10MB）\n\n`exceed` 後面直接接受詞，不用加介系詞 —— 常見錯誤是寫成 `exceeds over the limit` 或 `exceeds than 10MB`，都是多餘的。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "14afd7482d79",
+      "date": "20260908",
+      "front": "\"查看活動\"",
+      "body": "> **原句：** 候補升正取通知有提供一個\"查看活動\"按紐，這個按紐現在會開啟報名活動的頁面，這樣似乎也怪怪的，應該是要看查看活動最新名單才對\n>\n> **English:** \"The waitlist-promotion notice has a 'View activity' button, but right now it opens the sign-up page. That feels off — it should show the activity's current roster instead.\"\n\n先說一個中文的小筆誤：**「按紐」應為「按鈕」**（金字旁），「紐」是紐帶、紐約的紐。另外「應該是要看查看活動最新名單」多了一個動詞，「看」和「查看」重複了。\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 有提供一個…按鈕 | **has a … button** | 中文習慣說「提供」，但英文用 `provides a button` 會顯得笨重。介面元件用 **has** 就好。 |\n| 會開啟…頁面 | **it opens the … page** | 這個你用對了，`open` 正是開啟頁面的標準動詞。 |\n| 似乎也怪怪的 | **That feels off.** | **off** 當形容詞表示「不太對勁、說不上來哪裡怪」，正好對應「怪怪的」那種還沒完全講清楚但直覺有問題的感覺。比 `strange` 更貼近你的語氣。 |\n| 應該是要…才對 | **it should … instead** | 句尾的 **instead** 承擔了「才對」的對比意味 —— 不是這個，是那個。少了它句子會少一層轉折。 |\n\n這次特別想強調 **that feels off** 這個說法的價值。你提報這個問題時的措辭其實很專業：**你先描述現象、標記直覺不對勁、再提出期待的行為**，而沒有斷言「這是 bug」。英文裡完全對應的表達就是：\n\n> \"It **works**, but it **feels off** — I'd expect it to show the roster.\"\n>\n> （它是會動，但感覺不對 —— 我預期它應該顯示名單。）\n\n這種講法在 code review 和 UX 討論裡非常受用，因為它區分了「壞掉」和「設計不妥」。結果這次追下去發現比你想的更糟（使用者會看到報名表單和「已額滿」），但**用保守的措辭開場、讓事實去證明嚴重性**，比一開始就喊 bug 更有說服力。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0a5d860b9e3d",
+      "date": "20260908",
+      "front": "\"The fix is **ready on my end** — it's **blocked on** the helm-repo pipeline. Once someone retries that job, I can cut the next version branch.\"",
+      "body": "你這次是用 slash command 觸發，沒有英文句子可批改。趁這輪的主題補一組很實用的字 —— **「這件事卡住了，但不是卡在我」怎麼講**，正好對應你現在的處境：\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 卡住了 | **it's blocked** / **it's stuck** | **blocked** 偏「被某個外部依賴擋住」（有明確的阻礙者），**stuck** 偏「動不了、原因不明」。你這次是前者 —— 被 helm-repo 擋住。 |\n| 卡在別人那邊 | **it's blocked on someone else** | 注意介系詞是 **on**：`blocked on the helm-repo pipeline`、`blocked on review`。這是固定用法。 |\n| 我這邊做完了 | **it's ready on my end** | **on my end**（我這一端）非常好用，用來劃清責任範圍而不帶指責意味。 |\n| 等別人處理 | **waiting on someone** | 同樣用 **on**。`waiting for` 也通，但 `waiting on` 在職場語境更常指「等某人做某事」。 |\n\n一個完整的、可以直接拿去用的回報句型：\n\n> \"The fix is **ready on my end** — it's **blocked on** the helm-repo pipeline. Once someone retries that job, I can cut the next version branch.\"\n>\n> （修正在我這邊已經完成 —— 卡在 helm-repo 的 pipeline。等有人重跑那個 job，我就可以切下一個版本分支。）\n\n這個句型的價值在於它同時傳達三件事：**我做完了、我沒有停擺、我在等什麼**。在跨團隊協作時，第三點尤其重要 —— 明確說出「我在等什麼」，對方才知道自己是不是那個人。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0978f48399ff",
+      "date": "20260908",
+      "front": "你這句「是不是要由 X 那邊修完再 fork 過來比較正確?」問的是流程歸屬，英文有幾個很固定的講法。",
+      "body": "你這句「是不是要由 X 那邊修完再 fork 過來比較正確?」問的是流程歸屬，英文有幾個很固定的講法。\n\n| 你的中文 | 自然的英文說法 |\n|---|---|\n| 這應該由上游那邊修嗎？ | Should this be fixed upstream? |\n| 修完再 fork 過來 | Fix it upstream, then pull it down. |\n| 這樣比較正確 | That'd be the cleaner way to do it. |\n| 這個修復沒有回流到上游 | This fix never made it back upstream. |\n\n用字說明：\n\n1. **「上游」→ `upstream`**，這正是 Git 的標準用語，指被 fork 的來源 repo；相對的下游是 `downstream` 或 `fork`。你可以直接說 `fix it upstream`，`upstream` 在這裡當副詞用，不用加介系詞。\n2. **「fork 過來」→ `pull it down`**。實務上大家說 `pull down the changes` 或 `sync the fork`。你們流程裡的「update fork」也是通用說法。\n3. **「比較正確」→ `the cleaner way`**。英文在這種情境很少說 `more correct`（聽起來像在講對錯），而是說 `cleaner`（更乾淨）或 `the right place to fix it`（該修的地方）。\n4. **「回流」→ `make it back upstream`** 或動詞 `upstream it`：`We should upstream this fix.`（我們應該把這個修復推回上游。）`upstream` 當動詞用在開源圈非常常見。\n\n延伸一句，正好是這次的判準：\n\n> If the code is identical to upstream, fix it upstream.\n> （如果程式碼跟上游一樣，就到上游去修。）\n\n這種 `If…, then…` 的簡短規則句在技術討論裡很好用——一句話講完判斷標準，不用鋪陳。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "010cd35709ef",
+      "date": "20260908",
+      "front": "\"It **used to** work fine — it **would** last a few hours. Now it prompts **every single time**.\"",
+      "body": "> **原句：** 還是一樣會一直跳出（圖）和（圖），請你檢查 api repo 跟 frontend repo，就我所知主要是這兩個 repo 會有影響。而且之前是驗證過一次之後，可以過蠻長一段時間不用驗證（大約幾個小時），但現在是會一直跳出來，驗證完了也是。\n>\n> **English:** \"It still keeps popping up. Can you check both the api and frontend repos? As far as I know those are the two that matter here. It used to be that after authorizing once it would stay quiet for a few hours, but now it prompts every single time, even right after I've just authorized.\"\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 還是一樣會一直跳出 | **It still keeps popping up.** | `still` + `keeps V-ing` 疊在一起完全自然，表達「修過了但依然反覆發生」。 |\n| 就我所知 | **As far as I know** | 固定片語，常縮寫成 **AFAIK**。它的作用是「我不是百分之百確定」的免責，很適合你這種提供線索但不敢斷言的場合。 |\n| 會有影響 | **those are the ones that matter** | 直譯 `have an effect` 太模糊。**matter** 這個動詞（「有關係、重要」）在這裡最精準：「相關的就是這兩個」。 |\n| 之前是…但現在是… | **It used to …, but now …** | **used to + 原形動詞** 專門表達「以前是這樣，現在不是了」，正是你要對比的語意。注意不要寫成 `used to be doing`。 |\n| 可以過蠻長一段時間不用驗證 | **it would stay quiet for a few hours** | 這裡的 **would** 是「過去的習慣性行為」，跟 `used to` 搭配使用非常道地。**stay quiet** 比 `don't need to verify` 更生動 —— 直接描述「它安靜下來」的現象。 |\n| 驗證完了也是 | **even right after I've just authorized** | `even right after` 強調「才剛做完就又發生」，比單純的 `after` 有力得多。 |\n\n最值得記的是這組「今昔對比」的句型組合，抱怨 regression 時幾乎都這樣講：\n\n> \"It **used to** work fine — it **would** last a few hours. Now it prompts **every single time**.\"\n>\n> （以前好好的，可以撐幾個小時。現在每一次都問。）\n\n**every single time** 裡的 `single` 是加強語氣用的，比單講 `every time` 更能傳達你的挫折感，而且在技術溝通裡完全不算誇張或不禮貌 —— 它幫對方判斷嚴重程度，是有用的資訊。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "00b37a8e8678",
+      "date": "20260908",
+      "front": "\"So the failure was caused by the 65,536-row limit?\"",
+      "body": "> **原句：** 所以這筆失敗的原因是因為 65536 限制的關係?\n>\n> **英文：** \"So the failure was caused by the 65,536-row limit?\"\n\n**用字說明：**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 是因為…的關係 | **because of** / **caused by** | 中文的「…的關係」只是語氣помощ詞，**英文完全不用翻出來**。寫成 `because of the relationship of the limit` 是典型的中式英文。 |\n| 這筆 | **this one** / **this schedule** | 中文量詞「筆」在英文用 `one`、`case` 或直接講明是什麼（`this schedule`）。 |\n| 65536 限制 | **the 65,536-row limit** | 英文習慣講明「限制的是什麼」，加上 `row` 會清楚很多。注意當數字加名詞當形容詞用時要加連字號，而且 **row 用單數**：`a 65,536-row limit`、`a 10-minute break`、`a 3-year contract`。 |\n\n**確認理解的常用句型**，這幾個都比直翻更自然：\n\n- ✅ **So** the root cause was the row limit?（所以根因是列數限制？）\n- ✅ **Just to confirm** — this failed because of the 65,536-row limit?（確認一下 —— 這是因為列數限制才失敗的嗎？）\n- ✅ So it **boils down to** the row limit?（所以歸根究柢是列數限制？）\n\n`boil down to`（歸結為）這個片語在討論根因時很好用，語感是「層層剝開後最後就是這個」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0066dc49249a",
+      "date": "20260908",
+      "front": "\"Green doesn't mean deployed — the pipeline hands off to helm-repo and doesn't wait for the rollout.\"",
+      "body": "你這次全程用中文，先給你整段的自然英文說法：\n\n> **原句：** 已跑完且全綠。因為我沒有 helm-repo 的權限，所以我也無法進去看。那如果我想重推，我應該直接在 Stage: merge-and-deploy 再 run 一次，還是說我再推一個 prod-v0.3.28 來觸發新的 pipeline？\n>\n> **English:** \"The pipeline finished and everything's green. I don't have access to helm-repo, so I can't check it myself. If I want to redeploy, should I just retry the `merge-and-deploy` job, or push a new `prod-v0.3.28` branch to trigger a fresh pipeline?\"\n\n幾個關鍵用字的 nuance：\n\n| 中文 | 建議英文 | 說明 |\n| --- | --- | --- |\n| 全綠 | **everything's green** / **all stages passed** | `green` 在 CI 語境是完全通用的行話，直接說 `it's all green` 母語者一聽就懂，不用改成正式說法。 |\n| 我沒有…的權限 | **I don't have access to …** | 比直譯的 `I don't have permission` 更自然。`permission` 偏向「單一動作被授權與否」，`access` 才是「進得去／看得到」這個整體狀態。 |\n| 重推 | **redeploy** / **re-trigger the deploy** | 注意「重推」在這裡的實際意思是「重新部署」，不是 `push again`。如果講 `re-push` 對方會以為你要 `git push` 一次。 |\n| 再 run 一次 | **retry the job** / **re-run the job** | GitLab UI 上那顆按鈕的官方字就是 **Retry**，跟工具用詞對齊最不會有誤會。 |\n| 觸發新的 pipeline | **trigger a fresh pipeline** | `fresh` 比 `new` 多了「重新來過、乾淨的一輪」的味道，很貼近你的語意。 |\n\n一個很值得記的句型 —— 正是你這題的核心：\n\n> \"Green doesn't mean deployed — the pipeline hands off to helm-repo and doesn't wait for the rollout.\"\n>\n> （綠燈不代表已部署 —— pipeline 把工作交棒給 helm-repo，並不會等 rollout 完成。）\n\n其中 **hand off**（交棒／移交）這個片語動詞在描述系統之間的接力非常好用，名詞形是 **handoff**，例如 \"the handoff to helm-repo succeeded, but the rollout never happened\"。",
+      "tags": [
+        "nuance",
+        "comparison"
+      ]
+    },
+    {
       "id": "f6f55ef8a7a2",
       "date": "20260907",
       "front": "\"It compiles, but it hasn't been exercised.\"",
