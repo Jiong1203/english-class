@@ -23,7 +23,8 @@ $env:GIT_TERMINAL_PROMPT = '0'
 function Write-Log {
     param([string]$Message, [string]$Level = 'INFO')
     $line = '{0}  [{1}] {2}' -f (Get-Date -Format 'yyyy-MM-dd HH:mm:ss'), $Level, $Message
-    Add-Content -Path $LogFile -Value $line -Encoding utf8
+    # PowerShell 5.1's -Encoding utf8 emits a BOM; write it ourselves without one.
+    [System.IO.File]::AppendAllText($LogFile, $line + [Environment]::NewLine, (New-Object System.Text.UTF8Encoding $false))
 }
 
 function Invoke-Git {
@@ -62,11 +63,18 @@ try {
     $body     = "Auto-committed by the scheduled task EnglishClass-AutoPush. Changed files: $fileList"
 
     # git commit -F <file> avoids any quoting/here-string pitfalls with multi-line messages.
+    # Set-Content -Encoding utf8 would prepend a BOM on PowerShell 5.1 and git would
+    # treat those bytes as the first characters of the subject line, so write it raw.
     $msgFile = Join-Path $env:TEMP ('ec_commit_{0}.txt' -f (Get-Date -Format 'yyyyMMddHHmmss'))
-    Set-Content -Path $msgFile -Value ($subject + "`r`n`r`n" + $body) -Encoding utf8
+    [System.IO.File]::WriteAllText($msgFile, ($subject + "`r`n`r`n" + $body), (New-Object System.Text.UTF8Encoding $false))
 
     try {
         Invoke-Git @('commit', '-F', $msgFile) | Out-Null
+        $actual = Invoke-Git @('log', '-1', '--format=%s')
+        if ($actual -ne $subject) {
+            Write-Log ("Commit subject was mangled (expected '{0}', got '{1}') - amending." -f $subject, $actual) 'WARN'
+            Invoke-Git @('commit', '--amend', '-F', $msgFile) | Out-Null
+        }
         Write-Log "Committed: $subject"
     } finally {
         Remove-Item -Path $msgFile -Force -ErrorAction SilentlyContinue

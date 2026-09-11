@@ -46,6 +46,15 @@
       ]
     },
     {
+      "id": "7a73d250e982",
+      "date": "20260911",
+      "front": "你這次寫的是中文短指令「手動觸發一次做端到端測試」，我提供對應的英文說法。",
+      "body": "你這次寫的是中文短指令「手動觸發一次做端到端測試」，我提供對應的英文說法。\n\n**自然的英文說法：**\n> Trigger it manually once for an end-to-end test.\n\n**更口語的版本：**\n> Let's kick it off manually and do a full end-to-end run.\n\n**用字細節說明：**\n\n| 中文 | 英文 | 為什麼這樣說 |\n|---|---|---|\n| 手動觸發 | **trigger it manually** | `trigger` 是排程／CI 語境的標準動詞。口語也常說 `kick it off`（啟動它），在工程團隊裡很常見。 |\n| 一次 | **once** | 放在動詞後面，`trigger it manually once`。不要說 `trigger one time`，`once` 更自然。 |\n| 端到端測試 | **an end-to-end test** | 固定術語，縮寫 **E2E**。注意連字號：當形容詞用時要寫 `end-to-end test`；當名詞用時可寫 `test it end to end`（不加連字號）。 |\n\n**這個連字號規則值得記一下**，它適用於一整類詞：\n\n> ✅ It's a **well-known** issue. （形容詞在名詞前 → 加連字號）\n> ✅ The issue is **well known**. （放在 be 動詞後 → 不加）\n\n同理：`a real-time update` vs `it updates in real time`、`a read-only file` vs `the file is read only`。這是英文寫作裡很容易被扣分的細節，你在寫技術文件或 commit message 時會常用到。\n\n**順帶一提**，如果你想更精準地表達「我要確認整條流程真的能跑」，工程師常說：\n\n> I want to make sure the whole pipeline actually works end to end.\n\n`the whole pipeline`（整條流程）比 `all the steps` 更專業，而句尾的 `end to end` 正好示範了上面的不加連字號用法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "51c674e24392",
       "date": "20260911",
       "front": "你這句「先 /commit-push-merge 上線」的自然英文說法：",
