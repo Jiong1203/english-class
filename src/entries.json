@@ -1,6 +1,16 @@
 {
   "entries": [
     {
+      "id": "a64177ae9e1a",
+      "date": "20260913",
+      "front": "你的英文句子：",
+      "body": "你的英文句子：\n\n> push為什麼沒有push到orgin?\n\n這句是中英混用，我先處理拼字，再給完整的英文說法。\n\n**拼字修正：**\n\n| 你寫的 | 正確 |\n|---|---|\n| `orgin` | **`origin`** |\n\n`origin` 的字母順序是 **o-r-i-g-i-n**，注意 `i` 在 `g` 的**前面**。`orgin` 是很常見的手誤，因為打字時手指順序容易顛倒。記憶方法：它和 `original`（原本的）同源，想著 `origin`al 就不會拼錯了。\n\n**完整的英文說法：**\n\n> Why didn't it push to origin?\n\n**文法重點：`didn't` 後面要用原形動詞**\n\n這是你這句話最值得注意的地方：\n\n> ❌ Why didn't it ~~pushed~~ to origin?\n> ✅ Why didn't it **push** to origin?\n\n因為 `did` 已經扛下了「過去式」的責任，後面的動詞就回到原形。這條規則適用於所有助動詞：\n\n| 句型 | 正確 | 錯誤 |\n|---|---|---|\n| 否定過去 | It **didn't push**. | It didn't ~~pushed~~. |\n| 疑問過去 | **Did** it **push**? | Did it ~~pushed~~? |\n| 情態動詞 | It **should push**. | It should ~~pushes~~. |\n\n**幾種不同語氣的問法：**\n\n| 說法 | 語氣 |\n|---|---|\n| **Why didn't it push to origin?** | 中性直接，最貼近你的原意 |\n| **Why wasn't it pushed to origin?** | 被動語態，焦點在「這筆 commit」而非「腳本」 |\n| **Any idea why it didn't push?** | 較委婉，適合問同事 |\n| **It never made it to origin — what happened?** | 口語，帶點「怎麼會這樣」的語氣 |\n\n最後那句的 `make it to somewhere`（成功抵達某處）很實用：\n\n> The commit **never made it to** origin.\n> （那筆 commit 從來沒抵達 origin。）\n\n這個片語在描述「東西沒送達」時特別自然，比 `was not pushed successfully` 生動得多，而且適用範圍很廣——訊息沒送到、檔案沒傳成功、人沒趕上會議，都可以用。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "fed7157dbca6",
       "date": "20260911",
       "front": "\"Does the scheduled send apply the topic's default filter conditions when generating the file?\"",
