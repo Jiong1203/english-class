@@ -82,6 +82,15 @@
       ]
     },
     {
+      "id": "8b512d8cbb5a",
+      "date": "20260914",
+      "front": "\"\n>\n> \"",
+      "body": "你這次是用中文描述需求，以下是比較自然的英文說法：\n\n> \"Our current welcome message for 團團磚 is pretty basic. Since we've recorded some short videos, we'd like them to play directly inside LINE so the instructions are clearer.\"\n>\n> \"When someone adds the bot as a friend, it should send a welcome card with a quick intro and two buttons: one for organizers and one for regular members.\"\n\n用法說明：\n- 「較為單純」用 **pretty basic** 或 **fairly simple** 比較自然。直譯成 \"relatively pure\" 意思會跑掉。\n- 「吐出一張卡片」是口語。英文用 **send / reply with a card** 就好，不要直譯成 \"spit out\"。\n- 「團主」在產品文案裡常用 **organizer** 或 **host**；「一般用戶」可以說 **regular members** 或 **participants**。\n- 「讓影片在 LINE 上直接播放」可以說 **play the videos natively in LINE**。**natively** 強調不用跳到外部網站，是技術討論裡很常見的字。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "7f664e165f0f",
       "date": "20260914",
       "front": "你這句「token 試試看這個」的自然英文說法：",
@@ -136,6 +145,15 @@
       ]
     },
     {
+      "id": "51a00d736049",
+      "date": "20260914",
+      "front": "你寫的是中文，比較自然的英文說法：",
+      "body": "你寫的是中文，比較自然的英文說法：\n\n> \"Please deploy this to the dev environment, but don't merge it into `dev` yet.\"\n\n- 「上測試機」在工程對話裡常說 **deploy to dev / staging**。直譯成 \"put it on the test machine\" 不自然。\n- 「先不要」用 **don't … yet** 最順，**yet** 表示之後還是會做，只是現在先不要。\n- 「merge 回 dev」說 **merge it into `dev`** 或 **merge it back into `dev`** 都可以，介系詞用 **into**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "50743e25968e",
       "date": "20260914",
       "front": "\"who are you?\"",
@@ -185,6 +203,15 @@
       "date": "20260914",
       "front": "\"Just tweaking the offset.\"",
       "body": "這次你一樣是用 slash command，沒有英文句子。補一個和這次動作直接相關的實用表達：\n\n- 「我自己手動改了數值並且已經 stage 了」→ *I tweaked the value by hand and already staged it.*\n  - **tweak** 是工程師最愛的字，指「微調」，比 change / adjust 更精準傳達「小幅度修改」。例如 \"Just tweaking the offset.\"\n- 「這顆按鈕會壓到送出鈕」→ *The button overlaps the Send button.* 或更口語 *The button gets in the way of the Send button.*\n  - **get in the way of** = 「擋到、妨礙」，描述 UI 遮擋很自然。\n- 「貼齊視窗底部」→ *flush with the bottom of the viewport*。**flush with** 是排版／UI 的專業用語，意思是「與…齊平」，例如 \"Keep the panel flush with the right edge.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1ec0e350008e",
+      "date": "20260914",
+      "front": "你寫的是中文，比較自然的英文說法：",
+      "body": "你寫的是中文，比較自然的英文說法：\n\n> \"When you watch those four short videos on a phone, the top and bottom get cut off. Is there any way to fix that?\"\n\n- 「被切到」最常說 **get cut off**；講影像技術時也可以用 **get cropped**。\n- 「有辦法改善嗎？」口語說 **Is there any way to fix that?**，比 \"Is there a method to improve it?\" 自然很多。\n- 這次處理用到一個技術詞：左右補黑邊叫 **pillarbox**，上下補黑邊叫 **letterbox**。",
       "tags": [
         "note"
       ]
