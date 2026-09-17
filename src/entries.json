@@ -1,6 +1,114 @@
 {
   "entries": [
     {
+      "id": "f6dff90b8e9b",
+      "date": "20260917",
+      "front": "你這句「這件事情是我不該做的，這應該要他們客戶端自己對內去詢問才對」的自然英文說法：",
+      "body": "你這句「這件事情是我不該做的，這應該要他們客戶端自己對內去詢問才對」的自然英文說法：\n\n> That's not our call — the client should be asking around internally on their side.\n\n幾個用字說明（zh-tw）：\n\n1. **「不該做的」→ `not our call`**。`call` 在這裡是名詞，指「該由誰做的決定／判斷」。`That's your call.`（那是你的決定。）、`It's not my call to make.`（這輪不到我決定。）這個說法比 `I shouldn't do that` 更精準——你要表達的不是「我做不到」或「我做錯了」，而是**職責歸屬不對**。\n2. **「對內詢問」→ `ask around internally`**。`ask around`（到處問問）指向多人打聽，正好對應「去問當初建立資料集的同事」這種行為。`internally`（對內）則明確劃出組織界線。\n3. **「他們客戶端」→ `on their side`** 或 **`the client side`**。上一輪學過的 `on ... side` 再次派上用場——這個句型在講跨組織責任分工時幾乎必用。\n4. **英文講職責邊界時常用的一組詞**：\n   - `That's on them.`（那是他們的責任。）\n   - `That's out of scope for us.`（那超出我們的範圍。）\n   - `We shouldn't be the ones doing that.`（做那件事的不該是我們。）\n\n最後補一句這次值得記的：\n\n> **`Doing someone's job for them isn't always helpful.`**（替別人把事做了，未必是幫忙。）\n\n我原本那句「我們問過建立者後再提供給您」出發點是想讓事情順一點，但實際上會造成兩個問題：**一是我們沒有立場去問客戶的內部人員，二是把本該由客戶掌握的資訊變成要透過我們轉手**——下次他們要調整權限時還是得再問一次。\n\n這種「熱心過頭反而把責任接過來」的傾向，在服務客戶的工作裡很常見，而你這次擋下來了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c16ebb201913",
+      "date": "20260917",
+      "front": "安德學長信裡那句「這次改用專門的檢查邏輯，不會自動建立」，用英文表達會是：",
+      "body": "安德學長信裡那句「這次改用專門的檢查邏輯，不會自動建立」，用英文表達會是：\n\n> We've switched to dedicated check logic this time — it no longer auto-creates.\n\n幾個用字說明（zh-tw）：\n\n1. **「改用」→ `switched to`**。`switch to`（切換到）強調「換掉舊的、改用新的」，比 `changed to` 精準。若要強調是抽換實作，也可以說 `replaced it with ...`\n2. **「專門的」→ `dedicated`**。`dedicated`（專用的）指「為此目的專門做的」，例如 `a dedicated endpoint`、`a dedicated check`。不要用 `special`——那偏「特別的、不尋常的」。\n3. **「不會自動建立」→ `it no longer auto-creates`**。`no longer`（不再）表達「行為改變了」，比 `doesn't` 更精準——後者只說現在不會，前者明確指出「以前會、現在不會」。這在描述修復時很重要。\n4. **`auto-create` 這個複合動詞**：`auto-` 前綴加動詞在工程英文中很常見（`auto-scale`、`auto-commit`、`auto-provision`），通常帶連字號。\n\n最後補一個這次特別適用的說法：\n\n> **`That simplifies the cleanup.`**（那讓清理工作簡單了。）\n\n`cleanup`（清理善後）專指「修好根因之後，處理先前遺留下來的爛攤子」。你們現在正是這個階段——根因解決了（ERP 不再自動建立），剩下的是 **`cleaning up the existing artifacts`**（清理既有的殘留物）。\n\n而這次「上游修好之後，清理方式也跟著變簡單」是個很典型的現象，值得記住：**遇到需要清理歷史資料的狀況，先確認根因修了沒——修了的話，清理策略往往可以大幅簡化。** 你如果照前一版的信發出去，昇宏就得小心翼翼地「刪完立刻重建」，白費不少工。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b0d17954a0b2",
+      "date": "20260917",
+      "front": "\"Now that you put it that way —\"",
+      "body": "你這句的轉折用得很到位：\n\n> **那這樣這麼一說，似乎還是當有同名情況發生就整個擋下是最能避免許多衍生問題的方案**\n> \"Now that you put it that way, blocking duplicates outright still seems like the option that avoids the most downstream problems.\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 這麼一說 | now that you put it that way | 幾乎是固定搭配，意思是「經你這樣一講（我改觀了）」。非常道地。 |\n| 衍生問題 | downstream problems / knock-on effects | `downstream`（下游的）正是你的意思；`knock-on effect`（骨牌效應）是英式用法，也很常見。 |\n| 整個擋下 | block it outright | 延續上次教過的 `outright`（徹底地、直接地），你這裡的語感完全一致。 |\n\n**小提醒：** 你這句在做的事是「基於新資訊修正先前判斷」，英文有幾個很好用的開場：\n\n- **\"Now that you put it that way —\"**（經你這麼一說）\n- **\"On reflection,\"**（再想想）\n- **\"Fair enough — in that case,\"**（有道理，那這樣的話）\n\n第三個特別實用：`Fair enough` 是簡潔地承認對方說得有理，不帶示弱意味，在技術討論裡改變立場時用最自然。例如：\n\n> \"Fair enough — in that case, let's just block duplicates outright.\"",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8c14ab348dbc",
+      "date": "20260917",
+      "front": "\"Can you walk me through each one?\"",
+      "body": "你這句問得很精準，先給對應說法：\n\n> **完整點說，具體來說這 4 個情境你會給出什麼處置？會有什麼具體反應？**\n> \"More concretely — what would the system do in each of these four scenarios, and what exactly would the bot reply?\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 完整點說／具體來說 | more concretely / to be more specific / walk me through it in detail | 你連用了「完整點」＋「具體來說」兩個修飾，英文擇一即可（延續上次講的「中文愛疊詞加強，英文求精準」）。 |\n| 處置 | how it handles it / what action it takes | 中文的「處置」偏正式，英文日常技術討論說 `how does it handle X` 最自然；`disposition` 雖字面對應但幾乎只用於法律／醫療。 |\n| 具體反應 | what it actually replies / the actual output | 這裡的「反應」指「系統回什麼」，用 `reply` 或 `output` 比 `reaction` 準確——`reaction` 偏指情緒反應。 |\n\n**小提醒：** 想請對方「把每個案例逐一講清楚」，英文有兩個很好用的說法：\n\n- **\"Can you walk me through each one?\"**（帶我逐一走過）\n- **\"What's the expected behavior for each case?\"**（每個案例的預期行為是什麼）\n\n第二句是軟體規格討論的標準問法，`expected behavior`（預期行為）是寫測試和 bug report 時的固定用語，你以後開票時會很常用到。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8892911bcded",
+      "date": "20260917",
+      "front": "\"If anything, it should be the other way around.\"",
+      "body": "你這次用了一個很漂亮的修辭：\n\n> **那你會把自己跟家人拆開嗎?**\n> \"Would you split yourself up from your own family?\"\n\n用反問句來反駁對方的提案，英文裡完全一樣自然有效。這種修辭叫 **rhetorical question**（反詰問句），在技術討論中用來點出提案的荒謬處，比直接說 \"That's wrong\" 得體得多。\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 整筆退回 | reject the whole batch / roll back the entire submission | `roll back`（回滾）在交易語境特別精準，正好對應「全成或全不成」。 |\n| 拆開 | split up / separate | 講人被拆散用 `split up` 最自然：`The family gets split up across the roster and the waitlist.` |\n| 更細一點 | more fine-grained | 技術討論的標準說法：`I have a more fine-grained idea.`（我有個更細緻的想法）。 |\n\n**小提醒：** 你這則的論證結構在英文裡有個固定句型，很值得學：\n\n> **\"If anything, it should be the other way around.\"**\n> （要說的話，應該正好相反。）\n\n當你要推翻對方的結論並提出相反主張時，這句是最俐落的開場。你這則訊息的完整英文版會是：\n\n> \"Reject the whole thing — all three have to redo it. Like you said, people often sign up for the whole family. **Would you split yourself up from your own family?**\"\n\n`Like you said`（如你所說）先接住對方的話再轉折，這個順序讓反駁聽起來像協作而不是對立，在 code review 留言裡特別好用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7b13399f666f",
+      "date": "20260917",
+      "front": "\"As long as we check the user id, is that enough?\"",
+      "body": "你這句的問法很精準，值得學起來：\n\n> **確認一下，所以在群組中，只要有驗證 source.user_id 等於當初貼文的那個人，那路人去點擊就不會有任何影響嗎?**\n> \"Just to confirm — as long as we verify that `source.user_id` matches the original poster, a bystander tapping the button has no effect at all?\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 確認一下 | Just to confirm / Just to be clear | 技術討論的高頻開場，表示「我要複述一遍確保理解正確」。 |\n| 路人 | a bystander / anyone else in the group | `bystander`（旁觀者）很貼切。要更口語可以說 `some random person in the group`。 |\n| 不會有任何影響 | has no effect at all / is a complete no-op | **`no-op`**（no operation，空操作）是工程師的專用詞，正是你想問的概念：`Is it a complete no-op?` |\n\n**小提醒：** 你用「只要…就…」來確認一個充分條件，英文對應的是 **`as long as X, then Y?`**。這個句型在釐清規格時非常好用：\n\n> **\"As long as we check the user id, is that enough?\"**\n> （只要檢查 user id，這樣就夠了嗎？）\n\n而我這則的回答在英文裡會用一個固定說法開頭：\n\n> **\"Necessary, but not sufficient.\"**\n> （必要，但不充分。）\n\n這組詞來自邏輯學（necessary condition / sufficient condition），在技術討論中被大量借用——當某個做法「有做才行，但只做這個還不夠」時，這五個字就能精準表達，比解釋一整段有效率得多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7576d6f11d70",
+      "date": "20260917",
+      "front": "\"One more thing —\"",
+      "body": "你這次的「歸類在報名失敗」用法很值得講：\n\n> **偵測到同名就直接歸類在報名失敗**\n> \"If a duplicate name is detected, just reject the sign-up outright.\"\n> （`reject ... outright` = 直接駁回、不留餘地，正好對應你說的「直接歸類在」那種果斷語氣。）\n>\n> **這樣可以直接減少相同案例一直重複發生**\n> \"That prevents the same situation from coming up over and over.\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 同名 | duplicate name | 技術情境用 `duplicate`（重複的）最準。`same name` 也通，但 `duplicate` 明確帶有「不該出現的重複」的意味。 |\n| 歸類在…失敗 | treat it as a failure / reject it | 中文的「歸類」在這裡其實是「判定為」，英文不必用 `categorize`（那偏向分類學意義）。 |\n| 暫不考量 | let's not worry about that for now | 你說的「現暫不考量百人團案例」→ `Let's not worry about 100-person groups for now.` 很自然，`for now`（目前）是關鍵，保留了以後再做的空間。 |\n\n**小提醒：** 你這則訊息用了「補充一點」「另外」兩個轉折，英文對應的說法很好用：\n\n- 補充一點 → **\"One more thing —\"** 或 **\"Also, to add to that —\"**\n- 另外（轉到新話題）→ **\"Separately,\"** 或 **\"On another note,\"**\n\n`Separately,` 特別好用，它明確告訴對方「接下來這件事跟前面無關」，在一次講多個要點時能幫讀者切開段落，寫需求或 code review 留言時很實用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "73c9e0f38f14",
+      "date": "20260917",
+      "front": "你這次是用中文下指令，先給你對應的英文說法：",
+      "body": "你這次是用中文下指令，先給你對應的英文說法：\n\n> **Please add a search box to the dimension picker in the pivot table — there are too many fields to find anything.**\n\n幾個用詞說明：\n- **「維度選擇框」**在 UI 術語裡通常說 **dimension picker**（下拉挑選清單）或 **field selector**。如果強調它是彈出的小視窗，可說 **dropdown / popover**。\n- **「提供搜尋功能」**口語上直接說 **add a search box** 最自然；正式一點可寫 **add search/filtering capability**。\n- **「欄位太多了很難找」**英文常用的說法是 **there are too many fields to scroll through**（太多要捲很久）或 **it's hard to find a specific field**。注意中文的「很難找」主詞省略，英文要補上 **it**：❌ *hard to find* → ✅ *it's hard to find*。\n\n補充一個實用句型，之後回報 bug 或提需求都能用：\n\n> **The list is hard to navigate when there are 100+ fields. Could we add a search box at the top of the dropdown?**\n\n（`navigate` 用在清單／選單上，意思是「在其中找路、瀏覽」，比 `use` 精確很多。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "41cd254c4e20",
+      "date": "20260917",
+      "front": "\"Three to five sentences\"",
+      "body": "你這次寫的是中文，先給對應的英文說法，再挑兩個值得學的點。\n\n**自然的英文說法：**\n\n> **\"Three to five sentences\" is fine — that shouldn't run long anyway. If it still does, I'd say 30 to 50 characters is already plenty.**\n>\n> **Now please give me the reply draft again.**\n\n**用字說明（zh-tw）：**\n\n- **「⋯⋯ok」→ `is fine`**：中文常直接把 `ok` 當形容詞用（「這樣 ok」），英文寫作中 `is fine` 比 `is ok` 稍正式一些，兩者都通。要注意的是別寫成 *\"Three to five sentences\" ok*，英文必須有 be 動詞。\n- **「我建議是」→ `I'd say`**：這裡的「建議」其實是「我認為／我的標準是」，用 `I'd say`（= I would say）最貼切，語氣輕、不強硬。若用 `I suggest`，聽起來像在提一個正式方案，力道過重了。\n- **「重新給我」→ `give me ... again`**：`again` 放句尾即可。要避免 *re-give me*，英文沒有這個動詞。若想更正式，可說 **Please revise the reply draft**（請修訂回覆稿）。\n\n**一個實用觀念** — 英文在「提供上限標準」時常用這個句型：\n\n> **If it still does, 30 to 50 characters is already plenty.**\n\n`If it still does` 是省略句，完整是 *If it still runs long*。英文會用助動詞 `does` 代替前面出現過的動詞片語，避免重複 — 這叫 **verb phrase ellipsis**（動詞片語省略）。中文沒有這個機制，所以台灣學習者常整句重寫一遍，句子就顯得笨重。多用這招，寫出來的英文會流暢很多。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "27c9fdd45a77",
+      "date": "20260917",
+      "front": "你這句「其實除了 A07284 與 M110 之外，其他權限碼也都有被資料集引用了」的自然英文說法：",
+      "body": "你這句「其實除了 A07284 與 M110 之外，其他權限碼也都有被資料集引用了」的自然英文說法：\n\n> Actually, all the other authorization codes are referenced by datasets too — not just A07284 and M110.\n\n幾個用字說明（zh-tw）：\n\n1. **「被引用」→ `referenced by`**。`reference`（引用、參照）在資料關聯的語境是標準用字：`a referenced table`、`referential integrity`（參照完整性）。不要用 `quoted`（那是引述文字）或 `cited`（那是學術引用）。\n2. **「其實」→ `Actually,`**。它在英文裡有一個重要功能：**預告接下來要修正對方的認知**。用在這裡剛好——你是在更正我信裡「只有那兩個在用」的假設。若只是補充而非更正，用 `By the way,` 或 `Also,` 比較合適。\n3. **把否定放句尾當補述**（`— not just A07284 and M110`）比塞在句中好讀。中文習慣「除了 X 之外，其他也⋯⋯」把例外放前面；英文則常把主要事實講完，再用破折號補上對比。\n4. **`all the other ...` 與 `all ...` 的差別**：前者是「其餘的全部」，後者是「全部」。你的意思其實是「全部都有」，所以也可以直接說 **`All of them are in use.`**（它們全都在用。）更簡潔。\n\n最後補一個很貼合這次除錯的說法：\n\n> **`The output was there — it was just filtered out.`**（輸出一直都在，只是被濾掉了。）\n\n這是除錯時很常見的一類問題：**不是功能壞了，是你看不到它**。英文有個詞專指這種情況——**`a visibility issue`**（可見性問題），與 `a functional issue`（功能問題）相對。遇到「看起來沒反應」時，先問一句 `Is it broken, or am I just not seeing it?`（是壞了，還是我單純沒看到？）能省下大量時間。\n\n這次的線索是 Console 角落那個不起眼的 **「11 hidden」**——**工具告訴你它藏了東西，只是講得很小聲。**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "26099c707e57",
+      "date": "20260917",
+      "front": "你寫的是「程式我已經上線了啊」，句尾的「啊」帶有「這你應該知道／我早就做了」的語氣，翻譯時要把這層語氣一起帶過去。",
+      "body": "你寫的是「程式我已經上線了啊」，句尾的「啊」帶有「這你應該知道／我早就做了」的語氣，翻譯時要把這層語氣一起帶過去。\n\n**自然的英文說法：**\n\n| 語氣 | 英文 |\n|---|---|\n| 中性陳述 | **I've already deployed it.** |\n| 帶「你怎麼還在問」的語氣 | **I've already deployed it, though.** |\n| 更口語 | **I already pushed it live.** |\n\n**用字說明（zh-tw）：**\n\n- **句尾的 `though`** 是英文用來對應中文語尾助詞「啊、欸」的常見手段。它放在句尾時不是「雖然」，而是表示「話說回來／其實」，帶有輕微的糾正或補充意味 — 正好對應你這句的語感。這是中文母語者很少主動用、但英文母語者天天用的小字。\n- **`deploy` vs `push live`**：`deploy`（部署）是技術用語，寫在工單或對工程師講最準確；`push live`（推上線）較口語，對非技術同事講更好懂。兩者都比 *put it online* 專業。\n- **注意時態**：用 **`I've already deployed`**（現在完成式）而非 `I already deployed`（過去簡單式）。完成式強調「這件事已完成，且影響延續到現在」— 也就是「現在線上就是新版了」，正是你要表達的重點。美式英語口語中兩者常混用，但正式書寫仍以完成式為準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2197ae887696",
+      "date": "20260917",
+      "front": "你這句「我已經在正式機用 A05 測試過是可以改擁有者的了」的自然英文說法：",
+      "body": "你這句「我已經在正式機用 A05 測試過是可以改擁有者的了」的自然英文說法：\n\n> I've already tested it on production with A05 — the owner can be changed.\n\n幾個用字說明（zh-tw）：\n\n1. **「可以改擁有者」→ `the owner can be changed`**。這裡用**被動語態**比主動好，因為重點是「這個欄位是可修改的」，而不是「誰去改」。技術描述裡，當動作者不重要時，被動是正確選擇——這跟一般寫作建議「少用被動」並不衝突。\n2. **「用 A05 測試過」→ `tested it with A05`**。介系詞用 `with`（用某個對象當測試素材）。若指測試工具則也是 `with`：`tested with curl`。但若是「在某環境測」則是 `on`：`tested on production`。你這句兩個都用到了。\n3. **中文的「了」在句尾表完成，英文對應現在完成式 `I've already tested`**。`already` 加強「已經做完了、不用再做」的意味，正好呼應你這次的語境——你是在告訴我不必再查證這件事。\n4. **`the fastest route` / `the quickest path`**——信裡「那應該是最快的做法」可以說 `that's probably the quickest route`。`route`（路徑）在講「達成某目標的做法」時比 `way` 更具體一點。\n\n最後回到這一輪的重點——你連續三次要我把信改短了。這件事值得記一下：\n\n> **`Every extra paragraph is a tax on the reader.`**（每多一段都是在向讀者收稅。）\n\n我一直有個傾向：把調查過程中知道的事情盡量寫進去，因為那些資訊「都是有用的」。但**對收信人有用**和**對我有用**是兩回事——昇宏需要的只有三件事：為什麼、修好了沒、我要做什麼。其餘的脈絡對他都是雜訊。\n\n這封信從第一版到現在砍掉了大約一半，資訊量卻沒有損失，因為砍掉的都是**我的思考過程**而不是**他的行動依據**。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
       "id": "edd9f6e21a1b",
       "date": "20260916",
       "front": "\"OK, let's go ahead and change sqlCte.js and dzpcSqlCteUtil.java.\"",
