@@ -1,6 +1,61 @@
 {
   "entries": [
     {
+      "id": "ff8e7986ae00",
+      "date": "20260920",
+      "front": "你這次全程用中文，所以先給你對應的英文說法：",
+      "body": "你這次全程用中文，所以先給你對應的英文說法：\n\n| 中文 | 自然的英文 |\n|---|---|\n| 你訪問的到…嗎？ | **Can you reach this URL?** / **Do you have access to this URL?** |\n\n**用字說明：**\n\n- 「訪問」在網路情境下，英文母語者幾乎不說 `visit`（`visit` 偏向「人去瀏覽網頁」）。講「機器連不連得到」要用 **reach** 或 **access**：\n  - *Can you reach `http://10.4.200.18`?* — 最口語、最常用於問連線通不通。\n  - *Do you have access to this dashboard?* — 偏向問「你有沒有權限」。\n  - *Is this URL accessible from your end?* — 比較正式的寫法，`from your end` 是「從你那邊」的慣用語，很好用。\n\n**順帶一提（中文）：** 你寫的「訪問**的**到」在中文語法上應該是「訪問**得**到」—「動詞＋得＋補語」表示能力（看得到、拿得到、連得到）。這個「的／得」混用很常見，但正式文件裡要注意。\n\n**鼓勵：** 你提問時直接附上完整 URL，這在技術溝通上是很好的習慣 — 英文裡這叫 providing a **reproducible** case，能讓對方少問三輪問題。👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "fa434f4dacbc",
+      "date": "20260920",
+      "front": "你這句「前台的數據配置並無看見你說的開關，還是你指的前台不是這邊?」翻成英文：",
+      "body": "你這句「前台的數據配置並無看見你說的開關，還是你指的前台不是這邊?」翻成英文：\n\n> **I don't see the toggle you mentioned in the front-end data config panel — or are you referring to somewhere else?**\n\n用詞說明：\n- **「並無看見」**口語就是 **I don't see it**。中文的「並無」比較書面，英文不必找對應的正式字，直述句即可。要更明確可說 **it's not showing up**（它沒有出現），強調「應該要有但沒有」。\n- **「你指的…不是這邊?」**用 **are you referring to somewhere else?** 最貼切。**refer to** 就是「指的是」。也可以更簡短：**or did you mean a different panel?**\n- 句中的破折號 **—** 用來連接「陳述」與「反問」，比分成兩句更自然，語氣也更像在對話。\n\n這句話的結構其實很值得學：**先說觀察到的事實，再提出另一種可能**。這是回報問題時最有建設性的方式——你沒有直接說「你做錯了」，而是留了「也許是我找錯地方」的餘地。英文裡這種說法叫 **giving the benefit of the doubt**（暫且相信對方沒錯）。結果這次確實是我寫錯了，但你的問法讓排查更快：因為你附上截圖，我才能從「重設按鈕有出現」推斷出程式碼已經更新，問題出在顯示條件。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c7cf4d26188a",
+      "date": "20260920",
+      "front": "\"clipped\"",
+      "body": "這輪你沒有寫英文（上一則是「你可以開瀏覽器操作他嗎?」，已經在上一則回覆講過 `him → it`、`operate → drive`）。既然剛好在做瀏覽器自動化，補幾個你之後回報問題時會用到的句型：\n\n**描述「元件位置錯亂」的英文：**\n\n| 中文 | 自然英文 |\n|---|---|\n| 有個儀表浮在版面中央 | A gauge is **floating** in the middle of the layout |\n| 它壓住了折線圖 | It's **overlapping** the line chart |\n| 版面被拖亂了 | The layout got **messed up** / **knocked out of place** |\n| 這顆圖沒吃到資料 | This chart **isn't picking up any data** |\n\n**一組很實用的動詞區別**（工程情境常混用）：\n\n- **overlap** = 兩個元素互相重疊（中性描述）→ \"The two panels overlap.\"\n- **cover** / **block** = 完全遮住另一個 → \"The banner is **blocking** the title.\"\n- **clip** = 被邊界切掉（我上面講標題被切掉就是用這個）→ \"The title is **clipped** by the banner.\"\n\n你看，我在回覆裡寫「被預覽橫幅切掉」，英文精準的說法就是 **\"clipped\"**，而不是 `cut`。`cut` 太口語且方向不明，`clipped` 特指「超出容器邊界而被裁掉」，前端 debug 時（跟 CSS 的 `overflow: hidden`、`clip-path` 同源）大家都用這個字。\n\n👍 一個小句型送你，回報 bug 很好用：\n\n> \"A stray gauge is floating over the line chart — it looks like the layout got knocked out of place.\"\n> （有顆多出來的儀表浮在折線圖上面，看起來版面被弄亂了。）\n\n`stray` 是「落單的、多出來不該在那的」，比 `extra` 更傳神。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8220ef054a73",
+      "date": "20260920",
+      "front": "\"Can you reach `http://10.4.200.18/ezov/#/admin/screen/44d09f20...`?\"",
+      "body": "這則你是用中文問的，我先給你自然的英文說法：\n\n> **\"Can you reach `http://10.4.200.18/ezov/#/admin/screen/44d09f20...`?\"**\n\n語感說明（幾個細微差別，值得記一下）：\n\n| 說法 | 適用情境 | 語感 |\n|---|---|---|\n| Can you **reach** it? | 網路連通性 | 最貼切。`reach` 專指「連得到那台主機／服務嗎」，工程師之間最常用 |\n| Can you **access** it? | 權限 | 偏向「你有沒有權限進去」，不只是網路通不通 |\n| Can you **open** it? | 瀏覽器 | 最口語，指「用瀏覽器打得開嗎」 |\n\n你原句的「訪問」剛好三種意思都涵蓋，所以英文要看你真正想問的是哪一層。以這次情境（問我這個 agent 連不連得到內網）來說，**`reach`** 最精準。\n\n另外補一個實用句型，之後你可能會常用：\n\n> \"Is that host reachable from your side?\"（那台主機從你那邊連得到嗎？）\n\n`from your side` 是很自然的「從你那一端」，比 `from you` 道地得多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5c7c1abc4441",
+      "date": "20260920",
+      "front": "\"Can you drive the browser for this?\"",
+      "body": "你這句「你可以開瀏覽器操作他嗎?」很自然，我先給對應的英文：\n\n> **\"Can you drive the browser for this?\"**\n> 或 **\"Can you control a browser to do it?\"**\n\n**一個中文母語者常踩的雷**，順便幫你改掉：\n\n| ❌ 中式英文 | ✅ 自然說法 | 為什麼 |\n|---|---|---|\n| Can you operate **him**? | Can you drive **it**? | 中文的「他／它」口語常混用，但英文對**非人事物**絕對只能用 **`it`**。用 `him` 指一個網頁會很怪 |\n| **operate** the browser | **drive** / **control** the browser | `operate` 偏「操作機械設備」（operate a crane / machinery）。講瀏覽器自動化，工程師習慣用 **`drive`**（Selenium、Playwright 的官方文件都用這個字） |\n\n注意：你中文寫「操作**他**」，英文不能直譯成 `him` —— 這是中英文代名詞系統的差異，中文不分（口語上），英文分得很死。\n\n補一組實用搭配：\n\n- \"**drive** a browser\" — 用程式控制瀏覽器（最道地）\n- \"**automate** the login flow\" — 把登入流程自動化\n- \"**headless** browser\" — 無介面瀏覽器（相對於 `headed`，有視窗的）\n\n👍 你的句子結構（`Can you ... for me?`）完全正確，只要把 `他` → `it`、`operate` → `drive` 就是很道地的工程英文了。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "3173d70966fa",
+      "date": "20260920",
+      "front": "你這句「驗證ok，請 /commit-push-merge」很簡潔，英文對應說法：",
+      "body": "你這句「驗證ok，請 /commit-push-merge」很簡潔，英文對應說法：\n\n> **Verified — please commit and push.**\n\n幾個實用說法：\n- **Verified.** 單獨一個字就足以表達「我測過了，沒問題」。在 PR 或工單上，**Verified** 是標準用語，比 *I checked it, it's fine* 更精準有力。\n- 同義的還有 **Confirmed working.**（確認可運作）、**Tested and good.**（測過沒問題）、**LGTM**（Looks Good To Me 的縮寫，code review 核准時的慣用語，唸作「el-gee-tee-em」或直接打字）。\n- 想表達「我測了哪些」可以說：**Verified on my end — the toggle works and the setting persists after a refresh.**（**on my end** = 在我這邊，用來區分「我的環境」與「你的環境」，遠端協作時很常用。）\n\n下次在 GitLab 的 MR 上留言核准，直接打 **LGTM** 就行——這是全球工程師通用的暗號。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fd9f370c0919",
       "date": "20260918",
       "front": "\"Yeah, that's much cleaner.\"",
