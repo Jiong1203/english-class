@@ -37,6 +37,15 @@
       ]
     },
     {
+      "id": "e760444f4a23",
+      "date": "20260918",
+      "front": "你這句「我要的是看板使用者（不是我）能自己切換顯示哪幾條，那 A 還要延伸到前台的「數據配置」面板沒錯!」翻成英文：",
+      "body": "你這句「我要的是看板使用者（不是我）能自己切換顯示哪幾條，那 A 還要延伸到前台的「數據配置」面板沒錯!」翻成英文：\n\n> **What I want is for the dashboard users — not me — to be able to toggle which series they see. So yes, A needs to extend to the front-end data config panel as well.**\n\n幾個重點：\n- **toggle**（切換開關）正是這個情境的動詞，比 *switch* 精確：*toggle a series on/off*。\n- **「不是我」**用破折號插入 **— not me —** 是英文強調對比最自然的寫法，比括號更有力道。\n- **「沒錯!」**回應對方的推測時，**So yes, ...** 或 **Exactly — ...** 都很道地。**Exactly** 特別適合用在「你說中了」的情況。\n- **extend to ...**（延伸到…）你想表達的「延伸」用這個片語完全正確，介系詞搭配 **to**。\n\n再補一個在需求討論裡很有用的說法：\n\n> **That's the whole point.**（這正是重點所在。）\n\n當對方終於抓到你的核心需求時，這句話能簡潔地確認方向，比一長串解釋有效得多。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
       "id": "d28f9476024d",
       "date": "20260918",
       "front": "你這次寫的是中文，先給對應的英文：",
@@ -115,6 +124,15 @@
       "body": "你這次是用 slash command（`/commit-push-merge`）觸發，沒有自由書寫的英文句子。給你三個跟這次流程直接相關、code review 和 PR 討論裡天天出現的說法：\n\n> **I branched off master, committed, then merged it back with `--no-ff` so the branch shows up in the graph.**\n\n- **branch off `<branch>`**：從某個分支開出新分支。注意介系詞是 **off**，不是 *from*（*branch from* 也聽得懂，但 *branch off* 才是慣用搭配）。\n- **merge it back**：併回去。**back** 這個副詞很關鍵，少了它 *merge it* 就沒有「回主幹」的方向感。\n- **show up in the graph**：出現在（git）線圖裡。**show up** = 現身、出現，比 *appear* 口語自然；例如 *The commit didn't show up in the log.*\n\n另外補一個實用的：你要提醒別人「還沒實測」時，最精準的說法是 **It's untested in the browser — only lint and type checks have passed so far.**（`so far` = 目前為止，暗示還會繼續驗證。）",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "71eafcd39d89",
+      "date": "20260918",
+      "front": "你這次輸入的是 **continue**，單字指令完全正確，是要 AI 或同事「接著做下去」最簡潔的說法。",
+      "body": "你這次輸入的是 **continue**，單字指令完全正確，是要 AI 或同事「接著做下去」最簡潔的說法。\n\n在工作對話裡可以換用幾個語氣稍有不同的說法：\n- **Go on.**：請繼續（說或做），比較口語。\n- **Carry on.**：繼續原本在做的事，暗示「剛剛被打斷了」，很適合你這次登入完回來的情境。\n- **Pick up where you left off.**：從剛才停下的地方接著做。**left off** 是 **leave off**（中斷）的過去式，這個片語在工作交接時非常常用。",
+      "tags": [
+        "praise"
       ]
     },
     {
