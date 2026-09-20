@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "eaad0cf7091c",
+      "date": "20260921",
+      "front": "\"Don't split the AVG into a second card — it wastes too much layout space.\"",
+      "body": "你這句的英文：\n\n> **\"Don't split the AVG into a second card — it wastes too much layout space.\"**\n\n**「浪費版面空間」的幾種說法**，精確度不同：\n\n| 英文 | 語感 |\n|---|---|\n| **wastes space** | 最直白，你的意思 |\n| **takes up too much space** | 佔太多空間（中性，不含「浪費」的批評） |\n| **leaves a lot of dead space** | 留下大片空白（**最精準**——問題是「空著沒用」） |\n| **feels sparse** | 看起來空洞（描述觀感） |\n\n你的情況其實是 **dead space**：主卡上半部空著、AVG 又自己佔一塊。這個字很值得記：\n\n> \"The top half of the card is **dead space** — pull the AVG inside instead.\"\n\n**另外注意「拆成」的英文：**\n\n| 中文 | 英文 | 備註 |\n|---|---|---|\n| 拆成兩張卡 | **split into** two cards | `split into` 是固定搭配 |\n| 合併成一張 | **merge into** one card | 反向操作 |\n| 收進卡片裡 | **pull ... inside** / **inline it** | `inline` 當動詞很工程 |\n\n`inline` 這個字剛好就是我這次腳本的命名（`inline_kpi_avg.py`）——當動詞時意思是「把原本獨立的東西併進主體裡」，前端講 inline CSS、inline function 都是同一個概念，描述你這個需求非常精準：\n\n> \"Can you **inline** the AVG into the main card?\"\n> （可以把 AVG 併進主卡裡嗎？）\n\n👍 你這則用「這樣版面空間會很浪費」把理由講出來，很好——**說出理由讓我能判斷解法**。如果只說「不要拆成兩張卡」，我可能只是把兩張卡靠得更近，而不是重新配置卡內的垂直對齊。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "785f42f6fa0f",
+      "date": "20260921",
+      "front": "\"Also, the dashboard shows \"",
+      "body": "你這則有個字用錯了，先講這個：\n\n> ❌ 「**例外**，看板裡有顯示...」\n> ✅ 「**另外**，看板裡有顯示...」\n\n**「例外」≠「另外」** —— 這組中文很容易混：\n\n| 中文 | 意思 | 英文 |\n|---|---|---|\n| **例外** | 不適用一般規則的特殊情況 | exception |\n| **另外** | 追加一件事 | also / additionally / one more thing |\n\n你想表達的是「還有一件事」，所以是「另外」。英文對應：\n\n> **\"Also, the dashboard shows \"(期間累計)\" but the original doesn't — please remove that too.\"**\n\n順帶一提，中文的「例外」如果真要用在這裡，句意會變成「這是個例外情況」，讀者會等你說明為什麼特殊，結果你接的是新需求，就會卡住。\n\n**英文的「另外」有幾種，語氣不同：**\n\n| 說法 | 位置 | 語氣 |\n|---|---|---|\n| **Also,** | 句首 | 最常用、中性 |\n| **Additionally,** | 句首 | 偏正式、書面 |\n| **One more thing —** | 句首 | 口語，帶「差點忘了」的感覺 |\n| **On a separate note,** | 句首 | 轉到不相關的另一件事 |\n\n你這次兩個需求是相關的（都在 KPI 卡上），所以 **`Also`** 最合適；如果是完全另一個話題，用 `On a separate note` 會更清楚。\n\n👍 另外你這句「這邊都有 AVG，但我看看板裡沒有」結構很好——**先指出來源有什麼、再指出目標缺什麼**，這是最不會誤解的比對句型。英文同構：\n\n> \"The original has an AVG row for each KPI, but I don't see it on the dashboard — please add it.\"\n\n`I don't see it` 比 `it doesn't have` 更軟、更像回報觀察而非指責，在協作情境很好用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "ff8e7986ae00",
       "date": "20260920",
       "front": "你這次全程用中文，所以先給你對應的英文說法：",
@@ -28,12 +46,48 @@
       ]
     },
     {
+      "id": "a5df576161d8",
+      "date": "20260920",
+      "front": "\"The original example doesn't have these three charts, so there's no need to add them.\"",
+      "body": "你這則的關鍵句翻譯：\n\n> 「本來的案例中並沒有這三個圖表，所以不需要多補這幾個圖表」\n> **\"The original example doesn't have these three charts, so there's no need to add them.\"**\n\n> 「不要讓他往下凸出，這樣會顯得很突兀」\n> **\"Don't let it stick out below — it looks out of place.\"**\n\n**這輪最值得學的是「突兀」怎麼說**，中文一個詞，英文要看你指哪一種：\n\n| 情境 | 英文 | 語感 |\n|---|---|---|\n| 版面上不協調、不搭 | **out of place** | 最貼你的意思。\"That panel looks out of place.\" |\n| 視覺上刺眼、扎眼 | **jarring** | 更強烈，指看了不舒服 |\n| 元素超出邊界凸出來 | **sticks out** / **overhangs** | 描述物理狀態，你說的「往下凸出」就是 `sticks out below` |\n| 突然出現、沒來由 | **abrupt** | 用在轉折、動畫、語氣 |\n\n你這句同時用到兩個概念——**現象**是 `sticks out`，**感受**是 `looks out of place`。英文習慣把兩者分開講，這也是為什麼直譯常常不到位。\n\n**另外注意 `他` / `它` 的問題又出現了**（「不要讓**他**往下凸出」）。這在中文完全自然，但英文指篩選器面板只能用 **`it`**：\n\n> ❌ Don't let **him** stick out\n> ✅ Don't let **it** stick out\n\n👍 補一個很好用的表達：**\"trim it back\"**（把它收短一點）。\n\n> \"Since those charts are gone, we can **trim back** the filter panel so it lines up with the bottom row.\"\n> （那些圖拿掉了，篩選器可以收短，跟最後一列對齊。）\n\n`line up with` = 對齊，比 `align with` 口語，工程對話裡很常聽到。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "97ec67e835cc",
+      "date": "20260920",
+      "front": "你這句「篩選面板如果有被呼叫出來，那他就會在最上層，而不是有重疊的情形發生。」描述的是**期望行為**，英文這樣說最自然：",
+      "body": "你這句「篩選面板如果有被呼叫出來，那他就會在最上層，而不是有重疊的情形發生。」描述的是**期望行為**，英文這樣說最自然：\n\n> **When the filter panel is open, it should sit on top of everything else instead of being overlapped.**\n\n用詞說明：\n- **「呼叫出來」**在 UI 語境不用 *call out*（那是「大聲指出、點名批評」的意思，會誤解）。開啟面板就說 **open** 或 **triggered**：*when the panel is triggered*。\n- **「在最上層」**的標準說法是 **on top** 或技術一點的 **on top of the stacking order**。前端討論裡也常直接說 **it should be above everything**。\n- **「重疊的情形」**這裡你的意思是「被別的東西蓋住」，英文是 **overlapped**（被覆蓋）或 **obscured**（被遮蔽）。注意 **overlap** 本身是中性的「重疊」，要表達「被蓋住」用被動 **being overlapped** 才精準，你這句用被動正好。\n- 回報這類問題最有效的講法是把「期望」和「實際」並列：\n\n> **Expected: the filter panel stays on top. Actual: it gets covered by the table and the field tags.**\n\n**Expected / Actual** 這組對照是 bug report 的國際標準格式，一眼就能看懂問題在哪。你這次的描述其實已經有這個精神了，只是把兩邊合成一句話講——拆成兩行會更清楚。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "8e86b59a2da0",
+      "date": "20260920",
+      "front": "\"收合可用欄位\"",
+      "body": "你這句「想問是否可以增加\"收合可用欄位\"的功能? 因為可用欄位有時候真的太多了，很佔空間。」翻成英文：\n\n> **Could we add a way to collapse the \"Available Fields\" section? There are just too many fields sometimes and it takes up a lot of space.**\n\n用詞說明：\n- **「收合」**在 UI 裡標準用字是 **collapse**（反義詞是 **expand**）。名詞形式是 **collapsible**（可收合的），就是這個元件設定裡那個 `collapsible` 欄位。\n- **「很佔空間」**最自然的是 **it takes up a lot of space**。注意是 **take up**（佔用）不是 *take*。更簡潔的說法是 **it eats up the screen**（把畫面吃光了），口語但很傳神。\n- **「有時候真的太多了」**裡的「真的」用 **just** 表達最道地：**there are just too many**。這個 `just` 不是「只是」，而是加強語氣的「實在是」。\n\n另外一個在提功能需求時很好用的句型：\n\n> **Would it be possible to ...?**（有沒有可能…？）\n\n比 **Can you ...?** 更委婉，也比 **Could we ...?** 更正式一點。三者都可以，看對象選：對同事用 *Could we*，對外部廠商或不熟的團隊用 *Would it be possible to*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "8220ef054a73",
       "date": "20260920",
       "front": "\"Can you reach `http://10.4.200.18/ezov/#/admin/screen/44d09f20...`?\"",
       "body": "這則你是用中文問的，我先給你自然的英文說法：\n\n> **\"Can you reach `http://10.4.200.18/ezov/#/admin/screen/44d09f20...`?\"**\n\n語感說明（幾個細微差別，值得記一下）：\n\n| 說法 | 適用情境 | 語感 |\n|---|---|---|\n| Can you **reach** it? | 網路連通性 | 最貼切。`reach` 專指「連得到那台主機／服務嗎」，工程師之間最常用 |\n| Can you **access** it? | 權限 | 偏向「你有沒有權限進去」，不只是網路通不通 |\n| Can you **open** it? | 瀏覽器 | 最口語，指「用瀏覽器打得開嗎」 |\n\n你原句的「訪問」剛好三種意思都涵蓋，所以英文要看你真正想問的是哪一層。以這次情境（問我這個 agent 連不連得到內網）來說，**`reach`** 最精準。\n\n另外補一個實用句型，之後你可能會常用：\n\n> \"Is that host reachable from your side?\"（那台主機從你那邊連得到嗎？）\n\n`from your side` 是很自然的「從你那一端」，比 `from you` 道地得多。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "650942908330",
+      "date": "20260920",
+      "front": "你這次是直接叫 slash command，沒有英文句子。這批改動的主題是「收合」，補三個相關的實用說法：",
+      "body": "你這次是直接叫 slash command，沒有英文句子。這批改動的主題是「收合」，補三個相關的實用說法：\n\n- **collapse / expand**（收合／展開）：這組是 UI 標準用字，前面提過。名詞是 **collapsible section**（可收合區塊）。\n- **fold / unfold**（摺疊／展開）：多用在程式碼編輯器的程式碼摺疊（**code folding**）。UI 面板習慣用 collapse，程式碼習慣用 fold，兩者不太混用。\n- **take up real estate**（佔版面）：**screen real estate** 是「螢幕空間」的行話，字面是「螢幕地產」，很形象。你上次說的「很佔空間」，工程師之間常講 **it takes up too much real estate**。\n\n完整示範：\n\n> **The Available Fields section takes up too much real estate, so we made it collapsible on its own — separate from the whole toolbar.**\n\n**on its own**（獨立地、單獨地）正好表達你要的「單獨收合」，比 *separately* 更口語自然。",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -47,12 +101,75 @@
       ]
     },
     {
+      "id": "57e6f3940608",
+      "date": "20260920",
+      "front": "\"The rightmost line chart for 負債比率 doesn't need to show the target line — please remove it.\"",
+      "body": "你這句很短但有個細節值得講：\n\n> 「負債比率最右側的折線圖不需要顯示\"負債比率目標\"，請清除」\n> **\"The rightmost line chart for 負債比率 doesn't need to show the target line — please remove it.\"**\n\n**`remove` vs `clear` vs `delete`**（你用的「清除」在英文要分情況）：\n\n| 英文 | 適用 | 你的情境 |\n|---|---|---|\n| **remove** | 把某個元素移除 | ✅ 最貼切 |\n| **hide** | 藏起來但還在 | 若只是不顯示但保留資料 |\n| **clear** | 清空容器內容 | `clear the filter`、`clear the cache` |\n| **delete** | 永久刪除 | 語氣最重，通常指檔案／紀錄 |\n\n你這次其實同時涉及 `hide`（圖例）跟 `remove`（資料列），而我判斷你要的是徹底移除，所以兩邊都做了。如果你只是想暫時不顯示，英文會說 **\"just hide it for now\"**。\n\n**另一個實用字：`rightmost`**\n\n> 最右側的 = **rightmost**（同理 `leftmost`、`topmost`、`bottommost`）\n\n比 `the most right one` 道地得多。描述版面位置時很常用：\n\n- \"the **rightmost** column\"（最右欄）\n- \"the **top-left** card\"（左上那張卡）\n- \"the **middle** chart in each row\"（每列中間那張圖）\n\n👍 你這句的結構「**哪個元件** + **不需要顯示什麼** + **請處理**」非常清楚，這也是英文 bug report 的標準寫法：先定位、再說問題、最後給指令。照這個順序寫英文，幾乎不會被誤解。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "568c58960e54",
+      "date": "20260920",
+      "front": "\"The chart layout on that screen is intentional — the panels are grouped by relationship.\"",
+      "body": "這輪你寫的是中文，我先給關鍵句的英文說法：\n\n> 「目前該畫面中的圖表排版是有目的性與關聯性的」\n> **\"The chart layout on that screen is intentional — the panels are grouped by relationship.\"**\n\n> 「這樣比較符合使用者的習慣」\n> **\"That matches what users are used to.\"** 或更正式：**\"That's more consistent with users' mental model.\"**\n\n**值得學的三個字**（都是你這次表達的概念，英文有專門說法）：\n\n| 你的中文 | 自然英文 | 說明 |\n|---|---|---|\n| 有目的性 | **intentional** / **deliberate** | 不要說 `has purpose`，母語者直接用形容詞 `intentional` |\n| 一組一組排下來 | grouped **row by row** / **in groups** | `row by row` 精準表達「一列一列」 |\n| 符合使用者習慣 | matches users' **expectations** / **mental model** | `mental model` 是 UX 圈的標準說法，講「使用者腦中預期的樣子」 |\n\n**一個常見中式英文要避開：**\n\n| ❌ | ✅ |\n|---|---|\n| The layout is **more fit** users' habit | The layout **matches** users' expectations |\n| Please **arrange like** the screenshot | Please **lay it out like** the screenshot |\n\n`lay out`（動詞，排版）與 `layout`（名詞，版面）是這個情境最核心的一組字，分開寫是動詞、連起來是名詞：\n\n- \"Please **lay out** the cards row by row.\"（動詞）\n- \"The new **layout** groups each ratio into its own row.\"（名詞）\n\n👍 你這則說明寫得很清楚——先講現況、再講期望、最後給理由（符合使用者習慣），這個「現況 → 期望 → 理由」的結構在英文 bug report 裡也是標準寫法，直接套用就很專業。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "430d524cc8ed",
+      "date": "20260920",
+      "front": "\"Same idea — please take a look at these screenshots first.\"",
+      "body": "你這則開頭的「同理」用得很好，英文對應：\n\n> **\"Same idea — please take a look at these screenshots first.\"**\n> 或更正式：**\"Likewise, ...\"** / **\"By the same token, ...\"**\n\n**「同理」的三種英文說法**，語氣差別不小：\n\n| 英文 | 語氣 | 適用 |\n|---|---|---|\n| **Same idea** | 口語、輕鬆 | 日常對話、Slack（最貼你的語感） |\n| **Likewise** | 中性偏正式 | 郵件、文件 |\n| **By the same token** | 正式、書面 | 報告、論述 |\n| **Similarly** | 中性 | 技術文件最常見 |\n\n**另一個值得學的：「有目的的」**\n\n你寫「這些既有案例所排列顯示的是有目的的」，這句概念在英文有個很精準的說法：\n\n> **\"The existing layout is intentional — the grouping carries meaning.\"**\n\n或者用一個很道地的表達：\n\n> **\"The layout isn't arbitrary.\"**（這個版面不是隨便排的）\n\n`arbitrary` = 任意的、沒有理由的。用否定式 `isn't arbitrary` 來強調「有其道理」，比正面說 `has purpose` 自然得多，在設計與工程討論中很常見。\n\n👍 補一個你這兩次需求都用得到的完整句型：\n\n> \"Please rearrange it to match the original — the grouping isn't arbitrary, and users are used to reading it that way.\"\n> （請照原本的排法調整——分組是有道理的，使用者也習慣那樣讀。）\n\n這句把你兩次的訴求（照原樣排 + 符合使用者習慣 + 有目的性）一次講完，可以直接存起來用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3682919f6ba0",
+      "date": "20260920",
+      "front": "\"Please clean up the collab document and make the Y axis fit the data range.\"",
+      "body": "你這句很精簡，先看英文：\n\n> **\"Please clean up the collab document and make the Y axis fit the data range.\"**\n\n**兩個地方值得記：**\n\n**1.「貼近資料範圍」= `fit the data range`**\n\n`fit` 這個動詞在圖表情境是精準用字：\n\n| 說法 | 意思 |\n|---|---|\n| **fit** the data range | 座標軸剛好容納資料（你要的） |\n| **scale to** the data | 依資料縮放（ECharts 的設定就叫 `scale`） |\n| **zoom in on** the data | 放大細看（偏互動操作） |\n| start **from zero** | 從 0 起算（原本的問題） |\n\n順帶一提，資料視覺化圈有個常見爭論叫 **\"should the axis start at zero?\"**——長條圖應該從 0（不然比例會騙人），折線圖看趨勢則不必。你這個需求剛好是教科書級的正確判斷：**折線圖看趨勢，軸不該從 0 起算**。\n\n**2. 祈使句加 `please` 的位置**\n\n你寫「請清理協作文件，並把 Y 軸改成...」，英文對應：\n\n> ✅ \"Please clean up X **and** make Y ...\"（一個 please 帶兩個動作，最自然）\n> ⚠️ \"Please clean up X, please make Y ...\"（重複 please 會顯得急躁或生硬）\n\n英文一句話裡 `please` 通常只出現一次，後面用 `and` 串動作就好。\n\n👍 另外 **`clean up`** 用得很對。注意有無介系詞的差別：\n\n- \"clean up the document\" = 清理／整理掉不要的東西（你的意思）\n- \"clean the document\" = 把它弄乾淨（語感偏實體清潔）\n\n`clean up` 這個片語動詞在技術語境非常高頻：`clean up stale data`（清掉過期資料）、`clean up after a failed run`（失敗後善後）、`cleanup script`（清理腳本，名詞時寫成一個字）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "3173d70966fa",
       "date": "20260920",
       "front": "你這句「驗證ok，請 /commit-push-merge」很簡潔，英文對應說法：",
       "body": "你這句「驗證ok，請 /commit-push-merge」很簡潔，英文對應說法：\n\n> **Verified — please commit and push.**\n\n幾個實用說法：\n- **Verified.** 單獨一個字就足以表達「我測過了，沒問題」。在 PR 或工單上，**Verified** 是標準用語，比 *I checked it, it's fine* 更精準有力。\n- 同義的還有 **Confirmed working.**（確認可運作）、**Tested and good.**（測過沒問題）、**LGTM**（Looks Good To Me 的縮寫，code review 核准時的慣用語，唸作「el-gee-tee-em」或直接打字）。\n- 想表達「我測了哪些」可以說：**Verified on my end — the toggle works and the setting persists after a refresh.**（**on my end** = 在我這邊，用來區分「我的環境」與「你的環境」，遠端協作時很常用。）\n\n下次在 GitLab 的 MR 上留言核准，直接打 **LGTM** 就行——這是全球工程師通用的暗號。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "137b50f49c22",
+      "date": "20260920",
+      "front": "你這次直接叫 slash command，沒有英文句子。承接這次修的 bug，給你三個前端 CSS 排版問題的核心術語——這組概念在中文技術討論裡也常直接講英文：",
+      "body": "你這次直接叫 slash command，沒有英文句子。承接這次修的 bug，給你三個前端 CSS 排版問題的核心術語——這組概念在中文技術討論裡也常直接講英文：\n\n- **stacking context**（堆疊脈絡）：這次問題的根源。中文有人譯「層疊上下文」，但工程師之間多半直接說英文。用法：*The toolbar creates its own stacking context.*\n- **z-index doesn't escape its parent's stacking context.**（z-index 跨不出父層的堆疊脈絡。）這句話幾乎是 CSS 排版問題的萬用診斷句，值得背起來。\n- **teleport / portal**（傳送）：把 DOM 節點掛到別處（通常是 `body`）的技巧。Vue 叫 `Teleport`，React 叫 `Portal`，概念相同。用法：*We teleport the popover to the body so it's not clipped.*\n\n完整說明這次修法的英文：\n\n> **The popover was trapped in the toolbar's stacking context, so we teleported it to the body instead of bumping the z-index.**\n\n**bump the z-index**（把 z-index 調高）是很生活化的說法，**bump** 在這裡是「往上調一點」的意思——同樣的字也用在版本號上，就像我們每次 commit 前跑的 `bump-version.js`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "12b1cb609945",
+      "date": "20260920",
+      "front": "\"計算欄位\"",
+      "body": "你這句「的 D 欄和 E 欄要怎麼在\"計算欄位\"中配置?」翻成英文：\n\n> **How do I set up columns D and E as calculated fields?**\n\n用詞說明：\n- **「D 欄」**英文說 **column D**（字母在後），不是 *D column*。整句常見寫法是 **columns D and E**。\n- **「配置」**在設定的語境用 **set up** 或 **configure**。口語偏好 `set up`（動詞片語，兩個字），名詞形式則是 `setup`（一個字）——這組很容易寫錯，值得記。\n- **「計算欄位」**是樞紐表的標準術語 **calculated field**，Excel 英文版就是這個字。相關的還有 **calculated item**（計算項目，對單一欄位值做運算）。\n\n另外，這次問題的核心概念英文叫 **running total**（累計）與 **percent of total**（佔總計百分比）。之後你要跟工程師描述這類需求，直接講這兩個詞最省事：\n\n> **I need a running total and percent of total, like Excel's \"Show Values As\".**\n\n**Show Values As** 正是 Excel 樞紐表「值顯示方式」的英文原名，講出來對方馬上知道你要什麼。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0ad11a225222",
+      "date": "20260920",
+      "front": "\"If the needle points into the green band, the current status is healthy; if it moves into the red band, that signals risk.\"",
+      "body": "這輪你也是用中文，我把你的核心句子翻成英文：\n\n> 「如果指針指向綠色範圍，代表目前的情況是正常的，但若指針指到紅色區塊了，那就是代表有風險了」\n> **\"If the needle points into the green band, the current status is healthy; if it moves into the red band, that signals risk.\"**\n\n**這個情境的專業用字**（儀表板需求描述會一直用到）：\n\n| 中文 | 英文 | 備註 |\n|---|---|---|\n| 指針 | **needle** | 不是 `pointer`（那是滑鼠指標）。ECharts 的設定叫 `pointer`，但口語描述儀表一律 `needle` |\n| 綠色區塊／範圍 | green **band** / **zone** | `band` 最貼切（帶狀），`range` 偏「數值範圍」 |\n| 有風險 | **at risk** / signals **risk** | 別說 `has risk` |\n| 正常 | **healthy** / **within target** | 財務情境用 `healthy` 很道地 |\n| 落在紅區 | **falls into** the red band | `fall into` 是固定搭配 |\n\n**你的問法很值得學習**，這句：\n\n> 「目前 EZoV 有相關元件可以做到這種情境嗎?」\n> **\"Does EZoV already have a component that supports this?\"**\n\n`already` 這個字在英文很關鍵——它表達「不用新做、現成的有沒有」，剛好對應你「有的話就調整試試看」的意思。少了 `already`，語氣就變成單純問功能。\n\n補一個超實用句型：\n\n> \"Is there an out-of-the-box component for this, or would we need to build one?\"\n> （有現成元件可用嗎，還是得自己做一個？）\n\n**`out-of-the-box`** = 開箱即用、現成的，技術討論中極常用，比 `existing` 更精準地表達「不用改程式就能用」。這正好是你這次問題的核心——而我的答案是：`VLevelGauge` 是 out-of-the-box 的，但要完全比照 Excel 就 not quite。",
+      "tags": [
+        "comparison"
       ]
     },
     {
