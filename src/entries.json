@@ -1,6 +1,33 @@
 {
   "entries": [
     {
+      "id": "fbd4de1d4d61",
+      "date": "20260921",
+      "front": "\"What happens if …?\"",
+      "body": "你這次寫的是：「如果是單一欄位，但資料有可能有空值呢? 選明細列會發生甚麼事?」\n\n自然的英文：\n\n> \"What if it's a single field but the data might contain nulls? What happens if I pick row-level mode?\"\n\n這次最值得學的是 **`What if …?`**，它跟上次教的 `What about …?` 是一組，但用途不同：\n\n| 句型 | 用途 | 例子 |\n|---|---|---|\n| **What about X?** | 把話題轉到 X 上 | \"What about these two fields?\" |\n| **What if X?** | 假設一個條件，問後果 | \"What if the data has nulls?\" |\n\n你這句兩種都用得上，但 `What if` 更精準，因為你問的是「在某條件成立的情況下會怎樣」。\n\n第二句「會發生甚麼事」的講法：\n\n- **\"What happens if …?\"** ← 最直接，你這句的標準對應\n- **\"What would happen if …?\"** ← 加 would，語氣更假設性、更客氣\n- **\"What's the impact of …?\"** ← 偏正式，用在寫文件或評估影響\n\n順帶一提幾個資料相關的常用字：\n\n| 中文 | 英文 | 備註 |\n|---|---|---|\n| 空值 | **null** ／ **null value** ／ **missing value** | 資料庫語境用 null，統計語境用 missing value |\n| 空字串 | **empty string** | 跟 null 是兩回事，英文也嚴格區分 |\n| 有可能有 | **might contain** ／ **could have** | `might` 比 `maybe` 更適合放在句中 |\n\n最後補一個很地道的說法：當你想問「這樣做會不會出問題」，母語者常說：\n\n> **\"Is there a catch?\"**（有什麼陷阱嗎？）\n\n`catch` 當名詞是「隱藏的問題、附帶條件」。用在你這個情境剛剛好 —— 「單一欄位選明細列，有什麼陷阱嗎？」 → *\"Single field with row-level mode — is there a catch?\"* 這句又短又自然，非常推薦。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f32f0c649c9a",
+      "date": "20260921",
+      "front": "\"The pivot table still shows *總計* (Grand Total) inside the table — is that expected?\"",
+      "body": "你這次的中文是：「樞紐表格內還是顯示『總計』這樣是正常的嗎?」\n\n自然的英文：\n\n> \"The pivot table still shows *總計* (Grand Total) inside the table — is that expected?\"\n\n或更口語的：\n\n> \"The table itself still says 'Grand Total' — is that supposed to happen?\"\n\n這裡最值得學的是 **「這樣是正常的嗎？」** 的講法。中文一句「正常嗎」在英文有好幾種對應，語氣差很多：\n\n| 英文 | 語氣 | 適用 |\n|---|---|---|\n| **Is that expected?** | 最專業、最中性 | 工程討論首選。問「這是不是預期行為」，不預設對錯 |\n| **Is that supposed to happen?** | 口語、略帶懷疑 | 覺得可能有問題但不確定時 |\n| **Is that normal?** | 偏日常 | 可以用，但在 code review／bug 討論裡稍嫌籠統 |\n| **Is that intentional?** | 直指「你是故意的嗎」 | 對方是人的時候要小心，語氣偏質疑 |\n\n**`expected` 是關鍵字**。軟體圈把行為分成 `expected behavior`（預期行為）與 `unexpected behavior`／`regression`（非預期、回歸錯誤），所以問 \"Is that expected?\" 等於在問「這屬於前者還後者」，精準又不帶指責。反過來，回答的人常說：\n\n> \"Yes, that's expected.\" ／ \"No, that's a regression — I'll fix it.\"\n\n另外「樞紐表格內」你用了「內」字，英文對應的是 **inside the table** 或 **the table itself**。後者（itself）特別好用，它精準表達「不是工具列、是表格本身那一塊」的對比 —— 這正是你這次想問的重點。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "eb03dc2a7b65",
+      "date": "20260921",
+      "front": "\"Could you summarize the difference between aggregate and row-level mode again?\"",
+      "body": "你這次寫的是：「再總結一次 彙總後 與 明細列 差異」\n\n自然的英文：\n\n> **\"Could you summarize the difference between aggregate and row-level mode again?\"**\n> 更口語：**\"Let's recap the difference between the two modes.\"**\n\n這次的重點是 **「再一次」怎麼講**，中文一個「再」字，英文有好幾種對應，語氣差很多：\n\n| 英文 | 意思 | 語氣 |\n|---|---|---|\n| **recap** | 重點回顧（recapitulate 的縮寫） | 最自然，暗示「把講過的濃縮一遍」 |\n| **summarize again** | 再摘要一次 | 中性、直白 |\n| **go over it again** | 再走一遍 | 口語，帶點「我想再確認」的味道 |\n| **repeat** | 重複 | ⚠️ 少用 —— 聽起來像在說「你剛剛講的我沒聽懂，再講一次」，有點生硬 |\n\n**`recap` 是最推薦的那個**，尤其在會議和技術討論裡出現頻率極高：\n\n> \"Let's recap.\" —— 我們來回顧一下（會議收尾的標準開場）\n> \"Quick recap: we decided to use aggregate mode for ratio fields.\" —— 快速回顧：比率型欄位決定用彙總後\n\n注意 `recap` 名詞、動詞同形，兩種都很常用。\n\n另外「總結」還有一組近義詞，用途略有分別：\n\n- **summary**（名詞）／ **summarize**（動詞）→ 把長內容縮短\n- **recap** → 把「已經講過的」再過一遍（強調重複）\n- **takeaway** → 「最重要的一兩個結論」，例：*\"The key takeaway: division between fields means aggregate mode.\"*\n\n**`takeaway`** 特別實用 —— 當你想問「所以結論是什麼」，可以說：\n\n> \"What's the takeaway here?\"\n\n比 \"What's the conclusion?\" 更口語、更自然，開會時很常聽到。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "eaad0cf7091c",
       "date": "20260921",
       "front": "\"Don't split the AVG into a second card — it wastes too much layout space.\"",
@@ -10,10 +37,110 @@
       ]
     },
     {
+      "id": "d479352e6a96",
+      "date": "20260921",
+      "front": "\"The changes landed on master.\"",
+      "body": "你這次寫的是：「目前看都已順利上 git，都正常。請你再說明一下計算欄位中的『彙總後』與『明細』之差別。」\n\n自然的英文：\n\n> \"Everything's pushed to git and looks good so far. Could you explain the difference between *aggregate* and *row-level* mode for calculated fields?\"\n\n幾個值得注意的地方：\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 目前看…都正常 | **looks good so far** ／ **everything checks out so far** | `so far` 對應「目前」，很重要 —— 它保留了「之後可能還有問題」的餘地，是工程溝通的好習慣 |\n| 順利上 git | **pushed to git successfully** ／ **everything's pushed** | 中文的「上」是動詞，英文要用 push / land / merge。`land` 特別道地：**\"The changes landed on master.\"** |\n| 請你再說明一下 | **Could you explain …?** ／ **Can you walk me through …?** | `walk me through` 是「帶我走一遍」，用在請人解釋機制、流程時比 explain 更自然、更親切 |\n| A 與 B 之差別 | **the difference between A and B** | 固定搭配是 **between … and …**，不能用 with 或 of。這是中文母語者最常出錯的介系詞之一 |\n\n**\"walk me through\"** 特別推薦你記起來。比較一下語氣：\n\n> \"Explain the difference.\" — 有點像在下指令\n> \"Could you walk me through the difference?\" — 「能不能帶我理解一下」，客氣且自然\n\n另外「都正常」除了 looks good，還有幾個道地說法：\n- **\"All good.\"** —— 最短，回報狀態時超好用\n- **\"Working as expected.\"** —— 呼應前面教過的 `expected`，最精確\n- **\"No issues so far.\"** —— 保守版\n\n你這次先回報狀態、再提出新問題，這個溝通結構（status update → follow-up question）在英文職場信件與 Slack 訊息裡是標準做法，continue doing that！",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b9dbccd37328",
+      "date": "20260921",
+      "front": "\"There's an error.\"",
+      "body": "你這次寫的是中文的「有錯誤。」加上一段貼上的錯誤訊息。先給對應的英文：\n\n> 「有錯誤。」→ **\"There's an error.\"** ／ **\"I'm getting an error.\"** ／ **\"It's throwing an error.\"**\n\n三種語氣不太一樣，值得分清楚：\n\n| 英文 | 語氣 | 適用情境 |\n|---|---|---|\n| **There's an error.** | 最中性，陳述事實 | 純粹回報，像你這次貼 log |\n| **I'm getting an error.** | 從「我這邊」的角度 | 最常用。強調「我跑的時候出現」，暗示對方可能沒遇到 |\n| **It's throwing an error.** | 技術感最強 | `throw` 是程式拋出例外的動詞，用在 runtime error 特別貼切 |\n\n回報錯誤時，母語工程師常見的完整句型是：\n\n> \"I'm getting a Vite error on `index.vue` — `Unexpected '/'`. Here's the stack trace:\"\n\n注意兩個小地方：\n1. **`get an error`** 用 get，不用 \"happen\"。「發生錯誤」直譯成 \"An error happened\" 雖然文法對，但母語者幾乎都說 get / hit / run into。\n2. **`run into`** 是另一個很好用的說法：**\"I ran into an error when starting the dev server.\"**（run into = 撞上、遇到某個麻煩）。\n\n如果想表達「你剛剛那個改動弄壞了」，最不帶攻擊性的講法是 **\"That change broke the build.\"** —— 用 change 當主詞而不是 you，是英文職場溝通裡很常見的技巧（對事不對人）。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "9671a70db5c4",
+      "date": "20260921",
+      "front": "\"The goal is to get the dashboard as close to the original as possible.\"",
+      "body": "你這則寫得很完整，先看關鍵句的英文：\n\n> 「目標是要把看板這邊幾乎與原案例一樣」\n> **\"The goal is to get the dashboard as close to the original as possible.\"**\n\n**「幾乎一樣」的三種說法**，精確度不同：\n\n| 英文 | 意思 |\n|---|---|\n| **as close as possible** | 盡可能接近（你的意思，最常用） |\n| **near-identical** | 幾乎完全相同（形容詞，語氣更強） |\n| **a faithful match** | 忠實還原（設計語境，很專業） |\n| pixel-perfect | 一模一樣到像素（最嚴格，通常用於 UI 還原） |\n\n你這個需求其實就是設計圈說的 **pixel-perfect** 或 **faithful to the original**，這兩個字用出來對方會立刻知道標準有多高。\n\n**另一個重點：「評估」怎麼說**\n\n你寫「請你評估與調整」，英文是：\n\n> **\"Please assess it and adjust accordingly.\"**\n\n| 英文 | 語感 |\n|---|---|\n| **assess** | 評估、判斷狀況（你的意思） |\n| **evaluate** | 較正式，常用於方案比較 |\n| **review** | 檢視（範圍較廣） |\n| **take a look at** | 口語，「看一下」 |\n\n`accordingly`（據此、相應地）是很好用的副詞，意思是「依照評估結果去做」，省掉一整句解釋：\n\n> \"Assess the gap and adjust **accordingly**.\"\n\n👍 你這則有個很好的習慣值得保持——**先說你自己改了什麼**（「我有調整了標題字體大小」）。這讓我知道線上狀態已經跟我上次留下的不同，所以我先重新抓了一次設定才動手，沒有用舊資料覆蓋掉你的調整。英文可以這樣講：\n\n> \"Heads up — I changed the title font size myself, so the live version may differ from what you last pushed.\"\n\n`Heads up` = 先提醒一下，這個片語在協作時極常用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "84a50d863ab7",
+      "date": "20260921",
+      "front": "\"What about these two?\"",
+      "body": "你這次是把兩個公式貼上來問，句子只有「那這兩個呢?」—— 短句，但英文有幾個很地道的對應：\n\n> **\"What about these two?\"** ← 最自然、最常用\n> **\"How about these two?\"** ← 也可以，語氣略偏提議\n> **\"And these two?\"** ← 最簡短，承接前文時很順\n\n**`What about …?`** 是延續話題的萬用句型，中文的「那…呢？」幾乎都對應到它：\n\n| 中文 | 英文 |\n|---|---|\n| 那這兩個呢？ | What about these two? |\n| 那如果是空值呢？ | What about null values? |\n| 那效能呢？ | What about performance? |\n\n注意 **What about** 和 **How about** 的細微差別：\n- **What about X?** → 「X 這個情況怎麼算？」→ 問資訊、要對方分析（你這次的用法）\n- **How about X?** → 「不如 X 如何？」→ 提建議、徵求同意（例：*\"How about we use aggregate mode?\"*）\n\n兩者常被混用，日常對話裡沒人會糾正你，但寫技術討論時分清楚會更精準。\n\n另外，如果你想更完整地問，母語者會這樣說：\n\n> \"What about these two — would they be the same either way?\"\n>（那這兩個呢 —— 兩種模式都一樣嗎？）\n\n句尾那個 **\"either way\"**（不管選哪邊）是超實用的片語，正好接續我們上次講的 `either`：\n\n> \"It works either way.\" — 兩種做法都行\n> \"Either way, the numbers come out the same.\" — 不管怎麼選，數字都一樣",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7aed2cb11eba",
+      "date": "20260921",
+      "front": "\"pushes the field mapping below the fold\"",
+      "body": "你這次是用中文描述需求的，先給你對應的英文說法：\n\n> 「數據配置中的『系列顯示』除了提供重設功能外，也提供收折功能，以防萬一系列配置過多，導致要調整下方字段映射需要滾動太久。」\n\n自然的英文表達：\n\n> \"In the Data Config panel, the *Series Visibility* section should support **collapsing** in addition to the existing *Reset* button, so that when there are too many series, users don't have to scroll all the way down to reach the *Field Mapping* section.\"\n\n幾個用字上的細節說明（這些是台灣工程師寫英文規格時很容易卡住的地方）：\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 收折／收合 | **collapse**（動詞）／ **collapsible**（形容詞） | UI 術語固定用 collapse / expand 這組。不要用 \"fold\"，\"fold\" 在介面上通常指「摺疊紙張」那種實體動作，或程式碼編輯器的 code folding。 |\n| 以防萬一 | **so that … don't have to** ／ **in case** | 你這句其實不是「以防萬一」（in case = 預防某個意外），而是「為了避免某個已知的麻煩」，所以用 **so that** 帶出目的比較準。\"in case\" 留給真的不確定會不會發生的事，例如 \"Save a backup in case the upload fails.\"。 |\n| 滾動太久 | **scroll too far** ／ **scroll all the way down** | 中文的「久」是時間，英文這裡習慣講距離（far），說 \"scroll too long\" 會有點怪。 |\n| 字段映射 | **field mapping** | 注意「字段」在英文一律是 field，不是 word/character。 |\n\n一個加分的講法：描述「東西太多把下面的內容擠出畫面」時，母語者常說 **\"pushes the field mapping below the fold\"**（below the fold = 需要捲動才看得到的區域，源自報紙摺線以下）。例如：\n\n> \"With a dozen series, the field mapping gets pushed below the fold.\"\n\n這句很地道，寫 UI issue 時很好用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "785f42f6fa0f",
       "date": "20260921",
       "front": "\"Also, the dashboard shows \"",
       "body": "你這則有個字用錯了，先講這個：\n\n> ❌ 「**例外**，看板裡有顯示...」\n> ✅ 「**另外**，看板裡有顯示...」\n\n**「例外」≠「另外」** —— 這組中文很容易混：\n\n| 中文 | 意思 | 英文 |\n|---|---|---|\n| **例外** | 不適用一般規則的特殊情況 | exception |\n| **另外** | 追加一件事 | also / additionally / one more thing |\n\n你想表達的是「還有一件事」，所以是「另外」。英文對應：\n\n> **\"Also, the dashboard shows \"(期間累計)\" but the original doesn't — please remove that too.\"**\n\n順帶一提，中文的「例外」如果真要用在這裡，句意會變成「這是個例外情況」，讀者會等你說明為什麼特殊，結果你接的是新需求，就會卡住。\n\n**英文的「另外」有幾種，語氣不同：**\n\n| 說法 | 位置 | 語氣 |\n|---|---|---|\n| **Also,** | 句首 | 最常用、中性 |\n| **Additionally,** | 句首 | 偏正式、書面 |\n| **One more thing —** | 句首 | 口語，帶「差點忘了」的感覺 |\n| **On a separate note,** | 句首 | 轉到不相關的另一件事 |\n\n你這次兩個需求是相關的（都在 KPI 卡上），所以 **`Also`** 最合適；如果是完全另一個話題，用 `On a separate note` 會更清楚。\n\n👍 另外你這句「這邊都有 AVG，但我看看板裡沒有」結構很好——**先指出來源有什麼、再指出目標缺什麼**，這是最不會誤解的比對句型。英文同構：\n\n> \"The original has an AVG row for each KPI, but I don't see it on the dashboard — please add it.\"\n\n`I don't see it` 比 `it doesn't have` 更軟、更像回報觀察而非指責，在協作情境很好用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6dc4745c7037",
+      "date": "20260921",
+      "front": "你寫的是「好 改公式好了」—— 這是很典型的中文口語決策句，簡短、帶一點「就這麼辦」的隨意感。",
+      "body": "你寫的是「好 改公式好了」—— 這是很典型的中文口語決策句，簡短、帶一點「就這麼辦」的隨意感。\n\n英文對應：\n\n> **\"OK, let's go with 公式 (formula) then.\"**\n> 或更簡短：**\"Alright, 'formula' it is.\"**\n\n這裡最值得學的是 **\"X it is.\"** 這個句型：\n\n> \"Formula it is.\" ／ \"Monday it is.\" ／ \"Pizza it is.\"\n\n它是倒裝的固定說法，意思是「那就決定是 X 了」，語氣輕鬆、帶一點拍板定案的味道 —— 跟你中文那句「改公式好了」的語感幾乎完全對應。注意**主語在前、it is 在後**，不能寫成 \"It is formula\"（那變成單純的陳述句了）。\n\n另外「…好了」這種帶隨意感的決定，英文還有幾個常用說法：\n\n| 中文 | 英文 | 語氣 |\n|---|---|---|\n| 就改公式好了 | **Let's just go with \"formula.\"** | `just` 是關鍵，帶出「不用想太多」的隨意感 |\n| 那就這樣吧 | **Let's leave it at that.** | 表示到此為止、不再調整 |\n| 好，就這麼辦 | **OK, let's do that.** ／ **Sounds good, go ahead.** | 標準的核可用語 |\n\n`go ahead` 特別實用 —— 當別人提出方案問你要不要做，回一句 **\"Go ahead.\"** 就等於「動手吧」，簡潔又不失禮貌。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "57222c7fa332",
+      "date": "20260921",
+      "front": "\"That would explain it.\"",
+      "body": "你這次是用中文回的，先給對應的英文說法：\n\n> 「原來如此，的確『單價』這個是一個計算欄位沒錯，他的配置是『彙總後』。那這樣看來就依照你的建議把 chip 標籤改掉。」\n\n自然的英文：\n\n> \"I see — you're right, *unit price* is indeed a calculated field, and it's set to *aggregate* mode. In that case, let's go with your suggestion and change the chip label.\"\n\n幾個很實用的點：\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 原來如此 | **I see.** ／ **That explains it.** ／ **Ah, that makes sense.** | 三個都很自然。如果想強調「難怪」，用 **That explains it** 最傳神。不要說 \"So it is\"（那是古英文腔）。 |\n| 的確…沒錯 | **you're right, … indeed** ／ **sure enough, …** | `indeed` 放在 be 動詞後面（is indeed a calculated field）是最標準的位置。`sure enough` 則帶「果然如你所料」的味道。 |\n| 那這樣看來就… | **In that case, let's …** ／ **Then let's go ahead and …** | `In that case` 是承接前提後做決定的固定說法，非常好用。 |\n| 依照你的建議 | **let's go with your suggestion** ／ **as you suggested** | `go with` = 採納、選擇某方案，比 \"follow your suggestion\" 更口語自然。 |\n\n一個進階用法：當別人的診斷解開了你的疑惑，母語者常說 **\"That would explain it.\"**（用 would 而非 will，語氣更軟、表示「這就說得通了」）：\n\n> \"It's a calculated field in aggregate mode.\" — \"Ah, that would explain it.\"\n\n這句短、地道，技術討論裡出現頻率極高，很值得記起來。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "42b8ad1ac6bc",
+      "date": "20260921",
+      "front": "\"Say I have a field that's just a unit conversion…\"",
+      "body": "你這次的句子：「所以假設說 總變動成本(萬元) 是 分配總變動/10000 算出來的，那代表他可以是彙總後也可以是明細列嗎?」\n\n自然的英文：\n\n> \"So let's say *Total Variable Cost (10k)* is calculated as *Allocated Total Variance / 10000* — does that mean it could be either aggregate or row-level mode?\"\n\n幾個重點：\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 假設說… | **Let's say …** ／ **Suppose …** ／ **Say …** | `Let's say` 最口語自然。單獨一個 **\"Say\"** 開頭也很常見：*\"Say I have a field that's just a unit conversion…\"* |\n| 那代表…嗎？ | **Does that mean …?** | 直譯就對，非常好用的確認句型。比 \"Is it means\" 正確（means 前不能有 is） |\n| 可以是 A 也可以是 B | **could be either A or B** | `either … or …` 是固定搭配。注意中文說「也」，英文**不能**用 also，要用 or |\n\n**最值得記的是 `either`**。中文「A 也可以、B 也可以」很自然，但直譯成 \"can be A, also can be B\" 就很不英文。正確的三種說法：\n\n1. **\"It could be either one.\"** — 兩者皆可\n2. **\"Either works.\"** — 超簡潔，日常最常用\n3. **\"It doesn't matter which one you pick.\"** — 強調沒差\n\n反過來，如果要說「兩個都不行」，是 **neither**：*\"Neither mode works here.\"*\n\n另外你用了「他」指稱欄位 —— 中文口語常這樣，但英文指物一定要用 **it**，不能用 he/she。這是中文母語者很容易漏掉的地方，因為中文口語的「他」不分人物。寫英文時記得：欄位、系統、程式、公司，全部都是 **it**。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "345270b6067a",
+      "date": "20260921",
+      "front": "\"the numbers don't add up\"",
+      "body": "你這次是用中文問的，先給對應的英文說法：\n\n> 「為什麼樞紐計算出來的總計好像不太對？單價的部分不是應該是 115090 + 0 + 116322 = 231412 才對嗎？為什麼是 116296 呢？而且為什麼銷量算出來就是對的？」\n\n自然的英文：\n\n> \"Why does the pivot table's grand total look off? Shouldn't the unit price be 115090 + 0 + 116322 = 231412? Why is it 116296? And how come the sales volume adds up correctly?\"\n\n幾個值得學的點：\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 好像不太對 | **looks off** ／ **doesn't look right** ／ **seems wrong** | \"off\" 當形容詞是「不對勁」，很口語也很常見於工程討論。\"The numbers look off.\" 是回報問題時的黃金句型。 |\n| 不是應該…才對嗎？ | **Shouldn't it be …?** | 中文的「不是…才對嗎」是反問句求確認，英文直接用 `Shouldn't...?` 就到位，不用寫成 \"Isn't it should be\"（這是常見錯誤，`is` 和 `should` 不能連用）。 |\n| 而且為什麼…就是對的？ | **And how come … is correct?** | `how come` = why，但語氣更口語、帶一點「這就怪了」的意味，正好符合你這句的情緒。注意 `how come` 後面接**正常語序**（how come it is），不像 why 要倒裝（why is it）。 |\n| 總計 | **grand total**（全表總計）／ **subtotal**（小計） | 樞紐表的專有名詞，直接用比 \"total sum\" 精準。 |\n\n一個進階講法：描述「數字兜不起來」時，母語者很愛用 **\"the numbers don't add up\"**：\n\n> \"The unit price column doesn't add up — the grand total is way below the sum of the parts.\"\n\n`add up` 一語雙關（字面上「加得起來」＋ 引申「說得通」），用在這個情境剛剛好。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "278c521d8e84",
+      "date": "20260921",
+      "front": "\"I've put the image files here: `D:\\ezoGit\\ezov-icsc\\docs`. Take a look — the filenames match the titles.\"",
+      "body": "你這句很精簡，先看英文：\n\n> **\"I've put the image files here: `D:\\ezoGit\\ezov-icsc\\docs`. Take a look — the filenames match the titles.\"**\n\n**「你去確認吧」的語氣拿捏**，這是這句最值得講的地方：\n\n| 英文 | 語氣 |\n|---|---|\n| **Take a look.** | 自然、中性（最貼近你的意思） |\n| **Go check it out.** | 口語、輕鬆 |\n| **Please confirm.** | 偏正式，像要求回報結果 |\n| ⚠️ Go and verify it. | 太生硬，像下指令 |\n\n中文的「你去確認吧」語氣其實很輕鬆，但直譯成 `Go verify it` 在英文會顯得命令感很重。**`Take a look`** 是最安全的對應。\n\n**另一個實用表達：「檔名會對應標題」**\n\n> **\"The filenames match the titles.\"**\n> 或更明確：**\"The filenames map one-to-one to the card titles.\"**\n\n`map to` / `one-to-one` 是描述對應關係的標準說法，在資料處理情境特別常用：\n\n- \"Each file **maps to** a KPI card.\"（每個檔案對應一張卡）\n- \"It's a **one-to-one** mapping.\"（一對一對應）\n- \"The columns **line up with** the schema.\"（欄位跟結構對得上）\n\n👍 你這則做了一件很省事的事——**用檔名建立對應關係**，我不用問哪張圖配哪張卡，直接 `docs/<標題>.png` 就讀得到。這在英文叫 **convention over configuration**（慣例優於設定），是很受歡迎的做法，值得記起來用：\n\n> \"I named them by convention so you don't need a mapping table.\"\n> （我用慣例命名，這樣就不需要對照表了。）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "06ff5b853690",
+      "date": "20260921",
+      "front": "你寫的是「分批推上吧」—— 這句很短，但裡面有兩個在英文裡要拆開講的概念。",
+      "body": "你寫的是「分批推上吧」—— 這句很短，但裡面有兩個在英文裡要拆開講的概念。\n\n自然的英文：\n\n> **\"Let's push these in separate commits.\"**（分成不同 commit）\n> **\"Let's split this into two commits and push.\"**（明確說拆成兩個）\n\n如果你想表達的是「分成幾批、一批一批送」，還有：\n\n> **\"Let's push them in batches.\"**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 分批 | **in batches** ／ **in separate commits** ／ **split into…** | `batch` 是「一批」的標準字。但在 git 語境下，講 **separate commits** 比 batches 更精準，對方一聽就知道你要拆 commit 而不是分次推送 |\n| 推上去 | **push** ／ **push it up** | `push` 本身就夠了，`up` 可加可不加，口語常加 |\n| …吧 | **Let's …** | 中文的「吧」是輕微的提議語氣，英文用 `Let's` 就到位，不需要額外加 please |\n\n一個實用的延伸：git 圈子裡常說 **\"split the changes into logical commits\"**（把改動拆成邏輯上獨立的 commit），這正是你這次要的 —— 收合功能跟 badge 修正是兩件事，不該混在一個 commit 裡。review 時對方會很感謝你。\n\n反過來，如果要說「合成一個 commit」，動詞是 **squash**：\n\n> \"Can you squash these into one commit?\"\n\n`squash` 字面是「壓扁」，在 git 裡是固定術語（`git rebase -i` 裡就有這個指令），用其他字反而沒人懂。",
       "tags": [
         "comparison"
       ]
