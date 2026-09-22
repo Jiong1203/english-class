@@ -1,6 +1,189 @@
 {
   "entries": [
     {
+      "id": "ff3a9a2b2a95",
+      "date": "20260922",
+      "front": "\"So I don't need to ... then?\"",
+      "body": "您這句 \"所以我不用再另外使用 daotool 了嗎?\" 語法完全正確，而且用了很自然的確認句型。英文對應：\n\n| 中文 | 自然的英文說法 |\n|---|---|\n| 所以我不用再另外使用 DAOTool 了嗎？ | So I don't need to run DAOTool separately, then? |\n| 這個功能目前只能發送給 W7 單位的人員 | This feature can currently only send to people in the W7 department. |\n| 所以才有這個警告 | That's why the warning is there. |\n| 你也可以優化他 | Feel free to improve it as well. |\n\n用詞小提醒：詢問「還需不需要做某件事」時，英文最自然的是 **\"So I don't need to ... then?\"**，句尾的 **then** 帶有「照你剛才說的推論」的語氣，跟中文的「所以…了嗎？」幾乎一對一對應。另外注意工具「執行」的動詞——DAOTool 這類程式用 **run** 而不是 use：`run DAOTool`、`run the generator`，這是工程情境裡的慣用搭配。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "fd9d6172b480",
+      "date": "20260922",
+      "front": "\"Why are these here?\"",
+      "body": "你這句只有五個字，但英文要看情境補完：\n\n> **為什麼有這些？**\n> \"Why are these here?\" — 指著畫面問「這些東西怎麼會在這」\n> \"Where did these come from?\" — 語氣更偏「這是哪來的」，帶一點意外\n\n**用詞說明：**\n\n| 情境 | 建議英文 |\n|---|---|\n| 指著畫面上不該有的東西 | **\"Why are these here?\"** |\n| 想知道來源 | **\"Where did these come from?\"** |\n| 懷疑是對方加的 | **\"Did you add these?\"**（直接但可能顯得指責） |\n\n你這次的情境最適合第一句或第二句。**第三句要小心**——如果對方其實沒加，會變成無端指控；用前兩句可以先問來源，答案自然會揭曉是誰加的。\n\n**小提醒：** 貼圖問問題時，英文習慣加一句指位，讓對方知道你在看哪裡：\n\n- **\"The bar at the top — why is that there?\"**（上面那條，為什麼會在？）\n- **\"What's this section?\"**（這區塊是什麼？）\n\n你這次有紅框標示，所以不補也很清楚。但純文字描述畫面時，這種指位語就很必要了。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "e4a03ba0b9fe",
+      "date": "20260922",
+      "front": "\"好那換前端 /clean-branches 只清 \"",
+      "body": "您這句 \"好那換前端 /clean-branches 只清 \"I30131\" 相關的\" 用「換」帶出下一個對象、再用「只清…相關的」限縮範圍，指令結構很清楚。英文對應：\n\n| 中文 | 自然的英文說法 |\n|---|---|\n| 好，那換前端 | OK, let's do the frontend next. |\n| 只清 I30131 相關的 | Only clean up the ones that belong to I30131. |\n| 這是別人的分支 | That branch belongs to someone else. |\n| 本機刪掉就好，遠端保留 | Just delete them locally; leave the remote ones alone. |\n| 之後還救得回來 | We can still restore them later. |\n\n用詞小提醒：「換 X」在對話中接續下一個處理對象，英文常用 **let's move on to X** 或 **let's do X next**，不要直譯成 change to X（那是「改成 X」的意思，語意完全不同）。另外「保留不動」最道地的說法是 **leave them alone** 或 **leave them as they are**，比 keep 更能傳達「不去碰它」的意思。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "e3028683b307",
+      "date": "20260922",
+      "front": "\"你都發現問題了就修一修吧\"",
+      "body": "您這則指示簡潔有力，特別是 \"你都發現問題了就修一修吧\" 這種「既然順路就一起做」的語氣，英文有很貼切的對應：\n\n| 中文 | 自然的英文說法 |\n|---|---|\n| 多開一點，避免之後又要反反覆覆 | Let's size them generously so we don't have to keep revisiting this. |\n| 如果需要動的話也可以動啊，給你評估 | Feel free to change it if needed — I'll leave the call to you. |\n| 你都發現問題了就修一修吧 | Since you've already spotted it, go ahead and fix it. |\n| 相關文件可以一併更新 | Update the related docs along with it. |\n\n用詞小提醒：「反反覆覆」這裡指「同一件事改來改去」，英文用 **keep revisiting this** 或 **go back and forth on this** 最自然，不要用 repeatedly（那只表示次數多，沒有「來回折騰」的無奈感）。另外「給你評估」的「評估」在這種口語場合說 **I'll leave it to your judgment** 比 assess 更像同事間的說法——assess 偏正式報告用語，剛好適合您先前那封給人事單位的信，兩種語域的差別值得留意。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d96ca478f697",
+      "date": "20260922",
+      "front": "\"What would you do?\"",
+      "body": "你這句是在徵詢專業意見，措辭很得體：\n\n> **你會建議留下原本範本的框架嗎？**\n> \"Would you recommend keeping the original template framework?\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 你會建議…嗎 | Would you recommend…? | 標準問法。更口語是 **\"What would you do?\"**（換你會怎麼做？） |\n| 框架 | framework / scaffolding / shell | 這裡指「外殼結構」，用 `shell`（殼）或上次教的 `scaffolding`（鷹架）比 `framework` 更精準——`framework` 容易被理解成 Vue/Nuxt 那種框架。 |\n| 留下 | keep / hold on to / retain | `keep` 就夠。 |\n\n**小提醒：** 你開頭的 **「這樣講好了」** 是要換個角度重新提問，英文對應：\n\n- **\"Let me ask it differently —\"**（我換個方式問）\n- **\"Actually, let me back up —\"**（等等，我往回一步）\n\n第二個特別好用：當你發現前一個問題問得太細、想拉回更高層次時（你這次正是從「怎麼清」拉回「該不該清」），`let me back up` 就是那個動作。\n\n工程討論裡還有一個相關說法：\n\n> **\"Before we go further — is this even worth keeping?\"**\n> （在繼續之前——這東西到底值不值得留？）\n\n`is it even worth…` 帶著「先質疑前提」的意味，用來打斷一個已經開始執行但方向可疑的工作，很有效。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "cd80b0ee33fa",
+      "date": "20260922",
+      "front": "\"Given that 方案管理 and 優惠碼管理 already have a working admin area, do we still need to keep it?\"",
+      "body": "你這句是用新資訊挑戰前一個結論，很有效：\n\n> **那如果像現在「方案管理」跟「優惠碼管理」也已經有成形的後台了，這樣還需要留嗎？**\n> \"Given that 方案管理 and 優惠碼管理 already have a working admin area, do we still need to keep it?\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 那如果…已經… | Given that… / Since… | `Given that`（既然、考慮到）用來把一個既成事實當作論證前提，比 `if` 準確——因為這不是假設，是事實。 |\n| 成形的 | working / functioning / established | `a working admin area`（一個能用的後台）最自然；`established` 偏「已站穩的」。 |\n| 還需要留嗎 | do we still need to keep it? | `still`（仍然）是關鍵字，暗示「情況已經改變了」。 |\n\n**小提醒：** 你這兩輪的提問方式很值得注意——你沒有直接說「刪掉吧」，而是**提供一個我可能沒納入考量的事實**，讓結論自己浮現。英文裡這種問法有個名字叫 **leading with context**（先給脈絡再問）。\n\n對照兩種說法：\n\n- 直接命令：`\"Just delete it.\"`\n- 給脈絡再問：`\"We already have a working admin area — do we still need this?\"`\n\n第二種在協作中更有效，因為如果對方知道你不知道的事（例如「那個 layout 其實還有別的用途」），他有機會說出來。而第一種只會得到執行結果。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "c6ae057f9c6b",
+      "date": "20260922",
+      "front": "\"dzp 的部分協助 /clean-branches\"",
+      "body": "您這句 \"dzp 的部分協助 /clean-branches\" 是很精簡的指令式中文，把範圍（dzp）和動作（清分支）一次交代完。英文對應：\n\n| 中文 | 自然的英文說法 |\n|---|---|\n| dzp 的部分協助清一下分支 | Could you clean up the branches for dzp? |\n| 已合併的分支 | merged branches |\n| 未合併的分支 | unmerged branches / branches not merged into master |\n| 本機與遠端一起刪 | Delete them both locally and on the remote. |\n| 這個分支先留著 | Let's keep that branch for now. |\n\n用詞小提醒：「清理」分支的慣用動詞是 **clean up**（或 **prune**，正好是 git 的 `--prune` 參數用字，語感是「修剪掉枯枝」）。要特別注意 **local** 和 **remote** 這組詞——中文說「本機／遠端」，英文在 git 語境常直接說 `delete it locally` 和 `delete it on the remote`，用副詞 locally 比說 on the local machine 簡潔得多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a761ec16078e",
+      "date": "20260922",
+      "front": "英文翻譯（推薦）：**",
+      "body": "> 不小心中斷了，請繼續\n\n**英文翻譯（推薦）：**\n> Sorry, I interrupted that by accident — please continue.\n\n**其他說法：**\n> Oops, that was an accidental interrupt. Carry on.\n\n**語感說明（zh-tw）：**\n1. 「不小心」對應 **by accident** 或 **accidentally**，放句尾的 `by accident` 語氣比較輕鬆自然；`accidentally` 放動詞前則稍微正式一點。\n2. 「請繼續」最常用的兩個說法是 **please continue**（中性）和 **carry on**（更口語、英式常見）。另外 **pick up where you left off**（從你剛剛停下的地方接續）在這種「被打斷後要接回去」的情境特別貼切，例如 *Just pick up where you left off.*\n3. 補充一個好用詞：這種「打斷正在進行的程序」在技術語境叫 **interrupt**（名詞也可當動詞），你按 Ctrl+C 中止指令，英文就會說 *I hit Ctrl+C / I sent an interrupt.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9aadc23674c9",
+      "date": "20260922",
+      "front": "\"What's the blast radius?\"",
+      "body": "你這句問得很專業，這是修改前該問的第一個問題：\n\n> **如果把範本的那層清掉會對現有的畫面有甚麼影響嗎?**\n> \"If we strip out that template layer, would it affect any of the existing screens?\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 清掉 | strip out / remove / rip out | `strip out`（剝除）特別適合「移除多餘的包裝層」；`rip out` 語氣更強，帶「整個拔掉」的意味。 |\n| 那層 | that layer | 講架構層級直接用 `layer`，很自然。 |\n| 現有的畫面 | the existing screens / existing pages | UI 語境用 `screen`（畫面）或 `page`；`screen` 在 app 情境更常見。 |\n\n**小提醒：** 這類「改動前先問影響範圍」的問題，英文有幾個固定問法，工程上很好用：\n\n- **\"What's the blast radius?\"**（影響半徑多大？）— 很生動的行話，指一個改動會波及多廣\n- **\"What would break?\"**（會弄壞什麼？）— 最直接\n- **\"Is anything else depending on it?\"**（還有別的東西依賴它嗎？）— 問依賴關係\n\n`blast radius`（爆炸半徑）雖然是俚語，但在 SRE 和架構討論裡非常常見，用來問「這個改動最壞會影響到哪裡」。你這次問的正是這個。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8cbc890304ef",
+      "date": "20260922",
+      "front": "\"only convert plain numbers to numeric cells\"",
+      "body": "> - fileType 篩選清單補齊\n> - 可以改成「純數字才寫成數值」\n\n你這次用條列式下指令，很清楚有效率。以下是自然的英文說法：\n\n**英文（推薦）：**\n> - Fill in the missing fileType filter options.\n> - Go ahead and switch to \"only convert plain numbers to numeric cells\".\n\n**其他說法：**\n> - Let's complete the fileType filter list.\n> - Yes, please make numeric conversion opt-in for plain numbers only.\n\n**語感說明（zh-tw）：**\n1. 「補齊」這裡跟上次的「補上」不同——上次是「新增沒有的功能」（add support），這次是「把清單缺的項目填滿」，用 **fill in the missing...** 或 **complete the list** 更貼切。\n2. 「可以改成…」是在回應我提的選項、表示同意，英文用 **Go ahead and...**（你就去做吧）或 **Yes, let's...** 最自然。單講 *Can change to...* 會像在陳述可能性，而不是下決定。\n3. 補充一個在技術討論中很好用的詞：**opt-in**（預設關閉、明確選擇才啟用）與 **opt-out**（預設開啟、要主動關閉）。你這個決定正好是把數值轉換設計成保守的 opt-in——只有明確安全的情況才轉。例如 *Let's make it opt-in rather than converting everything.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "87ad01751def",
+      "date": "20260922",
+      "front": "您這次貼的是中文公文式通知，提供這類「系統間資料格式變更通知」的英文對應說法：",
+      "body": "您這次貼的是中文公文式通知，提供這類「系統間資料格式變更通知」的英文對應說法：\n\n| 中文 | 自然的英文說法 |\n|---|---|\n| 關於授權○○系統讀取人事通訊錄 | Regarding the authorization for the ○○ system to access the HR directory |\n| 資料格式將由 A 調整為 B | The data format will be changed from A to B. |\n| 多分機，以「/」區隔 | Multiple extensions, separated by a forward slash (\"/\") |\n| 職稱代碼 | job title code（若指組織職務則用 position code） |\n| 新格式預計自哪一天起正式發送？ | From what date will the new format start being published? |\n| 我方希望切換前先於測試環境驗證 | We'd like to validate it in the test environment before the switchover. |\n\n用詞小提醒：中文的「職位」與「職稱」在英文常分別對應 **position**（組織編制上的位置）與 **job title**（頭銜名稱），這正是這次兩份文件用詞不一致的地方——英文反而更容易看出差別，所以向對方確認「是否為同一欄位」是很務實的一步。另外「分機」是 **extension**（口語可說 ext.），不要用 **branch line**；「切換」在系統上線情境用 **switchover** 或 **cutover** 最道地。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "71ba7308a008",
+      "date": "20260922",
+      "front": "\"What do we need to move over?\"",
+      "body": "你這次用中文提問，先給你對應的英文說法：\n\n> **原句**：「如果要打包前後端到另外一個環境，你會建議怎麼做？總共有哪些部分要搬？」\n>\n> **英文**：\"If we need to package the frontend and backend for deployment to another environment, what approach would you recommend? What are all the pieces we'd need to migrate?\"\n\n**用詞細節說明：**\n\n| 中文 | 英文 | 語感說明 |\n|------|------|----------|\n| 打包到另一個環境 | **deploy to another environment** | 「打包」直譯成 `package` 也通，但在部署語境裡，母語者更常說 `deploy to`。`package` 偏向「把程式做成一個可安裝的檔案」這個動作本身 |\n| 搬 | **migrate** / **move over** | 正式文件用 `migrate`（遷移），口語對話用 `move over` 也很自然，例如 \"What do we need to move over?\" |\n| 這部分要搬 | **this needs to be carried over** | `carry over` 帶有「從舊的沿用到新的」的味道，用在設定檔、資料時很貼切 |\n\n另外補充一個在這種情境超好用的字：**provision**（佈建）。例如 \"We need to provision a new PostgreSQL instance for that environment.\"（我們得為那個環境佈建一套新的 PostgreSQL）——比 `set up` 更專業、更常出現在基礎設施的討論裡。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6df27a5ad267",
+      "date": "20260922",
+      "front": "\"都完成了就可以分批推囉~\"",
+      "body": "您這句 \"都完成了就可以分批推囉~\" 語氣輕鬆自然，句尾的「囉」帶有「那就交給你了」的放行感。英文對應：\n\n| 中文 | 自然的英文說法 |\n|---|---|\n| 都完成了就可以分批推囉 | If everything's done, go ahead and push them in batches. |\n| 分批（提交／推送） | in batches / in separate commits |\n| 兩個 repo 分開推 | Push the two repos separately. |\n| 這批改動還沒實測 | This batch hasn't been tested on a real environment yet. |\n| 記得照順序部署 | Remember to deploy them in order. |\n\n用詞小提醒：中文的「推」在 git 情境直接說 **push** 就好，不需要說 push up；而「分批」若指「拆成多個 commit」是 **in separate commits**，若指「分幾次推送」才是 **in batches**——您這次其實兩者都做了。另外「囉」這種放行語氣，英文常用 **go ahead and ...**（你就放手去做吧），是很貼近的對應。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5a301fc91918",
+      "date": "20260922",
+      "front": "\"Nice, that's exactly it.\"",
+      "body": "你這句很簡潔，是很標準的後續請求：\n\n> **那關於原本範本的其他部分也可以協助清除嗎？**\n> \"Could you clean up the rest of the template leftovers too?\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 範本的其他部分 | the rest of the template leftovers | **`leftovers`**（殘留物）正是這個情境的字——原本用在剩菜，工程上指「該清掉卻留著的東西」。 |\n| 協助清除 | clean up / help clean up | 中文的「協助」是禮貌用語，英文加 `help` 反而累贅，直接 `Could you clean up…` 就已經很客氣。 |\n| 也 | too / as well | 放句尾最自然。 |\n\n**小提醒：** 你開頭的 **`Good 這樣就對了`** 上次教過 `Looks good`。這次可以換個說法累積詞彙：\n\n- **\"Nice, that's exactly it.\"**（很好，就是這樣）\n- **\"That's the one.\"**（就是這個）— 很口語的肯定\n- **\"Spot on.\"**（完全正確）— 英式常用，一個詞就夠\n\n另外描述「範本殘留」這類技術債，英文還有兩個常見說法：\n\n- **boilerplate**（樣板程式碼）— 指複製來的固定結構\n- **scaffolding**（鷹架）— 指開發初期搭起來、完工後該拆掉的東西\n\n你這次的情況兩個都適用：**\"Let's clear out the leftover scaffolding.\"**",
+      "tags": [
+        "praise",
+        "vocab",
+        "comparison"
+      ]
+    },
+    {
+      "id": "4ec069dc1e16",
+      "date": "20260922",
+      "front": "\"主要現在就是看多加了 X 跟 Y 後，我們這邊要如何配合調整，不需要再去跟他們確認甚麼了\"",
+      "body": "您這次的訊息很簡潔明確，特別是 \"主要現在就是看多加了 X 跟 Y 後，我們這邊要如何配合調整，不需要再去跟他們確認甚麼了\" ——這句把「範圍」和「不要再發散」一次講清楚，是很好的指令下法。英文可以這樣說：\n\n| 中文 | 自然的英文說法 |\n|---|---|\n| 我們這邊要如何配合調整 | what we need to change on our side to accommodate it |\n| 不需要再去跟他們確認什麼了 | No need to go back to them with more questions. |\n| 對方已回覆過 | They've already replied / We've already heard back from them. |\n| 保留欄位位置 | The field positions will be preserved. |\n| 皆無分隔符號「-」 | Neither field will contain a hyphen. |\n\n用詞小提醒：「配合調整」這裡用 **accommodate**（配合、容納對方的改變）最貼切；若想更口語，**work with the new format** 也很自然。另外要特別提醒 **confirm** 的用法——中文的「跟他們確認」在英文不是 confirm with them（那比較像「向他們求證某個已知事實」），要問對方拿資訊時用 **check with them** 或 **follow up with them** 更道地，例如 \"No need to check with them again.\"",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4de1069d3f2b",
+      "date": "20260922",
+      "front": "\"minus the template stuff\"",
+      "body": "你這句同時給了「刪」和「留」兩個指示，英文的轉折要清楚：\n\n> **先清 setting 這層，但是我想讓 setting 也可以互相導向，保留選單的方式**\n> \"Clean up the settings layer first — but keep the menu, so the settings pages can still link to each other.\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 互相導向 | link to each other / navigate between them | `navigate between` 更技術；`link to each other` 更直白。 |\n| 保留選單的方式 | keep the menu approach / keep the tabs | 你說的「方式」指的是「這種做法」，英文常省略：`keep the menu` 就夠了。 |\n| 清 | clean up / strip out | 上次教過 `strip out`；`clean up` 語氣較溫和，適合「整理」而非「拔除」。 |\n\n**小提醒：** 你這句的結構是「做 A，但保留 B」——英文最自然的接法是用破折號或 `but`，而且**把理由放在最後**：\n\n> \"Clean it up — **but keep the menu**, so the pages can still link to each other.\"\n\n英文習慣「指示 → 例外 → 原因」的順序。中文則常把原因夾在中間（「但是我想讓…可以…，保留…」）。寫需求時照英文順序排，對方比較不會漏掉那個「但是」。\n\n另一個實用說法是 **\"minus the template stuff\"**（把範本那些東西拿掉）：\n\n> \"Keep the tab bar, **minus the template stuff**.\"\n> （分頁列留著，但把範本那些拿掉。）\n\n`minus` 當「扣掉、不含」用，很口語也很精確。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4de01f68b8c8",
+      "date": "20260922",
+      "front": "\"Let me put it another way —\"",
+      "body": "你這段在說明設計意圖，有兩個很實用的表達：\n\n> **把這組 group_id keep 住**\n> \"hold on to that group_id\" / \"keep that group_id around\"\n>\n> **就必須回 LINE 裡面去觸發另個群組選單開啟新的 LIFF**\n> \"they'd have to go back to LINE and open a new LIFF session from the other group's menu.\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| keep 住 | hold on to / persist / carry it through | 你直接用了英文 `keep`，很自然。技術文件裡 `persist`（保存）更正式，`carry it through`（一路帶著）最貼近你的意思。 |\n| 觸發 | trigger / open from | 你說的「觸發選單」其實是「從選單開啟」，英文用 `open from` 更直觀。 |\n| 一開始一定會帶 | always arrives with / is always present | `always` 放前面強調這是保證，不是巧合。 |\n\n**小提醒：** 你這段開頭是 **「應該這樣說」**——這是在重新表述自己的意思，英文對應：\n\n- **\"Let me put it another way —\"**（我換個說法）\n- **\"To be more precise —\"**（更精確地說）\n- **\"Here's what I mean:\"**（我的意思是這樣）\n\n第一個最貼近你的語氣。它和上次教的 `What I meant was…` 差別在於：`What I meant was` 用在對方**誤解**之後，`Let me put it another way` 用在你想**主動講得更清楚**，不預設對方錯。你這次是後者。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "267af29b88e3",
+      "date": "20260922",
+      "front": "英文翻譯（推薦）：**",
+      "body": "> csv 檔案現在無法上傳，請補上\n\n**英文翻譯（推薦）：**\n> CSV files can't be uploaded right now — could you add support for them?\n\n**其他說法：**\n> Uploading CSV files doesn't work. Please add CSV support.\n\n**語感說明（zh-tw）：**\n1. 「請補上」直譯成 *please fill in* 會變成「請填寫」，完全走偏。這裡的「補上」是「補齊缺少的功能」，英文說 **add support for X**（新增對 X 的支援）最精準，是軟體開發的標準說法。\n2. 語氣調節：**could you add...?** 比 **please add...** 更客氣一些；如果是寫 issue 或工單，直接用祈使句 **Add CSV support.** 反而更簡潔專業，不會顯得沒禮貌。\n3. 補充一組相關說法，描述功能狀態很好用：\n   - **not supported**（不支援）：*CSV isn't supported yet.*\n   - **out of the box**（開箱即用）：*It should work out of the box.*（應該一裝就能用）\n   - **parity**（對等、一致）：*CSV should have parity with Excel.*（CSV 應該和 Excel 有同等待遇）——這個詞在討論「某功能要跟另一功能一樣完整」時很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "10db72a0dd1e",
+      "date": "20260922",
+      "front": "\"version one point sixteen point twenty-eight\"",
+      "body": "> 發版\n\n這個詞你上次用過，這次補充幾個發版流程中實用的英文說法：\n\n**發版相關動作：**\n- **cut a release** — 切出一個版本（正式流程）\n- **tag a release** — 打上版本標籤（你們的實際動作）\n- **roll out** — 逐步推出上線：*We rolled out v1.16.28 to the test environment.*\n- **roll back** — 出問題時退版：*If the pipeline fails, we'll roll back.*\n\n**版本號的英文讀法：**\n- `v1.16.28` 唸作 **\"version one point sixteen point twenty-eight\"**\n- 三段的名稱依序是 **major / minor / patch**\n- 你這次選 patch 而非 minor，英文可以說：*Let's keep it a patch bump.*（bump 是「版號往上加」的行話）\n\n**語感補充（zh-tw）：**\n「bump」這個詞在版本管理很常見，當動詞用：*bump the version to 1.16.28*（把版號升到 1.16.28）。相關的還有 **freeze**（凍結，發版前不再收新功能）：*We're in a code freeze until the release.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "02ea013a2151",
+      "date": "20260922",
+      "front": "英文翻譯（推薦）：**",
+      "body": "> 這次發生的是 doc 檔案\n\n**英文翻譯（推薦）：**\n> This time it happened with a .doc file.\n\n**其他說法（更貼近 bug 回報語境）：**\n> The file that failed was a .doc.\n\n**語感說明（zh-tw）：**\n1. 中文說「發生的是 doc 檔案」，主詞其實省略了「問題」。英文如果直譯成 *This time is a doc file* 會不成句——要嘛補回主詞 **it**（指前面提到的錯誤），要嘛換個說法用 **The file that failed**（出問題的那個檔案）當主詞。\n2. 講「用某個檔案發生」，介系詞用 **with** 最自然：*It happened with a .doc file.* 如果要強調「只在這種檔案上發生」，可以說 *It only happens with .doc files.*\n3. 補充一組 bug 回報很好用的說法：\n   - **reproduce**（重現）：*I can only reproduce it with .doc files.*\n   - **narrow it down**（縮小範圍）：*I narrowed it down to legacy .doc files.*（我把範圍縮小到舊版 .doc 檔）\n   \n   你這次提供的資訊正好就是幫我 narrow it down，這在協作除錯時是非常有價值的一句話。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fbd4de1d4d61",
       "date": "20260921",
       "front": "\"What happens if …?\"",
@@ -65,6 +248,15 @@
       ]
     },
     {
+      "id": "8784e4e301e4",
+      "date": "20260921",
+      "front": "你這兩則訊息都是中文，以下提供自然的英文說法：",
+      "body": "你這兩則訊息都是中文，以下提供自然的英文說法：\n\n> 沒關係，我有按照你的做法找到了。\n\n**英文翻譯（推薦）：**\n> No worries, I found it by following your suggestion.\n\n**其他說法：**\n> It's fine — I followed your steps and found it.\n\n> 為什麼異地備援目的地這邊全空?\n\n**英文翻譯（推薦）：**\n> Why is the Remote Backup Destinations tab completely blank?\n\n**語感說明（zh-tw）：**\n1. 「沒關係」在這種「不用再麻煩了」的語境，用 **No worries** 或 **It's fine** 最自然；**Never mind** 則偏向「算了，別提了」，語氣稍微冷淡一點，這裡不太適合。\n2. **blank** 和 **empty** 有細微差別：**blank** 指「畫面上什麼都沒顯示」（你這個情況），**empty** 指「有介面但沒有資料」。你截圖是前者，所以 blank 更精準。想強調「整片空白」可以用 **completely blank** 或 **entirely blank**。\n3. 「異地備援」的標準英文是 **off-site backup** 或 **remote backup**；「目的地」在備份語境用 **destination** 或 **target** 都通行，你們程式碼裡用的是 `BackupTarget`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "84a50d863ab7",
       "date": "20260921",
       "front": "\"What about these two?\"",
@@ -107,6 +299,15 @@
       "body": "你這次是用中文回的，先給對應的英文說法：\n\n> 「原來如此，的確『單價』這個是一個計算欄位沒錯，他的配置是『彙總後』。那這樣看來就依照你的建議把 chip 標籤改掉。」\n\n自然的英文：\n\n> \"I see — you're right, *unit price* is indeed a calculated field, and it's set to *aggregate* mode. In that case, let's go with your suggestion and change the chip label.\"\n\n幾個很實用的點：\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 原來如此 | **I see.** ／ **That explains it.** ／ **Ah, that makes sense.** | 三個都很自然。如果想強調「難怪」，用 **That explains it** 最傳神。不要說 \"So it is\"（那是古英文腔）。 |\n| 的確…沒錯 | **you're right, … indeed** ／ **sure enough, …** | `indeed` 放在 be 動詞後面（is indeed a calculated field）是最標準的位置。`sure enough` 則帶「果然如你所料」的味道。 |\n| 那這樣看來就… | **In that case, let's …** ／ **Then let's go ahead and …** | `In that case` 是承接前提後做決定的固定說法，非常好用。 |\n| 依照你的建議 | **let's go with your suggestion** ／ **as you suggested** | `go with` = 採納、選擇某方案，比 \"follow your suggestion\" 更口語自然。 |\n\n一個進階用法：當別人的診斷解開了你的疑惑，母語者常說 **\"That would explain it.\"**（用 would 而非 will，語氣更軟、表示「這就說得通了」）：\n\n> \"It's a calculated field in aggregate mode.\" — \"Ah, that would explain it.\"\n\n這句短、地道，技術討論裡出現頻率極高，很值得記起來。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "4369af1e61cc",
+      "date": "20260921",
+      "front": "英文說法（依情境）：**",
+      "body": "> 發版\n\n**英文說法（依情境）：**\n- **Ship it.** — 最口語、最常用，「發上去吧」\n- **Release it.** / **Cut a release.** — 正式說法，`cut a release` 是「切出一個版本」的行話\n- **Tag and deploy.** — 你們這套 tag-based CI 流程最精準的說法\n\n**語感說明（zh-tw）：**\n1. 中文的「發版」是一個動詞，但英文很少單獨說 `Release`（聽起來像名詞或指令碼）。日常對話最自然的是 **Ship it**——`ship` 在軟體圈就是「把東西送出去、上線」的意思，例如 *Let's ship it today.*（今天就發吧）。\n2. **cut a release** 這個片語值得記：`cut` 來自早期從主線「切出」一個發布分支的習慣，例如 *We're cutting a release on Friday.*（我們週五要發版）。\n3. 你們的流程剛好是「打 tag 觸發部署」，所以講 **tag and deploy** 或 **push the tag** 最貼合實際動作，同事一聽就懂你要做什麼。",
+      "tags": [
+        "note"
       ]
     },
     {
