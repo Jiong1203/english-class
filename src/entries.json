@@ -28,6 +28,24 @@
       ]
     },
     {
+      "id": "d718dc50eb0f",
+      "date": "20260924",
+      "front": "\"Okay, let's do this: walk me through the possible scenarios for a group of three people with an activity capped at six.\"",
+      "body": "你這次用中文發問，下面是比較自然的英文說法：\n\n> \"Okay, let's do this: walk me through the possible scenarios for a group of three people with an activity capped at six.\"\n\n- **演繹一下** 在這裡最貼切的說法是 **walk me through...**，意思是「一步一步帶我看過一遍」。*deduce* 是邏輯推理的「演繹」，放在這裡不自然。\n- **人數上限為 6 人** 可以精簡成 **capped at six**。**cap** 當動詞是「設上限」的意思。\n- **這樣好了** 用 **Okay, let's do this:** 或 **Tell you what:** 來開頭都很口語、很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cb6f59598870",
+      "date": "20260924",
+      "front": "\"might have typos\"",
+      "body": "你這次用中文描述需求，下面是比較自然的英文說法：\n\n> \"Another improvement for the text-chain mode: the roster doesn't pre-fill numbers up to the activity's capacity, so users have to type the numbers themselves, which is error-prone. Please generate numbered slots based on the capacity — e.g. if the limit is 6, the roster should show six slots.\"\n\n- **補齊編號** 可以說 **pre-fill the numbers** 或 **pad the list up to N**。**pad** 是工程上很常用的詞，意思是「補滿到固定長度」。\n- **手誤的可能** 用 **error-prone**（容易出錯的）會比 *\"might have typos\"* 更精簡、也更專業。\n- **人數上限** 常說 **capacity** 或 **headcount limit**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "caae5b0d69cb",
       "date": "20260924",
       "front": "\"瑞東學長發現有幾筆資料有異常\"",
@@ -82,6 +100,15 @@
       ]
     },
     {
+      "id": "9e6cc3ed25bc",
+      "date": "20260924",
+      "front": "\"push, then deploy\"",
+      "body": "你這次中英混用，比較自然的英文說法是：\n\n> \"Push it, then cut a new dev-test-vx.y.z release.\"\n\n- **推一版** 用 **cut a release** 或 **cut a new branch**。**cut** 是「從主線切出一個版本或分支」的慣用說法，前面 CLAUDE.md 裡也有用到（*cut a deployment branch from dev*）。\n- **然後** 在指令裡用 **then** 串接兩個動作就很清楚，例如 *\"push, then deploy\"*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "912877952ec9",
       "date": "20260924",
       "front": "\"Does that mean there's no way to add remarks?\"",
@@ -118,6 +145,15 @@
       ]
     },
     {
+      "id": "67f8bd5659bd",
+      "date": "20260924",
+      "front": "\"For #13, we'll accept the risk. For #9, I'll go with option A and keep it as is.\"",
+      "body": "你這次用中文回覆，比較自然的英文說法是：\n\n> \"For #13, we'll accept the risk. For #9, I'll go with option A and keep it as is.\"\n\n- **接受這個風險** 常說 **accept the risk**；如果想更口語一點，可以說 **we can live with that**（「這我們可以接受」）。\n- **我選 A** 用 **I'll go with A** 很自然。**go with** 表示「決定採用」，比 *I choose A* 口語。\n- **維持現狀** 用 **keep it as is**，或是 **leave it as it is**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5740954ad2fe",
       "date": "20260924",
       "front": "\"Is that persisted, or just held in component state?\"",
@@ -127,12 +163,48 @@
       ]
     },
     {
+      "id": "479f6f41f1d3",
+      "date": "20260924",
+      "front": "\"Can you get rid of the space after the number in the roster?\"",
+      "body": "你這次用中文發問，下面是比較自然的英文說法：\n\n> \"In the current text-chain sign-up, there's a space between the number and the name. Could you help remove it?\"\n\n- **文字接龍報名法** 可以說 **text-chain sign-up** 或 **copy-paste roster sign-up**。英文沒有「接龍」這個固定說法，用 chain 就能表達「一個接一個往下加」的意思。\n- **清除** 在這裡用 **remove** 或 **get rid of** 比 **clear** 自然。**clear** 通常是指清空整個欄位或內容，像 clear the input。\n- 比較口語的說法：*\"Can you get rid of the space after the number in the roster?\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "2ac8ca709d49",
       "date": "20260924",
       "front": "\"Just checking.\"",
       "body": "你這則同時做了確認和回報，兩段用「另外」分開，很清楚：\n\n> **沒事，我只是想確認一下而已**\n> \"No worries — I just wanted to confirm.\"\n>\n> **另外，我在測試的時候遇到…的錯誤**\n> \"Separately, while testing I ran into this error:\"\n\n**用詞說明：**\n\n| 中文 | 建議英文 | 說明 |\n|---|---|---|\n| 沒事 | No worries / It's fine | `No worries` 用來解除對方的緊張最自然（我上一則問了一串診斷問題）。 |\n| 只是想確認一下 | just wanted to confirm / just checking | **`Just checking.`** 兩個字就夠，非常常用。 |\n| 遇到…錯誤 | ran into / hit an error | `run into`（撞上）和 `hit`（碰到）都很口語，比 `encountered` 輕快。 |\n\n**小提醒：** `Just checking.` 這句在協作中價值很高——它明確告訴對方「這不是 bug report，別緊張」。相對的還有：\n\n- **\"Just checking.\"** — 只是確認，沒事\n- **\"Just flagging it.\"** — 只是提一下，不一定要處理\n- **\"Not blocking, but…\"** — 不擋進度，但…\n\n這三句都是在**降低對方的警戒等級**，避免小問題被當成火災處理。反過來要提高等級時說 **\"This is blocking me.\"**（這擋住我了）。\n\n你這次先說「沒事」再接「另外…」，剛好是一低一高——前半解除警報，後半才是真的要修的。這個節奏很好。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "20a89a7a3aff",
+      "date": "20260924",
+      "front": "\"If someone changed N, what will happen?\"",
+      "body": "你這次用中文發問，比較自然的英文說法是：\n\n> \"What if someone edits the N?\"\n\n- **What if...?** 是提出假設情境最常用的開頭，比 *\"If someone changed N, what will happen?\"* 精簡很多。\n- **改了** 在這裡用 **edits** 或 **tampers with** 都可以。**tamper with** 帶有「亂動、竄改」的意思，如果你想表達「有人故意亂改」，就用這個。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "06647ae4da66",
+      "date": "20260924",
+      "front": "\"Go ahead and push the branch.\"",
+      "body": "「push」一個字就是很標準的工程師用語，意思很清楚。如果想講完整一點，可以說：\n\n> \"Push it to the remote.\"\n\n或者 *\"Go ahead and push the branch.\"* 補充一個常聽到的說法：*\"Ship it!\"*，意思是「送出去吧！」，通常在確認改動沒問題、可以上線的時候說，語氣比較輕鬆。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0212fe6452a2",
+      "date": "20260924",
+      "front": "\"Go ahead and commit it in English.\"",
+      "body": "「commit en」是很精簡的指令，照你在 CLAUDE.md 訂的規則，這樣寫完全清楚。如果要寫成完整句子，可以這樣說：\n\n> \"Please commit the changes with an English message.\"\n\n也可以更口語一點：*\"Go ahead and commit it in English.\"* 這裡的 **go ahead and...** 是「那就直接去做吧」的意思，常用來同意對方執行某個動作。",
+      "tags": [
+        "note"
       ]
     },
     {
