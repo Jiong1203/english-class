@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "7b57ecaf9ee9",
+      "date": "20260929",
+      "front": "\"You didn't pull first. You should have pulled the latest changes before starting!\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"You didn't pull first. You should have pulled the latest changes before starting!\"\n\n用法說明：\n- **should have + 過去分詞**：表示「過去本來應該做、但沒做」，帶有責備或遺憾的語氣，例如 *You should have checked first.*\n- **pull the latest changes**：「拉取最新進度」的標準說法，也可以說 *get the latest code* 或 *sync with the remote*。\n- 語氣較委婉的版本：*Next time, please pull before making changes.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f73f46f4c42e",
       "date": "20260924",
       "front": "\"Stripping it down to just the roster:\"",
