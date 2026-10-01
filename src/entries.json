@@ -1,6 +1,210 @@
 {
   "entries": [
     {
+      "id": "cfa83ac3c655",
+      "date": "20261001",
+      "front": "\"Could you also fix the average?\"",
+      "body": "你這次寫了兩句英文，意思都很清楚 👍，只有一些小地方可以更自然：\n\n| 你的寫法 | 更自然的寫法 | 說明 |\n|---|---|---|\n| Can commit first, and then, you can fix \"後端排程匯出\"'s problem. | **Please commit first, and then fix the problem with \"後端排程匯出\".** | ① 英文句子需要主詞，*Can commit* 少了 *you*。請別人做事時用 *Please...* 最直接。② *and then* 後面不用逗號，主詞也不必重複。③ 名詞是一長串時，用 *the problem with X* 比 *X's problem* 自然。 |\n| Can 「平均」 fix too? | **Can you fix the \"average\" too?** 或 **Can \"average\" be fixed too?** | 「平均」是被修的對象，不是做修理的人。所以要嘛主詞用 *you*（主動），要嘛用被動語態 *be fixed*。 |\n\n另外，**\"Could you also fix the average?\"** 用 *could* 會比 *can* 更客氣，把 *also* 放在動詞前面也是常見的說法。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "cef151263eac",
+      "date": "20261001",
+      "front": "\"please tune it.\"",
+      "body": "你這次中英夾雜，剛好是很真實的工作語言 👍 英文那半句：\n\n> ✅ **\"please tune it.\"**\n\n這句完全正確，而且 `tune it` 用得很自然——上次我提過 `tune` 的語態問題（`needs tuning` 而不是 `need to tune`），這次你用祈使句 `tune it`，**主客關係就對了**：你（對我）下指令，`it`（看板）是受詞。同一個動詞換個句型就沒問題了，這點掌握得很好。\n\n**中英夾雜的小提醒**（實務上很常見，不是錯）：\n\n> 「我補上 美元缺口 與 外購原物料 的圖片了，please tune it.」\n\n如果要全英文：\n\n> **\"I've added the images for 美元缺口 and 外購原物料 — please tune it.\"**\n\n注意 **`I've added`**（現在完成式）比 `I added` 好，因為你強調的是「現在已經在那裡了、可以用了」這個**當前狀態**，而不是「過去某個時間點做了這件事」。這正是完成式的核心用途：\n\n| 時態 | 語感 |\n|---|---|\n| I **added** the images. | 陳述過去動作 |\n| I**'ve added** the images. | 已經加好了，現在可以用 ✅ |\n| I**'m adding** the images. | 正在加，還沒好 |\n\n👍 另外「補上」這個中文動作，英文看情境有不同說法：\n\n- **added**（加上去）— 最通用，你這次的情況\n- **filled in**（補齊缺漏）— \"I filled in the missing ones.\"\n- **dropped in**（隨手放進去）— 口語，\"I dropped them in the docs folder.\"\n\n你這次是把缺的兩張補齊，所以 **\"I've added the two missing images\"** 或 **\"I filled in the two that were missing\"** 都很道地。",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "b3e5a4154975",
+      "date": "20261001",
+      "front": "\"Go ahead with...\"",
+      "body": "你這次用中文下指令，自然的英文說法：\n\n> \"Go ahead with this approach, and remove the hard-coded admin/ICSC01.\"\n\n- **\"Go ahead with...\"**：同意對方的提案、請他開始做，比 \"Please implement this direction\" 自然很多。\n- **hard-coded**：「寫死的」的標準說法，工程師之間很常用，例如 \"Don't hard-code the URL.\"\n- 「方向」在這裡用 **approach** 比直譯的 direction 貼切，指的是做法或策略。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b03dcd1a632e",
+      "date": "20261001",
+      "front": "\"I thought it would...\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"I'm using the admin account — shouldn't it have full privileges? I thought it would skip the ERP permission check.\"\n\n- **full privileges / highest permissions**：比直譯的 \"maximum permission\" 更自然，\"admin privileges\" 也很常用。\n- **skip / bypass the check**：「略過檢查」用 \"bypass\" 語氣比較技術性，\"skip\" 比較口語，兩個都可以。\n- **\"I thought it would...\"**：用來表達「我原本以為會……（結果沒有）」，很適合描述「預期跟實際不符」的情況。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9fdae60587e1",
+      "date": "20261001",
+      "front": "\"Ok! Good answer.\"",
+      "body": "\"Ok! Good answer.\" 很自然，簡潔有力。後面的問句文法有點亂，可以這樣改：\n\n| 你的寫法 | 更自然的寫法 |\n|---|---|\n| What do you think can use \"/goal\" do something? | What do you think I can use \"/goal\" **for**? |\n| | 或：What **else** could I use \"/goal\" **to do**? |\n\n- **use ... for**：問「某工具可以用在什麼地方」，固定句型是 \"What can I use X for?\"，句尾的 for 不能少。\n- **少了主詞 I**：原句 \"can use\" 前面沒有主詞，英文一定要說出「誰」來用。\n- **use X to do**：如果想強調「拿來做某件事」，可以說 \"use /goal to clean up dead code\"。\n- **else**：加上 else 表示「除了剛才那件事以外，還能做什麼」，很符合你這次的語境。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "8a5c3358d8a5",
+      "date": "20261001",
+      "front": "\"Please commit, push, and merge these changes back into main.\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫英文句子。如果想用一句話請別人做同樣的事，可以說：\n\n> \"Please commit, push, and merge these changes back into main.\"\n\n- **merge ... back into main**：「併回主幹」最常見的說法，*back into* 帶出「分支回到原本主線」的意思。\n- 三個動詞並列時，最後一項前面加逗號再接 *and*（Oxford comma），在技術文件裡很常見，讀起來比較清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "895c222b1204",
+      "date": "20261001",
+      "front": "\"I've logged in.\"",
+      "body": "你這次全中文，我給對應的英文：\n\n> **\"I've logged in.\"** 或 **\"I'm logged in now.\"**\n\n**兩種說法的差別**，這組很值得分清楚：\n\n| 英文 | 重點 |\n|---|---|\n| I'**ve logged in**. | 強調**動作完成了**（我剛做完登入這件事）|\n| I'**m logged in**. | 強調**現在的狀態**（我現在是登入狀態）|\n\n你這句「我登入好了」兩種都通，但語感上「好了」是在回報動作完成 → **`I've logged in`** 更貼切。\n\n**注意 `log in` 的寫法**（這是很常見的錯誤）：\n\n| 詞性 | 寫法 | 例 |\n|---|---|---|\n| 動詞 | **log in**（兩個字）| \"Please **log in**.\" |\n| 名詞／形容詞 | **login**（一個字）| \"the **login** page\" / \"your **login** credentials\" |\n\n⚠️ 所以 ❌ \"Please login\" 嚴格來說是錯的（雖然很多人這樣寫），正確是 \"Please log in\"。同樣規則適用於：\n\n- **set up**（動詞）/ **setup**（名詞）\n- **back up**（動詞）/ **backup**（名詞）\n- **log out**（動詞）/ **logout**（名詞）\n\n👍 補一句這情境很好用的回報句型：\n\n> \"Done — I'm logged in. Go ahead.\"\n> （好了，我登入了，你繼續吧。）\n\n**`Go ahead`** 是「你可以繼續了」的標準說法，簡短又清楚，比 \"You can continue\" 自然得多。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8516b7c2ae30",
+      "date": "20261001",
+      "front": "你這次用中文描述問題，對應的英文可以這樣說：",
+      "body": "你這次用中文描述問題，對應的英文可以這樣說：\n\n> \"I found an issue: when a column is used in a value aggregation, the number of decimal places goes out of control. Even though the SQL already uses `ROUND(..., 3)`, the result still changes.\"\n\n- **value aggregation**（值運算／彙總）：AG Grid 和 Excel 樞紐分析都用 *aggregation* 這個字。\n- **decimal places**（小數位數）：*Round to 3 decimal places* 就是「四捨五入到小數第 3 位」。\n- **goes out of control**（不受控制）：口語又自然。比較技術的說法是 *isn't preserved*（沒有被保留）。\n- **Even though ..., ... still ...**（即使…，還是…）：表達「出乎預期」的常用句型。注意英文不會說 *Even though ..., but ...*，*but* 要省略。\n- 補充術語：**floating-point error**（浮點數誤差），就是這次問題的根本原因。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7ed7b3cc7841",
+      "date": "20261001",
+      "front": "\"Why does pressing Ctrl+C on this cell copy the entire row instead of just the cell's value?\"",
+      "body": "你這次用中文發問，對應的英文可以這樣說：\n\n> \"Why does pressing Ctrl+C on this cell copy the entire row instead of just the cell's value?\"\n\n- **entire row**（整列）：比 \"whole data\" 更精確，表格裡的一筆資料在英文通常說 *row* 或 *record*。\n- **instead of just ...**（而不是只有…）：很好用的對比句型，例如：*It copies the row instead of just the cell.*\n- 相關術語：**focused cell**（目前 focus 的那一格，也就是紅框）、**selected row**（被選取的列，也就是藍底）。這兩個概念在 AG Grid 裡是分開的，這次的問題就是出在這兩者的差別。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6ef4eb32fd9b",
+      "date": "20261001",
+      "front": "\"Can it be the same?\"",
+      "body": "你這句很短但有個典型錯誤：\n\n> ❌ \"Is it can be the same?\"\n> ✅ **\"Can it be the same?\"**\n\n**問題在「疑問句不能有兩個助動詞」** ⭐\n\n你把 `Is it...?` 和 `it can be...` 兩個句型疊在一起了。英文疑問句的規則是：**把助動詞提到主詞前面，只提一個**。\n\n| 陳述句 | 疑問句 |\n|---|---|\n| It **can** be the same. | **Can** it be the same? |\n| It **is** the same. | **Is** it the same? |\n| It **will** work. | **Will** it work? |\n\n`can` 本身就是助動詞，所以直接把 `can` 提前就好，不需要再加 `is`。\n\n**這個情境更自然的幾種問法：**\n\n| 英文 | 語感 |\n|---|---|\n| **Can we make it look like this?** | 最自然，明確指「做成這樣」 |\n| **Is this doable?** | 問可行性（簡潔有力）|\n| **Can this be done?** | 中性 |\n| **Would it be possible to match this exactly?** | 客氣、正式 |\n\n你想問的是「這個做得到嗎」，所以 **`Is this doable?`** 或 **`Can we match this?`** 都很貼切。\n\n👍 `doable`（做得到的）是個很實用的口語形容詞，在工程討論中極常用：\n\n- \"That's **doable**.\"（做得到）\n- \"Is that **doable** by Friday?\"（週五前做得完嗎）\n- \"It's **doable**, but it'll take a while.\"（做得到，但要花點時間）\n\n順帶一提——這次我原本評估「風險太高」而選了替代方案，你一句「做得到嗎」讓我回頭把真正的限制查清楚，結果是**可以做到的**。這種追問很有價值：工程上「risky」和「impossible」是兩回事，值得分清楚。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "63e1a4bab2a5",
+      "date": "20261001",
+      "front": "\"since we now have...\"",
+      "body": "你這次用中文提問，自然的英文說法：\n\n> \"Or, since we now have a new `SUPER_ADMIN` role, should we just let accounts with that role skip the permission check?\"\n\n- **\"since we now have...\"**：用 since 帶出理由，意思是「既然現在有了……」，比 because 更自然。\n- **\"Or...\" 開頭**：提出另一個選項時很常見，對應你句首的「還是說」。\n- **\"accounts with the SUPER_ADMIN role\"**：「擁有某角色的帳號」用 *with* 就能表達，不用寫成 \"accounts which have...\"，比較簡潔。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5980075cf928",
+      "date": "20261001",
+      "front": "\"Please find the matching images in `D:\\ezoGit\\ezov-icsc\\docs` and add them to the dashboard, and make the donut chart colors match the bar charts.\"",
+      "body": "這則你用中文，我先給對應英文：\n\n> **\"Please find the matching images in `D:\\ezoGit\\ezov-icsc\\docs` and add them to the dashboard, and make the donut chart colors match the bar charts.\"**\n\n**今天的重點字：`donut chart`（環圈圖）**\n\n| 中文 | 英文 | 備註 |\n|---|---|---|\n| 圓餅圖 | **pie chart** | 實心圓 |\n| 環圈圖 / 甜甜圈圖 | **donut chart** | 中間有洞（你這張）|\n| 長條圖 | **bar chart** | 垂直；水平的叫 column/bar 視語境 |\n| 堆疊長條圖 | **stacked bar chart** | |\n| 百分比堆疊圖 | **100% stacked bar chart** | 就是你要的「借款組合 (%)」|\n\n`donut` 這個字在圖表語境是標準術語，不是俚語，Excel、ECharts、Tableau 都這樣叫。\n\n**另一個值得學的：「配色對起來」**\n\n| 英文 | 語感 |\n|---|---|\n| make the colors **match** | 最直接 |\n| make the colors **consistent** | 強調整體一致性 |\n| **align** the color scheme | 較正式 |\n| use the **same palette** | 強調用同一組色票 |\n\n`palette`（色票／調色盤）是設計與資料視覺化的核心字，剛好這次我改的程式裡那個常數就叫 `presetColors`——它就是一組 palette。\n\n👍 補一個很實用的句型，描述「同一個東西在不同圖上顏色不一致」：\n\n> \"**短期借款** is orange in the bar charts but olive in the donut — they should use the same color.\"\n> （短期借款在長條圖是橘色、環圈圖卻是橄欖綠，應該用同一個顏色。）\n\n這種「同一系列跨圖表顏色一致」在資料視覺化有個專有名詞叫 **consistent color encoding**（一致的顏色編碼），是很重要的原則——顏色一旦代表某個意義，整份報表都不該變。你會注意到這點，代表你對儀表板設計的敏感度很好。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5792d87542af",
+      "date": "20261001",
+      "front": "\"\n\n- **plaintext password**：「明碼密碼」的標準說法。\n- **lacking permission checks**：「沒有權限檢查」。用 lack 比 \"",
+      "body": "這次你只送了 `/goal` 指令，內容是中文。這個 goal 的寫法本身就很好：每項要修什麼、怎樣才算完成，都寫得很清楚。翻成英文可以這樣說：\n\n> \"Fix three issues: `GET /datamanager/datasource` returning plaintext passwords, `updateDataSource` logging the full request, and `/mytopic/execute` lacking permission checks. Add unit tests for each; it's done only when `gradlew test` passes and frontend lint shows no new issues.\"\n\n- **plaintext password**：「明碼密碼」的標準說法。\n- **lacking permission checks**：「沒有權限檢查」。用 lack 比 \"has no\" 更精簡。\n- **it's done only when ...**：用來定義完成條件，適合寫在任務或 ticket 的驗收標準裡。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "55ff49b719b5",
+      "date": "20261001",
+      "front": "\"This dashboard needs tuning:\"",
+      "body": "你這句：\n\n> ⚠️ \"This dashboard need to tune: ...\"\n> ✅ **\"This dashboard needs tuning:\"** / **\"This dashboard needs to be tuned:\"**\n\n**兩個修正：**\n\n**1. `need` → `needs`**（主詞 `dashboard` 是單數第三人稱）\n\n**2. `need to tune` 的語態問題** ⭐ 這個比較重要\n\n`tune` 是及物動詞，意思是「調整某物」。`The dashboard needs to tune` 字面意思變成「這個看板需要去調整（別的東西）」——主客顛倒了。看板是**被**調整的對象，所以要用：\n\n| 英文 | 說明 |\n|---|---|\n| The dashboard needs **tuning**. | 動名詞，最簡潔（需要被調整）|\n| The dashboard needs **to be tuned**. | 被動不定詞，較完整 |\n| The dashboard **could use** some tuning. | 口語，語氣較軟 |\n\n**`need + V-ing` 自帶被動意義**，這是英文一個很好用的特性：\n\n- \"The car needs **washing**.\"（車需要洗 = 被洗）\n- \"This code needs **refactoring**.\"（這段程式需要重構）\n- \"The chart needs **fixing**.\"（這張圖要修）\n\n比寫 `needs to be washed/refactored/fixed` 短，而且一樣正確。\n\n**另外 `reference` 那句再提醒一次**（上次講過）：\n\n> ⚠️ \"Please reference those images\"\n> ✅ **\"Please refer to those images\"** / **\"See the images below\"**\n\n👍 `tune` 這個字你用得很好——在技術語境 `tune / tuning` 特指「微調既有的東西讓它更好」，比 `change` 或 `modify` 更精準地表達你這幾次需求的性質（不是重做，是調校）。常見搭配：\n\n- **fine-tune** the layout（微調版面）\n- **tune** the performance（調校效能）\n- a **tweak**（名詞，小調整）— \"just a few tweaks left\"（只剩幾個小地方要調）",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "4af516cbda1e",
+      "date": "20261001",
+      "front": "\"What's your take on the backend cancellation idea?\"",
+      "body": "你的句子意思很清楚，只有一個介系詞可以修正：\n\n| 你的寫法 | 更自然的寫法 |\n|---|---|\n| What do you think **for** this part? | What do you think **of / about** this part? |\n\n- **think of / think about**：問別人的看法時，英文固定用 think of 或 think about，不用 think for。\n- **另一種說法**：\"What's your take on the backend cancellation idea?\"。take 在這裡是「看法、觀點」的意思，口語很常用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "49f96ab4c084",
+      "date": "20261001",
+      "front": "\"Can \"",
+      "body": "你這句：\n\n> **\"Can \"匯率年度\" show on dashboard?\"**\n\n文法沒問題，但有兩個地方可以更道地：\n\n**1. 冠詞：`on dashboard` → `on the dashboard`**\n\n這是你這幾次最常漏的一點。英文的可數名詞單數前面幾乎一定要有冠詞或限定詞：\n\n- ✅ on **the** dashboard（特指我們在做的這張）\n- ✅ on **a** dashboard（泛指任一張）\n- ❌ on dashboard\n\n**2. 主動 vs 被動：`Can X show?` → `Can we show X?`**\n\n`show` 當不及物動詞時意思是「顯露出來」，用在這裡語感有點被動又有點怪。更自然的說法：\n\n| 英文 | 語感 |\n|---|---|\n| Can **we add** 匯率年度 to the dashboard? | 最自然（我們能加嗎）|\n| Can 匯率年度 **be shown** on the dashboard? | 被動式，正式 |\n| Can we **surface** 匯率年度 here? | `surface` = 把隱藏的東西顯示出來（很技術）|\n| Is there a way to **expose** this filter? | `expose` = 開放出來給使用者操作 |\n\n👍 補一個這次很貼切的字：**`slicer`**\n\nExcel 的「交叉分析篩選器」英文就叫 **slicer**。所以你這個需求最精準的英文是：\n\n> \"Excel has a separate **slicer** for 匯率年度 — can we add that to the dashboard too?\"\n\n`slicer` 在 Excel / Power BI 生態是標準術語，用這個字對方會立刻知道你指的是那種可點選的篩選方塊，而不是下拉選單（dropdown）或搜尋框（search box）。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "48db70eb7604",
+      "date": "20261001",
+      "front": "\"I understand the confusion, but…\"",
+      "body": "這次你是直接貼回報內容觸發指令，沒有自己寫英文句子。下面提供本次重點概念的英文說法：\n\n| 中文 | English |\n|------|---------|\n| 系統本來就這樣設計 | It's working as designed. / This is by design. |\n| 修改名稱會變成另存一份 | Renaming actually saves a new copy instead of updating the original. |\n| 列入改善建議評估 | We've logged this as a feature request for evaluation. |\n\n💡 「by design」常用在 issue 回覆，意思是「這是刻意設計的行為，不是 bug」。對使用者說時，前面常會先加一句 \"I understand the confusion, but…\" 表示同理，語氣比較柔和。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "39baa278b7fc",
+      "date": "20261001",
+      "front": "\"That'd be great, thanks.\"",
+      "body": "「**Yes, please.**」用得很好 👍。上一輪提到的說法你馬上就用上了，答應別人的提議時，這樣講既禮貌又自然。\n\n再補充一個相近的說法：\n- **\"That'd be great, thanks.\"**：意思是「那太好了，謝謝」，語氣比較熱情，答應別人幫忙時很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "37366cf042b2",
+      "date": "20261001",
+      "front": "\"Yes, please.\"",
+      "body": "你回答「**Yes**」，簡潔又正確 👍。回應對方的提議時，用一個字就很自然。\n\n想要語氣更積極一點，可以換這些說法：\n- **\"Yes, please.\"**：加上 *please* 比較有禮貌，接受別人幫忙時很常用。\n- **\"Go ahead.\"**：意思是「請動手吧」，同意對方開始做某件事時最常用。\n- **\"Sounds good, go for it.\"**：口語、輕鬆，同事之間常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "32c7a48ec98e",
+      "date": "20261001",
+      "front": "你寫的是：*\"I'm already to push. I need you help to fix frontend Merge Changes.\"*",
+      "body": "你寫的是：*\"I'm already to push. I need you help to fix frontend Merge Changes.\"*\n\n| 原句 | 建議 | 說明 |\n|---|---|---|\n| I'm already to push. | I've already pushed. / I'm ready to push. | 少了動詞或形容詞。`already` 是副詞，不能直接接 `to push`。<br>・已經推了 → **I've already pushed (it).**<br>・準備好要推了 → **I'm ready to push.**<br>（`already` 和 `all ready` 發音很像，容易混淆。） |\n| I need you help to fix… | I need your help to fix… / I need you to help me fix… | `you` 是主格／受格，這裡要用所有格 **your**（your help）。也可以改句型：**need someone to do something**。 |\n| frontend Merge Changes | the frontend merge conflicts | 跟上次一樣，Git 的正式用語是 **merge conflicts**，一般名詞小寫，前面加 `the`。 |\n\n整句可以說：*\"I've already pushed the backend. Now I need your help resolving the frontend merge conflicts.\"*",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2b71a48f2541",
+      "date": "20261001",
+      "front": "你寫的是：*\"Please help to fix Merge Changes.\"*",
+      "body": "你寫的是：*\"Please help to fix Merge Changes.\"*\n\n| 原句 | 建議 | 說明 |\n|---|---|---|\n| Please help to fix Merge Changes. | Please help me fix the merge conflicts. | 1. `help` 後面直接接原形動詞比較自然（`help me fix`），`help to fix` 文法沒錯，但比較正式、也比較少用。<br>2. 這個情境 Git 的正式用語是 **merge conflicts**（合併衝突）。\"Merge Changes\" 是 IDE 上的標籤名稱，意思是「合併進來的改動」，不是指衝突本身。<br>3. 一般名詞不用大寫，要加冠詞 `the`。 |\n\n其他說法：*\"Can you resolve the merge conflicts for me?\"*。**resolve conflicts** 是處理衝突最常用的搭配詞。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "157113b5a6f5",
+      "date": "20261001",
+      "front": "\"Please commit, push, and merge the changes.\"",
+      "body": "這次你直接輸入 `/commit-push-merge` 指令，沒有寫英文句子。\n\n補充一個用英文提出這類請求的說法：\n- **\"Please commit, push, and merge the changes.\"**：三個動詞並列時，最後一個前面加 *and*，*and* 前面的逗號（Oxford comma）可加可不加。\n- 更口語的說法：**\"Ship it.\"**，工程師之間常用，意思是「把它送上線吧」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fcc6786eabb6",
       "date": "20260930",
       "front": "\"I don't see scratchpad 資料夾. Where is it?\"",
