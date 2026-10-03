@@ -1,6 +1,43 @@
 {
   "entries": [
     {
+      "id": "dae027c21145",
+      "date": "20261002",
+      "front": "\"one commit per logical change\"",
+      "body": "你這次寫的「分段 commit 後再 merge and push.」是中英混用，意思很清楚。全部用英文可以這樣說：\n\n> \"Split the changes into separate commits, then merge and push.\"\n\n- **split ... into separate commits**：「分段 commit」最常見的說法，也可以說 \"commit in logical chunks\"。\n- **then**：表示先後順序，取代中文的「後再」。\n- 如果想強調每段 commit 只做一件事，可以說 **\"one commit per logical change\"**。這是很多團隊寫在 commit 規範裡的原則。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7d6fb862c6f6",
+      "date": "20261002",
+      "front": "\"Could you resolve the merge conflicts?\"",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| Please help to fix Merge Changes. | Please help me fix the merge conflicts. | 1. `help to fix` 文法上可以，但口語上比較常說 `help me fix`，而且要補上受詞 `me`。<br>2. 句中的大寫 `Merge Changes` 不需要，普通名詞用小寫就好。<br>3. 合併時「需要手動處理的衝突」在 Git 裡的標準說法是 **merge conflicts**。`merge changes` 意思比較模糊，會被理解成「合併帶進來的改動」。 |\n\n其他說法：*\"Could you resolve the merge conflicts?\"*。`resolve` 是處理衝突時最常用的動詞。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "73db62204fba",
+      "date": "20261002",
+      "front": "\"is missing anything\"",
+      "body": "你這句是中文，自然的英文說法：\n\n> \"Please verify whether the current feature is missing anything, check that it follows the project rules, and see if merging it back into `dev` would cause any problems.\"\n\n- 「是否有缺漏」用 **\"is missing anything\"** 或 **\"has any gaps\"** 都很自然。說 \"has omissions\" 就太正式了。\n- 「符合專案規則」常說 **\"follows / complies with the project rules\"**。**\"complies with\"** 比較正式，用在 code review 報告很合適。\n- 「merge 回 dev」→ **\"merge it back into dev\"**。介系詞要用 **into**，不是 \"to\"。這是工程師口語裡很常見的搭配。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "65c70e8185fd",
+      "date": "20261002",
+      "front": "\"surfaced\"",
+      "body": "這一輪你沒有寫英文，補一句可以直接在團隊回報時用的說法：\n\n> \"The review surfaced a blocker that must be fixed before we merge back into `dev`.\"\n\n- **\"surfaced\"** 是「讓問題浮上檯面」的意思，在 code review 情境很常見，比 \"found\" 更專業一點。\n- **\"must be fixed before we merge\"** 清楚表達先後條件，比 \"should fix first\" 更明確、更有力。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "cfa83ac3c655",
       "date": "20261001",
       "front": "\"Could you also fix the average?\"",
