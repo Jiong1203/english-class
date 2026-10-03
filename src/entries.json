@@ -1,6 +1,78 @@
 {
   "entries": [
     {
+      "id": "fcf61a45cc70",
+      "date": "20261004",
+      "front": "\"Frontend's live as well.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"The frontend is deployed too.\"\n\n- 也可以說 *\"Frontend's live as well.\"*，*live* 表示「已上線」，*as well* 和 *too* 意思一樣，語氣稍微正式一點。\n- 回報整體完成可以說 *\"Both are deployed to dev now.\"*，用 *both* 一次涵蓋兩個 repo。\n- 想更精確地講 rollout 已經跑完，可以說 *\"The frontend rollout finished.\"*，和 *deployed* 相比，更強調「部署流程已經跑完」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "fc5304871631",
+      "date": "20261004",
+      "front": "\"Untrack the .pyc files\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Clean up the .pyc files too, then push both repos.\"\n\n- **clean up**：「清掉、整理乾淨」，比單用 *remove* 更口語，也帶有「收拾」的感覺。\n- **push both repos / push to both remotes**：「兩邊都 push」。工程對話裡講 *both sides* 不夠明確，直接說 *both repos* 最清楚。\n- 也可以說 *\"Untrack the .pyc files\"*：「只從 git 移除追蹤、不刪本機檔案」，這正是這次實際做的事。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d4f9dae1b76b",
+      "date": "20261004",
+      "front": "\"Merge both into dev with --no-ff.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"OK, merge both into dev.\"\n\n- **merge A into B**：介系詞用 *into*，和之前提過的一樣。這次很短，*both* 就指兩個 repo。\n- 想強調保留合併紀錄可以說 *\"Merge both into dev with --no-ff.\"*\n- 口語也常說 *\"Go ahead and merge both into dev.\"*，*go ahead and...* 表示「好，那就去做吧」，語氣自然又帶有同意。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6b863d4a1143",
+      "date": "20261004",
+      "front": "\"Add the CHANGELOG entries too.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Update the CHANGELOG as well, then commit — in English.\"\n\n- **as well**：「一起、也」，放句尾很自然，也可以說 *\"Add the CHANGELOG entries too.\"*\n- **in English**：指定語言用 *in*，例如 *write the commit message in English*。\n- 工程師之間常簡短說 *\"Changelog too, then commit (en).\"*，口語又精簡。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "55167c12c2b1",
+      "date": "20261004",
+      "front": "\"Go ahead.\"",
+      "body": "你這次回了 **\"yes\"**，簡潔又正確 👍\n\n- 想表達「照這樣做」，也可以說 *\"Go ahead.\"* 或 *\"Sounds good, do it.\"*\n- 想同意但限定範圍，可以說 *\"Yes, but local only.\"*（只刪本機），回覆會更精確。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "54467500559e",
+      "date": "20261004",
+      "front": "\"Deploy the API first from a new dev-v0.3.42 branch.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Cut dev-v0.3.42 for the API first and deploy it.\"\n\n- **cut a branch**：「切分支」的道地說法，發佈流程裡很常用，例如 *cut a release branch*。\n- **for the API first**：用 *first* 帶出部署順序，簡潔清楚。\n- 也可以說 *\"Deploy the API first from a new dev-v0.3.42 branch.\"*，先講目的（部署），再講手段（從哪個分支）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2e4eb3f7274a",
+      "date": "20261004",
+      "front": "\"API's live — go ahead with the frontend.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"The API is deployed. Cut dev-v0.3.42 for the frontend too.\"\n\n- **The API is deployed / The API rollout is done**：回報部署完成的常見說法，*rollout is done* 更有 DevOps 的味道。\n- **... too**：「也」，放句尾，表示照同樣的方式再做一次。\n- 也可以說 *\"API's live — go ahead with the frontend.\"*，*live* 表示「已上線」，對話中很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bc79232a1058",
+      "date": "20261003",
+      "front": "\"That's by design.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"You can fix #1, but #2 is intentional — the point is to number the slots automatically — so leave it. We'll deal with the 5,000-character limit if we ever actually hit it.\"\n\n- **intentional / by design**：「故意這樣設計的」。工程上很常說 *\"That's by design.\"*\n- **leave it (as is)**：「不用改、保持原樣」，比 *don't fix it* 自然。\n- **cross that bridge when we come to it**：「真的遇到再說」的道地慣用語，例如 *\"We'll cross that bridge when we come to it.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "dae027c21145",
       "date": "20261002",
       "front": "\"one commit per logical change\"",
