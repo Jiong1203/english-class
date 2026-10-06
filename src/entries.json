@@ -1,6 +1,216 @@
 {
   "entries": [
     {
+      "id": "fa2505d27779",
+      "date": "20261006",
+      "front": "\"That wraps up the dark mode fixes for today.\"",
+      "body": "這次一樣是直接下指令，沒有英文句子，所以分享一個說法。\n\n今天陸續修了好幾個小地方，收工時跟同事說：\n- *\"That wraps up the dark mode fixes for today.\"*\n- **wrap up** 意思是「收尾、告一段落」，很常用在會議或工作結束時，例如 *Let's wrap up the meeting.*\n\n如果之後還有零星的問題要處理，可以說：\n- *\"I'll keep an eye out for any other spots that need fixing.\"*\n- **keep an eye out for** 意思是「留意、注意找」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f9428cd34986",
+      "date": "20261006",
+      "front": "\"The frontend impact is minimal.\"",
+      "body": "這一則訊息沒有你寫的英文，所以沒有需要修正的句子，這裡補一個跟這次討論相關的實用片語：\n\n- **\"The frontend impact is minimal.\"**：用來表達「前端影響很小」。*minimal* 比 *very small* 正式，常出現在技術評估文件裡。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "ec6d8ea931ef",
+      "date": "20261006",
+      "front": "\"Please commit, push, and merge it into master.\"",
+      "body": "這次你直接用了 `/commit-push-merge` 指令，沒有寫英文句子，所以這裡分享一個相關的實用說法。\n\n想請別人「把改動提交、推上去、併回主幹」時，可以說：\n- *\"Please commit, push, and merge it into master.\"*\n- 更口語的說法：*\"Go ahead and ship it.\"*。**ship it** 是工程師常用的俚語，意思是「上線吧、送出去吧」。\n\n**merge A into B** 是固定搭配，意思是「把 A 合併進 B」，介系詞要用 **into**，不要用 to。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ddb457ddf5f8",
+      "date": "20261006",
+      "front": "(empty)",
+      "body": "| 原句 | 建議 | 說明 |\n|------|------|------|\n| If notification schedule wants to send more report in a mail, how to do it? | If a notification schedule needs to send **multiple reports** in **one email**, how can I do that? | ① `notification schedule` 是可數名詞，前面要加冠詞 `a`。② `more report` 文法錯，`report` 要用複數，而且 `multiple reports` 比 `more` 精確（`more` 會讓人以為是「比原本多」）。③ `a mail` 比較不自然，`one email` 能強調「同一封」。④ 排程是物件，用 `wants` 有點擬人化，`needs to` 比較自然。⑤ `how can I do that?` 比 `how to do it?` 更像完整的問句。 |",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "be983761fd8a",
+      "date": "20261006",
+      "front": "\"community\"",
+      "body": "你這次用中文，自然的英文是：\n\n> **Got it. Could you assess the scope of work for adding a \"community\" mode?**\n\n說明：\n- **「理解理解」** 是口語的「懂了懂了」。英文用 *Got it* 或 *Makes sense* 最自然，不要直譯成 *I understand, I understand*，重複兩次在英文裡反而像不耐煩。\n- **「評估工作範圍」** 可以說 *assess the scope of work*。如果還想要工時估算，就說 *estimate the effort*。*scope* 指的是做哪些事，*effort* 指的是要花多少力氣，兩個意思不同。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b40b885d1d4c",
+      "date": "20261006",
+      "front": "\"What about CodeMirror?\"",
+      "body": "| 你寫的 | 建議寫法 |\n|---|---|\n| Does CodeMirror **also** have dark mode **too**? | Does CodeMirror have **a** dark mode too? / Does CodeMirror **also** have a dark mode? |\n\n- **also** 和 **too** 意思相同，同一句只要用一個，兩個都用就重複了，這是很常見的小錯誤。\n- **too** 通常放句尾，**also** 放在主要動詞前面。\n- 跟上一題一樣，**dark mode** 指「一種模式」時，加 **a** 比較自然。\n- 延伸用法：問「這個也支援嗎？」可以說 *\"What about CodeMirror?\"* 很口語、很簡短，前一題已經聊過 AG Grid 時特別好用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b0eb287bffc1",
+      "date": "20261006",
+      "front": "\"I've fixed several dark mode issues today and they're all merged into master.\"",
+      "body": "這次一樣是直接下指令，沒有英文句子，所以分享一個說法。\n\n今天陸續修了好幾個深色模式的問題，跟主管回報時可以說：\n- *\"I've fixed several dark mode issues today and they're all merged into master.\"*\n- **issue** 在軟體開發裡是「問題、待修項目」的意思，比 problem 更常用，例如 GitLab 的 issue。\n\n想講「陸續、一個接一個地修」，可以說 **one by one** 或 **incrementally**：\n- *\"We polished the dark mode incrementally.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "aa9b540a10e2",
+      "date": "20261006",
+      "front": "\"The white text on the yellow background has poor contrast in dark mode.\"",
+      "body": "| 你寫的 | 建議寫法 |\n|---|---|\n| This text doesn't look friendly in dark mode. | This text **is hard to read** in dark mode. / This text **doesn't look good** in dark mode. |\n| Please tune it. | Please **tweak** it. / Please **adjust** it. |\n\n- **friendly** 用來形容「文字好不好閱讀」不太自然，通常用在 **user-friendly**（對使用者友善）或形容人。講可讀性時說 **hard to read**、**low contrast**（對比太低）或 **not legible**（不易辨識）。\n- **tune** 前面聊過，多半用在「調校」機器或樂器。調整配色或樣式時，**tweak** 或 **adjust** 比較道地。\n- 好的描述範例：*\"The white text on the yellow background has poor contrast in dark mode.\"* 直接點出白字配黃底、對比差，工程師一看就知道要改什麼。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a45754e4c369",
+      "date": "20261006",
+      "front": "\"Please look at this image.\"",
+      "body": "| 你寫的 | 建議寫法 |\n|---|---|\n| I find a place doesn't turn dark mode. | I **found** a place **that** doesn't **switch to** dark mode. |\n| Please look at this image. | Please **take a look at** this image. |\n\n- **find → found**：「發現」是剛剛已經發生的事，用過去式 **found** 比較自然。現在式 *I find…* 常用來表達「我覺得…」，例如 *I find it ugly.*（我覺得它很醜）。\n- **turn dark mode** 少了介系詞。可以說 **turn dark**（變暗）或 **switch to dark mode**（切換成深色模式），不能直接 turn + 名詞。\n- 加上 **that** 引導關係子句（a place **that** doesn't…），句子結構更清楚。口語中有時會省略，但這裡 that 是子句的主詞，不能省。\n- 第二句 \"Please look at this image.\" 文法正確 👍 換成 **take a look at** 更口語、語氣更柔和，請別人看東西時很常用。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "92575a767f8f",
+      "date": "20261006",
+      "front": "\"Please commit, push, and merge the changes.\"",
+      "body": "這次你直接輸入 `/commit-push-merge` 指令，沒有寫英文句子，所以這裡補一個實用說法：\n\n- \"Please commit, push, and merge the changes.\"（請把改動 commit、push 並 merge。）\n\n列舉三個以上的動作時，最後一個前面加 `and`，`and` 前面那個逗號叫 Oxford comma（牛津逗號），技術文件裡很常見，能避免語意混淆。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8f04cc208a66",
+      "date": "20261006",
+      "front": "你這次用中文發問，自然的英文是：",
+      "body": "你這次用中文發問，自然的英文是：\n\n> **For communities, what if we just store a serial number in `line_group_id`? That way we could manage them with subscription plans just like groups, right?**\n\n說明：\n- **「流水號」** 英文常用 *serial number* 或 *auto-increment ID*。在資料庫的語境下，*auto-increment ID* 更精準。\n- **「用方案去管理」** 不要直譯成 *use plans to manage*，寫成 *manage them with subscription plans* 比較自然。*subscription plans* 也比單講 *plans* 清楚。\n- **「…吧？」** 這種尋求確認的語氣，在英文裡用句尾的 *…, right?* 最自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7ebb11843f04",
+      "date": "20261006",
+      "front": "\"The dark mode doesn't look great — could you clean it up?\"",
+      "body": "| 你寫的 | 建議寫法 |\n|---|---|\n| This 深色 mode is too ugly! Can you tune it? | This **dark mode** looks **really** ugly! Can you **tweak** it? |\n\n- 「深色模式」英文叫 **dark mode**（亮色模式是 light mode）。\n- **tune** 是把機器、引擎、樂器「調校」到最佳狀態，用在介面配色上有點生硬。改外觀的小幅調整，通常說 **tweak** 或 **polish**（「美化、打磨」）。\n- 「看起來醜」用 **looks ugly** 比 **is ugly** 更自然，因為講的是外觀給人的感覺。\n- 換個說法：*\"The dark mode doesn't look great — could you clean it up?\"* 比較委婉，在工作場合很常用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "7dfb908eebe0",
+      "date": "20261006",
+      "front": "\"I bundled the dark mode fix and the title tweak into one branch.\"",
+      "body": "這次一樣是直接下 `/commit-push-merge` 指令，沒有英文句子，所以分享一個相關說法。\n\n這次是兩個 commit 一起合併，想跟同事描述時可以說：\n- *\"I bundled the dark mode fix and the title tweak into one branch.\"*\n- **bundle A and B into …** 意思是「把 A 和 B 打包進…」，很適合描述把幾件小改動放在同一條分支或同一次發布。\n\n另一個常用字是 **batch**（一批），例如：*\"This batch includes two commits.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "78d2309a4a31",
+      "date": "20261006",
+      "front": "\"It's a medium-sized feature, roughly five tickets.\"",
+      "body": "你這次用中文，自然的英文是：\n\n> **Got it. Could you assess the scope of work for adding a \"community\" mode?**\n\n這句上一則已經介紹過，這裡補兩個評估報告常用的說法：\n- **\"It's a medium-sized feature, roughly five tickets.\"**：*roughly* 表示「大約」，在估算時比 *about* 多一點保留語氣，很適合用在工作量評估。\n- **\"Ticket 3 is where most of the value lies.\"**：*where the value lies* 的意思是「價值所在」，用來點出重點項目，比 *Ticket 3 is the most important* 更有層次。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7218e045d5e1",
+      "date": "20261006",
+      "front": "\"community\"",
+      "body": "你這次是用 `/goal` 下指令（中文）。自然的英文版本：\n\n> **Finish the \"community\" mode, run one review pass and fix what it finds, then commit in batches on a new branch and push the frontend and backend to `dev-vx.y.z` and `dev-test-vx.y.z` respectively to deploy to the test environment.**\n\n說明：\n- **「前後端個別推上」**：用 *respectively* 表達「分別對應」最精準。句型是 *push A and B to X and Y respectively*，意思是 A 對 X、B 對 Y。\n- **「review 一次」**：可以說 *run one review pass*。*pass* 是工程上的「一輪」，比 *review once* 道地。\n- **「測試機」**：英文常用 *test environment* 或 *staging*。說 *test machine* 會讓人以為是一台實體機器。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6f7adca537b4",
+      "date": "20261006",
+      "front": "\"Please put the Chinese and English on separate lines.\"",
+      "body": "你的 \"Please don't put the Chinese and English on the same line.\" 文法正確、意思清楚 👍 用 **put … on the same line** 描述排版位置很道地。\n\n小補充：這裡的 **the Chinese and English** 指的是「中文和英文的文字」。更精確可以說 **the Chinese text and the English text**，不過口語中你的說法完全沒問題。\n\n換個說法擴充一下：\n- *\"Please put the Chinese and English on separate lines.\"*：改用正面說法，告訴對方「要怎麼做」，而不是「不要怎麼做」。\n- *\"The English should go on its own line.\"*：**go on its own line** 是排版時很常用的說法，意思是「自成一行」。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "5bc1048621ad",
+      "date": "20261006",
+      "front": "\"Yes, please go ahead.\"",
+      "body": "你的 \"Yes, do it please.\" 很自然，沒有錯誤 👍 先用 Yes 明確回答，再加 please 讓語氣有禮貌，是很好的回覆習慣。\n\n小補充：**please** 放句尾或句首都可以，放句首（*Please do it.*）語氣稍微正式一點，放句尾比較口語、柔和。\n\n換個說法擴充一下：\n- *\"Yes, please go ahead.\"*：最常見的禮貌授權。\n- *\"Sure, let's do that.\"*：語氣輕鬆，表示同意這個做法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5b528c7a0ab2",
+      "date": "20261006",
+      "front": "你這次用中文，自然的英文是：",
+      "body": "你這次用中文，自然的英文是：\n\n> **That's exactly right. Can we start development now?**\n\n說明：\n- **「就是這樣沒錯」** 用 *That's exactly right* 或更口語的 *Exactly!* 都很自然。直譯成 *It is like this, no mistake* 就不通了。\n- **「可以開始開發了？」** 用 *Can we start development now?* 或 *Shall we start building?* 都可以。*Shall we…?* 帶有「那我們就開始吧」的提議語氣，用在討論告一段落、準備動手的時候特別合適。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4afb29d472c5",
+      "date": "20261006",
+      "front": "`Please take a look at this image.` 寫得很自然，`take a look at` 是很常用的口語說法，保持下去！",
+      "body": "| 你的原句 | 建議修正 | 說明 |\n|---|---|---|\n| This report has total, but notification schedule create excel file didn't have. | This report shows a total row, but the Excel file created by the notification schedule doesn't have one. | ① `total` 是可數名詞，要加冠詞或寫成 `a total row`。② 「排程產出的 Excel」用過去分詞片語 `created by ...` 修飾 file，比把 `create` 當動詞自然。③ 時態前後要一致：問題現在還存在，用 `doesn't`。④ `have` 後面要有受詞，用 `one` 代替 total row。 |\n| Please check about this. | Please look into this. | `check` 是及物動詞，後面直接接受詞（`check this`），不用加 `about`。`look into` 有「深入調查」的意思，用在追 bug 很道地。 |\n\n`Please take a look at this image.` 寫得很自然，`take a look at` 是很常用的口語說法，保持下去！",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3c4691e4ac7c",
+      "date": "20261006",
+      "front": "go ahead and + 動詞** 是固定用法，意思是「接著就去做」。go ahead to check 文法上說得通，但母語者幾乎都說 go ahead and check。",
+      "body": "| 你寫的 | 建議寫法 |\n|---|---|\n| Commit first, and go ahead to check other page. | Commit first, then go ahead and check **the other pages**. |\n\n- **go ahead and + 動詞** 是固定用法，意思是「接著就去做」。go ahead to check 文法上說得通，但母語者幾乎都說 go ahead and check。\n- **other page** 少了冠詞和複數：「其他（所有）頁面」是 **the other pages**；不特定的「別的頁面」是 **other pages**。單數 page 前面一定要有冠詞，例如 another page。\n- 「先…再…」用 **first, then** 串起來，比 and 更清楚表達先後順序。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "22303ba22b59",
+      "date": "20261006",
+      "front": "\"Sounds good, go for it.\"",
+      "body": "你的 \"Ok, just do it.\" 很自然 👍 簡短、直接，是口語裡授權對方動手的常見說法。\n\n小提醒：**OK** 正式寫法通常全大寫（OK 或 okay），**Ok** 也看得到，但比較少見。\n\n換個說法擴充一下：\n- *\"Sounds good, go for it.\"*：語氣更輕鬆，帶點鼓勵。\n- *\"Go ahead.\"*：最簡潔的「請動手」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "09cf73d0eb27",
+      "date": "20261006",
+      "front": "你這次用中文，自然的英文是：",
+      "body": "你這次用中文，自然的英文是：\n\n> **What if we show a community picker when activity codes collide? For example, if communities A and B happen to share the same code, the OWNER just picks one.**\n\n說明：\n- **「發生重複」** 在技術語境下用 *collide* 最精準，名詞是 *collision*。寫成 *when codes are repeated* 也看得懂，但 *collide* 是工程師的慣用說法。\n- **「跳出選項讓…選擇」** 可以濃縮成 *show a picker*。*picker* 在 UI 用語裡就是「選擇器」，比 *pop up options for the OWNER to choose* 簡潔。\n- **「剛好同時有」** 用 *happen to share* 很自然。*happen to* 表示「碰巧」，*share the same code* 比 *both have the same code* 更道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "009fdeb00e04",
+      "date": "20261006",
+      "front": "你這次用中文，自然的英文是：",
+      "body": "你這次用中文，自然的英文是：\n\n> 1. **Why would two communities have the same activity code? Shouldn't activity codes be unique?**\n> 2. **Only the OWNER pastes back.**\n\n說明：\n- **「為什麼會剛好…」** 用 *Why would…?* 比 *Why do…?* 更貼切。*would* 帶有「照理說不該發生吧？」的懷疑語氣，正好符合你的意思。\n- **「不是應該…嗎？」** 用否定疑問句 *Shouldn't … be …?* 來表達，是英文裡挑戰對方假設的標準句型。\n- **「只有 OWNER 貼回」** 拍板決策時可以寫成 *Only the OWNER pastes back*，簡短明確。如果想更像規格文件，可以寫 *Paste-back is restricted to the OWNER.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f38e92c25417",
       "date": "20261005",
       "front": "\"Let's go with A, plus some hints.\"",
