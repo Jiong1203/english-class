@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "e357f0a11322",
+      "date": "20261009",
+      "front": "\"Push it, and deploy it to the dev environment as well.\"",
+      "body": "你的句子是中文，自然的英文說法是：\n\n> **\"Push it, and deploy it to the dev environment as well.\"**\n\n用法說明：\n- 「測試機」在英文對話裡通常說 **\"dev\"**、**\"the dev environment\"** 或 **\"staging\"**，很少直譯成 \"test machine\"。\n- **\"as well\"** 放句尾表示「同時也」，比 \"at the same time\" 更簡潔自然。\n- 也可以更口語地說 **\"Push and ship it to dev.\"**，\"ship\" 在工程師之間常用來指部署或上線。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e357f95ef361",
       "date": "20261008",
       "front": "\"Please find everyone who has more than one extension.\"",
@@ -69,6 +78,15 @@
       "date": "20261008",
       "front": "\"Please fill in the table info and the details for all columns.\"",
       "body": "你這次用中文：「補一下資訊以及所有欄位的資訊」\n\n**英文說法：** *\"Please fill in the table info and the details for all columns.\"*\n\n**語感說明：**\n- 資料庫的「欄位」用 `column`，不用 `field`。`field` 偏向表單欄位或程式物件的屬性。\n- 中文重複「資訊」兩次很自然，英文會改用 `info` 和 `details` 兩個字避免重複，讀起來比較順。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7f76763540eb",
+      "date": "20261008",
+      "front": "\"What is X for?\"",
+      "body": "你的問題是中文，這是比較自然的英文說法：\n\n> **\"What is the \"👥 報名 4/8｜候補 0\" line for in the text sign-up (接龍) mode?\"**\n\n用法說明：\n- **\"What is X for?\"** 是問「X 的用途是什麼」最自然的口語句型，比 \"What is the purpose of X?\" 輕鬆，工程師之間很常用。\n- 「文字接龍」沒有標準英譯。在這個專案的程式碼裡叫 **text roster** 或 **chain sign-up**。跟外國人溝通時可以說 **\"copy-paste sign-up list\"**，對方比較容易聽懂。\n- 「候補」是 **waitlist**；「正取」是 **confirmed**，也可以說 **\"got a spot\"**。",
       "tags": [
         "note"
       ]
