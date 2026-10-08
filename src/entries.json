@@ -74,6 +74,15 @@
       ]
     },
     {
+      "id": "79c1097217e7",
+      "date": "20261008",
+      "front": "\"Please put together the SQL I need to run manually for this new feature, in the correct order.\"",
+      "body": "你這次用中文：「整理一下這次新功能新增後需要我手動執行的 SQL，記得要按照順序」\n\n**英文說法：** *\"Please put together the SQL I need to run manually for this new feature, in the correct order.\"*\n\n**語感說明：**\n- `put together` 是「彙整、整理成一份」，比 `organize` 更貼近「把散落各處的東西收集起來」的意思。\n- `in the correct order` 放在句尾補充要求，比另外說一句 `remember to follow the order` 簡潔。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "526ec29f7ee8",
       "date": "20261008",
       "front": "\"Please fill in the related details.\"",
@@ -96,6 +105,15 @@
       "date": "20261008",
       "front": "\"Please organize these special records into an Excel file.\"",
       "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> *\"Please organize these special records into an Excel file.\"*\n> 或 *\"Can you put these unusual entries into a spreadsheet?\"*\n\n**用字差異：**\n- **organize ... into**：「整理成」，強調分類、歸納，最貼近你說的「整理」。\n- **put ... into**：比較口語，意思只是「放進去」。\n- **special records** vs. **unusual entries**：這裡的「特殊」其實是「異常、不尋常」，所以 **unusual / irregular / anomalous** 比 special 更精準。英文的 special 常帶有「特別、好的」的正面意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2266cf3fa7a2",
+      "date": "20261008",
+      "front": "\"Why are these different?\"",
+      "body": "你這次用中文：「為什麼不同？」\n\n**英文說法：** *\"Why are these different?\"* 或更口語的 *\"Why don't these match?\"*\n\n**語感說明：**\n- `different` 只是單純說「兩者不一樣」。\n- `don't match` 暗示「它們本來應該一致」。你這裡是在指出不一致的問題，用 `match` 更能表達「這不對勁」的語氣。",
       "tags": [
         "note"
       ]
