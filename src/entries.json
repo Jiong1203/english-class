@@ -46,6 +46,15 @@
       ]
     },
     {
+      "id": "00d941667e64",
+      "date": "20261012",
+      "front": "\"We're building the LINE rich menu now. Could you suggest a few mockups for when a user opens the chat for the first time?\"",
+      "body": "你這次是用中文提問，下面是自然的英文說法：\n\n> \"We're building the LINE rich menu now. Could you suggest a few mockups for when a user opens the chat for the first time?\"\n\n- **rich menu**：LINE 官方的名稱就是 rich menu，「下方選單」不要直譯成 bottom menu。\n- **mockups**：「建議圖」在設計情境裡最常用 mockup（擬真示意圖），比較粗略的草圖可以用 wireframe。\n- **opens the chat for the first time**：比 enters the chatroom 自然，英文很少說 chatroom 來指 LINE 的對話。如果要講的其實是「剛加好友」，可以說 **right after they add the bot as a friend**，意思更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e357f0a11322",
       "date": "20261009",
       "front": "\"Push it, and deploy it to the dev environment as well.\"",
