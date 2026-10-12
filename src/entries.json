@@ -1,6 +1,51 @@
 {
   "entries": [
     {
+      "id": "c92684dfd384",
+      "date": "20261012",
+      "front": "\"Yes, of course — please add them.\"",
+      "body": "| 原句 | 說明 |\n|------|------|\n| 1.要啊當然要補 | 英文：*\"Yes, of course — please add them.\"* 「當然」用 `of course` 或 `absolutely` 都很自然；`absolutely` 語氣更肯定。 |\n| 2.這個專案用 zh-tw 即可 | 英文：*\"zh-tw is fine for this project.\"* 「即可」在英文常說 `is fine`／`will do`，例如 *\"zh-tw will do.\"*，簡短又道地。 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9571a78c1f66",
+      "date": "20261012",
+      "front": "\"Go ahead and ship it.\"",
+      "body": "你這次直接輸入指令 `/commit-push-merge`，沒有英文句子。\n\n順帶一個實用說法：請別人「把改動送上去」時，可以說 *\"Go ahead and ship it.\"*。`ship it` 是工程師之間很常用的口語，意思是「發布、送上線」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "40929b14a615",
+      "date": "20261012",
+      "front": "\"Yes, go ahead.\"",
+      "body": "`Yes` 簡短明確，回覆是非題完全沒問題 👍\n\n想多表達一點的話，可以說：\n- *\"Yes, go ahead.\"*（好，請進行）：同意對方開始執行時最常用。\n- *\"Yes, please push and merge.\"*：明確說出要做的動作，避免誤會。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "32a3f922e14b",
+      "date": "20261012",
+      "front": "\"I've already updated the database schema. Could you check whether the current code is ready to be committed in batches?\"",
+      "body": "你這次用中文：「資料庫結構方便我都更新好了，請幫我檢查目前 code 是否可以分批 commit」\n\n**英文說法：** *\"I've already updated the database schema. Could you check whether the current code is ready to be committed in batches?\"*\n\n**語感說明：**\n- 「資料庫結構」在英文裡習慣說 `database schema`，比 `database structure` 更專業。\n- `ready to be committed` 比 `can be committed` 更貼近「是否已經可以提交」的語意。\n- 「分批 commit」也可以說 `split into multiple commits`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "301cf8b247fd",
+      "date": "20261012",
+      "front": "\"The next run times are all in the past.\"",
+      "body": "你這次用中文：「下次執行都過期了」\n\n**英文說法：** *\"The next run times are all in the past.\"* 或 *\"All the next run times have already passed.\"*\n\n**語感說明：**\n- 「過期」直譯是 `expired`，但 `expired` 通常用在有效期限（證件、優惠券、token）。\n- 描述「時間已經過去」用 `in the past` 或 `have passed` 更自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e357f0a11322",
       "date": "20261009",
       "front": "\"Push it, and deploy it to the dev environment as well.\"",
