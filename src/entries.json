@@ -1,6 +1,258 @@
 {
   "entries": [
     {
+      "id": "feaa4dbc92c0",
+      "date": "20261015",
+      "front": "\"Please include the NO column in the table as well.\"",
+      "body": "你這句是中文，對應的自然英文：\n\n> **\"Please include the NO column in the table as well.\"**\n\n- **include ... in the table**：「把……納入表格」，是最直接自然的說法。\n- **as well**：「也」，放在句尾，語氣比 \"also\" 輕鬆一點。\n- 在 Excel 的情境也可以說 **\"Extend the table to cover the NO column.\"**。**extend ... to cover** 指「延伸範圍以涵蓋」，用在表格範圍很精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e41cf831b8f3",
+      "date": "20261015",
+      "front": "\"Done.\"",
+      "body": "你這次回覆「好了」，對應的英文是：\n\n> \"Done.\"　或　\"I'm logged in.\"\n\n- **「好了」**是很萬用的回覆，英文要看情境選字：\n  - 單純表示完成：*Done.* 或 *All set.*\n  - 說明完成了什麼：*I'm logged in.*，這樣對方不用猜你指的是哪一步。\n- *All set.* 是很自然的口語，意思是「都準備好了，可以繼續」，在工作溝通裡很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d5bd47eb6a3b",
+      "date": "20261015",
+      "front": "\"Please restart the dev server on port 3010.\"",
+      "body": "這則是系統通知，不是你寫的，所以這次沒有可以修正的句子。補一句接下來可能用得到的說法，請我重新啟動時可以說：\n\n> **\"Please restart the dev server on port 3010.\"**\n\n或者更口語一點：**\"Can you bring it back up on 3010?\"** 這裡的 **bring ... back up** 是指「讓停掉的服務重新跑起來」，工程師之間很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cc5f0dcc593c",
+      "date": "20261015",
+      "front": "\"Yes to both.\"",
+      "body": "你這次回覆的「1. Yes / 2. Yes」用英文是正確的，簡潔清楚 👍\n\n如果想讓回答更完整、語氣更自然，可以這樣說：\n\n> \"Yes to both.\"（兩個都同意。）\n\n> \"1. Yes, that rule works. 2. Yes, please exclude the totals.\"\n\n- *Yes to both* 是很常見又精簡的說法，適合一次回覆多個是非題。\n- 在 *Yes* 後面補一句理由或確認內容，例如 *that rule works*（這個規則可以），可以避免對方誤會你同意的是哪一點，在工作溝通上特別有用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c28a7d296427",
+      "date": "20261015",
+      "front": "\"Go ahead and commit it in zh-tw.\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| 幫我 commit，用 zh-tw | **Please commit this, in zh-tw.** |\n\n- 英文的祈使句前面加 **Please** 會比較有禮貌。對同事或工具下指令時，也很常直接說 **\"Go ahead and commit it in zh-tw.\"**\n- 指定語言時，介系詞用 **in**，例如 \"Write it in English.\"",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "c10f495d1ee8",
+      "date": "20261015",
+      "front": "\"Commit, push, and merge — write the message in Traditional Chinese.\"",
+      "body": "你這次輸入的是指令 `/commit-push-merge with zh-tw`，用英文表達「用繁體中文寫 commit 訊息」是對的。\n\n如果要寫成完整的句子，更自然的說法是：\n\n> \"Commit, push, and merge — write the message in Traditional Chinese.\"\n\n- *with zh-tw* 在指令裡簡潔好懂，沒有問題。寫成句子時，說 *in Traditional Chinese* 比 *with* 自然，因為描述「用某種語言寫」時，英文習慣用介系詞 *in*，例如 *write it in English*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bfef993dafdf",
+      "date": "20261015",
+      "front": "\"Any idea what's going on?\"",
+      "body": "這次你一樣只貼了輸出。遇到錯誤時，可以加一句簡短說明：\n\n> \"I got this error when I ran the deploy. Any idea what's going on?\"\n\n- **\"Any idea what's going on?\"** 是請人幫忙判斷狀況的口語問法，語氣比 \"Why?\" 委婉很多。\n- 也可以說 **\"Looks like it failed — what did I miss?\"**，`what did I miss?` 帶有「是不是我漏了什麼步驟」的意思，剛好符合這次的情況。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bb5cd21c1210",
+      "date": "20261015",
+      "front": "\"After the meeting, my manager asked us to leave out the items under '文件製作' and '問題處理'. Please refer to '報表實作紀錄表_補齊60項.xlsx' — I left some notes in it.\"",
+      "body": "你這句是中文，對應的自然英文：\n\n> **\"After the meeting, my manager asked us to leave out the items under '文件製作' and '問題處理'. Please refer to '報表實作紀錄表_補齊60項.xlsx' — I left some notes in it.\"**\n\n- **leave out**：「不要列出、排除」。用在清單或報告上很自然，比 \"don't show\" 更道地。\n- **I left some notes in it**：「我在裡面留了筆記」。**leave a note** 是固定搭配，比 \"I made notes\" 更口語。\n- **my manager asked us to ...**：轉述主管的要求時，用 **ask someone to + 動詞** 語氣客觀；\"proposed\" 比較像「提議」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b2609ae77f45",
+      "date": "20261015",
+      "front": "\"still uploading\"",
+      "body": "這次你一樣只貼了輸出。部署進行到一半時，可以這樣回報：\n\n> \"Two servers are done, but ZhongMa is still uploading. Is everything looking good so far?\"\n\n- **\"still uploading\"** 用現在進行式，表示「還在進行中」。\n- **\"so far\"** 的意思是「到目前為止」，常用來詢問階段性的結果，例如 \"How's it going so far?\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a307c6181c3b",
+      "date": "20261015",
+      "front": "\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 幫我規劃一下 | help me plan / draft a plan for | 「一下」帶有語氣緩和的意思，英文用 \"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"Could you help me plan the UAT? You can refer to the current progress in `M5進度追蹤.xlsx`, and there are plenty of other documents under `中鋁 M5` you can use as references.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 幫我規劃一下 | help me plan / draft a plan for | 「一下」帶有語氣緩和的意思，英文用 \"Could you...\" 開頭就能表達同樣的客氣感，不需要逐字翻 |\n| 可以參考 | you can refer to / feel free to use ... as a reference | \"refer to\" 比較正式；\"feel free to\" 比較口語、友善 |\n| 目前的進度 | the current progress / where things stand | \"where things stand\" 是很道地的口語說法，例如 \"Check the tracker to see where things stand.\" |\n\n補充：UAT 是 **User Acceptance Testing**（使用者驗收測試）。英文常說 \"run UAT\"、\"enter UAT\"、\"sign off on UAT\"，其中 \"sign off\" 就是「簽核通過」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9ba9c1d0a8bc",
+      "date": "20261015",
+      "front": "\"Go ahead and delete them.\"",
+      "body": "你這句是中文，對應的自然英文：\n\n> **\"Go ahead and delete them.\"** 或更口語的 **\"Clean them up.\"**\n\n- **go ahead and + 動詞**：「那就……吧」，表示同意對方的提議，語氣很自然。\n- **clean up**：「清理掉」，適合用在清掉多餘的檔案。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "96e20172032a",
+      "date": "20261015",
+      "front": "\"Go ahead in the order you suggested. Also, you left out #4 — make sure to include it.\"",
+      "body": "你這次用中文下指令，以下是比較自然的英文說法：\n\n> \"Go ahead in the order you suggested. Also, you left out #4 — make sure to include it.\"\n\n- **Go ahead in the order you suggested**：對應「照你建議的順序先做」。*go ahead* 本身就有「開始動手吧」的意思，比 *please do it according to your suggested order* 簡潔、口語。\n- **you left out #4**：*leave out* 是「漏掉、沒列進去」，比 *you forgot #4* 客觀一點，只陳述事實，沒有責怪的意味。\n- **make sure to include it**：對應「請記得…也要做才對」。中文的「才對」帶點提醒的語氣，英文用 *make sure to* 就能表達，不需要直譯成 *that would be correct*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8efe29de7ff0",
+      "date": "20261015",
+      "front": "\"Third one's done.\"",
+      "body": "這次你又只貼了輸出。可以補一句說明，讓對方更快進入狀況：\n\n> \"Third one's done. Can we move on to deploying?\"\n\n- **\"Third one's done.\"** 是 \"The third one is done.\" 的口語縮寫，回報進度時很常聽到。\n- **\"Can we move on to …?\"** 是「可以進行下一步…了嗎？」，`move on to` 的意思是「接著進行」，後面接名詞或 V-ing。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "86389a971ec4",
+      "date": "20261015",
+      "front": "\"we need to deploy manually\"",
+      "body": "你這次用中文發問，對應的自然英文說法：\n\n> \"I know we need to deploy manually for now, but I'm not sure how. Could you check it for me?\"\n\n- 「需要手動部署」用 **\"we need to deploy manually\"** 就很自然。加上 **\"for now\"** 可以帶出「現在暫時只能這樣」的意思，對應原句的「現在」。\n- 「我不知道如何部署」直接翻成 \"I don't know how to deploy\" 也對，但 **\"I'm not sure how\"** 語氣比較柔和，是職場上常見的說法，也省掉了重複的 \"deploy\"。\n- 「請你確認一下」用 **\"Could you check it for me?\"** 或 **\"Could you look into it?\"** 都可以。\"look into\" 帶有「幫我研究、調查一下」的意思，跟這次的情況更貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "80c2b4f7be55",
+      "date": "20261015",
+      "front": "\"Please deploy it for me.\"",
+      "body": "你這次寫了兩句中文：「幫我部署」和「不對，剛剛好像已經部署過了，所以我中斷你的部署」。自然的英文說法：\n\n> \"Please deploy it for me.\"\n\n> \"Wait, I think it's already been deployed, so I stopped your deployment.\"\n\n- **「不對」**放在句首表示「等一下，我想到別的事」時，英文用 *Wait,* 或 *Hold on,* 最自然。直譯成 *Not right* 反而不通順。\n- **「好像已經…過了」**：用 *I think it's already been deployed*，現在完成式的被動語態（*has been + 過去分詞*）正好表達「已經被做完」。\n- **「中斷」**：口語用 *stop* 或 *cancel*。*interrupt* 比較常指「打斷別人說話」或「打斷正在進行的事」，在這裡用 *stopped* 更自然。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "7eeed1bd9d59",
+      "date": "20261015",
+      "front": "\"failed with … error\"",
+      "body": "上次你只貼了輸出，沒有附上文字。下次遇到這種情況可以這樣說：\n\n> \"The deploy failed with a missing JAR error. Is the build still running?\"\n\n- **\"failed with … error\"** 是描述錯誤最常用的句型，例如 \"The build failed with a compile error.\"\n- **\"Is … still running?\"** 是確認某個程序是否還在進行中的自然問法，比 \"Is it finished?\" 更直接地點出你在懷疑什麼。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "70947ac86646",
+      "date": "20261015",
+      "front": "你的中文訊息自然的英文說法：",
+      "body": "你的中文訊息自然的英文說法：\n\n> \"Steps 1 and 2 are done, but I couldn't do step 3 because my GitLab role is Developer, not Maintainer, so I don't have access to Settings. Could you write a message explaining why these settings are needed and list the reasons? That way it'll be easier for me to ask a maintainer for help.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 沒辦法 setting | I don't have access to Settings | 英文裡 setting 不當動詞用。要說「設定某物」，用 \"configure\" 或 \"set up\" |\n| 理由原因是甚麼列出來 | list the reasons | 「理由」和「原因」意思重複，英文一個 reasons 就夠了 |\n| 方便請 maintainer 幫忙 | make it easier to ask a maintainer for help | \"make it easier to...\" 表示「讓某件事比較好辦」，很自然 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6c9c55a87139",
+      "date": "20261015",
+      "front": "\"double-check\"",
+      "body": "這次你一樣只貼了輸出。部署完成時，可以這樣說：\n\n> \"Looks like everything's deployed. Could you double-check that all three servers are up?\"\n\n- **\"double-check\"** 的意思是「再確認一次」，用在請人幫你核對結果，非常常見。\n- **\"… are up\"** 指伺服器或服務「正常運作中」。相反的說法是 **\"… is down\"**（掛掉了）。這是 IT 領域最常用的口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6863ba9ce517",
+      "date": "20261015",
+      "front": "\"for now, I need to … manually\"",
+      "body": "你這句是中文，以下提供自然的英文說法：\n\n> \"I need to deploy manually for now, but something seems off with my environment. Could you check `deploy-to-test.sh` for me?\"\n\n- 「目前要…的話要手動」→ **\"for now, I need to … manually\"**。`for now` 表示「暫時、目前」，比 `currently` 更口語。\n- 「似乎有問題」→ **\"something seems off\"** 比 \"seems to have a problem\" 更道地。`off` 有「不太對勁」的意思，很適合用在還不確定問題在哪的時候。\n- 「幫我確認看看」→ **\"Could you check … for me?\"** 或 **\"Could you take a look at …?\"**。`take a look at` 帶有「先看看、診斷一下」的語感，跟中文的「看看」很接近。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "66d558a041a3",
+      "date": "20261015",
+      "front": "\"Deploy it to the test environment first.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"Deploy it to the test environment first.\"\n\n- **deploy it to**：「上機器」最常見的說法就是 *deploy to*。比較口語的同事對話也常說 *push it to staging*。\n- **test environment**：對應「測試機」。也很常聽到 *staging* 或 *the dev environment*。專案裡的分支叫 `dev-test-*`，所以說 *the dev environment* 最貼切。\n- **first**：對應「先」，代表後面還有下一步（之後才上正式機），一個字就把語意交代清楚了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5aa1c846d52a",
+      "date": "20261015",
+      "front": "\"Got it.\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| 理解，因為中馬那台需要另外連 vpn 才會通，所以當你偵測到異常時，請一定要跟我說! | **Got it. The ZhongMa server is only reachable over VPN, so if you detect anything unusual, please make sure to let me know!** |\n\n- 「理解」→ **\"Got it.\"** 或 **\"Understood.\"**。`Got it` 比較口語，`Understood` 比較正式。\n- 「需要另外連 vpn 才會通」→ **\"is only reachable over VPN\"**。`over VPN` 表示「透過 VPN」，用 `only` 就能帶出「非得…才行」的語氣，不需要把「另外」逐字翻出來。\n- 「請一定要跟我說」→ **\"please make sure to let me know\"**。`make sure to …` 的意思是「務必要…」，語氣比 \"must tell me\" 委婉又堅定。\n- 小提醒：VPN 是縮寫，英文和中文裡都習慣寫成**大寫**；中文句尾的驚嘆號用全形「！」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5786d2a19c85",
+      "date": "20261015",
+      "front": "\"When adding a community, the prompt says to type \"",
+      "body": "你這次用中文回報，以下是自然的英文說法。回報 bug 時，英文習慣「一點一個現象＋期望結果」：\n\n> 1. \"When adding a community, the prompt says to type \"!cancel\" to cancel, but typing it with a full-width exclamation mark created a community instead. Both half-width and full-width \"!\" should be treated the same.\"\n> 2. \"Following on from that, I accidentally created a community called \"！cancel\" — which made me realize there's no way to delete a group or a community.\"\n> 3. \"On 我的社群, an activated community shows 開團 and 方案 buttons, but 方案 opens the subscription form, and there's no way to see which plan is active or which coupon was used.\"\n> 4. \"The subscription page says 'group' almost everywhere. The dropdown shows \"(社群)\", but that's about it.\"\n>\n> \"Also, please list the remaining items from earlier.\"\n\n- **Following on from that**：對應「延續第 1 點」，是串接上一點的自然說法，比 *continue point 1* 道地。\n- **which made me realize**：對應「進而發現」，用來帶出「因此才注意到」的因果，比 *and then found* 更流暢。\n- **should be treated the same**：對應「都應該當作…才對」，描述期望行為時很常用，語氣明確但不生硬。\n- **list the remaining items**：對應「把剛剛其他項目列出」。*remaining* 有「還沒處理完的」的意思，比 *other items* 更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4441decda5ba",
+      "date": "20261015",
+      "front": "\"In the future\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| 之後如果我需要請你幫我部署，你可以使用 git bash 執行 … 嗎? | **In the future, when I need a deploy, can you just run … in Git Bash for me?** |\n\n- 「之後」→ **\"In the future\"** 或 **\"From now on\"**。`From now on` 帶有「從現在開始都這樣做」的意思，用來設定一個長期的做法時特別貼切。\n- 「請你幫我部署」→ **\"when I need a deploy\"** 或 **\"when I ask you to deploy\"**。英文不需要把「請你幫我」逐字翻出來，句子會比較簡潔。\n- 句中的 **\"just\"** 表示「直接（照做就好）」，語氣比較輕鬆。\n- 小提醒：中文句尾的問號要用全形「？」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2aa42c126dfa",
+      "date": "20261015",
+      "front": "\"Let's start with the SSH part.\"",
+      "body": "你這次是用中文，以下提供自然的英文說法：\n\n> \"Let's start with the SSH part. I've opened Git Bash — could you walk me through the steps for option A?\"\n\n- 「先講 SSH 的部分好了」→ **\"Let's start with the SSH part.\"** 或 **\"Let's tackle the SSH part first.\"** `tackle` 是「著手處理」，常用在要解決問題的時候。\n- 「具體步驟」→ **\"step by step\"** 或 **\"walk me through the steps\"**。英文不太會直譯成 \"specific steps\"，`walk me through` 最自然。\n- 「做法 A」→ **\"option A\"** 或 **\"approach A\"**。`option` 用在從幾個選項裡挑一個，`approach` 比較強調「方法、途徑」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1905045b3750",
+      "date": "20261015",
+      "front": "\"Overwrite the original 報表實作紀錄表.xlsx with v2.\"",
+      "body": "你這句是中文，對應的自然英文：\n\n> **\"Overwrite the original 報表實作紀錄表.xlsx with v2.\"**\n\n- **overwrite A with B**：「用 B 覆蓋 A」，是檔案操作的標準說法。注意介系詞要用 **with**。\n- 也可以說 **\"Replace the original file with v2.\"**，意思相同，語氣更日常。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "18de3b77cfb9",
+      "date": "20261015",
+      "front": "\"got … reachable\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| 我打通中馬那台了，接下來呢? | **I've got the ZhongMa server reachable now. What's next?** |\n\n- 「打通」→ **\"got … reachable\"** 或 **\"got the connection working\"**。英文不會直譯成 \"opened up\"，用 `reachable`（連得到）最精準。\n- 「接下來呢？」→ **\"What's next?\"** 或 **\"What should I do next?\"**，都是很常用的說法。\n- 小提醒：中文句尾的問號要用全形「？」，你用的是半形「?」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "040e3899bf16",
+      "date": "20261015",
+      "front": "\"Please swap out 'ERP 自動登入整合', 'SQL Server 資料庫支援', and 'DB2 資料庫支援' for other items.\"",
+      "body": "你這句是中文，對應的自然英文：\n\n> **\"Please swap out 'ERP 自動登入整合', 'SQL Server 資料庫支援', and 'DB2 資料庫支援' for other items.\"**\n\n- **swap out A for B**：「把 A 換成 B」，是很口語、道地的說法，比 \"change to other items\" 自然。\n- 也可以說 **\"Replace ... with something else.\"**。注意 **replace A with B** 和 **swap out A for B** 搭配的介系詞不同。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "008f65182cdb",
+      "date": "20261015",
+      "front": "\"You're a senior UI/UX designer who specializes in LINE. Please start by reviewing everything related to 'community mode'.\"",
+      "body": "這次你是用中文下指令，以下是比較自然的英文說法：\n\n> \"You're a senior UI/UX designer who specializes in LINE. Please start by reviewing everything related to 'community mode'.\"\n\n- **specializes in LINE**：比直譯的「LINE-related senior UI/UX designer」自然。英文描述專長時常用 *specialize in*，或寫成 *with deep LINE experience*。\n- **start by reviewing**：對應「先針對…進行審閱」裡的「先」。*start by + V-ing* 有「先從這件事做起，後面還有別的」的語感，比 *first review* 更口語。\n- **everything related to**：比 *the related content of* 自然。英文很少說 *content of a feature*，通常用 *everything related to X* 或 *all aspects of X*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f8be8042aff9",
       "date": "20261014",
       "front": "你的中文訊息自然的英文說法：",
