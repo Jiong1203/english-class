@@ -28,10 +28,37 @@
       ]
     },
     {
+      "id": "f2da240c1351",
+      "date": "20261015",
+      "front": "\"Typing !help doesn't do anything either.\"",
+      "body": "你這次用中文回報，以下是自然的英文說法：\n\n> \"Typing !help doesn't do anything either.\"\n\n- **doesn't do anything**：「沒反應」最口語的說法，跟上一輪的 *nothing happened* 意思相同，換個說法可以擴充用語。\n- **either**：放在否定句句尾，表示「也一樣不行」，呼應上一輪「團團沒反應」。肯定句用 *too*，否定句要用 *either*，這是常見的易錯點。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e41cf831b8f3",
       "date": "20261015",
       "front": "\"Done.\"",
       "body": "你這次回覆「好了」，對應的英文是：\n\n> \"Done.\"　或　\"I'm logged in.\"\n\n- **「好了」**是很萬用的回覆，英文要看情境選字：\n  - 單純表示完成：*Done.* 或 *All set.*\n  - 說明完成了什麼：*I'm logged in.*，這樣對方不用猜你指的是哪一步。\n- *All set.* 是很自然的口語，意思是「都準備好了，可以繼續」，在工作溝通裡很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dabb26789257",
+      "date": "20261015",
+      "front": "\"All the retests passed — go ahead and merge it back into dev.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"All the retests passed — go ahead and merge it back into dev.\"\n\n- **All the retests passed**：「重測都沒問題」。測試情境下說 *pass* 最精準，比 *no problem* 更專業。\n- **merge it back into dev**：「merge 回 dev」。*back into* 強調「從分支併回主線」，是 Git 語境的慣用說法。\n- 這句用破折號把「結果」和「下一步指令」串在一起，是英文工作訊息很常見的節奏：先報告狀態，再給指示。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d60ba508a3da",
+      "date": "20261015",
+      "front": "\"I typed it in the 1:1 chat, and all the other buttons work.\"",
+      "body": "你這次用中文回覆，以下是自然的英文說法：\n\n> \"I typed it in the 1:1 chat, and all the other buttons work.\"\n\n- **in the 1:1 chat**：一對一聊天室最簡潔的說法。也常說 *in a direct message* 或 *in DMs*。\n- **all the other buttons work**：「其他按鈕都有反應」。英文說 *work* 就能表達「正常運作、有反應」，不需要直譯成 *have response*。\n- 回報時把兩個事實用 **and** 串起來，對方一句話就能掌握「哪裡壞、哪裡沒壞」，這正是除錯最需要的資訊。",
       "tags": [
         "note"
       ]
@@ -91,6 +118,15 @@
       ]
     },
     {
+      "id": "bacc8d265fc7",
+      "date": "20261015",
+      "front": "\"Go ahead and push it, and cut the prod branches.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"Go ahead and push it, and cut the prod branches.\"\n\n- **cut a branch**：「切分支」的道地說法，特別常用在發版，例如 *cut a release branch*。比直譯的 *create a branch* 更像工程師的用語。\n- **Go ahead and …**：這幾輪你常給「直接做吧」的指示，這是最自然的英文對應，語氣明確又不生硬。也可以更簡潔地說 *Push it and cut the prod branches.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "b2609ae77f45",
       "date": "20261015",
       "front": "\"still uploading\"",
@@ -122,6 +158,15 @@
       "date": "20261015",
       "front": "\"Go ahead in the order you suggested. Also, you left out #4 — make sure to include it.\"",
       "body": "你這次用中文下指令，以下是比較自然的英文說法：\n\n> \"Go ahead in the order you suggested. Also, you left out #4 — make sure to include it.\"\n\n- **Go ahead in the order you suggested**：對應「照你建議的順序先做」。*go ahead* 本身就有「開始動手吧」的意思，比 *please do it according to your suggested order* 簡潔、口語。\n- **you left out #4**：*leave out* 是「漏掉、沒列進去」，比 *you forgot #4* 客觀一點，只陳述事實，沒有責怪的意味。\n- **make sure to include it**：對應「請記得…也要做才對」。中文的「才對」帶點提醒的語氣，英文用 *make sure to* 就能表達，不需要直譯成 *that would be correct*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "92abe94d5b6b",
+      "date": "20261015",
+      "front": "\"OK, go ahead and prepare the CHANGELOG and the version bump.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"OK, go ahead and prepare the CHANGELOG and the version bump.\"\n\n- **version bump**：「升版號」的固定說法。名詞是 *a version bump*，動詞說 *bump the version*，比 *change the version number* 更道地。\n- **prepare**：用在「先準備好、還沒正式送出」的情境剛剛好，也說明了為什麼我先只在本機提交，等你確認後才 push。",
       "tags": [
         "note"
       ]
@@ -230,6 +275,24 @@
       "date": "20261015",
       "front": "\"Deploy it to the test environment first.\"",
       "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"Deploy it to the test environment first.\"\n\n- **deploy it to**：「上機器」最常見的說法就是 *deploy to*。比較口語的同事對話也常說 *push it to staging*。\n- **test environment**：對應「測試機」。也很常聽到 *staging* 或 *the dev environment*。專案裡的分支叫 `dev-test-*`，所以說 *the dev environment* 最貼切。\n- **first**：對應「先」，代表後面還有下一步（之後才上正式機），一個字就把語意交代清楚了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5ffb54f42d1c",
+      "date": "20261015",
+      "front": "\"I typed '團團' but nothing happened. Why is that?\"",
+      "body": "你這次用中文詢問，以下是自然的英文說法：\n\n> \"I typed '團團' but nothing happened. Why is that?\"\n\n- **nothing happened**：描述「沒有反應」最自然的說法，比直譯的 *there was no reaction* 道地。\n- **Why is that?**：口語常見的追問，比單純的 *Why?* 完整、有禮貌。\n- 回報 bug 時，英文習慣補一句情境，例如 *I typed it in the 1:1 chat right after the deploy finished.*（我在部署完成後，於一對一聊天室輸入的）。這正是上面請你確認的那些資訊。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5f5db99e3be5",
+      "date": "20261015",
+      "front": "\"It's deployed, and both 團團 and !help respond now.\"",
+      "body": "你這次用中文回報，以下是自然的英文說法：\n\n> \"It's deployed, and both 團團 and !help respond now.\"\n\n- **It's deployed**：「已部署」最簡潔的說法，也可以說 *Deployed.* 或 *The deploy is done.*\n- **respond now**：*now* 帶出「之前不行、現在可以了」的對比，一個字就把「修好了」的語氣表達出來。\n- **both A and B**：強調「兩個都」，比 *A and B all* 正確。*all* 用在三個以上，兩個要用 *both*。",
       "tags": [
         "note"
       ]
