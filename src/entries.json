@@ -1,6 +1,213 @@
 {
   "entries": [
     {
+      "id": "fb0082fb3bb6",
+      "date": "20261016",
+      "front": "\"Do we even have a username and password for GKE? It's weird for a secret to hold credentials for accessing itself.\"",
+      "body": "這次沒有英文句子需要修改。這裡附上 Stephen 的疑問用英文要怎麼問，跟國外同事溝通時用得到：\n\n> \"Do we even have a username and password for GKE? It's weird for a secret to hold credentials for accessing itself.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 這個很奇怪啊 | That's odd / That seems weird | `odd` 比 `weird` 稍微客氣，在工作場合更常用 |\n| 訪問自己 | access itself | 中文的「訪問」對應英文的 `access`，不是 `visit`。`visit` 只用在網頁或地點，例如 visit a website |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f84d8339c4ac",
+      "date": "20261016",
+      "front": "\"Could you split this into separate commits and push them?\"",
+      "body": "「可以分段commit&push」比較自然的英文說法：\n\n> \"Could you split this into separate commits and push them?\"\n\n- **split into separate commits**：「分段 commit」的慣用說法。也常聽到 *break it into smaller commits*，或用 *atomic commits* 表示每個 commit 只做一件事。\n- 中文口語用 `&` 很順，但英文完整句子裡建議寫成 **and**，`commit & push` 比較像標題或待辦事項的寫法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d88c055b3c3e",
+      "date": "20261016",
+      "front": "\"We were told that the Docker container on 10.201.82.83 kept restarting yesterday (10/15) — over 20,000 times. Is anything wrong? How should we investigate it?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"We were told that the Docker container on 10.201.82.83 kept restarting yesterday (10/15) — over 20,000 times. Is anything wrong? How should we investigate it?\"\n\n| 中文 | 英文 | 說明 |\n|------|------|------|\n| 有接到消息指出 | We were told that… / It was reported that… | 「接到消息」不要直翻成 receive a message，聽起來像收到簡訊 |\n| 一直 reload | kept restarting / was stuck in a restart loop | 容器重啟要用 **restart**；reload 通常指重新讀取設定（例如 `nginx -s reload`），程序本身不會停 |\n| 盤查方法 | How should we investigate / troubleshoot it? | **troubleshoot** 是 IT 排查問題的常用字 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d79f1918bd35",
+      "date": "20261016",
+      "front": "\"Most groups run the same recurring activity, like every Tuesday from 7 to 10 p.m., usually at the same venue. Could we offer an auto-create feature for that?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"Most groups run the same recurring activity, like every Tuesday from 7 to 10 p.m., usually at the same venue. Could we offer an auto-create feature for that?\"\n\n用法說明：\n- **recurring activity**：「固定、週期性重複的活動」最道地的說法，比 \"fixed activity\" 更精準。軟體界常講的 \"recurring event\"、\"recurring payment\" 都是這個字。\n- **from 7 to 10 p.m.**：時間區間用 \"from A to B\" 最自然；口語也可以說 \"7–10 p.m.\"。\n- **venue**：指「場館、活動場地」，比 \"place\" 或 \"location\" 更貼近運動或活動的情境。\n- **Could we offer...?**：提議功能時用 \"Could we...\" 比 \"Is it possible to...\" 更簡潔、更有提案的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d29b23747116",
+      "date": "20261016",
+      "front": "\"As a senior UI/UX designer, please do a full design pass on the current UI and make it feel less AI-generated.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"As a senior UI/UX designer, please do a full design pass on the current UI and make it feel less AI-generated.\"\n\n- **do a full design pass**：「全面優化／整體看過一輪」，設計師之間常這樣說，比 *comprehensively optimize* 自然很多。\n- **feel less AI-generated**：「不要有 AI 感」最貼近的說法。也可以說 *less generic* 或 *less templated*，強調「不要像套版」。\n- 「資深 UI/UX 師」英文一定要補上 **designer**，不能只說 *senior UI/UX*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c8ee7886b80f",
+      "date": "20261016",
+      "front": "\"Yes, please.\"",
+      "body": "你回覆的「要」，在這個情境的自然英文是：\n\n> \"Yes, please.\"　或　\"Go ahead.\"\n\n- 中文單字回覆「要」很簡潔，英文直接說 *Yes.* 會有點生硬，加上 *please* 語氣會更自然禮貌。\n- *Go ahead.* 的意思是「請進行吧」，適合用在對方問「要我幫你做嗎？」的時候。\n- 如果想同時表達「全部都要」，可以說 *Yes, all of it.* 或 *Yes, go ahead with all three.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c342ff9cb27d",
+      "date": "20261016",
+      "front": "你寫的是「好啊先做第 1 階」，自然的英文說法：",
+      "body": "你寫的是「好啊先做第 1 階」，自然的英文說法：\n\n> \"Sure, let's start with Phase 1.\"\n\n用法說明：\n- **let's start with...**：表示「先從……開始」，暗示後面還有其他階段，正好符合你的意思。\n- 也可以說 **\"Sounds good — go ahead with Phase 1.\"** 語氣更像是在授權對方動手，適合用在 code review 或專案討論。\n- 注意 **Phase 1** 的 P 大寫，因為在專案語境裡它通常被當成專有名稱。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b5300621a3d0",
+      "date": "20261016",
+      "front": "\"Just go with your suggestion for the field mapping. Imagine you're a UI/UX expert — how would you approach it?\"",
+      "body": "你的句子自然的英文說法：\n\n> \"Just go with your suggestion for the field mapping. Imagine you're a UI/UX expert — how would you approach it?\"\n\n- **「依你建議做就好」**：*Just go with your suggestion.* 很自然。*go with* 是「採用、就照…」的意思。\n- **「UI/UI 大師」**：你寫的應該是 *UI/UX*，UX 指 User Experience（使用者體驗），跟 UI（介面）常一起出現。\n- **「大師」**：英文常說 *expert*，或口語說 *a UI/UX pro*。*master* 也可以，但比較少用在這種職業頭銜。\n- **「如果是你，你會怎麼做」**：用 *How would you approach it?* 或 *What would you do?*，用假設語氣 *would* 詢問對方的做法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b331dc3678fa",
+      "date": "20261016",
+      "front": "\"So would it be fair to say that the pivot table's publish format affects how well it works with charts?\"",
+      "body": "你的問句自然的英文說法：\n\n> \"So would it be fair to say that the pivot table's publish format affects how well it works with charts?\"\n\n- **「所以應該說…？」**：表示「我整理出這個結論，對嗎？」，英文常用 *So would it be fair to say that …?* 或口語一點的 *So basically, …?*\n- **「配合」**：中文的「配合」很難直譯，英文要依意思選字。這裡是「兩者能不能搭配運作」，用 *how well it works with …* 最自然；也可以說 *compatibility with charts*（跟圖表的相容性）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ae1b48443b5f",
+      "date": "20261016",
+      "front": "你寫的是「幫我先上到測試機再上到正式機」，自然的英文說法：",
+      "body": "你寫的是「幫我先上到測試機再上到正式機」，自然的英文說法：\n\n> \"Please deploy it to staging first, then to production.\"\n\n用法說明：\n- **測試機 / 正式機**：英文通常說 **staging**（或 **dev environment**）和 **production**，口語常簡稱 **prod**。\n- **上到……**：「上線、部署」用 **deploy to** 最標準；口語也常說 **ship it to prod**、**push it to staging**。\n- **先……再……**：用 **first, then** 很清楚；也可以說 **\"Deploy to staging, and once it looks good, roll it out to prod.\"**，多了「確認沒問題再上」的意思，比較貼近實際流程。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9b0a815e3add",
+      "date": "20261016",
+      "front": "\"The deployment went through on all three servers.\"",
+      "body": "前一句「在部署一次試試看」的說明已經在上一則回覆提過了。這裡補充部署完成時常用的英文說法：\n\n> \"The deployment went through on all three servers.\"\n\n> \"Everything's deployed and running.\"\n\n- *go through* 表示「（流程）順利完成、通過」，例如 *The payment went through.*（付款成功）。\n- *deployed and running* 是很常見的簡短回報，同時說明「已部署」和「正在運行」兩種狀態。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8ce2b950b5e3",
+      "date": "20261016",
+      "front": "\"Let's try deploying again.\"",
+      "body": "你的句子「在部署一次試試看」，應該是「**再**部署一次試試看」。「在」和「再」同音，這裡要用表示重複的「再」。\n\n自然的英文說法：\n\n> \"Let's try deploying again.\"　或　\"Try deploying one more time.\"\n\n- **「再…一次」**：用 *again* 或 *one more time*。\n- **「試試看」**：*try …ing* 表示「嘗試做某事看看結果」，例如 *try deploying*。注意要接動名詞（-ing），不是 *try to deploy*。後者偏向「努力設法去做」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "88a14edcd672",
+      "date": "20261016",
+      "front": "\"Here are the results. A couple of commands failed — I think it's a line-break issue.\"",
+      "body": "這次你只貼了指令輸出，沒有寫英文句子。要在英文對話裡貼結果，可以這樣開頭：\n\n> \"Here are the results. A couple of commands failed — I think it's a line-break issue.\"\n\n| 中文 | 英文 | 說明 |\n|------|------|------|\n| 指令跑壞了 | The command broke / failed | **broke** 比較口語，**failed** 比較正式 |\n| 換行的問題 | a line-break issue | 工程師常用的說法；也可以說 \"it got split across lines\" |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "743690cedf15",
+      "date": "20261016",
+      "front": "\"resource busy or locked\"",
+      "body": "這次你直接貼錯誤訊息，沒有附文字。附一句說明會更清楚，英文可以這樣寫：\n\n> \"I got this error when running the build. Any idea what's causing it?\"\n\n- **Any idea what's causing it?**：比 *Why?* 更自然、也更客氣，工程師之間回報問題很常用。\n- 錯誤訊息裡的 **\"resource busy or locked\"** 意思是「資源正被使用中或被鎖定」，碰到 Windows 檔案被佔用時幾乎都是這句。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "741b6f459c9a",
+      "date": "20261016",
+      "front": "\"Is the line-bar chart currently the only one with the 'Auto-generate series from pivot table' feature?\"",
+      "body": "你的問句自然的英文是：\n\n> \"Is the line-bar chart currently the only one with the 'Auto-generate series from pivot table' feature?\"\n\n- **「現在是只有…嗎」**：英文常用 *Is … the only one with …?* 這個句型，直接問「是不是唯一一個」。\n- **「現在」**：用 *currently* 比 *now* 正式一點，適合在工作討論裡描述功能的現況。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6d7d9c1a5a68",
+      "date": "20261016",
+      "front": "\"Let me show you this first:\"",
+      "body": "你這句「先給你看這個」可以這樣說：\n\n> \"Let me show you this first:\" / \"Here's what I got first:\"\n\n| 中文 | 英文 | 說明 |\n|------|------|------|\n| 先給你看這個 | Let me show you this first | 最自然的口語說法 |\n| 先給你看這個 | Here's the output from the first command | 在技術對話中更精確，直接講出這是哪個指令的輸出 |\n\n👍 這種「先貼部分結果再討論」的做法很好，可以縮小問題範圍。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6ab5f1053542",
+      "date": "20261016",
+      "front": "\"Got it. Could the 'Data Config' panel in preview offer a toggle for showing data labels?\"",
+      "body": "你的兩個問題，自然的英文說法：\n\n> \"Got it. Could the 'Data Config' panel in preview offer a toggle for showing data labels?\"\n\n> \"And when 'Auto-generate series from pivot table' is on, shouldn't the 'Series Visibility' section in 'Data Config' be unnecessary?\"\n\n- **「理解」**當開場回應時，英文說 *Got it.* 或 *Understood.* 就很自然，不用說 *I understand.*。\n- **「可以提供…嗎」**：用 *Could … offer / provide …?* 語氣客氣。\n- **「是不是應該…就不用了」**：英文常用否定疑問句 *Shouldn't … be unnecessary?* 或 *Wouldn't we no longer need …?*，表示「我認為應該如此，想跟你確認」的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6a2c7f0b6213",
+      "date": "20261016",
+      "front": "\"Is it done yet?\"",
+      "body": "你的問句「確認一下好了嗎」，自然的英文是：\n\n> \"Is it done yet?\"　或　\"Just checking — is it ready?\"\n\n- **「確認一下」**用來開頭時，英文常說 *Just checking* 或 *Quick check*，語氣輕鬆，不會讓人覺得在催促。\n- **「好了嗎」**：*Is it done?* 指工作完成了沒；*Is it ready?* 偏向「可以拿來用了嗎」。加上 *yet* 帶有「到現在了嗎」的語感，例如 *Is it done yet?*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4f4c9397bddf",
+      "date": "20261016",
+      "front": "你的英文問句這次是用中文寫的，自然的英文說法：",
+      "body": "你的英文問句這次是用中文寫的，自然的英文說法：\n\n> \"Just to confirm: when 'Auto-generate series from pivot table' is on, the data labels will automatically show the same values as the pivot table. Is that right?\"\n\n> \"And how do I control whether the data labels are shown?\"\n\n- **「確認一下」**：用 *Just to confirm* 或 *Let me make sure I understand* 開頭，語氣客氣又清楚。\n- **「我這樣理解正確嗎」**：英文常說 *Is that right?* 或 *Am I understanding this correctly?*。不需要直譯成 *Is my understanding correct?*，雖然文法正確，但口語上比較生硬。\n- **「數值標記」**：圖表術語通常叫 *data labels*。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "42a20cf36776",
+      "date": "20261016",
+      "front": "\"These numbers have way too many decimal places, and they don't match the pivot table on the left.\"",
+      "body": "你的句子「這個數字也太多小數點位數，而且跟左側的樞紐表資料也對不上」，自然的英文是：\n\n> \"These numbers have way too many decimal places, and they don't match the pivot table on the left.\"\n\n- **「也太多…」**：表示誇張、抱怨時，英文常用 *way too many*，比單純的 *too many* 語氣更強，也更口語。\n- **「小數點位數」**：說 *decimal places*。*decimal points* 指的是「小數點」那個點本身，數量上要說位數時用 *decimal places*。\n- **「對不上」**：用 *don't match* 最直接。也可以說 *don't line up with*，意思是「跟…兜不起來」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "389d79307dba",
+      "date": "20261016",
+      "front": "你寫的是「活動成本可以不要自動帶入嗎?」，自然的英文說法：",
+      "body": "你寫的是「活動成本可以不要自動帶入嗎?」，自然的英文說法：\n\n> \"Could we skip auto-filling the activity costs?\"\n\n用法說明：\n- **skip auto-filling**：「不要自動帶入」用 **skip** 很自然，表示「這一步略過」。也可以說 **leave the costs out of the auto-fill**。\n- **auto-fill / prefill**：表單「自動帶入」的標準說法，前者偏一般用語，後者偏開發用語。\n- 用 **Could we...?** 提出修改請求，語氣有禮貌又直接，很適合 code review 或需求討論。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "311ef331fe26",
+      "date": "20261016",
+      "front": "\"Nevermind\"",
+      "body": "「沒事了」在英文裡有幾種自然說法，看語氣選用：\n\n| 中文 | 英文 | 語氣 |\n|------|------|------|\n| 沒事了 | Never mind. | 最常用，表示「不用處理了」 |\n| 沒事了 | It's all good now. | 比較輕鬆，表示問題已經沒了 |\n| 沒事了 | We're good — no further action needed. | 工作場合，明確表示不需要再處理 |\n\n注意 **Never mind** 是兩個字，不要寫成 \"Nevermind\"（非正式場合常見，但正式書寫建議分開）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "12bd25806564",
+      "date": "20261016",
+      "front": "\"I'm logged in.\"",
+      "body": "你回覆的「登入好了」，自然的英文是：\n\n> \"I'm logged in.\"\n\n- 中文「…好了」表示動作完成，英文通常直接描述完成後的狀態就好，例如 *I'm logged in.*、*I'm done.*。\n- 也可以說 *Logged in.*，省略主詞，在聊天訊息裡很常見又簡潔。\n- 不要直譯成 *Login is good.*，英文沒有這種說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "feaa4dbc92c0",
       "date": "20261015",
       "front": "\"Please include the NO column in the table as well.\"",
