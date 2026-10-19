@@ -1,6 +1,161 @@
 {
   "entries": [
     {
+      "id": "f71254d4bb05",
+      "date": "20261019",
+      "front": "你這次是用中文寫的，下面是比較自然的英文說法：",
+      "body": "你這次是用中文寫的，下面是比較自然的英文說法：\n\n> \"I have to keep a daily work log every working day. I currently store it in `D:\\work\\工作日誌` and follow the company's rules. Our monthly cutoff is the 25th, so as of 2026/10/19, this month's log covers 2026/09/26 through 2026/10/25, and I file it as `202610`. Please take a look at the files in `D:\\work\\工作日誌` first.\"\n\n用法說明：\n- **keep a work log**：「寫日誌」是一種持續的習慣，英文會用 *keep*，比 *write* 自然。\n- **monthly cutoff is the 25th**：「每月 25 號結算」在職場上常說 *cutoff (date)*。*settlement* 多半用在帳務。\n- **as of 2026/10/19**：「以現在時間來算」用 *as of* 最精簡，意思是「截至某個時間點」。\n- **covers ... through ...**：說一段期間「從…到…」，美式常用 *through*，表示包含最後一天。\n- **file it as 202610**：「歸檔」可以直接用動詞 *file*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ec3621563370",
+      "date": "20261019",
+      "front": "你這次是用中文寫的，下面是比較自然的英文說法：",
+      "body": "你這次是用中文寫的，下面是比較自然的英文說法：\n\n> \"1. Both ezomd-icsc and ezomd-csac count as EZoMD. 中鋼多維度 refers to the repos under `csc`. For repos like ezopf-csac and ezord-cse, just use the repo name in the log for now.\n> Do you need to keep a name-mapping file in a directory? If so, feel free to write one yourself so it's more accurate in the future.\n> 2. Filtering by wjoehuang@icsc.com.tw is fine. That's my own email address.\"\n\n用法說明：\n- **count as**：「算在…」最自然的說法，例如 *Both count as EZoMD*。\n- **for now**：「先這樣」，表示暫時的做法，以後可能會改。\n- **feel free to ...**：「可以自行…」，語氣客氣，表示授權對方放手去做。\n- **name-mapping file**：「對照名稱記錄」在技術語境常說 *mapping file* 或 *lookup table*。\n- 原文「再個目錄內」應該是「在某個目錄內」的筆誤。英文可以寫 *in a directory* 或 *in some folder*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e0f5101fb155",
+      "date": "20261019",
+      "front": "\"Please fill in the numbering for 10/13 first. Also, I'd like you to write my work log at a fixed time every day, so please run it daily at 4:45 PM.\"",
+      "body": "你這次是用中文寫的，下面是比較自然的英文說法：\n\n> \"Please fill in the numbering for 10/13 first. Also, I'd like you to write my work log at a fixed time every day, so please run it daily at 4:45 PM.\"\n\n用法說明：\n- **fill in**：「補起來」指把缺的部分填上。也可以用 *fix up*。\n- **at a fixed time every day**：「固定時間」的直譯就很自然。另一種說法是 *on a daily schedule*。\n- **daily at 4:45 PM**：英文習慣把頻率放在時間前面，例如 *daily at...*、*every weekday at...*。\n- 如果只想在平日執行，可以說 *every weekday at 4:45 PM*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d0190f0418e3",
+      "date": "20261019",
+      "front": "\"Give me a SQL to let me go to the Supabase to check.\"",
+      "body": "> \"Give me a SQL to let me go to the Supabase to check.\"\n\n意思完全傳達到了，只有三個小地方可以更自然：\n\n| 原句 | 建議 | 說明 |\n|---|---|---|\n| a SQL | **a SQL query** | `SQL` 是語言名稱，不能直接當可數名詞。要說「一段 SQL」，用 `a SQL query` 或 `some SQL` |\n| to let me go to … to check | **so I can check it in …** | `let me go to … to check` 有兩個 `to` 疊在一起，讀起來比較卡。`so I can` 表示目的，更簡潔 |\n| the Supabase | **Supabase** | 產品或服務名稱前面不加 `the`，例如 `in GitHub`、`on Supabase` |\n\n✅ 更自然的說法：\n> \"Give me a SQL query so I can check it in Supabase.\"",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "c9640ea489b3",
+      "date": "20261019",
+      "front": "\"I saw two data in group_id 4 and 7. Is it currect?\"",
+      "body": "> \"I saw two data in group_id 4 and 7. Is it currect?\"\n\n| 原句 | 建議 | 說明 |\n|---|---|---|\n| two data | **two rows** / **two records** | `data` 是不可數名詞，不能說 `two data`。資料庫裡的「一筆資料」用 `row` 或 `record` |\n| currect | **correct** | 拼字錯誤，是 `correct`（cor-rect） |\n| Is it correct? | **Is that correct?** / **Is that expected?** | 指剛才提到的情況時，用 `that` 比 `it` 自然。`Is that expected?` 是工程師確認結果是否正常時很常用的說法 |\n\n✅ 更自然的說法：\n> \"I see two rows each for group_id 4 and 7. Is that expected?\"\n\n`two rows each` 表示「各兩筆」，比 `two rows in 4 and 7` 更精確，不會被誤會成兩個群組加起來只有兩筆。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b77fbbe52801",
+      "date": "20261019",
+      "front": "\"It's done. Please check.\"",
+      "body": "> \"It's done. Please check.\"\n\n很好！句子簡短清楚，文法完全正確 👍\n\n如果想讓語氣更自然一點，可以參考這些說法：\n\n| 說法 | 使用情境 |\n|---|---|\n| \"Done! Could you take a look?\" | 較口語、友善，請對方幫忙確認時很常用 |\n| \"It's all set. Can you double-check it for me?\" | `all set` 表示「都設定好了」；`double-check` 強調「再確認一次」 |\n| \"I've finished it. Please review.\" | 偏正式，適合工作上請別人審核成果 |\n\n`take a look` 和 `double-check` 是職場上請人確認時最常聽到的兩個片語，可以記起來。",
+      "tags": [
+        "praise",
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "a976963cb0b5",
+      "date": "20261019",
+      "front": "\"Here's a screenshot. I've registered the task and started it. Can you check whether it ran correctly?\"",
+      "body": "這次你只傳了一張截圖，沒有文字。你要傳截圖請別人幫忙看時，可以搭配一句說明：\n\n> \"Here's a screenshot. I've registered the task and started it. Can you check whether it ran correctly?\"\n\n用法說明：\n- **Here's a screenshot.**：開門見山告訴對方你附了什麼。\n- **registered the task**：「註冊排程」的英文說法，*register* 是 Task Scheduler 的正式用語。\n- **check whether it ran correctly**：請對方確認結果時很好用的句型，*whether* 帶出「是否」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6e68fcf9a00d",
+      "date": "20261019",
+      "front": "\"It's done.\"",
+      "body": "> 跑完了 → **\"It's done.\"** / **\"It finished running.\"**\n\n用法說明：\n- **It's done.**：最簡短自然，適合聊天或回報進度。\n- **It finished running.**：強調程式「執行完畢」，用在腳本或排程的情境更精確。\n- 想多帶一點資訊可以說：*\"It finished running. Can you check the log?\"*，順便請對方接手下一步。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "68c72d5871de",
+      "date": "20261019",
+      "front": "\"He said he used https://grouparound.app/api/admin/subscriptions/expire-due.\"",
+      "body": "你這次用中文描述，下面是自然的英文說法：\n\n> \"He said he used https://grouparound.app/api/admin/subscriptions/expire-due.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 他說他放這支 | He said he set it to… / He used… | 「放」在這裡是「填入」，英文說 `set it to`（把變數值設成…）最精確，也可以簡單說 `used` 或 `put in` |\n| 這支（API） | this endpoint | 中文用量詞「支」稱呼 API，英文直接說 `endpoint`，不需要量詞 |\n\n小提醒：如果不確定對方的性別，英文可以用 `They said they used…`，在職場溝通中很常見。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "658a91bbfe88",
+      "date": "20261019",
+      "front": "\"start with option A\"",
+      "body": "你的句子：「用 m5資料來源，先做 A 產品別那頁。另外說說 fin.json 是甚麼」\n\n> \"Let's use m5資料來源 and start with option A, the 產品別 page. Also, could you explain what fin.json is?\"\n\n- 「先做 A」→ **\"start with option A\"**。*start with* 有「先從這個開始，之後還有別的」的意思，比 \"do A first\" 自然。\n- 「說說…是甚麼」→ **\"could you explain what … is\"**。要注意問句中的子句用直述語序：說 \"what fin.json **is**\"，不要說 \"what **is** fin.json\"。上次也提過這個重點。\n- 也可以更口語地說 **\"And what's fin.json, by the way?\"**。*by the way* 適合插入一個順帶的問題。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "64ad8d6421fe",
+      "date": "20261019",
+      "front": "\"Take another look at 202610.txt — I made some changes.\"",
+      "body": "> \"Please re-read 202610.txt. I've updated it.\"\n\n你的句子意思很清楚。原文「你再重新讀一下」裡的「再」和「重新」語意重複，英文用 **re-read** 一個字就涵蓋了，不用寫成 *read again again*。\n\n- **I've updated it**：用現在完成式很恰當，強調「剛更新完，現在的狀態不同了」。\n- 另一種說法：*\"Take another look at 202610.txt — I made some changes.\"* 其中 *take another look* 比 *re-read* 更口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "649c650d219f",
+      "date": "20261019",
+      "front": "\"Please walk me through how to fill this out, based on this screenshot.\"",
+      "body": "你這次用中文提問，下面是自然的英文說法：\n\n> \"Please walk me through how to fill this out, based on this screenshot.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 詳細講解 | walk me through | 「一步一步帶我走過」，很適合用來請別人教你操作流程。比 `explain in detail` 更口語、更自然 |\n| 填寫（表單） | fill out / fill in | 美式英文說 `fill out a form`，填單一欄位則說 `fill in the field` |\n| 依照此圖 | based on this screenshot | 介面的截圖用 `screenshot`，比 `image` 或 `picture` 精確 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4f5f7e35acbf",
+      "date": "20261019",
+      "front": "你這次是用中文寫的，下面是比較自然的英文說法：",
+      "body": "你這次是用中文寫的，下面是比較自然的英文說法：\n\n> \"About the weekly separator: yes, it marks the week, but the rule is that the last working day of each week rolls over into the next week. For example, 10/8 was the last working day of that week, so it was grouped with the following days as one week, 10/8–10/15.\n> Most entries come from my git commit history. For example, from `feat: ...` I take just the description as one work item. On top of commits, I also add some items by hand, like 'progress review meeting' or 'documentation', which don't show up in git. Finally, anything under `D:\\my` is excluded from the work log.\"\n\n用法說明：\n- **roll over into**：「併入下一期」很道地的說法，原本常用在預算或額度延到下一期，這裡借來說工作天併入下週。\n- **on top of**：「除了…之外，還…」，口語上比 *in addition to* 輕鬆。\n- **add ... by hand**：「手寫補充」不用直譯成 *handwrite*，因為你其實是用打字，*by hand* 指的是手動加上去。\n- **is excluded from**：「不納入」最標準的說法。也可以說 *doesn't count toward the log*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2f3fbe73f1a1",
+      "date": "20261019",
+      "front": "\"Why was it blocked by a safety mechanism? What kind of mechanism is it? Can I enable it for you, and if so, how?\"",
+      "body": "你這次是用中文寫的，下面是比較自然的英文說法：\n\n> \"Why was it blocked by a safety mechanism? What kind of mechanism is it? Can I enable it for you, and if so, how?\"\n\n用法說明：\n- **blocked by**：「被…擋下」最常用的說法。比較正式可以用 *was denied by*。\n- **What kind of ...**：比 *What is the ...* 更貼近「是甚麼樣的」的語氣。\n- **enable it for you**：「幫你開啟」的自然說法。如果你要表達的是「放行」，用 *allow it* 或 *grant permission* 更精確。\n- 原文的「甚麼」和「什麼」都是正確寫法，台灣比較常用「什麼」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "26cf09984c28",
+      "date": "20261019",
+      "front": "\"Honestly\"",
+      "body": "這次你用中文，以下是自然的英文說法：\n\n> \"This is a case provided by the client, so I'm not familiar with it. Honestly, I don't know much about Excel either — I have no idea what macros even do. Could you take a look at this file and see if you can find any clues?\"\n\n- 「說實在」→ **\"Honestly\"** 或 **\"To be honest\"**，放句首，語氣很自然。\n- 「我根本不知道在幹嘛」→ **\"I have no idea what … do\"**，比 \"I don't know\" 更有「完全不懂」的感覺。\n- 「看看有沒有甚麼端倪」→ **\"see if you can find any clues\"**，或口語一點的 **\"see if anything stands out\"**（有沒有什麼特別顯眼的地方）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "19b82a88c80d",
+      "date": "20261019",
+      "front": "\"Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.\"",
+      "body": "你的句子：\n> \"Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.\"\n\n這兩句文法正確，也很自然。祈使句（Read… and follow…）用來下指令清楚又直接。\"follow it exactly\" 是很道地的說法，強調要「一字不差地照做」。\n\n另一種說法可以參考：\n- \"Commit data **can be found in** _auto/commits.txt.\"：比 \"is in\" 稍微正式一點，常用在文件或說明裡。\n- 如果想先預防路徑出錯，可以補一句：\"**If the file isn't there, let me know before proceeding.**\"（如果檔案不在那裡，繼續之前先告訴我。）\n\n寫得很好，繼續保持！👍",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "18ca49bf7aae",
+      "date": "20261019",
+      "front": "\"A teammate with Maintainer access has helped set up the environment variables.\"",
+      "body": "你這次用中文描述，下面是自然的英文說法：\n\n> \"A teammate with Maintainer access has helped set up the environment variables.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 有 maintainer 身分的夥伴 | a teammate with Maintainer access / role | 英文說權限通常用 `access` 或 `role`，不會直譯「身分」(identity)。`identity` 是登入、驗證情境的用詞 |\n| 協助建立了 | helped set up | `help` 後面直接接原形動詞，不需要 `to`（`help to set up` 也對，但口語少用）。`set up` 比 `create` 更適合描述「設定好」一個環境 |\n| 環境變數 | CI/CD variables | 在 GitLab 的語境裡，官方用語是 **CI/CD variables**，跟同事溝通時用這個名稱比較精確 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "fb0082fb3bb6",
       "date": "20261016",
       "front": "\"Do we even have a username and password for GKE? It's weird for a secret to hold credentials for accessing itself.\"",
