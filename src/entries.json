@@ -1,10 +1,586 @@
 {
   "entries": [
     {
+      "id": "fcb59292bee9",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **smoke test**：「冒煙測試」，指部署後快速確認基本功能正常的檢查，例如 *Run a quick smoke test on staging after the deploy.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f4a4a59bde29",
+      "date": "20261020",
+      "front": "這次你直接執行了指令，沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你直接執行了指令，沒有寫英文句子，所以補充一個用法：\n\n- **The rollout is complete.**：「發佈完成了」，*rollout* 指逐步上線、推出的過程。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f03e7e3ceb00",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **One last check.**：「只差最後一個檢查」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ecabd80c702c",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Idle until then.**：「在那之前保持待命」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ebccd25e205b",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **As is.**：「維持原狀」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ea6ee950de7e",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Over to you.**：「換你了」，把下一步交給對方時的簡短說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e6b3c6734452",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Unchanged since last update.**：「自上次更新以來沒有變化」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e2eb3814a8e8",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Holding for your go-ahead.**：「等你點頭再進行」，*go-ahead* 是「許可、開始的信號」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d41c7a2dc969",
+      "date": "20261020",
+      "front": "你的原句是中文「是新版了，然後呢？上正式機嗎？」，上面是自然的英文說法。",
+      "body": "> \"It's the new version. What's next? Should we deploy to production?\"\n\n你的原句是中文「是新版了，然後呢？上正式機嗎？」，上面是自然的英文說法。\n\n- **What's next?**：「然後呢？」最自然的說法，也可以說 *What's the next step?*\n- **deploy to production / go to prod**：「上正式機」。工程師口語常說 *ship it to prod*，*prod* 是 *production* 的縮寫。\n- **soak test**：「浸泡測試」，指在測試環境放一段時間、實際使用來觀察有沒有問題，例如 *Let's let it soak on staging for a day before going to prod.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c904b7ac0da3",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Ready when you are.**：「你準備好就可以開始」，表示自己這邊已經就緒。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c89165b70c41",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Blocked on the token.**：「卡在 token 這一步」，*blocked on* 表示進度被某件事卡住。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c88701bbd1b3",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Last piece pending.**：「最後一塊還在等」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c7f403d6b0be",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still blocked.**：「仍然卡住」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c60e6a4cf384",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Awaiting the curl output.**：「等待 curl 的輸出」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c2d26961a13c",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Same status.**：「狀態相同」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ba267aca6c53",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Two things outstanding.**：「還有兩件待辦」，*outstanding* 在這裡是「未完成的」，不是「傑出的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b3f5060deaf9",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Let me know once you've checked.**：「你確認完跟我說一聲」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b10d7a914e52",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Final item outstanding.**：「只剩最後一項未完成」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b0df83f8552a",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **My bad.**：「我的錯」，口語承認小失誤時的說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b0d5475e7891",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Both still open.**：「兩件都還沒結案」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "af69ef5816d8",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Over and out.**：「通話完畢」，原為無線電用語，口語上表示「我這邊說完了」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ad77fc240172",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Nothing new here.**：「這邊沒有新進展」，回報狀態時的簡短說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a788906db2e6",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still on your plate.**：「還在你手上」，指這件事還需要你處理。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a6eb0b61151c",
+      "date": "20261020",
+      "front": "你的原句是中文「正式機部署好了，幫我套用 Rich Menu」，上面是自然的英文說法。",
+      "body": "> \"Production is deployed. Please apply the Rich Menu.\"\n\n你的原句是中文「正式機部署好了，幫我套用 Rich Menu」，上面是自然的英文說法。\n\n- **Production is deployed / Prod is live.**：「正式機上線了」。*live* 在軟體語境是「已上線、正在服務使用者」。\n- **verify against prod**：「對正式環境驗證」，例如 *I verified the manage page against prod.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a40d3d913c47",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Unchanged.**：「沒有變化」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a3fd61b92b3b",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Holding.**：「保持等待」，最簡短的狀態回報。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a0f1ff2028e6",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Ball's in your court.**：「球在你那邊」，意思是下一步由你決定。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9976ec0acd48",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Can you confirm on your end?**：「你那邊可以確認一下嗎？」*on your end* 指「在你那一端」，請對方協助驗證時很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "967525ae0834",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Same as before.**：「跟之前一樣」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9139f6b94593",
+      "date": "20261020",
+      "front": "你的原句是中文「部署按好了，幫我套用 Rich Menu」，上面是自然的英文說法。",
+      "body": "> \"The deployment's done. Please apply the Rich Menu for me.\"\n\n你的原句是中文「部署按好了，幫我套用 Rich Menu」，上面是自然的英文說法。\n\n- **The deployment's done.**：「部署好了」，*'s* 是 *is* 的縮寫，口語很自然。也可以說 *I've approved the deploy.*，強調是「你按了核准」。\n- **apply**：在設定相關的情境，「套用」最常用的就是 *apply*，例如 *apply the config*、*apply the new menu*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8e6b3c90a867",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Nothing more on my end.**：「我這邊沒有其他可做的了」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8ce9fb6e1438",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Pending on two fronts.**：「兩邊都在等」，*on two fronts* 是「在兩個方面」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "81edd487bbce",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Waiting to hear back.**：「等你回覆結果」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "810f2ce28114",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still pending on my side.**：「我這邊仍在等待中」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7ee2440a7faf",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **On standby.**：「待命中」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7ba3b79e8be8",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **On hold pending your check.**：「暫停，等你檢查」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "78085c837fa5",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **No update.**：「沒有更新」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6ae5f0fdf57f",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still waiting.**：「仍在等待」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5e396d1b3a0e",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Your move.**：「該你出手了」，口語的「換你了」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "58d6f7383a7f",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **paper trail**：「書面紀錄、可追溯的證據」，例如 *Running the check here leaves a paper trail.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "573da9ff9e0d",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Same holding pattern.**：「仍在原地等待」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "55e6ddf3977b",
+      "date": "20261020",
+      "front": "你的原句是中文「可以上正式機了」，上面是自然的英文說法。",
+      "body": "> \"We're good to go to production.\"\n\n你的原句是中文「可以上正式機了」，上面是自然的英文說法。\n\n- **good to go**：「準備就緒、可以進行」，非常口語常用，例如 *QA passed, we're good to go.*\n- **cut a release**：「切出一個發佈版本」，例如 *I cut prod-v0.3.13 from dev.*，*cut* 在版本控制語境裡就是「建立分支或版本」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "501aa03d1831",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Two loose ends.**：「兩個還沒收尾的地方」，*loose ends* 指尚未處理完的小事。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4408253b56ba",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Just the one thing left.**：「只剩這一件事」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3d6e5c9f49d9",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Waiting on you.**：「在等你」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3cffe66dbc81",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still parked.**：「仍然擱置中」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3a7b80dc3bd9",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Same as last time.**：「跟上次一樣」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "35290a257b5b",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Status unchanged.**：「狀態不變」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "344d926f49b5",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Holding pattern.**：「盤旋等待」，原指飛機在空中等待降落，口語引申為「原地等待中」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2f6c940cc762",
+      "date": "20261020",
+      "front": "這次你直接執行了指令，沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你直接執行了指令，沒有寫英文句子，所以補充一個用法：\n\n- **rotate a token**：「更換、重新發行 token」，資安領域的標準說法，例如 *We should rotate the token since it was exposed in the chat log.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2cdc1f506553",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **That's the last piece.**：「這是最後一塊拼圖」，表示只差這一步就完成。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2c2eee6e925c",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Pending verification.**：「待驗證」，常用於狀態標記。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2b40c7f4bb8b",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **No movement.**：「沒有進展」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2a5f8cfd1607",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **take your word for it**：「相信你的說法」，例如 *I can't verify it from here, so I'll take your word for it.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "272c1d588cb8",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Steady state.**：「穩定狀態」，在這裡指狀態沒有變化。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "22d42dc012e0",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Parked.**：「暫時擱著」，工程師口語指事情暫停、等待後續。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "191810e1202a",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Nothing new to report.**：「沒有新的進展可回報」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "135b03ba0fb7",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Ready whenever you are.**：「你隨時準備好都可以」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0d3b10b55100",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Nothing to add.**：「沒有要補充的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0d2009fc082f",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Nothing further.**：「沒有其他要補充的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "097460b22bec",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still on hold.**：「仍在擱置中」，表示事情暫停、等待後續。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "07e0b7355189",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Awaiting your input.**：「等你提供資訊」，常見於系統或工單的狀態訊息。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "025ced406eab",
+      "date": "20261020",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **That's all from me.**：「我這邊就這樣」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f71254d4bb05",
       "date": "20261019",
       "front": "你這次是用中文寫的，下面是比較自然的英文說法：",
       "body": "你這次是用中文寫的，下面是比較自然的英文說法：\n\n> \"I have to keep a daily work log every working day. I currently store it in `D:\\work\\工作日誌` and follow the company's rules. Our monthly cutoff is the 25th, so as of 2026/10/19, this month's log covers 2026/09/26 through 2026/10/25, and I file it as `202610`. Please take a look at the files in `D:\\work\\工作日誌` first.\"\n\n用法說明：\n- **keep a work log**：「寫日誌」是一種持續的習慣，英文會用 *keep*，比 *write* 自然。\n- **monthly cutoff is the 25th**：「每月 25 號結算」在職場上常說 *cutoff (date)*。*settlement* 多半用在帳務。\n- **as of 2026/10/19**：「以現在時間來算」用 *as of* 最精簡，意思是「截至某個時間點」。\n- **covers ... through ...**：說一段期間「從…到…」，美式常用 *through*，表示包含最後一天。\n- **file it as 202610**：「歸檔」可以直接用動詞 *file*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f087e6817096",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Pending your action.**：「等你處理」，常見於工單或狀態回報，語氣簡潔。",
       "tags": [
         "note"
       ]
@@ -19,10 +595,37 @@
       ]
     },
     {
+      "id": "e8741397fa35",
+      "date": "20261019",
+      "front": "\"Please finish all the changes in this release, make sure the code has no issues, and then deploy it to the test environment.\"",
+      "body": "> \"Please finish all the changes in this release, make sure the code has no issues, and then deploy it to the test environment.\"\n\n你這次用中文，以上是自然的英文說法。\n\n- **deploy to the test environment / staging**：「上到測試機」的標準說法。工程團隊常把測試環境叫 *staging* 或 *dev environment*，例如 *Let's ship it to staging.*\n- **make sure ... has no issues**：也可以說 *make sure everything checks out*，其中 *check out* 是「檢查後確認沒問題」的意思，很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e0f5101fb155",
       "date": "20261019",
       "front": "\"Please fill in the numbering for 10/13 first. Also, I'd like you to write my work log at a fixed time every day, so please run it daily at 4:45 PM.\"",
       "body": "你這次是用中文寫的，下面是比較自然的英文說法：\n\n> \"Please fill in the numbering for 10/13 first. Also, I'd like you to write my work log at a fixed time every day, so please run it daily at 4:45 PM.\"\n\n用法說明：\n- **fill in**：「補起來」指把缺的部分填上。也可以用 *fix up*。\n- **at a fixed time every day**：「固定時間」的直譯就很自然。另一種說法是 *on a daily schedule*。\n- **daily at 4:45 PM**：英文習慣把頻率放在時間前面，例如 *daily at...*、*every weekday at...*。\n- 如果只想在平日執行，可以說 *every weekday at 4:45 PM*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dde9fa73bd36",
+      "date": "20261019",
+      "front": "\"Is the video ready?\"",
+      "body": "你這次用中文輸入，以下是自然的英文說法：\n\n> \"Is the video done rendering?\"\n\n- **render** 是影片、動畫「輸出、算圖」的專業用語。\"Is it done rendering?\" 是剪輯或動畫相關工作很常聽到的問法。\n- 比較口語的說法是 **\"Is the video ready?\"**，日常對話用這句就很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "db307053d5eb",
+      "date": "20261019",
+      "front": "\"A while ago we shipped a community mode for LINE OpenChat. Could you review it first?\"",
+      "body": "你這次用中文輸入，以下是自然的英文說法：\n\n> \"A while ago we shipped a community mode for LINE OpenChat. Could you review it first?\"\n\n- **ship**：在軟體開發裡指「推出、上線」，比 \"release\" 更口語，工程師之間很常用。\n- 「前陣子」可以說 **a while ago** 或 **recently**。\"A while ago\" 偏「有一段時間了」，\"recently\" 偏「最近」。\n- 「複習一下」在這裡比較接近「回顧、熟悉一下」，所以用 **review** 或 **get familiar with it again** 比較貼切。\"Revise\" 在英式英文是「複習功課」的意思，放在這個情境不自然。",
       "tags": [
         "note"
       ]
@@ -37,12 +640,48 @@
       ]
     },
     {
+      "id": "ceb72658e4c9",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個相關的用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個相關的用法：\n\n- **Waiting on you for the final step.**：「最後一步在等你」。*waiting on someone* 是工程溝通裡很常見的說法，比 *waiting for* 更強調「進度取決於對方」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "c9640ea489b3",
       "date": "20261019",
       "front": "\"I saw two data in group_id 4 and 7. Is it currect?\"",
       "body": "> \"I saw two data in group_id 4 and 7. Is it currect?\"\n\n| 原句 | 建議 | 說明 |\n|---|---|---|\n| two data | **two rows** / **two records** | `data` 是不可數名詞，不能說 `two data`。資料庫裡的「一筆資料」用 `row` 或 `record` |\n| currect | **correct** | 拼字錯誤，是 `correct`（cor-rect） |\n| Is it correct? | **Is that correct?** / **Is that expected?** | 指剛才提到的情況時，用 `that` 比 `it` 自然。`Is that expected?` 是工程師確認結果是否正常時很常用的說法 |\n\n✅ 更自然的說法：\n> \"I see two rows each for group_id 4 and 7. Is that expected?\"\n\n`two rows each` 表示「各兩筆」，比 `two rows in 4 and 7` 更精確，不會被誤會成兩個群組加起來只有兩筆。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "c4bb95c6fcd1",
+      "date": "20261019",
+      "front": "\"First, please draw the wireframes for the owner console.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"First, please draw the wireframes for the owner console.\"\n\n- **wireframe**：「線框圖」的標準說法，可以當名詞，也可以當動詞，例如 *Let's wireframe the owner console first.*\n- **mockup / prototype 的差別**：*wireframe* 著重結構和版面，*mockup* 有接近完成的視覺樣式，*prototype* 則可以點擊操作。這次的成品介於 wireframe 和 clickable prototype 之間。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c15fca3df356",
+      "date": "20261019",
+      "front": "你的原句是中文「好，接著做步驟 4 和 5」，上面是自然的英文說法。",
+      "body": "> \"OK, go ahead with steps 4 and 5.\"\n\n你的原句是中文「好，接著做步驟 4 和 5」，上面是自然的英文說法。\n\n- **go ahead with**：上一則學到的用法，用在這裡剛好。也可以說 *Let's move on to steps 4 and 5.*，其中 *move on to* 強調「進到下一個階段」。\n- 這次我自己犯了錯，英文會說 *I accidentally ran Prettier on the whole codebase.*，**accidentally** 是「不小心」最常用的字。坦承錯誤時，工程師常說 *That's on me.*（這是我的錯）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b920c54c445c",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **No change on my end.**：「我這邊沒有變化」，回報進度時很常用。",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -57,10 +696,73 @@
       ]
     },
     {
+      "id": "b75f3ba2ebb3",
+      "date": "20261019",
+      "front": "\"OK, please commit the community-video files for me.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"OK, please commit the community-video files for me.\"\n\n- **commit ... for me**：請別人幫忙做事時最自然的說法。更口語可以說 *Go ahead and commit community-video.*，其中 *go ahead and ...* 有「你就直接做吧」的語氣，很適合用來同意對方的提議。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b5ffac930046",
+      "date": "20261019",
+      "front": "\"Commit it in English, but don't push yet.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Commit it in English, but don't push yet.\"\n\n- **don't ... yet**：「先不要⋯⋯」最自然的說法，*yet* 暗示之後還是會做。也可以說 *Hold off on pushing for now.*，其中 *hold off on* 是「暫緩」的意思，工程溝通裡很常用。\n- **Commit it in English**：用 *in + 語言* 表示「用某種語言」，例如 *write the message in English*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b28bd9706bb4",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still awaiting approval.**：「仍在等待核准」，*awaiting* 比 *waiting for* 正式一些，常見於狀態回報。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "a976963cb0b5",
       "date": "20261019",
       "front": "\"Here's a screenshot. I've registered the task and started it. Can you check whether it ran correctly?\"",
       "body": "這次你只傳了一張截圖，沒有文字。你要傳截圖請別人幫忙看時，可以搭配一句說明：\n\n> \"Here's a screenshot. I've registered the task and started it. Can you check whether it ran correctly?\"\n\n用法說明：\n- **Here's a screenshot.**：開門見山告訴對方你附了什麼。\n- **registered the task**：「註冊排程」的英文說法，*register* 是 Task Scheduler 的正式用語。\n- **check whether it ran correctly**：請對方確認結果時很好用的句型，*whether* 帶出「是否」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a632d2296682",
+      "date": "20261019",
+      "front": "\"OK, start working on steps 1 to 3.\"",
+      "body": "> \"OK, start working on steps 1 to 3.\"\n\n你這句英文意思正確、很好懂。比較道地的說法可以是：\n\n- **Go ahead with steps 1 through 3.**：*go ahead with* 表示「就照計畫進行」，很適合用來核准對方提出的方案。\n- **steps 1 through 3**：美式英文表示「1 到 3（包含 3）」時，常用 *through* 代替 *to*，可以避免「到底包不包含第 3 步」的歧義。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "867c0e27816d",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個相關的用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個相關的用法：\n\n- **to be on hold**：「暫停、擱置中」，例如 *The deploy is on hold until someone approves it.*（部署暫停，等有人核准）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "732cf96e41da",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個相關的用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個相關的用法：\n\n- **The ball is in your court.**：「接下來輪到你了」，很適合用在像這樣、下一步只能由對方完成的情況。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7072e057a28b",
+      "date": "20261019",
+      "front": "\"OK, commit it, and drop the stash for me too.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"OK, commit it, and drop the stash for me too.\"\n\n- **drop the stash**：直接沿用 git 的指令名稱，工程師之間就是這樣講。\n- **... for me too**：「也幫我⋯⋯」。也可以說 *and while you're at it, drop the stash.*，其中 *while you're at it* 是「順便」的意思，口語很常用。",
       "tags": [
         "note"
       ]
@@ -120,6 +822,15 @@
       ]
     },
     {
+      "id": "3bf2b26340b7",
+      "date": "20261019",
+      "front": "你這次用中文提問，以下是自然的英文說法：",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"Right now, managing groups and activities as an OWNER feels clunky. Every time I open the frontend, the flow feels roundabout. Would it be better to give OWNERs something like an admin dashboard? How would you approach this as a senior UI/UX designer?\"\n\n- **clunky**：形容操作「卡卡的、不順手」，比 *not smooth* 更道地，談 UX 時很常用。\n- **roundabout**：「繞遠路的」，剛好對應你說的「有點繞」。也可以說 *the flow has too many detours*。\n- **admin dashboard / back office**：「後台」常見的兩種說法。*dashboard* 偏向儀表板、總覽頁；*back office* 偏向營運管理系統。本案比較貼切的是 **owner console** 或 **organizer hub**。\n- 小提醒：原文的「ONWER」應該是 **OWNER**，這種字母順序對調的 typo 寫程式時也很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "2f3fbe73f1a1",
       "date": "20261019",
       "front": "\"Why was it blocked by a safety mechanism? What kind of mechanism is it? Can I enable it for you, and if so, how?\"",
@@ -129,10 +840,37 @@
       ]
     },
     {
+      "id": "2b5fdf4b11a7",
+      "date": "20261019",
+      "front": "\"Could you write a tutorial for me, starting from how to sign up?\"",
+      "body": "你這次用中文輸入，以下是自然的英文說法：\n\n> \"Could you write a tutorial for me, starting from how to sign up?\"\n\n- **sign up**：「註冊」最常用的說法。\"Register\" 比較正式，多用在官方表單上。\n- 「之類的」放在句尾時，可以說 **...and so on** 或 **...that kind of thing**，例如 \"starting from sign-up, that kind of thing.\"\n- 「好嗎」不用逐字翻成 \"okay?\"。用 **Could you...?** 開頭，本身就有客氣詢問的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "26cf09984c28",
       "date": "20261019",
       "front": "\"Honestly\"",
       "body": "這次你用中文，以下是自然的英文說法：\n\n> \"This is a case provided by the client, so I'm not familiar with it. Honestly, I don't know much about Excel either — I have no idea what macros even do. Could you take a look at this file and see if you can find any clues?\"\n\n- 「說實在」→ **\"Honestly\"** 或 **\"To be honest\"**，放句首，語氣很自然。\n- 「我根本不知道在幹嘛」→ **\"I have no idea what … do\"**，比 \"I don't know\" 更有「完全不懂」的感覺。\n- 「看看有沒有甚麼端倪」→ **\"see if you can find any clues\"**，或口語一點的 **\"see if anything stands out\"**（有沒有什麼特別顯眼的地方）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1fce7b4844f7",
+      "date": "20261019",
+      "front": "你這次用中文，以下是自然的英文說法：",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Do we need to redo the Rich Menu too? On a side note, what are the files related to `@resource/community-video/music.py` in the current changes for? Do they need to go into git?\"\n\n- **On a side note / By the way**：「題外話」的自然說法。*On a side note* 稍微正式一點，*By the way (BTW)* 比較口語。\n- **redo**：「重做」，例如 *redo the Rich Menu*。如果只是部分調整，可以說 *rework* 或 *revamp*，後者帶有「翻新」的感覺。\n- **go into git / be committed**：「上到 git」。工程師之間更常說 *Should these be committed?* 或 *Should we check these in?*，其中 *check in* 是版本控制的慣用語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1c6880e0613c",
+      "date": "20261019",
+      "front": "\"Add a fun, bouncy track in the background.\"",
+      "body": "你這次用中文輸入，以下是自然的英文說法：\n\n> \"Add some upbeat, cheerful background music.\"\n\n- **upbeat** 是形容音樂「輕快、有活力」最常用的字，比 \"light and happy\" 道地。\n- 「背景音樂」英文常縮寫成 **BGM**（background music），影片製作圈很常用。\n- 也可以說 **\"Add a fun, bouncy track in the background.\"** 其中 **bouncy** 是「有彈跳感的」，很適合描述歡樂的配樂。",
       "tags": [
         "note"
       ]
@@ -153,6 +891,51 @@
       "body": "你這次用中文描述，下面是自然的英文說法：\n\n> \"A teammate with Maintainer access has helped set up the environment variables.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 有 maintainer 身分的夥伴 | a teammate with Maintainer access / role | 英文說權限通常用 `access` 或 `role`，不會直譯「身分」(identity)。`identity` 是登入、驗證情境的用詞 |\n| 協助建立了 | helped set up | `help` 後面直接接原形動詞，不需要 `to`（`help to set up` 也對，但口語少用）。`set up` 比 `create` 更適合描述「設定好」一個環境 |\n| 環境變數 | CI/CD variables | 在 GitLab 的語境裡，官方用語是 **CI/CD variables**，跟同事溝通時用這個名稱比較精確 |",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "17eca90e9a8b",
+      "date": "20261019",
+      "front": "\"Please make a short tutorial video.\"",
+      "body": "你這次用中文輸入，以下是自然的英文說法：\n\n> \"Please make a short tutorial video.\"\n\n- 「製作」用 **make** 或 **create** 都可以。\"Produce\" 聽起來比較正式，偏專業影片製作。\n- 「短影片」說 **short video** 就很自然。如果是社群平台那種直式短影音，也常說 **short-form video** 或 **a short**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "10c55e58437f",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Standing by.**：「待命中」，表示已經準備好、隨時可以接手下一步。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0e795521fe62",
+      "date": "20261019",
+      "front": "這次你沒有寫英文句子，所以補充一個跟這個情況有關的用法：",
+      "body": "這次你沒有寫英文句子，所以補充一個跟這個情況有關的用法：\n\n- **blocked on someone**：「卡在某人那邊」，例如 *The deploy is blocked on a manual approval.*（部署卡在一個人工確認步驟上）。\n- **sign-off / approval gate**：「人工確認關卡」的常見說法，例如 *The pipeline needs a manual sign-off before it deploys.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "04abe2cb083a",
+      "date": "20261019",
+      "front": "\"Do we have a video walkthrough of this?\"",
+      "body": "你這次用中文輸入，以下是自然的英文說法：\n\n> \"Is there a short video version?\"\n\n- **short video version**：直接對應「短影片版本」，很自然。也可以說 **\"Do we have a video walkthrough of this?\"**\n- **walkthrough** 是「一步一步帶著操作的示範」，專門用來講教學影片或導覽，比 \"video\" 更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "039414e93263",
+      "date": "20261019",
+      "front": "\"...and stuff like that.\"",
+      "body": "你這次用中文輸入，以下是自然的英文說法：\n\n> \"Can you add the later features too, like member check-in, cost entry, and so on?\"\n\n- **check-in** 是「簽到、報到」的標準說法，活動、飯店、機場都用這個字。\n- **cost entry** 是「成本輸入」，也可以說 **entering costs**。\"Cost input\" 文法上沒錯，但比較少人這樣說。\n- 句尾的「…等」用 **and so on** 或 **etc.** 都可以。口語也常說 **\"...and stuff like that.\"**",
+      "tags": [
+        "grammar"
       ]
     },
     {
