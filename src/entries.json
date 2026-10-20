@@ -1,10 +1,28 @@
 {
   "entries": [
     {
+      "id": "fe920ccd4d05",
+      "date": "20261020",
+      "front": "你這段的英文可以這樣說：",
+      "body": "你這段的英文可以這樣說：\n\n> \"Go ahead, but before you continue, one question: now that the 團團 menu in the 1:1 chat no longer has 管理活動, there's no way to get the roster as text. Is there another way to get it? Or could you build an easy way for me?\"\n\n- 「生出管道」不要直譯成 *give birth to*，說 **build an easy way** 或 **add a quick way to get it** 就很自然。\n- 「先繼續做，但是……之前先回答我」可以說 **Go ahead, but first answer one question.** 先給許可、再提條件，英文常用這種順序。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fcb59292bee9",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **smoke test**：「冒煙測試」，指部署後快速確認基本功能正常的檢查，例如 *Run a quick smoke test on staging after the deploy.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f66fad7d75ad",
+      "date": "20261020",
+      "front": "「好啊那你去掃另外兩台」自然的英文說法：",
+      "body": "「好啊那你去掃另外兩台」自然的英文說法：\n\n> **Sure, go ahead and scan the other two servers.**\n\n用法說明：\n- 中文的「台」指機器，英文要說出名詞：**servers**、**machines** 或 **hosts**。在 IT 語境下 **servers** 最自然。\n- 「那你去…」裡的「那」是承接語氣，英文用 **Sure, then...** 或直接用 **go ahead and...** 就能表達「那就這樣做吧」。\n- 另一種更口語的說法：**OK, let's do the other two as well.** 其中 `as well` 表示「也一起」，強調延續剛才的工作。",
       "tags": [
         "note"
       ]
@@ -64,6 +82,15 @@
       ]
     },
     {
+      "id": "e4333e23e00c",
+      "date": "20261020",
+      "front": "\"All done?\"",
+      "body": "你這句「驗證完了嗎?」，自然的英文是：\n\n> \"Are you done verifying?\" 或 \"Is the review finished?\"\n\n- 口語也常說 **\"All done?\"**，簡短又自然。\n- 小提醒：英文問句的問號要用半形 **?**，而且前面不空格。中文則習慣用全形「？」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e2eb3814a8e8",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
@@ -73,10 +100,28 @@
       ]
     },
     {
+      "id": "df7c5979bc72",
+      "date": "20261020",
+      "front": "\"One left.\"",
+      "body": "本輪沒有新的英文句子。補充一個說法：**\"One left.\"** 這是 *There's only one left* 的口語簡寫，回報進度時很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "d41c7a2dc969",
       "date": "20261020",
       "front": "你的原句是中文「是新版了，然後呢？上正式機嗎？」，上面是自然的英文說法。",
       "body": "> \"It's the new version. What's next? Should we deploy to production?\"\n\n你的原句是中文「是新版了，然後呢？上正式機嗎？」，上面是自然的英文說法。\n\n- **What's next?**：「然後呢？」最自然的說法，也可以說 *What's the next step?*\n- **deploy to production / go to prod**：「上正式機」。工程師口語常說 *ship it to prod*，*prod* 是 *production* 的縮寫。\n- **soak test**：「浸泡測試」，指在測試環境放一段時間、實際使用來觀察有沒有問題，例如 *Let's let it soak on staging for a day before going to prod.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d11137af1769",
+      "date": "20261020",
+      "front": "你寫的是中文，「爬一耙」應該是「爬一爬」的筆誤。英文可以這樣說：",
+      "body": "你寫的是中文，「爬一耙」應該是「爬一爬」的筆誤。英文可以這樣說：\n\n> \"Do the same for today.\"\n> \"Check today's too.\"\n\n- 你是接著上一個請求說的，英文用 **do the same for…** 最省字，也很自然，不用把整句重講一遍。\n- **too** 放在句尾，語氣比 **also** 更口語。",
       "tags": [
         "note"
       ]
@@ -136,6 +181,15 @@
       ]
     },
     {
+      "id": "bd5bb7e8d191",
+      "date": "20261020",
+      "front": "\"If you were to promote this system, how would you go about it?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> **\"If you were to promote this system, how would you go about it?\"**\n\n- **`If you were to...`**：假設語氣，表示「假如換作是你」。比 \"If you want to promote...\" 更像在請對方設身處地給建議，語氣也比較客氣。\n- **`go about it`**：意思是「著手進行、採取什麼做法」，比 \"how would you do it\" 更道地，常用來問策略或步驟。\n- **「推廣」的幾種英文說法**：\n  - `promote`：最通用。\n  - `market`：偏商業行銷。\n  - `spread the word`：口語，指「口耳相傳、讓更多人知道」，很適合小型 side project。例：*\"How can I spread the word about my app?\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ba267aca6c53",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
@@ -145,10 +199,28 @@
       ]
     },
     {
+      "id": "b40604f3a47d",
+      "date": "20261020",
+      "front": "你的原文有一點小筆誤：「我記得現在是這樣」前面的「如果 6 位後才會擋」，邏輯上應該是「超過 6 位才會擋」。自然的英文版本：",
+      "body": "你的原文有一點小筆誤：「我記得現在是這樣」前面的「如果 6 位後才會擋」，邏輯上應該是「超過 6 位才會擋」。自然的英文版本：\n\n> \"Sure, let's start with A as you suggested. As for #6, under the current rules people should be able to join the waitlist up to 6, and only get blocked after that — I believe that's how it works now.\"\n\n- 「依你建議」可以用 **as you suggested**，也可以說 **per your recommendation**。\n- 「按照目前的機制」說 **under the current rules**，或 **the way it currently works**。\n- 「我記得是這樣」用 **I believe that's how it works** 或 **if I remember correctly**，語氣比 *I remember* 更委婉。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "b3f5060deaf9",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Let me know once you've checked.**：「你確認完跟我說一聲」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b23baca798aa",
+      "date": "20261020",
+      "front": "\"We're initially targeting around 100 users, starting with people in E5, while keeping it open for E1, E2, and E3 to use in the future.\"",
+      "body": "你這次用中文，以下挑幾句翻成自然的英文：\n\n> - **\"We're initially targeting around 100 users, starting with people in E5, while keeping it open for E1, E2, and E3 to use in the future.\"**\n> - **\"The end goal is to produce the final version of this document.\"**\n> - **\"Everyone records things differently, but for the design phase, let's base it on my habits.\"**\n> - **\"Let's keep developing locally for now, and discuss where to deploy once I think it's ready.\"**\n\n細節說明：\n- 「先初步抓」用 **initially targeting** 或 **roughly estimating**。抓人數是在估規模，target 帶有「以這個為目標來設計」的意思，放在這裡很貼切。\n- 「保留未來……的可能」不要直譯成 ~~keep the possibility of...~~，英文習慣說 **keep it open for...** 或 **leave room for...**。\n- 「上到哪裡」是指部署，英文要明確說 **where to deploy** 或 **where to host it**，不能說 ~~where to go up~~。",
       "tags": [
         "note"
       ]
@@ -199,6 +271,15 @@
       ]
     },
     {
+      "id": "a7eb5fb6388f",
+      "date": "20261020",
+      "front": "\"Go through yesterday's git history — both frontend and backend.\"",
+      "body": "你這句是中文，英文可以這樣說：\n\n> \"Go through yesterday's git history — both frontend and backend.\"\n\n- 「爬一下」是口語，有「翻一翻、看過一遍」的意思。英文用 **go through** 或 **look through** 最自然，**dig through** 則有「仔細翻找」的感覺。不要直譯成 *crawl*，*crawl* 在技術語境裡指的是網路爬蟲。\n- 「前後端都要」可以說 **both frontend and backend**，或者 **for both repos**。放在破折號後面當補充，語氣很口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "a788906db2e6",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
@@ -244,6 +325,15 @@
       ]
     },
     {
+      "id": "999bf948720e",
+      "date": "20261020",
+      "front": "\"Just two more to go.\"",
+      "body": "本輪沒有新的英文句子。補充一個說法：**\"Just two more to go.\"** 意思是「只剩兩個了」，`to go` 在這裡表示「還沒完成、剩下的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "9976ec0acd48",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
@@ -253,10 +343,37 @@
       ]
     },
     {
+      "id": "9952f73a1c9f",
+      "date": "20261020",
+      "front": "\"With only 10 users, we shouldn't go over LINE's free quota of 200 messages at our current usage.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> **\"With only 10 users, we shouldn't go over LINE's free quota of 200 messages at our current usage.\"**\n>\n> **\"Could you make a short promo video that mocks up the actual screens? Add a bit of background music, too.\"**\n\n- **`go over the quota`**：「超出額度」最口語的說法。也可以說 `exceed the free tier`，比較正式。\n- **`mock up the actual screens`**：「模擬實際畫面」。`mock up` 當動詞是「做出擬真的示意畫面」，名詞是 `a mockup`。\n- **`a bit of background music`**：「一點點背景音樂」。`a bit of` 很自然地表達「少量、不要太多」，比 `some` 更能傳達你要的「輕輕的」感覺。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "99427cb98640",
+      "date": "20261020",
+      "front": "\"What if I want to post it on LinkedIn instead?\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> **\"What if I want to post it on LinkedIn instead?\"**\n\n- **`What if...?`**：用來問「如果換成另一種情況呢？」，很適合追問、延伸話題。\n- **`post it on LinkedIn`**：社群平台用介系詞 **`on`**，例如 `on Facebook`、`on Instagram`。中文的「丟到」直譯成 `throw it to` 不自然，用 `post` 或 `share` 就好。\n- **`instead`**：放句尾，暗示「相對於剛才說的 FB 或社團」。有了這個字，前後的脈絡會更清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "967525ae0834",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Same as before.**：「跟之前一樣」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "93d0b18ef4fe",
+      "date": "20261020",
+      "front": "你這句是中文，自然的英文版本：",
+      "body": "你這句是中文，自然的英文版本：\n\n> \"Looks good! Now, putting on your senior UI/UX and web designer hat again, please walk through every step from LINE into the frontend and check every button — whether it's well designed, whether the flow is smooth, and whether it leads somewhere logical.\"\n\n- 「驗證每一步操作」用 **walk through every step** 最自然。*walk through* 有「實際走一遍」的意思，比 *verify* 更有親自操作的感覺。\n- 「導向是否合乎邏輯」可以說 **whether it leads somewhere logical**，或用 UX 術語 **whether the navigation makes sense**。",
       "tags": [
         "note"
       ]
@@ -284,6 +401,15 @@
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Pending on two fronts.**：「兩邊都在等」，*on two fronts* 是「在兩個方面」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "85abe51d97c3",
+      "date": "20261020",
+      "front": "\"1. Let's include all three, as you suggested!\n> 2. Go with the color you recommended.\"",
+      "body": "你這兩句是中文，自然的英文可以這樣說：\n\n> \"1. Let's include all three, as you suggested!\n> 2. Go with the color you recommended.\"\n\n- 「依你建議」最常用的是 **as you suggested**，也可以說 **per your suggestion**，後者比較正式，常見於工作信件。\n- 「就用…吧」用 **Go with …** 非常道地，意思是「決定採用某個選項」，例如：*Let's go with the navy sidebar.*",
       "tags": [
         "note"
       ]
@@ -334,10 +460,28 @@
       ]
     },
     {
+      "id": "71874a0a7f87",
+      "date": "20261020",
+      "front": "「好啊那你去掃另外兩台」的自然說法前面已經補過了。這次整理報告時用到一個實用說法：",
+      "body": "「好啊那你去掃另外兩台」的自然說法前面已經補過了。這次整理報告時用到一個實用說法：\n\n> **Adding computed columns is the single biggest lever.**\n\n用法說明：\n- **the single biggest lever** 指「影響最大的關鍵因素」。`lever`（槓桿）在商業和工程討論中常用來比喻「能以小搏大的著力點」，加上 `single` 是強調「唯一、最突出的那一個」。\n- 類似的說法有 **the biggest win** 和 **where we get the most bang for the buck**（最划算的投資），後者比較口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "6ae5f0fdf57f",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Still waiting.**：「仍在等待」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5ea76b9cb50d",
+      "date": "20261020",
+      "front": "你這次用中文，下面是自然的英文說法：",
+      "body": "你這次用中文，下面是自然的英文說法：\n\n> **\"Overall, the architecture and design may change significantly, since both the design direction and the requirements are shifting a bit. I think we need to talk it through — how would you suggest we start?\"**\n\n細節說明：\n- 「大幅度改動」用 **change significantly**，或 **undergo a major overhaul**。overhaul 是「全面翻修」，語氣比較重，適合真的要大改的時候。\n- 「好像要跟你討論一下」的「好像」在這裡是語氣緩和，不是「似乎」。英文用 **I think we need to...** 最自然，不要翻成 ~~It seems I need to discuss...~~。\n- **talk it through** 是「把事情從頭到尾討論清楚」，比 discuss 更口語、更有一起釐清的感覺。",
       "tags": [
         "note"
       ]
@@ -379,6 +523,15 @@
       ]
     },
     {
+      "id": "525b5d14115f",
+      "date": "20261020",
+      "front": "你的句子「具體說一下『步驟管線』以及你要怎麼做」，自然的英文說法：",
+      "body": "你的句子「具體說一下『步驟管線』以及你要怎麼做」，自然的英文說法：\n\n> **Can you go into more detail about the step pipeline and how you'd implement it?**\n\n用法說明：\n- 「具體說一下」直譯成 *say it concretely* 很不自然。英文常用 **go into more detail about...**、**elaborate on...**，或比較口語的 **walk me through...**。\n- 「你要怎麼做」用 **how you'd implement it**，不要用 *how you will do*。`would` 帶有「假設要做的話，你會怎麼規劃」的語氣，正好符合現在還在討論、還沒定案的情境。\n- 另一種說法：**Walk me through the step pipeline approach and your implementation plan.** 這句很適合在會議上請同事說明方案時使用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "501aa03d1831",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
@@ -388,10 +541,28 @@
       ]
     },
     {
+      "id": "4d98b62cbf7e",
+      "date": "20261020",
+      "front": "你的句子「如果說新的這版只上到中鋁 M5 這台，其他兩台都先不動到就維持原樣呢？」，自然的英文說法：",
+      "body": "你的句子「如果說新的這版只上到中鋁 M5 這台，其他兩台都先不動到就維持原樣呢？」，自然的英文說法：\n\n> **What if we only roll out the new version to the CSAC M5 server and leave the other two as they are for now?**\n\n用法說明：\n- 「上到某台」在部署語境下用 **roll out to** 或 **deploy to**。`roll out` 有「逐步推出」的意味，很適合這種試點情境。\n- 「維持原樣」用 **leave ... as they are** 或 **keep ... unchanged**。後面加上 **for now**，能表達中文「先」的語氣，也就是暫時不動、之後再說。\n- 「如果…呢？」這種提出假設、徵詢意見的句型，英文用 **What if we...?** 最自然，比 *If we... how about?* 順口很多。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "4408253b56ba",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Just the one thing left.**：「只剩這一件事」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3fd2ea9a865f",
+      "date": "20261020",
+      "front": "你說的「直式影片」英文叫 `vertical video`；4:5 這種略高於寬的比例也常叫 `portrait format`。",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> **\"Please make a 4:5 version of the video for me.\"**\n\n- **`a 4:5 version`**：比例的英文讀法是 **\"four by five\"** 或 **\"four-to-five\"**，口語上多半說 `four by five`。\n- 更口語的說法：**\"Can you do a 4:5 cut too?\"** 影片領域常用 `cut` 指「一個剪輯版本」，例如 `a short cut`、`a vertical cut`。\n- 你說的「直式影片」英文叫 `vertical video`；4:5 這種略高於寬的比例也常叫 `portrait format`。",
       "tags": [
         "note"
       ]
@@ -424,6 +595,15 @@
       ]
     },
     {
+      "id": "375c106c0807",
+      "date": "20261020",
+      "front": "\"Halfway there.\"",
+      "body": "本輪沒有新的英文句子。補充一個說法：**\"Halfway there.\"** 意思是「進度過半了」，常用在回報工作進度的時候。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "35290a257b5b",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
@@ -442,10 +622,28 @@
       ]
     },
     {
+      "id": "306405ecd670",
+      "date": "20261020",
+      "front": "\"Since there are some UI and flow changes, could you make a short intro video? Ideally with simulated real screens, so it feels more immersive.\"",
+      "body": "你這句是中文，自然的英文可以這樣說：\n\n> \"Since there are some UI and flow changes, could you make a short intro video? Ideally with simulated real screens, so it feels more immersive.\"\n\n- 「帶入感」最貼切的是 **immersive**（身歷其境的）。如果想強調「看的人容易代入自己的情境」，也可以說 **relatable**。\n- 「產出一下」不用直譯成 *produce*，口語用 **make** 或 **put together** 就很自然，例如：*Could you put together a short video?*\n- 「最好是…」可以用 **Ideally, …** 開頭，語氣委婉又清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "2f6c940cc762",
       "date": "20261020",
       "front": "這次你直接執行了指令，沒有寫英文句子，所以補充一個用法：",
       "body": "這次你直接執行了指令，沒有寫英文句子，所以補充一個用法：\n\n- **rotate a token**：「更換、重新發行 token」，資安領域的標準說法，例如 *We should rotate the token since it was exposed in the chat log.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2d3009ff8339",
+      "date": "20261020",
+      "front": "你這次全程用中文，以下是核心段落的自然英文說法：",
+      "body": "你這次全程用中文，以下是核心段落的自然英文說法：\n\n> Our data filters currently have to be written in JavaScript. That's manageable for developers, but most of our clients are business users with no computer science background, so for them it's practically impossible. Even with the AI assistant, the results haven't been great. Users have asked whether filters could be built with drag-and-drop. We'd still keep hand-written JS, but we want to explore friendlier options.\n\n用法說明：\n- 「天方夜譚」不要直譯成 *Arabian Nights*，英文母語者聽不懂這個比喻。用 **practically impossible** 或 **completely out of reach** 比較自然。\n- 「一般使用者」在軟體情境常說 **business users** 或 **non-technical users**。*normal users* 聽起來有點貶意，最好避免。\n- 「成效不太理想」用 **the results haven't been great** 是口語又客氣的說法。正式一點可以說 **has had limited success**。\n- 「探討看看」可以用 **explore**，比 *discuss* 多了「還在研究可行性」的意味，很適合這種提案階段。",
       "tags": [
         "note"
       ]
@@ -464,6 +662,15 @@
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Pending verification.**：「待驗證」，常用於狀態標記。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2bc4a6c7fdd7",
+      "date": "20261020",
+      "front": "\"Two of six batches are in.\"",
+      "body": "本輪沒有新的英文句子。補充一個進度回報的說法：**\"Two of six batches are in.\"** 這裡的 `in` 是「已經收到、已經交回來」的意思，例如 *The results are in.*（結果出爐了）。",
       "tags": [
         "note"
       ]
@@ -496,6 +703,15 @@
       ]
     },
     {
+      "id": "26a193a7e141",
+      "date": "20261020",
+      "front": "\"Batch 1 is done; still waiting on the other five.\"",
+      "body": "這次沒有新的英文句子。補充一個等待時常用的說法：**\"Batch 1 is done; still waiting on the other five.\"** 其中 `waiting on` 在美式口語裡跟 `waiting for` 意思相同，常用在「等別人或其他工作完成」的情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "22d42dc012e0",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
@@ -505,10 +721,46 @@
       ]
     },
     {
+      "id": "1f51e395cf6a",
+      "date": "20261020",
+      "front": "\"Deploy it straight to the test environment for now — don't merge back into dev yet.\"",
+      "body": "你這句是中文，自然的英文可以這樣說：\n\n> \"Deploy it straight to the test environment for now — don't merge back into dev yet.\"\n\n- 「直接上到測試機」可以說 **deploy straight to staging**。很多團隊把測試環境叫 *staging*；如果團隊習慣叫 dev 環境，就說 *deploy to the dev environment*。\n- 「先不…」用 **don't … yet** 或 **hold off on …**，例如：*Hold off on merging into dev.*（先暫緩 merge），語氣自然又清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1cc239a98218",
+      "date": "20261020",
+      "front": "\"Can you cut the 4:5 version down to about 30 to 45 seconds?\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> **\"Can you cut the 4:5 version down to about 30 to 45 seconds?\"**\n\n- **`cut ... down to`**：「剪短到某個長度」，是剪片時最常用的說法。也可以說 `trim it to 45 seconds`。\n- **`about 30 to 45 seconds`**：表達範圍的自然說法。口語也常說 `somewhere between 30 and 45 seconds`。\n- 中文的「改成」不用直譯成 `change to`，談長度時用 `cut down`、`shorten`、`trim` 會更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1c22566edb7d",
+      "date": "20261020",
+      "front": "\"Just to confirm: the text seems to float a little while the video plays. Is that intentional? If not, please fix it.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> **\"Just to confirm: the text seems to float a little while the video plays. Is that intentional? If not, please fix it.\"**\n\n- **`Just to confirm`**：開頭說「想確認一下」的道地講法，語氣客氣。也可以說 `Quick check:`。\n- **`float a little`**：「有點浮動」。如果是更細微的抖動，可以用 `jitter` 或 `drift`。\n- **`Is that intentional?`**：問「這是故意的嗎」最自然的說法。也可以說 `Is that on purpose?`，更口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "191810e1202a",
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Nothing new to report.**：「沒有新的進展可回報」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "174dbd3b531e",
+      "date": "20261020",
+      "front": "\"I didn't see the P0–P2 list. Could you list it again?\"",
+      "body": "你這句「P0～P2 清單我沒看見，請你重新列出好嗎」，自然的英文是：\n\n> \"I didn't see the P0–P2 list. Could you list it again?\"\n\n- 「重新列出」說 **list it again** 或 **repost it** 都很自然。*repost* 常用在聊天或論壇，意思是「再貼一次」。\n- 「我沒看見」在這裡用 **I didn't see** 就好，不需要說 *I haven't seen*。因為你指的是剛才那則訊息，是過去某個時間點發生的事。",
       "tags": [
         "note"
       ]
@@ -554,6 +806,24 @@
       "date": "20261020",
       "front": "這次你沒有寫英文句子，所以補充一個用法：",
       "body": "這次你沒有寫英文句子，所以補充一個用法：\n\n- **Awaiting your input.**：「等你提供資訊」，常見於系統或工單的狀態訊息。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0668f7d6c91d",
+      "date": "20261020",
+      "front": "你這次用了兩行簡短的中文回覆，英文可以這樣說：",
+      "body": "你這次用了兩行簡短的中文回覆，英文可以這樣說：\n\n> 1. **Sure, go ahead and scan first.**\n> 2. **Make step mode the default.**\n\n用法說明：\n- 「好啊先掃」用 **go ahead and...** 很自然，意思是「你就放手去做吧」，帶有授權、同意的語氣。直譯成 *OK scan first* 會太生硬。\n- 「預設步驟模式」要補上動詞：**Make step mode the default** 或 **Default to step mode**。這裡的 `default to` 是動詞片語，意思是「預設採用…」，在軟體討論中很常見，例如 *The editor defaults to dark theme.*\n- 列點回覆時，英文母語者也常用祈使句（動詞開頭），簡潔又明確，跟你中文的回覆風格一致。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0458b7e8626a",
+      "date": "20261020",
+      "front": "\"Go ahead and merge it back into dev and ship it to production.\"",
+      "body": "你這句是中文，自然的英文可以這樣說：\n\n> \"Go ahead and merge it back into dev and ship it to production.\"\n\n- **Go ahead and …** 是「可以了，去做吧」的意思，給出許可時很自然。\n- 「推上正式機」說 **ship it to production** 或 **release it to prod** 都很道地。*ship* 在軟體圈就是「發布上線」的意思。",
       "tags": [
         "note"
       ]
