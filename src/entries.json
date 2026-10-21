@@ -91,6 +91,15 @@
       ]
     },
     {
+      "id": "d3a338030c99",
+      "date": "20261021",
+      "front": "\"Could you…?\"",
+      "body": "你這句是中文，自然的英文說法是：\n> \"Could you render the intro video for me?\"\n\n- 「產出影片」用 **render** 最貼切。影片是從原始檔一格一格算出來的，這種情況英文通常說 render，比 produce 或 generate 更精確。\n- 「好嗎」是在禮貌地請求，用 **\"Could you…?\"** 開頭就有同樣的語氣，不用逐字翻成 \"…, okay?\"。\n- 想說得更口語，也可以講 \"Can you build the intro video?\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "cf5d36f14ece",
       "date": "20261021",
       "front": "\"Only intro_916.mp4 and intro_916.jpg need to go to R2, right? Is there anything else?\"",
@@ -158,6 +167,15 @@
       "date": "20261021",
       "front": "\"Let's go with your suggestion.\"",
       "body": "你這次用中文，以下挑兩句翻成自然的英文：\n\n> - **\"Let's go with your suggestion.\"**\n> - **\"Every week we keep using the same Google Doc. Once this week's version is finalized, we turn all the text gray to reset it. Then, as people update their parts the following week, they change their text back to black to show it's done.\"**\n\n細節說明：\n- 「依你建議做」最自然的說法是 **\"Let's go with your suggestion.\"** 或 **\"I'll go with what you suggested.\"**。**go with** 是「選擇、採用」，口語很常用。\n- 「作為初始化」不要直譯成 ~~as initialization~~，太像程式術語。日常說法是 **to reset it**，或 **as a starting point**。\n- 「表示更新完成」用 **to show it's done** 或 **to mark it as updated**。**mark ... as ...**（把……標記為……）在系統操作情境很實用，例如 \"mark as read\"、\"mark as complete\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8d3ef149165b",
+      "date": "20261021",
+      "front": "\"I want to plug our app in this thread\"",
+      "body": "你這次用中文輸入，以下是對應的自然英文說法：\n\n> \"I'd like to promote our GroupAround in this thread. Could you write a short post that includes https://grouparound.app/?\"\n\n- **promote** 是「推廣、宣傳」最常用的字。比較口語的說法是 *\"I want to plug our app in this thread\"*，**plug** 在社群語境裡專指「順便打廣告」，很道地。\n- **thread** 就是 Threads 上的「串」。「在這串」可以說 *in this thread*，也可以說 *under this post*。\n- **\"a short post that includes…\"**：「內含」用 *include* 就很自然，不需要寫成 *contain*。*contain* 偏向物理上的「裝著」，用來說文章裡有某個連結會比較生硬。",
       "tags": [
         "note"
       ]
