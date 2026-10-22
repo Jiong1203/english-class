@@ -1,10 +1,56 @@
 {
   "entries": [
     {
+      "id": "442b48c318e7",
+      "date": "20261023",
+      "front": "\"Just keep going.\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| 直接繼續沒問題的 | **Go ahead and keep going — no need to check with me.** |\n\n細節說明：\n- 「直接繼續」用 **keep going** 或 **carry on** 最自然，表示「不用停下來，接著做」。\n- 「沒問題的」在這裡的意思是「不用再問我」，英文說 **no need to check with me** 或 **you don't need to ask**，會比直譯成 ~~it's no problem~~ 更清楚。\n- 更簡潔的說法是 **\"Just keep going.\"** 或 **\"Feel free to continue.\"**。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "22a2814ba35f",
+      "date": "20261023",
+      "front": "\"Looks good\"",
+      "body": "> 沒問題 → \"Looks good!\" 或 \"All good, go ahead.\"\n\n- 單說 \"No problem\" 在英文裡比較常用來回應道謝（\"Thanks!\" → \"No problem!\"），表示「不客氣」。\n- 要表達「我確認過、沒問題，可以往下走」，用 **\"Looks good\"**（常縮寫成 LGTM，Looks Good To Me，code review 時很常見）或 **\"Go ahead\"** 更貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f24f7cd32df5",
+      "date": "20261022",
+      "front": "\"Can you run it again?\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| try again | **Please try again.** / **Can you run it again?** |\n\n說明：\n- 單獨說 \"try again\" 文法沒有錯，但聽起來比較像命令。加上 **Please**，或改用問句 **\"Can you run it again?\"**，語氣會比較客氣。\n- 如果想表達「從頭重跑一次」，可以說 **\"Can you rerun it from scratch?\"**。**from scratch**（從零開始）就是這次我清空資料庫重跑的意思。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "ede0a2ba2017",
+      "date": "20261022",
+      "front": "\"track traffic\"",
+      "body": "你這次用中文提問，對應的自然英文說法：\n\n> \"I'd like to track traffic to our landing page. What tools could we use? My dev partner mentioned GA4 — would that work, or do you have other suggestions?\"\n\n- **\"track traffic\"**：對應「追蹤瀏覽流量」。也可以說 *monitor page views*，但 *traffic* 更常用。\n- **\"landing page\"**：對應「首頁」。行銷語境下專指使用者進站的第一頁，比 *homepage* 更精準。\n- **\"would that work?\"**：對應「是可以的嗎」，用來詢問可行性，語氣很自然。\n- **\"dev partner\"**：對應「開發夥伴」。也可以說 *a fellow developer* 或 *my teammate*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e17a47791355",
       "date": "20261022",
       "front": "\"Can you give me a big-picture evaluation of the new edit mode?\"",
       "body": "你這次用中文發問，英文可以這樣說：\n\n> \"Could you give me a high-level assessment of the new edit mode?\"\n\n- **high-level assessment**：「大方向評估」最自然的說法。「high-level」指不鑽細節、看整體。\n- 另一種說法：**\"Can you give me a big-picture evaluation of the new edit mode?\"**，「big-picture」比較口語。\n- 要再更隨意一點可以說 **\"What's your overall take on the new edit mode?\"**。「take」在這裡是「看法、觀點」的意思，同事之間很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ddc4a94ed98c",
+      "date": "20261022",
+      "front": "\"Verified, looks good.\"",
+      "body": "你這次寫的是「驗證ok」，很簡潔，在工作溝通裡完全可以這樣用。英文同事之間常見的說法：\n\n- *\"Verified, looks good.\"*\n- *\"Tested on staging — all good.\"*：順便說明在哪裡驗證，資訊更完整。\n- *\"QA passed.\"*：比較正式，常用在有正式測試流程的團隊。",
       "tags": [
         "note"
       ]
@@ -110,10 +156,37 @@
       ]
     },
     {
+      "id": "73ed7fa682b1",
+      "date": "20261022",
+      "front": "\"Let's adopt Vitest and export computed values for now. Merge first, then start P1.\"",
+      "body": "> 導入 vitest，先匯出計算結果，先 merge 再開始 P1 → \"Let's adopt Vitest and export computed values for now. Merge first, then start P1.\"\n\n- **adopt**：「導入、採用」（工具、方法、政策），比 use 更正式，常用在技術選型，例如 \"We adopted Vitest for unit testing.\"\n- **for now**：「目前先這樣」，暗示之後可能調整，正好對應你說的「先匯出計算結果」。\n- **Merge first, then...**：用 \"X first, then Y\" 交代先後順序，簡潔又自然，比 \"Before starting P1, please merge\" 更口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "60942dd0c669",
+      "date": "20261022",
+      "front": "\"ship it\"",
+      "body": "你這次寫的是「好，上正式機」，對應的自然英文說法：\n\n> \"OK, let's ship it to production.\"\n\n- **\"ship it\"**：工程團隊說「上線」最常用的口語。\n- **\"production\"**：正式機，常簡稱 *prod*，例如 *\"Push it to prod.\"*。\n- 想更正式一點，可以說 *\"Please proceed with the production release.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5a2f3930303f",
       "date": "20261022",
       "front": "你的句子「好就這麼做!」，自然的英文說法：",
       "body": "你的句子「好就這麼做!」，自然的英文說法：\n\n> **Sounds good — let's do it!**\n\n說明：\n- **Sounds good** 表示同意對方的提議，是很常用的口語回應。\n- **let's do it** 比 *do it like this* 自然，有「就這樣進行吧」的意味。\n- 想強調「照你剛說的做」，也可以說 **Go ahead as planned.**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5913b4fa1575",
+      "date": "20261022",
+      "front": "\"go with\"",
+      "body": "你這次寫的是「好，GA4 加 Clarity，先列出首頁的 CTA 給我挑」，對應的自然英文說法：\n\n> \"OK, let's go with GA4 plus Clarity. Could you list the CTAs on the landing page so I can pick which ones to track?\"\n\n- **\"go with\"**：「就決定用……」，表示從幾個選項中拍板，例如 *Let's go with option A.*\n- **\"so I can pick\"**：對應「給我挑」，用 *so (that)* 帶出目的，比直接說 *for me to choose* 更自然。\n- **CTA**：*Call To Action* 的縮寫，中英文的行銷語境都直接用，不用翻譯。",
       "tags": [
         "note"
       ]
