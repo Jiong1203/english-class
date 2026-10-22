@@ -1,6 +1,205 @@
 {
   "entries": [
     {
+      "id": "e17a47791355",
+      "date": "20261022",
+      "front": "\"Can you give me a big-picture evaluation of the new edit mode?\"",
+      "body": "你這次用中文發問，英文可以這樣說：\n\n> \"Could you give me a high-level assessment of the new edit mode?\"\n\n- **high-level assessment**：「大方向評估」最自然的說法。「high-level」指不鑽細節、看整體。\n- 另一種說法：**\"Can you give me a big-picture evaluation of the new edit mode?\"**，「big-picture」比較口語。\n- 要再更隨意一點可以說 **\"What's your overall take on the new edit mode?\"**。「take」在這裡是「看法、觀點」的意思，同事之間很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ccaf6c768ab6",
+      "date": "20261022",
+      "front": "\"Go ahead.\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| Go ahead develop. | **Go ahead and develop it.** / **Go ahead with the development.** |\n\n說明：\n- **go ahead** 後面如果要接動詞，必須加 **and**（go ahead **and** do something），或直接用 **go ahead with + 名詞**。~~Go ahead develop~~ 少了 and，文法不完整。\n- 更簡潔的說法是 **\"Go ahead.\"** 或 **\"Please proceed.\"**。從上下文就知道是要繼續開發，不用再補動詞。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "c0e19053b067",
+      "date": "20261022",
+      "front": "\"the part in the red box\"",
+      "body": "你這次寫的是「紅框處改成「0元」好了」，對應的自然英文說法：\n\n> \"Let's change the part in the red box to '0元'.\"\n\n- **\"the part in the red box\"**：對應「紅框處」。指著截圖溝通時很常用，也可以說 *the highlighted area*。\n- 句尾的「好了」帶有「就這樣決定吧」的語氣，英文用 *Let's …* 就能表達。想更隨興可以說 *\"Just make it '0元'.\"*\n- 如果寫給英文使用者看，金額通常寫成 *NT$0* 或 *Free*；*0元* 是中文介面的寫法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b79de08c7d73",
+      "date": "20261022",
+      "front": "\"Feel free to commit in stages as you go.\"",
+      "body": "你這次用中文，以下是兩句的自然英文說法：\n\n> - **\"Feel free to commit in stages as you go.\"**\n> - **\"For E5, our org structure looks like this: E50 usually has one fixed director plus staff in various roles, such as managers, administrators, and senior engineers. E51, E52, and E53 each usually have one manager, zero to N project managers, and several engineers.\"**\n\n細節說明：\n- 「分階段 commit 沒關係」用 **\"Feel free to...\"** 最自然，表示「儘管去做、不用顧慮」。**as you go**（邊做邊……）很適合用在「開發過程中」的語境。\n- 「搭配」不要直譯成 ~~match with~~，這裡的意思是「加上、還有」，用 **plus**、**along with** 或 **together with** 就好。\n- 「職位不一」可以說 **in various roles** 或 **with different job titles**。\n- 「專業工程師」如果是公司的正式職稱，可以說 **professional engineer** 或 **senior engineer**；不過在台灣的英文語境裡，**professional engineer** 有時會被理解成「持有執照的技師」，用的時候要留意。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b6a51adba3dc",
+      "date": "20261022",
+      "front": "本輪沒有新的英文句子。補充一句回報結果時好用的說法：",
+      "body": "本輪沒有新的英文句子。補充一句回報結果時好用的說法：\n\n> **All three servers are updated, and the new tutorial is available in the manual.**\n\n說明：**available in + 位置** 用來說明「可以在哪裡找到」，比 *put in the manual* 更像正式的公告用語，很適合拿來通知使用者。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a4d0fd642c7a",
+      "date": "20261022",
+      "front": "\"Is it actually unnecessary?\"",
+      "body": "你這次用中文發問，對應的自然英文說法：\n\n> \"Is the 'My upcoming activities' item in the 團團 menu actually unnecessary?\"\n\n更口語、更像產品討論的說法：\n\n> \"Do we really need 'My upcoming activities' in the menu?\"\n\n- **\"Is it actually unnecessary?\"**：「其實不太需要」裡的「其實」對應 *actually*，語氣是「我懷疑它沒用，想確認」。\n- **\"Do we really need…?\"**：英文的產品／設計討論很常用這個問法，帶有「傾向拿掉」的暗示，比 *unnecessary* 更自然。\n- 相關詞彙：**redundant**（多餘、功能重複），例如 *\"It's redundant with the owner console.\"*",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "a3005eca27de",
+      "date": "20261022",
+      "front": "\"Sounds good\"",
+      "body": "你這次寫的是「可以，非常好!」，對應的自然英文說法：\n\n> \"Sounds good — that's great!\"\n\n- **\"Sounds good\"**：同意對方提案時最常用的說法，比 *OK* 更有溫度，同事之間討論設計時非常自然。\n- 想表達更強烈的肯定，可以說 *\"Love it!\"* 或 *\"Perfect, let's go with that.\"*。*go with* 是「就採用這個方案」的意思。\n- 小提醒：英文的驚嘆號 `!` 前面不加空格，中文全形 `！` 也是一樣，你這句的半形 `!` 用法沒問題。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a2c8975a59d6",
+      "date": "20261022",
+      "front": "\"The dev server got killed because the machine ran out of memory.\"",
+      "body": "這則是系統通知，不是你寫的，所以這次沒有可以修正的句子。補一個跟這次狀況有關的說法：\n\n> **\"The dev server got killed because the machine ran out of memory.\"**\n\n- **get killed** 在程式領域是「程序被強制結束」的意思，很常用，例如 \"The process got killed by the OS.\"\n- **run out of memory**（記憶體用完）是固定說法，也常縮寫成 **OOM**（Out Of Memory）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8744da9535e7",
+      "date": "20261022",
+      "front": "\"Sorry to jump in, but...\"",
+      "body": "| 你的原句 | 更自然的說法 |\n|---|---|\n| 先插話一下 | **Quick interruption —** / **Sorry to jump in —** |\n| 系統管理員可不可以不選組別，或者有個特殊組別之類的? | **Can the system admin skip choosing a group, or have some kind of special group?** |\n| 密碼是否可以最少 4 碼或 6 碼? | **Could the minimum password length be 4 or 6 characters?** |\n\n細節說明：\n- 「插話」用 **jump in** 最口語自然，例如 \"Sorry to jump in, but...\"。也可以說 **Quick question before you continue**。\n- 「不選」用 **skip choosing** 比 ~~not choose~~ 更自然，skip 帶有「略過這個步驟」的意思。\n- 「之類的」可以用 **some kind of** 或句尾加 **or something like that**。\n- 「4 碼」講密碼時要說 **4 characters**，不要說 ~~4 codes~~；如果全是數字，也可以說 **4 digits**。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "86162d352c0a",
+      "date": "20261022",
+      "front": "\"PostgreSQL works. Many of our company's projects already use it.\"",
+      "body": "你這次用中文，以下是三點的自然英文說法：\n\n> 1. **\"OK.\"**\n> 2. **\"PostgreSQL works. Many of our company's projects already use it.\"**\n> 3. **\"Besides the director and admins, managers and project managers should also be able to do this.\"**\n\n細節說明：\n- 「可用 PostgreSQL」用 **\"PostgreSQL works.\"** 最簡潔自然，意思是「這個可以、沒問題」。不要說 ~~PostgreSQL can be used~~，被動語態在這裡太生硬。\n- 「除了……之外，……也可以」用 **Besides ..., ... also ...** 或 **In addition to ...**。注意 **besides**（除了……之外還有）和 **except**（除了……以外都不）意思相反，這裡要用 besides。\n- 「經理、專案經理級別」的「級別」可以不翻，直接說 **managers and project managers** 就很清楚；如果想強調層級，可以說 **manager-level and PM-level staff**。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "84880ddfebc0",
+      "date": "20261022",
+      "front": "\"staging\"",
+      "body": "你這次用中文說明流程，對應的自然英文說法：\n\n> \"Deploy to staging first; I'll decide whether to merge into dev after verifying it. That's our normal flow: after development, deploy to staging, verify, merge into dev, and then release to production — unless the staging environment is retired in the future.\"\n\n- **\"staging\"**：英文的「測試機」，業界最常用的稱呼。也可以說 *test environment*，但 *staging* 特指上正式機前的最後一站。\n- **\"release to production\"**：「上正式機」的標準說法，口語也常說 *ship to prod* 或 *push to prod*。\n- **\"unless … is retired\"**：「除非……停用」。*retire* 用在系統或環境時是「淘汰、停用」的意思，比 *stop using* 更道地。\n- **\"That's our normal flow\"**：對應「基本上順序正常都是這樣的」，用來說明團隊慣例，簡短又清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8417644b1c0f",
+      "date": "20261022",
+      "front": "\"Sure, let's remove it.\"",
+      "body": "你這次用中文發問，對應的自然英文說法：\n\n> \"Sure, let's remove it. And what about 'Manage groups / admins' — can we drop that too, or would you recommend keeping it?\"\n\n- **\"Sure, let's remove it.\"**：對應「好啊拿掉好了」。*let's* 帶有「我們就這麼做吧」的拍板語氣，比 *please remove it* 更像一起討論後做決定。\n- **\"What about…?\"**：中文的「還有……的部分」接一個新話題時，英文常用 *What about X?* 帶出來，簡短又自然。\n- **\"drop\"**：口語的「拿掉、不要了」，在產品討論中很常見，例如 *drop a feature*。\n- **\"or would you recommend keeping it?\"**：*recommend* 後面接 V-ing（*recommend keeping*），不是 *recommend to keep*，這是常見錯誤。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5a2f3930303f",
+      "date": "20261022",
+      "front": "你的句子「好就這麼做!」，自然的英文說法：",
+      "body": "你的句子「好就這麼做!」，自然的英文說法：\n\n> **Sounds good — let's do it!**\n\n說明：\n- **Sounds good** 表示同意對方的提議，是很常用的口語回應。\n- **let's do it** 比 *do it like this* 自然，有「就這樣進行吧」的意味。\n- 想強調「照你剛說的做」，也可以說 **Go ahead as planned.**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4d0df01eb773",
+      "date": "20261022",
+      "front": "「連上 VPN 了」的自然英文說法：",
+      "body": "「連上 VPN 了」的自然英文說法：\n\n> **I'm connected to the VPN now.**\n\n說明：也可以說 **I'm on the VPN now.**，更口語。句尾加上 **now** 表示「現在已經好了」，可以隱含「可以繼續了」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4b2fd8e3956d",
+      "date": "20261022",
+      "front": "\"Manual testing went fine!\"",
+      "body": "> 點測沒問題唷 → \"Manual testing went fine!\" 或更口語的 \"Everything checked out!\"\n\n- **check out**（片語動詞）：在這裡是「驗證後確認沒問題」的意思，例如 \"The numbers check out.\"（數字核對無誤）。\n- 「點測」可以說 **manual testing**（手動測試）或 **smoke test**（冒煙測試）。後者指只確認主要功能沒壞的快速測試，工程師之間很常用。\n- 句尾的「唷」帶有輕鬆、友善的語氣，英文可以用驚嘆號，或加上 \"all good\" 來表達，例如 \"All good on my end!\"（我這邊都沒問題！）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4a5ff2fd442c",
+      "date": "20261022",
+      "front": "\"I don't have … access\"",
+      "body": "你這次用中文提問，對應的自然英文說法：\n\n> \"Option A sounds better, but I don't have GKE access — not to the helm values or the Secrets. Is there another way to control it? Or could we just add a toggle in the developer console?\"\n\n> \"The landing page copy works for me.\"\n\n- **\"I don't have … access\"**：對應「我沒有……權限」，是 IT 和雲端環境最常見的說法，例如 *I don't have admin access*。\n- **\"toggle\"**：對應「開關」，在 UI 和設定的語境裡最常用。*feature flag* 則是工程上的正式名稱。\n- **\"could we just …?\"**：對應「是不是乾脆……」。*just* 帶出「乾脆、簡單一點」的語氣。\n- **\"works for me\"**：對應「可以」，表示同意又很口語，比 *OK* 更有「我覺得沒問題」的感覺。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "423cc8cffa32",
+      "date": "20261022",
+      "front": "\"grow our user base\"",
+      "body": "你這次用中文描述需求，對應的自然英文說法：\n\n> \"We urgently need to grow our user base, so I'd like to adjust the landing page first. It currently shows a limited-time price of NT$99, but we haven't integrated a payment gateway yet, so users can't actually pay. Users also have no way to get a trial coupon on their own. So for now, let's change the landing page to 'free for a limited time' and pause or skip the subscription check — whichever you think works best.\"\n\n- **\"grow our user base\"**：對應「收集用戶」。比 *collect users* 自然得多，是新創和產品團隊的標準說法。\n- **\"integrate a payment gateway\"**：對應「串接金流」。*payment gateway* 是金流服務的正式名稱。\n- **\"free for a limited time\"**：對應「限時免費」。行銷文案也常寫成 *Limited-time free access*。\n- **\"whichever you think works best\"**：對應「看你評估怎麼做比較好」，把決定權交給對方，語氣很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3fb9439f43f8",
+      "date": "20261022",
+      "front": "\"LGTM\"",
+      "body": "你這次寫的是「approved」，用在核准計畫的情境完全正確。這是 code review 和流程審核常用的正式說法，簡潔明確，很好。\n\n其他常見的核准說法：\n- *\"LGTM\"*（Looks Good To Me）：工程師在 review 時最常用的縮寫。\n- *\"Go ahead.\"* / *\"Ship it!\"*：比較口語，*Ship it!* 帶有「可以上線了」的輕鬆語氣。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "3f7fedead1ae",
+      "date": "20261022",
+      "front": "\"\n\n- **have nothing to do with / shouldn't have anything to do with**：「跟……毫無瓜葛」的道地說法，比 \"",
+      "body": "你這次用中文，對應的自然英文：\n\n> \"The new edit mode shouldn't have anything to do with SpreadJS anymore. Formulas should work just like Excel's. Formualizer only has 156 stars, which feels a bit risky — I'd lean toward a more stable option.\"\n\n- **have nothing to do with / shouldn't have anything to do with**：「跟……毫無瓜葛」的道地說法，比 \"no relationship with\" 自然得多。\n- **lean toward**：「傾向於」，語氣比 prefer 委婉，表示還保留討論空間，很適合在技術選型時用。\n- **feels a bit risky**：用 feels 帶出主觀判斷，聽起來比直接說 \"is risky\" 柔和。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1640e6abcff6",
+      "date": "20261022",
+      "front": "\"treat this as the starting point\"",
+      "body": "你這次寫的是「未來可能針對開發者後台的部分也還會有更多新的管理功能要擴充，所以這次就當作是一個開頭。」對應的自然英文說法：\n\n> \"We'll probably add more admin features to the developer console later, so let's treat this as the starting point.\"\n\n- **\"treat this as the starting point\"**：對應「當作是一個開頭」。*treat A as B* 是「把 A 當作 B」，很常用。\n- 更有工程味的說法是 *\"Let's lay the groundwork for that.\"*，意思是「先把地基打好」。\n- **\"add more … later\"**：對應「未來還會擴充」。用 *later* 或 *down the road* 都很口語，比 *in the future* 輕鬆自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "064d74b999a5",
+      "date": "20261022",
+      "front": "\"Go with formulajs plus a custom layer. The whole point is to get rid of paid licenses, so open source is fine, and so is building our own.\"",
+      "body": "你這次用中文，對應的自然英文：\n\n> \"Go with formulajs plus a custom layer. The whole point is to get rid of paid licenses, so open source is fine, and so is building our own.\"\n> \"Of course!\"\n\n- **The whole point is to...**：「重點就是要……」，用來強調根本目的，非常口語自然。\n- **get rid of**：「擺脫、去掉」，比 remove 更口語，常用於不想要的東西（例如付費授權）。\n- **so is building our own**：用 \"so is + 名詞\" 表示「……也一樣可以」，是避免重複說 \"is fine\" 的道地句型。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0557ea027255",
+      "date": "20261022",
+      "front": "\"Let's scope the formula requirements before we commit to an engine.\"",
+      "body": "這則是系統自動通知，你沒有新的英文輸入。這裡補一句上一題的延伸用法給你參考：\n\n> \"Let's scope the formula requirements before we commit to an engine.\"\n\n- **scope (v.)**：「界定範圍」，例如 scope the requirements 就是把需求範圍框出來。\n- **commit to**：「承諾採用、投入」某個方案，表示一旦決定就不輕易回頭。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ff338f93631c",
       "date": "20261021",
       "front": "\"I'd actually prefer B.\"",
