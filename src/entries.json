@@ -1,6 +1,42 @@
 {
   "entries": [
     {
+      "id": "af39138c476d",
+      "date": "20261025",
+      "front": "\"Please adjust this — we don't need to enter item names anymore, and we don't need to keep item records going forward. Just the price and quantity.\"",
+      "body": "你這次是用中文下指令，自然的英文說法：\n\n> **\"Please adjust this — we don't need to enter item names anymore, and we don't need to keep item records going forward. Just the price and quantity.\"**\n>\n> 補充說明：**\"We only need to record it as something like an 80-dollar bento, a 65-dollar bento, and so on.\"**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 往後 | **going forward** | 比 *in the future* 更常用在工作情境，意思是「從現在開始」 |\n| 品項紀錄 | **item records** | 也可以說 *item history* |\n| 類似像… | **something like…** | 「類似像」在中文常疊用，英文只要 *like* 或 *something like* 就好，不要說 *similar like*（這是常見錯誤） |\n| 80 元便當 | **an 80-dollar bento** | 數字加單位當形容詞時要用連字號，而且單位用單數：*80-dollar*，不是 *80-dollars* |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8da83c19d1cb",
+      "date": "20261025",
+      "front": "\"Please start the project for me.\"",
+      "body": "你這次用中文說「幫我啟動專案」，自然的英文說法：\n\n> **\"Please start the project for me.\"**\n> 或更口語、更像工程師的說法：**\"Can you spin up the dev server?\"**\n\n| 說法 | 語感 |\n|---|---|\n| start the project | 通用、清楚，誰都聽得懂 |\n| **spin up** the dev server | 工程師常用的口語，「把服務叫起來」的感覺，也常用在 container、VM 上 |\n| run the app locally | 強調是在「本機」跑，不是部署到線上 |\n\n小提醒：中文「啟動專案」實際上是指「啟動開發伺服器」。英文直接講 **dev server** 會比 *project* 精確，對方就知道你要的是 `npm run dev`，不是 build 或 deploy。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6b34a0330fc7",
+      "date": "20261025",
+      "front": "\"Help me fill in my work log for the past few days.\"",
+      "body": "你這次用中文：「幫我捕前幾天的工作日誌」。小提醒：「捕」應該是「補」（補寫）。\n\n自然的英文說法：\n- **\"Help me fill in my work log for the past few days.\"**\n- **\"Please backfill my work log for the last few days.\"**\n\n用法說明：\n- **fill in**：把空白或缺漏的地方補上，日常最常用。\n- **backfill**：工程師常用的說法，指「回頭補齊之前漏掉的資料」，跟這次的情況很貼切。\n- **the past few days／the last few days** 都是「前幾天」，兩個意思一樣，可以互換。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "52340665b5fb",
+      "date": "20261025",
+      "front": "\"So the current design basically hides the 'item' on screen and lets the price automatically take its place. Is that a fair way to put it?\"",
+      "body": "你這次用中文發問，自然的英文說法：\n\n> **\"So the current design basically hides the 'item' on screen and lets the price automatically take its place. Is that a fair way to put it?\"**\n\n| 說法 | 說明 |\n|---|---|\n| **take its place** | 「取代」的口語說法，比 *replace* 更自然流暢 |\n| **Is that a fair way to put it?** | 「我這樣說正確嗎？」的道地講法，語氣比 *Is that correct?* 委婉，適合跟同事確認自己理解得對不對 |\n| **basically** | 對應中文的「大概就是」，表示「概括來說」 |\n\n另一個也很常用的確認句型：**\"Am I understanding this correctly?\"**（我理解得對嗎？）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "442b48c318e7",
       "date": "20261023",
       "front": "\"Just keep going.\"",
