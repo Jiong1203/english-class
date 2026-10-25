@@ -1,10 +1,91 @@
 {
   "entries": [
     {
+      "id": "ad869c4bea2c",
+      "date": "20261026",
+      "front": "\"approved\"",
+      "body": "你這次只回了 **\"approved\"**，用法完全正確 👍 這是審核流程裡簡潔又正式的回覆方式，同事之間常用。\n\n想換個說法的話：\n- **\"Looks good, go ahead.\"**：比較口語、親切，同事之間很常用。\n- **\"Approved — please proceed.\"**：更正式，適合書面或要留紀錄的場合。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "a5b82fab7fe5",
+      "date": "20261026",
+      "front": "\"Please ship the frontend as prod-v0.3.19.\"",
+      "body": "「幫我發佈前端 prod-v0.3.19」自然的英文是：\n\n> **\"Please ship the frontend as prod-v0.3.19.\"** 或 **\"Can you release prod-v0.3.19 for the frontend?\"**\n\n- **ship ... as v0.3.19** 用 **as** 指出「以這個版本號發佈」，簡潔又道地。\n- 「前端」直接說 **the frontend** 就好。如果要強調是那個 repo，可以說 **the frontend repo**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6c20a831ea87",
+      "date": "20261026",
+      "front": "\"approved\"",
+      "body": "你這次回覆 **\"approved\"**，用法正確 👍 跟上次一樣簡潔明確。\n\n想換個說法的話：\n- **\"Approved, go for it.\"**：口語又有點幹勁，表示放手讓對方去做。\n- **\"Sounds good — let's do option A.\"**：同時表達同意並指定選項，在有多個方案時特別清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6692a28ef153",
+      "date": "20261026",
+      "front": "\"Verified on dev — please release prod-v0.3.41.\"",
+      "body": "你這句「dev 驗證沒問題，幫我發佈 prod-v0.3.41」，自然的英文是：\n\n> **\"Verified on dev — please release prod-v0.3.41.\"** 或 **\"Dev looks good. Go ahead and ship prod-v0.3.41.\"**\n\n- **Verified on dev** 用過去分詞開頭，簡潔地交代「已驗證」，很適合放在工作訊息開頭。\n- **Dev looks good.** 是口語常用的放行說法，後面接 **Go ahead and ...** 表示「就照計畫做吧」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5777f0c36ba5",
+      "date": "20261026",
+      "front": "\"Could we also add a page to our admin console that shows the traffic analytics?\"",
+      "body": "「我們的開發者後台可不可以也新建一畫面顯示追蹤流量的成果？」自然的英文是：\n\n> **\"Could we also add a page to our admin console that shows the traffic analytics?\"**\n\n- 「開發者後台」常說 **admin console**、**admin dashboard** 或 **back office**。\n- 「新建一畫面」用 **add a page** 就很自然。*create a new screen* 偏 App 用語，網頁一般說 *page*。\n- 「追蹤流量的成果」不用直譯成 *results of tracking traffic*，說 **traffic analytics** 或 **traffic stats** 更道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3624599533d3",
+      "date": "20261026",
+      "front": "你說「幫我開 MR 到 dev」，自然的英文是：",
+      "body": "你說「幫我開 MR 到 dev」，自然的英文是：\n\n> **\"Please open an MR to dev.\"** 或 **\"Can you open a merge request against dev?\"**\n\n- **open an MR** 是慣用動詞搭配，*create an MR* 也可以。\n- 目標分支常用 **against**（open an MR *against* dev），也可以用 **to** 或 **into**。*against* 是 Git 圈特有的說法，意思是「以 dev 為合併目標」，不是「反對」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0c059d1dc486",
+      "date": "20261026",
+      "front": "\"Please release the API to production.\"",
+      "body": "「幫我發佈 api 正式版」自然的英文是：\n\n> **\"Please release the API to production.\"** 或 **\"Can you cut a prod release for the API?\"**\n\n- **API** 一般全大寫。\n- **cut a release** 是工程圈常用說法，指「切出一個發佈版本／分支」。\n- 這次先上 dev 驗證，英文可以說 **\"Let's soak it on dev first.\"**。**soak** 是「先放在環境裡跑一陣子觀察有沒有問題」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "084267d74de5",
+      "date": "20261026",
+      "front": "\"Please open two MRs against dev.\"",
+      "body": "「幫我開兩個 MR 到 dev」自然的英文是：\n\n> **\"Please open two MRs against dev.\"** 或 **\"Can you open MRs for both repos into dev?\"**\n\n- 縮寫的複數直接加小寫 **s**：**MRs**、**PRs**，不需要加撇號（*MR's* 是常見錯誤）。\n- **for both repos** 把「兩個」具體說成「兩個 repo 各一個」，意思更清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fc8e6b1e12e2",
       "date": "20261025",
       "front": "\"Is there a way to…?\"",
       "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"Is there a way to handle the existing unnamed groups?\"\n\n- **\"Is there a way to…?\"**：「有辦法…嗎？」最自然的對應，比 \"Can we…?\" 多一點「探詢可能性」的語氣。\n- **\"existing\"**：「已經存在的」，放在名詞前面當形容詞，在工程情境很常用，例如 *existing data*、*existing users*。\n- 另一種說法：\"What can we do about the groups that are already unnamed?\"（*what can we do about…*＝針對…能怎麼辦）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d4037116f635",
+      "date": "20261025",
+      "front": "\"Same goes for the frontend, please.\"",
+      "body": "你的句子：「前端也請做相同的事」\n\n自然的英文：\n> \"Please do the same for the frontend.\"\n\n- **do the same for…**：最簡潔自然的講法，介系詞用 **for**（不是 \"to\"），表示「對某個對象做一樣的事」。\n- 其他說法：*\"Same goes for the frontend, please.\"* 或 *\"Can you repeat that for the frontend?\"*",
       "tags": [
         "note"
       ]
@@ -16,6 +97,24 @@
       "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"Okay, let's go with that. Deploy it to the test environment when it's done.\"\n\n- **\"let's go with that\"**：「那就照這樣做」，表示接受對方提出的方案，非常口語自然。\n- **\"when it's done\"**：「做完（之後）」，也可以說 *once it's finished*。用 *once* 會更強調「一完成就馬上」。\n- 另一種更簡潔的說法：\"Sounds good — ship it to staging once it's ready.\"（*ship it*＝送出去、上線，工程師常用的口語）",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "d164b087c0b2",
+      "date": "20261025",
+      "front": "\"Could you look into the error on `dev-test-v0.3.61` in GitLab?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"Can you help me figure out why `dev-test-v0.3.61` is failing in GitLab?\"\n\n- **figure out why…**：比 \"check why\" 更口語，帶有「查出原因」的意思。\n- **is failing**：描述 CI job 時，英文工程師習慣說 \"the pipeline is failing\" 或 \"the job failed\"，比較少說 \"runs out an error\"（這是直翻「跑出錯誤」，不自然）。\n- 另一種說法：*\"Could you look into the error on `dev-test-v0.3.61` in GitLab?\"*，其中 **look into** 是「調查、研究一下」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b68410824820",
+      "date": "20261025",
+      "front": "\"補齊未命名群組\"",
+      "body": "你的句子：「如果是針對社群的話，現在是在甚麼時候會強制讓 OWNER 執行重新命名？然後開發者後台中的\"補齊未命名群組\"針對社群有甚麼影響嗎？」\n\n自然的英文：\n> \"For communities, when are owners currently forced to rename them? And does the 'backfill unnamed groups' tool in the developer console affect communities at all?\"\n\n- **For communities, …**：對應「如果是針對社群的話」。英文直接把主題放句首就好，不用說 \"If it is about communities\"。\n- **be forced to**：對應「強制讓…執行」，用被動式比 \"force the owner to execute renaming\" 自然很多。\n- **affect … at all**：句尾的 **at all** 加強「到底有沒有影響」的語氣，問「是否有任何影響」時很常用。\n- 小提醒：中文的「甚麼」一般寫作「什麼」。兩種寫法都有人用，不過教育部標準字是「什麼」。",
+      "tags": [
+        "grammar"
       ]
     },
     {
@@ -109,6 +208,15 @@
       ]
     },
     {
+      "id": "5e02d7f1e73f",
+      "date": "20261025",
+      "front": "\"Please make sure all the latest work is merged into dev, then deploy it to production.\"",
+      "body": "你的句子：「幫我確認有把最新進度 merge 到 dev 然後部署到正式機」\n\n自然的英文：\n> \"Please make sure all the latest work is merged into dev, then deploy it to production.\"\n\n- **make sure**：對應「確認」，帶有「確保做到」的意思，比 \"check\" 更符合這裡的語意。\n- **the latest work / the latest changes**：對應「最新進度」。\"latest progress\" 是直翻，工程師之間比較少這樣講。\n- **production / prod**：「正式機」的標準說法；「測試機」通常說 **staging** 或 **dev environment**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "52340665b5fb",
       "date": "20261025",
       "front": "\"So the current design basically hides the 'item' on screen and lets the price automatically take its place. Is that a fair way to put it?\"",
@@ -151,6 +259,15 @@
       "body": "你這次用中文回報問題，自然的英文說法：\n\n> **\"The order entry screen isn't working — I'm getting this error:\"**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 無法操作 | **isn't working / is unresponsive** | *unresponsive* 特別指「點了沒反應」，回報 UI 問題很精準 |\n| 有 error | **I'm getting this error** | 回報錯誤最常用的句型，現在進行式表示「一直出現」 |\n| 輸入訂單的畫面 | **the order entry screen** | *entry* 指「資料輸入」，*data entry* 也是常見說法 |\n\n小提醒：回報 bug 時，英文習慣用 **\"Steps to reproduce\"**（重現步驟）列出你做了什麼，對方會更快找到問題。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "1e5d67ae6f56",
+      "date": "20261025",
+      "front": "\"Can we fix it on our end?\"",
+      "body": "你的句子：「我沒有 helm-repo 的權限，請再想辦法在這邊處理」\n\n自然的英文：\n> \"I don't have access to helm-repo. Can you find another way to handle it from this side?\"\n\n- **have access to**：說「有權限」最自然的講法。也可以說 \"I don't have permissions on helm-repo\"，比較偏技術用語。\n- **find another way**：對應「再想辦法」，比 \"think a method\" 自然很多。\n- **from this side / on our end**：對應「在這邊」。*\"Can we fix it on our end?\"* 是工程師很常用的說法。",
+      "tags": [
+        "note"
       ]
     },
     {
