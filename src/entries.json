@@ -1,6 +1,33 @@
 {
   "entries": [
     {
+      "id": "e33fdd7b19be",
+      "date": "20261026",
+      "front": "你寫的是：「Go」",
+      "body": "你寫的是：「Go」\n\n很簡潔，在對話中完全自然。也可以換成這些說法：\n- **\"Go for it.\"**：鼓勵對方放手去做，語氣比較熱情。\n- **\"Go ahead.\"**：最中性的授權說法，上一輪學過。\n- **\"Ship it.\"**：工程師常用的口語，意思是「直接發佈吧」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d7e64e21a57f",
+      "date": "20261026",
+      "front": "\"I got an email from LINE today. Could you explain what it means?\"",
+      "body": "這次你用中文寫：「今天收到 LINE 寄的信，請你說明一下：」\n\n自然的英文說法：\n> \"I got an email from LINE today. Could you explain what it means?\"\n\n- 「收到信」口語用 **got an email**，比 **received an email** 輕鬆。received 比較正式，常見於書信，例如 \"We have received your application.\"\n- 「說明一下」如果直譯成 \"explain it a little\"，英文聽起來會很怪。英文習慣說 **explain what it means** 或 **walk me through it**（一步一步帶我看懂）。\n- 想問「這跟我有關嗎？」可以加一句：\"Does this affect our project?\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cb3ae77e9bc8",
+      "date": "20261026",
+      "front": "你寫的是：「上正式機」",
+      "body": "你寫的是：「上正式機」\n\n自然的英文說法：\n> \"Deploy to production.\" / \"Push it to prod.\"\n\n- 「正式機」英文說 **production**，工程師口語常簡稱 **prod**。\n- 「上」就是 **deploy**（部署）或 **ship**（發佈）。\n- 也很常聽到 **\"Let's go live.\"**，意思是「正式上線」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ad869c4bea2c",
       "date": "20261026",
       "front": "\"approved\"",
@@ -19,10 +46,28 @@
       ]
     },
     {
+      "id": "8c250ee94a48",
+      "date": "20261026",
+      "front": "\"I think A is the better option.\"",
+      "body": "「感覺 A 比較好」自然的英文是：\n\n> **\"I think A is the better option.\"** 或 **\"A feels like the better fit.\"**\n\n- 「感覺」用 **I think** 或 **feels like** 都很自然。不要直譯成 *I feel A is better*，文法沒錯，但聽起來比較像在講情緒。\n- 兩個選項比較時用 **the better option**（比較級加 *the*），三個以上才用 *the best*。\n- **better fit** 強調「比較適合我們的情況」，表達選擇時很實用。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
       "id": "6c20a831ea87",
       "date": "20261026",
       "front": "\"approved\"",
       "body": "你這次回覆 **\"approved\"**，用法正確 👍 跟上次一樣簡潔明確。\n\n想換個說法的話：\n- **\"Approved, go for it.\"**：口語又有點幹勁，表示放手讓對方去做。\n- **\"Sounds good — let's do option A.\"**：同時表達同意並指定選項，在有多個方案時特別清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "68cfeade5baf",
+      "date": "20261026",
+      "front": "\"Got it, that's all I needed to know. Now please list the steps to get and set up GA_CREDENTIALS_JSON. Again, I'll be asking a teammate to handle it.\"",
+      "body": "你這段話自然的英文是：\n\n> **\"Got it, that's all I needed to know. Now please list the steps to get and set up GA_CREDENTIALS_JSON. Again, I'll be asking a teammate to handle it.\"**\n\n- 「理解可以了我就知道了」意思是「知道可行就夠了」，可以說 **\"Good to know it's possible — that's all I needed.\"**，表達「先不用做」又不失禮貌。\n- 「一樣是要請夥伴處理的」用 **Again, ...** 開頭，帶出「跟上次一樣」的意思。**handle it** 是「處理」最口語的說法。",
       "tags": [
         "note"
       ]
@@ -37,6 +82,33 @@
       ]
     },
     {
+      "id": "63845322a284",
+      "date": "20261026",
+      "front": "\"OK, go ahead.\"",
+      "body": "「好 go」是中英夾雜的口語回覆，在台灣職場很常見，意思也很清楚。\n\n全英文的自然說法：\n- **\"OK, go ahead.\"**：最常用。\n- **\"Sounds good, ship it.\"**：工程團隊常用，意思是「沒問題，發吧」。\n- **\"Green light.\"**：「放行」，簡潔有力。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5d58ae6c43e6",
+      "date": "20261026",
+      "front": "你寫的是：「你直接幫我升級好了」",
+      "body": "你寫的是：「你直接幫我升級好了」\n\n自然的英文說法：\n> \"Just go ahead and upgrade it for me.\"\n\n- **Go ahead and...** 的意思是「你就直接去做吧」，很適合拿來授權別人動手，口氣隨和。\n- 句首加 **Just** 帶出「不用再問我了」的感覺，對應中文的「直接」。\n- 另一種說法：\"Go ahead with the upgrade.\" 用名詞 the upgrade 收尾，更簡潔。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5a74d46aa87e",
+      "date": "20261026",
+      "front": "\"Please list the full setup steps for GA_CREDENTIALS_JSON.\"",
+      "body": "「GA_CREDENTIALS_JSON 整套的設定步驟列出來給我」自然的英文是：\n\n> **\"Please list the full setup steps for GA_CREDENTIALS_JSON.\"** 或 **\"Can you walk me through the whole setup for GA_CREDENTIALS_JSON?\"**\n\n- 「整套的」用 **full** 或 **whole** 就好，例如 *the full setup steps*、*the whole setup*，不用直譯成 *the entire set of*。\n- **walk me through** 是很實用的片語，意思是「一步一步帶我走一遍」，請別人說明操作流程時非常道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5777f0c36ba5",
       "date": "20261026",
       "front": "\"Could we also add a page to our admin console that shows the traffic analytics?\"",
@@ -46,10 +118,55 @@
       ]
     },
     {
+      "id": "46b171b7e84a",
+      "date": "20261026",
+      "front": "\"The screenshot is from prod — so do I need to add the env vars to the GKE secret?\"",
+      "body": "「截圖是 prod 環境，所以是需要加環境變數到 GKE secret 內嗎?」自然的英文是：\n\n> **\"The screenshot is from prod — so do I need to add the env vars to the GKE secret?\"**\n\n- 「截圖是 prod 環境」用 **is from prod** 表達「來自哪個環境」，比 *is prod environment* 自然。\n- **env vars** 是 *environment variables* 的常見口語縮寫。\n- 「加到 secret 內」用 **add ... to the secret** 就好，不需要說 *inside*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "36a7edd69764",
+      "date": "20261026",
+      "front": "\"approved\"",
+      "body": "你這次回 **\"approved\"**，用法正確 👍\n\n移除功能時常用的英文說法：\n- **\"Approved — go ahead and rip it out.\"**：rip out 是「整個拔掉」，口語又生動。\n- 如果要說明為什麼移除，可以說 **\"We decided to drop this feature.\"**。drop a feature 是「放棄、拿掉某個功能」的慣用說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "3624599533d3",
       "date": "20261026",
       "front": "你說「幫我開 MR 到 dev」，自然的英文是：",
       "body": "你說「幫我開 MR 到 dev」，自然的英文是：\n\n> **\"Please open an MR to dev.\"** 或 **\"Can you open a merge request against dev?\"**\n\n- **open an MR** 是慣用動詞搭配，*create an MR* 也可以。\n- 目標分支常用 **against**（open an MR *against* dev），也可以用 **to** 或 **into**。*against* 是 Git 圈特有的說法，意思是「以 dev 為合併目標」，不是「反對」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2dc10d4deb31",
+      "date": "20261026",
+      "front": "\"What metrics can we see on the traffic analytics page you added to the admin console?\"",
+      "body": "「你現在在後台加的流量分析可以讓我們看見哪些指標?」自然的英文是：\n\n> **\"What metrics can we see on the traffic analytics page you added to the admin console?\"**\n\n- 「指標」在數據分析裡用 **metrics**，例如 *page views、sessions*。用來切分數據的「維度」叫 **dimensions**，例如 *page path、source*，這組用詞在 GA 裡也是一樣的。\n- 「可以讓我們看見」不用直譯成 *let us see*，直接說 **can we see** 更自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1f95a9adceae",
+      "date": "20261026",
+      "front": "你這段話自然的英文是：",
+      "body": "你這段話自然的英文是：\n\n> **\"If I remember correctly, we've always added these in GKE. I don't have access, so I can't check right now. Could you list exactly what needs to be added this time? Then I can ask a teammate to help.\"**\n\n- 「我沒記錯的話」：**If I remember correctly**，也常縮寫成 **IIRC**，訊息裡很常見。\n- 「沒有權限」：**I don't have access**。說 *I have no permission* 文法上也通，但比較生硬。\n- 「通知夥伴協助」：**ask a teammate to help** 或 **loop in a teammate**。**loop in** 是職場常用語，意思是「把某人拉進來一起處理」。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "1397f2f88216",
+      "date": "20261026",
+      "front": "\"Please remove the traffic analytics page from the admin console. We discussed it and decided we don't need it there, so clean up everything related.\"",
+      "body": "你這段話自然的英文是：\n\n> **\"Please remove the traffic analytics page from the admin console. We discussed it and decided we don't need it there, so clean up everything related.\"**\n\n- 「討論後說不需要」用 **We discussed it and decided ...** 交代決策過程，在職場訊息裡很常見。\n- 「清理乾淨」最道地的說法是 **clean up everything related**，也可以說 **remove all traces of it**。\n- 移除功能的 commit 常用 **rip out**（整個拔掉）或 **tear down**，例如 *rip out the analytics page*，語氣比較口語。",
       "tags": [
         "note"
       ]
