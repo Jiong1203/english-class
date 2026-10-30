@@ -442,6 +442,15 @@
       ]
     },
     {
+      "id": "179a26df5ac7",
+      "date": "20261029",
+      "front": "這次沒有你的新訊息，補一句跟這個狀況有關的實用說法：",
+      "body": "這次沒有你的新訊息，補一句跟這個狀況有關的實用說法：\n\n| 情境 | 自然的英文說法 |\n|---|---|\n| 伺服器因為記憶體不足被關掉 | **The server got killed because the machine ran low on memory.** |\n\n說明：\n- **get killed** 是工程師的口語，指程式被系統強制結束，比 stopped 更貼切。\n- **run low on …** 意思是「…快用完了」，例如 **run low on disk space**（硬碟空間快不夠了）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "0e2451025f29",
       "date": "20261029",
       "front": "\"I've cleaned up...\"",
