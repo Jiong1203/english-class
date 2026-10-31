@@ -1,6 +1,89 @@
 {
   "entries": [
     {
+      "id": "de4a92226f3b",
+      "date": "20261031",
+      "front": "\"Go ahead to develop it.\"",
+      "body": "You wrote \"Go ahead to develop it.\" The meaning gets across, but the phrasing is a little off:\n\n| Your version | More natural |\n|---|---|\n| Go ahead to develop it. | **Go ahead and develop it.** |\n\n- 「go ahead」後面接動作時用 **and**，不用 **to**：*Go ahead and push it.*、*Go ahead and fix it.*\n- *go ahead to …* 通常表示「先往前移動到某地」，例如 *Go ahead to the meeting room, I'll catch up.*（你先去會議室）。\n- 如果意思是「繼續把剩下的做完」，也可以說 *Go ahead and finish the rest.* 或 *Please carry on with the development.*",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "cab609ee69c4",
+      "date": "20261031",
+      "front": "\"Please go through this file before we start.\"",
+      "body": "你的句子：*\"Please reference this file \"D:\\work\\...doc\" first.\"*\n\n| 原句 | 建議 |\n|---|---|\n| Please **reference** this file first. | Please **refer to** this file first. ／ Please **read through** this file first. |\n\n**說明：**\n- 在口語和一般書寫中，「參考某個檔案」比較常說 **refer to** 或 **take a look at**。**reference** 當動詞多半是「在文章裡引用、標註出處」（例如 *reference a paper in your report*），意思偏向引用。\n- 不過在技術圈，像是跟 AI 或工具溝通時，*reference this file* 已經很常見，大家都看得懂，不算錯。\n- 另一種說法：*\"Please go through this file before we start.\"*，「go through」帶有「從頭到尾看過一遍」的意思。\n\n整體句子結構很清楚，用 *Please ... first* 表達先後順序很自然，很好！👍",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "c5b2e851e438",
+      "date": "20261031",
+      "front": "這則沒有你寫的新英文句子，補一個和這次情境相關的實用說法：",
+      "body": "這則沒有你寫的新英文句子，補一個和這次情境相關的實用說法：\n\n- 「把背景程序停掉」可以說：*I stopped the background processes.* 或 *I shut down the dev servers.*\n- **shut down** 用在伺服器或服務的「關閉」很自然，比 *close* 更貼切。\n- 「port 被釋放了」的英文是 *The port has been released.* 或 *Port 3000 is free now.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "adb178a9fa76",
+      "date": "20261031",
+      "front": "你這次用中文下指令，下面是一個自然的英文說法：",
+      "body": "你這次用中文下指令，下面是一個自然的英文說法：\n\n> *\"Please create a new recommendation form using the same format and writing style as this file, for employee I30131 / 黃炯文, start date 112/03/20, unit/title E52 / Engineer, recommended by 林家緯. Organize it around three projects: CSAC EZoMD, CSAC M5 EZoV, and CSCM EZoV. Please dig through the following paths to find relevant achievements: ...\"*\n\n**用法說明：**\n- **「爬找」** 用 **dig through** 很傳神，表示「在一大堆資料裡翻找」。比較正式的寫法是 **go through** 或 **look through**。\n- **「依照相同格式與撰寫風格」** 可以說 **using the same format and writing style as...**。注意 *the same ... as* 是固定搭配，不要寫成 *the same ... with*。\n- **「主要依照三大項來撰寫」** 用 **organize it around three projects** 比逐字翻成 *write according to three main items* 自然很多。**organize around** 的意思是「以……為主軸來安排內容」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7a8ba74d4bce",
+      "date": "20261031",
+      "front": "\"I'm still waiting on the other two reports.\"",
+      "body": "這一輪你沒有輸入英文。順便補一個跟目前情境有關的實用說法：\n\n> *\"I'm still waiting on the other two reports.\"*\n\n**說明：** **wait on** 和 **wait for** 在這裡意思相同，都是「等待某個東西」。美式口語常用 *wait on*，帶有「這件事卡在對方那裡」的語感。不過 *wait on* 也有「服侍、招待」的意思（如 *wait on tables* = 當服務生），正式書寫時用 *wait for* 比較不會有歧義。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "54f967c5b904",
+      "date": "20261031",
+      "front": "你寫的「Can you use Chinese to tell me result?」意思能懂，但有兩個地方可以更自然：",
+      "body": "你寫的「Can you use Chinese to tell me result?」意思能懂，但有兩個地方可以更自然：\n\n| 你的寫法 | 建議寫法 |\n|---|---|\n| Can you use Chinese to tell me result? | **Can you tell me the results in Chinese?** |\n\n- **result 前面要加冠詞 the**：這裡指的是「剛剛那份特定的結果」，所以要用 *the results*。內容不只一項，用複數 *results* 更貼切。\n- **「用某種語言說」通常說 in + 語言**：*in Chinese*、*in English*。*use Chinese to tell me* 文法沒錯，但聽起來比較像直譯。\n- 其他自然說法：*Could you explain the results in Chinese?*、*Can you summarize that in Chinese?*",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "36f9967ede57",
+      "date": "20261031",
+      "front": "\"He led the on-site training and knowledge transfer for an overseas client.\"",
+      "body": "這一輪你沒有輸入英文。補一個跟中馬段落有關的實用說法：\n\n> *\"He led the on-site training and knowledge transfer for an overseas client.\"*\n\n**說明：**\n- **knowledge transfer**（知識轉移）是專案交付的常用詞，指把系統操作和技術知識教給客戶，讓客戶能自己使用。\n- **on-site**（到場）的相反是 **remote**（遠端），描述教育訓練形式時很常見。\n- **led** 是 *lead*（主導）的過去式。推薦信很常用這個字凸顯主導角色，比 *did* 或 *joined* 更有份量。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2c95a26904f0",
+      "date": "20261031",
+      "front": "這次你用中文下指令，下面是較自然的英文說法：",
+      "body": "這次你用中文下指令，下面是較自然的英文說法：\n\n> *\"Please create a new recommendation form in the same format and writing style as this file, for I30131 / 黃炯文 (start date 112/03/20, E52 / Engineer), recommended by 林家緯.\"*\n\n**說明：** **in the same format as...** 和 **using the same format as...** 都可以。用 *in* 比較精簡，是描述文件格式時最常見的寫法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "25e26bdd4bc6",
+      "date": "20261031",
+      "front": "\"Please read _auto/prompt.md and **adhere to it strictly**. The commit data **can be found in** _auto/commits.txt.\"",
+      "body": "你的句子：「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」\n\n👍 寫得很好！用祈使句下指令，簡潔又清楚。「follow it exactly」精準表達了「完全照做」的意思。\n\n換個說法擴充字彙：\n- *\"Please read _auto/prompt.md and **adhere to it strictly**. The commit data **can be found in** _auto/commits.txt.\"*\n  - **adhere to**：「遵守」，比 follow 更正式，常用在規範、指示上。\n  - **can be found in**：「可以在…找到」，是說明檔案位置時常用的被動語態。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
       "id": "fa927feb1ade",
       "date": "20261030",
       "front": "\"Then why can the Movit site use movit-tw.pages.dev as its URL?\"",
@@ -127,6 +210,15 @@
       ]
     },
     {
+      "id": "a47a63d1de66",
+      "date": "20261030",
+      "front": "\"Let's build fund-to-fund transfers.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> **\"Let's build fund-to-fund transfers.\"** 或 **\"Add transfers between funds.\"**\n\n- **fund-to-fund**：用連字號把「A-to-B」變成形容詞，很常見，例如 *peer-to-peer*、*door-to-door*。\n- 中文「做 X」在英文裡要看情境選動詞：\n  - 功能開發用 **build**、**add** 或 **implement**。\n  - 比較口語時說 **\"Let's do transfers next.\"** 也可以。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "978a893d6838",
       "date": "20261030",
       "front": "\"Got it, but I don't have my own domain! And I don't want to use jiongwen either. If I change it, I'd rather use something like joe-space.\"",
@@ -226,6 +318,15 @@
       ]
     },
     {
+      "id": "69c5faeb952b",
+      "date": "20261030",
+      "front": "Go ahead** 這次用得一樣到位 👍 你已經很熟練這個說法了。",
+      "body": "**Go ahead** 這次用得一樣到位 👍 你已經很熟練這個說法了。\n\n補充一個工作上常見、意思相近的進階說法：\n- *Proceed.*：非常簡潔正式，常見於書面或主管下指示。\n- *Carry on.*：「繼續做下去」，適合用在對方正在進行一連串工作時，例如現在這種分階段的修復。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "60797c17bd91",
       "date": "20261030",
       "front": "\"The new URL is live, and everything checks out.\"",
@@ -250,6 +351,15 @@
       "body": "你這次用英文寫了 **\"Go ahead\"**，很道地！👍\n\n- **Go ahead** 是「請便、去做吧」，用來授權對方執行剛才提到的事，非常自然簡潔。\n- 想更明確指出要做哪件事，可以說 **\"Go ahead and deploy it.\"**\n  - **go ahead and + 動詞** 是很常見的口語句型，意思是「就直接去做某事吧」。\n  - 例如 *Go ahead and commit the changes.*（就直接把改動提交吧。）",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "5c092c0d1247",
+      "date": "20261030",
+      "front": "\"Go ahead\"",
+      "body": "你連續用 **\"Go ahead\"** 推進了好幾個步驟，用法完全正確 👍\n\n工作上完成一連串任務後，常會用這些說法收尾：\n\n- **\"That wraps it up.\"**：「這樣就告一段落了。」\n- **\"We're all caught up.\"**：「進度都跟上了。」也就是沒有積欠的待辦事項。\n- **\"What's next on the list?\"**：「清單上的下一項是什麼？」用來詢問或開啟下一個任務。",
+      "tags": [
+        "praise"
       ]
     },
     {
@@ -289,6 +399,15 @@
       ]
     },
     {
+      "id": "31c5a59cd39f",
+      "date": "20261030",
+      "front": "\"Go ahead\"",
+      "body": "又是 **\"Go ahead\"** 👍 你已經很習慣用它來授權下一步了。\n\n這次介紹一個相關的片語：**\"green light\"**（綠燈，引申為「批准、放行」）。\n\n- 當名詞用：*I got the green light to deploy.*（我拿到部署的許可了。）\n- 當動詞用：*The manager green-lit the project.*（經理批准了這個專案。）\n\n所以你剛才的「Go ahead」，其實就是在 **give me the green light**（給我開綠燈）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "1480b8cc7d5b",
       "date": "20261030",
       "front": "\"It probably failed because I ran npm run deploy from the wrong directory, right? Can you double-check?\"",
@@ -302,6 +421,15 @@
       "date": "20261030",
       "front": "你寫的是「那 monitor 可關閉嗎?」，自然的英文說法：",
       "body": "你寫的是「那 monitor 可關閉嗎?」，自然的英文說法：\n\n> \"Can you close the monitor?\"\n> \"Can we stop the monitor now?\"\n\n- 中文的「那…」在這裡是承接話題，英文通常不用翻成 *then*，直接問就好；想保留語氣可以說 *\"So, can we stop the monitor now?\"*\n- 關閉背景任務，*stop* 比 *close* 更貼切。*close* 多用在視窗或檔案。\n- 和前面一樣，中文句尾的問號建議用全形「？」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "12a137ea7a54",
+      "date": "20261030",
+      "front": "\"Go ahead\"",
+      "body": "你再次用了 **\"Go ahead\"** 👍\n\n這次換個角度：你可能會好奇我收到指令後怎麼回報。工作上回報「已完成」時，常用這些說法：\n\n- **\"Done!\"**：最簡潔。\n- **\"It's merged and pushed.\"**：「已經合併並推送了。」\n- **\"All set.\"**：「都處理好了。」語氣輕鬆，表示不用再擔心這件事。\n\n下次你也可以用 **\"All set?\"** 來問對方「都好了嗎？」",
       "tags": [
         "note"
       ]
@@ -338,6 +466,15 @@
       "date": "20261030",
       "front": "\"Go ahead\"",
       "body": "你又用了 **\"Go ahead\"**，用得很好！👍\n\n這次它是在回應我「要不要 commit」的提問，同一句話就能授權下一步，非常好用。\n\n如果想換個說法，下面幾句也很自然：\n\n- **\"Sounds good, commit it.\"**：「聽起來不錯，提交吧。」\n- **\"Yep, push it.\"**：「好，推上去吧。」**Yep** 是 *yes* 的口語說法。\n- **\"Ship it!\"**：工程師圈很流行的說法，意思是「上線 / 發布吧！」，帶點輕鬆的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "02f0afd78f99",
+      "date": "20261030",
+      "front": "\"The migration ran cleanly.\"",
+      "body": "這次你執行了指令，沒有寫句子。順便教一句跟資料庫有關的實用說法：\n\n> **\"The migration ran cleanly.\"**\n\n- **ran cleanly**：「順利執行、沒有錯誤」。**cleanly** 強調過程乾淨、沒有警告或副作用。\n- 相反的說法是 **\"The migration failed halfway.\"**（migration 執行到一半失敗了）。\n- 相關單字：**roll back**（回復），例如 *We can roll back the migration if needed.*（必要時可以回復這次 migration。）",
       "tags": [
         "note"
       ]
