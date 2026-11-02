@@ -1,6 +1,15 @@
 {
   "entries": [
     {
+      "id": "fa3bd0145e04",
+      "date": "20261102",
+      "front": "\"But I'm only a Developer, though.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"But I'm only a Developer, though.\"\n\n- 語尾的「欸」帶有「提醒對方、有點無奈」的語氣，英文常用句尾的 **though** 或句首的 **But** 表達。兩個都用也很口語，例如 \"But I'm just a Developer, though.\"\n- **only** 和 **just** 都可以用，just 更口語。\n- GitLab 的角色名稱是 **Developer**，不是 Develop。Develop 是動詞，角色名稱要用名詞。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f6331c51d91d",
       "date": "20261102",
       "front": "\"Quick question: when an unknown user's paste triggers user registration, what gets stored as their display_name? Say C's LINE name is '周星馳_tw'.\"",
@@ -19,6 +28,24 @@
       ]
     },
     {
+      "id": "ef7c311e0ef1",
+      "date": "20261102",
+      "front": "\"I forgot to tell you to use English — is it too late to change it?\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"I forgot to tell you to use English — is it too late to change it?\"\n\n- **Is it too late to...?** 是問「還來得及…嗎」最自然的說法，比直譯的 \"Can it still be changed?\" 道地。\n- **forgot to tell you to...** 用了兩個 to：forget to do（忘了做某事）加上 tell someone to do（叫某人做某事），結構很常見。\n- 如果是忘了已經做過的事，要用 **forget doing**，例如 \"I forgot telling you\"（我忘了我跟你說過）。意思不一樣，要注意。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e802d31d9c99",
+      "date": "20261102",
+      "front": "\"Is this what you meant?\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"Is this the one?\"\n\n- **Is this the one?** 是確認「是不是這個」最常用的說法，很簡短，適合搭配截圖。\n- 也可以說 **\"Is this what you meant?\"**（你指的是這個嗎？），語氣比較像在確認對方的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e2e481ec98be",
       "date": "20261102",
       "front": "「請統整一下出個報告給我，說明一下本次任務主題、分成幾個工作階段、與計畫不同之處為何…等」自然的英文說法：",
@@ -28,10 +55,37 @@
       ]
     },
     {
+      "id": "dd109b86f353",
+      "date": "20261102",
+      "front": "\"Only some repos use English.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"English is only for certain repos.\"\n\n- 也可以說 **\"Only some repos use English.\"**，或更完整的 **\"I only use English for specific repos.\"**\n- **certain** 和 **specific** 都是「某些特定的」。certain 比較口語，specific 強調「明確指定的那幾個」。\n- repo 的複數直接加 s，寫成 **repos**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "db0c6756753c",
       "date": "20261102",
       "front": "「以前都還有多種顏色來區分，但現在都沒有」自然的英文說法：",
       "body": "「以前都還有多種顏色來區分，但現在都沒有」自然的英文說法：\n\n- *They used to have different colors to tell them apart, but now they're all the same.*\n  - **used to + 原形動詞**：「以前會…（現在不再）」，最適合描述「過去有、現在沒有」的對比。\n  - **tell them apart**：上次學過的「分辨」，這裡剛好又能用上。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ce9e7109f56e",
+      "date": "20261102",
+      "front": "\"What I mainly need is your help writing the threads and making the images for them.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"What I mainly need is your help writing the threads and making the images for them.\"\n\n- **What I mainly need is...** 是強調句型，把重點放在後面，比 \"I mainly need you to...\" 更有「其實我要的是這個」的語氣，很適合用來修正或補充前面的需求。\n- 「串圖」英文沒有固定說法，社群上常說 **carousel images**（多張可滑動的圖）或 **graphics for the thread**。\n- **help (someone) do** 也可以說 **help (someone) with doing**，例如 \"help me with writing posts\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bce29cf39711",
+      "date": "20261102",
+      "front": "\"Get rid of every trace of the Chinese commits.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"Please clean up all the Chinese-version commits.\"\n\n- **clean up** 是「清理乾淨」的常用片語動詞，很適合用在刪掉不要的分支或 commit。\n- 想強調「一個都不留」可以說 **\"Get rid of every trace of the Chinese commits.\"** get rid of 是擺脫、除掉，every trace 是「所有痕跡」。\n- **Chinese-version** 當形容詞放在名詞前面時要加連字號，寫成 Chinese-version commits。",
       "tags": [
         "note"
       ]
@@ -55,6 +109,33 @@
       ]
     },
     {
+      "id": "984cd2b9069a",
+      "date": "20261102",
+      "front": "\"Can we push this to the group-around-dev group on GitLab?\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"Can we push this to the group-around-dev group on GitLab?\"\n\n- 「有辦法…嗎」直譯成 \"Is there a way to...\" 也對，例如 \"Is there a way to push it to this group?\"。不過問技術上能不能做時，母語者更常直接說 **Can we...?** 或 **Could you...?**，比較簡潔。\n- **push to** 是 Git 的標準動詞。另外還有 \"push it **up** to GitLab\"，加上 up 更口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9619b297bbba",
+      "date": "20261102",
+      "front": "\"Could you give me Maintainer access to the tuantuan-threads project? I can't push the initial commit as a Developer.\"",
+      "body": "這次你沒有輸入文字，補一句這個情境用得到的英文，你要請 Maintainer 幫忙時可以直接用：\n> \"Could you give me Maintainer access to the tuantuan-threads project? I can't push the initial commit as a Developer.\"\n\n- **give someone access to...** 是請人開權限的標準說法。\n- **as a Developer** 的 **as** 表示「以…的身分」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "81a631837bb2",
+      "date": "20261102",
+      "front": "\"Would it help if another Maintainer pushed a commit first?\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"Would it help if another Maintainer pushed a commit first?\"\n\n- **Would it help if...?** 是詢問「這樣做有沒有用」最自然的句型，比 \"Is it useful if...\" 道地很多。\n- 注意 if 子句用過去式 **pushed**。這是假設語氣，表示「如果那樣做的話」，語氣比較委婉。\n- Maintainer 是角色名稱，跟 Developer 一樣，首字母大寫比較清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "8108b1f7fbc0",
       "date": "20261102",
       "front": "\"The new edit mode doesn't have charts like Excel does, right?\"",
@@ -64,10 +145,37 @@
       ]
     },
     {
+      "id": "807a4c10df42",
+      "date": "20261102",
+      "front": "\"The posts don't need to be long — just short shares that get people talking in the comments.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"The posts don't need to be long — just short shares that get people talking in the comments.\"\n\n- **get people talking** 是很道地的說法，意思是「讓大家開始討論」，比 promote discussion 口語自然多了。promote 偏正式，比較像官方文件的用詞。\n- 社群經營常用的相關詞：**engagement**（互動）、**drive comments**（帶動留言）、**conversation starter**（開話題的內容）。\n- **don't need to be long** 也可以說 **keep it short**，例如 \"Keep the posts short and sweet.\"（短小精悍）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6e86208362a5",
+      "date": "20261102",
+      "front": "\"Please reword the remote commit in English.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"OK, then please change the one on the remote to English.\"\n\n- **the one on the remote** 用 the one 代替前面提過的 commit，避免重複，是很口語的代稱用法。\n- 更技術一點可以說 **\"Please reword the remote commit in English.\"** reword 是 Git 裡「只改 commit 訊息」的術語，rebase -i 就有 `reword` 這個選項。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "686bde54b112",
       "date": "20261102",
       "front": "你這次用中文提問，以下是自然的英文說法：",
       "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"What if they write their own waitlist section and put themselves down as waitlist #1? And if their section is formatted differently from ours, can the system still recognize it?\"\n\n- **「把自己排入候補 1」** → *put themselves down as waitlist #1*。*put (someone) down as / for* 是「登記成…」的道地說法，例如 *put me down for two tickets*。\n- **「格式又跟我們系統的不同」** → *formatted differently from ours*。用副詞 *differently* 修飾 *formatted*，比 *the format is different with our system* 自然；要注意介系詞是 *different **from***，不是 *with*。\n- **「可以判定嗎」** → *can the system still recognize / detect it?*。英文裡「系統判定」通常用 *recognize*、*detect* 或 *pick up*（口語），*judge* 比較少用在這種情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "659835181a7c",
+      "date": "20261102",
+      "front": "\"I'd like to create a repo to archive Tuantuan's Threads posts.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"I'd like to create a repo to archive Tuantuan's Threads posts.\"\n\n- **archive** 比 record 更貼近這裡的意思，強調「收藏、保存」。record 偏向「記錄下來」，例如錄音或寫紀錄。\n- Threads 上的「串文」可以說 **thread** 或 **posts**。一整串連續發的就叫 a thread，例如 \"a thread by Tuantuan\"。\n- **I'd like to** 比 I want to 客氣一點，是很常用的請求句型。",
       "tags": [
         "note"
       ]
@@ -86,6 +194,15 @@
       "date": "20261102",
       "front": "「沒問題」用英文回覆時，依情境可以這樣說：",
       "body": "「沒問題」用英文回覆時，依情境可以這樣說：\n\n- *Looks good to me.*：最適合用在審查或確認成果，工程師之間常縮寫成 **LGTM**，在 code review 裡很常見。\n- *All good, go ahead.*：「都沒問題，你繼續吧」，順便授權對方執行下一步。\n- *No problem.*：比較像回應感謝或請託，例如 *Thanks!* → *No problem.* 用來表示「確認沒問題」就不太貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5e11d28f11a4",
+      "date": "20261102",
+      "front": "\"Please put the post-writing and image-design rules under version control with Git too.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"Please put the post-writing and image-design rules under version control with Git too.\"\n\n- **put ... under version control** 是「納入版控」的標準說法。口語上也常直接說 \"track it in Git\" 或 \"commit it to the repo\"。\n- 「製圖規則」可以說 **design guidelines** 或 **image guidelines**。guidelines 比 rules 柔和，常用在風格規範，例如品牌的 brand guidelines。\n- 句尾的 **too** 對應「也」，放在句末最自然。",
       "tags": [
         "note"
       ]
@@ -149,6 +266,24 @@
       "date": "20261102",
       "front": "「這樣會不會不好辨別呢？」自然的英文說法：",
       "body": "「這樣會不會不好辨別呢？」自然的英文說法：\n\n- *Wouldn't this make them hard to tell apart?*\n  - **tell apart**：「分辨（兩者的差別）」，非常道地，比 *distinguish* 口語。\n- *Is it hard to tell which button is which?*\n\n「如果是的話我自己手動改即可」：\n- *If so, I'll just change it manually myself.*\n  - **If so**：「如果是的話」，簡潔正式；比 *If yes* 自然得多。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1f105ac249aa",
+      "date": "20261102",
+      "front": "\"The Maintainer pushed the first commit, and asked me to push my actual work to a separate branch.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"The Maintainer pushed the first commit, and asked me to push my actual work to a separate branch.\"\n\n- **push ... to a separate branch** 是「另開分支推」的自然說法，也可以說 \"push it on a new branch\"。\n- 「真實進度」不適合直譯成 real progress，用 **my actual work** 或 **my changes** 比較自然。\n- 敘述別人的要求時，**asked me to...** 是最常用的句型。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1d7826d4cd74",
+      "date": "20261102",
+      "front": "\"Just push it straight to doc — no need for an MR.\"",
+      "body": "你這句是中文，自然的英文說法：\n> \"Just push it straight to doc — no need for an MR.\"\n\n- **straight to** 是「直接到…」的口語說法，也可以用 **directly to**，語氣稍微正式一點。\n- **no need for...** 是「不需要…」的簡潔說法，後面接名詞。接動詞的話用 **no need to**，例如 \"no need to open an MR\"。\n- 工程師平常講話會直接說 **MR**（Merge Request），GitHub 對應的說法是 PR（Pull Request）。",
       "tags": [
         "note"
       ]
