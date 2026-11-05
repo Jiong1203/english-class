@@ -1,6 +1,574 @@
 {
   "entries": [
     {
+      "id": "fce0b271e903",
+      "date": "20261105",
+      "front": "\"paste commits\"",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 先做「貼 commit」的部分，也依照你的兩個建議做 | **Let's do the \"paste commits\" part next, and go with both of your suggestions again.** |\n\n說明：\n- 「先做」在這裡其實是「接下來做」，用 **next** 比 first 更貼切，因為手動的部分已經做完了。\n- 「也」用 **again** 表達「跟上次一樣照你的建議」。\n- **go with** 上次也用過，表示「採用某個選項」，多用幾次就會很順口。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "fcd1ecb6d510",
+      "date": "20261105",
+      "front": "你寫的是「A. 建議照 Excel 的行為即可 B. 要做的!」，自然的英文說法：",
+      "body": "你寫的是「A. 建議照 Excel 的行為即可　B. 要做的!」，自然的英文說法：\n\n**\"A. Just follow Excel's behavior. B. Yes, let's do them!\"**\n\n- **Just follow ~**：「照～就好」。中文的「即可」帶有「這樣就夠了，不用多做」的意思，英文用 **just** 就能傳達。\n- **let's do them**：回應「要不要做」時很自然的肯定說法，比單純說 \"Yes\" 更有一起動手的感覺。\n- 想更簡潔，可以說 **\"A: match Excel. B: go ahead.\"**。**match** 是「和～一致」，**go ahead** 是「去做吧」，很適合簡短回覆選項。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f8b9401680a4",
+      "date": "20261105",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 好現在我想一步一步持續跟你一起調整各個功能，也希望你同時給出一點建議。 | **OK, now I'd like to keep refining each feature with you step by step, and I'd love to hear your suggestions along the way.** |\n| 先來討論每日日誌的部分，現在有分三種模式…你能說說分別的用法以及個別的建議嗎? | **Let's start with the daily log. Right now there are three modes: manual, paste commits, and import from git. Could you walk me through how each one works and what you'd suggest for each?** |\n\n說明：\n- 「調整功能」用 **refine** 比 adjust 更貼切，意思是「一點一點打磨得更好」。\n- 「同時」放在句尾說 **along the way**，表示「在過程中順便」，很口語也很自然。\n- 「說說用法」用 **walk me through** 很道地，意思是「一步步帶我看過一遍」，比 explain 更有互動感。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f3d6c9df7824",
+      "date": "20261105",
+      "front": "\"Go through these two videos first.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"Please take a look at these two videos first: @815531134.758484.mp4 and @815531134.828266.mp4.\"\n\n- **take a look at** 比 \"see\" 或 \"watch\" 更口語，也常用在請別人「檢視、過目」某樣東西，工作場合很常見。\n- **first** 放在句尾，對應中文的「先」，暗示後面還有其他步驟。\n- 另一種說法：**\"Go through these two videos first.\"**，\"go through\" 有「從頭到尾看一遍」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f1f8f8d853db",
+      "date": "20261105",
+      "front": "\"It's live: https://www.threads.com/share/D8e9YWLbZ\"",
+      "body": "你這次只貼了連結，換成英文可以這樣說：\n\n> **\"It's live: https://www.threads.com/share/D8e9YWLbZ\"**\n\n- *It's live* 是「已經上線、已經發布」，貼文、網站、功能上線都可以用，很口語。\n- 也可以說 *\"Just posted it!\"*，語氣更輕鬆。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f1cc3659db7b",
+      "date": "20261105",
+      "front": "\"So basically, the members who never spoke, never signed up, and were in the group before the bot joined can only be added if we have a verified account?\"",
+      "body": "你這次寫了兩句中文，各給一個自然的英文說法：\n\n> \"So basically, the members who never spoke, never signed up, and were in the group before the bot joined can only be added if we have a verified account?\"\n\n> \"How do we upgrade to a verified account?\"\n\n說明：\n- **So basically, ...** 對應「所以等於說……」，用來確認自己對前面說明的理解，非常口語。\n- **can only be added if ...** 用 **only ... if** 表達「一定要……才有辦法」的條件限制。\n- **upgrade to ...** 是「升級成……」的固定搭配，介系詞用 **to**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e91381f424d6",
+      "date": "20261105",
+      "front": "\"\n\n說明：\n- **go ahead with ...** 表示「就照這個做吧」，用來同意一個提案。\n- **We can skip ...** 比 \"",
+      "body": "你這次寫的是中文：「可以先做 postback、貼圖和圖片也做成員登記，『點我加入名單』卡片就不用了，現在已經有登記成員的功能了，會按的就會按，不按的也是不按。」自然的英文說法：\n> \"Let's go ahead with registering members from postbacks, stickers, and images. We can skip the 'tap to join' card — we already have a way to register, and people who'd tap it already do; the rest won't anyway.\"\n\n說明：\n- **go ahead with ...** 表示「就照這個做吧」，用來同意一個提案。\n- **We can skip ...** 比 \"We don't need ...\" 更委婉，常用來刪減範圍。\n- **people who'd tap it already do; the rest won't anyway** 對應「會按的就會按，不按的也是不按」。句尾的 **anyway** 帶出「反正就是這樣」的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e894f3fbd6c9",
+      "date": "20261105",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 用瀏覽器一筆一筆駁回 | **Reject them one by one in the browser.** |\n\n說明：\n- 「一筆一筆」最自然的說法是 **one by one**；也可以說 **one at a time**，比較強調「不要一次全部處理」。\n- 「駁回申請」常用 **reject**；在比較正式的審核情境裡，也會用 **decline the request** 或 **deny the application**。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "df616a1106d6",
+      "date": "20261105",
+      "front": "\"Quick check — what was that API from last time that returns all the user data in a group?\"",
+      "body": "你這次寫的是中文：「確認一下，上次有一個在群組內可以取得所有用戶資料的 api 是甚麼？」自然的英文說法：\n> \"Quick check — what was that API from last time that returns all the user data in a group?\"\n\n說明：\n- **Quick check** 放在句首很口語，相當於「確認一下」。\n- **that API from last time** 用 **that** 指「我們之前都知道的那個」，比 \"an API\" 自然。\n- 另外，中文的「甚麼」一般寫成「什麼」，「甚麼」比較舊式。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d7dc9fdd0d32",
+      "date": "20261105",
+      "front": "你的中文句子，自然的英文說法：",
+      "body": "你的中文句子，自然的英文說法：\n\n**\"Option 2, of course! The file's way too bloated — let's clean it up!\"**\n\n- **bloated**：原意是「腫脹」，用在程式碼上就是「太肥、臃腫」，是工程師很常用的說法，例如 \"This component is bloated.\"\n- **way too ~**：口語的「實在太～」，語氣比 \"too\" 強。\n- **clean up**：「整理、清理」，用在程式碼上很自然。比較正式的說法是 **refactor**（重構）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d4808e4e6848",
+      "date": "20261105",
+      "front": "\"OK, everything works now! I'll send it to my wife and have her test it later.\"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"OK, everything works now! I'll send it to my wife and have her test it later.\"\n\n- **everything works now**：「都成功了」最自然的說法，也可以說 \"It all works!\"\n- **have her test it**：「讓她測試」，使役用法 **have + 人 + 原形動詞**，表示「請某人做某事」，很道地。\n- 小提醒：中文原句的「等他晚點驗證」，指的是老婆，用「她」會更清楚。英文要用 **her**，不要寫成 him。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d33e81123ab4",
+      "date": "20261105",
+      "front": "\"...it showed the following prompt.\"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"I zipped the file and sent it to my wife. When she unzipped and opened it, she got the message shown in Image #1.\"\n\n- **zip / unzip**：「壓縮 / 解壓縮」可以直接當動詞用，比 \"compress / extract\" 更口語。\n- **got the message / got this error**：「出現某個提示」。英文常用 \"get\" 表達「遇到、收到」某個訊息，不用直譯成 \"appeared a message\"（這是常見的中式英文）。\n- 另一種說法：**\"...it showed the following prompt.\"**，prompt 指「跳出來要使用者處理的提示視窗」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d32f34e24c89",
+      "date": "20261105",
+      "front": "\"I've heard that the Threads algorithm cuts reach for posts with links. Should we post without the link first, then drop it in a comment?\"",
+      "body": "你這次的第 2 點寫得很完整，翻成英文可以這樣說：\n\n> **\"I've heard that the Threads algorithm cuts reach for posts with links. Should we post without the link first, then drop it in a comment?\"**\n\n- *cut reach* 是社群行銷的常用說法，意思是「降低觸及率」，比 *reduce traffic* 更道地。\n- *drop a link in the comments* 是很口語的說法，*drop* 有「隨手丟一個」的感覺，社群經營者常講 *Link in the comments!*\n- 第 3 點「依照系統生出模擬的真實畫面」可以說 *generate realistic mockups based on the app*，*mockup* 就是「模擬畫面、設計稿」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c7c26a27ddf4",
+      "date": "20261105",
+      "front": "\"My Threads account got suspended for some reason. I followed everything you gave me when posting, so why did this happen?\"",
+      "body": "你這句話的英文說法：\n\n> **\"My Threads account got suspended for some reason. I followed everything you gave me when posting, so why did this happen?\"**\n\n- *got suspended* 是「被停權」，口語常用 *get* 加過去分詞表示被動，比 *was suspended* 更口語。\n- *for some reason* 對應「不知道甚麼原因」，帶有「莫名其妙」的語氣。\n- 小提醒：中文「甚麼」和「什麼」兩種寫法都有人用，但一般比較常見的寫法是「什麼」。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "bc93e84e3966",
+      "date": "20261105",
+      "front": "\"Here's the link: https://www.threads.com/share/GJ5zHc_wd\"",
+      "body": "這次你只貼了連結。換成英文，可以這樣說：\n\n> **\"Here's the link: https://www.threads.com/share/GJ5zHc_wd\"**\n\n- *Here's the link* 是貼連結時最常用的開頭，簡單又自然。\n- 想說得更完整，可以用 *\"It's up! Here's the link.\"*。*It's up* 的意思是「已經發出去了」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b9ac0a045e7f",
+      "date": "20261105",
+      "front": "\"Merge it back into dev.\"",
+      "body": "「併回 dev」上次學過 *\"Merge it back into dev.\"*，這次換個說法：\n\n> **\"Go ahead and merge into dev.\"**\n\n- *Go ahead and …* 是「直接去做吧」，帶有授權、放行的語氣，很適合用來下指令。\n- 工程師之間也常簡短地說 *\"Ship it to dev.\"*。*ship* 原意是「出貨」，在軟體圈引申為「送出去、上線」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b52497de14a8",
+      "date": "20261105",
+      "front": "\"Do we still need 'Rebuild Buttons' in the menu?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"Before I update it, let me double-check: does 'Rebuild Buttons' need to stay in the menu?\"\n\n- **stay in the menu**：「留在選單中」。你原句的「劉」應該是「留」的錯字，英文用 stay 或 remain 都很自然。\n- **Before I update it, let me double-check**：「更新前先確認一下」。let me 開頭的語氣很自然，表示「讓我先……」。\n- 另一種說法：**\"Do we still need 'Rebuild Buttons' in the menu?\"**，更簡短直接。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b34af873c1f0",
+      "date": "20261105",
+      "front": "\"For posts about players and matches, should we include some photos of the players themselves? That way people can get to know them better.\"",
+      "body": "你這句話的英文說法：\n\n> **\"For posts about players and matches, should we include some photos of the players themselves? That way people can get to know them better.\"**\n\n- *the players themselves* 的 *themselves* 強調「本人」，對應你說的「本人的照片」。\n- *That way …* 是「這樣一來……」，用來接著說明好處，口語很常用。\n- *get to know someone* 是「認識、了解某人」，比 *know someone* 多了「逐漸了解」的過程感。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b101f94621f8",
+      "date": "20261105",
+      "front": "\"I don't have an Android phone — I only have an iPhone, so let's just do the iOS version first.\"",
+      "body": "> 原句：「我沒有 Android 手機，我只有 Iphone，所以應該先做 IOS 版就好」\n> 自然的英文：**\"I don't have an Android phone — I only have an iPhone, so let's just do the iOS version first.\"**\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| Iphone / IOS | **iPhone** / **iOS** | Apple 的正式寫法是小寫 *i* 開頭，後面大寫 |\n| 先做…就好 | **let's just do … first** | *just* 帶出「先這樣就好，不用想太多」的語氣 |\n| 我只有… | **I only have…** / **All I have is…** | *All I have is an iPhone* 更強調「就只有這個」 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b0fbbe2fbe33",
+      "date": "20261105",
+      "front": "\"It's been unlocked!\"",
+      "body": "你這句話的英文說法：\n\n> **\"It's been unlocked!\"** 或 **\"My account's been restored!\"**\n\n- *restore* 是「恢復」，用在帳號停權後重新開通特別貼切，Meta 的官方通知也常用 *Your account has been restored*。\n- *unlock* 比較常用在「鎖定」的情況，例如密碼輸錯太多次被鎖。停權用 *restore* 或 *reinstate* 更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ab3ac818f4ae",
+      "date": "20261105",
+      "front": "\"Let's set the 86.83 Demo host aside for now, since it'll probably be down for a while. So what do you suggest we do next?\"",
+      "body": "你的兩句中文，自然的英文說法：\n\n**\"Let's set the 86.83 Demo host aside for now, since it'll probably be down for a while. So what do you suggest we do next?\"**\n\n- **set ~ aside**：「先擱著、暫時不處理」。比 \"ignore\" 好，因為 ignore 有「忽略、不理會」的意思，set aside 則表示之後還會回來處理。\n- **be down**：伺服器「停擺、無法使用」的常見說法，例如 \"The server is down.\"\n- **what do you suggest we do next?**：注意 suggest 後面接原形動詞 \"we do\"，不用寫成 \"we to do\" 或 \"we doing\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a4a6b64620b7",
+      "date": "20261105",
+      "front": "\"Then let's ship it to production.\"",
+      "body": "你這次寫的是中文：「那推上正式機」。自然的英文說法有：\n> \"Then let's ship it to production.\"\n> \"Go ahead and push it to prod.\"\n\n差別在於：\n- **ship it** 是工程師很常用的口語，意思是「發布、上線」，帶點「好了，就這樣吧」的果斷感。\n- **push it to prod** 比較字面，強調「推送到正式環境」這個動作。\n- **prod** 是 production 的口語縮寫，同樣地 staging 也常簡稱 **stg**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a443f00a97f0",
+      "date": "20261105",
+      "front": "\"Here are three screenshots for your reference.\"",
+      "body": "你這句話的英文說法：\n\n> **\"Here are three screenshots for your reference.\"**\n\n- *for your reference* 是「供你參考」的標準說法，工作上傳資料給別人時很常用。\n- 更口語可以說 *\"Here are three screenshots, FYI.\"*。*FYI* 是 *for your information* 的縮寫。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a0d7af5fca19",
+      "date": "20261105",
+      "front": "\"So when the bot is invited to a group and syncs all existing members into the DB, can it actually get their display names?\"",
+      "body": "你這次寫的是中文：「所以現在 bot 被邀進群組時，把現有成員全部同步進 DB，是有辦法抓到 displayName 的？」自然的英文說法：\n> \"So when the bot is invited to a group and syncs all existing members into the DB, can it actually get their display names?\"\n\n說明：\n- **can it actually ...** 裡的 **actually** 帶出「真的可以嗎？」的確認語氣，對應中文的「是有辦法……的？」。\n- **is invited to a group** 用被動語態，因為是使用者邀 bot，不是 bot 自己加入。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "9ee48f59a351",
+      "date": "20261105",
+      "front": "\"I don't think links are the problem. Several of us developers have posted lots of links on our personal accounts, and none of us got locked.\"",
+      "body": "你這句話的英文說法：\n\n> **\"I don't think links are the problem. Several of us developers have posted lots of links on our personal accounts, and none of us got locked.\"**\n\n- *I don't think … is the problem* 是表達不同意見時很自然的說法，比 *I think it's fine* 更明確指出你不認同哪一點。\n- *none of us got locked* 用 *none of us* 表示「我們之中沒有任何一個人」，比 *we all didn't get locked* 正確。後者是中文直譯常見的錯誤，英文的意思會變得模糊。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9b68a6658821",
+      "date": "20261105",
+      "front": "\"Was the task stopped because the memory ran out, or is something still running?\"",
+      "body": "這次你用中文發問，對應的自然英文說法：\n\n**\"Was the task stopped because the memory ran out, or is something still running?\"**\n\n- **run out**：「用完、耗盡」，例如 \"The memory ran out.\"\n- **run low**：「快不夠了」。上一則說的 \"running low on memory\" 是快不夠，\"ran out\" 是已經用完。\n- **is something still running?**：直譯是「有東西還在執行嗎？」，比照字面翻成 \"what are you doing now?\" 更自然，也更符合你想確認的事。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "941ce8632339",
+      "date": "20261105",
+      "front": "\"Why did you reply in English? Please answer me in Chinese.\"",
+      "body": "你這句話的英文說法：\n\n> **\"Why did you reply in English? Please answer me in Chinese.\"**\n\n- *reply in English* 的 *in* 表示「用某種語言」，例如 *speak in Chinese*、*write in English*。\n- 請對方換語言時也可以說 *\"Could you switch back to Chinese?\"*。*switch back* 是「切換回原本的」，語氣更自然委婉。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "93e114c7e3ca",
+      "date": "20261105",
+      "front": "\"Our reach has really dropped. This post only has 114 views so far, and the promo post before it got just 7.\"",
+      "body": "你這句話的英文說法：\n\n> **\"Our reach has really dropped. This post only has 114 views so far, and the promo post before it got just 7.\"**\n\n- *reach* 是社群媒體上的「觸及」，比 *traffic* 更精準。*traffic* 多用在網站流量。\n- *so far* 對應「到現在」，表示數字還可能再增加。\n- *only* 和 *just* 都是「只有」的意思，同一句裡兩個都用，可以避免重複。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8e307b2ac353",
+      "date": "20261105",
+      "front": "\"What should we post next?\"",
+      "body": "「下一篇文發甚麼好呢?」的自然英文說法：\n\n> **\"What should we post next?\"**\n> 或 **\"Any ideas for the next post?\"**\n\n- *post* 在這裡當動詞用，*What should we post next?* 很簡潔，比把「發文」翻成 *publish an article* 自然得多。\n- 這句跟你第一次問的意思一樣。上次學的是 *What should our next post be about?*（*post* 當名詞），這次 *post* 當動詞，兩種說法都可以用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "887009e54502",
+      "date": "20261105",
+      "front": "\"Execute the instructions in _auto/prompt.md **to the letter**; the commit log lives in _auto/commits.txt.\"",
+      "body": "你的句子：「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」\n\n寫得很好，文法正確又自然。兩個祈使句先交代指令，再補充資料在哪裡，順序清楚。`follow it exactly` 是很道地的說法，意思是「完全照做、不要自己發揮」。\n\n另一種說法：\n- \"Execute the instructions in _auto/prompt.md **to the letter**; the commit log lives in _auto/commits.txt.\"\n  - `to the letter` 的意思是「一字不差地照做」，語氣比 `exactly` 更強調嚴格遵守。\n  - `lives in` 是工程師常用的口語，用來說檔案或資料「放在」某個地方。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "82b67648a9db",
+      "date": "20261105",
+      "front": "\"Oh sorry, I meant the official LINE API.\"",
+      "body": "你這次寫的是中文：「哦抱歉，我指的是 LINE 官方給的 api」。自然的英文說法：\n> \"Oh sorry, I meant the official LINE API.\"\n\n說明：\n- **I meant ...** 是澄清自己意思時最常用的說法，比 \"I was referring to ...\" 口語。\n- **the official LINE API** 用 official 表達「官方提供的」，比逐字翻成 \"the API LINE gave\" 自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7ec289859a5c",
+      "date": "20261105",
+      "front": "你的中文句子，自然的英文說法：",
+      "body": "你的中文句子，自然的英文說法：\n\n**\"What do you suggest we do next?\"**\n\n- 上次學過 **suggest + 子句（we do）** 的用法，這裡剛好又用上了。\n- 也可以說 **\"What's next on the list?\"**，意思是「清單上下一項是什麼？」，比較口語，適合在待辦很多的時候用。\n- 如果想問「你建議的優先順序」，可以說 **\"What should we prioritize next?\"**。**prioritize** 是「排優先順序」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7be6b48aa147",
+      "date": "20261105",
+      "front": "你的中文句子，自然的英文說法：",
+      "body": "你的中文句子，自然的英文說法：\n\n**\"Do you think any other toolbar buttons should be switched to icons with tooltips?\"**\n\n- **Do you think ... should ...?**：詢問對方意見的標準句型，語氣比 \"Should we...?\" 客氣，也比較尊重對方的判斷。\n- **icons with tooltips**：「icon + tooltip」寫成句子時，用 **with** 連接比用加號自然。\n- 補充一個常見說法：**\"icon-only buttons\"** 指只有圖示的按鈕，**\"icon-and-label buttons\"** 指圖示加文字的按鈕。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "759e2812e403",
+      "date": "20261105",
+      "front": "\"\n\n- **It still doesn't work.**：「還是不行」最自然的說法，口語也可以說 \"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"It still doesn't work. I've already unblocked the file and changed the macro setting to 'Disable all macros with notification', but the same message still pops up.\"\n\n- **It still doesn't work.**：「還是不行」最自然的說法，口語也可以說 \"Still no luck.\"\n- **pop up**：「（視窗、提示）跳出來」，比 \"appear\" 更口語，用在電腦提示很貼切。\n- **unblock the file**：Windows 的「解除封鎖」英文介面就叫 **Unblock**，直接用這個詞對方一看就懂。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "74ef5f792078",
+      "date": "20261105",
+      "front": "\"Let's stop here for now — I'll finish the rest on my home computer.\"",
+      "body": "> 原句：「那暫時先開發到這樣，剩下我回家用家裡電腦再做」\n> 自然的英文：**\"Let's stop here for now — I'll finish the rest on my home computer.\"**\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| 暫時先…到這樣 | **Let's stop here for now.** / **Let's call it a day.** | *call it a day* 是「今天就到這裡收工」的常用說法 |\n| 剩下的 | **the rest** | 簡單又自然，例如 *I'll do the rest later.* |\n| 用家裡電腦再做 | **pick it up on my home computer** | *pick it up* 有「之後接著做」的意思 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "68607044e889",
+      "date": "20261105",
+      "front": "\"So can I post it now?\"",
+      "body": "你這句話的英文說法：\n\n> **\"So can I post it now?\"**\n\n- 開頭的 *So* 對應中文的「所以」，用來接續前面的討論，口語很自然。\n- 也可以說 *\"Is it ready to go?\"* 或 *\"Am I good to post?\"*。這兩句更口語，問的是「東西都準備好了嗎」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "63147b396fc2",
+      "date": "20261105",
+      "front": "\"Merge it back into dev.\"",
+      "body": "「併回 dev」的英文說法：\n\n> **\"Merge it back into dev.\"**\n\n- *merge … into …* 是固定搭配，介系詞用 *into*，不是 *to*。\n- *back* 表示分支原本就是從 `dev` 分出來的，現在「回到」`dev`，正好對應中文的「回」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5d8919b6a6f2",
+      "date": "20261105",
+      "front": "\"I can't find that 'recommend to non-followers' option.\"",
+      "body": "你這句話的英文說法：\n\n> **\"I can't find that 'recommend to non-followers' option.\"**\n\n- 找不到某個東西，英文習慣說 *can't find*，比直譯「沒有看到」的 *didn't see* 更自然。*didn't see* 聽起來像是「不小心漏看了」。\n- *option* 是「選項」，在設定頁面裡指可以點選的項目。也可以用 *setting*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5ad0aa710a4f",
+      "date": "20261105",
+      "front": "\"7 data\"",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 真實資料庫在哪? 我應該去哪裡刪那7筆資料? | **Where's the real database? Where should I go to delete those 7 records?** |\n\n說明：\n- 「真實資料庫」在工程師的對話裡常說 **the real database**，比較正式的說法是 **the production / live database**。開發環境的話，也可以說 **my actual dev database**，跟測試用的 **throwaway database** 做區分。\n- 「資料」在這裡指資料庫裡的一筆筆紀錄，用 **records** 或 **entries** 最貼切。**data** 是不可數名詞，不能說 \"7 data\"。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5a0f13b678a5",
+      "date": "20261105",
+      "front": "\"Release it.\"",
+      "body": "你這次寫的是中文：「上正式機」。自然的英文說法：\n> \"Ship it to prod.\"\n\n說明：\n- 這種只有一句話的指令，英文常會省略主詞，直接用動詞開頭的祈使句。\n- 也可以說 **\"Release it.\"** 或 **\"Let's go live.\"**。**go live** 強調「讓使用者實際用得到」，很常用在上線的情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "581be32a3101",
+      "date": "20261105",
+      "front": "\"Should I include the website link in the comment too?\"",
+      "body": "你這句話的英文說法：\n\n> **\"Should I include the website link in the comment too?\"**\n\n- *include … in …* 是「把某樣東西放進某處」的常用說法，比直譯「附上」的 *attach* 更自然。*attach* 多半用在檔案，例如 *attach a file*。\n- 句尾的 *too* 表示「除了現有的連結之外，也要放嗎」，剛好對應你想問的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5629e22897b4",
+      "date": "20261105",
+      "front": "\"Let's just go back to the original version for now. Also, the thread I just posted still isn't getting any traction. I wonder if it's because of the suspension.\"",
+      "body": "你這句話的英文說法：\n\n> **\"Let's just go back to the original version for now. Also, the thread I just posted still isn't getting any traction. I wonder if it's because of the suspension.\"**\n\n- *for now* 對應「暫時先」，表示目前的決定之後可能再改。\n- *getting traction* 是「獲得關注、有起色」，社群和產品圈很常用，比 *getting traffic* 更道地。\n- *I wonder if …* 對應「不知道是不是……」，是帶著猜測語氣的自然開頭。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "554ac50e284b",
+      "date": "20261105",
+      "front": "\"How about a post on players next? I think there's a tournament going on right now.\"",
+      "body": "你這句話的英文說法：\n\n> **\"How about a post on players next? I think there's a tournament going on right now.\"**\n\n- *How about …?* 是提出建議最常用的句型，後面接名詞或動名詞（*-ing*）。\n- *going on* 表示「正在進行中」，用在比賽、活動都很自然。\n- 「選手文」不要直譯成 *player article*，說 *a post on/about players* 比較道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "531393f2da8d",
+      "date": "20261105",
+      "front": "你的中文句子，自然的英文說法：",
+      "body": "你的中文句子，自然的英文說法：\n\n**\"Could you switch the items in the red box to icons? That's how Excel does it. Add tooltips that say Align Left, Center, and Align Right.\"**\n\n- **That's how Excel does it.**：「Excel 就是這樣做的」，用來說明你要求的理由時很自然。\n- **tooltip**：滑鼠停留時跳出的小說明框。動詞可以說 **\"show a tooltip\"** 或 **\"add a tooltip\"**。\n- Excel 英文版的按鈕名稱就是 **Align Left / Center / Align Right**，跟你要的中文用語一一對應。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4ddaa15b725a",
+      "date": "20261105",
+      "front": "\"Oh, never mind. It was mainly because I didn't press Enter after typing the number in row 5, so the cell was still in edit mode.\"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"Oh, never mind. It was mainly because I didn't press Enter after typing the number in row 5, so the cell was still in edit mode.\"\n\n- **never mind**：「沒事、算了」，用來表示「不用在意剛才的事」。\n- **in edit mode**：「在編輯狀態」，描述儲存格還沒確認輸入，是很精準的技術說法。\n- **It was mainly because ...**：「主要是因為……」，說明原因時很自然的開頭。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4a6d0f017af3",
+      "date": "20261105",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 公司的 gitlab 網址都是 https://icscgit1.icsc.com.tw/ 開頭的 | **All our company's GitLab URLs start with https://icscgit1.icsc.com.tw/.** |\n| 用每個人自己的權杖（token），因為每個人帳號會有的 repo 不一定相同 | **Let's use each person's own token, since everyone has access to different repos.** |\n| 我不確定 | **I'm not sure.** / **No idea, to be honest.** |\n\n說明：\n- 「網址是…開頭的」用 **start with** 最直接。\n- 「每個人帳號會有的 repo 不一定相同」用 **have access to different repos** 很精簡，**have access to** 就是「有權限存取」的意思。\n- **I'm not sure.** 本身就完全正確；比較口語的說法是 **No idea, to be honest.**",
+      "tags": [
+        "praise",
+        "comparison"
+      ]
+    },
+    {
+      "id": "443f150d5623",
+      "date": "20261105",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 先講手動的部分，我覺得依照你建議的兩項來調整挺好的。 | **Let's start with the manual mode. I think going with your two suggestions sounds good.** |\n\n說明：\n- 「依照你的建議」說 **go with your suggestions** 很自然，意思是「就採用你的提案」。\n- 「挺好的」用 **sounds good** 最口語，也可以說 **makes sense** 或 **works for me**。\n- 「先講某個部分」用 **Let's start with…** 開頭，很適合用在一段討論的開場。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4185987160b7",
+      "date": "20261105",
+      "front": "\"The dev servers were shut down because the machine ran low on memory.\"",
+      "body": "這則是系統自動通知，不是你打的訊息，所以沒有可以給回饋的句子。分享一個相關的說法：\n\n**\"The dev servers were shut down because the machine ran low on memory.\"**\n\n- **run low on ~**：「～快不夠用了」，常用在記憶體、電量、時間，例如 \"My phone is running low on battery.\"\n- **shut down**：「關掉（程式、服務）」，比 \"close\" 更常用在伺服器或系統上。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3bc39b4dafb5",
+      "date": "20261105",
+      "front": "\"I'll get back to you once we've tested it.\"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"OK, we'll have the test results later. I'll let you know if we need any updates.\"\n\n- **I'll let you know**：「再跟你說」最自然的說法，工作上非常常用。\n- **if we need any updates / changes**：「若有相關需求更新」。英文不需要逐字翻出「相關需求」，用 updates 或 changes 就很清楚。\n- 另一種說法：**\"I'll get back to you once we've tested it.\"**，\"get back to you\" 是「之後再回覆你」的常見商務用語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3a70590bdd6e",
+      "date": "20261105",
+      "front": "\"Here's what my Account Status page shows.\"",
+      "body": "你這次只傳了截圖，換成英文可以這樣說：\n\n> **\"Here's what my Account Status page shows.\"**\n\n- *what … shows* 是「某個畫面顯示的內容」，傳截圖給別人看時很好用。\n- 也可以說 *\"This is what I see.\"*，更口語、更簡短。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "39d77fd90ecd",
+      "date": "20261105",
+      "front": "\"For the images, I'd like you to take screenshots inside the LIFF app and mock up 團團磚's replies in LINE, instead of just using the images from the website.\"",
+      "body": "你這句話的英文說法：\n\n> **\"For the images, I'd like you to take screenshots inside the LIFF app and mock up 團團磚's replies in LINE, instead of just using the images from the website.\"**\n\n- *I'd like you to…* 是禮貌又明確的請求句型，比 *I hope you can…* 更自然。中文的「我希望你可以」很容易直譯成 *I hope you can*，但英文用 *I hope* 聽起來像在許願，不像在交代工作。\n- *mock up* 當動詞是「做出模擬畫面」，名詞是 *mockup*，設計和產品圈很常用。\n- *instead of just using…* 用 *just* 帶出「只是直接拿來用」的語氣，剛好對應你想表達的「而不是直接取官網的圖片」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2e08181582fb",
+      "date": "20261105",
+      "front": "\"I'm personally more interested in this one, haha.\"",
+      "body": "Your sentence in English:\n\n> **\"I'm personally more interested in this one, haha.\"**\n\n- *personally* matches 「我個人」. It softens the sentence a little, showing it's just your own preference.\n- *haha* also works in English chat. You could swap in *lol*, which feels more casual.\n- Another option: *\"This one's more my thing.\"* Here *my thing* means \"something I'm into.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2d0185cde713",
+      "date": "20261105",
+      "front": "\"But 團團磚 isn't a verified (blue badge) or premium (green badge) account — can it still get display names?\"",
+      "body": "你這次寫了三句中文，各給一個自然的英文說法：\n\n> \"But 團團磚 isn't a verified (blue badge) or premium (green badge) account — can it still get display names?\"\n\n> \"What's LINE's rate limit?\"\n\n> \"If I want to give OWNERs a button in the LIFF settings page to refresh member info, is that doable?\"\n\n說明：\n- **is that doable?** 是工程溝通很常見的問法，比 \"is it possible?\" 更口語，帶有「實際做得到嗎」的意思。\n- **refresh member info** 用 **refresh** 表示「重新抓最新資料」，比 \"update\" 更貼近這個功能的意思。\n- 補充：「抓的到」應寫成「抓**得**到」，表示能力或可能時用「得」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2b5ac58bb275",
+      "date": "20261105",
+      "front": "\"Now the appeal is asking me for a selfie.\"",
+      "body": "你這句話的英文說法：\n\n> **\"Now the appeal is asking me for a selfie.\"**\n\n- *ask (someone) for something* 是「向某人要求某樣東西」，主詞可以是人，也可以是系統或表單。\n- 也可以說 *\"The appeal now requires a selfie.\"*。*require* 的語氣更正式，強調「這是必要條件」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1f7e61e71c9f",
+      "date": "20261105",
+      "front": "\"Each unit uses six screws, so if you enter 400, it automatically multiplies by six and deducts 2,400.\"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"I've typed out the narration for you. Here's what's said in the 35-second video: ...\"\n\n- **type out** 是「（把口述內容）打成文字」，比 \"write\" 更貼切。\n- **narration** 指影片中的「旁白、口頭說明」；如果是逐字稿，可以用 **transcript**，例如 \"Here's the transcript of the 16-second video.\"\n- 旁白裡「螺絲出 1 顆裡面有 6 顆」可以說：**\"Each unit uses six screws, so if you enter 400, it automatically multiplies by six and deducts 2,400.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1f01f80e3962",
+      "date": "20261105",
+      "front": "你的中文句子，自然的英文說法：",
+      "body": "你的中文句子，自然的英文說法：\n\n**\"Sounds good, let's go with that!\"**\n\n- **Sounds good.**：「聽起來不錯／好啊」，同意別人提議時最常用的回答。\n- **go with ~**：「採用、選擇（某個方案）」，例如 \"Let's go with option A.\"\n- 也可以說 **\"Let's do it!\"**，語氣更乾脆、更有幹勁。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1c0565f28ce9",
+      "date": "20261105",
+      "front": "\"Okay, since there are concerns, let's hold off on that for now and play it safe. We can adjust later if needed.\"",
+      "body": "你這句話的英文說法：\n\n> **\"Okay, since there are concerns, let's hold off on that for now and play it safe. We can adjust later if needed.\"**\n\n- *hold off on something* 是「先暫緩某件事」，比 *not do it* 更能表達「之後還可能做」。\n- *play it safe* 是「保守一點、求穩」的慣用語，很貼近你說的「先保守一點」。\n- *if needed* 是 *if it is needed* 的省略，口語和書面都很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "17eb64bff081",
+      "date": "20261105",
+      "front": "\"paste commits\"",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 「貼 commit」跟「從 git」列出我看一下 | **Can you list out the \"paste commits\" and \"import from git\" modes so I can take a look?** |\n\n說明：\n- 中文常省略主詞和「給我」，英文要補成完整的請求句，用 **Can you…** 開頭比較禮貌。\n- **list out** 比單用 list 更口語，有「一條一條列清楚」的感覺。\n- **so I can take a look** 表達「讓我看一下」，比 so I can see 更自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "109dcb34112b",
+      "date": "20261105",
+      "front": "\"I'm logged in.\"",
+      "body": "你這次說「登入了」，自然的英文說法：\n\n**\"I'm logged in.\"** 或 **\"Done, I've logged in.\"**\n\n- **be logged in** 是「已登入」的狀態，**log in** 是「登入」這個動作。例如 \"Please log in first.\"（請先登入）和 \"I'm logged in now.\"（我現在已經登入了）。\n- 注意拼法：動詞片語寫成兩個字 **log in**；當名詞或形容詞時寫成一個字 **login**，例如 \"the login page\"（登入頁面）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0fe6d4700685",
+      "date": "20261105",
+      "front": "\"Let's go all the way and match Excel's entire border menu.\"",
+      "body": "你選了「整個選單都照 Excel」，用英文表達這個決定：\n\n**\"Let's go all the way and match Excel's entire border menu.\"**\n\n- **go all the way**：「做到底、全部都做」，表示不打折扣。\n- **match ~**：「做得跟～一樣」，比 \"copy\" 中性，比較適合用在規格或需求上。\n- 如果想表達「分階段做」，可以補一句 **\"We can roll it out in phases.\"**。**roll out** 是「推出、上線」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "08aa9e187c67",
+      "date": "20261105",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 基本上公司都用 GitLab，所以伺服器基本上都連得到 | **We pretty much use GitLab across the company, so the server should be able to reach it.** |\n\n說明：\n- 一句話裡用了兩次「基本上」，英文要避免重複。第一個可以用 **pretty much**（幾乎都是），第二個用 **should**（應該可以）來表達「不是百分之百確定」的語氣。\n- 「伺服器連得到」說 **the server can reach it** 很道地；**reach** 在網路情境裡就是「連得到」的意思。\n- **across the company**（全公司都）比 in the company 更能表達「普遍都用」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "07d543534e50",
+      "date": "20261105",
+      "front": "你的中文句子，自然的英文說法：",
+      "body": "你的中文句子，自然的英文說法：\n\n**\"Let's skip Phase 4 — it's a bit too risky.\"**\n\n- **skip**：「跳過、不做」。這裡用 skip 比 \"don't do\" 自然。\n- **a bit too risky**：「有點太冒險」。\"a bit\" 讓語氣比較委婉，比直接說 \"too risky\" 柔和。\n- 另一種說法：\"Let's hold off on Phase 4.\" **hold off on ~** 是「先暫緩～」，表示之後也許還會再考慮。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "06f9bc166eeb",
+      "date": "20261105",
+      "front": "\"Good!\"",
+      "body": "**\"Good!\"** 用得很自然 👍。整句的英文可以這樣說：\n\n> **\"Good! So what should I do next?\"**\n\n| 中文 | 自然英文 | 說明 |\n|---|---|---|\n| 那接下來… | **So…** / **Now…** | 句首的 *So* 用來承接上一個話題，就像中文的「那」 |\n| 我應該做甚麼？ | **What should I do next?** | *next* 放句尾就表示「接下來」 |\n| 另一種說法 | **What's my next step?** | 比較精簡，工作場合很常用 |\n\n另外，「甚麼」在台灣比較常寫成「什麼」，兩種寫法都對。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "fdd555e7f653",
       "date": "20261104",
       "front": "\"I forgot to give you my credentials. Please log in with my account: I30131 / [password].\"",
