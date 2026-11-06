@@ -127,6 +127,15 @@
       ]
     },
     {
+      "id": "a28e7caa22cb",
+      "date": "20261106",
+      "front": "你說「try again.」，句子本身完全正確，也很簡潔 👍。",
+      "body": "你說「try again.」，句子本身完全正確，也很簡潔 👍。\n\n- 當時是我的搜尋逾時，你要我重試，這樣說很自然。\n- 想講得更清楚是哪個動作可以說 **\"Please retry the search.\"**，加上 *please* 會比較客氣。\n- 同義說法：**\"Give it another shot.\"**（口語）、**\"Can you rerun it?\"**（指重跑指令或測試時特別常用）。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
       "id": "a148f5780c8a",
       "date": "20261106",
       "front": "\"Let's get this into dev.\"",
@@ -140,6 +149,15 @@
       "date": "20261106",
       "front": "\"has slipped\"",
       "body": "這次你用中文說明，以下是自然的英文版本：\n\n> \"Everything in this file is still pending, so some of the work has slipped.\"\n> \"Phase 1 is done. Phase 2 is also complete, but we haven't invoiced for it yet.\"\n\n**語感說明：**\n- 「延期了」在專案管理的語境裡，常用 **\"has slipped\"**（時程往後滑），口語又道地。比較正式的寫法是 **\"has been delayed\"** 或 **\"has been postponed\"**。postpone 偏向「主動決定延後」，slip 則是「進度自然落後」，跟你這次的情況比較貼近。\n- 「請款」在英文通常說 **\"invoice\"**（當動詞用，開發票）或 **\"bill the client\"**。「尚未請款」就是 *\"not yet invoiced\"*。\n- 「請款里程碑」的標準用語是 **\"payment milestones\"** 或 **\"billing milestones\"**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9f4e83027a89",
+      "date": "20261106",
+      "front": "\"Could you show me a mockup first?\"",
+      "body": "你這次寫的是中文：「你可以先展示一張參考模擬圖給我看嗎」。自然的英文說法：\n> \"Could you show me a mockup first?\"\n\n說明：\n- **mockup** 就是「模擬圖、示意畫面」，設計和開發都常用。比較粗略、只有框線的版本叫 **wireframe**。\n- 「參考」不用直譯成 \"reference mockup\"，因為 **mockup** 本身就帶有「僅供參考」的意思。\n- **first** 放句尾，表示「在動工之前先」，正好對應「先展示」。",
       "tags": [
         "note"
       ]
@@ -413,6 +431,15 @@
       "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| Expiration date 有辦法直接帶入最久的那天嗎? | **Can the expiration date be pre-filled with the latest possible date?** |\n| 像今天的話最久就可以選到 2027-11-06 | **For example, today the furthest I can pick is 2027-11-06.** |\n\n說明：\n- 「帶入」在表單情境下用 **pre-fill** 最精準，也可以說 **default to**：*Can the expiration date default to the max?*\n- 「最久的那天」可以說 **the latest possible date**、**the maximum date**，或口語一點的 **the furthest date**。\n- 「像今天的話」用 **For example, today…** 或 **Say today…** 都很自然。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "500e63861872",
+      "date": "20261106",
+      "front": "\"without leaving any trace\"",
+      "body": "這次你用中文提出要求，以下是自然的英文版本：\n\n> \"Please don't use web pages. Make them as Word, PowerPoint, or PDF files instead, and delete the web pages completely without leaving any trace.\"\n\n**語感說明：**\n- 「不留痕跡」可以說 **\"without leaving any trace\"**，或更口語的 **\"wipe them completely\"**。\n- 「做成 Word 檔」用 **\"make them as Word files\"** 可以通，但更自然的說法是 **\"deliver them as Word files\"** 或 **\"save them as .docx files\"**。\n- 「之類的」放在列舉後面，英文用 **\"or something similar\"** 或 **\"…, PowerPoint, PDF, etc.\"**，例如：*\"Word, PowerPoint, PDF, or something similar.\"*",
+      "tags": [
+        "note"
       ]
     },
     {
