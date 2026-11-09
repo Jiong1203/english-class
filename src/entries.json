@@ -235,6 +235,15 @@
       ]
     },
     {
+      "id": "6d10c3ade659",
+      "date": "20261109",
+      "front": "\"Verified on staging — good to ship to production.\"",
+      "body": "你這次寫的是中文：「驗證完了，可以上正式機」。\n\n自然的英文說法：\n> \"Verified on staging — good to ship to production.\"\n\n- **good to ship**：工程團隊常用的口語，意思是「可以發布了」，比 \"can be released\" 更簡潔。\n- **staging / production**：分別是「測試機」和「正式機」最常見的說法，口語常縮寫成 **prod**，例如 \"Ready for prod.\"",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "68da98e9477b",
       "date": "20261109",
       "front": "\"That entry point is too limited — anything outside the Top 10 would be unreachable.\"",
