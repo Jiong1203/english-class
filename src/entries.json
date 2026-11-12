@@ -1,6 +1,483 @@
 {
   "entries": [
     {
+      "id": "fb3c9c44a7c1",
+      "date": "20261112",
+      "front": "\"The server is back up and running.\"",
+      "body": "這次你同樣只貼了輸出。這裡分享一個工程師回報部署狀態時很常用的說法：\n\n> **\"The server is back up and running.\"**\n\n📝 用字細節：\n- **back up and running** 表示「已經恢復正常運作」，常用在重啟或維修之後。\n- **up and running** 本身就是「正常運作中」的意思，例如 *The new service is up and running.*\n- 相反的情況可以說 **\"The server is down.\"**，意思是伺服器掛了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f83e32cdeafe",
+      "date": "20261112",
+      "front": "\"Why are the Accounts and Funds cards different heights again locally? They're the same height in production after the deploy.\"",
+      "body": "你這次用中文：「為什麼本機的帳戶卡片跟基金卡片又不等高了？但是剛剛部署到正式機後正式機卻有等高」\n\n自然的英文說法：\n> \"Why are the Accounts and Funds cards different heights again locally? They're the same height in production after the deploy.\"\n\n用法說明：\n- 「本機」在開發情境常說 **locally** 或 **on my local**；「正式機」說 **in production** 或 **on prod**。\n- **different heights** 直接表達「不等高」，比 *not the same height* 更精簡。\n- 「卻」帶有轉折和意外的語氣，英文不一定要硬翻成 *but*。把兩句分開講，對比的意思就很清楚了；想強調的話，可以在第二句前面加 **Yet** 或 **But**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f29c29e29a6b",
+      "date": "20261112",
+      "front": "\"But I haven't pushed my local changes yet — is that OK? Should I wait until these steps are done before pushing?\"",
+      "body": "你這次的句子：「但目前本地端修改還沒推到遠端，是可以的嗎? 是要等這些做完再推嗎?」\n\n自然的英文說法：\n> **\"But I haven't pushed my local changes yet — is that OK? Should I wait until these steps are done before pushing?\"**\n\n📝 用字細節：\n- 「還沒推到遠端」用 **I haven't pushed ... yet** 就夠了。英文裡 *push* 本身就隱含「推到遠端」，不需要再加 *to the remote*。\n- **wait until ... before ...** 是「等……之後再……」的常用句型，例如 *wait until the build finishes before deploying*。\n- **is that OK?** 是確認做法是否可行的簡單問法。比較正式的場合可以說 **\"Is that going to be a problem?\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f12e5e247117",
+      "date": "20261112",
+      "front": "\"Step 2 is done. Here's the output:\"",
+      "body": "這次你又只貼了輸出。補充一個實用說法：步驟完成時，可以先用一句話回報進度，再附上輸出。\n\n> **\"Step 2 is done. Here's the output:\"**\n\n📝 用字細節：\n- **Step 2 is done** 簡潔明確，讓對方一看就知道目前的進度，不用自己從 log 推斷。\n- 類似的說法還有 **\"Finished step 2.\"** 和 **\"Step 2 completed.\"**。後者比較正式，常見於工作報告。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ef58fdf728e7",
+      "date": "20261112",
+      "front": "\"But it *is* Places API (New).\"",
+      "body": "你這次的句子：「是 Places API (New) 沒錯啊」\n\n自然的英文說法：\n> **\"But it *is* Places API (New).\"**\n> 或 **\"I'm sure it's Places API (New), though.\"**\n\n📝 用字細節：\n- 中文句尾的「啊」帶有「我很確定，你是不是弄錯了」的語氣。英文常用 **加重助動詞** 表達，也就是把 *is* 講得特別重：**\"It *is* the right one.\"** 寫成文字時可以用斜體表示重音。\n- 句尾加 **though** 有「不過、可是」的反駁語感，聽起來比較委婉，不會太衝。\n- 另一種常見的說法：**\"I double-checked — it's definitely Places API (New).\"** 其中 **definitely** 用來強調「絕對沒錯」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e988b91f435d",
+      "date": "20261112",
+      "front": "\"Here's the output:\"",
+      "body": "這次你只貼了指令輸出，沒有寫英文句子。補充一個貼上指令結果時好用的說法：\n\n> **\"Here's the output:\"** 或 **\"Here's what I got:\"**\n\n📝 用字細節：\n- **Here's what I got** 比 *This is the result* 更口語，工程師之間傳 log 或指令輸出時很常用。\n- 如果想同時請對方幫忙看，可以說：**\"Here's what I got — does this look right?\"** 其中 **look right** 是「看起來對不對」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e7724486973e",
+      "date": "20261112",
+      "front": "\"Just give it another shot. If it still doesn't work, I'll check with my colleague.\"",
+      "body": "你這次的句子：「你直接再試一次看看，不行我再去問同事」\n\n自然的英文說法：\n> **\"Just give it another shot. If it still doesn't work, I'll check with my colleague.\"**\n\n📝 用字細節：\n- **give it another shot** 是「再試一次」的口語說法，比 *try again* 更輕鬆。**shot** 在這裡是「嘗試」的意思。\n- 「不行」說成 **if it still doesn't work**，加上 **still** 表示「還是不行」，對應你的語意。\n- 「問同事」用 **check with my colleague** 比 *ask my colleague* 更貼切，因為帶有「找對方確認」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e6852a38535e",
+      "date": "20261112",
+      "front": "\"take it from there\"",
+      "body": "你這句可以這樣說：\n\n> \"As for the badminton group's money, my teammates all pay in cash, so whenever I need cash for daily expenses I just take it from there. That includes our 15,000 monthly shared meal fund.\"\n\n- **As for ...**：「至於……的部分」，用來帶出話題，對應你說的「球團的錢的部分」。\n- **whenever I need ...**：「每當我需要……的時候」，比 \"if I need\" 更能表達「每次都會這樣做」。\n- **take it from there**：「從那裡拿」。注意 **\"take it from there\"** 也是常見片語，意思是「接下來再看著辦」，要依上下文判斷。\n- **That includes ...**：「這也包括……」，對應你說的「包括……也是」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e5cdb4f3f013",
+      "date": "20261112",
+      "front": "\"Take a look at @115年所得.txt and see if you can make sense of the format. Then try converting it into an Excel file.\"",
+      "body": "你這次用中文下指令，以下是比較自然的英文說法：\n\n> \"Take a look at @115年所得.txt and see if you can make sense of the format. Then try converting it into an Excel file.\"\n\n- **make sense of**：「看懂、理解」，比 \"understand\" 更口語，適合用在格式比較亂、需要花點心思理解的情況。\n- **see if you can...**：「看你能不能……」，對應你說的「看你看不看得懂」，語氣客氣又自然。\n- **convert A into B**：「把 A 轉成 B」。也可以說 \"turn it into an Excel spreadsheet\"，口語上更常聽到。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "dcc197e93ce0",
+      "date": "20261112",
+      "front": "\"Some of it was probably travel expenses I paid upfront, and later my wife or my dad paid me back. I'm not sure about the rest.\"",
+      "body": "你這次的說明用中文寫，以下是重點句的英文說法：\n\n> \"Some of it was probably travel expenses I paid upfront, and later my wife or my dad paid me back. I'm not sure about the rest.\"\n> \"In July I ran out of money, so I only transferred my wife's 11,200 share of the mortgage. Since I've overpaid the mortgage in previous years, I can still get by if I skip a few payments.\"\n\n- **pay upfront**：「先墊錢、預先支付」，和上次學的 **front the money** 意思相近。\n- **pay someone back**：「還錢給某人」。\n- **run out of money**：「沒錢了」，非常口語自然。\n- **overpay the mortgage**：「多繳房貸」；銀行用語也可以說 **make extra mortgage payments**。\n- **get by**：「勉強撐過去」，正好對應你說的「還支撐得住」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d9debdd680d3",
+      "date": "20261112",
+      "front": "\"Please deploy the latest changes to production.\"",
+      "body": "你這次只輸入了 `/deploy`，沒有完整的英文句子可以批改。這種簡短指令很直接，對工具來說很好懂。\n\n如果想用一句話說明你要做什麼，可以這樣說：\n\n> \"Let's ship it to production.\"\n\n- *ship* 在軟體開發裡是「發佈上線」的意思，很口語也很常用。\n- 正式一點可以說 *\"Please deploy the latest changes to production.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d9a5e8650299",
+      "date": "20261112",
+      "front": "\"Transportation varies quite a bit, somewhere between 1,500 and 4,000.\"",
+      "body": "你這次用中文描述需求，以下是比較自然的英文說法：\n\n> \"I'd like to keep track of how much disposable income I have each month on average. Could you take my actual income, subtract my fixed monthly expenses, and work out roughly how much I have left each month?\"\n\n- **disposable income**：「可支配所得、可用資金」，是財務上常用的說法，比 \"available money\" 專業。\n- **keep track of**：「追蹤、記錄」，口語上很常用。\n- **work out**：「算出來」，比 \"calculate\" 口語。\n- 交通費那句可以這樣說：**\"Transportation varies quite a bit, somewhere between 1,500 and 4,000.\"**，其中 \"varies quite a bit\" 就是「浮動較大」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d455cc236b2f",
+      "date": "20261112",
+      "front": "你這次的句子：「關於【加密 key 這一步】需要仔細跟你確認，目前主要兩個環境，一個是我本機，另一個是 https://10.201.86.55/krtc/ 這台，所以我應該分別做甚麼事情?」",
+      "body": "你這次的句子：「關於【加密 key 這一步】需要仔細跟你確認，目前主要兩個環境，一個是我本機，另一個是 https://10.201.86.55/krtc/ 這台，所以我應該分別做甚麼事情?」\n\n自然的英文說法：\n> **\"I want to double-check the key encryption step with you. We mainly have two environments — my local machine and the server at https://10.201.86.55/krtc/. What exactly do I need to do on each one?\"**\n\n📝 用字細節：\n- 「需要仔細跟你確認」用 **double-check ... with you** 很自然，表示「再跟你核對一次」。不要直譯成 *carefully confirm with you*，聽起來比較生硬。\n- 「分別做什麼」用 **on each one** 或 **for each environment** 表達。*respectively* 比較書面，通常用在列舉之後，例如 *A and B, respectively*。\n- 另外提醒：「甚麼」和「什麼」都是正確寫法，台灣常見的寫法是「什麼」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bc1cc353e029",
+      "date": "20261112",
+      "front": "\"The payment is debited on the 6th.\"",
+      "body": "你這句「5,000 定期定額是從薪轉戶轉到元大帳戶去扣款的」可以這樣說：\n\n> \"The 5,000 monthly DCA is transferred from my payroll account to my Yuanta account, and it's debited from there.\"\n\n- **debit**：「扣款」，銀行用語，例如 **\"The payment is debited on the 6th.\"**\n- 也可以簡化成 **\"My 5,000 DCA goes from my payroll account to my Yuanta account.\"**，用 **goes from A to B** 描述資金流向，簡單又自然。\n- **auto-debit**：「自動扣款」，例如 **\"I set up an auto-debit for my DCA.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b9f7268db951",
+      "date": "20261112",
+      "front": "\"We split the bills in proportion to our incomes.\"",
+      "body": "你這次用中文回覆，以下是重點句的英文說法：\n\n> \"I checked my account history. On January 2nd my balance was 8,544, and as of today it's 10,936.\"\n> \"The household fund, mortgage, baby fund, shared meal fund, and pet fund are all funded by my wife and me in proportion to our incomes.\"\n> \"The building management fee and cable TV bill are paid out of the household fund.\"\n\n- **as of today**：「截至今日」，財務報表和銀行對帳都很常用。\n- **in proportion to**：「依……比例」，例如 **\"We split the bills in proportion to our incomes.\"**\n- **paid out of**：「從……支出」。**\"The pet fund is in the red.\"** 則是「寵物基金是負的」的道地說法，**in the red** 就是「赤字」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b705a49a75d7",
+      "date": "20261112",
+      "front": "\"So my colleague ended up giving me a new key. Can you give it a try?\"",
+      "body": "你這次的句子：「結果同事給我新的 key，給你試試看」\n\n自然的英文說法：\n> **\"So my colleague ended up giving me a new key. Can you give it a try?\"**\n\n📝 用字細節：\n- 「結果……」常用 **ended up + V-ing** 表達，意思是「最後變成……」，帶有事情發展出乎預期的語感。\n- 「給你試試看」用 **give it a try** 或 **try it out** 都很自然。直譯成 *give you to try* 是錯誤的說法。\n- 句首加 **So** 有承接前面對話的作用，口語中很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ab002f3d9d7f",
+      "date": "20261112",
+      "front": "\"/commit-push-merge\"",
+      "body": "| 中文 | 英文 |\n|---|---|\n| 先幫我改一下全域的 \"/commit-push-merge\" skills 規則，預設使用 zh-tw 來 commit，但若接收到指令為 \"/commit-push-merge en\" 那就將該次 commit 改為使用 en 來 commit。 | First, please update the global `/commit-push-merge` skill so it commits in zh-tw by default, but switches to English for that commit when I run `/commit-push-merge en`. |\n| 不過請幫我特別限定 \"D:\\my\\sideProject\\group-around\" 路徑下的任何 repo 都只限定使用 en commit。 | However, any repo under `D:\\my\\sideProject\\group-around` should always use English commit messages. |\n\n- 「預設」是 *by default*，習慣放在句尾。\n- 「該次」可以說 *for that commit* 或 *for that run*，不需要用 *the said*，那是法律文件的用語。\n- 「只限定使用」用 *should always use* 或 *must only use* 就夠了，不用把「限定」和「只」都翻出來。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a605d761c689",
+      "date": "20261112",
+      "front": "你說的「可能」用 **might have + 過去分詞**，表示對過去發生的事不太確定，用法正確。",
+      "body": "你這句「但是今年的資金來源可能也有一些是從之前的存款補進來的」可以這樣說：\n\n> \"But some of this year's money might have actually come from my previous savings.\"\n\n- **come from**：「來自」，用來描述資金來源很自然。\n- **dip into one's savings**：「動用存款」，非常道地的說法，例如 **\"I may have dipped into my savings this year.\"**\n- **top up**：「補進、補足」，例如 **\"I topped up my payroll account with my savings.\"**\n- 你說的「可能」用 **might have + 過去分詞**，表示對過去發生的事不太確定，用法正確。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a1f79be0146f",
+      "date": "20261112",
+      "front": "\"Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.\"",
+      "body": "你這次的英文指令：\n> \"Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.\"\n\n文法和用字都正確、自然，而且簡潔清楚，很棒！👍\n- **為什麼好：** \"follow it exactly\" 用副詞 *exactly* 強調「完全照著做」，比 \"follow it\" 語氣更明確。後一句用 \"Commit data is in...\" 直接交代資料位置，是很道地的技術溝通寫法。\n- **另一種說法：** \"Commit data **can be found in** _auto/commits.txt.\" 語氣稍微正式一點，常用在文件或說明裡。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "a136da10b876",
+      "date": "20261112",
+      "front": "\"You're calling a legacy API, which is not enabled for your project.\"",
+      "body": "這次你只貼了 log，沒有寫英文句子。剛好藉這段 Google 的錯誤訊息，學一個很實用的說法：\n\n> **\"You're calling a legacy API, which is not enabled for your project.\"**\n\n📝 用字細節：\n- **legacy** 在軟體領域是指「舊版、仍可使用但已不再發展的系統」，例如 *legacy code*（舊程式碼）、*legacy system*（舊系統）。這個字不帶貶意，只是說明它是過去留下來的東西。\n- **which is not enabled** 是非限定關係子句，前面要加逗號，用來補充說明 legacy API 的狀態。\n- 想跟同事說明這件事時，可以這樣講：**\"We need to migrate off the legacy Places API.\"** 其中 **migrate off** 是「從……遷移出去」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "997868cfeacc",
+      "date": "20261112",
+      "front": "\"Could you help polish the UI a bit more? Some parts don't look quite right.\"",
+      "body": "你這次用中文：「UI 再幫忙修復一下，有些部分不那麼好看」\n\n自然的英文說法：\n> \"Could you help polish the UI a bit more? Some parts don't look quite right.\"\n\n用法說明：\n- **polish**（打磨、潤飾）比 **fix**（修正）更貼切。UI 只是「不夠好看」、不是壞掉的話，母語人士通常會說 *polish* 或 *clean up*。\n- **don't look quite right** 語氣比較委婉，意思是「看起來怪怪的、不太對」，比 *ugly* 客氣很多。\n- 「再」可以用 **a bit more** 表達，代表之前已經改過一輪，現在要再調整一些。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9193ec5fcc40",
+      "date": "20261112",
+      "front": "\"Please deploy the latest changes to production.\"",
+      "body": "這次你只輸入了指令 `/deploy`，沒有寫英文句子。\n\n如果想用一句英文表達，可以這樣說：\n> \"Please deploy the latest changes to production.\"\n\n用法說明：\n- **deploy ... to production** 是「部署到正式環境」的標準說法，*production* 常簡寫成 *prod*。\n- 想說「上線」也可以用 **ship it** 或 **push it live**，語氣比較口語。\n- **the latest changes** 指「最新的改動」，講得比單純 *deploy* 更清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "90d61b1d2b4a",
+      "date": "20261112",
+      "front": "\"I got the following errors when starting the backend:\"",
+      "body": "你這次的句子：「後端啟動時有以下錯誤：」\n\n自然的英文說法：\n> **\"I got the following errors when starting the backend:\"**\n> 或 **\"The backend threw these errors on startup:\"**\n\n📝 用字細節：\n- **on startup** 是描述「啟動時」的固定說法，比 *when it starts* 更精簡、更像工程師的用語。\n- **threw errors** 用 *throw* 描述程式丟出錯誤或例外，對應 Java 的 *throw an exception*，是很道地的技術英文。\n- 小提醒：這些錯誤其實是啟動後每分鐘由排程觸發的，不是啟動那一刻發生的。要描述得更精確，可以說 **\"I keep seeing this error every minute after startup.\"** 其中 **keep + V-ing** 表示「一直重複發生」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "84f4a765fd8b",
+      "date": "20261112",
+      "front": "\"That really hit hard!\"",
+      "body": "你這次用中文提問，以下是比較自然的英文說法：\n\n> \"Wow, that's a real wake-up call! What's my average monthly spending right now? What's my average monthly income, including bonuses? Should I be looking for ways to increase my income?\"\n\n- **wake-up call**：「警鐘、當頭棒喝」，最能表達你說的「重重的一擊」。也可以說 **\"That really hit hard!\"**\n- **look for ways to increase my income**：「想辦法增加收入」，也就是「開源」。\n- 「開源節流」可以說 **\"increase income and cut expenses\"**，或是 **\"earn more and spend less\"**。\n- 補充：**side hustle** 是「副業、兼差」，例如 **\"I'm thinking about starting a side hustle.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "83c6d63d722a",
+      "date": "20261112",
+      "front": "\"Hold on, let's take it one step at a time. ... OK, what's next?\"",
+      "body": "你這次的句子：「等等，一步一步來。……然後呢?」\n\n自然的英文說法：\n> **\"Hold on, let's take it one step at a time. ... OK, what's next?\"**\n\n📝 用字細節：\n- **Hold on** 是「等一下」最常見的口語說法，比 *Wait* 稍微柔和一點。\n- **one step at a time** 是固定片語，意思是「一步一步來」，常用來提醒對方放慢腳步。\n- 「然後呢？」用 **What's next?** 或 **Now what?** 都可以。*Now what?* 有時會帶一點不耐煩的語氣，所以 **What's next?** 比較中性。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "835d9dfd8957",
+      "date": "20261112",
+      "front": "\"Her 22,619 is just a pass-through.\"",
+      "body": "你這次的說明用中文寫，以下是重點句的英文說法：\n\n> \"Our main source of income is salary, so all income goes into my payroll account. Since we keep several joint funds, my wife transfers 22,619 to my payroll account every payday. That covers her share of the household fund, shared meals, baby fund, pet fund, and mortgage. I then transfer it out to different accounts.\"\n> \"The reason I do this is that my Mega Bank payroll account offers 99 free transfers a month, which saves us on transfer fees.\"\n\n- **payroll account**：「薪轉戶」的英文。\n- **payday**：「發薪日」，\"every payday\" 就是「每次領薪水的時候」。\n- **her share of ...**：「她應分攤的……」，**share** 在這裡是「份額」。\n- **saves us on transfer fees**：「幫我們省下轉帳手續費」，**save on + 費用** 是很自然的搭配。\n- 「代轉、過帳」可以說 **pass-through**，例如 **\"Her 22,619 is just a pass-through.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "77afb3213640",
+      "date": "20261112",
+      "front": "\"Is `npm run deploy` all I need?\"",
+      "body": "| 中文 | 英文 |\n|---|---|\n| 直接 npm run deploy 即可嗎? | Can I just run `npm run deploy`? |\n\n- 「直接…即可」很適合用 *just* 表達，意思是「只要這樣做就好」。\n- 也可以說 *\"Is `npm run deploy` all I need?\"*，語氣更口語，強調「這樣就夠了嗎」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "72eea92ed45a",
+      "date": "20261112",
+      "front": "\"Please commit, push, and merge the changes, with the message in Traditional Chinese.\"",
+      "body": "你這次只輸入了 `zh-tw /commit-push-merge`，是語言參數加指令名稱，沒有完整的英文句子可以批改。這種寫法清楚直接，對工具來說很好懂。\n\n如果想用一句完整的英文下指令，可以這樣說：\n\n> \"Please commit, push, and merge the changes, with the message in Traditional Chinese.\"\n\n- 三個以上的動作並列時，最後一個前面加逗號再接 *and*，這叫 Oxford comma。在技術文件裡很常見，可以避免語意不清。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6f54fa868a28",
+      "date": "20261112",
+      "front": "\"\n> 2. \"",
+      "body": "你這次用中文回覆，以下是三點的英文說法：\n\n> 1. \"Yes, that's because of my raise. It was back-paid from April to the month it took effect, so the actual raise is 1,816 — my base salary went from 42,355 to 44,171.\"\n> 2. \"Right, I added my mother as a dependent, since she happened to retire that month.\"\n> 3. \"Don't count the 3,000 savings trust contribution as available funds. It's long-term money I probably won't withdraw until I leave the company or turn 50, 60, or 65.\"\n\n- **back-paid / back pay**：「補發的薪資」，名詞用 back pay，例如 \"I got 6 months of back pay.\"\n- **take effect**：「生效」，例如 \"The raise took effect in April.\"\n- **add someone as a dependent**：「把某人加為眷屬」，保險和報稅的情境很常用。\n- **won't ... until ...**：「要到……才會……」，正好對應中文的「至少放到……才會領出」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6c5da8753ed2",
+      "date": "20261112",
+      "front": "\"Does this look good?\"",
+      "body": "這次你同樣只貼了輸出。補充一個確認對方檢查結果時好用的說法：\n\n> **\"Does this look good?\"** 或 **\"Did I get it right?\"**\n\n📝 用字細節：\n- **Does this look good?** 是請對方幫忙看結果的常用說法，簡短又自然。\n- **Did I get it right?** 帶有「我做對了嗎」的意思，比較著重確認自己的操作有沒有出錯。\n- 對方回覆時常會說 **\"Looks good!\"** 或 **\"Spot on!\"**。其中 **spot on** 是英式口語，意思是「完全正確」。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "6b37fce4471e",
+      "date": "20261112",
+      "front": "\"Let's start with my local machine. I've already run the script. Next, you said to run `gradlew --stop`, but I got the following:\"",
+      "body": "你這次的句子：「先來搞本機的，我已經跑完腳本了，接下來你說要 gradlew --stop，但是發生了下列：」\n\n自然的英文說法：\n> **\"Let's start with my local machine. I've already run the script. Next, you said to run `gradlew --stop`, but I got the following:\"**\n\n📝 用字細節：\n- 「先來搞……」口語又隨性，英文用 **Let's start with...** 最貼切。*Let's deal with local first* 也很自然。\n- 「發生了下列」通常說 **I got the following (error)**，比 *the following happened* 更符合工程師的說話習慣。\n- **you said to + 動詞** 用來轉述對方的指示，例如 *you said to restart the IDE*，是很實用的句型。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6aefb6f26e1b",
+      "date": "20261112",
+      "front": "\"Turns out Places API (New) wasn't actually enabled in the Library. I've enabled it now — can you give it a try?\"",
+      "body": "你這次的句子：「結果剛剛發現程式庫裡的 Places API (New) 是未啟用的狀態，現在啟用了，你試試看」\n\n自然的英文說法：\n> **\"Turns out Places API (New) wasn't actually enabled in the Library. I've enabled it now — can you give it a try?\"**\n\n📝 用字細節：\n- **wasn't actually enabled** 裡的 **actually** 有「原來其實沒有」的意思，正好呼應你之前以為已經設好、後來才發現沒有的情況。\n- **I've enabled it now** 用現在完成式加上 *now*，強調「現在已經處理好了」。\n- 這次和上次都用到 **Turns out...**，這是描述「查了之後才發現」最自然的開頭，值得記起來。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "62df1cae1ef6",
+      "date": "20261112",
+      "front": "\"Go ahead and commit.\"",
+      "body": "你這次的句子：「可以 commit」\n\n自然的英文說法：\n> **\"Go ahead and commit.\"** 或 **\"OK to commit.\"**\n\n📝 用字細節：\n- **Go ahead and + 動詞** 是授權對方去做某件事最常見的說法。\n- 這次剛好說明了英文裡 *commit* 和 *push* 的差別很重要。如果你想一次授權整個流程，可以說 **\"Go ahead and commit, merge, and push.\"**，或簡短地說 **\"Ship it.\"**。*Ship it* 是工程師的口語，意思是「上線吧」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5c24ea8081d9",
+      "date": "20261112",
+      "front": "「進入版控」英文常說 *commit it to version control* 或 *check it into the repo*。",
+      "body": "| 中文 | 英文 |\n|---|---|\n| 你在這個專案寫個 skills 進入版控，該 skills 是先自動判斷是否要執行 npm run migrate，接續執行 npm run deploy | Please create a skill in this project and commit it to version control. It should automatically decide whether `npm run migrate` needs to run, and then run `npm run deploy`. |\n\n- 「進入版控」英文常說 *commit it to version control* 或 *check it into the repo*。\n- 「該 skill 是…」不用直譯成 *the skill is…*，改用 *It should…* 描述它要做的事，比較自然。\n- 「判斷是否要」用 *decide whether … needs to …* 就很道地。\n- *skill* 在這裡是單數，指一個 skill，所以不用加 *s*。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "52be0bbfad21",
+      "date": "20261112",
+      "front": "\"Let's slow down a bit and start with my local environment first. Could you walk me through the steps?\"",
+      "body": "> **\"Let's slow down a bit and start with my local environment first. Could you walk me through the steps?\"**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 慢點 | Let's slow down a bit | 用 `Let's` 開頭是提議一起放慢腳步，語氣比 `Slow down.` 柔和，不會像命令 |\n| 先從本機來好了 | start with my local environment first | `start with` 表示「從…開始」；本機說 `local environment` 或 `locally` 都可以 |\n| 請教我步驟 | walk me through the steps | `walk someone through` 是「一步一步帶著某人做」，比 `teach me the steps` 更自然 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4f225a46cc92",
+      "date": "20261112",
+      "front": "\"The financial health check would be easier to read as a PDF.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> **\"The financial health check would be easier to read as a PDF.\"**\n\n或更像指令的版本：\n\n> **\"Could you turn the financial health check into a PDF? It'd be easier to read.\"**\n\n**說明：**\n- 「財務健檢」可以說 **financial health check** 或 **financial check-up**，兩個都很道地；health check 比較常用在報告標題。\n- 「弄成 PDF」說 **turn ... into a PDF** 或 **convert ... to PDF** 都可以。turn into 比較口語，convert 比較正式、技術性。\n- 「比較好閱讀」用 **would be easier to read**。用 would 表示「如果變成 PDF 的話會比較好讀」，是假設語氣，聽起來比較委婉。\n- 小提醒：你打的「建檢」應該是「**健**檢」（健康檢查的「健」），是同音的錯字。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4dfcce4d0a4c",
+      "date": "20261112",
+      "front": "\"I've successfully run the ALTER locally and verified it's OK. What's next?\"",
+      "body": "> **\"I've successfully run the ALTER locally and verified it's OK. What's next?\"**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 我本機成功 ALTER 完了 | I've successfully run the ALTER locally | 用現在完成式 `I've run` 表示剛做完、跟現在有關；「在本機」用副詞 `locally` 最簡潔 |\n| 也已確認 ok | and verified it's OK | `verify` 比 `check` 更有「確認無誤」的意思，技術情境常用 |\n| 接下來呢 | What's next? | 最自然的說法；也可以說 `What should I do next?` |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "4b0cc424cb52",
+      "date": "20261112",
+      "front": "\"Turns out Routes API was never added — I checked on my colleague's computer and added it myself. It's been almost 10 minutes, so could you test it again?\"",
+      "body": "你這次的句子：「結果剛剛我去同事電腦看發現 Routes API 根本沒加到，所以我加好了，然後也過了快 10 分鐘了，請你再測是一次吧」\n\n自然的英文說法：\n> **\"Turns out Routes API was never added — I checked on my colleague's computer and added it myself. It's been almost 10 minutes, so could you test it again?\"**\n\n📝 用字細節：\n- **Turns out...** 是「結果發現……」的口語說法，句首的 *It* 常省略，很適合用來說明查到的意外原因。\n- 「根本沒加到」用 **was never added** 表達，*never* 有「根本沒有」的強調語氣。\n- **It's been almost 10 minutes** 用現在完成式表示「到現在已經過了快 10 分鐘」。\n- 另外，中文原句的「再測是一次」應該是「再測試一次」的筆誤。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "417132dc801e",
+      "date": "20261112",
+      "front": "\"For the export feature, could you calculate the totals as well? Right now it only shows the individual line items.\"",
+      "body": "你這次用中文發問，下面是比較自然的英文說法：\n\n> \"For the export feature, could you calculate the totals as well? Right now it only shows the individual line items.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 總計 | totals / grand total | 「grand total」指最後一個總數；有好幾個合計項目時用 totals |\n| 每一筆的明細 | individual line items / transaction details | 「line item」是會計和報表裡的常用詞，指明細裡的一列 |\n| 是否可以… | Could you… as well? | 句尾加 *as well* 表示「另外也」，語氣比 *also* 柔和 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "3d5f46b45d81",
+      "date": "20261112",
+      "front": "\"I'll keep a copy for my records.\"",
+      "body": "你這句「好幫我做個總結留存好了」可以這樣說：\n\n> \"Okay, please write up a summary for my records.\"\n\n- **write up**：「把內容整理成文字」，比 \"make a summary\" 更道地。\n- **for my records**：「留存、存檔備查」，正好對應你說的「留存」，例如 **\"I'll keep a copy for my records.\"**\n- 也可以說 **\"Let's wrap this up with a summary I can keep.\"**，其中 **wrap up** 是「收尾、做個總結」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3897262abc9c",
+      "date": "20261112",
+      "front": "\"The password is 11111111. Please remember it and use this account whenever you need to test. I've already logged in.\"",
+      "body": "你這次用中文：「密碼是11111111，請你記起來，以後要測試就用這組帳號密碼。我已經登入了」\n\n自然的英文說法：\n> \"The password is 11111111. Please remember it and use this account whenever you need to test. I've already logged in.\"\n\n用法說明：\n- **whenever you need to test** 比直譯的 *in the future when testing* 更自然，*whenever* 有「每次只要…就…」的意思。\n- **I've already logged in** 用現在完成式，表示「登入這個動作已經完成，現在是登入的狀態」。如果用過去式 *I logged in*，聽起來只是在說過去某個時間點發生的事。\n- 「這組帳號密碼」口語上直接說 **this account** 或 **these credentials** 就可以，英文不需要特別翻出「組」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "350823c1acbb",
+      "date": "20261112",
+      "front": "\"So, in a nutshell, ...\"",
+      "body": "你這句可以這樣說：\n\n> \"So to sum up, if I compare my salary income this year with all my current expenses, I'm in the red this year, right?\"\n\n- **to sum up**：「總結一下」，也可以說 **\"So, in a nutshell, ...\"**（簡單來說）。\n- **in the red**：「赤字、入不敷出」，正好表達你想問的意思。\n- 注意用詞差異：\n  - **in debt**：「負債、欠錢」，例如欠卡債。\n  - **running a deficit**：「收支出現赤字」。\n  - **spending more than I earn**：「花的比賺的多」，最白話的說法。\n- 所以你今年的情況是 **\"I'm spending more than I earn, but I'm not in debt.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "312f45276430",
+      "date": "20261112",
+      "front": "\"I still have an outstanding balance with the court.\"",
+      "body": "你這句可以這樣說：\n\n> \"Yes, I'm holding cash that my teammates have paid but I haven't paid to the court yet. I get paid twice a month, on the 5th and on the third Friday, so I always pay the court on the third Friday.\"\n\n- **I'm holding cash that ...**：「我手上有……的現金」，**hold** 表示「暫時保管」，很適合用在代收的錢。\n- **get paid twice a month**：「一個月領兩次薪水」，比 \"my salary comes in twice\" 更口語。\n- **on the third Friday of each month**：「每月第三個星期五」，日期前用 **on**。\n- 補充：你手上這筆「之後要還的錢」叫 **outstanding balance**（未結清餘額），例如 **\"I still have an outstanding balance with the court.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1f7dbaea2069",
+      "date": "20261112",
+      "front": "\"Since the key came from my colleague, I asked them to check the settings. Here are the screenshots for your reference:\"",
+      "body": "你這次的句子：「因為 key 是同事提供的，我請同事去確認，截圖給你參考：」\n\n自然的英文說法：\n> **\"Since the key came from my colleague, I asked them to check the settings. Here are the screenshots for your reference:\"**\n\n📝 用字細節：\n- 「key 是同事提供的」用 **the key came from my colleague** 很自然。比起 *was provided by my colleague*，這種說法更口語、不生硬。\n- 「我請同事去確認」用 **I asked them to check**。英文提到性別不明的同事時，常用 **them** 代稱。\n- **for your reference** 是附上資料時的常用語，意思是「供你參考」，在 email 和訊息裡都很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1d58affc50ae",
+      "date": "20261112",
+      "front": "\"The amount due from players was 19,900.\"",
+      "body": "你這句「10 月場地費 18,381 元，然後這邊是 10 月開團紀錄」可以這樣說：\n\n> \"October's court fee is 18,381, and here's the record of the sessions I organized in October.\"\n\n- **court fee**：「場地費」，球場、網球場都用 **court**。\n- **here's ...**：「這是……」，附上資料時很自然的開頭。\n- **organize a session**：「開團」。「開團紀錄」也可以說 **session log**。\n- 圖表裡的「利潤」是 **profit**，「應收」是 **receivable** 或 **amount due**，例如 **\"The amount due from players was 19,900.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1cc47f4d9c87",
+      "date": "20261112",
+      "front": "(empty)",
+      "body": "> **\"Wait — for database changes I'd like to stick with the DAOTool generation approach, since that's how the senior developers have always done it. If we need to add a column, just give me the SQL and I'll run it on the database myself.\"**\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 等等 | Wait — | 口語中用來打斷、改變方向，破折號表示語氣停頓 |\n| 想要照原本…的方式 | stick with … approach | `stick with` 有「維持原本做法、不改變」的意思，比 `use` 更能表達堅持慣例 |\n| 前輩們 | the senior developers | 職場上的「前輩」通常說 `senior developers / senior colleagues`，不會說 `predecessors`（那是「前任」） |\n| 畢竟…都是這樣做的 | since that's how … have always done it | `have always done` 強調一直以來的慣例 |\n| 我會去對資料庫下語法 | I'll run it on the database myself | 「下語法」英文用 `run / execute the SQL`，加 `myself` 表示自己動手 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "1a4f7d5012ee",
+      "date": "20261112",
+      "front": "\"my monthly auto-investment\"",
+      "body": "你這次用中文提問，以下是比較自然的英文說法：\n\n> \"I'd like to rethink how much I can invest each month. Could you give me a rough idea of whether I can increase my current monthly DCA of 5,000, and give me your analysis and recommendations?\"\n\n- **DCA (dollar-cost averaging)**：「定期定額」的英文，投資圈很常用。也可以說 **\"my monthly auto-investment\"**。\n- **rethink**：「重新規劃、重新考慮」，比 \"plan again\" 自然得多。\n- **give me a rough idea**：「大概抓一下」，\"rough\" 表示「粗略的、大概的」。\n- **increase / bump up**：「提高」，口語上常說 **\"Can I bump it up to 7,000?\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "198cb6974b90",
+      "date": "20261112",
+      "front": "\"Please commit these changes, merge them into main, and push.\"",
+      "body": "這次你只輸入了指令 `/commit-push-merge`，沒有寫英文句子。\n\n如果想用一句英文說出同樣的要求，可以這樣講：\n> \"Please commit these changes, merge them into main, and push.\"\n\n用法說明：\n- 三個動作用 **A, B, and C** 串起來，是英文列舉的標準寫法，最後一項前面加 *and*。\n- **merge into main** 是 Git 的固定說法，介系詞用 *into*，不是 *to*。\n- 前面加 **Please** 會讓句子更有禮貌。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "18dbc87ab506",
+      "date": "20261112",
+      "front": "\"Could the Accounts card be the same height as the Funds card?\"",
+      "body": "你這次用中文：「帳戶的 card 可不可以跟基金等高？」\n\n自然的英文說法：\n> \"Could the Accounts card be the same height as the Funds card?\"\n\n或更口語、更像在下指令的說法：\n> \"Can you make the Accounts card match the height of the Funds card?\"\n\n用法說明：\n- 「等高」英文最常說 **the same height as...**，或用動詞 **match the height of...**。\n- **match** 有「配合、對齊」的意思，開發者在講 UI 對齊時很常用，例如 *match the width*、*match the style*。\n- 「可不可以」用 **Could...?** 比 **Can...?** 更客氣一點。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "186279ae38ec",
+      "date": "20261112",
+      "front": "「被問得很煩」英文常說 *I'm tired of being asked*，或比較口語的 *It's annoying to be asked every time*。",
+      "body": "| 中文 | 英文 |\n|---|---|\n| 那全域 CLAUDE.md 的規則也調整，一律預設 zh-tw，只有 group-around 路徑內任何 repo 預設 en 而已 | Then please update the rule in the global CLAUDE.md too: default to zh-tw everywhere, except for repos under group-around, which default to English. |\n| 不然我被問得很煩了 | Otherwise, I'm getting tired of being asked every time. |\n\n- 「被問得很煩」英文常說 *I'm tired of being asked*，或比較口語的 *It's annoying to be asked every time*。\n- *default to X* 是動詞用法，意思是「預設為 X」，比 *use X by default* 更簡潔。\n- *except for … , which …* 可以把例外寫進同一句，不用拆成兩句。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "16f639377b5c",
+      "date": "20261112",
+      "front": "\"I reconciled every transaction against the statement.\"",
+      "body": "你這句「我直接把兆豐薪轉戶的歷史紀錄下載下來了，請你去看……兩個檔案」可以這樣說：\n\n> \"I downloaded the transaction history for my Mega Bank payroll account. Please take a look at these two files: ...\"\n\n- **transaction history**：「交易明細、歷史紀錄」，銀行用語。對帳單也可以說 **bank statement**。\n- **take a look at**：比 \"see\" 更自然，表示「看一下、檢查一下」。\n- 本次對帳學到的實用詞彙：\n  - **reconcile**：「對帳」，例如 **\"I reconciled every transaction against the statement.\"**\n  - **running balance**：「逐筆累計的帳戶餘額」，也就是對帳單上的「帳戶餘額」欄。\n  - **front the money**：「先墊錢」，例如 **\"I front the court fees and my teammates pay me back in cash.\"**",
+      "tags": [
+        "vocab"
+      ]
+    },
+    {
+      "id": "12da6fbbbba0",
+      "date": "20261112",
+      "front": "\"There's already a test account, test@gmail.com. Feel free to use that one.\"",
+      "body": "你這次用中文：「已經有一個 test@gmail.com 的測試帳號了，你可以用這個」\n\n自然的英文說法：\n> \"There's already a test account, test@gmail.com. Feel free to use that one.\"\n\n用法說明：\n- **There's already...** 是英文裡「已經有某個東西」最常見的開頭，比 *I already have...* 更著重在「東西本身存在」。\n- **Feel free to use...** 比 *You can use...* 更友善，帶有「儘管用、不用客氣」的意思。\n- **that one** 用來指前面提到的那個帳號，比重複說 *this account* 更口語、更自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "10c8261230d7",
+      "date": "20261112",
+      "front": "\"Go ahead and push. Also, what needs to be done on the frontend? I can make those changes myself, too.\"",
+      "body": "你這次的句子：「可以 push，然後你說前端要做甚麼? 我這邊也可以改前端啊」\n\n自然的英文說法：\n> **\"Go ahead and push. Also, what needs to be done on the frontend? I can make those changes myself, too.\"**\n\n📝 用字細節：\n- **what needs to be done** 是被動語態，意思是「需要做哪些事」，重點放在工作本身，不強調由誰來做，很適合這個情境。\n- 「我這邊也可以改」用 **I can make those changes myself, too** 表達；也可以說 **I can handle the frontend as well**，*handle* 有「我來處理」的意思。\n- 中文句尾的「啊」帶有「這不是問題」的語氣，英文可以在句首加 **Actually,** 來表達，例如 *Actually, I can handle the frontend too.*",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
       "id": "fb169391eda3",
       "date": "20261111",
       "front": "\"So I guess we're ready to commit?\"",
