@@ -10,10 +10,28 @@
       ]
     },
     {
+      "id": "f9fbbf321ff8",
+      "date": "20261112",
+      "front": "\"Ship it through the usual git flow.\"",
+      "body": "你這次輸入的是 `/git-flow` 指令，沒有英文句子可以修正。這裡補一個相關的說法：\n\n> **\"Ship it through the usual git flow.\"**\n\n- **ship** 在工程圈常用來表示「把改動送出、上線」，例如 **\"Let's ship this fix.\"**\n- **the usual ...** 表示「照慣例的……」，很適合用來請別人照你平常的習慣做事。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f83e32cdeafe",
       "date": "20261112",
       "front": "\"Why are the Accounts and Funds cards different heights again locally? They're the same height in production after the deploy.\"",
       "body": "你這次用中文：「為什麼本機的帳戶卡片跟基金卡片又不等高了？但是剛剛部署到正式機後正式機卻有等高」\n\n自然的英文說法：\n> \"Why are the Accounts and Funds cards different heights again locally? They're the same height in production after the deploy.\"\n\n用法說明：\n- 「本機」在開發情境常說 **locally** 或 **on my local**；「正式機」說 **in production** 或 **on prod**。\n- **different heights** 直接表達「不等高」，比 *not the same height* 更精簡。\n- 「卻」帶有轉折和意外的語氣，英文不一定要硬翻成 *but*。把兩句分開講，對比的意思就很清楚了；想強調的話，可以在第二句前面加 **Yet** 或 **But**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "f4b423301fcf",
+      "date": "20261112",
+      "front": "你的中文句子自然的英文說法：",
+      "body": "你的中文句子自然的英文說法：\n\n> \"Could you also update Cheng's job description to better fit the new role?\"\n\n說明：\n- **better fit the role** 是「更符合這個職位」的道地說法，比 *more match the position* 自然很多。\n- **job description** 在徵才時常縮寫成 **JD**。放在團隊介紹裡也可以說 **bio**（個人簡介），例如 *update Cheng's bio*。\n- 加上 **also** 可以帶出「跟剛才改職稱一起處理」的意思。",
       "tags": [
         "note"
       ]
@@ -73,10 +91,28 @@
       ]
     },
     {
+      "id": "e5fc6fbbf087",
+      "date": "20261112",
+      "front": "\"Merged and pushed — just needs a deploy.\"",
+      "body": "這次你只輸入了 `/git-flow` 指令，沒有寫英文句子。補一個收尾時常用的說法：\n\n> \"Merged and pushed — just needs a deploy.\"\n\n說明：\n- 句子開頭省略主詞 *It's / The change is*，是工程師在聊天和回報進度時很常見的簡潔寫法。\n- **just needs a deploy** 的 **deploy** 當名詞用，意思是「只差部署這一步」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e5cdb4f3f013",
       "date": "20261112",
       "front": "\"Take a look at @115年所得.txt and see if you can make sense of the format. Then try converting it into an Excel file.\"",
       "body": "你這次用中文下指令，以下是比較自然的英文說法：\n\n> \"Take a look at @115年所得.txt and see if you can make sense of the format. Then try converting it into an Excel file.\"\n\n- **make sense of**：「看懂、理解」，比 \"understand\" 更口語，適合用在格式比較亂、需要花點心思理解的情況。\n- **see if you can...**：「看你能不能……」，對應你說的「看你看不看得懂」，語氣客氣又自然。\n- **convert A into B**：「把 A 轉成 B」。也可以說 \"turn it into an Excel spreadsheet\"，口語上更常聽到。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e47bdf3d3510",
+      "date": "20261112",
+      "front": "\"deploy\"",
+      "body": "你只打了一個字 **\"deploy\"**，這種指令式的寫法對工程師很自然、也很清楚。想說得完整一點可以這樣講：\n\n> \"Deploy the site to production.\"\n\n或：\n\n> \"Push the latest changes live.\"\n\n說明：\n- **production** 指正式環境，跟 staging（測試環境）相對。加上它可以清楚表示要部署到哪裡。\n- **go live** 或 **push live** 是口語的「上線」，在團隊聊天裡很常見。",
       "tags": [
         "note"
       ]
@@ -145,6 +181,24 @@
       ]
     },
     {
+      "id": "b49b08552c16",
+      "date": "20261112",
+      "front": "你的原句「先更新一下」，自然的英文可以這樣說：",
+      "body": "你的原句「先更新一下」，自然的英文可以這樣說：\n\n> **\"Go ahead and update it first.\"**\n> 或更簡短的 **\"Update it first.\"**\n\n- **Go ahead and...** 是很常用的口語開頭，意思是「你就去做吧」，帶有授權、放手讓對方做的語氣，正好對應中文的「先……一下」。\n- 「一下」本身不必硬翻，英文用 **quickly** 也能表達類似的輕鬆感：**\"Can you quickly update the docs?\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b495246955b6",
+      "date": "20261112",
+      "front": "你的原句「push」只有一個字，這種單字指令在工程對話裡很自然。想說完整一點可以用：",
+      "body": "你的原句「push」只有一個字，這種單字指令在工程對話裡很自然。想說完整一點可以用：\n\n> **\"Push it to origin.\"**\n> 或 **\"Go ahead and push.\"**\n\n- **push to origin** 明確說出要推到哪個遠端。\n- 你連續幾次都用很短的英文指令，例如 commit、push，這正是工程師之間的溝通習慣，簡潔又清楚，做得很好 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "ab002f3d9d7f",
       "date": "20261112",
       "front": "\"/commit-push-merge\"",
@@ -203,6 +257,15 @@
       "date": "20261112",
       "front": "\"I got the following errors when starting the backend:\"",
       "body": "你這次的句子：「後端啟動時有以下錯誤：」\n\n自然的英文說法：\n> **\"I got the following errors when starting the backend:\"**\n> 或 **\"The backend threw these errors on startup:\"**\n\n📝 用字細節：\n- **on startup** 是描述「啟動時」的固定說法，比 *when it starts* 更精簡、更像工程師的用語。\n- **threw errors** 用 *throw* 描述程式丟出錯誤或例外，對應 Java 的 *throw an exception*，是很道地的技術英文。\n- 小提醒：這些錯誤其實是啟動後每分鐘由排程觸發的，不是啟動那一刻發生的。要描述得更精確，可以說 **\"I keep seeing this error every minute after startup.\"** 其中 **keep + V-ing** 表示「一直重複發生」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8bed72a8cd8a",
+      "date": "20261112",
+      "front": "\"Ship this change through the usual git flow.\"",
+      "body": "這次你只輸入了 `/git-flow` 指令，沒有寫英文句子。如果想用英文表達同一件事，可以說：\n\n> \"Ship this change through the usual git flow.\"\n\n或：\n\n> \"Commit this on a new branch and merge it back into main.\"\n\n說明：\n- **ship** 在工程師口語裡是「把改動送上線」，比 deploy 更隨意。\n- **merge it back into main** 裡的 **back** 帶出「從 main 分出去，再合回來」的意思，比只說 merge into main 更清楚。",
       "tags": [
         "note"
       ]
@@ -289,6 +352,15 @@
       ]
     },
     {
+      "id": "6a3ce6b8e6da",
+      "date": "20261112",
+      "front": "你的原句「現在已經有部屬上一個 cloudflare 沒錯嗎?」可以這樣說：",
+      "body": "你的原句「現在已經有部屬上一個 cloudflare 沒錯嗎?」可以這樣說：\n\n> **\"I've already deployed this to Cloudflare, right?\"**\n> 或 **\"Is this already deployed on Cloudflare?\"**\n\n- 句尾加 **\", right?\"** 是向對方確認自己認知的口語說法，語氣和中文的「沒錯吧？」很接近。\n- 部署到某個平台，介系詞用 **deploy *to* Cloudflare**；講「目前正在某平台上執行」的狀態時用 **deployed *on* Cloudflare**。\n- 順帶一提，中文是「部**署**」，不是「部屬」。「部屬」指的是下屬。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "62df1cae1ef6",
       "date": "20261112",
       "front": "\"Go ahead and commit.\"",
@@ -304,6 +376,15 @@
       "body": "| 中文 | 英文 |\n|---|---|\n| 你在這個專案寫個 skills 進入版控，該 skills 是先自動判斷是否要執行 npm run migrate，接續執行 npm run deploy | Please create a skill in this project and commit it to version control. It should automatically decide whether `npm run migrate` needs to run, and then run `npm run deploy`. |\n\n- 「進入版控」英文常說 *commit it to version control* 或 *check it into the repo*。\n- 「該 skill 是…」不用直譯成 *the skill is…*，改用 *It should…* 描述它要做的事，比較自然。\n- 「判斷是否要」用 *decide whether … needs to …* 就很道地。\n- *skill* 在這裡是單數，指一個 skill，所以不用加 *s*。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "59a0a84dff1d",
+      "date": "20261112",
+      "front": "\"Please change the job title here to Chief Financial Officer.\"",
+      "body": "你這次用中文下指令，自然的英文說法可以是：\n\n> \"Please change the job title here to Chief Financial Officer.\"\n\n或更口語一點：\n\n> \"Can you update this title to CFO?\"\n\n說明：\n- 改網頁上的文字時，**update** 比 **change** 更常用，聽起來像在「更新資料」。\n- 「職位」放在名片或網頁上要說 **job title** 或 **title**。**position** 比較偏向公司組織裡的職缺。\n- 英文裡 \"Chief CFO\" 是重複的說法（C 就是 Chief），母語人士會直接說 **CFO** 或 **Chief Financial Officer**。",
+      "tags": [
+        "note"
       ]
     },
     {
@@ -361,6 +442,15 @@
       ]
     },
     {
+      "id": "3c09f5cf788a",
+      "date": "20261112",
+      "front": "你的原句「commit zh-tw」是簡短的指令，在工程對話裡完全沒問題。完整一點的說法可以是：",
+      "body": "你的原句「commit zh-tw」是簡短的指令，在工程對話裡完全沒問題。完整一點的說法可以是：\n\n> **\"Commit it with a zh-tw message.\"**\n\n- 這裡用 **with** 帶出 commit 的附帶內容，例如 **commit with a message**、**commit with a sign-off**。\n- 如果想順便 push，可以說 **\"Commit and push.\"**，工程師之間常這樣省略。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "3897262abc9c",
       "date": "20261112",
       "front": "\"The password is 11111111. Please remember it and use this account whenever you need to test. I've already logged in.\"",
@@ -401,6 +491,15 @@
       "date": "20261112",
       "front": "\"The amount due from players was 19,900.\"",
       "body": "你這句「10 月場地費 18,381 元，然後這邊是 10 月開團紀錄」可以這樣說：\n\n> \"October's court fee is 18,381, and here's the record of the sessions I organized in October.\"\n\n- **court fee**：「場地費」，球場、網球場都用 **court**。\n- **here's ...**：「這是……」，附上資料時很自然的開頭。\n- **organize a session**：「開團」。「開團紀錄」也可以說 **session log**。\n- 圖表裡的「利潤」是 **profit**，「應收」是 **receivable** 或 **amount due**，例如 **\"The amount due from players was 19,900.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1cd8870ba1cc",
+      "date": "20261112",
+      "front": "你的原句「我剛 pull 新版下來，你在確認一次」，自然的英文可以這樣說：",
+      "body": "你的原句「我剛 pull 新版下來，你在確認一次」，自然的英文可以這樣說：\n\n> **\"I just pulled the latest version. Can you check again?\"**\n\n- **pull the latest version / pull the latest changes** 是工程師的日常說法，直接沿用 git 的 `pull` 當動詞。\n- **check again** 也可以換成 **double-check**，語氣更像「再幫我核對一次」。\n- 順帶一提，中文是「**再**確認一次」，不是「**在**」。「再」表示重複，「在」表示位置或正在進行。",
       "tags": [
         "note"
       ]
