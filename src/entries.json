@@ -91,6 +91,15 @@
       ]
     },
     {
+      "id": "c2a455ed90ca",
+      "date": "20261113",
+      "front": "\"Clean up the merged branches.\"",
+      "body": "你這次只輸入了 `/clean-branches` 指令，沒有英文句子可以批改。補充一個相關的說法：\n\n想請別人清理分支時，可以說：\n- **\"Clean up the merged branches.\"**：**clean up** 指「整理、清掉不需要的東西」。\n- **\"Prune the stale branches.\"**：**prune** 原意是「修剪樹枝」，git 也用這個字（例如 `fetch --prune`）；**stale** 指「過時、沒在用的」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "bf1e67e26625",
       "date": "20261113",
       "front": "\"Could you give me the SQL to switch batch 2026111100001 to 'My Favorites advanced query'?\"",
@@ -145,12 +154,39 @@
       ]
     },
     {
+      "id": "a4aad44cc78c",
+      "date": "20261113",
+      "front": "\"Merge it into dev.\"",
+      "body": "\"up to dev\" 意思聽得懂，但不太自然，而且有歧義：可能是「上測試機」，也可能是「merge 進 dev 分支」。我這次照前者執行。\n\n| 你寫的 | 更自然的說法 |\n|---|---|\n| up to dev | **Deploy it to dev.** / **Ship it to dev.** |\n\n- **deploy to** 或 **ship to** 表示「部署到某個環境」。\n- 如果你要的是 merge 分支，可以說 **\"Merge it into dev.\"**。\n- 用動詞開頭的祈使句，指令會更清楚。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
       "id": "98a8f62d888f",
       "date": "20261113",
       "front": "\"Wait, since the backend already uses the new API, why not just switch the frontend to the new format too?\"",
       "body": "你的句子：「等等，那既然後端已經改成新版 API，為什麼前端不跟著改新版就好?」\n\n自然的英文說法：\n> **\"Wait, since the backend already uses the new API, why not just switch the frontend to the new format too?\"**\n\n📝 語感說明：\n- **Wait,** 放在句首，表示「等一下，我想到一個問題」，口語又自然。\n- **why not just...?** 用來提出「為什麼不乾脆…」的建議。加上 *just* 有「這樣不是比較簡單嗎」的語氣。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "96bfa79c864e",
+      "date": "20261113",
+      "front": "\"Show me the commits in deploy/dev-v0.3.65\"",
+      "body": "**\"Show me the commits in deploy/dev-v0.3.65\"** 很好！文法正確、用詞精準，是很自然的祈使句。\n\n補充一個更精確的說法：\n- **\"Show me the unmerged commits on deploy/dev-v0.3.65.\"**：加上 **unmerged**，直接點出你想看的是「還沒併回去的」那幾個。\n- 介系詞方面，講分支上的 commit 時，**on** a branch 比 **in** 更常見，例如 \"commits on dev\"。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "9668ae6ed286",
+      "date": "20261113",
+      "front": "\"Deploy it to prod.\"",
+      "body": "**\"Deploy it to prod.\"** 完全正確！這次你用的 **deploy … to prod** 搭配得很對：deploy 的對象是環境（prod），而不是分支。和上次的 \"Deploy it to main\" 相比，這句就準確了，進步很明顯 👍\n\n補充一個常見的同義說法：\n- **\"Ship it to production.\"**：**ship** 在工程師口語裡就是「發布上線」的意思。",
+      "tags": [
+        "praise"
       ]
     },
     {
@@ -169,6 +205,24 @@
       "body": "這次你只輸入了指令 `/commit-push-merge`，沒有其他英文句子。補充一個相關的實用說法：\n\n> \"The fix is pushed. Let's see if the pipeline goes green.\"\n\n- `go green` 是 CI/CD 圈的慣用語，表示建置「轉綠燈」，也就是通過。\n- 反過來，建置失敗可以說 `the build is red` 或 `the pipeline is broken`。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "8c8f35374c78",
+      "date": "20261113",
+      "front": "\"Go with option 2.\"",
+      "body": "**\"2\"** 用數字回覆選項，在對話中完全沒問題，簡潔有效率。\n\n想說得完整一點的話：\n- **\"Go with option 2.\"**\n- **\"Option 2, please — keep `docs/threads`.\"**：在選項後面補一句理由或重點，可以避免誤會。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "84734ec1246d",
+      "date": "20261113",
+      "front": "\"A, merge it into dev\"",
+      "body": "**\"A, merge it into dev\"** 很好！你直接用了上次建議的 **merge it into**，用法完全正確，意思也很清楚。\n\n如果想更口語一點，也可以說：\n- **\"Go with A — merge it into dev.\"**：用 **go with** 表示「就選這個方案」，是很自然的口語說法。",
+      "tags": [
+        "praise"
       ]
     },
     {
@@ -301,6 +355,17 @@
       ]
     },
     {
+      "id": "234da5ea19ad",
+      "date": "20261113",
+      "front": "\"Deploy it to main.\"",
+      "body": "**\"Deploy it to main.\"** 文法完全正確，而且你用了上次建議的祈使句，很好！\n\n不過要注意用詞：\n- **deploy** 的對象是「環境」，例如 prod、dev、staging。\n- **main** 是 git 的「分支」。分支是拿來 merge 的，不是拿來 deploy 的。\n\n所以依照你的意圖，可以這樣說：\n\n| 意圖 | 說法 |\n|---|---|\n| 合併分支 | **\"Merge it into dev.\"** |\n| 上正式機 | **\"Deploy it to prod.\"** / **\"Ship it to production.\"** |",
+      "tags": [
+        "praise",
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
       "id": "2276bd6f461c",
       "date": "20261113",
       "front": "\"The backend changes are live, so you can start on the frontend whenever you're ready.\"",
@@ -325,6 +390,15 @@
       "body": "你這次用中文提問，自然的英文說法：\n\n> \"Can you give me a rundown of what my coworker broke?\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 報告一下 | give me a rundown / walk me through | `rundown` 是「重點摘要」，口語常用；`walk me through` 則是「一步步說明給我聽」 |\n| 弄壞了甚麼 | what (they) broke | `break` 在軟體圈很常用，例如 `break the build`（把建置弄壞）、`breaking change`（破壞相容性的變更） |\n| 同事 | coworker / colleague | `coworker` 較口語；`colleague` 較正式，書面報告較常用 |\n\n另外提醒一個小地方：「甚麼」和「什麼」都可以用，不過台灣教育部的標準寫法是「什麼」。",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "11dc96ebe99f",
+      "date": "20261113",
+      "front": "\"Yes, delete it locally\"",
+      "body": "**\"Yes, delete it locally\"** 非常好！你特別加了 **locally**，清楚說明只刪本機、不動遠端，避免了誤會。在 git 操作這種有風險的情境，這樣明確的指示很專業。\n\n類似的用法：\n- **\"Delete it remotely too.\"**：連遠端也刪。\n- **\"Keep the remote one.\"**：保留遠端那條。",
+      "tags": [
+        "note"
       ]
     },
     {
