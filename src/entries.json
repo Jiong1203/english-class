@@ -1,6 +1,105 @@
 {
   "entries": [
     {
+      "id": "f44c4e5535ae",
+      "date": "20261115",
+      "front": "你的原句「OK設定完成了，請接續進行後面動作」，自然的英文可以這樣說：",
+      "body": "你的原句「OK設定完成了，請接續進行後面動作」，自然的英文可以這樣說：\n\n> **\"OK, it's all set. Please continue with the next steps.\"**\n> 或更口語的 **\"Done. Go ahead with the rest.\"**\n\n- **all set** 表示「都設定好、準備就緒了」，比 \"the setting is completed\" 自然很多。\n- **continue with...** 用來接續進行中的工作；**the rest** 指「剩下的部分」，口語很常用。\n- 中文的「接續進行後面動作」偏公文語氣，日常對話說「接著做下去吧」就可以了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e2d6f9034769",
+      "date": "20261115",
+      "front": "\"The secret is set. Go ahead and deploy.\"",
+      "body": "這次你直接執行了指令，沒有英文句子可以修正。補一個跟這個情境相關的說法：\n\n> **\"The secret is set. Go ahead and deploy.\"**\n\n- **is set** 是設定類工作完成時很常用的說法，例如 **\"The env var is set.\"**、**\"Everything is set.\"**\n- 執行完你負責的步驟後，可以用這句通知對方，接著讓對方繼續下一步。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "db8a99e9a9da",
+      "date": "20261115",
+      "front": "你的原句「接下來要如何部上第二個環境」，自然的英文可以這樣說：",
+      "body": "你的原句「接下來要如何部上第二個環境」，自然的英文可以這樣說：\n\n> **\"What's next for deploying the second environment?\"**\n> 或 **\"How do I deploy to a second environment from here?\"**\n\n- **What's next for...?** 是在問「下一步是什麼」，很適合流程進行到一半時使用。\n- **from here** 意思是「從目前這個進度開始」，可以帶出「接下來」的語感。\n- 中文的「部上」比較口語，通常會說「部**署**上去」或「部**署到**第二個環境」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d6081a8946a4",
+      "date": "20261115",
+      "front": "你的原句「部署兩間店，然後刪掉分支」，自然的英文可以這樣說：",
+      "body": "你的原句「部署兩間店，然後刪掉分支」，自然的英文可以這樣說：\n\n> **\"Deploy both shops, then delete the branch.\"**\n\n- **then** 用來表示先後順序，英文口語常省略 \"and\"，直接用逗號加 then 就可以。\n- 想強調順序時也可以說 **\"Deploy both shops first, and then delete the branch.\"**\n- 中文的指令本身就很清楚，翻成英文時保留同樣的「動作＋順序」結構就很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d179a815b9ff",
+      "date": "20261115",
+      "front": "你的原句「都沒問題，commit 後部署兩間店，然後刪掉分支」，自然的英文可以這樣說：",
+      "body": "你的原句「都沒問題，commit 後部署兩間店，然後刪掉分支」，自然的英文可以這樣說：\n\n> **\"Looks good. Commit it, deploy both shops, and then delete the branches.\"**\n\n- **Looks good.** 是確認、認可時最常用的簡短回應。code review 常寫成縮寫 **LGTM**（Looks Good To Me）。\n- 連續交代三個動作時，英文習慣用 **A, B, and then C** 的結構，前兩個用逗號分隔，最後用 **and then** 帶出最後一步。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b6b3da5605d8",
+      "date": "20261115",
+      "front": "你的原句「Delete.」雖然只有一個字，在這個情境下完全清楚，因為它直接回答了我「要不要刪分支」的問題。",
+      "body": "你的原句「Delete.」雖然只有一個字，在這個情境下完全清楚，因為它直接回答了我「要不要刪分支」的問題。\n\n想說完整一點可以用：\n\n> **\"Yes, go ahead and delete it.\"**\n> 或 **\"Delete both the local and remote branches.\"**\n\n- **both A and B** 可以一次指明兩個對象，避免對方只刪掉其中一邊。\n- 你這次直接用英文回答，簡潔又到位，很好 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ae3b4e8123f5",
+      "date": "20261115",
+      "front": "你的原句「請問是甚麼意思?」，自然的英文可以這樣說：",
+      "body": "你的原句「請問是甚麼意思?」，自然的英文可以這樣說：\n\n> **\"What does this backup notice mean?\"**\n> 或 **\"Can you explain what this means?\"**\n\n- 英文問「某段文字是什麼意思」時，用 **What does X mean?**。注意助動詞要用 **does**，主要動詞 **mean** 保持原形。\n- 常見錯誤是 \"What means this?\"，英文問句需要助動詞 does 才通順。\n- 中文的「甚麼」和「什麼」都正確，但台灣現在比較常寫「**什麼**」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9330e9f957c4",
+      "date": "20261115",
+      "front": "你的原句「請你以實際系統畫面來製作出一部 30~180 秒的影片(請你自行評估影片長度)，方便讓初次操作系統的用戶可以快速上手。」，自然的英文可以這樣說：",
+      "body": "你的原句「請你以實際系統畫面來製作出一部 30~180 秒的影片(請你自行評估影片長度)，方便讓初次操作系統的用戶可以快速上手。」，自然的英文可以這樣說：\n\n> **\"Please make a 30-to-180-second video using real screens from the system (your call on the exact length), so first-time users can get up to speed quickly.\"**\n\n- **your call** 意思是「由你決定」，比 \"please evaluate the length by yourself\" 自然很多。\n- **get up to speed** 是「快速上手、跟上進度」的道地說法。也可以用 **get started quickly** 或 **learn the ropes**。\n- **first-time users** 簡潔對應「初次操作系統的用戶」，不必寫成 \"users who operate the system for the first time\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "46cff38a2e05",
+      "date": "20261115",
+      "front": "你的原句「好，修正品項字典的文字後重新錄一次，然後把檔案搬進專案目錄中，要進版控的」，自然的英文可以這樣說：",
+      "body": "你的原句「好，修正品項字典的文字後重新錄一次，然後把檔案搬進專案目錄中，要進版控的」，自然的英文可以這樣說：\n\n> **\"OK, fix the '品項字典' wording, re-record the video, and then move the file into the project directory. It should be checked into version control.\"**\n\n- **re-record** 是「重新錄製」，英文常用 **re-** 字首表示「再做一次」，例如 **re-run**、**re-deploy**。\n- **check into version control** 或 **commit to the repo** 是「進版控」的標準說法。\n- **wording** 指「用字、措辭」，要改畫面上的文字時，**fix the wording** 比 \"fix the text\" 更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "45ed8fa94e63",
+      "date": "20261115",
+      "front": "你的原句「給一下 placeholder」，自然的英文可以這樣說：",
+      "body": "你的原句「給一下 placeholder」，自然的英文可以這樣說：\n\n> **\"Can you add placeholders to these fields?\"**\n\n- 英文要說清楚是**加到哪裡**：**add placeholders to the fields**。\n- 「給一下」不用直譯成 \"give\"。對 UI 元素補上內容時，**add** 是最自然的動詞。\n- 也可以說 **\"These inputs need placeholder text.\"**，用描述需求的方式提出請求，語氣更委婉。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "05eea78b7e3f",
+      "date": "20261115",
+      "front": "\"Merge it and deploy to both shops.\"",
+      "body": "你這次輸入的是 `/git-flow` 指令，沒有英文句子可以修正。補一個跟部署有關的說法：\n\n> **\"Merge it and deploy to both shops.\"**\n\n- **deploy to both...** 可以一次指明兩個部署目標，比分開講兩句更精簡。\n- 想一次交代多個動作時，用 **and** 串起來就好，例如 **\"Commit, merge, and deploy.\"**，工程師之間常這樣下指令。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fade43932115",
       "date": "20261113",
       "front": "\"So basically, my colleague can handle the frontend part, and we just ship the backend first and wait for the frontend to be pushed, right?\"",
