@@ -1,6 +1,195 @@
 {
   "entries": [
     {
+      "id": "f8387b1c07e8",
+      "date": "20261116",
+      "front": "\"Here are the YouTube links for the two community videos.\"",
+      "body": "這次你把兩個連結整理成「檔名＋冒號＋網址」，一行一個，格式整齊又清楚 👍\n\n小提醒：冒號又是全形的「：」，英文用半形 `:`，例如：\n\n> community_setup_916: https://…\n\n想多寫一句的話，可以加上：\n\n> \"Here are the YouTube links for the two community videos.\"\n\n**Here are …** 是交付多樣東西時最自然的開頭；只有一樣時用 **Here's …**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e57a1de15f5b",
+      "date": "20261116",
+      "front": "\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 線上運行環境 | production environment | 工程師口語常直接說 **prod**，例如 \"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"In the CSAC production environment, I found that some users run queries many times within a short period, and the count has built up a lot since launch. Do you have any suggestions?\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 線上運行環境 | production environment | 工程師口語常直接說 **prod**，例如 \"I noticed this in prod.\" |\n| 短時間內大量多次執行 | run queries repeatedly in a short time | 也可以說 **hammer the query button**（狂按查詢），很口語、很傳神 |\n| 累積大量次數 | has built up / has piled up | **pile up** 帶有「越堆越多、有點失控」的感覺，比 accumulate 口語 |\n| 有沒有甚麼好建議 | Any suggestions? / How should we handle this? | 後者更聚焦在「要怎麼處理」 |\n\n另外補充一個相關術語：**rate limiting**（限流），就是限制某人在一段時間內能呼叫幾次。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "e194309e58df",
+      "date": "20261116",
+      "front": "你這次一樣用「標籤＋冒號」的格式，清楚好懂 👍",
+      "body": "你這次一樣用「標籤＋冒號」的格式，清楚好懂 👍\n\n小提醒：你這次的冒號是全形的「：」，前一則用的是半形「:」。英文裡要用半形冒號，後面空一格，例如 `create_activity: https://…`。混用全形標點是中文輸入法常見的小習慣，寫英文時留意一下就好。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d8cc6cdbc907",
+      "date": "20261116",
+      "front": "\"I've already moved both the frontend and backend repos over to the new host, so the source code is there too.\"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"I've already moved both the frontend and backend repos over to the new host, so the source code is there too.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 已經……完整搬過去 | have already moved ... over (in full) | 用現在完成式 `have moved` 表示「已經完成、現在的狀態」；`in full` 強調「完整地」，口語中常省略 |\n| 這兩包 repo | both repos | 中文的「兩包」英文用 `both` 就很自然，不需要直譯成 two packages |\n| ……耶 | （語氣） | 中文的「耶」帶有「提醒你一下」的語氣，英文可以用 `Actually, ...` 開頭表達：*Actually, I've already moved both repos...* |\n| 那邊也有 sourcecode | the source code is there too | `source code` 是兩個字；`there too` 放句尾表示「那邊也有」 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d7db22b7ad5c",
+      "date": "20261116",
+      "front": "\"\n\n- **outdated** 比 \"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"The short videos in the website's tutorial are outdated. Please create new tutorial clips from the system's real screens — including LINE chat interactions and the add-friend flow — so we can update the video for each step in the **Tutorial Guide**.\"\n\n- **outdated** 比 \"old version\" 更道地，強調「內容跟不上現況」，正好是你想表達的意思。\n- **from the system's real screens** 用 *from* 表示「素材來源」，比 \"using the real screens\" 更簡潔。\n- **the add-friend flow** 的 *flow* 是產品和 UX 常用字，指「一連串操作步驟」，比 \"screens\" 更能表達這是一段過程。\n- 專有名稱如【教學導引】，英文習慣用粗體或引號標示（**Tutorial Guide** / \"Tutorial Guide\"），不用中文的書名括號。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d7678aad7529",
+      "date": "20261116",
+      "front": "你的原句「哪些要上 R2 請你清單式列出來」，自然的英文是：",
+      "body": "你的原句「哪些要上 R2 請你清單式列出來」，自然的英文是：\n\n> \"Please list the files that need to go up to R2.\"\n\n也可以說：\n\n> \"Can you give me a checklist of what to upload to R2?\"\n\n- **go up to R2** 的 *go up* 是口語的「上傳、放上去」，跟上一則的 *get … up on YouTube* 是同一組用法。\n- **checklist** 比 *list* 多了「可以逐項打勾確認」的意思，很適合拿來要求一份待辦清單。\n- 中文說「清單式列出」，英文直接用動詞 **list** 就有「條列」的意思，不用另外翻成 *in a list format*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c196b26fce76",
+      "date": "20261116",
+      "front": "你的原句「幫我 commit 並推上 API 的改動，然後社群模式也要做，先給我社群模式的影片，這樣我可以先上傳YT」，自然的英文說法是：",
+      "body": "你的原句「幫我 commit 並推上 API 的改動，然後社群模式也要做，先給我社群模式的影片，這樣我可以先上傳YT」，自然的英文說法是：\n\n> \"Please commit and push the API changes. Let's do community mode too — send me those videos first so I can get them up on YouTube.\"\n\n- **commit and push** 是開發者常用的固定搭配，兩個動詞共用同一個受詞 *the API changes*，不用重複寫兩次。\n- **Let's do … too** 比 *also need to do* 口語，帶有「一起來做」的語氣。\n- **get them up on YouTube** 的 *get … up* 是「把東西放上去／上線」，比 *upload them to YouTube* 更口語；兩種說法都正確。\n- 「這樣我可以…」用 **so (that) I can …** 表示目的，是最自然的接法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "98b319f805f6",
+      "date": "20261116",
+      "front": "\"I'll go with the WSL2 + Docker Engine option. Please write it up as a Markdown or PDF file so I can just copy the whole deployment guide over to the new host.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"I'll go with the WSL2 + Docker Engine option. Please write it up as a Markdown or PDF file so I can just copy the whole deployment guide over to the new host.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 我選擇……方案 | I'll go with... / I'm going with... | `go with` 是「決定採用」最自然的口語說法，比 `I choose` 更道地 |\n| 幫我寫成 md | write it up as a Markdown file | `write up` 有「整理成文件」的意思，很適合用在報告或手冊 |\n| 直接把……拉過去 | just copy ... over to | 中文的「拉過去」在英文用 `copy over to` 或 `bring over to`；`over` 帶有「從這裡移到那裡」的感覺 |\n| 比較方便 | so it's easier / for convenience | 用 `so I can just...` 帶出目的，比直接說 `more convenient` 更自然 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6eb90edf552c",
+      "date": "20261116",
+      "front": "你這次用中文提問，以下是自然的英文說法：",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"First, give me a rough overview of the overall architecture and workflow, including installing Docker, setting up the database, deploying the application, and so on.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 你先大概跟我描述一下 | First, give me a rough overview of... | `rough overview` 表示「粗略的概觀」；也可以說 `walk me through ... at a high level`，`high level` 在技術討論中很常用，意思是「不談細節、看大方向」 |\n| 大架構流程 | the overall architecture and workflow | 中文一個詞涵蓋「架構」和「流程」，英文通常分開說 `architecture`（結構）和 `workflow`（步驟） |\n| 建立資料庫 | setting up the database | `set up` 比 `create` 更完整，包含建立、設定、匯入資料 |\n| ……等 | and so on / etc. | 口語用 `and so on`，書面可用 `etc.` |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "66e1227ba6a7",
+      "date": "20261116",
+      "front": "你的原句「所以如果驗證完了也可以上到正式機了嗎」，自然的英文是：",
+      "body": "你的原句「所以如果驗證完了也可以上到正式機了嗎」，自然的英文是：\n\n> \"So once it's verified, can we ship it to production?\"\n\n- **once …** 表示「一旦…就…」，比 *if* 更明確地傳達「驗證完是前提，之後就接著做」的順序感。\n- **ship it to production**（或簡寫 *ship to prod*）是軟體團隊說「上正式機」的道地講法，比 *deploy to the production environment* 更口語。\n- 開頭的 **So** 對應中文的「所以」，用來承接前面的討論、引出結論型的問題，非常自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6414b7d3bef4",
+      "date": "20261116",
+      "front": "\"Approved — and please commit the API changes too.\"",
+      "body": "你回覆「approved」，簡潔明確 👍 這是審核流程裡最標準的用法。\n\n想表達「同意，但還有一件事」的話，可以這樣說：\n- **\"Approved — and please commit the API changes too.\"**：同意之後順便交代下一件事。\n- **\"Approved, go ahead.\"**：多加一句 *go ahead*（請繼續），語氣更積極。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "607dc04670c1",
+      "date": "20261116",
+      "front": "\"What if we install Docker on the new host as well?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"What if we install Docker on the new host as well?\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 那……呢？ | What if...? / What about...? | `What if` 用來提出假設情境；`What about installing Docker?` 比較像「那裝 Docker 怎麼樣？」 |\n| 也安裝 | install ... as well / also install | `as well` 放句尾最自然；`too` 也可以，但比較口語 |\n| 新主機 | the new host / the new machine | 伺服器情境用 `host` 很道地；`machine` 比較通用 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5ce65b0463f5",
+      "date": "20261116",
+      "front": "你的原句「哦！那誤會了，我以為原本的教學影片本來就是用 R2，那這樣可以用 YT 就好」自然的英文是：",
+      "body": "你的原句「哦！那誤會了，我以為原本的教學影片本來就是用 R2，那這樣可以用 YT 就好」自然的英文是：\n\n> \"Oh, my mistake — I thought the tutorial videos were already on R2. In that case, let's just stick with YouTube.\"\n\n- **my mistake** 是口語的「我誤會了／我搞錯了」，輕鬣不正式。也可以說 *I misunderstood*。\n- **I thought ... were already ...** 用過去式 *thought* 表示「我原本以為（但其實不是）」，英文靠時態就能表達「誤以為」，不用另外加字。\n- **stick with** 是「繼續用原本的東西」，比 *use YouTube* 更能傳達「維持現狀、不換了」的意思。\n- **YT** 是 YouTube 的縮寫，聊天時可以用，正式寫作建議寫全名。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "59d80114533e",
+      "date": "20261116",
+      "front": "你的原句「『官網改用 R2 播放』的前端計畫指的是甚麼？」自然的英文是：",
+      "body": "你的原句「『官網改用 R2 播放』的前端計畫指的是甚麼？」自然的英文是：\n\n> \"What exactly is the frontend plan for 'switching the website to play videos from R2'?\"\n\n- **What exactly is...** 加上 *exactly*，表示「你剛剛提過，但我想知道具體內容」，比 \"What is...\" 更貼近你的語氣。\n- 也可以說 **\"What do you mean by the frontend plan ...?\"**。這是在追問對方用詞的意思，口語上很常見。\n- **switch ... to** 是「改用」的道地說法，例如 *switch the site to R2*。\n- 小提醒：「甚麼」和「什麼」都對，台灣教育部的標準寫法是「什麼」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "49f1e4106f62",
+      "date": "20261116",
+      "front": "\"We need to deploy the entire system to a new computer and use it as the server. Please put together the deployment steps. The host is running Windows.\"",
+      "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"We need to deploy the entire system to a new computer and use it as the server. Please put together the deployment steps. The host is running Windows.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 整個部署到 | deploy the entire system to | 「整個」用 entire 或 whole 都可以，entire 比較正式 |\n| 讓該台主機當 server | use it as the server / have it act as the server | `act as` 強調「扮演某個角色」，很適合描述主機用途 |\n| 整理出步驟 | put together the steps / outline the steps | `put together` 有「彙整、組織起來」的意思，比 `organize` 更口語自然 |\n| 該台主機是 Windows | The host is running Windows. | 英文描述作業系統習慣用 `run`（is running Windows），比 `is Windows` 更道地 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "1fb06beaa270",
+      "date": "20261116",
+      "front": "你的原句「社群模式是不是應該也要有短影片在官網中來教學？」自然的英文是：",
+      "body": "你的原句「社群模式是不是應該也要有短影片在官網中來教學？」自然的英文是：\n\n> \"Shouldn't community mode have its own tutorial video on the website too?\"\n\n- **Shouldn't ... too?** 用否定疑問句，帶有「我覺得應該要有，你同意嗎？」的語氣，正好符合中文「是不是應該」的意思。如果用 \"Should community mode have...?\" 就只是中性的提問。\n- **its own** 強調「專屬的一支」，暗示它跟現有影片不同，比只說 \"a video\" 精確。\n- 中文的「在官網中來教學」，英文直接用 **tutorial video on the website** 就夠了，不必另外翻「來教學」。英文習慣把用途放進名詞（tutorial video），不另外加一個動詞。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1f24ebbf533b",
+      "date": "20261116",
+      "front": "你這次回覆「approved」，是軟體開發審核流程的標準用語，簡潔明確 👍",
+      "body": "你這次回覆「approved」，是軟體開發審核流程的標準用語，簡潔明確 👍\n\n其他常見說法，正式程度和語氣略有不同：\n- **LGTM**（Looks Good To Me）：code review 最常見的同意縮寫。\n- **Go ahead.** / **Ship it!**：比較口語。*Ship it* 帶有「直接上線吧」的爽快感。\n- **Approved, with one tweak: …**：同意但要小修改時用，*tweak* 是「微調」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "15ff55567362",
+      "date": "20261116",
+      "front": "\"Ship it.\"",
+      "body": "你只回了「上 prod」三個字，在團隊裡下指令這樣很精簡。英文常見的對應說法有：\n\n- **\"Ship it.\"**：最常見、最口語，帶有「放行、上線吧」的爽快感。\n- **\"Go ahead and push to prod.\"**：稍微完整一點，*push to prod* 是工程師的日常說法。\n- **\"Let's release it.\"**：比較正式，強調「發佈一個新版本」。\n\n*prod* 是 *production*（正式環境）的縮寫，口語和書面都很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1542090d1ca6",
+      "date": "20261116",
+      "front": "\"Okay, so are all the detailed steps in the md file now?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"Okay, so are all the detailed steps in the md file now?\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 好那…… | Okay, so... | 中文的「好那」用來接續話題，英文用 `Okay, so...` 很自然 |\n| 細節步驟 | the detailed steps | 也可以說 `the step-by-step instructions` |\n| 都在……了嗎 | Are all ... in ... now? | 句尾加 `now` 帶出「經過剛才的修改，現在是否都齊了」的語氣；也可以說 `Does the md file cover everything?`，`cover` 表示「涵蓋」 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0c457d0b3bc3",
+      "date": "20261116",
+      "front": "你這次把兩個連結放在同一則訊息、一行一個，很有效率 👍",
+      "body": "你這次把兩個連結放在同一則訊息、一行一個，很有效率 👍\n\n一樣有兩個小地方：\n\n- 冒號又變回全形的「：」了，英文裡要用半形的 `:`。\n- 標籤寫法不一致：第一行是 `invite_bot`，第二行是 `subscription_service_916`，一個有 `_916`、一個沒有。對我來說都看得懂，但寫給人看的清單最好統一，例如：\n\n> invite_bot: https://…\n> subscription_service: https://…\n\n保持一致的格式（consistent formatting）會讓清單更容易掃讀，寫技術文件時特別重要。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "00ba2330b82e",
+      "date": "20261116",
+      "front": "你的原句「全部都幫我上測試機吧，然後 bot 用的 4 支團主教學影片（8 個檔案）是哪些？我這次不是只有做官網上面的教學影片嗎？」自然的英文是：",
+      "body": "你的原句「全部都幫我上測試機吧，然後 bot 用的 4 支團主教學影片（8 個檔案）是哪些？我這次不是只有做官網上面的教學影片嗎？」自然的英文是：\n\n> \"Go ahead and deploy everything to the test environment. Also, which are the four organizer videos for the bot — the eight files? Wasn't this round only about the videos on the website?\"\n\n- **Go ahead and …** 是「那就…吧」的語氣，比單純的 *Please deploy* 更像同意後放手讓對方去做。\n- **Wasn't this … only about …?** 用否定疑問句表達「我以為只是…，不是嗎？」，帶有一點疑惑或確認的語氣，正好對應中文的「不是只有…嗎？」。\n- **this round** 指「這一輪工作」，比 *this time* 更有「一個階段任務」的感覺，在專案溝通裡很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f44c4e5535ae",
       "date": "20261115",
       "front": "你的原句「OK設定完成了，請接續進行後面動作」，自然的英文可以這樣說：",
