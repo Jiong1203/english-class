@@ -55,6 +55,15 @@
       ]
     },
     {
+      "id": "d19c2bccb451",
+      "date": "20261116",
+      "front": "\"How to choose the right badminton racket weight\"",
+      "body": "你這次輸入的是中文主題「羽球拍重量怎麼選」，自然的英文說法：\n- **\"How to choose the right badminton racket weight\"**：直接用作標題。\n- 口語問句可以說 **\"What racket weight should I go for?\"**。`go for` 是「選擇、挑」的口語用法，比 `choose` 輕鬆，很適合社群貼文的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "c196b26fce76",
       "date": "20261116",
       "front": "你的原句「幫我 commit 並推上 API 的改動，然後社群模式也要做，先給我社群模式的影片，這樣我可以先上傳YT」，自然的英文說法是：",
@@ -70,6 +79,15 @@
       "body": "你這次用中文下指令，以下是自然的英文說法：\n\n> \"I'll go with the WSL2 + Docker Engine option. Please write it up as a Markdown or PDF file so I can just copy the whole deployment guide over to the new host.\"\n\n| 中文 | 英文 | 說明 |\n|---|---|---|\n| 我選擇……方案 | I'll go with... / I'm going with... | `go with` 是「決定採用」最自然的口語說法，比 `I choose` 更道地 |\n| 幫我寫成 md | write it up as a Markdown file | `write up` 有「整理成文件」的意思，很適合用在報告或手冊 |\n| 直接把……拉過去 | just copy ... over to | 中文的「拉過去」在英文用 `copy over to` 或 `bring over to`；`over` 帶有「從這裡移到那裡」的感覺 |\n| 比較方便 | so it's easier / for convenience | 用 `so I can just...` 帶出目的，比直接說 `more convenient` 更自然 |",
       "tags": [
         "comparison"
+      ]
+    },
+    {
+      "id": "8ace502d796d",
+      "date": "20261116",
+      "front": "\"\n\n- **dedicated to ~**：「專門用來做～」。比 \"",
+      "body": "你這次用中文下指令，自然的英文說法如下：\n\n> \"There's a CLAUDE.md in `frontend/docs/threads/` that's dedicated to producing Threads posts and images. Please write a skill so the whole project can use it quickly.\"\n\n- **dedicated to ~**：「專門用來做～」。比 \"specially for\" 更道地，常用在說明文件或工具的用途。\n- **produce / generate**：「產製」可以用 *produce*（產出成品），偏自動化時也可以用 *generate*。\n- **so (that) the whole project can ~**：用 *so that* 帶出目的，比直接接 \"to make it convenient for...\" 簡潔。\n- 「串圖」可以說 *thread images* 或 *carousel images*。Threads 和 Instagram 的多圖貼文常叫 *carousel*。",
+      "tags": [
+        "note"
       ]
     },
     {
