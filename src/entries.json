@@ -1,6 +1,655 @@
 {
   "entries": [
     {
+      "id": "fde8054e77e0",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 說明一下，因為現在我推上公司的 gitlab 了，所以有找到同仁幫我部上主機，所以我才會這樣問 | **To clarify: now that the code is on our company GitLab, I found a colleague to deploy it to a server for me. That's why I asked.** |\n\n說明：\n- **To clarify:**：「說明一下」，用來補充背景，很常見。\n- **now that ~**：「既然現在～」，比連續用兩個「因為…所以…」（because… so…）簡潔得多。\n- **deploy it to a server**：「部署到主機」，口語的「部上去」可以直接說 **deploy**。\n- **That's why I asked.**：「所以我才這樣問」，自然又簡短。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "fb906d5088fd",
+      "date": "20261118",
+      "front": "\"The metadata SQL works fine — go ahead and merge and push.\"",
+      "body": "你這次說：「元數據 SQL 沒問題，可以合併推送」\n\n自然的英文說法：\n> **\"The metadata SQL works fine — go ahead and merge and push.\"**\n\n用法說明：\n- 「沒問題」在回報測試結果時，常說 **works fine** 或 **checks out**，比 *has no problem* 自然。\n- **go ahead and + 動詞** 是很常用的授權說法，意思是「可以去做了」。\n- 也可以更簡短地說 *Looks good, merge and push.*，在工程師之間很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "fb279f3ed37a",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 週記跟週週其實都不錯，但是我想要更多可參考的 | **I actually like both 週記 and 週週, but I'd like a few more options to consider.** |\n\n說明：\n- **I actually like both A and B**：「其實」用 **actually** 表達很自然，帶有「出乎意料地喜歡」的語氣；**both A and B** 用來強調兩個都喜歡。\n- **options to consider**：「可以參考、考慮的選項」。也可以說 **more ideas to look at** 或 **a few more to choose from**。\n- **I'd like** 比 **I want** 委婉有禮，請別人幫忙時更常用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "fb1593d77939",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 如果像這樣在空白行想要有項目符號的話應該怎麼做? | **If I want a bullet on a blank line like this, what should I do?** |\n\n說明：\n- **bullet**：「項目符號」，也可以說 **bullet point**。\n- **blank line**：「空白行」，比 **empty row** 更適合用在文字編輯的情境。\n- 也可以問得更精簡：**How do I add a bullet to this blank line?**",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "fa1aeb305eee",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 接下來建議做甚麼呢 | **What do you suggest we do next?** / **What should we work on next?** |\n\n說明：\n- **What do you suggest we do next?**：注意 **suggest** 後面接「主詞＋原形動詞」（**we do**），不是 **we to do**。\n- **What should we work on next?** 比較口語，工作討論裡很常用。\n- 小提醒：中文「甚麼」一般寫成「什麼」比較常見，兩個都可以。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "f133fe040f62",
+      "date": "20261118",
+      "front": "\"Why does setting up my GitLab token fail on the company environment?\"",
+      "body": "你這次用中文，自然的英文說法是：\n\n> **\"Why does setting up my GitLab token fail on the company environment?\"**\n> 或更口語：**\"Why can't I connect my GitLab token on the company site?\"**\n\n- 「設定 token 會失敗」可以說 *setting up the token fails*。如果要強調「連不上」，用 **can't connect** 更精確。\n- 「在公司環境」常說 **on the company environment** 或 **in production**；*on* 和 *in* 都有人用，口語上差別不大。\n- 回報錯誤時加一句 *\"It shows UND_ERR_CONNECT_TIMEOUT.\"*，讓對方一眼就看到錯誤碼，是很好的溝通習慣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "efe96f269972",
+      "date": "20261118",
+      "front": "你這次問：「很重要的一點請問一下，腳本執行時會確認 git 有沒有 pull 最新進度嗎？還有現在分支是否是在 main or master 嗎？然後…如果有 SQL 腳本要執行，那會讓【元數據管理】內同步嗎？」",
+      "body": "你這次問：「很重要的一點請問一下，腳本執行時會確認 git 有沒有 pull 最新進度嗎？還有現在分支是否是在 main or master 嗎？然後…如果有 SQL 腳本要執行，那會讓【元數據管理】內同步嗎？」\n\n自然的英文說法：\n> **\"One important question: does the script check whether I've pulled the latest changes, and whether I'm on main or master? Also, since we have a Metadata Management module, will running the SQL scripts keep it in sync?\"**\n\n用法說明：\n- 「很重要的一點請問一下」可以說 **One important question:** 或 **Quick but important question:**，簡潔又自然。\n- 「pull 最新進度」說 **pulled the latest changes** 就很道地。\n- 「在某個分支上」用介系詞 **on**，例如 *I'm on main*，不是 *in main*。\n- 「讓…同步」說 **keep it in sync**；也可以說 *Will it sync the metadata?*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d862a2aed5cf",
+      "date": "20261118",
+      "front": "你說「這是我從 10.201.20.73 讓 AI 生成的，你確認看看」，自然的英文可以是：",
+      "body": "你說「這是我從 10.201.20.73 讓 AI 生成的，你確認看看」，自然的英文可以是：\n> **\"I had an AI generate this on 10.201.20.73 — could you look it over?\"**\n\n用法說明：\n- **had an AI generate**：*have + 人 + 原形動詞*，意思是「讓某人（或 AI）去做某事」，正好對應中文的「讓 AI 生成」。\n- **look it over**：仔細看過、檢查一遍，比 *check it* 更有「整份審閱」的感覺。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d46401de0373",
+      "date": "20261118",
+      "front": "\"Can you tidy up the branches we've already merged?\"",
+      "body": "你這次只輸入了指令 `/clean-branches`，沒有寫句子。\n\n如果想用英文表達同樣的需求，可以換個說法：\n> **\"Can you tidy up the branches we've already merged?\"**\n\n用法說明：\n- **tidy up**：整理乾淨，語氣比 *clean up* 更輕鬆、口語。\n- **we've already merged**：用現在完成式強調「已經合併完成」，清楚說明要刪的是哪些分支。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d0e3c0152fd6",
+      "date": "20261118",
+      "front": "\"Go ahead and merge it into main and push.\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫句子。\n\n如果想用一句英文表達同樣的需求，可以說：\n> **\"Go ahead and merge it into main and push.\"**\n> 或 **\"Let's ship it — merge and push.\"**\n\n用法說明：\n- **ship it** 是工程師常說的口語，意思是「發出去、上線」，在這裡指合併並推送。\n- **merge it into main** 用 *into* 表示「併入」主幹，比 *merge to main* 更常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c6c9b616b212",
+      "date": "20261118",
+      "front": "你這次只貼了網址。補一句說明會更清楚，例如：",
+      "body": "你這次只貼了網址。補一句說明會更清楚，例如：\n\n- **Here's the repo URL. Please push the code there.**\n- **Done, here's the link: …**：「建好了，網址在這」，簡短又自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bca8bd99bfe5",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 我要在公司的gitlab上開新的repo，請問要命名甚麼 | **I'm going to create a new repo on our company GitLab. What should I name it?** |\n\n說明：\n- **create a new repo**：「開新的 repo」，動詞用 **create**；口語也常說 **set up a new repo**。\n- **What should I name it?**：「要取什麼名字」，**name** 在這裡當動詞，很自然。也可以說 **What would be a good name for it?**，語氣更委婉。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "bbe971032e82",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 資料庫是不是應該要升級呢? 繼續用 PGlite 好嗎? | **Should we upgrade the database? Is it okay to keep using PGlite?** |\n\n說明：\n- **Should we ~?**：「是不是應該～？」，徵詢建議時最自然的問法。\n- **keep using ~**：「繼續使用～」，**keep + V-ing** 表示持續做某事。\n- 也可以說 **Is PGlite good enough for production?**，**good enough** 是「夠用嗎」的意思，很適合拿來討論技術選型。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b7316db1c183",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 我要在公司的gitlab上開新的repo，請問要命名甚麼 | **I want to create a new repo on our company GitLab. What should I call it?** |\n\n說明：\n- **What should I call it?**：和 **What should I name it?** 意思相同，**call** 更口語。\n- 想表示「再問一次」時，可以說 **Sorry, asking again:** 或 **Just to double-check:**。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b416ab7826cd",
+      "date": "20261118",
+      "front": "\"Could you import 一級主管會議(E5)_20261113.docx into the department weekly report on the company site?\"",
+      "body": "你這次用中文，自然的英文說法是：\n\n> **\"Could you import 一級主管會議(E5)_20261113.docx into the department weekly report on the company site?\"**\n\n- 「有辦法…嗎」不用直翻成 *Do you have a way to…*。英文說 **Could you…** 或 **Is it possible to…** 就很自然。\n- 「建立到…中」講的是把檔案內容搬進系統，用 **import … into …** 最貼切。*create … in …* 比較像從零開始做一份新的。\n- 「公司端」可以說 **the company site**、**the company instance** 或 **production**。這裡對比的是你本機的開發環境，所以 *instance* 很好用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b375bb9c7c55",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 了解，那接下來可以做甚麼 | **Got it. So what should we do next?** |\n\n說明：\n- **Got it.**：「了解、知道了」，口語中最常用，比 **I understand.** 輕鬆自然。\n- **what should we do next?**：用 **we** 帶出一起合作的感覺；也可以說 **What's next?**，更簡短。\n- 小提醒：「甚麼」比較常寫成「什麼」，兩者都可以，「什麼」是現在較通行的寫法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b2ce7d2fb8db",
+      "date": "20261118",
+      "front": "你的英文意思很清楚 👍。只有兩個小地方：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| merge and  push plz. | **Merge and push, please.** / **Please merge and push.** |\n\n說明：\n- 你的英文意思很清楚 👍。只有兩個小地方：\n  - `and` 和 `push` 中間多了一個空格。\n  - **plz** 是很口語的網路縮寫，跟熟的同事聊天可以用，正式一點的場合寫 **please** 比較好。\n- 另一種常見說法：**Go ahead and merge it into main, then push.**，把要併到哪個分支也講清楚。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "ae88e2816710",
+      "date": "20261118",
+      "front": "你這次直接輸入指令 `/commit-push-merge`，沒有附上句子。下次想加一句說明時，可以這樣說：",
+      "body": "你這次直接輸入指令 `/commit-push-merge`，沒有附上句子。下次想加一句說明時，可以這樣說：\n\n- **Please commit, merge, and push these changes.**：依序列出動作，最直接。\n- **Let's ship it.**：「把它送出去吧」，工程師之間很常用的口語，意思是可以發布或合併了。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9eb892745c33",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 驗證 ok，commit | **Verified, looks good. Go ahead and commit.** |\n\n說明：\n- **Verified, looks good.**：「驗證過了，沒問題」。開發者回報測試結果時很常這樣說。\n- 更簡短的說法是 **LGTM, commit it.** **LGTM** 是 **Looks Good To Me** 的縮寫，在 code review 裡非常常見。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8ee283d76452",
+      "date": "20261118",
+      "front": "你這次說：「當腳本啟動時必須要求使用者輸入 SSH 密碼，我認為這也算是一次的上線前確認，所以不要靠公鑰來做。畢竟公鑰的部分看起來也是要在不同的電腦中個別設定…也是挺麻煩」",
+      "body": "你這次說：「當腳本啟動時必須要求使用者輸入 SSH 密碼，我認為這也算是一次的上線前確認，所以不要靠公鑰來做。畢竟公鑰的部分看起來也是要在不同的電腦中個別設定…也是挺麻煩」\n\n自然的英文說法：\n> **\"The script should prompt for the SSH password when it starts. I see that as a final check before going live, so let's not rely on public keys. Besides, keys would have to be set up on each developer's machine, which is a hassle.\"**\n\n用法說明：\n- 「上線前確認」可以說 **a final check before going live**，或簡短的 **a pre-deployment confirmation**。\n- 「不要靠…」用 **not rely on…**，很自然。\n- 「挺麻煩」英文常說 **a hassle** 或 **a pain**（比較口語）。\n- 「畢竟」這種補充理由的語氣，用 **Besides,** 或 **After all,** 都很好。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8cd18aff20d4",
+      "date": "20261118",
+      "front": "\"Alright, go ahead and push it.\"",
+      "body": "你這次用中文，自然的英文說法是：\n\n> **\"Alright, go ahead and push it.\"**\n\n- 「好那就…吧」這種順勢同意的語氣，英文常用 **Alright, go ahead and…** 或 **OK, let's…**，例如 *OK, let's push it*。\n- **go ahead and + 動詞** 很適合拿來授權別人動手，帶有「你可以做了」的意思，工程師之間很常用。\n- 也可以說 *Sounds good — ship it!* 這裡的 *ship it* 是軟體圈的口語，指「推上去、上線」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8c5e6570bff2",
+      "date": "20261118",
+      "front": "這次你沒有傳訊息，是系統通知清理完成，所以補一句跟這個情境有關的英文：",
+      "body": "這次你沒有傳訊息，是系統通知清理完成，所以補一句跟這個情境有關的英文：\n\n- **The test environment has been cleaned up.**：「測試環境已清理完畢」。**clean up** 在工程裡常指「刪除暫存檔、停掉測試程序」。\n- 想問對方確認了沒，可以說 **Let me know once you've verified it.**（你確認完再告訴我）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "823429b68887",
+      "date": "20261118",
+      "front": "\"How do I configure our company's on-premises model here?\"",
+      "body": "你這次用中文提問，翻成自然的英文可以這樣說：\n\n> **\"How do I configure our company's on-premises model here?\"**\n\n- **on-premises（on-prem）**：「地端」的標準英文說法，口語常縮寫成 *on-prem*，例如 *an on-prem LLM*。\n- **configure … here**：「配置進來」直翻成 *configure it in* 不太自然，英文通常說 *set it up here* 或 *configure it in the settings*。\n- 也可以說：*\"How can I hook up our in-house model?\"* 這裡的 *hook up* 是「接上、串起來」的口語說法，在工程師之間很常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7697c10b675f",
+      "date": "20261118",
+      "front": "你說「清單新增 https://ezokrtc.icsc.com.tw/* 後就可以了」，自然的英文可以是：",
+      "body": "你說「清單新增 https://ezokrtc.icsc.com.tw/* 後就可以了」，自然的英文可以是：\n> **\"It works now after adding https://ezokrtc.icsc.com.tw/* to the list.\"**\n\n用法說明：\n- **It works now**：口語上最常用來回報「問題解決了」，比 *It is successful* 自然很多。\n- **after adding ... to the list**：*after* 後面接動名詞（V-ing），用來說明是做了什麼才解決的。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "756274e2edfb",
+      "date": "20261118",
+      "front": "你說「確認一下，那先前前端的 google map key 也有順利部署過去嗎」，自然的英文可以是：",
+      "body": "你說「確認一下，那先前前端的 google map key 也有順利部署過去嗎」，自然的英文可以是：\n> **\"Just to double-check — did the frontend Google Maps key get deployed successfully?\"**\n\n用法說明：\n- **Just to double-check**：「我再確認一下」，語氣客氣，不會讓對方覺得被質疑。\n- **get deployed**：用 *get* 加過去分詞的被動語態，比 *was deployed* 更口語，強調「有沒有成功被部署」這個結果。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "737767876779",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 導入之後就發現幾點需要調整的了，請協助 | **Right after importing it, I found a few things that need adjusting. Could you help?** |\n| 這樣就沒有滿足原需求 | **That doesn't meet the original requirement.** |\n| 你可以想成這個區塊的主持人就等於負責人 | **Think of the host in this section as the person responsible.** |\n\n說明：\n- **need adjusting**：「需要調整」，**need + V-ing** 有被動的意思，等於 **need to be adjusted**，比較口語。\n- **meet the requirement**：「滿足需求」的固定搭配，動詞用 **meet**，不用 *satisfy the need*。\n- **Think of A as B**：「把 A 想成 B」，用來解釋概念非常自然。",
+      "tags": [
+        "grammar",
+        "comparison"
+      ]
+    },
+    {
+      "id": "71ade30cf3f2",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 這樣驗證應該是 ok 了? | **So this should count as verified, right?** |\n\n說明：\n- **count as ~**：「算是～」，例如 **That counts as a pass.**（這算通過）。\n- 句尾加 **right?** 是確認語氣，比單純問 **Is it OK?** 更自然。\n- 更口語的說法：**Looks like it works, doesn't it?**",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6f992c653e55",
+      "date": "20261118",
+      "front": "你這次用中文發問，自然的英文說法：",
+      "body": "你這次用中文發問，自然的英文說法：\n\n> **\"In your suggestion, you mentioned looking up the customer's LINE name by their user ID. As far as I know, isn't there an official restriction on that? Or could you explain how you'd get the customer's LINE name?\"**\n\n用法說明：\n- **look up ... by ...** 是「用某個值去查詢…」，技術情境很常用，例如 *look up a user by ID*。\n- **As far as I know** 是「就我所知」，語氣委婉，表示自己不完全確定，很適合用來提出質疑。\n- **isn't there ...?** 這種否定疑問句帶有「應該有吧？」的確認語氣，比 **Is there ...?** 更貼近你想表達的懷疑。\n- **how you'd get** 中的 **'d = would**，意思是「你打算怎麼拿到」，比 **how you get** 更符合「詢問做法」的情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "692d7b00615c",
+      "date": "20261118",
+      "front": "\"Please take a look at the images in the current directory.\"",
+      "body": "你這次用中文下指令：「請看當前目錄中的圖片」\n\n自然的英文說法：\n> **\"Please take a look at the images in the current directory.\"**\n\n用法說明：\n- **take a look at** 比單說 **look at** 更口語、也更有禮貌，有「幫我看一下」的語氣。\n- **directory** 是電腦裡的「目錄／資料夾」，技術情境常用；一般對話也可以說 **folder**。\n- 更簡短的說法：**\"Check out the pictures in this folder.\"**（**check out** 很口語，意思是「看看」。）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "65d30f4d193f",
+      "date": "20261118",
+      "front": "\"What about people who just joined the group?\"",
+      "body": "你這次用中文發問，自然的英文說法：\n\n> **\"What about people who just joined the group?\"**\n\n用法說明：\n- **What about ...?** 是「那…呢？」最自然的追問句型，用來延續前一個話題、問另一種情況。\n- **just joined** 強調「剛加入」，也可以說 **new members**：*\"What about new members?\"* 更簡短。\n- 如果想說得更完整：*\"Does the same approach work for people who join the group later?\"*（這個做法對之後才加入的人也適用嗎？）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "651a95377fa5",
+      "date": "20261118",
+      "front": "\"Move deploy-tools into the backend repo so it's under version control.\"",
+      "body": "你這次說：「把 deploy-tools 移進後端 repo 一起版控」\n\n自然的英文說法：\n> **\"Move deploy-tools into the backend repo so it's under version control.\"**\n> 或 **\"Let's put deploy-tools in the backend repo and track it with Git.\"**\n\n用法說明：\n- 「版控」英文是 **version control**；「納入版控」常說 **put under version control**，或口語的 **track it with Git**。\n- 「一起」在這裡的意思是「跟後端程式放在同一處管理」，用 **so it's…** 帶出目的會比逐字翻成 *together* 更自然。\n- **Move A into B** 用 *into* 強調「放進某個容器或地方裡」，比 *to* 更貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "61bf06040802",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 那現在要開放給同仁使用的話是不是有哪些要先改? | **So before we open this up to colleagues, is there anything we need to change first?** |\n\n說明：\n- **open ~ up to …**：「開放～給…使用」，例如 **open the system up to the whole department**。\n- **anything we need to change first**：「有什麼要先改的」，句尾的 **first** 表達「在那之前」。\n- 也可以說 **What needs to be done before we roll it out?**，其中 **roll out** 是「推出、上線」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "5d9282c151fc",
+      "date": "20261118",
+      "front": "\"Turn the little things of each day into the story of your week.\"",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 更貼近首頁所顯示的「把每天的小事，慢慢整理成一週的故事。」 | **Something closer to the tagline on the home page: \"Turn the little things of each day into the story of your week.\"** |\n\n說明：\n- **closer to ~**：「更貼近～」，請對方往某個方向調整時很常用，也可以說 **more in line with ~**。\n- **tagline**：網站或產品的「標語」，比 **slogan** 更常用來指首頁上的那句話。\n- **Turn A into B**：「把 A 變成 B」，用來翻譯「整理成」很自然。想保留「慢慢」的感覺，可以說 **Slowly turn the little things of each day into the story of your week.**",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "56fa58f26d84",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 你知道這台的主機是甚麼嗎? 因為這個網站也是同事開發出來內部要用的 | **Do you know what server this site runs on? A colleague built it for internal use.** |\n\n說明：\n- **what server this site runs on**：「這個網站跑在什麼主機上」，**run on** 是描述系統運行環境的固定說法。\n- **built it for internal use**：「開發來內部使用」，**for internal use** 是很常見的片語。\n- 句中的「因為」不一定要翻成 **because**，拆成兩句反而更自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "555e8ecf3d57",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 現在系統名稱只取名叫做【週記】，請建議更多合適的名稱給我挑選 | **Right now the system is just called \"週記\". Could you suggest some other good names for me to choose from?** |\n\n說明：\n- **be called ~**：「叫做～、名為～」，介紹名稱時最自然的說法，比 **be named** 更口語。\n- **for me to choose from**：「讓我從中挑選」，結尾的 **from** 不能省略，因為是從一組選項裡挑。\n- **suggest some names** 也可以換成 **come up with some names**，意思是「想出一些名字」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "549c12b5adb8",
+      "date": "20261118",
+      "front": "這次你用的是 slash command `/commit-push-merge`，沒有寫句子。同一件事用英文可以這樣說：",
+      "body": "這次你用的是 slash command `/commit-push-merge`，沒有寫句子。同一件事用英文可以這樣說：\n\n- **Commit, merge, and push, please.**：三個動作照順序列出。實際流程是先 merge 再 push，所以這個順序最精確。\n- **Ship it.**：工程師之間的口語，意思是「可以了，送出去吧」，常用在 code review 通過之後。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "52487d4c66e2",
+      "date": "20261118",
+      "front": "你這次問：「SSH 帳號第一次輸入後會記住的部分，是指 SSH 帳號會與部署主機綁定好並記錄下來嗎？…如果像是前端有 setting.js 這種長期不會 commit 的檔案呢？」",
+      "body": "你這次問：「SSH 帳號第一次輸入後會記住的部分，是指 SSH 帳號會與部署主機綁定好並記錄下來嗎？…如果像是前端有 setting.js 這種長期不會 commit 的檔案呢？」\n\n自然的英文說法：\n> **\"When you say it remembers the SSH username after the first time, does that mean the username is tied to the deployment host and saved per host? And what about files like the frontend's settings.js that we never commit?\"**\n\n用法說明：\n- 「綁定」可以說 **tied to** 或 **bound to**，例如 *The username is tied to each host.*\n- 「每台分別記錄」說 **saved per host**，*per* 表示「每一個」，很精簡。\n- 「長期不會 commit 的檔案」可以說 **files we never commit**，或 **local-only files**（只存在本機的檔案）。\n- 「…的部分，是指…嗎？」想確認對方的意思時，常用 **When you say X, does that mean Y?**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5172f00eed82",
+      "date": "20261118",
+      "front": "\"It's working now. I've deployed it to https://testaidemo.icsc.com.tw/worklog-report/ — can you take a look?\"",
+      "body": "你這次用中文，自然的英文說法是：\n\n> **\"It's working now. I've deployed it to https://testaidemo.icsc.com.tw/worklog-report/ — can you take a look?\"**\n\n- 「OK了」說成 **It's working now** 或 **All set**，比直翻的 *It's OK now* 更自然。\n- 「部署上」用 **deployed it to** 這個網址，介系詞用 *to*。\n- 「訪問看看」不要直翻成 *visit and see*。英文會說 **take a look**、**check it out** 或 **give it a try**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "445fc34f3195",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 那像現在要讓同仁一起使用的話，應該怎麼辦呢 | **So if I want my colleagues to start using it now, what should I do?** |\n\n說明：\n- **colleagues**：「同仁、同事」，比 **coworkers** 稍微正式一點，兩者都常用。\n- **start using it**：「開始使用」，強調從現在起要推廣。\n- 更精簡的說法：**How do we roll this out to the team?** 其中 **roll out** 是「推出、推廣給大家使用」，很常用在系統上線的情境。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "41d6846c10c3",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 因為先前部門週報還沒有刪除或編輯，所以有硬發布了一版未完成的，請你協助整理一下。 | **Since the department report didn't support deleting or editing before, I force-published an unfinished version. Could you help me clean it up?** |\n\n說明：\n- **force-publish**：「硬發布」很貼切的說法。英文常用 **force-** 當前綴，表示「強行做某事」，例如 **force-push**、**force-quit**。\n- **didn't support ~**：「（系統）還沒有支援某功能」，描述軟體功能時比 **couldn't** 更精確。\n- **clean it up**：「整理、收拾」，處理資料或程式碼的善後時很常用。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "40e49f59b8fc",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 確認推送 | **Yes, go ahead and push.** |\n\n說明：\n- **go ahead and ~**：「放手去做～」，授權對方執行時最常用。\n- 也可以說 **Confirmed, push it.** 或簡短的 **Push it.**，在工作對話中都很自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "39b26289143c",
+      "date": "20261118",
+      "front": "\"The fix is live and verified.\"",
+      "body": "這次是系統自動通知，你沒有輸入文字。這裡補一句驗證完常用的英文回報：\n\n> **\"The fix is live and verified.\"**\n\n- **live** 指「已上線、正式環境生效」，例如 *The new version is live.*\n- **verified** 指「已確認過」，跟 *tested* 有點差別：*tested* 偏向跑過測試，*verified* 則是實際確認結果是對的。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "361ec5096411",
+      "date": "20261118",
+      "front": "\"Please commit these changes and merge them into main.\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫句子。\n\n如果想用英文表達同樣的需求，可以說：\n> **\"Please commit these changes and merge them into main.\"**\n\n用法說明：\n- **merge A into B**：「把 A 合併進 B」，*into* 表示合併的方向，是 Git 相關討論中的標準說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "34eaf3e819fe",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 收尾的地方你可以幫我收尾了，然後我這裡有一份上週的完整部門週報，請你幫我導入到系統中。 | **Go ahead and wrap up the loose ends. Also, I have last week's complete department report here. Could you import it into the system?** |\n\n說明：\n- **wrap up the loose ends**：「把剩下的細節收尾」，**loose ends** 指還沒處理完的零碎事項，非常道地。\n- **Go ahead and...**：「你就直接…吧」，用來授權對方動手，語氣自然。\n- **import ... into the system**：「導入」在系統情境下用 **import** 最精準。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "33630119def9",
+      "date": "20261118",
+      "front": "\"filling\"",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 幾點討論 | **A few points to discuss:** |\n| 部門週報同時間只能有一篇是填寫中，這是故意的嗎? | **Only one department report can be in \"filling\" status at a time. Is that intentional?** |\n| 開新的一週如果不小心建立錯了無法刪除? | **If I create a new week by mistake, there's no way to delete it?** |\n| 會不會改用彈窗獨立顯示比較好? | **Would it be better to show it in a separate modal?** |\n| 複製跟儲存的按鈕大小跟位置是故意不同跟不對齊的嗎? | **Are the Copy and Save buttons intentionally different in size and misaligned?** |\n\n說明：\n- **at a time**：「同一時間」，比 **at the same time** 更常用來描述數量限制。\n- **by mistake**：「不小心、弄錯」，比 **accidentally** 更口語。\n- **modal**：前端領域「彈窗」的標準說法，也可以說 **dialog**。**popup** 通常指瀏覽器跳出的新視窗或廣告。\n- **misaligned**：「沒對齊」的專業說法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2f8da670fc2d",
+      "date": "20261118",
+      "front": "\"It needs to go to the company's repo.\"",
+      "body": "你這次用中文，自然的英文說法是：\n\n> **\"It needs to go to the company's repo.\"**\n> 或更直接：**\"Push it to the company remote.\"**\n\n- 「要推到公司的」省略了受詞。英文要把它補出來，說成 *the company's repo* 或 *the company remote*。\n- **remote** 在 Git 裡當名詞用，指遠端儲存庫，例如 *origin*、*icsc*。工程師之間說 *push to the other remote* 很自然。\n- 想語帶糾正又保持禮貌，可以說 *\"Actually, it should go to the company's GitLab.\"* 開頭的 *Actually* 帶有「其實是…」的修正語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2d901d7a7765",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 可以的，有順利整理好內容。 | **Yep, it worked. The content was organized properly.** |\n| 想詢問現在資料庫是在哪裡? | **I'd like to ask: where is the database stored right now?** |\n\n說明：\n- **Yep, it worked.**：「可以的，成功了」，口語又簡潔。\n- **where is the database stored?**：問資料庫位置時，用 **stored**（存放）比 **where is the database** 更精確。\n- 也可以說 **Where does the data live right now?**，工程師常用 **live** 來表示資料放在哪裡。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "280a04c961ad",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 全部都驗證通過了，不過關於 AI 設定模型的地方是否可以改成用下拉選單的? 我怕手打會打錯 | **Everything passed verification. But could the model field in the AI settings be a dropdown instead? I'm worried I'll make a typo if I type it in manually.** |\n\n說明：\n- **make a typo**：「打錯字」最自然的說法，比 **type it wrong** 更常見。\n- **dropdown**：「下拉選單」的通用說法，正式一點可以說 **dropdown menu** 或 **select box**。\n- **Could ~ be ... instead?**：「可不可以改成…」，用 **instead** 表示「取代原本的做法」，提出修改建議時語氣很客氣。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "26148db87c97",
+      "date": "20261118",
+      "front": "\"Could you add our domain to the allowed referrers for the Maps API key?\"",
+      "body": "這次你只貼了錯誤訊息和截圖，沒有寫句子。如果想用英文請同事處理，可以這樣說：\n> **\"Could you add our domain to the allowed referrers for the Maps API key?\"**\n\n用法說明：\n- **allowed referrers**：Google Cloud 介面上的正式用語，指「允許使用這把 key 的網站清單」。\n- **add A to B**：「把 A 加進 B」，是請別人調整設定時最直接的說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "224f4c25c9f3",
+      "date": "20261118",
+      "front": "\"Go ahead and delete them.\"",
+      "body": "你這次回了 **\"ok\"**，這在英文裡完全自然，簡潔表示同意。\n\n想表達得更明確時，可以說：\n> **\"Go ahead and delete them.\"**\n\n用法說明：\n- **go ahead**：「請繼續、放手去做」，常用來批准對方提出的動作。\n- 加上 **delete them**，可以清楚說出同意的是哪個動作，避免誤會。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0a2ba08ea4a3",
+      "date": "20261118",
+      "front": "\"Got it. So it looks like Google Apps Script alone should be enough, right?\"",
+      "body": "你這次用中文發問，自然的英文說法：\n\n> **\"Got it. So it looks like Google Apps Script alone should be enough, right?\"**\n\n用法說明：\n- **Got it.** 是「了解」最口語的說法，比 **I understand.** 輕鬆自然。\n- **... alone should be enough** 對應「單純走…就可以」，**alone** 放在名詞後面表示「光靠這個就…」。\n- 句尾加 **right?** 就是向對方確認「是這樣嗎？」的語氣，對應你的「是嗎」。\n- 另一種說法：*\"So all we need is Google Apps Script?\"*（所以我們只需要 GAS 就好？）",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "09f8f4365d90",
+      "date": "20261118",
+      "front": "你說「再說的白話一點，有點看不懂」，自然的英文可以是：",
+      "body": "你說「再說的白話一點，有點看不懂」，自然的英文可以是：\n> **\"Could you explain that in plainer terms? I didn't quite follow.\"**\n\n用法說明：\n- **in plainer terms**：用更簡單的說法，也可以說 *in simple terms*。\n- **I didn't quite follow**：「我沒完全聽懂」，比 *I don't understand* 更委婉，*quite* 讓語氣更軟。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "08f9f72c935f",
+      "date": "20261118",
+      "front": "\"Name:\"",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 照建議做，第 3 點用框內捲動、第 4 點最前面加上「姓名：」那一行 | **Go with your suggestions. For #3, use in-box scrolling, and for #4, add the \"Name:\" line at the top.** |\n\n說明：\n- **Go with your suggestions**：「就照你的建議」，**go with** 表示「選定、採用某個方案」，比 **do as you suggested** 更口語。\n- **#3 / #4**：英文裡用「#」表示第幾點非常常見，也可以寫成 **point 3**。\n- **at the top**：「在最前面、最上方」，描述文件或清單的開頭時很自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "08952c0bc289",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| 個人週報的試用清單是甚麼? | **What was the testing checklist for the personal weekly report again?** |\n\n說明：\n- 句尾的 **again** 很實用，意思是「（之前說過但我忘了）再說一次是什麼？」。問之前提過的事情時加上它，語氣會很自然。\n- 簡短版：**Can you show me the checklist again?**",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0794af03fd47",
+      "date": "20261118",
+      "front": "你這次寫了四點，挑幾句說明：",
+      "body": "你這次寫了四點，挑幾句說明：\n\n| 你的中文 | 自然的英文 |\n|---|---|\n| 所以我不能直接點兩下執行…還是必須透過 cmd 下指令來啟動腳本？ | **So I can't just double-click it to run it? Do I have to launch it from the command line?** |\n| 請你整理腳本執行步驟到 deploy 路徑內 | **Please write up the steps for running the script and put them in the deploy folder.** |\n| sql 如果有變更是我自己要記得下指令嗎？還是腳本會提醒？ | **If the SQL changes, do I have to remember to run it myself, or will the script remind me?** |\n| 我說的不負責只是前次任務不負責，但是我還是可以改前端的 | **When I said we weren't handling the frontend, I only meant for that last task. I can still make changes to it.** |\n\n用法說明：\n- 「點兩下」英文就是 **double-click**，當動詞用。\n- 「整理成文件」常說 **write up**，例如 *write up the steps*；名詞是 *a write-up*。\n- 「不負責前端」在工作分工的情境，用 **handle**、**be responsible for** 或 **own** 都很自然，例如 *We don't own the frontend.*",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "07678c063c79",
+      "date": "20261118",
+      "front": "你這次用中文發問，自然的英文說法：",
+      "body": "你這次用中文發問，自然的英文說法：\n\n> **\"Right now, everything is done manually. Whenever a customer replies '+1', our assistant has to log their name, the item, and the quantity into Excel or Google Sheets by hand. Is there any way to automate the order entry?\"**\n\n用法說明：\n- **log ... into** 是「登記、記錄到…」的意思，比 **write into** 更像在講資料登錄。\n- **by hand** 是「手動」的口語說法，和 **manually** 意思一樣，一句裡兩個輪流用可以避免重複。\n- **order entry** 是「入單」的常見商業用語，**automate the order entry** 就是「讓入單自動化」。\n- **Whenever** 強調「每次只要…就…」，很適合描述重複發生的流程。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "06cdeccbe335",
+      "date": "20261118",
+      "front": "你說「我選 B」，自然的英文可以是：",
+      "body": "你說「我選 B」，自然的英文可以是：\n> **\"I'll go with B.\"**\n\n用法說明：\n- **go with**：在幾個選項中「決定採用」某一個，是做選擇時最常用的口語說法。\n- 也可以說 **\"Let's go with option B.\"**，*Let's* 帶有「一起決定」的語氣，適合團隊討論時使用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "01332c1ac2f9",
+      "date": "20261118",
+      "front": "說明：",
+      "body": "| 你的原句 | 自然的英文說法 |\n|---|---|\n| yes | **Yes, go ahead.** / **Yes, please proceed.** |\n\n說明：\n- 只回 **yes** 完全沒問題，意思很清楚 👍。\n- 對方在問「要不要執行某個重要動作」時，回 **Yes, go ahead.** 會更明確表示「同意，開始做吧」。\n- 正式一點可以說 **Please proceed.**",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "ef56b2e393d6",
+      "date": "20261117",
+      "front": "\"Do I transfer the files over SSH?\"",
+      "body": "你這次問：「搬檔案是靠 ssh 搬嗎」\n\n自然的英文說法：\n> **\"Do I transfer the files over SSH?\"**\n> 或 **\"Should I use SSH to move the files over?\"**\n\n用法說明：\n- 「搬檔案」在 IT 情境常用 **transfer files**；口語也可以說 **move the files over** 或 **copy the files over**，*over* 有「搬到另一邊」的意思。\n- 「靠 ssh」用介系詞 **over SSH**（透過 SSH 這個通道）或 **via SSH**，是很道地的技術說法。\n- 用 SSH 傳檔的指令叫 **SCP**（secure copy），也可以直接說 *Should I scp the files?*，*scp* 在口語裡常被當動詞用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "eb2ada2df886",
+      "date": "20261117",
+      "front": "\"create_by, create_time, update_by, and update_time should be the last columns. Also, please fill in the details for the other columns.\"",
+      "body": "你這次用中文說：「create_date… 應該要排在最後。另外就是幫我把其他欄位的資訊補好」\n\n自然的英文說法：\n> **\"create_by, create_time, update_by, and update_time should be the last columns. Also, please fill in the details for the other columns.\"**\n\n用法說明：\n- 「排在最後」可以說 **should be at the end** 或 **should come last**。*come last* 很口語，常用來講順序。\n- 「補好」用 **fill in** 最貼切，意思是把空白的地方填上。如果是「補充、讓內容更完整」，也可以說 **complete** 或 **flesh out**（把內容充實起來）。\n- 「另外就是…」翻成 **Also,…** 或 **On top of that,…** 就很自然，不用逐字翻成 *another thing is*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d40726e2309d",
+      "date": "20261117",
+      "front": "\"If I give you the SSH password, will it still ask three times?\"",
+      "body": "你這次問：「SSH 密碼給你的話還須要問三次？」\n\n修正：「還**須要**」應該寫成「還**需要**」。「需要」是一般的「要、必須」；「須」多半用在「必須、無須」這類固定詞語。\n\n自然的英文說法：\n> **\"If I give you the SSH password, will it still ask three times?\"**\n> 或 **\"Would it still prompt for the password three times if I gave it to you?\"**\n\n用法說明：\n- 系統跳出來要你輸入密碼，英文常說 **prompt for a password**，例如 *It prompts for the password three times.*\n- 「給你的話」用條件句 **If I give you…** 就很自然；第二種寫法用 *gave*（假設語氣），語氣比較委婉。\n- 免密碼登入，英文常說 **passwordless login** 或 **key-based authentication**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d28c5d9ce58c",
+      "date": "20261117",
+      "front": "\"Please clean up the merged branches.\"",
+      "body": "你這次只輸入了指令 `/clean-branches`，沒有寫句子。\n\n如果想用一句英文表達同樣的需求，可以說：\n> **\"Please clean up the merged branches.\"**\n> 或 **\"Let's prune the branches that have already been merged.\"**\n\n用法說明：\n- **clean up**：整理、清理，最常用也最自然。\n- **prune**：原意是修剪樹枝，在 Git 裡專指「清掉不需要的分支或參照」，例如 `git fetch --prune`，用起來很道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c013881c0bb9",
+      "date": "20261117",
+      "front": "你這次說：「新的程式要怎麼部到 10.201.20.37 這台呢？這台是沒有連 git 的，因為之後會搬到客戶端，這樣就沒有內網」",
+      "body": "你這次說：「新的程式要怎麼部到 10.201.20.37 這台呢？這台是沒有連 git 的，因為之後會搬到客戶端，這樣就沒有內網」\n\n自然的英文說法：\n> **\"How do I deploy the new build to 10.201.20.37? That machine doesn't have Git access, since it'll be moved to the client's site later and won't be on our intranet.\"**\n\n用法說明：\n- 「部到」= **deploy to**。「新的程式」在部署的情境常說 **the new build** 或 **the new version**。\n- 「沒有連 git」可以說 **doesn't have Git access**，或 **can't reach our Git server**。\n- 「搬到客戶端」用 **be moved to the client's site**；「客戶端」在這裡指客戶的地點，不是 *client side*（程式的前端）。\n- 這種完全不連外網的環境，英文常說 **air-gapped** 或 **offline environment**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "af87aba6c48e",
+      "date": "20261117",
+      "front": "\"Verification passed, so I think we're good to commit and push.\"",
+      "body": "你這次說：「驗證ok，這樣應該可以 commit and push 了」\n\n自然的英文說法：\n> **\"Verification passed, so I think we're good to commit and push.\"**\n\n用法說明：\n- 「驗證 ok」可以說 **Verification passed**，或口語的 **Checks out**（例如 *Everything checks out.*）。\n- **we're good to + 動詞** 是很常用的口語，意思是「可以去做…了」，很貼近中文的「這樣應該可以…了」。\n- 你中英夾雜的 *commit and push* 在工程師之間很自然，直接用英文動詞完全沒問題 👍",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9c56789da94c",
+      "date": "20261117",
+      "front": "\"Please go to https://… and add the columns for me.\"",
+      "body": "你這次用中文說：「請你直接訪問 https://… 幫忙加欄位」\n\n自然的英文說法：\n> **\"Please go to https://… and add the columns for me.\"**\n> 或 **\"Can you open https://… directly and add the new columns?\"**\n\n用法說明：\n- 「訪問網址」英文通常說 **go to** 或 **open**。*visit* 也可以，但多半用在「造訪網站」這種比較正式或一般的情境；叫人操作某個頁面時，用 *go to / open* 比較自然。\n- 「欄位」在資料表的情境用 **columns**；如果是表單上的輸入框，才用 **fields**。\n- 「幫忙」不一定要翻成 *help me*，用 **for me** 結尾就很自然，例如 *add the columns for me*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8e27a33f1ad2",
+      "date": "20261117",
+      "front": "\"Oh right, that was a typo — sorry! Could you write a script to quickly copy the frontend and backend files over and deploy them?\"",
+      "body": "你這次說：「哦對那是我打錯，抱歉！是不是可以寫個腳本方便快速搬前後端檔案過去部署？」\n\n自然的英文說法：\n> **\"Oh right, that was a typo — sorry! Could you write a script to quickly copy the frontend and backend files over and deploy them?\"**\n\n用法說明：\n- 「我打錯」最自然的說法是 **That was a typo.**，也可以說 *My bad, I mistyped it.*（比較口語）。\n- 「是不是可以…？」請人幫忙時，用 **Could you…?** 比 *Is it possible to…?* 更直接、也更有禮貌。\n- 「方便快速」不用逐字翻成 *convenient and fast*，用副詞 **quickly**，或說 **make it easy to…**，句子會比較精簡。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "826a583fc673",
+      "date": "20261117",
+      "front": "\"Go ahead.\"",
+      "body": "你這次回答：「yes」\n\n很簡潔，完全正確 👍 在確認操作時，也可以用這些說法：\n- **\"Go ahead.\"**：請繼續、放手去做，最常用。\n- **\"Yes, delete them.\"**：把動作講出來，在刪除這類不可逆的操作時更明確。\n- **\"Sounds good, go for it.\"**：口語、輕鬆。\n\n刪東西前，回覆時把動作講清楚，例如 *Yes, delete them.*，是很好的習慣，可以避免誤會。",
+      "tags": [
+        "praise"
+      ]
+    },
+    {
+      "id": "4ec558178166",
+      "date": "20261117",
+      "front": "你的指令「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」文法正確、語意清楚 👍。「follow it exact…",
+      "body": "你的指令「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」文法正確、語意清楚 👍。「follow it exactly」很精準地表達「完全照著做」。\n\n換個說法擴充字彙：\n- *\"Please read _auto/prompt.md and **adhere to it strictly**; the commit data **can be found in** _auto/commits.txt.\"*\n\n「adhere to」比「follow」更正式，常用在規範、指示的情境；「can be found in」是說明檔案位置時很自然的寫法。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "4b04d5282e50",
+      "date": "20261117",
+      "front": "\"Can't I SSH into 10.201.20.73? Last time I connected with WinSCP and transferred the files that way.\"",
+      "body": "你這次說：「不是可以 ssh 10.201.20.73 這台嗎？我上次就是用 winscp 連線後搬檔案過去的」\n\n自然的英文說法：\n> **\"Can't I SSH into 10.201.20.73? Last time I connected with WinSCP and transferred the files that way.\"**\n\n用法說明：\n- 「ssh 到某台」英文常說 **SSH into** 某台機器，*into* 有「進入」的感覺，很道地。\n- 「不是可以…嗎？」用否定疑問句 **Can't I…?**，帶有「我記得可以啊」的語氣，和中文的語感很接近。\n- **that way** 是「用那個方式」，放在句尾很自然，例如 *I did it that way last time.*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3ef4146b6a12",
+      "date": "20261117",
+      "front": "\"We don't need the frontend — we're only handling the backend for this requirement. How do I run the SQL script?\"",
+      "body": "你這次說：「前端我不用做，這個需求我們做後端就好。SQL 腳本我要怎麼跑？」\n\n自然的英文說法：\n> **\"We don't need the frontend — we're only handling the backend for this requirement. How do I run the SQL script?\"**\n\n用法說明：\n- 「我不用做」在這裡的意思是「不需要」，所以用 **don't need** 比 *I don't do* 自然。也可以說 **We'll skip the frontend.**\n- 「做後端就好」可以說 **only handle the backend**，或 **stick to the backend**（只專注在後端）。\n- 「跑腳本」英文就是 **run the script**；正式一點可以說 **execute the script**。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3d2c57d0efca",
+      "date": "20261117",
+      "front": "\"Please take a look at @krtc020_clip_playback_api.md.\"",
+      "body": "你這次用中文下指令：「@krtc020_clip_playback_api.md 讀取一下」\n\n自然的英文說法：\n> **\"Please take a look at @krtc020_clip_playback_api.md.\"**\n> 或 **\"Can you read through @krtc020_clip_playback_api.md?\"**\n\n用法說明：\n- **take a look at**：口語、輕鬆，意思是「看一下」，語氣最接近中文的「讀取一下」。\n- **read through**：強調「從頭到尾讀完」，想讓對方完整掌握內容時用。\n- 單說 \"Read the file.\" 文法沒錯，但聽起來比較像命令；前面加 *Please* 或改成 *Can you…?* 會比較有禮貌。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "2d6c8db9b4bd",
+      "date": "20261117",
+      "front": "\"I've finished updating the database. Please go ahead with the next step.\"",
+      "body": "你這次用中文說：「我更新完資料庫了，請接續下一步」\n\n自然的英文說法：\n> **\"I've finished updating the database. Please go ahead with the next step.\"**\n> 或更口語：**\"Database is updated — let's move on to the next step.\"**\n\n用法說明：\n- 「更新完了」用現在完成式 **I've finished updating** 或 **I've updated**，強調「已經做完、現在可以接著做」。\n- 「接續下一步」常見說法有 **go ahead with**（放手去做）、**move on to**（進到下一個階段）、**proceed with**（比較正式）。\n- 口語上，主詞和 *is/has* 常常省略，例如 *Database updated.*，在工作聊天裡很常見。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f8387b1c07e8",
       "date": "20261116",
       "front": "\"Here are the YouTube links for the two community videos.\"",
