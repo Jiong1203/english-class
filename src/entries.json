@@ -568,6 +568,15 @@
       ]
     },
     {
+      "id": "14f48e4f8767",
+      "date": "20261119",
+      "front": "\"The deployment went through.\"",
+      "body": "這次沒有新的英文句子。補充部署完成時常用的說法：\n\n> \"It's **live** on staging now.\"\n\n- **live** 指「已上線、正在運作」，例如 \"The new feature went live this morning.\"\n- 也可以說 **\"The deployment went through.\"**，意思是部署順利完成。*go through* 用來描述一件事「成功通過、順利完成」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "0c450d74ce90",
       "date": "20261119",
       "front": "\"Please commit and push the changes, then merge them back into main.\"",
