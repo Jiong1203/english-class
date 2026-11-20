@@ -1,6 +1,24 @@
 {
   "entries": [
     {
+      "id": "6e4087e5033b",
+      "date": "20261121",
+      "front": "你的描述翻成自然的英文：",
+      "body": "你的描述翻成自然的英文：\n\n> \"I ran into a bug. When I tried to delete this item, I got an error. It looks like it was actually deleted, but it's still showing on the screen.\"\n\n- **「遇到 bug 了」**：`I ran into a bug` 或 `I hit a bug` 都很道地。`run into` 是「碰到、遇上」的意思。\n- **「當我選擇刪除這項」**：不用直譯 `choose to delete`，用 `When I tried to delete this item` 更自然。\n- **「殘留在畫面上」**：可以說 `still showing on the screen` 或 `still lingering in the UI`。工程師常說「畫面資料過期」是 `stale UI` 或 `stale state`。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6770827846c1",
+      "date": "20261121",
+      "front": "\"Doesn't seem like it, but I tested it after your fix and it works. Please go ahead and deploy it.\"",
+      "body": "你的句子翻成自然的英文：\n\n> \"Doesn't seem like it, but I tested it after your fix and it works. Please go ahead and deploy it.\"\n\n- **「似乎都沒有」**：回答前一個問題時，口語會說 `Doesn't seem like it` 或 `Not that I can tell`，比直譯 `It seems there is none` 自然很多。\n- **「測試 ok 了」**：可以說 `it works`、`it checks out`，或 `it passed testing`。\n- **「請上線吧」**：`Please go ahead and deploy it` 或 `Go ahead and ship it`。`go ahead and…` 帶有「放心去做吧」的授權語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fed0bcbe430d",
       "date": "20261120",
       "front": "\"Go ahead and merge it into dev.\"",
@@ -50,6 +68,24 @@
       "date": "20261120",
       "front": "\"Yep, that's the right one.\"",
       "body": "你這次用中文確認，自然的英文說法：\n\n> \"Yes, wjoehuang@icsc.com.tw is correct.\"\n\n也可以說 **\"Yep, that's the right one.\"** 或 **\"That's correct.\"**。\n- `the right one` 用來確認對方講的那個選項沒錯，口語很自然。\n- 在 email 或正式訊息裡，**\"I can confirm that's correct.\"** 語氣比較正式。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bad2dc04b94c",
+      "date": "20261120",
+      "front": "\"OK, let's test it locally now. Go ahead and start it up.\"",
+      "body": "你的句子翻成自然的英文：\n\n> \"OK, let's test it locally now. Go ahead and start it up.\"\n\n- **「好那現在…」**：英文開頭常用 `OK, then…` 或 `Alright, let's…`，語氣很自然。\n- **「你啟動起來」**：直譯成 `You start it` 會太生硬。`Go ahead and start it up` 或 `Can you spin it up?` 比較道地。`spin up` 是工程師常用的口語，意思是把服務或伺服器跑起來。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ba9268f16baa",
+      "date": "20261120",
+      "front": "\"So does the migration run when I push?\"",
+      "body": "你的問題翻成自然的英文：\n\n> \"So does the migration run when I push?\"\n\n- 開頭的「所以」用 `So` 很道地，口語裡常拿來接續前面的話題。\n- 想更精確可以說 `Does the migration get applied on push?`。`get applied` 是資料庫 migration 常用的說法，`on push` 是「在 push 的時候」的簡潔寫法。",
       "tags": [
         "note"
       ]
@@ -118,10 +154,37 @@
       ]
     },
     {
+      "id": "74f80c51a2f0",
+      "date": "20261120",
+      "front": "\"There's a request for the personal log to support nested items — a second level, a third level, and so on.\"",
+      "body": "你這次用中文描述需求，以下是自然的英文說法：\n\n> \"There's a request for the personal log to support nested items — a second level, a third level, and so on.\"\n\n- **「有需求指出」**：`There's a request for…` 或 `A requirement came up that…` 都很自然；`Someone pointed out that we need…` 比較口語。\n- **「第二層、第三層」**：軟體介面裡常說 `nested items`、`sub-items`，或 `multiple levels of indentation`。`second level, third level` 也對，但前面加 `nested` 一聽就知道是樹狀結構。\n- **「...」**：英文用 `and so on`、`etc.` 或 `and beyond` 來表達，寫成 `a second level, a third level, and so on` 最自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "74863a811a15",
+      "date": "20261120",
+      "front": "\"Pressing Tab doesn't indent — it just moves the focus to the next field.\"",
+      "body": "你的句子翻成自然的英文：\n\n> \"Pressing Tab doesn't indent — it just moves the focus to the next field.\"\n\n- **「無法進行縮排」**：不用直譯成 `cannot perform indentation`，用 `doesn't indent` 更簡潔。\n- **「直接把焦點移動到」**：這裡的「直接」是「就這樣、逕自」的意思，英文用 `just` 表達最自然。\n- 回報 bug 常用「**預期 vs 實際**」的寫法：`Expected: Tab indents the line. Actual: focus jumps to the next field.`，工程團隊很常這樣寫。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "6919c831c96f",
       "date": "20261120",
       "front": "\"I'd rather just include a hyperlink to https://testaidemo.icsc.com.tw/worklog-report/ with the display text '週記_日誌週報系統'.\"",
       "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"I'd rather just include a hyperlink to https://testaidemo.icsc.com.tw/worklog-report/ with the display text '週記_日誌週報系統'.\"\n\n用法說明：\n- **I'd rather just...**：「我寧可就…」，表示想用比較簡單的做法，對應你說的「我想說就單純…」。\n- **display text**：「顯示文字」，也就是超連結上看到的字。也可以說 \"link text\" 或 \"anchor text\"（anchor text 是比較技術性的說法）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6648adae9dda",
+      "date": "20261120",
+      "front": "\"So can I just push now and let CI/CD deploy it to production?\"",
+      "body": "你的問題翻成自然的英文：\n\n> \"So can I just push now and let CI/CD deploy it to production?\"\n\n- **「直接」**：英文常用 `just`，例如 `Can I just push now?`，帶有「不用其他步驟、直接做」的語氣。\n- **「讓正式端觸發 CI/CD 讓系統部署」**：中文連用兩個「讓」，英文不要直譯成兩個 `let`，濃縮成 `let CI/CD deploy it to production` 一個動作就好。\n- **「正式端」**：英文是 `production`，常簡寫成 `prod`；測試環境是 `staging` 或 `test environment`。",
       "tags": [
         "note"
       ]
@@ -140,6 +203,15 @@
       "date": "20261120",
       "front": "你這句的英文可以這樣說：",
       "body": "你這句的英文可以這樣說：\n\n> **Where did you push it on GitLab? Is it on https://gitlab.com/jiongwen1203/worklog-report?**\n\n- 「推到哪裡」直接說 **Where did you push it?** 就很自然。\n- 想問得更精確，可以說 *Which remote did you push to?*，用 **remote** 這個 git 術語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "058375961d87",
+      "date": "20261120",
+      "front": "\"Testing passed — it's good to go live.\"",
+      "body": "你的句子翻成自然的英文：\n\n> \"Testing passed — it's good to go live.\"\n\n- **「測試 ok」**：英文常說 `Tested and working`，或 `Testing passed`。\n- **「可上線」**：最道地的說法是 `good to go live`、`ready to ship`，或 `ready for production`。\n- 工程團隊在 PR 或聊天裡常用縮寫 **LGTM**（Looks Good To Me），意思是「我看過了，可以合併／上線」。",
       "tags": [
         "note"
       ]
