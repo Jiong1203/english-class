@@ -1,6 +1,150 @@
 {
   "entries": [
     {
+      "id": "fed0bcbe430d",
+      "date": "20261120",
+      "front": "\"Go ahead and merge it into dev.\"",
+      "body": "你這次用中文回覆，自然的英文說法是：\n\n> \"Go ahead and merge it into dev.\"\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 可以併回 dev | **go ahead and** merge it into dev | `go ahead and…` 表示「同意，你可以動手了」，回應對方的提議時很常用 |\n| （替代說法） | **Feel free to** merge it back into dev. | 語氣更隨和，意思是「你直接做就好」 |\n| 併回 | merge **back** into | 加 `back` 能表達「回到原本分出來的分支」，跟中文「併回」的「回」一樣 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "fa56e29ba311",
+      "date": "20261120",
+      "front": "你這次用中文下指令，英文可以這樣說：",
+      "body": "你這次用中文下指令，英文可以這樣說：\n\n> **Can you get it running locally for me?**\n\n- 「跑起來」用 **get it running** 很自然，口語上也常說 **spin it up**。\n- 「本機」對應 **locally**，或說 **on my machine**。\n- 更簡短的工程師口語是 **Start the dev server.**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d814d6dd0ef0",
+      "date": "20261120",
+      "front": "\"\n\n用法說明：\n- **co-edit**：「共同編輯」，比 \"",
+      "body": "你這次用中文描述需求，以下是自然的英文說法：\n\n> \"We used to co-edit our weekly report on Google Docs, so every week we sent an email reminding everyone in the department to fill it in. Now that we have the worklog system, I'd like to update the reminder email. Could you suggest how to revise it?\"\n\n用法說明：\n- **co-edit**：「共同編輯」，比 \"edit together\" 精簡，常用來說多人協作的文件。\n- **used to + 原形動詞**：表示「以前習慣做、現在已經不做了」，剛好對應你說的「之前每週會…」。\n- **Now that...**：「既然現在…」，用來帶出因為情況改變而要調整，比 \"Because now...\" 自然。\n- **reminder email**：「提醒／通知信」。這類催大家填寫的信，英文通常叫 reminder，比 notification email 更貼切。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "d01e8d0ff2a8",
+      "date": "20261120",
+      "front": "你的指令：「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」",
+      "body": "你的指令：「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」\n\n很好！文法正確、語氣清楚。`follow it exactly` 簡潔地表達「完全照著做」。另一種說法：\n\n- \"Read _auto/prompt.md and **follow its instructions to the letter**.\"\n\n`to the letter` 意思是「一字不差地、嚴格地」，比 `exactly` 語氣更強，常用在指示或規範上。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "c7916828f7aa",
+      "date": "20261120",
+      "front": "\"Go ahead and push it first.\"",
+      "body": "你這次用中文溝通，對應的自然英文是：\n- 「先推送吧。」→ **\"Go ahead and push it first.\"**\n  *Go ahead and…* 表示「你就去做吧」，帶有同意、放行的語氣，比單說 *Push it first.* 柔和。\n- 「這邊應該要回覆甚麼」→ **\"What should I reply here?\"** 或 **\"How should I respond to this comment?\"**\n  *reply* 比較口語，常用在留言、訊息。*respond to* 稍微正式一點，後面要接 *to*。\n\n小提醒：中文「甚麼」和「什麼」兩種寫法都有人用，不過台灣現在比較常見的是「什麼」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "bb465d8c0e0d",
+      "date": "20261120",
+      "front": "\"Yep, that's the right one.\"",
+      "body": "你這次用中文確認，自然的英文說法：\n\n> \"Yes, wjoehuang@icsc.com.tw is correct.\"\n\n也可以說 **\"Yep, that's the right one.\"** 或 **\"That's correct.\"**。\n- `the right one` 用來確認對方講的那個選項沒錯，口語很自然。\n- 在 email 或正式訊息裡，**\"I can confirm that's correct.\"** 語氣比較正式。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ae607d33c1f9",
+      "date": "20261120",
+      "front": "\"①② Project blocks\"",
+      "body": "你這次用中文描述需求，以下是比較自然的英文說法：\n\n> The progress page currently splits things into \"①② Project blocks\" and \"③ Group members,\" which isn't very clear. Since the department weekly report already has its own section titles, I'd like the page to use those instead:\n> 1. E5 Key Work This Week\n> 2. Project Work Package Status\n> 3. E5 Group Workload & Management Report\n\n- 「看其實不太理想」用 **isn't very clear** 或 **doesn't read well** 比較自然。直接翻成 \"not ideal to look at\" 會有點生硬。\n- 「調整成對應的標題」可以說 **use those instead** 或 **match the corresponding titles**。前者比較口語，後者比較正式。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a3a87b3a0ebc",
+      "date": "20261120",
+      "front": "\"There are rules for generating Threads posts in `frontend/docs/threads/`. Could you turn them into a project skill? Or does one already exist?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> \"There are rules for generating Threads posts in `frontend/docs/threads/`. Could you turn them into a project skill? Or does one already exist?\"\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 有專門生成串文的規則 | there are **dedicated** rules for generating posts | `dedicated` 表示「專門用於某事的」，比 `special` 更精確 |\n| 寫成 skills | **turn** them **into** a skill | `turn A into B` 是「把 A 轉成 B」最口語的說法，比 `write as` 自然 |\n| 還是現在已經有了？ | or **is there one already**? | `one` 代替前面的 skill，避免重複；`already` 放句尾語氣較輕鬆 |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9d69fbd89830",
+      "date": "20261120",
+      "front": "\"\n\n用法說明：\n- **reads like**：「讀起來像…」。評論一篇文字的語氣或類型時很常用，比 \"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"Your version reads more like a launch announcement for the new system. I can send that one manually, but the example I gave you is a reminder that an agent sends automatically on a schedule.\"\n\n用法說明：\n- **reads like**：「讀起來像…」。評論一篇文字的語氣或類型時很常用，比 \"is like\" 更精準。\n- **launch announcement**：「上線公告」。一次性的發布通知通常這樣稱呼，和每週發的 reminder 剛好成對比。\n- **on a schedule**：「按排程」。也可以說 \"a scheduled reminder\"，意思一樣，更精簡。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "91774e43c5e5",
+      "date": "20261120",
+      "front": "你這句的英文可以這樣說：",
+      "body": "你這句的英文可以這樣說：\n\n> **Next, could you improve the reports page? The weekly reports are pretty long, so I'd like a way to jump straight to a specific row — something like a table of contents.**\n\n- 「快速導向到該列」用 **jump straight to ...** 最自然；**jump to** 是網頁導覽常用的動詞。\n- 「目錄」是 **table of contents**，常縮寫成 **TOC**。\n- 「優化…部分」說 **improve** 比 *optimize* 自然；*optimize* 比較偏效能調校。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8dc12284b450",
+      "date": "20261120",
+      "front": "你這句的英文可以這樣說：",
+      "body": "你這句的英文可以這樣說：\n\n> **OK, please add it, and keep pushing to both from now on.**\n\n- 「之後也都」用 **from now on** 最自然，表示從現在開始持續。\n- 「同步推到」可以說 *keep it in sync with ...* 或 *mirror it to ...*。**mirror** 是 git 圈常用的說法，例如 *mirror the repo to gitlab.com*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "8084c5d06508",
+      "date": "20261120",
+      "front": "你這句英文可以這樣說：",
+      "body": "你這句英文可以這樣說：\n\n> **I've already created an admin account. Could you generate some test data locally, using the production data as a reference?**\n\n- 「正式機」用 **production** 或簡稱 **prod**，相對的「本機」是 **local**。\n- 「參考…的資料」用 **using … as a reference** 或 **based on …**。後者更簡潔：*generate test data based on production*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "75cd80069d80",
+      "date": "20261120",
+      "front": "\"Clean up the git state first, then commit and push to the remote.\"",
+      "body": "你這次用中文下指令，自然的英文說法是：\n\n> \"Clean up the git state first, then commit and push to the remote.\"\n\n| 中文 | 英文 | 說明 |\n| --- | --- | --- |\n| 整理一下 git 狀態 | **tidy up** / **clean up** the git state | `tidy up` 語氣較輕，像「順手收拾一下」；`clean up` 更常用在開發情境 |\n| 整理完再… | **once that's done**, … | 比 `after finishing` 口語，常見於工作指令 |\n| 推送到遠端 | push to **the remote** | 英文裡 `remote` 可以直接當名詞用，不必說 `remote repository` |",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "6919c831c96f",
+      "date": "20261120",
+      "front": "\"I'd rather just include a hyperlink to https://testaidemo.icsc.com.tw/worklog-report/ with the display text '週記_日誌週報系統'.\"",
+      "body": "你這次用中文說明，以下是自然的英文說法：\n\n> \"I'd rather just include a hyperlink to https://testaidemo.icsc.com.tw/worklog-report/ with the display text '週記_日誌週報系統'.\"\n\n用法說明：\n- **I'd rather just...**：「我寧可就…」，表示想用比較簡單的做法，對應你說的「我想說就單純…」。\n- **display text**：「顯示文字」，也就是超連結上看到的字。也可以說 \"link text\" 或 \"anchor text\"（anchor text 是比較技術性的說法）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4e2c381b4d62",
+      "date": "20261120",
+      "front": "你這句的英文可以這樣說：",
+      "body": "你這句的英文可以這樣說：\n\n> **I forgot my SSH password, so never mind. Let's just deploy the changes I made earlier.**\n\n- 「沒關係」在這裡是「那就算了」的意思，用 **never mind** 或 **no worries** 最貼切。\n- 「上線」說 **deploy** 或 **ship**。口語上也常說 *push it to production* 或 *push it live*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "414e50cb6d7c",
+      "date": "20261120",
+      "front": "你這句的英文可以這樣說：",
+      "body": "你這句的英文可以這樣說：\n\n> **Where did you push it on GitLab? Is it on https://gitlab.com/jiongwen1203/worklog-report?**\n\n- 「推到哪裡」直接說 **Where did you push it?** 就很自然。\n- 想問得更精確，可以說 *Which remote did you push to?*，用 **remote** 這個 git 術語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fa666eaeefe2",
       "date": "20261119",
       "front": "你寫的是「推上公司」，英文可以這樣說：",
