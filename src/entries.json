@@ -1,6 +1,204 @@
 {
   "entries": [
     {
+      "id": "fb6c2a223a03",
+      "date": "20261124",
+      "front": "\"Let me rephrase.\"",
+      "body": "你這句的意思是：第 ③ 區不管哪一組，經理以上都不用留個人段落。自然的英文說法：\n\n> \"To clarify: in section 3, the E5 workload and management report, anyone at manager level or above shouldn't have their own block, whether they're in E50, E51, E52, or E53.\"\n\n- **To clarify**：對應「應該這樣講」，用來修正或補充前面的說法，很自然也很禮貌。另一個說法是 *\"Let me rephrase.\"*\n- **at manager level or above**：「經理以上等級」的標準說法。\n- **whether it's A, B, or C**：「不管是 A、B 還是 C」，比 *no matter A or B* 更道地。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "e6fb7f4fc50f",
+      "date": "20261124",
+      "front": "說明：",
+      "body": "| 你的句子 | 更自然的說法 |\n|---|---|\n| Please try again, 登入好了 | **Please try again — I've logged in.** |\n\n說明：\n- **Please try again** 很自然，這樣用沒問題 👍\n- 兩句之間用破折號（—）或句號隔開比逗號好。英文用逗號直接連接兩個獨立句子，叫做 comma splice，算是常見的標點錯誤。\n- 「登入好了」可以說 **I've logged in.**。用現在完成式，表示「已經完成、現在處於登入狀態」。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "e28088a25138",
+      "date": "20261124",
+      "front": "說明：",
+      "body": "| 你的句子 | 自然的英文 |\n|---|---|\n| 擴充功能已連線，再試一次，我的是 I30131 的電腦 | **The extension is connected now. Please try again — mine is the I30131 machine.** |\n\n說明：\n- **mine is the I30131 machine**：用 **mine** 代替 *my computer*，可以避免重複。說電腦時常用 **machine**，例如 *my machine*、*the build machine*，這是工程師常見的說法。\n- 中文用逗號把三件事串在一起很自然，英文最好拆成兩句，或用破折號隔開。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "d83926112b5c",
+      "date": "20261124",
+      "front": "\"I've pushed the change so Jenkins applies pending SQL migrations before swapping the jar.\"",
+      "body": "這次你只輸入了指令 `/commit-push-merge`，沒有英文句子。跟同事說明這次做了什麼時，可以這樣講：\n\n> \"I've pushed the change so Jenkins applies pending SQL migrations before swapping the jar.\"\n\n- **pending SQL migrations**：「還沒執行的資料庫異動」。在部署情境裡，*migration* 是指資料庫結構的變更，比 *SQL changes* 更專業。\n- **before swapping the jar**：*swap* 是「替換」，用在換掉執行中的版本時，比 *replace* 口語也更生動。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ccc2c3daa41f",
+      "date": "20261124",
+      "front": "你這次是用中文提問，以下是自然的英文說法：",
+      "body": "你這次是用中文提問，以下是自然的英文說法：\n\n> \"We just ran a call test on the production server and found that nothing was written to the krtc030 log. Can you help me figure out why the krtc030 data isn't being saved?\"\n\n說明：\n- 「正式機」英文常說 **production server**，口語可以簡稱 **prod**；「測試機」是 **staging / test server**。\n- 「沒有寫入 log」用 **nothing was written to ...** 比 *it didn't write log* 自然，被動語態把重點放在「資料」上。\n- 「幫我確認一下為什麼」用 **figure out why** 很道地，帶有「調查、找出原因」的意思，比 *confirm why* 更貼切；*confirm* 比較像是確認一件已經知道的事。\n- 「無法順利寫入」可以說 **isn't being saved** 或 **fails to persist**，後者是比較技術性的用語。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "c5f9f344629d",
+      "date": "20261124",
+      "front": "說明：",
+      "body": "| 你的句子 | 自然的英文 |\n|---|---|\n| 我認為如果調整一下匯入功能的權限，應該可以大幅降低一些衍生出的問題 | **I think tightening the import permissions would greatly reduce the side issues.** |\n| 把匯入功能只限給系統管理員與協理，應該會比較好，你覺得呢? | **Restricting import to admins and directors would be better. What do you think?** |\n\n說明：\n- **tighten permissions**：「收緊權限」的道地說法，比 *adjust the permissions* 更明確表達「縮小範圍」。\n- **side issues** / **knock-on problems**：對應「衍生出的問題」。**knock-on** 是英式說法，指連帶影響。\n- **What do you think?** 是徵詢意見最自然的結尾，比 *How do you think?* 正確（後者是常見錯誤）。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "b87e966858ef",
+      "date": "20261124",
+      "front": "\"a special case to handle\"",
+      "body": "這次是用中文描述需求，以下是比較自然的英文版本：\n\n> \"There's a special case to handle in the personal GitLab settings. The E5 department has a shared agent called \"CCTEAM\", and some colleagues use it for day-to-day development. When they do, the commit author shows up as CCTEAM instead of their own account. So we need a filter for CCTEAM commits, so that anyone who needs to can pull them in and turn them into their own work logs.\"\n\n- 「特殊案例需要調整」→ **\"a special case to handle\"**，比直翻 \"a special case that needs adjustment\" 自然。\n- 「帶回成為自己的工作日誌」→ **\"pull them in and turn them into their own work logs\"**。\"turn A into B\" 是「把 A 變成 B」的常用說法。\n- 「日常工作中」→ **\"day-to-day\"** 或 \"in their daily work\"。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "af0ce700e686",
+      "date": "20261124",
+      "front": "\"shouldn't belong to anyone\"",
+      "body": "你這次是用中文描述 bug，以下是自然的英文說法：\n\n> \"Bug fix: In the department weekly report, the line '2. This week's work: same as 1, E5 key work this week' shouldn't be assigned to an owner. It's more of a note, similar to an image caption.\"\n\n- **assign to an owner**：「排入某負責人負責」最自然的說法。也可以說 *\"shouldn't belong to anyone\"*。\n- **more of a note**：表示「比較算是說明」。`more of a ...` 意思是「與其說是 A，不如說比較像 B」，口語很常用。\n- **similar to an image caption**：「跟圖片說明相同的概念」。圖片下方的說明文字，英文標準用語是 *caption*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a504a1646312",
+      "date": "20261124",
+      "front": "Good** 加指令，是工程師之間常見的簡短確認語氣。也可以說：",
+      "body": "| 你的句子 | 說明 |\n|---|---|\n| Good, /commit-push-merge | 很自然 👍 |\n\n**Good** 加指令，是工程師之間常見的簡短確認語氣。也可以說：\n- **Looks good, ship it.**（看起來沒問題，送出去吧。）\n- **LGTM, go ahead and merge.**（LGTM = Looks Good To Me，code review 時常用的縮寫。）",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "a1c81a3538f8",
+      "date": "20261124",
+      "front": "說明：",
+      "body": "| 你的句子 | 自然的英文 |\n|---|---|\n| 所以邏輯上正常流程應該是……我理解正確嗎? | **So the normal flow should be: download the report as Word, edit it locally, import it back, review the comparison preview, confirm, and then it's imported. Is that right?** |\n| 請確認會不會有以下幾個問題 | **Could you check whether any of the following issues might occur?** |\n| 多人重複多次匯入導致版本錯誤 | **Version conflicts caused by multiple people importing repeatedly** |\n\n說明：\n- **Is that right?** / **Am I understanding this correctly?** 都是確認理解的常見問法，前者比較口語。\n- **whether ... might occur**：「會不會發生」的正式說法，適合用在需求確認或測試清單。\n- **version conflict** 是軟體領域「版本衝突」的標準用語，比 *version error* 更精確。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "9462ef01e31d",
+      "date": "20261124",
+      "front": "說明：",
+      "body": "| 你的句子 | 自然的英文 |\n|---|---|\n| 你查的那台電腦似乎不是我的電腦，請你換個瀏覽器試試看 | **It looks like you're checking a different computer, not mine. Could you try another browser?** |\n\n說明：\n- **It looks like...** 對應「似乎」，比 *It seems that...* 更口語，很適合日常溝通。\n- **Could you try...?** 比 *Please try...* 更委婉，是請對方幫忙時常用的禮貌說法。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8f7c608ada6f",
+      "date": "20261124",
+      "front": "說明：",
+      "body": "| 你的句子 | 自然的英文 |\n|---|---|\n| 登入好了 | **I'm logged in now.** / **Done, I've signed in.** |\n\n說明：\n- **log in** 和 **sign in** 意思一樣。**sign in** 比較常出現在介面文字上，口語兩個都很常用。\n- 動詞要分開寫：**log in**；名詞或形容詞才寫成一個字 **login**，例如 the login page。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "8a563c96eb5d",
+      "date": "20261124",
+      "front": "\"Please test it in the browser.\"",
+      "body": "你這句「請開瀏覽器實際操作驗證」，自然的英文說法：\n\n> \"Please open the browser and verify it hands-on.\"\n\n- **hands-on**：「實際動手操作」，強調不是只看程式碼，而是真的去點、去用。\n- 另一種說法：*\"Please test it in the browser.\"*，比較簡潔，開發者之間很常用。\n- 中文的「實際操作驗證」如果直譯成 *\"actually operate and verify\"* 會有點生硬。英文通常用 *test it out* 或 *try it out* 來表達這個意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4d09d72984c9",
+      "date": "20261124",
+      "front": "你這段話的英文可以這樣說：",
+      "body": "你這段話的英文可以這樣說：\n\n> \"Since I introduced the scripts/sql folder to this project — as far as I know, the company didn't have a habit of versioning database changes before — could you assess what it would take to migrate this project to Flyway?\"\n\n- **what it would take to ~**：「做～需要哪些工作」，請別人評估工作量時很常用，比 *what tasks are needed* 更自然。\n- **versioning database changes**：「資料庫版控」的自然說法，也可以說 *database version control* 或 *schema versioning*。\n- **as far as I know**：「據我所知」，和中文用法幾乎一樣，可以縮寫成 *AFAIK*（多用在聊天訊息中）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4aa0c9f81ae9",
+      "date": "20261124",
+      "front": "\"Is Flyway free to use? Is it actively maintained? Is it one of the mainstream tools for database version control?\"",
+      "body": "你這次的問題「Flyway 是免費套件嗎? 現在版本更新頻率高嗎? 算是資料庫版控主流之一嗎?」，英文可以這樣問：\n\n> \"Is Flyway free to use? Is it actively maintained? Is it one of the mainstream tools for database version control?\"\n\n- **free to use**：比單說 *free* 更明確，指「可以免費使用」，避免和 *free（自由）* 的意思混淆。\n- **actively maintained**：問「更新頻率高不高」時，英文通常這樣問，重點是有沒有人持續維護，而不是單純看版本數字。\n- **mainstream tools**：「主流工具」。也可以說 *widely adopted*（被廣泛採用）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "340767f0b90e",
+      "date": "20261124",
+      "front": "這則是系統自動通知，你沒有寫新的英文，補一個跟部署相關的說法：",
+      "body": "這則是系統自動通知，你沒有寫新的英文，補一個跟部署相關的說法：\n\n| 中文 | 英文 |\n|---|---|\n| 已上線，可以請協理試用 | **It's live — the director can try it out now.** |\n\n說明：\n- **It's live**：「已上線」最口語的說法。\n- **try it out**：「試用看看」，比 *test it* 輕鬆，常用在請使用者體驗新功能的時候。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "31be9714ca15",
+      "date": "20261124",
+      "front": "說明：",
+      "body": "| 你的句子 | 自然的英文 |\n|---|---|\n| 部門週報再幫我做一個【匯入】功能……希望也有匯入功能可能讓線上版本保持同步 | **Could you also add an Import feature to the department weekly report? We already have Download as Word, but people sometimes edit the file after downloading it, so I'd like an import option to keep the online version in sync.** |\n\n說明：\n- **keep ... in sync**：「保持同步」最道地的說法，例如 *keep the online version in sync with the Word file*。\n- **people sometimes edit the file after downloading it**：把「有時候可能會有下載後再編輯的可能」簡化。中文的「可能……的可能」在英文直接用 **sometimes** 表達就夠了，不需要重複 *possibly*。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "2320308fbddf",
+      "date": "20261124",
+      "front": "\"I logged in with both a manager account and a professional engineer account, and everything looks good so far, so go ahead with /commit-push-merge.\"",
+      "body": "你這句「我實際登入過經理帳號以及專業工程師帳號，目前看下了是 ok 的，所以可以 /commit-push-merge」，自然的英文說法：\n\n> \"I logged in with both a manager account and a professional engineer account, and everything looks good so far, so go ahead with /commit-push-merge.\"\n\n- **looks good so far**：對應「目前看下了是 ok 的」，表示目前沒發現問題。開發者常說的 *LGTM* 就是 *looks good to me* 的縮寫。\n- **go ahead with ...**：「可以進行……」的自然說法，比 *you can do ...* 更順。\n- **logged in with an account**：登入某個帳號，介系詞常用 *with* 或 *as*，例如 *logged in as a manager*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "20f47f9bba2b",
+      "date": "20261124",
+      "front": "\"What's the Java equivalent?\"",
+      "body": "你這句「我知道在 Python 有 alembic 可以幫忙做初始化跟 migration，那在 java 這邊有嗎?」，英文可以這樣說：\n\n> \"I know Python has Alembic for schema setup and migrations. Is there something similar in Java?\"\n\n- **Is there something similar in Java?**：問「有沒有類似的東西」最自然的說法。也可以說 *\"What's the Java equivalent?\"*，*equivalent* 就是「對應的東西」。\n- **schema setup**：這裡的「初始化」指的是建立資料庫結構，用 *schema setup* 或 *initial schema* 比直譯 *initialization* 更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0e8efbe566d3",
+      "date": "20261124",
+      "front": "\"The script worked!\"",
+      "body": "你這句「ok 腳本有成功執行了」，英文可以這樣說：\n\n> \"OK, the script ran successfully.\"\n\n- **ran successfully**：*run* 的過去式 *ran* 很常用來說程式或腳本「執行了」，例如 *The job ran overnight.*\n- 也可以更口語地說 *\"The script worked!\"* 或 *\"It went through fine.\"*。*went through* 有「順利跑完、沒卡住」的意思，很適合用在部署流程。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0da067ac5bbd",
+      "date": "20261124",
+      "front": "\"D:\\ezoGit\\_screenshots\"",
+      "body": "| 你的句子 | 自然的英文 |\n|---|---|\n| 匯入時圖片也可以同步更新嗎? | **Will images be synced on import as well?** / **Does the import also update the images?** |\n| 請你幫忙把截圖歸檔到 \"D:\\ezoGit\\_screenshots\" | **Could you file the screenshot under \"D:\\ezoGit\\_screenshots\"?** |\n\n說明：\n- **file ... under ...**：「歸檔到某處」的道地說法，比 *put the screenshot into* 更有「整理歸類」的意思。也可以說 **archive the screenshot to ...**。\n- **as well** 放句尾，對應中文的「也」，語氣自然。",
+      "tags": [
+        "comparison"
+      ]
+    },
+    {
+      "id": "0349ced8bc7a",
+      "date": "20261124",
+      "front": "\"fetch all\"",
+      "body": "你這句的意思可以這樣說：\n\n> \"So by default, all CCTEAM commits are fetched, and colleagues can pick which ones are theirs and import them into their work logs?\"\n\n- 「全抓」→ **\"fetch all\"** 或 **\"pull in everything\"**。\n- 「哪些是屬於自己的」→ **\"which ones are theirs\"**，比 \"which ones belong to themselves\" 簡潔自然。\n- 「導入到工作日誌中」→ **\"import them into their work logs\"**。\n- 用 **\"So ..., and ...?\"** 這種直述句加問號，是英文口語確認自己理解對不對的常見問法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f944a923e02b",
       "date": "20261123",
       "front": "\"It checks out so far. Please ship it.\"",
