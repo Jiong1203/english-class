@@ -28,6 +28,15 @@
       ]
     },
     {
+      "id": "df66b2e8bb62",
+      "date": "20261124",
+      "front": "\"Keep it off by default\"",
+      "body": "這句是中文指令，自然的英文說法：\n\n> \"Keep it off by default. Please commit, merge it back into main, and push.\"\n\n- 「維持預設關閉」→ **\"Keep it off by default\"**，\"keep\" 表示「維持現狀」。\n- 「合併回 main」→ **\"merge it back into main\"**，\"back into\" 表示分支「回到」主幹。\n- 一串動作用 **\"A, B, and C\"** 列出就好，不用寫 \"then\"，英文讀起來更俐落。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "d83926112b5c",
       "date": "20261124",
       "front": "\"I've pushed the change so Jenkins applies pending SQL migrations before swapping the jar.\"",
