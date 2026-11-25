@@ -19,12 +19,66 @@
       ]
     },
     {
+      "id": "cc9e6e318208",
+      "date": "20261125",
+      "front": "\"From a UI/UX designer's perspective, would you recommend displaying the GitLab commit results in a dialog?\"",
+      "body": "你的句子用中文寫，自然的英文說法是：\n\n> \"From a UI/UX designer's perspective, would you recommend displaying the GitLab commit results in a dialog?\"\n\n說明：\n- **「從…的角度分析」** → *from a … perspective* 或 *from a …'s point of view*。*perspective* 比較正式，很適合用在討論設計或專業意見的時候。\n- **「是否會建議」** → *would you recommend…?*。用 *would* 比 *do you recommend* 更委婉，是在請對方給專業判斷，而不是問一個既定的事實。\n- **「將…呈現在 dialog 中」** → *displaying … in a dialog*，或是 UI 討論常用的 *showing … in a modal*。*modal* 是設計師之間更常用的詞，特別指「會擋住背景操作」的那種 dialog。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "c880ea2ef15f",
+      "date": "20261125",
+      "front": "\"I refactored the commit picker into a dialog.\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫英文句子。補充一個這次用到的詞：**refactor** 指「不改變功能、只調整程式結構」，像這次把側欄清單搬進 dialog，就可以說 *\"I refactored the commit picker into a dialog.\"*。如果同時也改了使用者看得到的行為，有些團隊會用 *rework* 或 *redesign*，強調不只是內部結構調整。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "9f3996a9da14",
       "date": "20261125",
       "front": "\"The system cannot find the path specified.\"",
       "body": "你這次貼的是指令和錯誤訊息，沒有寫英文句子。順便學一下錯誤訊息的英文：\n\n- 「系統找不到指定的路徑。」英文版 Windows 是：**\"The system cannot find the path specified.\"**\n- 回報這類問題時可以這樣說：**\"I got a 'path not found' error when I ran the command.\"**\n\n**path not found** 和 **file not found** 是工程師之間最常說的兩種錯誤，兩者的差別在於找不到的是「路徑」還是「檔案」。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "94d93fe0cfba",
+      "date": "20261125",
+      "front": "你這段寫的是中文，以下是自然的英文說法：",
+      "body": "你這段寫的是中文，以下是自然的英文說法：\n\n> \"Yes, I tested it on testaidemo with my real account. I didn't pay attention to exactly how many seconds it took, but I noticed it takes longer when I run it after being idle for a while.\n> I think reducing the push window from 14 days to 7 days is fine, since our reports are already weekly, so 7 days matches a week.\"\n\n說明：\n- **「沒有特別留意」** → *I didn't pay attention to…* 或 *I didn't keep track of…*。*keep track of* 有「持續記錄」的意思，用在「沒有計時」很貼切。\n- **「閒置一段時間後」** → *after being idle for a while*。*idle* 是電腦和系統常用的詞，指「沒有在使用的狀態」。\n- **「本來就是以週報為單位」** → *our reports are already weekly*。英文不必直譯「以…為單位」，直接用 *weekly* 當形容詞就很自然。\n- **「剛好算是一週」** → *matches a week* 或 *lines up with a week*。*line up with* 有「剛好對齊」的感覺，很適合描述兩個東西互相吻合。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "895868858d1f",
+      "date": "20261125",
+      "front": "\"This change speeds up loading\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫英文句子。補充一個這次用到的詞：commit type **perf** 是 *performance* 的縮寫，用在「只改善效能、不改變功能」的修改。描述這類改動時，可以說 *\"This change speeds up loading\"* 或 *\"This reduces the number of API calls.\"*。*speed up* 是很口語的「加快」，正式一點可以用 *improve performance*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7816a0ca1f4d",
+      "date": "20261125",
+      "front": "你寫的是中文「我登入好了，你繼續測試」，英文可以這樣說：",
+      "body": "你寫的是中文「我登入好了，你繼續測試」，英文可以這樣說：\n\n> \"I've logged in. Please continue testing.\"\n\n說明：\n- **「登入好了」** → *I've logged in*。用現在完成式 *have logged in*，表示「已經完成、現在處於登入狀態」，比過去式 *I logged in* 更貼切。\n- **「你繼續」** → *please continue* 或更口語的 *go ahead*。*Go ahead* 帶有「我這邊好了，換你」的意思，很適合這種交棒的情境。\n- 注意 *log in* 和 *login* 的差別：動詞要分開寫（*log in*），名詞或形容詞才連在一起（*the login page*）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5dfa703a7377",
+      "date": "20261125",
+      "front": "你的句子「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」文法正確，也很自然 👍",
+      "body": "你的句子「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」文法正確，也很自然 👍\n- 用祈使句下指令，簡潔清楚；「follow it exactly」點出要「完全照做」，語氣很明確。\n- 換個說法：「Please open _auto/prompt.md and carry out its instructions to the letter; the commit data lives in _auto/commits.txt.」\n  - **to the letter** 是「一字不差地照做」，比 exactly 更口語、更道地。\n  - **lives in** 是技術圈常用的講法，表示「檔案放在某處」。",
+      "tags": [
+        "grammar"
       ]
     },
     {
@@ -41,6 +95,15 @@
       "date": "20261125",
       "front": "你這次用中文描述，以下是自然的英文說法：",
       "body": "你這次用中文描述，以下是自然的英文說法：\n\n> \"A colleague asked about the Activity section in GitLab. After looking into it, I found they meant that our system currently requires users to set up tracked projects in Settings before using the GitLab import to fill in work logs. They're wondering if we could use Activity to automate that step. Could you analyze it and discuss it with me?\"\n\n說明：\n- **「了解了一下原意」** → *after looking into it* 或 *after clarifying what they meant*。*clarify* 帶有「跟對方確認過」的意思，比 *understand* 更貼近你實際做的事。\n- **「自動化這一段的流程」** → *automate that step*。英文不需要把「這一段流程」逐字翻成 *this section of the process*，用 *step* 就很自然。\n- **「並與我聊聊」** → *discuss it with me* 或比較口語的 *let's talk it through*。*talk it through* 有「一起把事情想清楚」的意思，很適合這種討論情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4c4ce6a57db3",
+      "date": "20261125",
+      "front": "你寫的是中文「好我認同」，英文可以這樣說：",
+      "body": "你寫的是中文「好我認同」，英文可以這樣說：\n\n> \"OK, I agree.\" 或 \"Sounds good to me.\"\n\n說明：\n- *I agree* 是直接表達同意，語氣中性。\n- *Sounds good to me* 比較口語，帶有「這個方向不錯，就這麼做吧」的意思，在討論方案時很常用。\n- 如果想表示同意並請對方開始動手，可以說 *\"Agreed — go ahead.\"*，簡潔又清楚。",
       "tags": [
         "note"
       ]
@@ -95,6 +158,15 @@
       "date": "20261125",
       "front": "\"Let's go with option A.\"",
       "body": "你只回了一個字母「A」，在選項情境下完全沒問題。如果想說得完整一點，可以這樣講：\n\n> \"Let's go with option A.\"\n> \"Option A, please.\"\n\n說明：**go with** 是「選擇、採用」某個方案的道地說法，比 *choose* 更口語，開會討論方案時很常聽到。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0459e8681ab2",
+      "date": "20261125",
+      "front": "\"Why does loading take a while when reading from GitLab now? Is there a performance issue?\"",
+      "body": "你的句子是中文，自然的英文說法是：\n\n> \"Why does loading take a while when reading from GitLab now? Is there a performance issue?\"\n\n說明：\n- **「loading 都會有點久」** → *loading takes a while* 或 *loading is a bit slow*。*take a while* 是很口語的說法，表示「要等一陣子」，語氣不帶抱怨，很適合用來提問。\n- **「是不是有甚麼效能問題」** → *Is there a performance issue?* 或 *Is something causing a performance bottleneck?*。*bottleneck*（瓶頸）是工程師在討論效能時很常用的詞。\n- 小提醒：「甚麼」在台灣比較常寫成「什麼」，兩種寫法都有人用，教育部的標準用字是「什麼」。",
       "tags": [
         "note"
       ]
