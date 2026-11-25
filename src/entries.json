@@ -1,6 +1,105 @@
 {
   "entries": [
     {
+      "id": "e12ca1c1a425",
+      "date": "20261125",
+      "front": "\"Verification passed.\"",
+      "body": "你的句子：「驗證成功」\n\n自然的英文說法：\n\n> \"It worked!\"\n> \"Verified — it's working now.\"\n\n說明：口語回報測試通過時，**It worked!** 最常用也最自然。正式一點可以說 **\"Verification passed.\"** 或 **\"Confirmed working on production.\"**。直譯成 *Verify success* 文法不完整，要避免。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "e066022aee76",
+      "date": "20261125",
+      "front": "你這次用中文回答，以下是自然的英文說法：",
+      "body": "你這次用中文回答，以下是自然的英文說法：\n\n> \"1. The pain point is having to add projects first.\n> 2. I'd prefer to remember a project only when the user checks the box.\n> 3. I think the CCTEAM scenario is still common (even though I don't use it myself), so we should keep it.\"\n\n說明：\n- **「我傾向…」** → *I'd prefer to…* 或 *I lean toward…*。*lean toward* 語氣比較委婉，表示「偏向這個選項，但還可以討論」，很適合用在討論設計的時候。\n- **「雖然我沒有用」** → *even though I don't use it myself*。加上 *myself* 有「就我個人而言」的意思，暗示其他人可能有在用，正好符合你想表達的。\n- **「應該還是很多」** → *is still common*。英文通常不會直譯成 *still many*，描述「某種情況很常見」要用 *common*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "9f3996a9da14",
+      "date": "20261125",
+      "front": "\"The system cannot find the path specified.\"",
+      "body": "你這次貼的是指令和錯誤訊息，沒有寫英文句子。順便學一下錯誤訊息的英文：\n\n- 「系統找不到指定的路徑。」英文版 Windows 是：**\"The system cannot find the path specified.\"**\n- 回報這類問題時可以這樣說：**\"I got a 'path not found' error when I ran the command.\"**\n\n**path not found** 和 **file not found** 是工程師之間最常說的兩種錯誤，兩者的差別在於找不到的是「路徑」還是「檔案」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "5cea622fb926",
+      "date": "20261125",
+      "front": "\"Let's start with step 0.\"",
+      "body": "你的句子：「先讓你做第 0 步」\n\n自然的英文說法：\n\n> \"Go ahead with step 0 first.\"\n\n說明：**go ahead with ...** 是「你先開始做某件事吧」的道地說法，授權別人動手時很常用。也可以更簡短地說 **\"Let's start with step 0.\"**。中文的「讓你做」如果直譯成 *let you do*，英文聽起來會有點像「允許你做」，語氣比較生硬。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "4ee0f678e94b",
+      "date": "20261125",
+      "front": "你這次用中文描述，以下是自然的英文說法：",
+      "body": "你這次用中文描述，以下是自然的英文說法：\n\n> \"A colleague asked about the Activity section in GitLab. After looking into it, I found they meant that our system currently requires users to set up tracked projects in Settings before using the GitLab import to fill in work logs. They're wondering if we could use Activity to automate that step. Could you analyze it and discuss it with me?\"\n\n說明：\n- **「了解了一下原意」** → *after looking into it* 或 *after clarifying what they meant*。*clarify* 帶有「跟對方確認過」的意思，比 *understand* 更貼近你實際做的事。\n- **「自動化這一段的流程」** → *automate that step*。英文不需要把「這一段流程」逐字翻成 *this section of the process*，用 *step* 就很自然。\n- **「並與我聊聊」** → *discuss it with me* 或比較口語的 *let's talk it through*。*talk it through* 有「一起把事情想清楚」的意思，很適合這種討論情境。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2aadac7b1692",
+      "date": "20261125",
+      "front": "\"go live\"",
+      "body": "你這句的英文說法：\n\n> \"Verified in production — it works.\"\n\n或更口語一點：\n\n> \"It's live and confirmed working.\"\n\n- 「上線」→ **\"go live\"**／**\"in production\"**。\"It's live\" 就是「已上線」的意思，工程團隊很常用。\n- 「確認 ok」→ **\"confirmed working\"** 或 **\"verified\"**。英文書面回報時，比只寫 \"OK\" 更清楚表達「測過、沒問題」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "25f9f1e9b46f",
+      "date": "20261125",
+      "front": "\"Please commit, push, and merge these changes.\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫英文句子。順便補充一個相關說法：要請別人幫忙送出改動時，可以說 *\"Please commit, push, and merge these changes.\"*，或是更口語的 *\"Ship it.\"*。*Ship it* 是工程師之間常用的俚語，意思是「可以上線了，送出去吧」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1d0d9db3dcd8",
+      "date": "20261125",
+      "front": "\"First, could you simplify the deployment steps and walk me through what to do at each step?\"",
+      "body": "你的句子：「請先把【部署時要做的事】整理得更簡單明瞭，並且每個步驟要做甚麼都一步一步教學」\n\n自然的英文說法：\n\n> \"First, could you simplify the deployment steps and walk me through what to do at each step?\"\n\n說明：\n- **walk me through** 是「一步一步帶我做、講解給我聽」的道地說法，比 *teach me step by step* 自然很多。\n- 「整理得更簡單明瞭」可以說 **simplify** 或 **make ... clearer and easier to follow**。*easy to follow* 是形容教學、說明「好跟著做」的常用詞。\n- 小提醒：中文的「甚麼」一般寫作「什麼」，兩種寫法都看得到，但「什麼」比較常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1cad1350ff14",
+      "date": "20261125",
+      "front": "\"OK, please update the deployment guide first, then list the steps from step 3 onward again for me.\"",
+      "body": "你的句子：「好，先更新部署步驟.md，然後把步驟 3 之後的步驟再重新列出來我看」\n\n自然的英文說法：\n\n> \"OK, please update the deployment guide first, then list the steps from step 3 onward again for me.\"\n\n說明：\n- 「步驟 3 之後」用 **from step 3 onward** 最道地，*onward* 表示「從這裡開始往後」，比 *after step 3* 精確。*after step 3* 可能被理解成「不含步驟 3」。\n- 「列出來我看」說 **list ... for me** 或 **show me ...** 就很自然。中文的「我看」不需要直譯成 *for me to see*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0fc559206ab7",
+      "date": "20261125",
+      "front": "\"It probably won't stay on the intranet, so could we add a kiosk-specific shared-key header check now?\"",
+      "body": "你的句子：「之後應該不會是在內網，這樣是不是可以現在加上導覽機專用的共用金鑰（header）驗證?」\n\n自然的英文說法：\n\n> \"It probably won't stay on the intranet, so could we add a kiosk-specific shared-key header check now?\"\n\n說明：\n- 「內網」是 **intranet**（也可以說 **internal network**），「對外」是 **public-facing** 或 **exposed to the internet**。\n- 「之後應該不會是…」用 **It probably won't stay ...** 很自然，*stay* 暗示「現在是，之後會變」，比 *won't be* 更貼切。\n- 「是不是可以…」當成委婉的提議時，用 **could we ...?** 最順，比 *is it possible to ...?* 口語。\n- 「專用的」可以用連字號複合形容詞 **kiosk-specific**，英文技術文件很常這樣寫。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0e9af0da353c",
+      "date": "20261125",
+      "front": "\"Let's go with option A.\"",
+      "body": "你只回了一個字母「A」，在選項情境下完全沒問題。如果想說得完整一點，可以這樣講：\n\n> \"Let's go with option A.\"\n> \"Option A, please.\"\n\n說明：**go with** 是「選擇、採用」某個方案的道地說法，比 *choose* 更口語，開會討論方案時很常聽到。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "fb6c2a223a03",
       "date": "20261124",
       "front": "\"Let me rephrase.\"",
@@ -124,6 +223,15 @@
       "body": "你這句「請開瀏覽器實際操作驗證」，自然的英文說法：\n\n> \"Please open the browser and verify it hands-on.\"\n\n- **hands-on**：「實際動手操作」，強調不是只看程式碼，而是真的去點、去用。\n- 另一種說法：*\"Please test it in the browser.\"*，比較簡潔，開發者之間很常用。\n- 中文的「實際操作驗證」如果直譯成 *\"actually operate and verify\"* 會有點生硬。英文通常用 *test it out* 或 *try it out* 來表達這個意思。",
       "tags": [
         "note"
+      ]
+    },
+    {
+      "id": "4f1c4656a4c8",
+      "date": "20261124",
+      "front": "\"Please carry out the instructions in _auto/prompt.md **to the letter**; the commit data **lives in** _auto/commits.txt.\"",
+      "body": "你這句「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」文法正確、意思清楚。「follow it exactly」很精準地表達要照指示一步步做，不要自行改動，寫得很好！\n\n想換個說法的話，可以參考：\n- \"Please carry out the instructions in _auto/prompt.md **to the letter**; the commit data **lives in** _auto/commits.txt.\"\n  - **to the letter**：比 exactly 更口語、語氣更強調「一字不差地照做」。\n  - **lives in**：工程師描述「資料或檔案放在哪裡」時常用的口語說法，比 is in 更生動。",
+      "tags": [
+        "grammar"
       ]
     },
     {
