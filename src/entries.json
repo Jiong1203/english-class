@@ -1,6 +1,204 @@
 {
   "entries": [
     {
+      "id": "fb9bfcb976f3",
+      "date": "20261126",
+      "front": "\"Whoa! I don't have access to the company's ezobase framework releases, and I'm not sure how changes to the sys_* tables get delivered.\"",
+      "body": "你這句「哇！公司的 ezobase 框架改版我沒有權限，我也不確定 sys_* 表的異動是怎麼交付的」，英文可以這樣說：\n\n> \"Whoa! I don't have access to the company's ezobase framework releases, and I'm not sure how changes to the sys_* tables get delivered.\"\n\n- **I don't have access to ~**：「我沒有～的權限」。在 IT 情境中比 *I don't have permission* 更常用，泛指看不到也碰不到。\n- **get delivered**：用 *get* 加過去分詞表示「被～」，比 *are delivered* 口語。例如 *How do updates get deployed?*\n- **Whoa!**：表示驚訝的感嘆詞，對應「哇！」。注意拼法是 *whoa*，不是 *woah*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "cfd2dd83401e",
+      "date": "20261126",
+      "front": "\"I think 1–3 can be done right away, but I need you to explain 4 in more detail.\"",
+      "body": "你這次用中文，自然的英文說法：\n\n> \"I think 1–3 can be done right away, but I need you to explain 4 in more detail.\"\n\n**用法說明：**\n- **「可以直接做」→ \"can be done right away\" / \"go ahead with 1–3\"**：*right away* 表示「馬上、不用再討論」。更口語、更像下指令的說法是 *Go ahead with 1–3*。\n- **「說清楚一點」→ \"explain … in more detail\" / \"elaborate on 4\"**：*elaborate on* 比較正式，常用在工作討論，例如 *Could you elaborate on point 4?*。也可以說 *Can you flesh out 4 a bit more?*，*flesh out* 是「把骨架補上血肉」，也就是把概略的想法補充得更具體。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "ccb836d1c053",
+      "date": "20261126",
+      "front": "\"Please update the second email as well.\"",
+      "body": "你這次用中文，自然的英文說法：\n\n> **\"Please update the second email as well.\"**\n> 或更簡短：**\"The second email needs to be changed too.\"**\n\n- 「也要」用 **as well** 或 **too** 放在句尾，這是最自然的語序。\n- **update** 比 **change** 更適合用在「修改內容／資料」。\n- 用 **needs to be changed** 這種被動語態，可以把重點放在「信」本身，不用說是誰要去改。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "b69cee7bb9c7",
+      "date": "20261126",
+      "front": "\"Here are the row counts for each table.\"",
+      "body": "你這次只貼了指令和執行結果，沒有英文句子。貼結果給同事時，可以加一句開場：\n\n> \"Here's the output from the production server.\"\n\n- **output**：指令執行後的「輸出結果」，比 *result* 更常用在終端機情境。\n- 如果想強調資料筆數，也可以說 *\"Here are the row counts for each table.\"*。**row count** 就是「筆數」的標準說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b3d77cec80a0",
+      "date": "20261126",
+      "front": "\"What format do you need the initial data list in?\"",
+      "body": "你這句「初始資料清單需要我怎麼整理給你？」，英文可以這樣說：\n\n> \"How should I put together the initial data list for you?\"\n\n- **put together**：「整理、彙整」，用在準備清單、報告、簡報時很自然，例如 *I'll put together a summary.*\n- 也可以說 *\"What format do you need the initial data list in?\"*，著重在詢問格式。\n- **seed data**：開發圈常把「初始資料」稱為 *seed data*，也就是系統的種子資料。和工程師溝通時用這個詞會更精準。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "b0a8d00e310a",
+      "date": "20261126",
+      "front": "\"How should I send a test email?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> **\"How should I send a test email?\"**\n> 或更口語：**\"What do I need to do to send a test email?\"**\n\n- 「發信」在英文通常說 **send an email**，不會說 \"issue an email\"。\n- 「測試信」是 **test email**（也可以說 test mail，但 email 比較常見）。\n- 「我應該怎麼做？」直接翻成 \"What should I do?\" 也可以。不過把動作放進問句（How should I send...?）會更簡潔，也更像母語人士的說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a00f2210da23",
+      "date": "20261126",
+      "front": "\"open multiple devices side by side\"",
+      "body": "你這次用中文描述，以下是自然的英文說法：\n\n> \"I'd like to build a mobile device emulator where I can pick from popular and the latest phone models, and open multiple devices side by side at once. It should support both live websites and localhost, so I can quickly check how pages look on mobile and use it as a reference while developing. Could you help me evaluate this?\"\n\n用法說明：\n- **\"open multiple devices side by side\"**：「多開」直譯成 \"multi-open\" 不自然。英文常用 *side by side*（並排）或 *at the same time* 來表達同時開好幾個。\n- **\"live websites\"**：「線上網頁」用 *live* 比 *online* 更貼切，強調「正式上線、真實運作中」的網站，正好和 *localhost* 形成對比。\n- **\"Could you help me evaluate this?\"**：「協助評估」也可以說 *\"Could you assess the feasibility?\"*，後者更正式，強調評估的是「可行性」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "974f21004d19",
+      "date": "20261126",
+      "front": "\"The three main sections in progress.vue should be collapsible.\"",
+      "body": "你這次寫的是中文：「@app/pages/progress.vue 三大區塊需要可以收折」。\n\n自然的英文說法：\n> *\"The three main sections in progress.vue should be collapsible.\"*\n\n- **collapsible**（可收折的）是 UI 的標準用詞；展開／收起的動作是 *expand / collapse*，例如 *\"Click the header to expand or collapse the section.\"*\n- 「需要可以」直譯成 *need to can* 是錯的。要表達「應該做到」，用 *should be + 形容詞* 最自然；語氣強一點可以用 *must be collapsible*。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "7cb651ff3069",
+      "date": "20261126",
+      "front": "\"Go ahead and delete the four .bak backup files in %TEMP%.\"",
+      "body": "你這次用中文下指令，自然的英文說法：\n\n> **\"Go ahead and delete the four .bak backup files in %TEMP%.\"**\n> 或更簡潔：**\"Please delete the four backup files in %TEMP%.\"**\n\n- **Go ahead and...** 是口語中「那就～吧」的語氣，表示同意對方先前的提議並請他去做，正好對應「刪掉吧」的「吧」。\n- 中文「備份檔」可以直接說 **backup files**，`.bak` 只是副檔名，前面加不加都可以。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "77895d0136b1",
+      "date": "20261126",
+      "front": "\"Include the default data for both the FAQ and the marquee. The report is used for the visit log, and the default admin account should be admin / 111111.\"",
+      "body": "你這句「FAQ 和走馬燈都帶預設值，報表是訪問日誌用的，預設管理員要用 admin / 111111 這組帳號密碼。」，英文可以這樣說：\n\n> \"Include the default data for both the FAQ and the marquee. The report is used for the visit log, and the default admin account should be admin / 111111.\"\n\n- **marquee**：「走馬燈、跑馬燈」，網頁上捲動的文字。輪播式的廣告也可以叫 *ticker* 或 *carousel*（*carousel* 多指圖片輪播）。\n- **Include the default data**：用祈使句直接下決定，簡潔明確，適合回覆確認事項。\n- **should be**：表示「應該設定為」，比 *is* 更能表達這是一個要求。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6ff18d8b7359",
+      "date": "20261126",
+      "front": "\"Having multiple weekly reports shouldn't matter, right? Even if there are several, only one can be in progress — the others should already be published.\"",
+      "body": "你這次寫的是中文：「同時有多份週報應該也不影響？因為就算同時有多份週報，但是只能有一份是填寫中的，其他正常應該是已發布才對？」\n\n自然的英文說法：\n> *\"Having multiple weekly reports shouldn't matter, right? Even if there are several, only one can be in progress — the others should already be published.\"*\n\n- 句尾加 **right?** 是英文常見的「確認式提問」，對應中文的「…才對吧？」。\n- 中文的「就算…但是…」在英文不能寫成 *Even if…, but…*。*even if* 和 *but* 只能擇一，這是中文母語者很常見的錯誤。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "677b1562b7c6",
+      "date": "20261126",
+      "front": "\"Every page title follows the same template.\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫英文句子。補充一個這次用到的說法：**title template**（標題範本）指的是「固定格式、中間留空給變數填入」的寫法，例如 `%s · 週記`。描述時可以說 *\"Every page title follows the same template.\"*。另外，**consistent**（一致的）是 UI 討論中很常用的字，例如 *\"The tab title is now consistent with the brand name.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "6068dc11491e",
+      "date": "20261126",
+      "front": "你的句子「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」文法正確、語意清楚，很棒！👍",
+      "body": "你的句子「Read _auto/prompt.md in the current directory and follow it exactly. Commit data is in _auto/commits.txt.」文法正確、語意清楚，很棒！👍\n\n- 「follow it exactly」清楚表達「一字不差照做」，是很自然的指令寫法。\n- 另一種說法：「Read _auto/prompt.md and follow its instructions to the letter. The commit data can be found in _auto/commits.txt.」\n  - 「to the letter」是慣用語，意思是「完全照字面、絲毫不差地」，語氣比 exactly 更強調嚴格遵守。",
+      "tags": [
+        "grammar"
+      ]
+    },
+    {
+      "id": "58a6db167707",
+      "date": "20261126",
+      "front": "\"Let's write a CLAUDE.md.\"",
+      "body": "你這次用中文下指令：「寫一下 CLAUDE.md 吧」。比較自然的英文說法：\n\n- **\"Let's write a CLAUDE.md.\"**\n- **\"Could you put together a CLAUDE.md for this project?\"**\n\n說明：\n- 中文的「吧」帶有輕鬆提議的語氣，英文用 **\"Let's ...\"** 最能表達這種感覺。\n- 「寫一下」的「一下」讓語氣變輕鬆。英文常用 **\"put together\"**（整理、拼湊出來）或 **\"whip up\"**（很快弄出來）表達類似的隨意感，例如 *\"Can you whip up a CLAUDE.md?\"*。\n- 如果要聽起來正式一點，可以說 **\"Please create a CLAUDE.md file for this repository.\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "49eeded9fe7b",
+      "date": "20261126",
+      "front": "\"This page shows who I need to chase up for this week's report.\"",
+      "body": "你這次只輸入了指令 `/commit-push-merge`，沒有寫英文句子。補充一個這次 commit 主題相關的說法：「催稿」在職場英文常說 **chase (someone) up** 或 **follow up with someone**，例如 *\"This page shows who I need to chase up for this week's report.\"*。*chase up* 是英式口語，語氣比較急；*follow up with* 比較中性、客氣，美式職場較常用。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "366f37d64c1a",
+      "date": "20261126",
+      "front": "\"List the details of the WeeklyManagerMeetingMail task.\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> **\"List the details of the WeeklyManagerMeetingMail task.\"**\n\n用法說明：\n- 「任務內容」翻成 **details**，比直譯的 *content* 自然。*content* 比較常用在文章或檔案的內容。\n- 也可以說：**\"Show me what the WeeklyManagerMeetingMail task does.\"** 這樣問的重點放在「這個任務做了什麼」，比較口語。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "307d7b46b20b",
+      "date": "20261126",
+      "front": "\"Please improve the UI/UX of progress.vue.\"",
+      "body": "你這次寫的是中文：「UI/UX 請調整到更好」。\n\n自然的英文說法：\n> *\"Please improve the UI/UX of progress.vue.\"*\n\n- 「調整到更好」直譯成 *adjust it to better* 不自然，用一個動詞 **improve** 或 **polish** 就夠了。\n- *improve* 偏向整體改善；*polish* 是「打磨細節」，適合已經能用、只差質感的頁面，例如 *\"Can you polish the progress page?\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "2c8eeaa06a18",
+      "date": "20261126",
+      "front": "\"Should we change the naming here?\"",
+      "body": "你這次寫的是中文：「這邊命名是不是應該調整一下？」\n\n自然的英文說法：\n> *\"Should we change the naming here?\"* 或 *\"Shouldn't this be renamed?\"*\n\n- 用 **Shouldn't…?** 的否定疑問句，表示你其實覺得「應該要改」，只是委婉地提出來，和中文「是不是應該…」的語氣很接近。\n- 瀏覽器分頁上的文字，英文叫 **tab title** 或 **page title**（HTML 的 `<title>`），例如 *\"The tab title should show the page name.\"*",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1a4b2c3e1c58",
+      "date": "20261126",
+      "front": "\"Can you check if there are any scheduled tasks on my computer right now?\"",
+      "body": "你這次用中文提問，以下是自然的英文說法：\n\n> **\"Can you check if there are any scheduled tasks on my computer right now?\"**\n\n用法說明：\n- 「確認是否有…」用 **check if there are any...** 很自然，`any` 帶有「有沒有任何一個」的語氣。\n- 「排程任務」在 Windows 的正式名稱就是 **scheduled tasks**，對應的工具叫 **Task Scheduler**。\n- 也可以更口語地說：**\"Do I have any scheduled tasks running on my PC?\"**",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "12914f199eff",
+      "date": "20261126",
+      "front": "你這次的三點回覆，英文可以這樣說：",
+      "body": "你這次的三點回覆，英文可以這樣說：\n\n> \"1. I'll go with option A, since everyone currently shares the test server's database during development, so there's no need to set up a local one.\n> 2. Sounds good, but how exactly would you do it?\n> 3. What do you mean by that?\"\n\n- **I'll go with ~**：「我選～」，做決定時很自然的說法，比 *I choose* 口語。\n- **how exactly would you do it?**：把 *exactly* 放在疑問詞後面，表示「具體來說」，追問細節時很好用。\n- **What do you mean by that?**：「這是什麼意思？」，也可以說 *Could you elaborate on that?*，語氣更正式。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0ee7cb283ab4",
+      "date": "20261126",
+      "front": "\"phone frame\"",
+      "body": "你這次用中文描述，以下是自然的英文說法：\n\n> \"I downloaded Responsively App and tried it, but it doesn't seem to show a phone frame — something like this screenshot.\"\n\n用法說明：\n- **\"phone frame\"**：「手機外框」在這類工具裡常見的說法還有 *device frame*、*device bezel*、*device mockup*。其中 *bezel* 特別指螢幕周圍的邊框。\n- **\"doesn't seem to...\"**：對應你說的「似乎無法」，語氣委婉，不會直接斷定。比 *\"it can't show...\"* 更自然，也更有禮貌。\n- **\"I downloaded … and tried it\"**：「下載使用了」不要直譯成 *\"downloaded and used it\"*，用 *tried it (out)* 更能表達「試用」的意思。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "0d88779a9b81",
+      "date": "20261126",
+      "front": "\"Correction: here's the updated email content.\"",
+      "body": "你這次用中文說明，自然的英文說法：\n\n> **\"Correction: here's the updated email content.\"**\n> 或：**\"Sorry, let me correct that. The new email content is as follows.\"**\n\n- 「更正一下」常用 **Correction:** 開頭，或說 **Let me correct that.**，口語又簡潔。\n- 「新的信件內容是這個」用 **here's the updated...** 比 \"the new content is this\" 自然，**updated** 也表示「修改過的版本」。\n- 正式一點的文件常用 **as follows**（如下），後面接冒號和內容。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "e12ca1c1a425",
       "date": "20261125",
       "front": "\"Verification passed.\"",
