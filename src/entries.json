@@ -19,6 +19,15 @@
       ]
     },
     {
+      "id": "f605b8c9e470",
+      "date": "20261127",
+      "front": "\"I can't SSH into testaidemo either, because I don't know the password.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"I can't SSH into testaidemo either, because I don't know the password.\"\n\n- **SSH into ...**：SSH 可以直接當動詞用，*SSH into a server* 是工程師的標準說法，意思是「用 SSH 連進某台主機」。\n- **either**：放在否定句句尾，表示「也不」。對應中文的「我**也**沒辦法」，在否定句裡要用 *either*，不能用 *too*。\n- 換個說法：*I don't have access to testaidemo either; I don't know the password.* 用 *have access to* 表達「有權限進入」，更正式一點。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "f5b8325ef9c5",
       "date": "20261127",
       "front": "\"When there are projects with unconfirmed names, show a confirmation dialog before importing so the user can confirm.\"",
@@ -173,10 +182,28 @@
       ]
     },
     {
+      "id": "ba80194b3f61",
+      "date": "20261127",
+      "front": "\"The dev server was killed because the system ran low on memory.\"",
+      "body": "這次沒有新的英文句子可以看。補一個跟這次狀況有關的說法：\n\n> \"The dev server was killed because the system ran low on memory.\"\n\n- **was killed**：程式被系統強制結束，工程師口語常用 *kill*，例如 *kill the process*。\n- **ran low on memory**：「記憶體不足」的自然說法。*run low on* 表示「快用完了」，也可以說 *out of memory*，那是「已經完全用完」。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "b32e4a9c686e",
       "date": "20261127",
       "front": "\"Please make sure the server can reach cdn.jsdelivr.net.\"",
       "body": "你這次只輸入了 `/commit-push-merge`，是指令，沒有英文句子可以批改。補充一個相關的說法：\n\n- 部署前要提醒維運人員開放網路連線時，可以說 **\"Please make sure the server can reach cdn.jsdelivr.net.\"**。**reach** 在這裡是「能連線到」的意思，是網路情境的常用說法。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "a14f0c40d196",
+      "date": "20261127",
+      "front": "\"try again\"",
+      "body": "你這次輸入的 \"try again\" 很簡短，意思清楚。如果想表達得更明確，可以說：\n\n> \"Please try again.\" / \"Can you pick up where you left off?\"\n\n- **pick up where you left off**：「從中斷的地方繼續」，適合在對方中途停下來時使用，比 *try again* 更精準，因為 *try again* 有「重做一次」的意思。\n\n你上一則的長段落也可以這樣說：\n\n> \"Let's start with the test server. I don't want to manually check the backend logs or query flyway_schema_history after every deployment. The most intuitive and convenient approach is to have Jenkins finish the database migration before reporting success — if anything goes wrong with the database, it shouldn't be marked as success. Re-pasting the pipeline is fine; just tell me what to paste.\"\n\n- **have Jenkins + 原形動詞**：「讓 Jenkins 做～」，使役用法。\n- **it shouldn't be marked as success**：「不應該被標記為成功」，*be marked as* 在 CI/CD 情境很常用。",
       "tags": [
         "note"
       ]
@@ -236,6 +263,15 @@
       ]
     },
     {
+      "id": "69a770a5f0db",
+      "date": "20261127",
+      "front": "\"Got it. Is there anything on my local machine that needs to be pushed to Git? If so, please run `/commit-push-merge`.\"",
+      "body": "你這句是中文，對應的自然英文：\n\n> **\"Got it. Is there anything on my local machine that needs to be pushed to Git? If so, please run `/commit-push-merge`.\"**\n\n- 「理解」口語上常說 **\"Got it.\"** 或 **\"Makes sense.\"**，比 \"I understand.\" 自然。\n- 「有的話」用 **\"If so,\"** 就好，非常簡潔，是很好用的轉折詞。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "5740dfdaa870",
       "date": "20261127",
       "front": "\"Find out why `pnpm-lock.yaml` is being blocked, and recommend whether we should stick with pnpm or switch to npm.\"",
@@ -290,6 +326,15 @@
       ]
     },
     {
+      "id": "451e9a00e5c1",
+      "date": "20261127",
+      "front": "\"Let's note this down and stop here for now. I haven't pasted the pipeline into Jenkins yet.\"",
+      "body": "你這句「先記錄下來，目前做到這邊，我還沒把 Pipeline 貼到 Jenkins」，英文可以這樣說：\n\n> \"Let's note this down and stop here for now. I haven't pasted the pipeline into Jenkins yet.\"\n\n- **note this down**：「記下來」，也可以說 *make a note of this* 或 *jot this down*（*jot* 有「快速記下」的感覺）。\n- **stop here for now**：「先做到這裡」，*for now* 暗示之後還會繼續，比單說 *stop here* 更貼切。\n- **I haven't ~ yet**：現在完成式加 *yet*，表示「到目前為止還沒做」，用來說明進度很自然。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "3fcdf52465aa",
       "date": "20261127",
       "front": "\"Ship it.\"",
@@ -303,6 +348,15 @@
       "date": "20261127",
       "front": "\"Got it. Go ahead and prepare the materials first, and report back to me when you're done.\"",
       "body": "你這句「哦哦理解那你先整理素材，完成後向我報告」，英文可以這樣說：\n\n> \"Got it. Go ahead and prepare the materials first, and report back to me when you're done.\"\n\n- **Go ahead and ~**：「那你就先～吧」，請對方開始做事時很自然，語氣比單純的祈使句客氣。\n- **report back**：「回報」。加了 *back*，強調做完後回來告知，例如 *Let me know / Get back to me when it's done.*\n- **Got it.**：「了解」，口語回應時最常用，比 *I understand.* 輕鬆。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "3c1ed1b58f3a",
+      "date": "20261127",
+      "front": "\"try again.\"",
+      "body": "你的句子：*\"try again.\"*\n\n這句簡潔又自然，就是「再試一次」，對話中很常用。開頭建議大寫成 *Try again.*\n\n換個說法也可以：\n- *Give it another try.*（語氣比較輕鬆）\n- *Please retry the push.*（直接說明要重試的是哪個動作，工程溝通時更明確）",
       "tags": [
         "note"
       ]
@@ -353,6 +407,15 @@
       ]
     },
     {
+      "id": "2a92819804cc",
+      "date": "20261127",
+      "front": "\"Why would it affect the GitLab import?\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Why would it affect the GitLab import?\"\n\n- **Why would it ...?**：用 *would* 表示「在那種假設情況下，為什麼會…」，比 *Why does it affect ...?* 更貼近你問的是「可能的影響」。\n- **affect**：動詞「影響」。名詞是 *effect*，兩個字很容易混淆。記法：*affect* 是 action（動作，動詞），*effect* 是 end result（結果，名詞）。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
       "id": "26d90e807955",
       "date": "20261127",
       "front": "\"If an item in the department weekly report is assigned to A, will A be carried over automatically when next week's report is opened?\"",
@@ -375,6 +438,24 @@
       "date": "20261127",
       "front": "你這次的問題用中文，自然的英文說法：",
       "body": "你這次的問題用中文，自然的英文說法：\n\n> \"Since our department opens weekly report filling on the second-to-last workday of each week — normally Thursday — everyone fills in their work from last Friday through this Thursday. Shouldn't we adjust the cycle accordingly?\"\n\n- **「倒數第二個工作天」** 是 **the second-to-last workday**。另一種說法是 **the penultimate workday**，比較正式。\n- **「上週五 ~ 這週四」** 用 **from last Friday through this Thursday**。用 **through** 表示「包含最後一天」，比 **to** 更精確。\n- **「是不是需要調整一下」** 用 **Shouldn't we adjust...?** 這種否定疑問句，帶有「我覺得應該要改」的語氣。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "1479fe055149",
+      "date": "20261127",
+      "front": "你的指令：*「分批 commit 然後 /commit-push-merge」*",
+      "body": "你的指令：*「分批 commit 然後 /commit-push-merge」*\n\n英文可以這樣說：\n\n> \"Commit in batches, then run /commit-push-merge.\"\n\n- **commit in batches**：「分批 commit」的自然說法，也可以說 *split it into several commits*。\n- **then run ...**：說到要執行某個指令時，英文通常會加上動詞 *run*，比只寫 *then /commit-push-merge* 更完整清楚。",
+      "tags": [
+        "note"
+      ]
+    },
+    {
+      "id": "144050c1342b",
+      "date": "20261127",
+      "front": "\"Sending the test email failed.\"",
+      "body": "你這次用中文，以下是自然的英文說法：\n\n> \"Sending the test email failed.\"\n\n也可以說：\n- *The test email failed to send.*：主詞是信，用 *fail to send* 表示「沒寄出去」。\n- *I got a connection timeout when sending the test email.*：直接帶出錯誤原因，回報問題時更清楚。\n\n**connection timeout** 指「連線逾時」：嘗試連線但等不到對方回應。**connection refused** 則是「連線被拒」：對方明確拒絕。兩者的排查方向不同，回報錯誤時值得分清楚。",
       "tags": [
         "note"
       ]
